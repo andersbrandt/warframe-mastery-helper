@@ -1,0 +1,139 @@
+<h2 id="modalTitle" class="name">
+    {{#if this.checked }}
+        <i class="far fa-check-square"></i>
+    {{/if}}
+    {{name}}
+</h2>
+{{#if this.imageName}}
+    <p><div class="thumbnail-wrapper"><img class="thumbnail"  src="https://cdn.warframestat.us/img/{{imageName}}"></div></p>
+{{/if}}
+<span class="acquisition"><a onclick="app.search.searchFor('{{escape acquisition }}');">{{acquisition}}</a>{{#if vaulted}} <i class="fa fa-fw fa-lock"></i>{{/if}}{{#if unobtainable}} <i class="fa fa-fw fa-exclamation-triangle"></i>{{/if}}</span>
+{{#ifCond this.tierRank "==" "3"}}
+    <span class="tier-rank tier-rank-3 tippy-three-stars">
+    <i class="far fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i>
+    </span>
+{{/ifCond}}
+{{#ifCond this.tierRank "==" "2"}}
+    <span class="tier-rank tier-rank-2 tippy-two-stars">
+    <i class="far fa-star"></i><i class="far fa-star"></i>
+    </span>
+{{/ifCond}}
+{{#ifCond this.tierRank "==" "1"}}
+    <span class="tier-rank tier-rank-1 tippy-one-star">
+    <i class="far fa-star"></i>
+    </span>
+{{/ifCond}}
+<p>
+    <span class="type">{{type}}</span><span class="category">{{#if category}}: {{category}}{{/if}}</span>
+    {{#ifCond masteryRank ">=" 1}} | MR-{{masteryRank}}{{/ifCond}}
+</p>
+<div class="data">
+    <table class="left-right-table">
+        {{#if this.description}}
+        <tr>
+            <td class="table-left">Description:</td>
+            <td class="table-right"> {{{description}}}</td>
+        </tr>
+        {{/if}}
+        {{#if this.wikiaUrl}}
+        <tr>
+            <td class="table-left">Wikia:</td>
+            <td class="table-right"><a href="{{wikiaUrl}}" target="_blank" class="tippy-wikia">{{name}} <i class="fa fa-external-link-alt"></i></a></td>
+        </tr>
+        {{/if}}
+        {{#if this.tier}}
+        <tr>
+            <td class="table-left">Tier:</td>
+            <td class="table-right"> {{tier}}</td>
+        </tr>
+        {{/if}}
+        {{#if this.rank}}
+        <tr>
+            <td class="table-left">Rank:</td>
+            <td class="table-right"> {{{rank}}}</td>
+        </tr>
+        {{/if}}
+        {{#if this.releaseDate}}
+        <tr>
+            <td class="table-left">Release date:</td>
+            <td class="table-right"> {{{releaseDate}}}</td>
+        </tr>
+        {{/if}}
+        {{#if this.specialNote}}
+            <tr>
+                <td class="table-left">Special:</td>
+                <td class="table-right"> {{{specialNote}}}</td>
+            </tr>
+        {{/if}}
+        {{#if this.notes}}
+            <tr>
+                <td class="table-left">Notes:</td>
+                <td class="table-right"> {{{notes}}}</td>
+            </tr>
+        {{/if}}
+        {{#if this.weaponNotes}}
+            <tr>
+                <td class="table-left">Weapon notes:</td>
+                <td class="table-right"> {{{weaponNotes}}}</td>
+            </tr>
+        {{/if}}
+        {{#if this.dmg}}
+            <tr>
+                <td class="table-left">Damage:</td>
+                <td class="table-right"> {{{dmg}}}</td>
+            </tr>
+        {{/if}}
+        {{#if this.abilities}}
+            <tr>
+                <td class="table-left">Abilities:</td>
+                <td class="table-right"> {{{abilities}}}</td>
+            </tr>
+        {{/if}}
+        {{#if this.trigger}}
+            <tr>
+                <td class="table-left">Trigger:</td>
+                <td class="table-right"> {{{trigger}}}</td>
+            </tr>
+        {{/if}}
+        {{#if this.projectile}}
+            <tr>
+                <td class="table-left">Projectile:</td>
+                <td class="table-right"> {{{projectile}}}</td>
+            </tr>
+        {{/if}}
+        {{#if this.stance}}
+            <tr>
+                <td class="table-left">Stance:</td>
+                <td class="table-right"> {{{stance}}}</td>
+            </tr>
+        {{/if}}
+        {{#if this.stanceNotes}}
+            <tr>
+                <td class="table-left">Stance notes:</td>
+                <td class="table-right"> {{{stanceNotes}}}</td>
+            </tr>
+        {{/if}}
+        {{#if this.combo}}
+            <tr>
+                <td class="table-left">Combo:</td>
+                <td class="table-right"> {{{combo}}}</td>
+            </tr>
+        {{/if}}
+        {{#if this.use}}
+            <tr>
+                <td class="table-left">Use:</td>
+                <td class="table-right"> {{{use}}}</td>
+            </tr>
+        {{/if}}
+        {{#if this.component}}
+            <tr>
+                <td class="table-left">Component:</td>
+                <td class="table-right"><a href="http://warframe.wikia.com/wiki/Weapons_Required_as_Crafting_Ingredients#Combined_blueprints" target="_blank">Item are a component, read more about build-chains. <i class="fa fa-external-link-alt"></i></a></td>
+            </tr>
+        {{/if}}
+    </table>
+    {{#if this.tier}}
+        <p class="text-is-grey margin-top-medium">Data from <a href="https://www.cephalonwannab.com/" target="_blank" class="tippy-rating-site">cephalonwannab.com <i class="fa fa-external-link-alt"></i></a></p>
+    {{/if}}
+    <a class="close-reveal-modal tippy-close-modal" aria-label="Close">&#215;</a>
+</div>

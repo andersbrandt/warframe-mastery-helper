@@ -1,0 +1,12 @@
+var gutil = require('gulp-util');
+
+var config = {
+    "host":     "example.com",
+    "user":     "USER",
+    "password": "PASSWORD",
+    "parallel": 10,
+    "path":     "public_html/warframe/helper"
+    //"log":      gutil.log
+};
+
+module.exports = config;

@@ -1,0 +1,89 @@
+<?php
+
+date_default_timezone_set('Europe/Berlin');
+
+$conf["name"] = "warframe-mastery-helper";
+$conf["baseUrl"] = "http://localhost"; // No trailing slash
+$conf["root"] = "/warframe-mastery-helper/warframe-mastery-helper/public/"; // Trailing slash
+$conf["localstorage"]["domain"] = 'warframe-mastery-helper.';
+$conf["path"] = substr(__FILE__, 0, (strpos(__FILE__, "conf.php")));
+
+$conf["db"]["host"] = "localhost";
+$conf["db"]["user"] = '**';
+$conf["db"]["pass"] = '******';
+$conf["db"]["name"] = 'warframeHelper';
+
+// Google Login API config
+$conf["google"]["redirectURL"] = 'http://localhost/warframe-mastery-helper/warframe-mastery-helper/public/user/';
+$conf["google"]["clientId"] = '*********.apps.googleusercontent.com';
+$conf["google"]["clientSecret"] = "************";
+$conf["google"]["clientApiKEY"] = "************************";
+
+//
+//	Error Reporting
+//
+error_reporting(E_ERROR | E_WARNING | E_PARSE);
+ini_set("display_errors", 1);
+//error_reporting(0);
+//ini_set("display_errors", 0);
+
+//
+//	Expire & Cache-Control
+//
+//header("Cache-Control: no-store, no-cache, must-revalidate, max-age=0");
+//header("Cache-Control: post-check=0, pre-check=0", false);
+//header("Pragma: no-cache");
+
+
+//
+//	Classes
+//
+function ___autoload($class_name) {
+	global $conf;
+	include_once $conf["path"] . 'Classes/' . $class_name . '.php';
+}
+
+___autoload("Config");
+$config = New Config();
+
+___autoload("Functions");
+$functions = New Functions();
+
+___autoload("Database");
+$db = New Database();
+
+___autoload("User");
+$user = new User();
+
+___autoload("Warframe");
+$wf = New Warframe();
+
+
+//
+// Configuration and setup Google API
+//
+
+include_once($conf["path"]."Classes/Google/autoload.php");
+$redirectURL = $conf["google"]["redirectURL"];
+$clientId = $conf["google"]["clientId"];
+$clientSecret = $conf["google"]["clientSecret"];
+$clientAPIkey = $conf["google"]["clientApiKEY"];
+
+$client = new Google_Client();
+$client->addScope(Google_Service_Plus::USERINFO_PROFILE);
+$client->setClientId($clientId);
+$client->setClientSecret($clientSecret);
+$client->setDeveloperKey($clientAPIkey);
+
+$client->setRedirectUri($redirectURL);
+$client->setApplicationName('Login to app');
+$client->setAccessType('offline');
+$client->setApprovalPrompt('force');
+
+$google_oauthV2 = new Google_Service_Oauth2($client);
+
+
+//
+//	Session
+//
+session_start();

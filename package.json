@@ -1,0 +1,41 @@
+{
+  "license": "**",
+  "repository": {},
+  "scripts": {
+    "start": "webpack --config webpack.dev.js",
+    "build": "webpack --config webpack.prod.js",
+    "publish": "npm run build && node publish.js",
+    "updater": "node update/updater.js && npm run build && npm start"
+  },
+  "devDependencies": {
+    "@intervolga/optimize-cssnano-plugin": "^1.0.6",
+    "ansi-colors": "^2.0.5",
+    "css-loader": "^1.0.1",
+    "dotenv": "^6.2.0",
+    "expose-loader": "^0.7.5",
+    "file-loader": "^2.0.0",
+    "fs-extra": "=4.0.1",
+    "gulp-util": "^3.0.8",
+    "handlebars": "^4.1.2",
+    "handlebars-loader": "^1.7.1",
+    "jquery": "^3.4.1",
+    "marked": "^0.6.2",
+    "mini-css-extract-plugin": "^0.4.5",
+    "moment": "^2.24.0",
+    "node-sass": "^4.12.0",
+    "sass-loader": "^7.1.0",
+    "style-loader": "^0.23.1",
+    "vinyl-fs": "^3.0.3",
+    "vinyl-ftp": "*",
+    "webpack": "^4.31.0",
+    "webpack-cli": "^3.3.2",
+    "webpack-merge": "^4.2.1"
+  },
+  "dependencies": {
+    "cheerio": "*",
+    "node-fetch": "^2.5.0",
+    "path-alias": "0.0.7",
+    "rimraf": "^2.6.3",
+    "warframe-item-list": "github:andersbrandt/warframe-item-list#master-with-dist"
+  }
+}

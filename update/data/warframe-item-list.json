@@ -1,0 +1,5157 @@
+{
+  "array": [
+    {
+      "id": "/Lotus/Weapons/Grineer/Melee/GrineerTylAxeAndBoar/RegorAxeShield",
+      "name": "Ack & Brunt",
+      "type": "Melee",
+      "category": "Sword and Shield",
+      "masteryRank": 3,
+      "image": "/data/img/Melee/Ack_&_Brunt.png",
+      "wiki": "http://warframe.wikia.com/wiki/Ack_&_Brunt",
+      "acquisition": "Chem Lab (Dojo)"
+    },
+    {
+      "id": "/Lotus/Weapons/ClanTech/Bio/AcidDartPistol",
+      "name": "Acrid",
+      "type": "Secondary",
+      "category": "Pistol",
+      "masteryRank": 7,
+      "image": "/data/img/Secondary/Acrid.png",
+      "wiki": "http://warframe.wikia.com/wiki/Acrid",
+      "acquisition": "Bio Lab (Dojo)"
+    },
+    {
+      "id": "/Lotus/Types/Game/CatbrowPet/MirrorCatbrowPetPowerSuit",
+      "name": "Adarza Kavat",
+      "type": "Kavat",
+      "masteryRank": 0,
+      "image": "/data/img/Kavat/Adarza_Kavat.png",
+      "wiki": "http://warframe.wikia.com/wiki/Adarza_Kavat",
+      "acquisition": "Kavat Incubator Upgrade Segment (Ship)"
+    },
+    {
+      "id": "/Lotus/Weapons/Tenno/Akimbo/AkimboAutoPistols",
+      "name": "Afuris",
+      "type": "Secondary",
+      "category": "Dual Pistols",
+      "masteryRank": 4,
+      "image": "/data/img/Secondary/Afuris.png",
+      "wiki": "http://warframe.wikia.com/wiki/Afuris",
+      "acquisition": "Market (Ship)"
+    },
+    {
+      "id": "/Lotus/Weapons/Tenno/Archwing/Melee/ArchSwordHook/ArchHookSwordWeapon",
+      "name": "Agkuza",
+      "type": "Archwing Melee",
+      "masteryRank": 0,
+      "image": "/data/img/ArchwingMelee/Agkuza.png",
+      "wiki": "http://warframe.wikia.com/wiki/Agkuza",
+      "acquisition": "Market (Ship)"
+    },
+    {
+      "id": "/Lotus/Weapons/Tenno/Akimbo/AkimboBolto",
+      "name": "Akbolto",
+      "type": "Secondary",
+      "category": "Dual Pistols",
+      "masteryRank": 9,
+      "image": "/data/img/Secondary/Akbolto.png",
+      "wiki": "http://warframe.wikia.com/wiki/Akbolto",
+      "acquisition": "Market (Ship)"
+    },
+    {
+      "id": "/Lotus/Weapons/Tenno/Pistols/PrimeAkbolto/PrimeAkBoltoWeapon",
+      "name": "Akbolto Prime",
+      "type": "Secondary",
+      "category": "Dual Pistols",
+      "masteryRank": 13,
+      "image": "/data/img/Secondary/Akbolto_Prime.png",
+      "wiki": "http://warframe.wikia.com/wiki/Akbolto_Prime",
+      "acquisition": "Relics"
+    },
+    {
+      "id": "/Lotus/Weapons/Tenno/Akimbo/AkimboShotGun",
+      "name": "Akbronco",
+      "type": "Secondary",
+      "category": "Dual Shotguns",
+      "masteryRank": 2,
+      "image": "/data/img/Secondary/Akbronco.png",
+      "wiki": "http://warframe.wikia.com/wiki/Akbronco",
+      "acquisition": "Market (Ship)"
+    },
+    {
+      "id": "/Lotus/Weapons/Tenno/Akimbo/PrimeAkimboShotGun",
+      "name": "Akbronco Prime",
+      "type": "Secondary",
+      "category": "Dual Shotguns",
+      "masteryRank": 10,
+      "image": "/data/img/Secondary/Akbronco_Prime.png",
+      "wiki": "http://warframe.wikia.com/wiki/Akbronco_Prime",
+      "acquisition": "Relics"
+    },
+    {
+      "id": "/Lotus/Weapons/Tenno/Pistols/TigrisRedeemerSetPistol/TnoBladedPistols",
+      "name": "Akjagara",
+      "type": "Secondary",
+      "category": "Dual Pistols",
+      "masteryRank": 8,
+      "image": "/data/img/Secondary/Akjagara.png",
+      "wiki": "http://warframe.wikia.com/wiki/Akjagara",
+      "acquisition": "Market (Ship)"
+    },
+    {
+      "id": "/Lotus/Weapons/Tenno/Pistols/PrimeAkjagara/AkJagaraPrime",
+      "name": "Akjagara Prime",
+      "type": "Secondary",
+      "category": "Dual Pistols",
+      "masteryRank": 12,
+      "image": "/data/img/Secondary/Akjagara_Prime.png",
+      "wiki": "http://warframe.wikia.com/wiki/Akjagara_Prime",
+      "acquisition": "Relics"
+    },
+    {
+      "id": "/Lotus/Weapons/Tenno/Akimbo/AkimboPistol",
+      "name": "Aklato",
+      "type": "Secondary",
+      "category": "Dual Pistols",
+      "masteryRank": 3,
+      "image": "/data/img/Secondary/Aklato.png",
+      "wiki": "http://warframe.wikia.com/wiki/Aklato",
+      "acquisition": "Market (Ship)"
+    },
+    {
+      "id": "/Lotus/Weapons/Tenno/Akimbo/AkLexPistols",
+      "name": "Aklex",
+      "type": "Secondary",
+      "category": "Dual Pistols",
+      "masteryRank": 4,
+      "image": "/data/img/Secondary/Aklex.png",
+      "wiki": "http://warframe.wikia.com/wiki/Aklex",
+      "acquisition": "Market (Ship)"
+    },
+    {
+      "id": "/Lotus/Weapons/Tenno/Akimbo/AkLexPrimePistols",
+      "name": "Aklex Prime",
+      "type": "Secondary",
+      "category": "Dual Pistols",
+      "masteryRank": 15,
+      "image": "/data/img/Secondary/Aklex_Prime.png",
+      "wiki": "http://warframe.wikia.com/wiki/Aklex_Prime",
+      "acquisition": "Relics"
+    },
+    {
+      "id": "/Lotus/Weapons/Tenno/Akimbo/DualMagnus",
+      "name": "Akmagnus",
+      "type": "Secondary",
+      "category": "Dual Pistols",
+      "masteryRank": 12,
+      "image": "/data/img/Secondary/Akmagnus.png",
+      "wiki": "http://warframe.wikia.com/wiki/Akmagnus",
+      "acquisition": "Market (Ship)"
+    },
+    {
+      "id": "/Lotus/Weapons/Tenno/Pistols/SomaSidearm/AkimboSomaPistols",
+      "name": "Aksomati",
+      "type": "Secondary",
+      "category": "Dual Pistols",
+      "masteryRank": 9,
+      "image": "/data/img/Secondary/Aksomati.png",
+      "wiki": "http://warframe.wikia.com/wiki/Aksomati",
+      "acquisition": "Market (Ship)"
+    },
+    {
+      "id": "/Lotus/Weapons/Tenno/Pistols/TennoUzi/TennoUzi",
+      "name": "Akstiletto",
+      "type": "Secondary",
+      "category": "Dual Pistols",
+      "masteryRank": 8,
+      "image": "/data/img/Secondary/Akstiletto.png",
+      "wiki": "http://warframe.wikia.com/wiki/Akstiletto",
+      "acquisition": "Tenno Lab (Dojo)"
+    },
+    {
+      "id": "/Lotus/Weapons/Tenno/Pistols/PrimeAkstiletto/PrimeAkstiletto",
+      "name": "Akstiletto Prime",
+      "type": "Secondary",
+      "category": "Dual Pistols",
+      "masteryRank": 10,
+      "image": "/data/img/Secondary/Akstiletto_Prime.png",
+      "wiki": "http://warframe.wikia.com/wiki/Akstiletto_Prime",
+      "acquisition": "Relics"
+    },
+    {
+      "id": "/Lotus/Weapons/Tenno/Akimbo/DualVastos",
+      "name": "Akvasto",
+      "type": "Secondary",
+      "category": "Dual Pistols",
+      "masteryRank": 8,
+      "image": "/data/img/Secondary/Akvasto.png",
+      "wiki": "http://warframe.wikia.com/wiki/Akvasto",
+      "acquisition": "Market (Ship)"
+    },
+    {
+      "id": "/Lotus/Weapons/Tenno/Pistols/PrimeVasto/AkPrimeVasto/AkPrimeVastoPistol",
+      "name": "Akvasto Prime",
+      "type": "Secondary",
+      "category": "Dual Pistols",
+      "masteryRank": 12,
+      "image": "/data/img/Secondary/Akvasto_Prime.png",
+      "wiki": "http://warframe.wikia.com/wiki/Akvasto_Prime",
+      "acquisition": "Relics"
+    },
+    {
+      "id": "/Lotus/Weapons/Tenno/Pistols/HarlequinGun/HarlequinPistols",
+      "name": "Akzani",
+      "type": "Secondary",
+      "category": "Dual Pistols",
+      "masteryRank": 4,
+      "image": "/data/img/Secondary/Akzani.png",
+      "wiki": "http://warframe.wikia.com/wiki/Akzani",
+      "acquisition": "Market (Ship)"
+    },
+    {
+      "id": "/Lotus/Powersuits/Archwing/SupportJetPack/SupportJetPack",
+      "name": "Amesha",
+      "type": "Archwing",
+      "masteryRank": 0,
+      "image": "/data/img/Archwing/Amesha.png",
+      "wiki": "http://warframe.wikia.com/wiki/Amesha",
+      "acquisition": "Tenno Lab (Dojo)"
+    },
+    {
+      "id": "/Lotus/Weapons/Tenno/Melee/Staff/GrnStaff",
+      "name": "Amphis",
+      "type": "Melee",
+      "category": "Staff",
+      "masteryRank": 0,
+      "image": "/data/img/Melee/Amphis.png",
+      "wiki": "http://warframe.wikia.com/wiki/Amphis",
+      "acquisition": "Market (Ship)"
+    },
+    {
+      "id": "/Lotus/Weapons/Corpus/LongGuns/ChainLightningGun/ChainLightningRifle",
+      "name": "Amprex",
+      "type": "Primary",
+      "category": "Rifle",
+      "masteryRank": 10,
+      "image": "/data/img/Primary/Amprex.png",
+      "wiki": "http://warframe.wikia.com/wiki/Amprex",
+      "acquisition": "Energy Lab (Dojo)"
+    },
+    {
+      "id": "/Lotus/Weapons/Corpus/Pistols/CrpHandRL/CorpusHandRocketLauncher",
+      "name": "Angstrum",
+      "type": "Secondary",
+      "category": "Pistol",
+      "masteryRank": 4,
+      "image": "/data/img/Secondary/Angstrum.png",
+      "wiki": "http://warframe.wikia.com/wiki/Angstrum",
+      "acquisition": "Market (Ship)"
+    },
+    {
+      "id": "/Lotus/Weapons/Tenno/Melee/Scythe/ParisScythe/ParisScythe",
+      "name": "Anku",
+      "type": "Melee",
+      "category": "Scythe",
+      "masteryRank": 3,
+      "image": "/data/img/Melee/Anku.png",
+      "wiki": "http://warframe.wikia.com/wiki/Anku",
+      "acquisition": "Tenno Lab (Dojo)"
+    },
+    {
+      "id": "/Lotus/Weapons/Tenno/Melee/Gauntlet/Gauntlet",
+      "name": "Ankyros",
+      "type": "Melee",
+      "category": "Fist",
+      "masteryRank": 0,
+      "image": "/data/img/Melee/Ankyros.png",
+      "wiki": "http://warframe.wikia.com/wiki/Ankyros",
+      "acquisition": "Market (Ship)"
+    },
+    {
+      "id": "/Lotus/Weapons/Tenno/Melee/Gauntlet/PrimeAnkyros/PrimeAnkyros",
+      "name": "Ankyros Prime",
+      "type": "Melee",
+      "category": "Fist",
+      "masteryRank": 0,
+      "image": "/data/img/Melee/Ankyros_Prime.png",
+      "wiki": "http://warframe.wikia.com/wiki/Ankyros_Prime",
+      "acquisition": "Relics"
+    },
+    {
+      "id": "/Lotus/Weapons/Corpus/LongGuns/CrpShotgun/CrpShotgun",
+      "name": "Arca Plasmor",
+      "type": "Primary",
+      "category": "Shotgun",
+      "masteryRank": 10,
+      "image": "/data/img/Primary/Arca_Plasmor.png",
+      "wiki": "http://warframe.wikia.com/wiki/Arca_Plasmor",
+      "acquisition": "Energy Lab (Dojo)"
+    },
+    {
+      "id": "/Lotus/Weapons/Corpus/Pistols/SniperPistol/CrpScopeGun",
+      "name": "Arca Scisco",
+      "type": "Secondary",
+      "category": "Pistol",
+      "masteryRank": 10,
+      "image": "/data/img/Secondary/Arca_Scisco.png",
+      "wiki": "http://warframe.wikia.com/wiki/Arca_Scisco",
+      "acquisition": "Energy Lab (Dojo)"
+    },
+    {
+      "id": "/Lotus/Weapons/Corpus/Melee/Hammer/CorpusHammerWeapon",
+      "name": "Arca Titron",
+      "type": "Melee",
+      "category": "Hammer",
+      "masteryRank": 10,
+      "image": "/data/img/Melee/Arca_Titron.png",
+      "wiki": "http://warframe.wikia.com/wiki/Arca_Titron",
+      "acquisition": "Market (Ship)"
+    },
+    {
+      "id": "/Lotus/Weapons/Grineer/LongGuns/LaserAimRifle/LaserAimRifle",
+      "name": "Argonak",
+      "type": "Primary",
+      "category": "Rifle",
+      "masteryRank": 7,
+      "image": "/data/img/Primary/Argonak.png",
+      "wiki": "http://warframe.wikia.com/wiki/Argonak",
+      "acquisition": "Chem Lab (Dojo)"
+    },
+    {
+      "id": "/Lotus/Types/Sentinels/SentinelWeapons/Gremlin",
+      "name": "Artax",
+      "type": "Sentinel Weapon",
+      "masteryRank": 0,
+      "image": "/data/img/SentinelWeapon/Artax.png",
+      "wiki": "http://warframe.wikia.com/wiki/Artax",
+      "acquisition": "Comes with Companion"
+    },
+    {
+      "id": "/Lotus/Powersuits/Ninja/Ninja",
+      "name": "Ash",
+      "type": "Warframe",
+      "masteryRank": 0,
+      "image": "/data/img/Warframe/Ash.png",
+      "wiki": "http://warframe.wikia.com/wiki/Ash",
+      "acquisition": "Manics"
+    },
+    {
+      "id": "/Lotus/Powersuits/Ninja/AshPrime",
+      "name": "Ash Prime",
+      "type": "Warframe",
+      "masteryRank": 0,
+      "image": "/data/img/Warframe/Ash_Prime.png",
+      "wiki": "http://warframe.wikia.com/wiki/Ash_Prime",
+      "acquisition": "Relics"
+    },
+    {
+      "id": "/Lotus/Weapons/Tenno/LongGuns/TnGlassShotgun/TnGlassShotgunGun",
+      "name": "Astilla",
+      "type": "Primary",
+      "category": "Shotgun",
+      "masteryRank": 10,
+      "image": "/data/img/Primary/Astilla.png",
+      "wiki": "http://warframe.wikia.com/wiki/Astilla",
+      "acquisition": "Market (Ship)"
+    },
+    {
+      "id": "/Lotus/Powersuits/Brawler/Brawler",
+      "name": "Atlas",
+      "type": "Warframe",
+      "masteryRank": 0,
+      "image": "/data/img/Warframe/Atlas.png",
+      "wiki": "http://warframe.wikia.com/wiki/Atlas",
+      "acquisition": "Jordas Golem (Boss)"
+    },
+    {
+      "id": "/Lotus/Weapons/Grineer/Pistols/HeatGun/GrnHeatGun",
+      "name": "Atomos",
+      "type": "Secondary",
+      "category": "Pistol",
+      "masteryRank": 5,
+      "image": "/data/img/Secondary/Atomos.png",
+      "wiki": "http://warframe.wikia.com/wiki/Atomos",
+      "acquisition": "Market (Ship)"
+    },
+    {
+      "id": "/Lotus/Weapons/Grineer/Melee/GrineerWhip/GrineerWhip",
+      "name": "Atterax",
+      "type": "Melee",
+      "category": "Whip",
+      "masteryRank": 2,
+      "image": "/data/img/Melee/Atterax.png",
+      "wiki": "http://warframe.wikia.com/wiki/Atterax",
+      "acquisition": "Market (Ship)"
+    },
+    {
+      "id": "/Lotus/Weapons/Tenno/LongGuns/TnoPrmryXbow/TnoPrmryXbowWeapon",
+      "name": "Attica",
+      "type": "Primary",
+      "category": "Crossbow",
+      "masteryRank": 7,
+      "image": "/data/img/Primary/Attica.png",
+      "wiki": "http://warframe.wikia.com/wiki/Attica",
+      "acquisition": "Tenno Lab (Dojo)"
+    },
+    {
+      "id": "/Lotus/Weapons/Tenno/Pistols/SundialGun/SundialPistol",
+      "name": "Azima",
+      "type": "Secondary",
+      "category": "Pistol",
+      "masteryRank": 6,
+      "image": "/data/img/Secondary/Azima.png",
+      "wiki": "http://warframe.wikia.com/wiki/Azima",
+      "acquisition": "Login Reward"
+    },
+    {
+      "id": "/Lotus/Types/Vehicles/Hoverboard/HoverboardParts/PartComponents/HoverboardSolarisA/HoverboardSolarisADeck",
+      "name": "Bad Baby",
+      "type": "K-Drive",
+      "masteryRank": 0,
+      "image": "/data/img/KDrive/Bad_Baby.png",
+      "wiki": "http://warframe.wikia.com/wiki/Bad_Baby",
+      "acquisition": "Roky (Fortuna)"
+    },
+    {
+      "id": "/Lotus/Weapons/Ostron/Melee/ModularMelee01/Tip/TipOne",
+      "name": "Balla Strike",
+      "type": "Zaw",
+      "masteryRank": 0,
+      "image": "/data/img/Zaw/Balla.png",
+      "wiki": "http://warframe.wikia.com/wiki/Balla",
+      "acquisition": "Hok's Anvil (Cetus)"
+    },
+    {
+      "id": "/Lotus/Weapons/Tenno/Pistols/AutomaticHandCrossbow/AutoCrossBow",
+      "name": "Ballistica",
+      "type": "Secondary",
+      "category": "Crossbow",
+      "masteryRank": 2,
+      "image": "/data/img/Secondary/Ballistica.png",
+      "wiki": "http://warframe.wikia.com/wiki/Ballistica",
+      "acquisition": "Market (Ship)"
+    },
+    {
+      "id": "/Lotus/Weapons/Tenno/Pistols/PrimeBallistica/PrimeBallistica",
+      "name": "Ballistica Prime",
+      "type": "Secondary",
+      "category": "Crossbow",
+      "masteryRank": 14,
+      "image": "/data/img/Secondary/Ballistica_Prime.png",
+      "wiki": "http://warframe.wikia.com/wiki/Ballistica_Prime",
+      "acquisition": "Relics"
+    },
+    {
+      "id": "/Lotus/Powersuits/Banshee/Banshee",
+      "name": "Banshee",
+      "type": "Warframe",
+      "masteryRank": 0,
+      "image": "/data/img/Warframe/Banshee.png",
+      "wiki": "http://warframe.wikia.com/wiki/Banshee",
+      "acquisition": "Tenno Lab (Dojo)"
+    },
+    {
+      "id": "/Lotus/Powersuits/Banshee/BansheePrime",
+      "name": "Banshee Prime",
+      "type": "Warframe",
+      "masteryRank": 0,
+      "image": "/data/img/Warframe/Banshee_Prime.png",
+      "wiki": "http://warframe.wikia.com/wiki/Banshee_Prime",
+      "acquisition": "Relics"
+    },
+    {
+      "id": "/Lotus/Powersuits/Pacifist/Pacifist",
+      "name": "Baruuk",
+      "type": "Warframe",
+      "masteryRank": 0,
+      "image": "/data/img/Warframe/Baruuk.png",
+      "wiki": "http://warframe.wikia.com/wiki/Baruuk",
+      "acquisition": "Little Duck (Fortuna)"
+    },
+    {
+      "id": "/Lotus/Weapons/Corpus/LongGuns/CrpSentExperimentRifle/CrpSentExperimentRifle",
+      "name": "Battacor",
+      "type": "Primary",
+      "category": "Rifle",
+      "masteryRank": 10,
+      "image": "/data/img/Primary/Battacor.png",
+      "wiki": "http://warframe.wikia.com/wiki/Battacor",
+      "acquisition": "Energy Lab (Dojo)"
+    },
+    {
+      "id": "/Lotus/Weapons/Tenno/LongGuns/TnSMG/TnSMGWeapon",
+      "name": "Baza",
+      "type": "Primary",
+      "category": "Rifle",
+      "masteryRank": 7,
+      "image": "/data/img/Primary/Baza.png",
+      "wiki": "http://warframe.wikia.com/wiki/Baza",
+      "acquisition": "Tenno Lab (Dojo)"
+    },
+    {
+      "id": "/Lotus/Weapons/Tenno/Melee/Staff/Staff",
+      "name": "Bo",
+      "type": "Melee",
+      "category": "Staff",
+      "masteryRank": 0,
+      "image": "/data/img/Melee/Bo.png",
+      "wiki": "http://warframe.wikia.com/wiki/Bo",
+      "acquisition": "Market (Ship)"
+    },
+    {
+      "id": "/Lotus/Weapons/Tenno/Melee/Staff/PrimeBo/PrimeBoWeapon",
+      "name": "Bo Prime",
+      "type": "Melee",
+      "category": "Staff",
+      "masteryRank": 5,
+      "image": "/data/img/Melee/Bo_Prime.png",
+      "wiki": "http://warframe.wikia.com/wiki/Bo_Prime",
+      "acquisition": "Relics"
+    },
+    {
+      "id": "/Lotus/Weapons/Tenno/Shotgun/FullAutoShotgun",
+      "name": "Boar",
+      "type": "Primary",
+      "category": "Shotgun",
+      "masteryRank": 2,
+      "image": "/data/img/Primary/Boar.png",
+      "wiki": "http://warframe.wikia.com/wiki/Boar",
+      "acquisition": "Drekar Troopers"
+    },
+    {
+      "id": "/Lotus/Weapons/Tenno/Shotgun/PrimeBoar",
+      "name": "Boar Prime",
+      "type": "Primary",
+      "category": "Shotgun",
+      "masteryRank": 11,
+      "image": "/data/img/Primary/Boar_Prime.png",
+      "wiki": "http://warframe.wikia.com/wiki/Boar_Prime",
+      "acquisition": "Relics"
+    },
+    {
+      "id": "/Lotus/Weapons/Tenno/Melee/Tonfa/Boltonfa/Boltonfa",
+      "name": "Boltace",
+      "type": "Melee",
+      "category": "Tonfa",
+      "masteryRank": 2,
+      "image": "/data/img/Melee/Boltace.png",
+      "wiki": "http://warframe.wikia.com/wiki/Boltace",
+      "acquisition": "Market (Ship)"
+    },
+    {
+      "id": "/Lotus/Weapons/Tenno/Pistol/CrossBow",
+      "name": "Bolto",
+      "type": "Secondary",
+      "category": "Pistol",
+      "masteryRank": 7,
+      "image": "/data/img/Secondary/Bolto.png",
+      "wiki": "http://warframe.wikia.com/wiki/Bolto",
+      "acquisition": "Market (Ship)"
+    },
+    {
+      "id": "/Lotus/Weapons/Tenno/Rifle/BoltoRifle",
+      "name": "Boltor",
+      "type": "Primary",
+      "category": "Rifle",
+      "masteryRank": 2,
+      "image": "/data/img/Primary/Boltor.png",
+      "wiki": "http://warframe.wikia.com/wiki/Boltor",
+      "acquisition": "Market (Ship)"
+    },
+    {
+      "id": "/Lotus/Weapons/Tenno/LongGuns/PrimeBoltor/PrimeBoltor",
+      "name": "Boltor Prime",
+      "type": "Primary",
+      "category": "Rifle",
+      "masteryRank": 13,
+      "image": "/data/img/Primary/Boltor_Prime.png",
+      "wiki": "http://warframe.wikia.com/wiki/Boltor_Prime",
+      "acquisition": "Relics"
+    },
+    {
+      "id": "/Lotus/Weapons/Grineer/Pistols/GrineerHandShotgun/GrineerHandCannon",
+      "name": "Brakk",
+      "type": "Secondary",
+      "category": "Shotgun Sidearm",
+      "masteryRank": 6,
+      "image": "/data/img/Secondary/Brakk.png",
+      "wiki": "http://warframe.wikia.com/wiki/Brakk",
+      "acquisition": "The Grustrag Three"
+    },
+    {
+      "id": "/Lotus/Weapons/Tenno/Rifle/Rifle",
+      "name": "Braton",
+      "type": "Primary",
+      "category": "Rifle",
+      "masteryRank": 0,
+      "image": "/data/img/Primary/Braton.png",
+      "wiki": "http://warframe.wikia.com/wiki/Braton",
+      "acquisition": "Market (Ship)"
+    },
+    {
+      "id": "/Lotus/Weapons/Tenno/Rifle/BratonPrime",
+      "name": "Braton Prime",
+      "type": "Primary",
+      "category": "Rifle",
+      "masteryRank": 8,
+      "image": "/data/img/Primary/Braton_Prime.png",
+      "wiki": "http://warframe.wikia.com/wiki/Braton_Prime",
+      "acquisition": "Relics"
+    },
+    {
+      "id": "/Lotus/Weapons/Tenno/Rifle/VIPRifle",
+      "name": "Braton Vandal",
+      "type": "Primary",
+      "category": "Rifle",
+      "masteryRank": 4,
+      "image": "/data/img/Primary/Braton_Vandal.png",
+      "wiki": "http://warframe.wikia.com/wiki/Braton_Vandal",
+      "acquisition": "Sanctuary Onslaught"
+    },
+    {
+      "id": "/Lotus/Weapons/Grineer/Melee/GrnQueenSceptre/GrnQueenSceptreWeapon",
+      "name": "Broken Scepter",
+      "type": "Melee",
+      "category": "Staff",
+      "masteryRank": 5,
+      "image": "/data/img/Melee/Broken_Scepter.png",
+      "wiki": "http://warframe.wikia.com/wiki/Broken_Scepter",
+      "acquisition": "The War Within (Quest)"
+    },
+    {
+      "id": "/Lotus/Weapons/Tenno/Melee/Swords/StalkerTwo/StalkerTwoSmallSword",
+      "name": "Broken War",
+      "type": "Melee",
+      "category": "Sword",
+      "masteryRank": 10,
+      "image": "/data/img/Melee/Broken_War.png",
+      "wiki": "http://warframe.wikia.com/wiki/Broken_War",
+      "acquisition": "The Second Dream (Quest)"
+    },
+    {
+      "id": "/Lotus/Weapons/Tenno/Pistol/HandShotGun",
+      "name": "Bronco",
+      "type": "Secondary",
+      "category": "Shotgun Sidearm",
+      "masteryRank": 0,
+      "image": "/data/img/Secondary/Bronco.png",
+      "wiki": "http://warframe.wikia.com/wiki/Bronco",
+      "acquisition": "Market (Ship)"
+    },
+    {
+      "id": "/Lotus/Weapons/Tenno/Pistol/BroncoPrime",
+      "name": "Bronco Prime",
+      "type": "Secondary",
+      "category": "Shotgun Sidearm",
+      "masteryRank": 4,
+      "image": "/data/img/Secondary/Bronco_Prime.png",
+      "wiki": "http://warframe.wikia.com/wiki/Bronco_Prime",
+      "acquisition": "Relics"
+    },
+    {
+      "id": "/Lotus/Types/Sentinels/SentinelWeapons/BurstLaserPistol",
+      "name": "Burst Laser",
+      "type": "Sentinel Weapon",
+      "masteryRank": 0,
+      "image": "/data/img/SentinelWeapon/Burst_Laser.png",
+      "wiki": "http://warframe.wikia.com/wiki/Burst_Laser",
+      "acquisition": "Comes with Companion"
+    },
+    {
+      "id": "/Lotus/Weapons/Tenno/Rifle/BurstRifle",
+      "name": "Burston",
+      "type": "Primary",
+      "category": "Rifle",
+      "masteryRank": 0,
+      "image": "/data/img/Primary/Burston.png",
+      "wiki": "http://warframe.wikia.com/wiki/Burston",
+      "acquisition": "Market (Ship)"
+    },
+    {
+      "id": "/Lotus/Weapons/Tenno/LongGuns/PrimeBurston/PrimeBurston",
+      "name": "Burston Prime",
+      "type": "Primary",
+      "category": "Rifle",
+      "masteryRank": 12,
+      "image": "/data/img/Primary/Burston_Prime.png",
+      "wiki": "http://warframe.wikia.com/wiki/Burston_Prime",
+      "acquisition": "Relics"
+    },
+    {
+      "id": "/Lotus/Weapons/Grineer/LongGuns/GrnGorgSniperRifle/GrnGorgSniperRifle",
+      "name": "Buzlok",
+      "type": "Primary",
+      "category": "Rifle",
+      "masteryRank": 11,
+      "image": "/data/img/Primary/Buzlok.png",
+      "wiki": "http://warframe.wikia.com/wiki/Buzlok",
+      "acquisition": "Chem Lab (Dojo)"
+    },
+    {
+      "id": "/Lotus/Weapons/Corpus/OperatorAmplifiers/Set1/Barrel/CorpAmpSet1BarrelPartA",
+      "name": "Cantic Prism",
+      "type": "Amp",
+      "masteryRank": 0,
+      "image": "/data/img/Amp/Cantic_Prism.png",
+      "wiki": "http://warframe.wikia.com/wiki/Cantic_Prism",
+      "acquisition": "Little Duck (Fortuna)"
+    },
+    {
+      "id": "/Lotus/Types/Sentinels/SentinelPowersuits/CarrierPowerSuit",
+      "name": "Carrier",
+      "type": "Sentinel",
+      "masteryRank": 0,
+      "image": "/data/img/Sentinel/Carrier.png",
+      "wiki": "http://warframe.wikia.com/wiki/Carrier",
+      "acquisition": "Market (Ship)"
+    },
+    {
+      "id": "/Lotus/Types/Sentinels/SentinelPowersuits/PrimeCarrierPowerSuit",
+      "name": "Carrier Prime",
+      "type": "Sentinel",
+      "masteryRank": 0,
+      "image": "/data/img/Sentinel/Carrier_Prime.png",
+      "wiki": "http://warframe.wikia.com/wiki/Carrier_Prime",
+      "acquisition": "Relics"
+    },
+    {
+      "id": "/Lotus/Weapons/Tenno/Melee/Polearms/TnHalberdPolearm/TnHalberdPolearmWeapon",
+      "name": "Cassowar",
+      "type": "Melee",
+      "category": "Polearm",
+      "masteryRank": 5,
+      "image": "/data/img/Melee/Cassowar.png",
+      "wiki": "http://warframe.wikia.com/wiki/Cassowar",
+      "acquisition": "Tenno Lab (Dojo)"
+    },
+    {
+      "id": "/Lotus/Weapons/Tenno/ThrowingWeapons/StickyBomb/StickyBombs",
+      "name": "Castanas",
+      "type": "Secondary",
+      "category": "Thrown",
+      "masteryRank": 3,
+      "image": "/data/img/Secondary/Castanas.png",
+      "wiki": "http://warframe.wikia.com/wiki/Castanas",
+      "acquisition": "Tenno Lab (Dojo)"
+    },
+    {
+      "id": "/Lotus/Weapons/SolarisUnited/Secondary/SUModularSecondarySet1/Barrel/SUModularSecondaryBarrelAPart",
+      "name": "Catchmoon",
+      "type": "Secondary",
+      "category": "Kitgun",
+      "masteryRank": 0,
+      "image": "/data/img/Secondary/Catchmoon.png",
+      "wiki": "http://warframe.wikia.com/wiki/Catchmoon",
+      "acquisition": "Rude Zuud (Fortuna)"
+    },
+    {
+      "id": "/Lotus/Weapons/Infested/Melee/InfEmbolistScythe/InfestedScythe",
+      "name": "Caustacyst",
+      "type": "Melee",
+      "category": "Scythe",
+      "masteryRank": 7,
+      "image": "/data/img/Melee/Caustacyst.png",
+      "wiki": "http://warframe.wikia.com/wiki/Caustacyst",
+      "acquisition": "Bio Lab (Dojo)"
+    },
+    {
+      "id": "/Lotus/Weapons/Tenno/Archwing/Melee/Archswordandshield/ArchSwordShield",
+      "name": "Centaur",
+      "type": "Archwing Melee",
+      "masteryRank": 0,
+      "image": "/data/img/ArchwingMelee/Centaur.png",
+      "wiki": "http://warframe.wikia.com/wiki/Centaur",
+      "acquisition": "Market (Ship)"
+    },
+    {
+      "id": "/Lotus/Weapons/Tenno/Melee/Dagger/CeramicDagger",
+      "name": "Ceramic Dagger",
+      "type": "Melee",
+      "category": "Dagger",
+      "masteryRank": 3,
+      "image": "/data/img/Melee/Ceramic_Dagger.png",
+      "wiki": "http://warframe.wikia.com/wiki/Ceramic_Dagger",
+      "acquisition": "Market (Ship)"
+    },
+    {
+      "id": "/Lotus/Weapons/Infested/Melee/Glaives/PunctureGlaive/PunctureGlaiveWeapon",
+      "name": "Cerata",
+      "type": "Melee",
+      "category": "Glaive",
+      "masteryRank": 3,
+      "image": "/data/img/Melee/Cerata.png",
+      "wiki": "http://warframe.wikia.com/wiki/Cerata",
+      "acquisition": "Bio Lab (Dojo)"
+    },
+    {
+      "id": "/Lotus/Weapons/Tenno/Bows/AntlerBow/AntlerBow",
+      "name": "Cernos",
+      "type": "Primary",
+      "category": "Bow",
+      "masteryRank": 6,
+      "image": "/data/img/Primary/Cernos.png",
+      "wiki": "http://warframe.wikia.com/wiki/Cernos",
+      "acquisition": "Market (Ship)"
+    },
+    {
+      "id": "/Lotus/Weapons/Tenno/Bows/PrimeCernos/PrimeCernos",
+      "name": "Cernos Prime",
+      "type": "Primary",
+      "category": "Bow",
+      "masteryRank": 12,
+      "image": "/data/img/Primary/Cernos_Prime.png",
+      "wiki": "http://warframe.wikia.com/wiki/Cernos_Prime",
+      "acquisition": "Relics"
+    },
+    {
+      "id": "/Lotus/Weapons/Corpus/Pistols/CorpusMinigun/CorpusMinigun",
+      "name": "Cestra",
+      "type": "Secondary",
+      "category": "Pistol",
+      "masteryRank": 4,
+      "image": "/data/img/Secondary/Cestra.png",
+      "wiki": "http://warframe.wikia.com/wiki/Cestra",
+      "acquisition": "Market (Ship)"
+    },
+    {
+      "id": "/Lotus/Types/Game/KubrowPet/RetrieverKubrowPetPowerSuit",
+      "name": "Chesa Kubrow",
+      "type": "Kubrow",
+      "masteryRank": 0,
+      "image": "/data/img/Kubrow/Chesa_Kubrow.png",
+      "wiki": "http://warframe.wikia.com/wiki/Chesa_Kubrow",
+      "acquisition": "Incubator Segment (Ship)"
+    },
+    {
+      "id": "/Lotus/Powersuits/Dragon/Dragon",
+      "name": "Chroma",
+      "type": "Warframe",
+      "masteryRank": 0,
+      "image": "/data/img/Warframe/Chroma.png",
+      "wiki": "http://warframe.wikia.com/wiki/Chroma",
+      "acquisition": "The New Strange (Quest)"
+    },
+    {
+      "id": "/Lotus/Powersuits/Dragon/ChromaPrime",
+      "name": "Chroma Prime",
+      "type": "Warframe",
+      "masteryRank": 0,
+      "image": "/data/img/Warframe/Chroma_Prime.png",
+      "wiki": "http://warframe.wikia.com/wiki/Chroma_Prime",
+      "acquisition": "Relics"
+    },
+    {
+      "id": "/Lotus/Weapons/Tenno/Melee/SwordsAndBoards/PacifistShieldAndSword/PacifistShieldSword",
+      "name": "Cobra & Crane",
+      "type": "Melee",
+      "category": "Sword and Shield",
+      "masteryRank": 10,
+      "image": "/data/img/Melee/Cobra_&_Crane.png",
+      "wiki": "http://warframe.wikia.com/wiki/Cobra_&_Crane",
+      "acquisition": "Market (Ship)"
+    },
+    {
+      "id": "/Lotus/Weapons/Corpus/LongGuns/CrpSplitLaser/CrpSplitLaser",
+      "name": "Convectrix",
+      "type": "Primary",
+      "category": "Shotgun",
+      "masteryRank": 7,
+      "image": "/data/img/Primary/Convectrix.png",
+      "wiki": "http://warframe.wikia.com/wiki/Convectrix",
+      "acquisition": "Energy Lab (Dojo)"
+    },
+    {
+      "id": "/Lotus/Weapons/Tenno/LongGuns/TnHeavyShotgun/TnHeavyShotgunGun",
+      "name": "Corinth",
+      "type": "Primary",
+      "category": "Shotgun",
+      "masteryRank": 8,
+      "image": "/data/img/Primary/Corinth.png",
+      "wiki": "http://warframe.wikia.com/wiki/Corinth",
+      "acquisition": "Market (Ship)"
+    },
+    {
+      "id": "/Lotus/Weapons/Tenno/Archwing/Primary/LaunchGrenade/ArchCannon",
+      "name": "Corvas",
+      "type": "Archwing Gun",
+      "masteryRank": 1,
+      "image": "/data/img/ArchwingPrimary/Corvas.png",
+      "wiki": "http://warframe.wikia.com/wiki/Corvas",
+      "acquisition": "Market (Ship)"
+    },
+    {
+      "id": "/Lotus/Weapons/Tenno/Melee/CronusSword/CronusLongSword",
+      "name": "Cronus",
+      "type": "Melee",
+      "category": "Sword",
+      "masteryRank": 0,
+      "image": "/data/img/Melee/Cronus.png",
+      "wiki": "http://warframe.wikia.com/wiki/Cronus",
+      "acquisition": "Captain Vor (Boss)"
+    },
+    {
+      "id": "/Lotus/Types/Friendly/Pets/MoaPets/MoaPetComponents/CryoxionWeapon",
+      "name": "Cryotra",
+      "type": "Sentinel Weapon",
+      "masteryRank": 0,
+      "image": "/data/img/SentinelWeapon/Cryotra.png",
+      "wiki": "http://warframe.wikia.com/wiki/Cryotra",
+      "acquisition": "Legs (Fortuna)"
+    },
+    {
+      "id": "/Lotus/Weapons/Corpus/Pistols/CrpSentAmalgPistol/CrpSentAmalgPistol",
+      "name": "Cyanex",
+      "type": "Secondary",
+      "category": "Pistol",
+      "masteryRank": 8,
+      "image": "/data/img/Secondary/Cyanex.png",
+      "wiki": "http://warframe.wikia.com/wiki/Cyanex",
+      "acquisition": "Energy Lab (Dojo)"
+    },
+    {
+      "id": "/Lotus/Weapons/Ostron/Melee/ModularMelee01/Tip/TipFour",
+      "name": "Cyath Strike",
+      "type": "Zaw",
+      "masteryRank": 0,
+      "image": "/data/img/Zaw/Cyath.png",
+      "wiki": "http://warframe.wikia.com/wiki/Cyath",
+      "acquisition": "Hok's Anvil (Cetus)"
+    },
+    {
+      "id": "/Lotus/Weapons/Corpus/Pistols/CrpChargeGun/CrpChargeGun",
+      "name": "Cycron",
+      "type": "Secondary",
+      "category": "Pistol",
+      "masteryRank": 8,
+      "image": "/data/img/Secondary/Cycron.png",
+      "wiki": "http://warframe.wikia.com/wiki/Cycron",
+      "acquisition": "Energy Lab (Dojo)"
+    },
+    {
+      "id": "/Lotus/Weapons/Tenno/Archwing/Primary/ArchBurstGun/ArchBurstGun",
+      "name": "Cyngas",
+      "type": "Archwing Gun",
+      "masteryRank": 4,
+      "image": "/data/img/ArchwingPrimary/Cyngas.png",
+      "wiki": "http://warframe.wikia.com/wiki/Cyngas",
+      "acquisition": "Market (Ship)"
+    },
+    {
+      "id": "/Lotus/Weapons/Tenno/Bows/AsymetricalBow/AsymetricalBow",
+      "name": "Daikyu",
+      "type": "Primary",
+      "category": "Bow",
+      "masteryRank": 10,
+      "image": "/data/img/Primary/Daikyu.png",
+      "wiki": "http://warframe.wikia.com/wiki/Daikyu",
+      "acquisition": "Tenno Lab (Dojo)"
+    },
+    {
+      "id": "/Lotus/Weapons/Tenno/Melee/CronusSword/PrimeCronusLongSword",
+      "name": "Dakra Prime",
+      "type": "Melee",
+      "category": "Sword",
+      "masteryRank": 6,
+      "image": "/data/img/Melee/Dakra_Prime.png",
+      "wiki": "http://warframe.wikia.com/wiki/Dakra_Prime",
+      "acquisition": "Relics"
+    },
+    {
+      "id": "/Lotus/Weapons/Tenno/Melee/Dagger/DarkDagger",
+      "name": "Dark Dagger",
+      "type": "Melee",
+      "category": "Dagger",
+      "masteryRank": 0,
+      "image": "/data/img/Melee/Dark_Dagger.png",
+      "wiki": "http://warframe.wikia.com/wiki/Dark_Dagger",
+      "acquisition": "Nightwave"
+    },
+    {
+      "id": "/Lotus/Weapons/Tenno/Melee/Swords/DarkSword/DarkSwordDaggerHybridWeapon",
+      "name": "Dark Split-Sword",
+      "type": "Melee",
+      "category": "Hybrid",
+      "masteryRank": 0,
+      "image": "/data/img/Melee/Dark_Split-Sword.png",
+      "wiki": "http://warframe.wikia.com/wiki/Dark_Split-Sword",
+      "acquisition": "Tenno Lab (Dojo)"
+    },
+    {
+      "id": "/Lotus/Weapons/Tenno/Melee/Swords/DarkSword/DarkLongSword",
+      "name": "Dark Sword",
+      "type": "Melee",
+      "category": "Sword",
+      "masteryRank": 0,
+      "image": "/data/img/Melee/Dark_Sword.png",
+      "wiki": "http://warframe.wikia.com/wiki/Dark_Sword",
+      "acquisition": "Nightwave"
+    },
+    {
+      "id": "/Lotus/Types/Sentinels/SentinelWeapons/SentGlaiveWeapon",
+      "name": "Deconstructor",
+      "type": "Sentinel Weapon",
+      "masteryRank": 0,
+      "image": "/data/img/SentinelWeapon/Deconstructor.png",
+      "wiki": "http://warframe.wikia.com/wiki/Deconstructor",
+      "acquisition": "Comes with Companion"
+    },
+    {
+      "id": "/Lotus/Types/Sentinels/SentinelWeapons/DeconstructorPrime/PrimeHeliosGlaiveWeapon",
+      "name": "Deconstructor Prime",
+      "type": "Sentinel Weapon",
+      "masteryRank": 0,
+      "image": "/data/img/SentinelWeapon/Deconstructor_Prime.png",
+      "wiki": "http://warframe.wikia.com/wiki/Deconstructor_Prime",
+      "acquisition": "Comes with Companion"
+    },
+    {
+      "id": "/Lotus/Weapons/Ostron/Melee/ModularMelee01/Tip/TipFive",
+      "name": "Dehtat Strike",
+      "type": "Zaw",
+      "masteryRank": 0,
+      "image": "/data/img/Zaw/Dehtat.png",
+      "wiki": "http://warframe.wikia.com/wiki/Dehtat",
+      "acquisition": "Hok's Anvil (Cetus)"
+    },
+    {
+      "id": "/Lotus/Weapons/ClanTech/Energy/EnergyRifle",
+      "name": "Dera",
+      "type": "Primary",
+      "category": "Rifle",
+      "masteryRank": 4,
+      "image": "/data/img/Primary/Dera.png",
+      "wiki": "http://warframe.wikia.com/wiki/Dera",
+      "acquisition": "Energy Lab (Dojo)"
+    },
+    {
+      "id": "/Lotus/Weapons/ClanTech/Energy/DeraVandal",
+      "name": "Dera Vandal",
+      "type": "Primary",
+      "category": "Rifle",
+      "masteryRank": 7,
+      "image": "/data/img/Primary/Dera_Vandal.png",
+      "wiki": "http://warframe.wikia.com/wiki/Dera_Vandal",
+      "acquisition": "Invasions"
+    },
+    {
+      "id": "/Lotus/Weapons/Tenno/ThrowingWeapons/StalkerKunai",
+      "name": "Despair",
+      "type": "Secondary",
+      "category": "Thrown",
+      "masteryRank": 4,
+      "image": "/data/img/Secondary/Despair.png",
+      "wiki": "http://warframe.wikia.com/wiki/Despair",
+      "acquisition": "Stalker"
+    },
+    {
+      "id": "/Lotus/Weapons/Tenno/Melee/Swords/TnoRapier/TnoRapier",
+      "name": "Destreza",
+      "type": "Melee",
+      "category": "Rapier",
+      "masteryRank": 7,
+      "image": "/data/img/Melee/Destreza.png",
+      "wiki": "http://warframe.wikia.com/wiki/Destreza",
+      "acquisition": "Market (Ship)"
+    },
+    {
+      "id": "/Lotus/Weapons/Tenno/Melee/Swords/PRapier/DestrezaPrime",
+      "name": "Destreza Prime",
+      "type": "Melee",
+      "category": "Rapier",
+      "masteryRank": 10,
+      "image": "/data/img/Melee/Destreza_Prime.png",
+      "wiki": "http://warframe.wikia.com/wiki/Destreza_Prime",
+      "acquisition": "Relics"
+    },
+    {
+      "id": "/Lotus/Types/Sentinels/SentinelWeapons/DethMachineRifle",
+      "name": "Deth Machine Rifle",
+      "type": "Sentinel Weapon",
+      "masteryRank": 0,
+      "image": "/data/img/SentinelWeapon/Deth_Machine_Rifle.png",
+      "wiki": "http://warframe.wikia.com/wiki/Deth_Machine_Rifle",
+      "acquisition": "Comes with Companion"
+    },
+    {
+      "id": "/Lotus/Types/Sentinels/SentinelPowersuits/DethCubePowerSuit",
+      "name": "Dethcube",
+      "type": "Sentinel",
+      "masteryRank": 0,
+      "image": "/data/img/Sentinel/Dethcube.png",
+      "wiki": "http://warframe.wikia.com/wiki/Dethcube",
+      "acquisition": "Market (Ship)"
+    },
+    {
+      "id": "/Lotus/Weapons/Corpus/Pistols/CorpusHandShotgun/CorpusHandCannon",
+      "name": "Detron",
+      "type": "Secondary",
+      "category": "Shotgun Sidearm",
+      "masteryRank": 6,
+      "image": "/data/img/Secondary/Detron.png",
+      "wiki": "http://warframe.wikia.com/wiki/Detron",
+      "acquisition": "Market (Ship)"
+    },
+    {
+      "id": "/Lotus/Weapons/Tenno/Melee/Swords/DexTheSecond/DexTheSecond",
+      "name": "Dex Dakra",
+      "type": "Melee",
+      "category": "Dual Swords",
+      "masteryRank": 6,
+      "image": "/data/img/Melee/Dex_Dakra.png",
+      "wiki": "http://warframe.wikia.com/wiki/Dex_Dakra",
+      "acquisition": "Anniversary"
+    },
+    {
+      "id": "/Lotus/Weapons/Tenno/Pistols/DexFuris/DexFuris",
+      "name": "Dex Furis",
+      "type": "Secondary",
+      "category": "Dual Pistols",
+      "masteryRank": 10,
+      "image": "/data/img/Secondary/Dex_Furis.png",
+      "wiki": "http://warframe.wikia.com/wiki/Dex_Furis",
+      "acquisition": "Anniversary"
+    },
+    {
+      "id": "/Lotus/Weapons/Tenno/LongGuns/DexTheThird/DexTheThird",
+      "name": "Dex Sybaris",
+      "type": "Primary",
+      "category": "Rifle",
+      "masteryRank": 7,
+      "image": "/data/img/Primary/Dex_Sybaris.png",
+      "wiki": "http://warframe.wikia.com/wiki/Dex_Sybaris",
+      "acquisition": "Anniversary"
+    },
+    {
+      "id": "/Lotus/Types/Sentinels/SentinelPowersuits/ArcDronePowerSuit",
+      "name": "Diriga",
+      "type": "Sentinel",
+      "masteryRank": 0,
+      "image": "/data/img/Sentinel/Diriga.png",
+      "wiki": "http://warframe.wikia.com/wiki/Diriga",
+      "acquisition": "Market (Ship)"
+    },
+    {
+      "id": "/Lotus/Types/Sentinels/SentinelPowersuits/GubberPowerSuit",
+      "name": "Djinn",
+      "type": "Sentinel",
+      "masteryRank": 0,
+      "image": "/data/img/Sentinel/Djinn.png",
+      "wiki": "http://warframe.wikia.com/wiki/Djinn",
+      "acquisition": "Bio Lab (Dojo)"
+    },
+    {
+      "id": "/Lotus/Weapons/Ostron/Melee/ModularMelee02/Tip/TipEleven",
+      "name": "Dokrahm Strike",
+      "type": "Zaw",
+      "masteryRank": 0,
+      "image": "/data/img/Zaw/Dokrahm.png",
+      "wiki": "http://warframe.wikia.com/wiki/Dokrahm",
+      "acquisition": "Hok's Anvil (Cetus)"
+    },
+    {
+      "id": "/Lotus/Weapons/Tenno/Melee/Swords/KatanaAndWakizashi/LowKatana",
+      "name": "Dragon Nikana",
+      "type": "Melee",
+      "category": "Nikana",
+      "masteryRank": 8,
+      "image": "/data/img/Melee/Dragon_Nikana.png",
+      "wiki": "http://warframe.wikia.com/wiki/Dragon_Nikana",
+      "acquisition": "Market (Ship)"
+    },
+    {
+      "id": "/Lotus/Weapons/Grineer/LongGuns/GrineerFlakCannon/FlakCannon",
+      "name": "Drakgoon",
+      "type": "Primary",
+      "category": "Shotgun",
+      "masteryRank": 5,
+      "image": "/data/img/Primary/Drakgoon.png",
+      "wiki": "http://warframe.wikia.com/wiki/Drakgoon",
+      "acquisition": "Market (Ship)"
+    },
+    {
+      "id": "/Lotus/Weapons/Tenno/Bows/StalkerBow",
+      "name": "Dread",
+      "type": "Primary",
+      "category": "Bow",
+      "masteryRank": 5,
+      "image": "/data/img/Primary/Dread.png",
+      "wiki": "http://warframe.wikia.com/wiki/Dread",
+      "acquisition": "Stalker"
+    },
+    {
+      "id": "/Lotus/Weapons/Corpus/Pistols/CorpusMinigun/DualCorpusMinigun",
+      "name": "Dual Cestra",
+      "type": "Secondary",
+      "category": "Dual Pistols",
+      "masteryRank": 7,
+      "image": "/data/img/Secondary/Dual_Cestra.png",
+      "wiki": "http://warframe.wikia.com/wiki/Dual_Cestra",
+      "acquisition": "Energy Lab (Dojo)"
+    },
+    {
+      "id": "/Lotus/Weapons/Grineer/Melee/GrineerMachetteAndCleaver/DualCleaverWeapon",
+      "name": "Dual Cleavers",
+      "type": "Melee",
+      "category": "Dual Swords",
+      "masteryRank": 3,
+      "image": "/data/img/Melee/Dual_Cleavers.png",
+      "wiki": "http://warframe.wikia.com/wiki/Dual_Cleavers",
+      "acquisition": "Market (Ship)"
+    },
+    {
+      "id": "/Lotus/Weapons/Tenno/Archwing/Primary/ArchwingHeavyPistols/ArchHeavyPistols",
+      "name": "Dual Decurion",
+      "type": "Archwing Gun",
+      "masteryRank": 1,
+      "image": "/data/img/ArchwingPrimary/Dual_Decurion.png",
+      "wiki": "http://warframe.wikia.com/wiki/Dual_Decurion",
+      "acquisition": "Market (Ship)"
+    },
+    {
+      "id": "/Lotus/Weapons/Tenno/Melee/DualShortSword/DualEtherSword",
+      "name": "Dual Ether",
+      "type": "Melee",
+      "category": "Dual Swords",
+      "masteryRank": 0,
+      "image": "/data/img/Melee/Dual_Ether.png",
+      "wiki": "http://warframe.wikia.com/wiki/Dual_Ether",
+      "acquisition": "Market (Ship)"
+    },
+    {
+      "id": "/Lotus/Weapons/Tenno/Melee/DualShortSword/DualHeatSwords",
+      "name": "Dual Heat Swords",
+      "type": "Melee",
+      "category": "Dual Swords",
+      "masteryRank": 0,
+      "image": "/data/img/Melee/Dual_Heat_Swords.png",
+      "wiki": "http://warframe.wikia.com/wiki/Dual_Heat_Swords",
+      "acquisition": "Market (Ship)"
+    },
+    {
+      "id": "/Lotus/Weapons/Tenno/Melee/Axe/DualInfestedAxesWeapon",
+      "name": "Dual Ichor",
+      "type": "Melee",
+      "category": "Dual Swords",
+      "masteryRank": 6,
+      "image": "/data/img/Melee/Dual_Ichor.png",
+      "wiki": "http://warframe.wikia.com/wiki/Dual_Ichor",
+      "acquisition": "Bio Lab (Dojo)"
+    },
+    {
+      "id": "/Lotus/Weapons/Tenno/Melee/DualKamas/DualKamas",
+      "name": "Dual Kamas",
+      "type": "Melee",
+      "category": "Dual Swords",
+      "masteryRank": 1,
+      "image": "/data/img/Melee/Dual_Kamas.png",
+      "wiki": "http://warframe.wikia.com/wiki/Dual_Kamas",
+      "acquisition": "Market (Ship)"
+    },
+    {
+      "id": "/Lotus/Weapons/Tenno/Melee/PrimeDualKamas/PrimeDualKamas",
+      "name": "Dual Kamas Prime",
+      "type": "Melee",
+      "category": "Dual Swords",
+      "masteryRank": 6,
+      "image": "/data/img/Melee/Dual_Kamas_Prime.png",
+      "wiki": "http://warframe.wikia.com/wiki/Dual_Kamas_Prime",
+      "acquisition": "Relics"
+    },
+    {
+      "id": "/Lotus/Weapons/Tenno/Melee/Swords/QuillSword/QuillDualSwords",
+      "name": "Dual Keres",
+      "type": "Melee",
+      "category": "Dual Swords",
+      "masteryRank": 7,
+      "image": "/data/img/Melee/Dual_Keres.png",
+      "wiki": "http://warframe.wikia.com/wiki/Dual_Keres",
+      "acquisition": "Market (Ship)"
+    },
+    {
+      "id": "/Lotus/Weapons/Tenno/Melee/Soma/SomaDualKamas",
+      "name": "Dual Raza",
+      "type": "Melee",
+      "category": "Dual Swords",
+      "masteryRank": 6,
+      "image": "/data/img/Melee/Dual_Raza.png",
+      "wiki": "http://warframe.wikia.com/wiki/Dual_Raza",
+      "acquisition": "Tenno Lab (Dojo)"
+    },
+    {
+      "id": "/Lotus/Weapons/Tenno/Melee/DualShortSword/DualShortSword",
+      "name": "Dual Skana",
+      "type": "Melee",
+      "category": "Dual Swords",
+      "masteryRank": 0,
+      "image": "/data/img/Melee/Dual_Skana.png",
+      "wiki": "http://warframe.wikia.com/wiki/Dual_Skana",
+      "acquisition": "Market (Ship)"
+    },
+    {
+      "id": "/Lotus/Weapons/Infested/Pistols/InfVomitGun/InfVomitGunWep",
+      "name": "Dual Toxocyst",
+      "type": "Secondary",
+      "category": "Dual Pistols",
+      "masteryRank": 11,
+      "image": "/data/img/Secondary/Dual_Toxocyst.png",
+      "wiki": "http://warframe.wikia.com/wiki/Dual_Toxocyst",
+      "acquisition": "Bio Lab (Dojo)"
+    },
+    {
+      "id": "/Lotus/Weapons/Tenno/Melee/Axe/DualAxeWeapon",
+      "name": "Dual Zoren",
+      "type": "Melee",
+      "category": "Dual Swords",
+      "masteryRank": 2,
+      "image": "/data/img/Melee/Dual_Zoren.png",
+      "wiki": "http://warframe.wikia.com/wiki/Dual_Zoren",
+      "acquisition": "Market (Ship)"
+    },
+    {
+      "id": "/Lotus/Powersuits/Archwing/DemolitionJetPack/DemolitionJetPack",
+      "name": "Elytron",
+      "type": "Archwing",
+      "masteryRank": 0,
+      "image": "/data/img/Archwing/Elytron.png",
+      "wiki": "http://warframe.wikia.com/wiki/Elytron",
+      "acquisition": "Tenno Lab (Dojo)"
+    },
+    {
+      "id": "/Lotus/Powersuits/Ember/Ember",
+      "name": "Ember",
+      "type": "Warframe",
+      "masteryRank": 0,
+      "image": "/data/img/Warframe/Ember.png",
+      "wiki": "http://warframe.wikia.com/wiki/Ember",
+      "acquisition": "General Sargas Ruk (Boss)"
+    },
+    {
+      "id": "/Lotus/Powersuits/Ember/EmberPrime",
+      "name": "Ember Prime",
+      "type": "Warframe",
+      "masteryRank": 0,
+      "image": "/data/img/Warframe/Ember_Prime.png",
+      "wiki": "http://warframe.wikia.com/wiki/Ember_Prime",
+      "acquisition": "Relics"
+    },
+    {
+      "id": "/Lotus/Weapons/Infested/Pistols/InfestedPistol",
+      "name": "Embolist",
+      "type": "Secondary",
+      "category": "Pistol",
+      "masteryRank": 9,
+      "image": "/data/img/Secondary/Embolist.png",
+      "wiki": "http://warframe.wikia.com/wiki/Embolist",
+      "acquisition": "Bio Lab (Dojo)"
+    },
+    {
+      "id": "/Lotus/Weapons/Tenno/Melee/Swords/ThreeLeaf/ThreeLeaf",
+      "name": "Endura",
+      "type": "Melee",
+      "category": "Rapier",
+      "masteryRank": 7,
+      "image": "/data/img/Melee/Endura.png",
+      "wiki": "http://warframe.wikia.com/wiki/Endura",
+      "acquisition": "Tenno Lab (Dojo)"
+    },
+    {
+      "id": "/Lotus/Powersuits/YinYang/YinYang",
+      "name": "Equinox",
+      "type": "Warframe",
+      "masteryRank": 0,
+      "image": "/data/img/Warframe/Equinox.png",
+      "wiki": "http://warframe.wikia.com/wiki/Equinox",
+      "acquisition": "Tyl Regor (Boss)"
+    },
+    {
+      "id": "/Lotus/Powersuits/YinYang/EquinoxPrime",
+      "name": "Equinox Prime",
+      "type": "Warframe",
+      "masteryRank": 0,
+      "image": "/data/img/Warframe/Equinox_Prime.png",
+      "wiki": "http://warframe.wikia.com/wiki/Equinox_Prime",
+      "acquisition": "Relics"
+    },
+    {
+      "id": "/Lotus/Weapons/Tenno/Melee/DualDagger/DualEtherDagger",
+      "name": "Ether Daggers",
+      "type": "Melee",
+      "category": "Dual Daggers",
+      "masteryRank": 0,
+      "image": "/data/img/Melee/Ether_Daggers.png",
+      "wiki": "http://warframe.wikia.com/wiki/Ether_Daggers",
+      "acquisition": "Operation Plague Star (Cetus)"
+    },
+    {
+      "id": "/Lotus/Weapons/Tenno/Melee/Scythe/EtherScytheWeapon",
+      "name": "Ether Reaper",
+      "type": "Melee",
+      "category": "Scythe",
+      "masteryRank": 3,
+      "image": "/data/img/Melee/Ether_Reaper.png",
+      "wiki": "http://warframe.wikia.com/wiki/Ether_Reaper",
+      "acquisition": "Market (Ship)"
+    },
+    {
+      "id": "/Lotus/Weapons/Tenno/Melee/LongSword/EtherSword",
+      "name": "Ether Sword",
+      "type": "Melee",
+      "category": "Sword",
+      "masteryRank": 0,
+      "image": "/data/img/Melee/Ether_Sword.png",
+      "wiki": "http://warframe.wikia.com/wiki/Ether_Sword",
+      "acquisition": "Market (Ship)"
+    },
+    {
+      "id": "/Lotus/Weapons/Tenno/Pistols/AllNew1hSG/AllNew1hSG",
+      "name": "Euphona Prime",
+      "type": "Secondary",
+      "category": "Shotgun Sidearm",
+      "masteryRank": 14,
+      "image": "/data/img/Secondary/Euphona_Prime.png",
+      "wiki": "http://warframe.wikia.com/wiki/Euphona_Prime",
+      "acquisition": "Relics"
+    },
+    {
+      "id": "/Lotus/Powersuits/Excalibur/Excalibur",
+      "name": "Excalibur",
+      "type": "Warframe",
+      "masteryRank": 0,
+      "image": "/data/img/Warframe/Excalibur.png",
+      "wiki": "http://warframe.wikia.com/wiki/Excalibur",
+      "acquisition": "Lieutenant Lech Kril (Boss)"
+    },
+    {
+      "id": "/Lotus/Powersuits/Excalibur/ExcaliburPrime",
+      "name": "Excalibur Prime",
+      "type": "Warframe",
+      "masteryRank": 0,
+      "image": "/data/img/Warframe/Excalibur_Prime.png",
+      "wiki": "http://warframe.wikia.com/wiki/Excalibur_Prime",
+      "acquisition": "Unobtainable (Founders)"
+    },
+    {
+      "id": "/Lotus/Powersuits/Excalibur/ExcaliburUmbra",
+      "name": "Excalibur Umbra",
+      "type": "Warframe",
+      "masteryRank": 0,
+      "image": "/data/img/Warframe/Excalibur_Umbra.png",
+      "wiki": "http://warframe.wikia.com/wiki/Excalibur_Umbra",
+      "acquisition": "The Sacrifice (Quest)",
+      "specialNote": "Item are fully ranked when obtained."
+    },
+    {
+      "id": "/Lotus/Weapons/Corpus/LongGuns/CrpShapeBlast/CrpShapeBlastShotgun",
+      "name": "Exergis",
+      "type": "Primary",
+      "category": "Shotgun",
+      "masteryRank": 8,
+      "image": "/data/img/Primary/Exergis.png",
+      "wiki": "http://warframe.wikia.com/wiki/Exergis",
+      "acquisition": "Market (Ship)"
+    },
+    {
+      "id": "/Lotus/Weapons/Corpus/Melee/Glaive/CrpGlaive/CrpGlaive",
+      "name": "Falcor",
+      "type": "Melee",
+      "category": "Glaive",
+      "masteryRank": 8,
+      "image": "/data/img/Melee/Falcor.png",
+      "wiki": "http://warframe.wikia.com/wiki/Falcor",
+      "acquisition": "Energy Lab (Dojo)"
+    },
+    {
+      "id": "/Lotus/Weapons/Tenno/Melee/DualDagger/DualDagger",
+      "name": "Fang",
+      "type": "Melee",
+      "category": "Dual Daggers",
+      "masteryRank": 0,
+      "image": "/data/img/Melee/Fang.png",
+      "wiki": "http://warframe.wikia.com/wiki/Fang",
+      "acquisition": "Market (Ship)"
+    },
+    {
+      "id": "/Lotus/Weapons/Tenno/Melee/DualDagger/FangPrimeDagger",
+      "name": "Fang Prime",
+      "type": "Melee",
+      "category": "Dual Daggers",
+      "masteryRank": 0,
+      "image": "/data/img/Melee/Fang_Prime.png",
+      "wiki": "http://warframe.wikia.com/wiki/Fang_Prime",
+      "acquisition": "Relics"
+    },
+    {
+      "id": "/Lotus/Weapons/Corpus/LongGuns/Spears/Railgun/CorpusRailgun",
+      "name": "Ferrox",
+      "type": "Primary",
+      "category": "Speargun",
+      "masteryRank": 14,
+      "image": "/data/img/Primary/Ferrox.png",
+      "wiki": "http://warframe.wikia.com/wiki/Ferrox",
+      "acquisition": "Energy Lab (Dojo)"
+    },
+    {
+      "id": "/Lotus/Types/Vehicles/Hoverboard/HoverboardParts/PartComponents/HoverboardCorpusA/HoverboardCorpusADeck",
+      "name": "Flatbelly",
+      "type": "K-Drive",
+      "masteryRank": 0,
+      "image": "/data/img/KDrive/Flatbelly.png",
+      "wiki": "http://warframe.wikia.com/wiki/Flatbelly",
+      "acquisition": "Roky (Fortuna)"
+    },
+    {
+      "id": "/Lotus/Weapons/Tenno/Archwing/Primary/RocketArtillery/ArchRocketCrossbow",
+      "name": "Fluctus",
+      "type": "Archwing Gun",
+      "masteryRank": 2,
+      "image": "/data/img/ArchwingPrimary/Fluctus.png",
+      "wiki": "http://warframe.wikia.com/wiki/Fluctus",
+      "acquisition": "Tenno Lab (Dojo)"
+    },
+    {
+      "id": "/Lotus/Weapons/ClanTech/Energy/CrpLaserRifle",
+      "name": "Flux Rifle",
+      "type": "Primary",
+      "category": "Rifle",
+      "masteryRank": 6,
+      "image": "/data/img/Primary/Flux_Rifle.png",
+      "wiki": "http://warframe.wikia.com/wiki/Flux_Rifle",
+      "acquisition": "Energy Lab (Dojo)"
+    },
+    {
+      "id": "/Lotus/Weapons/Tenno/Melee/Hammer/HammerWeapon",
+      "name": "Fragor",
+      "type": "Melee",
+      "category": "Hammer",
+      "masteryRank": 2,
+      "image": "/data/img/Melee/Fragor.png",
+      "wiki": "http://warframe.wikia.com/wiki/Fragor",
+      "acquisition": "Market (Ship)"
+    },
+    {
+      "id": "/Lotus/Weapons/Tenno/Melee/PrimeFragor/PrimeFragor",
+      "name": "Fragor Prime",
+      "type": "Melee",
+      "category": "Hammer",
+      "masteryRank": 7,
+      "image": "/data/img/Melee/Fragor_Prime.png",
+      "wiki": "http://warframe.wikia.com/wiki/Fragor_Prime",
+      "acquisition": "Relics"
+    },
+    {
+      "id": "/Lotus/Powersuits/Frost/Frost",
+      "name": "Frost",
+      "type": "Warframe",
+      "masteryRank": 0,
+      "image": "/data/img/Warframe/Frost.png",
+      "wiki": "http://warframe.wikia.com/wiki/Frost",
+      "acquisition": "Captain Vor and Lieutenant Lech Kril (Boss Duo)"
+    },
+    {
+      "id": "/Lotus/Powersuits/Frost/FrostPrime",
+      "name": "Frost Prime",
+      "type": "Warframe",
+      "masteryRank": 0,
+      "image": "/data/img/Warframe/Frost_Prime.png",
+      "wiki": "http://warframe.wikia.com/wiki/Frost_Prime",
+      "acquisition": "Relics"
+    },
+    {
+      "id": "/Lotus/Weapons/Tenno/LongGuns/TnWispRifle/TnWispRifle",
+      "name": "Fulmin",
+      "type": "Primary",
+      "category": "Rifle",
+      "masteryRank": 8,
+      "image": "/data/img/Primary/Fulmin.png",
+      "wiki": "http://warframe.wikia.com/wiki/Fulmin",
+      "acquisition": "Market (Ship)"
+    },
+    {
+      "id": "/Lotus/Weapons/Tenno/Melee/Fist/Fist",
+      "name": "Furax",
+      "type": "Melee",
+      "category": "Fist",
+      "masteryRank": 0,
+      "image": "/data/img/Melee/Furax.png",
+      "wiki": "http://warframe.wikia.com/wiki/Furax",
+      "acquisition": "Market (Ship)"
+    },
+    {
+      "id": "/Lotus/Weapons/Tenno/Melee/Fist/FuraxWraith",
+      "name": "Furax Wraith",
+      "type": "Melee",
+      "category": "Fist",
+      "masteryRank": 3,
+      "image": "/data/img/Melee/Furax_Wraith.png",
+      "wiki": "http://warframe.wikia.com/wiki/Furax_Wraith",
+      "acquisition": "Cetus Bounty (Levels 40 - 60)"
+    },
+    {
+      "id": "/Lotus/Weapons/Tenno/Pistol/AutoPistol",
+      "name": "Furis",
+      "type": "Secondary",
+      "category": "Pistol",
+      "masteryRank": 2,
+      "image": "/data/img/Secondary/Furis.png",
+      "wiki": "http://warframe.wikia.com/wiki/Furis",
+      "acquisition": "Market (Ship)"
+    },
+    {
+      "id": "/Lotus/Weapons/Tenno/ThrowingWeapons/GlassKunai/GlassKunaiWeapon",
+      "name": "Fusilai",
+      "type": "Secondary",
+      "category": "Thrown",
+      "masteryRank": 7,
+      "image": "/data/img/Secondary/Fusilai.png",
+      "wiki": "http://warframe.wikia.com/wiki/Fusilai",
+      "acquisition": "Market (Ship)"
+    },
+    {
+      "id": "/Lotus/Weapons/Tenno/Melee/Swords/GreatSword/TennoGreatSword",
+      "name": "Galatine",
+      "type": "Melee",
+      "category": "Heavy Blade",
+      "masteryRank": 3,
+      "image": "/data/img/Melee/Galatine.png",
+      "wiki": "http://warframe.wikia.com/wiki/Galatine",
+      "acquisition": "Market (Ship)"
+    },
+    {
+      "id": "/Lotus/Weapons/Tenno/Melee/Swords/PrimeGalatine/PrimeGalatine",
+      "name": "Galatine Prime",
+      "type": "Melee",
+      "category": "Heavy Blade",
+      "masteryRank": 13,
+      "image": "/data/img/Melee/Galatine_Prime.png",
+      "wiki": "http://warframe.wikia.com/wiki/Galatine_Prime",
+      "acquisition": "Relics"
+    },
+    {
+      "id": "/Lotus/Weapons/Corpus/Melee/Whips/CrpShockGrip/CrpShockGripWhipWeapon",
+      "name": "Galvacord",
+      "type": "Melee",
+      "category": "Whip",
+      "masteryRank": 6,
+      "image": "/data/img/Melee/Galvacord.png",
+      "wiki": "http://warframe.wikia.com/wiki/Galvacord",
+      "acquisition": "Market (Ship)"
+    },
+    {
+      "id": "/Lotus/Weapons/Syndicates/CephalonSuda/Pistols/CSDroidArray",
+      "name": "Gammacor",
+      "type": "Secondary",
+      "category": "Pistol",
+      "masteryRank": 2,
+      "image": "/data/img/Secondary/Gammacor.png",
+      "wiki": "http://warframe.wikia.com/wiki/Gammacor",
+      "acquisition": "Market (Ship)"
+    },
+    {
+      "id": "/Lotus/Powersuits/Glass/Glass",
+      "name": "Gara",
+      "type": "Warframe",
+      "masteryRank": 0,
+      "image": "/data/img/Warframe/Gara.png",
+      "wiki": "http://warframe.wikia.com/wiki/Gara",
+      "acquisition": "Saya's Vigil (Quest)"
+    },
+    {
+      "id": "/Lotus/Powersuits/Garuda/Garuda",
+      "name": "Garuda",
+      "type": "Warframe",
+      "masteryRank": 0,
+      "image": "/data/img/Warframe/Garuda.png",
+      "wiki": "http://warframe.wikia.com/wiki/Garuda",
+      "acquisition": "Vox Solaris (Quest)"
+    },
+    {
+      "id": "/Lotus/Weapons/Tenno/Melee/PersianMachete/DjinnMachete",
+      "name": "Gazal Machete",
+      "type": "Melee",
+      "category": "Machete",
+      "masteryRank": 5,
+      "image": "/data/img/Melee/Gazal_Machete.png",
+      "wiki": "http://warframe.wikia.com/wiki/Gazal_Machete",
+      "acquisition": "Tenno Lab (Dojo)"
+    },
+    {
+      "id": "/Lotus/Weapons/SolarisUnited/Secondary/SUModularSecondarySet1/Barrel/SUModularSecondaryBarrelDPart",
+      "name": "Gaze",
+      "type": "Secondary",
+      "category": "Kitgun",
+      "masteryRank": 0,
+      "image": "/data/img/Secondary/Gaze.png",
+      "wiki": "http://warframe.wikia.com/wiki/Gaze",
+      "acquisition": "Rude Zuud (Fortuna)"
+    },
+    {
+      "id": "/Lotus/Weapons/Tenno/Melee/Glaives/LightGlaive/LightGlaiveWeapon",
+      "name": "Glaive",
+      "type": "Melee",
+      "category": "Glaive",
+      "masteryRank": 1,
+      "image": "/data/img/Melee/Glaive.png",
+      "wiki": "http://warframe.wikia.com/wiki/Glaive",
+      "acquisition": "Market (Ship)"
+    },
+    {
+      "id": "/Lotus/Weapons/Tenno/Melee/Glaives/PrimeGlaive/PrimeGlaiveWeapon",
+      "name": "Glaive Prime",
+      "type": "Melee",
+      "category": "Glaive",
+      "masteryRank": 10,
+      "image": "/data/img/Melee/Glaive_Prime.png",
+      "wiki": "http://warframe.wikia.com/wiki/Glaive_Prime",
+      "acquisition": "Relics"
+    },
+    {
+      "id": "/Lotus/Weapons/Corpus/LongGuns/CrpFreezeRay/CrpFreezeRayRifle",
+      "name": "Glaxion",
+      "type": "Primary",
+      "category": "Rifle",
+      "masteryRank": 8,
+      "image": "/data/img/Primary/Glaxion.png",
+      "wiki": "http://warframe.wikia.com/wiki/Glaxion",
+      "acquisition": "Energy Lab (Dojo)"
+    },
+    {
+      "id": "/Lotus/Weapons/Corpus/LongGuns/CrpFreezeRay/Vandal/CrpFreezeRayVandalRifle",
+      "name": "Glaxion Vandal",
+      "type": "Primary",
+      "category": "Rifle",
+      "masteryRank": 12,
+      "image": "/data/img/Primary/Glaxion_Vandal.png",
+      "wiki": "http://warframe.wikia.com/wiki/Glaxion_Vandal",
+      "acquisition": "Operation: Hostile Mergers"
+    },
+    {
+      "id": "/Lotus/Weapons/Tenno/Rifle/HeavyRifle",
+      "name": "Gorgon",
+      "type": "Primary",
+      "category": "Rifle",
+      "masteryRank": 3,
+      "image": "/data/img/Primary/Gorgon.png",
+      "wiki": "http://warframe.wikia.com/wiki/Gorgon",
+      "acquisition": "Heavy Gunners"
+    },
+    {
+      "id": "/Lotus/Weapons/Grineer/LongGuns/WraithGorgon/WraithGorgon",
+      "name": "Gorgon Wraith",
+      "type": "Primary",
+      "category": "Rifle",
+      "masteryRank": 7,
+      "image": "/data/img/Primary/Gorgon_Wraith.png",
+      "wiki": "http://warframe.wikia.com/wiki/Gorgon_Wraith",
+      "acquisition": "Razorback Armada"
+    },
+    {
+      "id": "/Lotus/Weapons/Grineer/LongGuns/GrineerAssaultRifle/GrnAssaultRifle",
+      "name": "Grakata",
+      "type": "Primary",
+      "category": "Rifle",
+      "masteryRank": 5,
+      "image": "/data/img/Primary/Grakata.png",
+      "wiki": "http://warframe.wikia.com/wiki/Grakata",
+      "acquisition": "Market (Ship)"
+    },
+    {
+      "id": "/Lotus/Weapons/Tenno/Melee/GreatSword/GreatSword",
+      "name": "Gram",
+      "type": "Melee",
+      "category": "Heavy Blade",
+      "masteryRank": 2,
+      "image": "/data/img/Melee/Gram.png",
+      "wiki": "http://warframe.wikia.com/wiki/Gram",
+      "acquisition": "Market (Ship)"
+    },
+    {
+      "id": "/Lotus/Weapons/Tenno/Melee/Swords/PrimeGram/PrimeGram",
+      "name": "Gram Prime",
+      "type": "Melee",
+      "category": "Heavy Blade",
+      "masteryRank": 14,
+      "image": "/data/img/Melee/Gram_Prime.png",
+      "wiki": "http://warframe.wikia.com/wiki/Gram_Prime",
+      "acquisition": "Relics"
+    },
+    {
+      "id": "/Lotus/Weapons/Sentients/OperatorAmplifiers/Set1/Barrel/SentAmpSet1BarrelPartC",
+      "name": "Granmu Prism",
+      "type": "Amp",
+      "masteryRank": 0,
+      "image": "/data/img/Amp/Granmu_Prism.png",
+      "wiki": "http://warframe.wikia.com/wiki/Granmu_Prism",
+      "acquisition": "The Quills (Cetus)"
+    },
+    {
+      "id": "/Lotus/Weapons/Tenno/Archwing/Primary/RepurposedGrineerAntiAircraftGun/ArchGRNAAGun",
+      "name": "Grattler",
+      "type": "Archwing Gun",
+      "masteryRank": 4,
+      "image": "/data/img/ArchwingPrimary/Grattler.png",
+      "wiki": "http://warframe.wikia.com/wiki/Grattler",
+      "acquisition": "Chem Lab (Dojo)"
+    },
+    {
+      "id": "/Lotus/Weapons/Grineer/LongGuns/GrineerLeverActionRifle/GLARifle",
+      "name": "Grinlok",
+      "type": "Primary",
+      "category": "Rifle",
+      "masteryRank": 7,
+      "image": "/data/img/Primary/Grinlok.png",
+      "wiki": "http://warframe.wikia.com/wiki/Grinlok",
+      "acquisition": "Chem Lab (Dojo)"
+    },
+    {
+      "id": "/Lotus/Weapons/Tenno/Melee/Polearms/TnGuandaoPolearm/TnGuandaoPolearmWeapon",
+      "name": "Guandao",
+      "type": "Melee",
+      "category": "Polearm",
+      "masteryRank": 4,
+      "image": "/data/img/Melee/Guandao.png",
+      "wiki": "http://warframe.wikia.com/wiki/Guandao",
+      "acquisition": "Tenno Lab (Dojo)"
+    },
+    {
+      "id": "/Lotus/Weapons/Tenno/Melee/Warfan/WarfanWeapon",
+      "name": "Gunsen",
+      "type": "Melee",
+      "category": "Warfan",
+      "masteryRank": 10,
+      "image": "/data/img/Melee/Gunsen.png",
+      "wiki": "http://warframe.wikia.com/wiki/Gunsen",
+      "acquisition": "Tenno Lab (Dojo)"
+    },
+    {
+      "id": "/Lotus/Weapons/Grineer/Melee/GrnBoomerang/GrnBoomerang",
+      "name": "Halikar",
+      "type": "Melee",
+      "category": "Glaive",
+      "masteryRank": 7,
+      "image": "/data/img/Melee/Halikar.png",
+      "wiki": "http://warframe.wikia.com/wiki/Halikar",
+      "acquisition": "Market (Ship)"
+    },
+    {
+      "id": "/Lotus/Weapons/Grineer/LongGuns/GrnHarpoonGun/GrnHarpoonGun",
+      "name": "Harpak",
+      "type": "Primary",
+      "category": "Rifle",
+      "masteryRank": 7,
+      "image": "/data/img/Primary/Harpak.png",
+      "wiki": "http://warframe.wikia.com/wiki/Harpak",
+      "acquisition": "Market (Ship)"
+    },
+    {
+      "id": "/Lotus/Powersuits/Priest/Priest",
+      "name": "Harrow",
+      "type": "Warframe",
+      "masteryRank": 0,
+      "image": "/data/img/Warframe/Harrow.png",
+      "wiki": "http://warframe.wikia.com/wiki/Harrow",
+      "acquisition": "Chains of Harrow (Quest)"
+    },
+    {
+      "id": "/Lotus/Weapons/Tenno/Melee/Scythe/StalkerScytheWeapon",
+      "name": "Hate",
+      "type": "Melee",
+      "category": "Scythe",
+      "masteryRank": 2,
+      "image": "/data/img/Melee/Hate.png",
+      "wiki": "http://warframe.wikia.com/wiki/Hate",
+      "acquisition": "Stalker"
+    },
+    {
+      "id": "/Lotus/Weapons/Tenno/Melee/Dagger/Dagger",
+      "name": "Heat Dagger",
+      "type": "Melee",
+      "category": "Dagger",
+      "masteryRank": 0,
+      "image": "/data/img/Melee/Heat_Dagger.png",
+      "wiki": "http://warframe.wikia.com/wiki/Heat_Dagger",
+      "acquisition": "Market (Ship)"
+    },
+    {
+      "id": "/Lotus/Weapons/Tenno/Melee/Swords/HeatSword/HeatLongSword",
+      "name": "Heat Sword",
+      "type": "Melee",
+      "category": "Sword",
+      "masteryRank": 0,
+      "image": "/data/img/Melee/Heat_Sword.png",
+      "wiki": "http://warframe.wikia.com/wiki/Heat_Sword",
+      "acquisition": "Market (Ship)"
+    },
+    {
+      "id": "/Lotus/Weapons/Tenno/Shotgun/QuadShotgun",
+      "name": "Hek",
+      "type": "Primary",
+      "category": "Shotgun",
+      "masteryRank": 4,
+      "image": "/data/img/Primary/Hek.png",
+      "wiki": "http://warframe.wikia.com/wiki/Hek",
+      "acquisition": "Market (Ship)"
+    },
+    {
+      "id": "/Lotus/Weapons/Cephalon/Melee/Hammer/CephHammerWeapon",
+      "name": "Heliocor",
+      "type": "Melee",
+      "category": "Hammer",
+      "masteryRank": 9,
+      "image": "/data/img/Melee/Heliocor.png",
+      "wiki": "http://warframe.wikia.com/wiki/Heliocor",
+      "acquisition": "Market (Ship)"
+    },
+    {
+      "id": "/Lotus/Types/Sentinels/SentinelPowersuits/MeleePetPowerSuit",
+      "name": "Helios",
+      "type": "Sentinel",
+      "masteryRank": 0,
+      "image": "/data/img/Sentinel/Helios.png",
+      "wiki": "http://warframe.wikia.com/wiki/Helios",
+      "acquisition": "Energy Lab (Dojo)"
+    },
+    {
+      "id": "/Lotus/Types/Sentinels/SentinelPowersuits/PrimeHeliosPowerSuit",
+      "name": "Helios Prime",
+      "type": "Sentinel",
+      "masteryRank": 0,
+      "image": "/data/img/Sentinel/Helios_Prime.png",
+      "wiki": "http://warframe.wikia.com/wiki/Helios_Prime",
+      "acquisition": "Relics"
+    },
+    {
+      "id": "/Lotus/Types/Game/KubrowPet/ChargerKubrowPetPowerSuit",
+      "name": "Helminth Charger",
+      "type": "Kubrow",
+      "masteryRank": 0,
+      "image": "/data/img/Kubrow/Helminth_Charger.png",
+      "wiki": "http://warframe.wikia.com/wiki/Helminth_Charger",
+      "acquisition": "Incubator Segment (Ship)"
+    },
+    {
+      "id": "/Lotus/Weapons/Infested/LongGuns/InfWFAccompanyingPri/InfestedBurstRifle",
+      "name": "Hema",
+      "type": "Primary",
+      "category": "Rifle",
+      "masteryRank": 7,
+      "image": "/data/img/Primary/Hema.png",
+      "wiki": "http://warframe.wikia.com/wiki/Hema",
+      "acquisition": "Bio Lab (Dojo)"
+    },
+    {
+      "id": "/Lotus/Weapons/Tenno/ThrowingWeapons/TennoStars",
+      "name": "Hikou",
+      "type": "Secondary",
+      "category": "Thrown",
+      "masteryRank": 2,
+      "image": "/data/img/Secondary/Hikou.png",
+      "wiki": "http://warframe.wikia.com/wiki/Hikou",
+      "acquisition": "Market (Ship)"
+    },
+    {
+      "id": "/Lotus/Weapons/Tenno/ThrowingWeapons/PrimeThrowingStar/PrimeHikou",
+      "name": "Hikou Prime",
+      "type": "Secondary",
+      "category": "Thrown",
+      "masteryRank": 4,
+      "image": "/data/img/Secondary/Hikou_Prime.png",
+      "wiki": "http://warframe.wikia.com/wiki/Hikou_Prime",
+      "acquisition": "Relics"
+    },
+    {
+      "id": "/Lotus/Powersuits/IronFrame/IronFrame",
+      "name": "Hildryn",
+      "type": "Warframe",
+      "masteryRank": 0,
+      "image": "/data/img/Warframe/Hildryn.png",
+      "wiki": "http://warframe.wikia.com/wiki/Hildryn",
+      "acquisition": "Market (Ship)"
+    },
+    {
+      "id": "/Lotus/Weapons/Grineer/LongGuns/BurstRifle/GrnBurstRifle",
+      "name": "Hind",
+      "type": "Primary",
+      "category": "Rifle",
+      "masteryRank": 0,
+      "image": "/data/img/Primary/Hind.png",
+      "wiki": "http://warframe.wikia.com/wiki/Hind",
+      "acquisition": "Market (Ship)"
+    },
+    {
+      "id": "/Lotus/Weapons/Infested/Melee/InfWFAccompanyingSparring/InfestedKogake",
+      "name": "Hirudo",
+      "type": "Melee",
+      "category": "Sparring",
+      "masteryRank": 7,
+      "image": "/data/img/Melee/Hirudo.png",
+      "wiki": "http://warframe.wikia.com/wiki/Hirudo",
+      "acquisition": "Market (Ship)"
+    },
+    {
+      "id": "/Lotus/Types/Game/KubrowPet/FurtiveKubrowPetPowerSuit",
+      "name": "Huras Kubrow",
+      "type": "Kubrow",
+      "masteryRank": 0,
+      "image": "/data/img/Kubrow/Huras_Kubrow.png",
+      "wiki": "http://warframe.wikia.com/wiki/Huras_Kubrow",
+      "acquisition": "Incubator Segment (Ship)"
+    },
+    {
+      "id": "/Lotus/Powersuits/Pirate/Pirate",
+      "name": "Hydroid",
+      "type": "Warframe",
+      "masteryRank": 0,
+      "image": "/data/img/Warframe/Hydroid.png",
+      "wiki": "http://warframe.wikia.com/wiki/Hydroid",
+      "acquisition": "Councilor Vay Hek (Boss)"
+    },
+    {
+      "id": "/Lotus/Powersuits/Pirate/HydroidPrime",
+      "name": "Hydroid Prime",
+      "type": "Warframe",
+      "masteryRank": 0,
+      "image": "/data/img/Warframe/Hydroid_Prime.png",
+      "wiki": "http://warframe.wikia.com/wiki/Hydroid_Prime",
+      "acquisition": "Relics"
+    },
+    {
+      "id": "/Lotus/Weapons/Tenno/Pistols/QuillDartgun/QuillDartGunWeapon",
+      "name": "Hystrix",
+      "type": "Secondary",
+      "category": "Pistol",
+      "masteryRank": 7,
+      "image": "/data/img/Secondary/Hystrix.png",
+      "wiki": "http://warframe.wikia.com/wiki/Hystrix",
+      "acquisition": "Market (Ship)"
+    },
+    {
+      "id": "/Lotus/Weapons/ClanTech/Chemical/FlameThrower",
+      "name": "Ignis",
+      "type": "Primary",
+      "category": "Rifle",
+      "masteryRank": 5,
+      "image": "/data/img/Primary/Ignis.png",
+      "wiki": "http://warframe.wikia.com/wiki/Ignis",
+      "acquisition": "Chem Lab (Dojo)"
+    },
+    {
+      "id": "/Lotus/Weapons/ClanTech/Chemical/FlameThrowerWraith",
+      "name": "Ignis Wraith",
+      "type": "Primary",
+      "category": "Rifle",
+      "masteryRank": 9,
+      "image": "/data/img/Primary/Ignis_Wraith.png",
+      "wiki": "http://warframe.wikia.com/wiki/Ignis_Wraith",
+      "acquisition": "Chem Lab (Dojo)",
+      "specialNote": "Item are limited."
+    },
+    {
+      "id": "/Lotus/Weapons/Tenno/Archwing/Primary/FoldingMachineGun/ArchMachineGun",
+      "name": "Imperator",
+      "type": "Archwing Gun",
+      "masteryRank": 0,
+      "image": "/data/img/ArchwingPrimary/Imperator.png",
+      "wiki": "http://warframe.wikia.com/wiki/Imperator",
+      "acquisition": "The Archwing (Quest)"
+    },
+    {
+      "id": "/Lotus/Weapons/Tenno/Archwing/Primary/FoldingMachineGun/ArchMachineGunVandal",
+      "name": "Imperator Vandal",
+      "type": "Archwing Gun",
+      "masteryRank": 5,
+      "image": "/data/img/ArchwingPrimary/Imperator_Vandal.png",
+      "wiki": "http://warframe.wikia.com/wiki/Imperator_Vandal",
+      "acquisition": "Fomorian Sabotage"
+    },
+    {
+      "id": "/Lotus/Powersuits/Sandman/Sandman",
+      "name": "Inaros",
+      "type": "Warframe",
+      "masteryRank": 0,
+      "image": "/data/img/Warframe/Inaros.png",
+      "wiki": "http://warframe.wikia.com/wiki/Inaros",
+      "acquisition": "Sands of Inaros (Quest)"
+    },
+    {
+      "id": "/Lotus/Powersuits/Archwing/StealthJetPack/StealthJetPack",
+      "name": "Itzal",
+      "type": "Archwing",
+      "masteryRank": 0,
+      "image": "/data/img/Archwing/Itzal.png",
+      "wiki": "http://warframe.wikia.com/wiki/Itzal",
+      "acquisition": "Tenno Lab (Dojo)"
+    },
+    {
+      "id": "/Lotus/Powersuits/Ranger/Ranger",
+      "name": "Ivara",
+      "type": "Warframe",
+      "masteryRank": 0,
+      "image": "/data/img/Warframe/Ivara.png",
+      "wiki": "http://warframe.wikia.com/wiki/Ivara",
+      "acquisition": "Spy Missions"
+    },
+    {
+      "id": "/Lotus/Weapons/Grineer/Melee/GrineerJetPoweredPolearm/GrineerJetPolearm",
+      "name": "Jat Kittag",
+      "type": "Melee",
+      "category": "Hammer",
+      "masteryRank": 5,
+      "image": "/data/img/Melee/Jat_Kittag.png",
+      "wiki": "http://warframe.wikia.com/wiki/Jat_Kittag",
+      "acquisition": "Chem Lab (Dojo)"
+    },
+    {
+      "id": "/Lotus/Weapons/Grineer/Melee/GrnKusarigama/GrnKusarigamaWeapon",
+      "name": "Jat Kusar",
+      "type": "Melee",
+      "category": "Blade and Whip",
+      "masteryRank": 10,
+      "image": "/data/img/Melee/Jat_Kusar.png",
+      "wiki": "http://warframe.wikia.com/wiki/Jat_Kusar",
+      "acquisition": "Chem Lab (Dojo)"
+    },
+    {
+      "id": "/Lotus/Weapons/Grineer/LongGuns/GrnFlameSpear/GrnFlameSpear",
+      "name": "Javlok",
+      "type": "Primary",
+      "category": "Speargun",
+      "masteryRank": 7,
+      "image": "/data/img/Primary/Javlok.png",
+      "wiki": "http://warframe.wikia.com/wiki/Javlok",
+      "acquisition": "Chem Lab (Dojo)"
+    },
+    {
+      "id": "/Lotus/Weapons/Tenno/Melee/Swords/JawSword/JawLongSword",
+      "name": "Jaw Sword",
+      "type": "Melee",
+      "category": "Sword",
+      "masteryRank": 0,
+      "image": "/data/img/Melee/Jaw_Sword.png",
+      "wiki": "http://warframe.wikia.com/wiki/Jaw_Sword",
+      "acquisition": "Nightwave"
+    },
+    {
+      "id": "/Lotus/Weapons/Tenno/Melee/DualKamas/SingleKama",
+      "name": "Kama",
+      "type": "Melee",
+      "category": "Machete",
+      "masteryRank": 1,
+      "image": "/data/img/Melee/Kama.png",
+      "wiki": "http://warframe.wikia.com/wiki/Kama",
+      "acquisition": "Market (Ship)"
+    },
+    {
+      "id": "/Lotus/Weapons/Grineer/LongGuns/GrineerM16Homage/GrineerM16Rifle",
+      "name": "Karak",
+      "type": "Primary",
+      "category": "Rifle",
+      "masteryRank": 1,
+      "image": "/data/img/Primary/Karak.png",
+      "wiki": "http://warframe.wikia.com/wiki/Karak",
+      "acquisition": "Market (Ship)"
+    },
+    {
+      "id": "/Lotus/Weapons/Grineer/LongGuns/GrineerM16Homage/KarakWraith",
+      "name": "Karak Wraith",
+      "type": "Primary",
+      "category": "Rifle",
+      "masteryRank": 7,
+      "image": "/data/img/Primary/Karak_Wraith.png",
+      "wiki": "http://warframe.wikia.com/wiki/Karak_Wraith",
+      "acquisition": "Invasions"
+    },
+    {
+      "id": "/Lotus/Weapons/Tenno/Melee/Swords/KrisDagger/KrisDagger",
+      "name": "Karyst",
+      "type": "Melee",
+      "category": "Dagger",
+      "masteryRank": 0,
+      "image": "/data/img/Melee/Karyst.png",
+      "wiki": "http://warframe.wikia.com/wiki/Karyst",
+      "acquisition": "Market (Ship)"
+    },
+    {
+      "id": "/Lotus/Weapons/Tenno/Archwing/Melee/ArchScythe/ArchScythe",
+      "name": "Kaszas",
+      "type": "Archwing Melee",
+      "masteryRank": 0,
+      "image": "/data/img/ArchwingMelee/Kaszas.png",
+      "wiki": "http://warframe.wikia.com/wiki/Kaszas",
+      "acquisition": "Market (Ship)"
+    },
+    {
+      "id": "/Lotus/Weapons/Grineer/Melee/GrineerHalberd/GrnHalberd",
+      "name": "Kesheg",
+      "type": "Melee",
+      "category": "Polearm",
+      "masteryRank": 7,
+      "image": "/data/img/Melee/Kesheg.png",
+      "wiki": "http://warframe.wikia.com/wiki/Kesheg",
+      "acquisition": "Chem Lab (Dojo)"
+    },
+    {
+      "id": "/Lotus/Weapons/Tenno/Melee/Glaives/Boomerang/BoomerangWeapon",
+      "name": "Kestrel",
+      "type": "Melee",
+      "category": "Glaive",
+      "masteryRank": 0,
+      "image": "/data/img/Melee/Kestrel.png",
+      "wiki": "http://warframe.wikia.com/wiki/Kestrel",
+      "acquisition": "Market (Ship)"
+    },
+    {
+      "id": "/Lotus/Powersuits/Khora/Khora",
+      "name": "Khora",
+      "type": "Warframe",
+      "masteryRank": 0,
+      "image": "/data/img/Warframe/Khora.png",
+      "wiki": "http://warframe.wikia.com/wiki/Khora",
+      "acquisition": "Sanctuary Onslaught"
+    },
+    {
+      "id": "/Lotus/Weapons/Corpus/OperatorAmplifiers/Set1/Barrel/CorpAmpSet1BarrelPartC",
+      "name": "Klamora Prism",
+      "type": "Amp",
+      "masteryRank": 0,
+      "image": "/data/img/Amp/Klamora_Prism.png",
+      "wiki": "http://warframe.wikia.com/wiki/Klamora_Prism",
+      "acquisition": "Little Duck (Fortuna)"
+    },
+    {
+      "id": "/Lotus/Weapons/Tenno/Pistols/TnPriestPistolScope/TnPriestPistolWeapon",
+      "name": "Knell",
+      "type": "Secondary",
+      "category": "Pistol",
+      "masteryRank": 10,
+      "image": "/data/img/Secondary/Knell.png",
+      "wiki": "http://warframe.wikia.com/wiki/Knell",
+      "acquisition": "Market (Ship)"
+    },
+    {
+      "id": "/Lotus/Weapons/Tenno/Archwing/Melee/GrnArchHand/GrnArchHandWeapon",
+      "name": "Knux",
+      "type": "Archwing Melee",
+      "masteryRank": 0,
+      "image": "/data/img/ArchwingMelee/Knux.png",
+      "wiki": "http://warframe.wikia.com/wiki/Knux",
+      "acquisition": "Chem Lab (Dojo)"
+    },
+    {
+      "id": "/Lotus/Weapons/Tenno/Melee/BrassKnuckles/BrassKnuckles",
+      "name": "Kogake",
+      "type": "Melee",
+      "category": "Sparring",
+      "masteryRank": 0,
+      "image": "/data/img/Melee/Kogake.png",
+      "wiki": "http://warframe.wikia.com/wiki/Kogake",
+      "acquisition": "Market (Ship)"
+    },
+    {
+      "id": "/Lotus/Weapons/Tenno/Melee/PrimeKogake/KogakePrimeKnuckles",
+      "name": "Kogake Prime",
+      "type": "Melee",
+      "category": "Sparring",
+      "masteryRank": 10,
+      "image": "/data/img/Melee/Kogake_Prime.png",
+      "wiki": "http://warframe.wikia.com/wiki/Kogake_Prime",
+      "acquisition": "Relics"
+    },
+    {
+      "id": "/Lotus/Weapons/Grineer/LongGuns/GrnSpark/GrnSparkRifle",
+      "name": "Kohm",
+      "type": "Primary",
+      "category": "Shotgun",
+      "masteryRank": 5,
+      "image": "/data/img/Primary/Kohm.png",
+      "wiki": "http://warframe.wikia.com/wiki/Kohm",
+      "acquisition": "Market (Ship)"
+    },
+    {
+      "id": "/Lotus/Weapons/Grineer/Pistols/GrnKohmPistol/GrnKohmPistol",
+      "name": "Kohmak",
+      "type": "Secondary",
+      "category": "Shotgun Sidearm",
+      "masteryRank": 5,
+      "image": "/data/img/Secondary/Kohmak.png",
+      "wiki": "http://warframe.wikia.com/wiki/Kohmak",
+      "acquisition": "Chem Lab (Dojo)"
+    },
+    {
+      "id": "/Lotus/Weapons/Corpus/LongGuns/CrpSentAmlgSniper/CrpSentAmlgSniper",
+      "name": "Komorex",
+      "type": "Primary",
+      "category": "Sniper Rifle",
+      "masteryRank": 8,
+      "image": "/data/img/Primary/Komorex.png",
+      "wiki": "http://warframe.wikia.com/wiki/Komorex",
+      "acquisition": "Energy Lab (Dojo)"
+    },
+    {
+      "id": "/Lotus/Weapons/Grineer/Melee/GrnSparring/GrnSpiderSparring/GrnSpiderSparring",
+      "name": "Korrudo",
+      "type": "Melee",
+      "category": "Sparring",
+      "masteryRank": 9,
+      "image": "/data/img/Melee/Korrudo.png",
+      "wiki": "http://warframe.wikia.com/wiki/Korrudo",
+      "acquisition": "Tusk Thumper (Plains of Eidolon)"
+    },
+    {
+      "id": "/Lotus/Weapons/Grineer/GrineerPistol/GrnHeavyPistol",
+      "name": "Kraken",
+      "type": "Secondary",
+      "category": "Pistol",
+      "masteryRank": 0,
+      "image": "/data/img/Secondary/Kraken.png",
+      "wiki": "http://warframe.wikia.com/wiki/Kraken",
+      "acquisition": "Market (Ship)"
+    },
+    {
+      "id": "/Lotus/Weapons/Corpus/Melee/CrpVenusHatchet/CrpVenusHatchet",
+      "name": "Kreska",
+      "type": "Melee",
+      "category": "Machete",
+      "masteryRank": 6,
+      "image": "/data/img/Melee/Kreska.png",
+      "wiki": "http://warframe.wikia.com/wiki/Kreska",
+      "acquisition": "Energy Lab (Dojo)"
+    },
+    {
+      "id": "/Lotus/Weapons/Grineer/Melee/GrnEgyptSwd/GrnEgyptSwdWeapon",
+      "name": "Krohkur",
+      "type": "Melee",
+      "category": "Sword",
+      "masteryRank": 5,
+      "image": "/data/img/Melee/Krohkur.png",
+      "wiki": "http://warframe.wikia.com/wiki/Krohkur",
+      "acquisition": "Market (Ship)"
+    },
+    {
+      "id": "/Lotus/Weapons/Tenno/Melee/Tonfa/TonfaContestWinner/TennoTonfa",
+      "name": "Kronen",
+      "type": "Melee",
+      "category": "Tonfa",
+      "masteryRank": 3,
+      "image": "/data/img/Melee/Kronen.png",
+      "wiki": "http://warframe.wikia.com/wiki/Kronen",
+      "acquisition": "Market (Ship)"
+    },
+    {
+      "id": "/Lotus/Weapons/Tenno/Melee/Tonfa/TonfaContestWinnerPrime/TonfaContestWinnerPrimeWeapon",
+      "name": "Kronen Prime",
+      "type": "Melee",
+      "category": "Tonfa",
+      "masteryRank": 8,
+      "image": "/data/img/Melee/Kronen_Prime.png",
+      "wiki": "http://warframe.wikia.com/wiki/Kronen_Prime",
+      "acquisition": "Relics"
+    },
+    {
+      "id": "/Lotus/Weapons/Ostron/Melee/ModularMelee01/Tip/TipSix",
+      "name": "Kronsh Strike",
+      "type": "Zaw",
+      "masteryRank": 0,
+      "image": "/data/img/Zaw/Kronsh.png",
+      "wiki": "http://warframe.wikia.com/wiki/Kronsh",
+      "acquisition": "Hok's Anvil (Cetus)"
+    },
+    {
+      "id": "/Lotus/Weapons/Grineer/Pistols/GrnTorpedoPistol/GrnTorpedoPistol",
+      "name": "Kulstar",
+      "type": "Secondary",
+      "category": "Pistol",
+      "masteryRank": 5,
+      "image": "/data/img/Secondary/Kulstar.png",
+      "wiki": "http://warframe.wikia.com/wiki/Kulstar",
+      "acquisition": "Market (Ship)"
+    },
+    {
+      "id": "/Lotus/Weapons/Tenno/ThrowingWeapons/Kunai",
+      "name": "Kunai",
+      "type": "Secondary",
+      "category": "Thrown",
+      "masteryRank": 2,
+      "image": "/data/img/Secondary/Kunai.png",
+      "wiki": "http://warframe.wikia.com/wiki/Kunai",
+      "acquisition": "Market (Ship)"
+    },
+    {
+      "id": "/Lotus/Weapons/Tenno/Melee/Swords/StalkerMios/StalkerMios",
+      "name": "Lacera",
+      "type": "Melee",
+      "category": "Blade and Whip",
+      "masteryRank": 7,
+      "image": "/data/img/Melee/Lacera.png",
+      "wiki": "http://warframe.wikia.com/wiki/Lacera",
+      "acquisition": "Tenno Lab (Dojo)"
+    },
+    {
+      "id": "/Lotus/Types/Friendly/Pets/MoaPets/MoaPetParts/MoaPetHeadLambeo",
+      "name": "Lambeo Moa",
+      "type": "Sentinel",
+      "masteryRank": 0,
+      "image": "/data/img/Sentinel/Lambeo_Moa.png",
+      "wiki": "http://warframe.wikia.com/wiki/Lambeo_Moa",
+      "acquisition": "Legs (Fortuna)"
+    },
+    {
+      "id": "/Lotus/Weapons/ClanTech/Energy/Railgun",
+      "name": "Lanka",
+      "type": "Primary",
+      "category": "Sniper Rifle",
+      "masteryRank": 10,
+      "image": "/data/img/Primary/Lanka.png",
+      "wiki": "http://warframe.wikia.com/wiki/Lanka",
+      "acquisition": "Energy Lab (Dojo)"
+    },
+    {
+      "id": "/Lotus/Weapons/Tenno/Archwing/Primary/TnShieldframeArchGun/TnShieldFrameArchGun",
+      "name": "Larkspur",
+      "type": "Archwing Gun",
+      "masteryRank": 8,
+      "image": "/data/img/ArchwingPrimary/Larkspur.png",
+      "wiki": "http://warframe.wikia.com/wiki/Larkspur",
+      "acquisition": "Tenno Lab (Dojo)"
+    },
+    {
+      "id": "/Lotus/Types/Sentinels/SentinelWeapons/LaserRifle",
+      "name": "Laser Rifle",
+      "type": "Sentinel Weapon",
+      "masteryRank": 0,
+      "image": "/data/img/SentinelWeapon/Laser_Rifle.png",
+      "wiki": "http://warframe.wikia.com/wiki/Laser_Rifle",
+      "acquisition": "Comes with Companion"
+    },
+    {
+      "id": "/Lotus/Weapons/Tenno/Pistol/Pistol",
+      "name": "Lato",
+      "type": "Secondary",
+      "category": "Pistol",
+      "masteryRank": 0,
+      "image": "/data/img/Secondary/Lato.png",
+      "wiki": "http://warframe.wikia.com/wiki/Lato",
+      "acquisition": "Market (Ship)"
+    },
+    {
+      "id": "/Lotus/Weapons/Tenno/Pistol/LatoPrime",
+      "name": "Lato Prime",
+      "type": "Secondary",
+      "category": "Pistol",
+      "masteryRank": 14,
+      "image": "/data/img/Secondary/Lato_Prime.png",
+      "wiki": "http://warframe.wikia.com/wiki/Lato_Prime",
+      "acquisition": "Unobtainable (Founders)"
+    },
+    {
+      "id": "/Lotus/Weapons/Tenno/Pistol/LatoVandal",
+      "name": "Lato Vandal",
+      "type": "Secondary",
+      "category": "Pistol",
+      "masteryRank": 7,
+      "image": "/data/img/Secondary/Lato_Vandal.png",
+      "wiki": "http://warframe.wikia.com/wiki/Lato_Vandal",
+      "acquisition": "Sanctuary Onslaught"
+    },
+    {
+      "id": "/Lotus/Weapons/Tenno/Rifle/SemiAutoRifle",
+      "name": "Latron",
+      "type": "Primary",
+      "category": "Rifle",
+      "masteryRank": 0,
+      "image": "/data/img/Primary/Latron.png",
+      "wiki": "http://warframe.wikia.com/wiki/Latron",
+      "acquisition": "Market (Ship)"
+    },
+    {
+      "id": "/Lotus/Weapons/Tenno/Rifle/LatronPrime",
+      "name": "Latron Prime",
+      "type": "Primary",
+      "category": "Rifle",
+      "masteryRank": 10,
+      "image": "/data/img/Primary/Latron_Prime.png",
+      "wiki": "http://warframe.wikia.com/wiki/Latron_Prime",
+      "acquisition": "Relics"
+    },
+    {
+      "id": "/Lotus/Weapons/Tenno/LongGuns/WraithLatron/WraithLatron",
+      "name": "Latron Wraith",
+      "type": "Primary",
+      "category": "Rifle",
+      "masteryRank": 7,
+      "image": "/data/img/Primary/Latron_Wraith.png",
+      "wiki": "http://warframe.wikia.com/wiki/Latron_Wraith",
+      "acquisition": "Invasions"
+    },
+    {
+      "id": "/Lotus/Weapons/Corpus/Melee/Whip/CorpusWhipWeapon",
+      "name": "Lecta",
+      "type": "Melee",
+      "category": "Whip",
+      "masteryRank": 0,
+      "image": "/data/img/Melee/Lecta.png",
+      "wiki": "http://warframe.wikia.com/wiki/Lecta",
+      "acquisition": "Market (Ship)"
+    },
+    {
+      "id": "/Lotus/Weapons/Corpus/OperatorAmplifiers/Set1/Barrel/CorpAmpSet1BarrelPartB",
+      "name": "Lega Prism",
+      "type": "Amp",
+      "masteryRank": 0,
+      "image": "/data/img/Amp/Lega_Prism.png",
+      "wiki": "http://warframe.wikia.com/wiki/Lega_Prism",
+      "acquisition": "Little Duck (Fortuna)"
+    },
+    {
+      "id": "/Lotus/Weapons/Corpus/Bow/Longbow/CrpBow",
+      "name": "Lenz",
+      "type": "Primary",
+      "category": "Bow",
+      "masteryRank": 8,
+      "image": "/data/img/Primary/Lenz.png",
+      "wiki": "http://warframe.wikia.com/wiki/Lenz",
+      "acquisition": "Energy Lab (Dojo)"
+    },
+    {
+      "id": "/Lotus/Weapons/Infested/Melee/TipedoStaff/InfTipedoStaff",
+      "name": "Lesion",
+      "type": "Melee",
+      "category": "Polearm",
+      "masteryRank": 7,
+      "image": "/data/img/Melee/Lesion.png",
+      "wiki": "http://warframe.wikia.com/wiki/Lesion",
+      "acquisition": "Market (Ship)"
+    },
+    {
+      "id": "/Lotus/Weapons/Tenno/Pistol/HeavyPistol",
+      "name": "Lex",
+      "type": "Secondary",
+      "category": "Pistol",
+      "masteryRank": 3,
+      "image": "/data/img/Secondary/Lex.png",
+      "wiki": "http://warframe.wikia.com/wiki/Lex",
+      "acquisition": "Market (Ship)"
+    },
+    {
+      "id": "/Lotus/Weapons/Tenno/Pistols/PrimeLex/PrimeLex",
+      "name": "Lex Prime",
+      "type": "Secondary",
+      "category": "Pistol",
+      "masteryRank": 8,
+      "image": "/data/img/Secondary/Lex_Prime.png",
+      "wiki": "http://warframe.wikia.com/wiki/Lex_Prime",
+      "acquisition": "Relics"
+    },
+    {
+      "id": "/Lotus/Powersuits/Magician/Magician",
+      "name": "Limbo",
+      "type": "Warframe",
+      "masteryRank": 0,
+      "image": "/data/img/Warframe/Limbo.png",
+      "wiki": "http://warframe.wikia.com/wiki/Limbo",
+      "acquisition": "The Limbo Theorem (Quest)"
+    },
+    {
+      "id": "/Lotus/Powersuits/Magician/LimboPrime",
+      "name": "Limbo Prime",
+      "type": "Warframe",
+      "masteryRank": 0,
+      "image": "/data/img/Warframe/Limbo_Prime.png",
+      "wiki": "http://warframe.wikia.com/wiki/Limbo_Prime",
+      "acquisition": "Relics"
+    },
+    {
+      "id": "/Lotus/Powersuits/Loki/Loki",
+      "name": "Loki",
+      "type": "Warframe",
+      "masteryRank": 0,
+      "image": "/data/img/Warframe/Loki.png",
+      "wiki": "http://warframe.wikia.com/wiki/Loki",
+      "acquisition": "Hyena Pack (Boss)"
+    },
+    {
+      "id": "/Lotus/Powersuits/Loki/LokiPrime",
+      "name": "Loki Prime",
+      "type": "Warframe",
+      "masteryRank": 0,
+      "image": "/data/img/Warframe/Loki_Prime.png",
+      "wiki": "http://warframe.wikia.com/wiki/Loki_Prime",
+      "acquisition": "Relics"
+    },
+    {
+      "id": "/Lotus/Weapons/MK1Series/MK1Bo",
+      "name": "MK1-Bo",
+      "type": "Melee",
+      "category": "Staff",
+      "masteryRank": 0,
+      "image": "/data/img/Melee/MK1-Bo.png",
+      "wiki": "http://warframe.wikia.com/wiki/MK1-Bo",
+      "acquisition": "Market (Ship)"
+    },
+    {
+      "id": "/Lotus/Weapons/Tenno/Rifle/StartingRifle",
+      "name": "MK1-Braton",
+      "type": "Primary",
+      "category": "Rifle",
+      "masteryRank": 0,
+      "image": "/data/img/Primary/MK1-Braton.png",
+      "wiki": "http://warframe.wikia.com/wiki/MK1-Braton",
+      "acquisition": "Market (Ship)"
+    },
+    {
+      "id": "/Lotus/Weapons/MK1Series/MK1Furax",
+      "name": "MK1-Furax",
+      "type": "Melee",
+      "category": "Fist",
+      "masteryRank": 0,
+      "image": "/data/img/Melee/MK1-Furax.png",
+      "wiki": "http://warframe.wikia.com/wiki/MK1-Furax",
+      "acquisition": "Market (Ship)"
+    },
+    {
+      "id": "/Lotus/Weapons/MK1Series/MK1Furis",
+      "name": "MK1-Furis",
+      "type": "Secondary",
+      "category": "Pistol",
+      "masteryRank": 0,
+      "image": "/data/img/Secondary/MK1-Furis.png",
+      "wiki": "http://warframe.wikia.com/wiki/MK1-Furis",
+      "acquisition": "Market (Ship)"
+    },
+    {
+      "id": "/Lotus/Weapons/MK1Series/MK1Kunai",
+      "name": "MK1-Kunai",
+      "type": "Secondary",
+      "category": "Thrown",
+      "masteryRank": 0,
+      "image": "/data/img/Secondary/MK1-Kunai.png",
+      "wiki": "http://warframe.wikia.com/wiki/MK1-Kunai",
+      "acquisition": "Market (Ship)"
+    },
+    {
+      "id": "/Lotus/Weapons/MK1Series/MK1Paris",
+      "name": "MK1-Paris",
+      "type": "Primary",
+      "category": "Bow",
+      "masteryRank": 0,
+      "image": "/data/img/Primary/MK1-Paris.png",
+      "wiki": "http://warframe.wikia.com/wiki/MK1-Paris",
+      "acquisition": "Market (Ship)"
+    },
+    {
+      "id": "/Lotus/Weapons/MK1Series/MK1Strun",
+      "name": "MK1-Strun",
+      "type": "Primary",
+      "category": "Shotgun",
+      "masteryRank": 0,
+      "image": "/data/img/Primary/MK1-Strun.png",
+      "wiki": "http://warframe.wikia.com/wiki/MK1-Strun",
+      "acquisition": "Market (Ship)"
+    },
+    {
+      "id": "/Lotus/Weapons/Grineer/Melee/GrineerMachetteAndCleaver/Machete",
+      "name": "Machete",
+      "type": "Melee",
+      "category": "Machete",
+      "masteryRank": 1,
+      "image": "/data/img/Melee/Machete.png",
+      "wiki": "http://warframe.wikia.com/wiki/Machete",
+      "acquisition": "Login Reward"
+    },
+    {
+      "id": "/Lotus/Weapons/Grineer/Melee/GrineerMachetteAndCleaver/WraithMacheteWeapon",
+      "name": "Machete Wraith",
+      "type": "Melee",
+      "category": "Machete",
+      "masteryRank": 1,
+      "image": "/data/img/Melee/Machete_Wraith.png",
+      "wiki": "http://warframe.wikia.com/wiki/Machete_Wraith",
+      "acquisition": "Baro Ki'Teer (Relay)"
+    },
+    {
+      "id": "/Lotus/Powersuits/Mag/Mag",
+      "name": "Mag",
+      "type": "Warframe",
+      "masteryRank": 0,
+      "image": "/data/img/Warframe/Mag.png",
+      "wiki": "http://warframe.wikia.com/wiki/Mag",
+      "acquisition": "The Sergeant (Boss)"
+    },
+    {
+      "id": "/Lotus/Powersuits/Mag/MagPrime",
+      "name": "Mag Prime",
+      "type": "Warframe",
+      "masteryRank": 0,
+      "image": "/data/img/Warframe/Mag_Prime.png",
+      "wiki": "http://warframe.wikia.com/wiki/Mag_Prime",
+      "acquisition": "Relics"
+    },
+    {
+      "id": "/Lotus/Weapons/Tenno/Melee/Maces/PaladinMace/PaladinMaceWeapon",
+      "name": "Magistar",
+      "type": "Melee",
+      "category": "Hammer",
+      "masteryRank": 1,
+      "image": "/data/img/Melee/Magistar.png",
+      "wiki": "http://warframe.wikia.com/wiki/Magistar",
+      "acquisition": "Market (Ship)"
+    },
+    {
+      "id": "/Lotus/Weapons/Tenno/Pistols/Magnum/Magnum",
+      "name": "Magnus",
+      "type": "Secondary",
+      "category": "Pistol",
+      "masteryRank": 10,
+      "image": "/data/img/Secondary/Magnus.png",
+      "wiki": "http://warframe.wikia.com/wiki/Magnus",
+      "acquisition": "Market (Ship)"
+    },
+    {
+      "id": "/Lotus/Weapons/VoidTrader/VTDetron",
+      "name": "Mara Detron",
+      "type": "Secondary",
+      "category": "Shotgun Sidearm",
+      "masteryRank": 9,
+      "image": "/data/img/Secondary/Mara_Detron.png",
+      "wiki": "http://warframe.wikia.com/wiki/Mara_Detron",
+      "acquisition": "Baro Ki'Teer (Relay)"
+    },
+    {
+      "id": "/Lotus/Weapons/Grineer/Pistols/GrineerLeverActionPistol/GLAPistol",
+      "name": "Marelok",
+      "type": "Secondary",
+      "category": "Pistol",
+      "masteryRank": 7,
+      "image": "/data/img/Secondary/Marelok.png",
+      "wiki": "http://warframe.wikia.com/wiki/Marelok",
+      "acquisition": "Market (Ship)"
+    },
+    {
+      "id": "/Lotus/Powersuits/Cowgirl/Cowgirl",
+      "name": "Mesa",
+      "type": "Warframe",
+      "masteryRank": 0,
+      "image": "/data/img/Warframe/Mesa.png",
+      "wiki": "http://warframe.wikia.com/wiki/Mesa",
+      "acquisition": "Mutalist Alad V (Boss)"
+    },
+    {
+      "id": "/Lotus/Powersuits/Cowgirl/MesaPrime",
+      "name": "Mesa Prime",
+      "type": "Warframe",
+      "masteryRank": 0,
+      "image": "/data/img/Warframe/Mesa_Prime.png",
+      "wiki": "http://warframe.wikia.com/wiki/Mesa_Prime",
+      "acquisition": "Relics"
+    },
+    {
+      "id": "/Lotus/Weapons/Ostron/Melee/ModularMelee01/Tip/TipThree",
+      "name": "Mewan Strike",
+      "type": "Zaw",
+      "masteryRank": 0,
+      "image": "/data/img/Zaw/Mewan.png",
+      "wiki": "http://warframe.wikia.com/wiki/Mewan",
+      "acquisition": "Hok's Anvil (Cetus)"
+    },
+    {
+      "id": "/Lotus/Weapons/Infested/Melee/Swords/Mios/Mios",
+      "name": "Mios",
+      "type": "Melee",
+      "category": "Blade and Whip",
+      "masteryRank": 8,
+      "image": "/data/img/Melee/Mios.png",
+      "wiki": "http://warframe.wikia.com/wiki/Mios",
+      "acquisition": "Bio Lab (Dojo)"
+    },
+    {
+      "id": "/Lotus/Powersuits/Harlequin/Harlequin",
+      "name": "Mirage",
+      "type": "Warframe",
+      "masteryRank": 0,
+      "image": "/data/img/Warframe/Mirage.png",
+      "wiki": "http://warframe.wikia.com/wiki/Mirage",
+      "acquisition": "Hidden Messages (Quest)"
+    },
+    {
+      "id": "/Lotus/Powersuits/Harlequin/MiragePrime",
+      "name": "Mirage Prime",
+      "type": "Warframe",
+      "masteryRank": 0,
+      "image": "/data/img/Warframe/Mirage_Prime.png",
+      "wiki": "http://warframe.wikia.com/wiki/Mirage_Prime",
+      "acquisition": "Relics"
+    },
+    {
+      "id": "/Lotus/Weapons/Infested/Melee/Swords/Mire/MireSword",
+      "name": "Mire",
+      "type": "Melee",
+      "category": "Sword",
+      "masteryRank": 0,
+      "image": "/data/img/Melee/Mire.png",
+      "wiki": "http://warframe.wikia.com/wiki/Mire",
+      "acquisition": "Market (Ship)"
+    },
+    {
+      "id": "/Lotus/Weapons/Grineer/LongGuns/GrineerSawbladeGun/SawBladeGun",
+      "name": "Miter",
+      "type": "Primary",
+      "category": "Rifle",
+      "masteryRank": 6,
+      "image": "/data/img/Primary/Miter.png",
+      "wiki": "http://warframe.wikia.com/wiki/Miter",
+      "acquisition": "Captain Vor and Lieutenant Lech Kril (Boss Duo)"
+    },
+    {
+      "id": "/Lotus/Weapons/Sentients/OperatorAmplifiers/SentTrainingAmplifier/SentAmpTrainingBarrel",
+      "name": "Mote Prism",
+      "type": "Amp",
+      "masteryRank": 0,
+      "image": "/data/img/Amp/Mote_Prism.png",
+      "wiki": "http://warframe.wikia.com/wiki/Mote_Prism",
+      "acquisition": "The Quills (Cetus)"
+    },
+    {
+      "id": "/Lotus/Types/Friendly/Pets/MoaPets/MoaPetComponents/HextraWeapon",
+      "name": "Multron",
+      "type": "Sentinel Weapon",
+      "masteryRank": 3,
+      "image": "/data/img/SentinelWeapon/Multron.png",
+      "wiki": "http://warframe.wikia.com/wiki/Multron",
+      "acquisition": "Comes with Companion (Fortuna)"
+    },
+    {
+      "id": "/Lotus/Weapons/Infested/Bow/InfCernosBow/InfCernos",
+      "name": "Mutalist Cernos",
+      "type": "Primary",
+      "category": "Bow",
+      "masteryRank": 7,
+      "image": "/data/img/Primary/Mutalist_Cernos.png",
+      "wiki": "http://warframe.wikia.com/wiki/Mutalist_Cernos",
+      "acquisition": "Market (Ship)"
+    },
+    {
+      "id": "/Lotus/Weapons/Infested/LongGuns/InfCrpShockSwarm/InfCrpShockSwarmRifle",
+      "name": "Mutalist Quanta",
+      "type": "Primary",
+      "category": "Rifle",
+      "masteryRank": 2,
+      "image": "/data/img/Primary/Mutalist_Quanta.png",
+      "wiki": "http://warframe.wikia.com/wiki/Mutalist_Quanta",
+      "acquisition": "Bio Lab (Dojo)"
+    },
+    {
+      "id": "/Lotus/Weapons/Tenno/LongGuns/GarudaCrossbow/GarudaCrossbow",
+      "name": "Nagantaka",
+      "type": "Primary",
+      "category": "Crossbow",
+      "masteryRank": 9,
+      "image": "/data/img/Primary/Nagantaka.png",
+      "wiki": "http://warframe.wikia.com/wiki/Nagantaka",
+      "acquisition": "Market (Ship)"
+    },
+    {
+      "id": "/Lotus/Weapons/Tenno/Melee/Swords/CutlassAndPoignard/CutlassPoignardSwords",
+      "name": "Nami Skyla",
+      "type": "Melee",
+      "category": "Dual Swords",
+      "masteryRank": 0,
+      "image": "/data/img/Melee/Nami_Skyla.png",
+      "wiki": "http://warframe.wikia.com/wiki/Nami_Skyla",
+      "acquisition": "Tenno Lab (Dojo)"
+    },
+    {
+      "id": "/Lotus/Weapons/Tenno/Melee/Swords/PrimeNamiSkyla/PrimeNamiSkyla",
+      "name": "Nami Skyla Prime",
+      "type": "Melee",
+      "category": "Dual Swords",
+      "masteryRank": 11,
+      "image": "/data/img/Melee/Nami_Skyla_Prime.png",
+      "wiki": "http://warframe.wikia.com/wiki/Nami_Skyla_Prime",
+      "acquisition": "Relics"
+    },
+    {
+      "id": "/Lotus/Weapons/Tenno/Melee/Swords/CutlassAndPoignard/TennoCutlass",
+      "name": "Nami Solo",
+      "type": "Melee",
+      "category": "Machete",
+      "masteryRank": 0,
+      "image": "/data/img/Melee/Nami_Solo.png",
+      "wiki": "http://warframe.wikia.com/wiki/Nami_Solo",
+      "acquisition": "Market (Ship)"
+    },
+    {
+      "id": "/Lotus/Types/Vehicles/Hoverboard/HoverboardParts/PartComponents/HoverboardCorpusB/HoverboardCorpusBDeck",
+      "name": "Needlenose",
+      "type": "K-Drive",
+      "masteryRank": 0,
+      "image": "/data/img/KDrive/Needlenose.png",
+      "wiki": "http://warframe.wikia.com/wiki/Needlenose",
+      "acquisition": "Roky (Fortuna)"
+    },
+    {
+      "id": "/Lotus/Powersuits/Necro/Necro",
+      "name": "Nekros",
+      "type": "Warframe",
+      "masteryRank": 0,
+      "image": "/data/img/Warframe/Nekros.png",
+      "wiki": "http://warframe.wikia.com/wiki/Nekros",
+      "acquisition": "Lephantis (Boss)"
+    },
+    {
+      "id": "/Lotus/Powersuits/Necro/NekrosPrime",
+      "name": "Nekros Prime",
+      "type": "Warframe",
+      "masteryRank": 0,
+      "image": "/data/img/Warframe/Nekros_Prime.png",
+      "wiki": "http://warframe.wikia.com/wiki/Nekros_Prime",
+      "acquisition": "Relics"
+    },
+    {
+      "id": "/Lotus/Powersuits/Nezha/Nezha",
+      "name": "Nezha",
+      "type": "Warframe",
+      "masteryRank": 0,
+      "image": "/data/img/Warframe/Nezha.png",
+      "wiki": "http://warframe.wikia.com/wiki/Nezha",
+      "acquisition": "Tenno Lab (Dojo)"
+    },
+    {
+      "id": "/Lotus/Powersuits/Infestation/Infestation",
+      "name": "Nidus",
+      "type": "Warframe",
+      "masteryRank": 0,
+      "image": "/data/img/Warframe/Nidus.png",
+      "wiki": "http://warframe.wikia.com/wiki/Nidus",
+      "acquisition": "The Glast Gambit (Quest)"
+    },
+    {
+      "id": "/Lotus/Weapons/Tenno/Melee/Swords/KatanaAndWakizashi/Katana",
+      "name": "Nikana",
+      "type": "Melee",
+      "category": "Nikana",
+      "masteryRank": 4,
+      "image": "/data/img/Melee/Nikana.png",
+      "wiki": "http://warframe.wikia.com/wiki/Nikana",
+      "acquisition": "Tenno Lab (Dojo)"
+    },
+    {
+      "id": "/Lotus/Weapons/Tenno/Melee/Swords/PrimeKatana/PrimeNikana",
+      "name": "Nikana Prime",
+      "type": "Melee",
+      "category": "Nikana",
+      "masteryRank": 0,
+      "image": "/data/img/Melee/Nikana_Prime.png",
+      "wiki": "http://warframe.wikia.com/wiki/Nikana_Prime",
+      "acquisition": "Relics"
+    },
+    {
+      "id": "/Lotus/Weapons/Tenno/Melee/Nunchaku/Nunchaku/Nunchaku",
+      "name": "Ninkondi",
+      "type": "Melee",
+      "category": "Nunchaku",
+      "masteryRank": 0,
+      "image": "/data/img/Melee/Ninkondi.png",
+      "wiki": "http://warframe.wikia.com/wiki/Ninkondi",
+      "acquisition": "Market (Ship)"
+    },
+    {
+      "id": "/Lotus/Weapons/Tenno/Melee/PrimeNinkondi/PrimeNikondi",
+      "name": "Ninkondi Prime",
+      "type": "Melee",
+      "category": "Nunchaku",
+      "masteryRank": 10,
+      "image": "/data/img/Melee/Ninkondi_Prime.png",
+      "wiki": "http://warframe.wikia.com/wiki/Ninkondi_Prime",
+      "acquisition": "Relics"
+    },
+    {
+      "id": "/Lotus/Powersuits/AntiMatter/Anti",
+      "name": "Nova",
+      "type": "Warframe",
+      "masteryRank": 0,
+      "image": "/data/img/Warframe/Nova.png",
+      "wiki": "http://warframe.wikia.com/wiki/Nova",
+      "acquisition": "The Raptors (Boss)"
+    },
+    {
+      "id": "/Lotus/Powersuits/AntiMatter/NovaPrime",
+      "name": "Nova Prime",
+      "type": "Warframe",
+      "masteryRank": 0,
+      "image": "/data/img/Warframe/Nova_Prime.png",
+      "wiki": "http://warframe.wikia.com/wiki/Nova_Prime",
+      "acquisition": "Relics"
+    },
+    {
+      "id": "/Lotus/Weapons/Grineer/Pistols/GrineerMicrowavegun/GrnMicrowavePistol",
+      "name": "Nukor",
+      "type": "Secondary",
+      "category": "Pistol",
+      "masteryRank": 4,
+      "image": "/data/img/Secondary/Nukor.png",
+      "wiki": "http://warframe.wikia.com/wiki/Nukor",
+      "acquisition": "Chem Lab (Dojo)"
+    },
+    {
+      "id": "/Lotus/Powersuits/Jade/Jade",
+      "name": "Nyx",
+      "type": "Warframe",
+      "masteryRank": 0,
+      "image": "/data/img/Warframe/Nyx.png",
+      "wiki": "http://warframe.wikia.com/wiki/Nyx",
+      "acquisition": "Phorid (Boss)"
+    },
+    {
+      "id": "/Lotus/Powersuits/Jade/NyxPrime",
+      "name": "Nyx Prime",
+      "type": "Warframe",
+      "masteryRank": 0,
+      "image": "/data/img/Warframe/Nyx_Prime.png",
+      "wiki": "http://warframe.wikia.com/wiki/Nyx_Prime",
+      "acquisition": "Relics"
+    },
+    {
+      "id": "/Lotus/Powersuits/Paladin/Paladin",
+      "name": "Oberon",
+      "type": "Warframe",
+      "masteryRank": 0,
+      "image": "/data/img/Warframe/Oberon.png",
+      "wiki": "http://warframe.wikia.com/wiki/Oberon",
+      "acquisition": "Eximus Enemies"
+    },
+    {
+      "id": "/Lotus/Powersuits/Paladin/PaladinPrime",
+      "name": "Oberon Prime",
+      "type": "Warframe",
+      "masteryRank": 0,
+      "image": "/data/img/Warframe/Oberon_Prime.png",
+      "wiki": "http://warframe.wikia.com/wiki/Oberon_Prime",
+      "acquisition": "Relics"
+    },
+    {
+      "id": "/Lotus/Weapons/Corpus/Melee/KickAndPunch/KickPunchWeapon",
+      "name": "Obex",
+      "type": "Melee",
+      "category": "Sparring",
+      "masteryRank": 0,
+      "image": "/data/img/Melee/Obex.png",
+      "wiki": "http://warframe.wikia.com/wiki/Obex",
+      "acquisition": "Market (Ship)"
+    },
+    {
+      "id": "/Lotus/Powersuits/Bard/Bard",
+      "name": "Octavia",
+      "type": "Warframe",
+      "masteryRank": 0,
+      "image": "/data/img/Warframe/Octavia.png",
+      "wiki": "http://warframe.wikia.com/wiki/Octavia",
+      "acquisition": "Octavia's Anthem (Quest)"
+    },
+    {
+      "id": "/Lotus/Weapons/Corpus/Pistols/CrpSentExperimentPistol/CrpSentExperimentPistol",
+      "name": "Ocucor",
+      "type": "Secondary",
+      "category": "Pistol",
+      "masteryRank": 8,
+      "image": "/data/img/Secondary/Ocucor.png",
+      "wiki": "http://warframe.wikia.com/wiki/Ocucor",
+      "acquisition": "Energy Lab (Dojo)"
+    },
+    {
+      "id": "/Lotus/Powersuits/Archwing/StandardJetPack/StandardJetPack",
+      "name": "Odonata",
+      "type": "Archwing",
+      "masteryRank": 0,
+      "image": "/data/img/Archwing/Odonata.png",
+      "wiki": "http://warframe.wikia.com/wiki/Odonata",
+      "acquisition": "The Archwing (Quest)"
+    },
+    {
+      "id": "/Lotus/Powersuits/Archwing/PrimeJetPack/PrimeJetPack",
+      "name": "Odonata Prime",
+      "type": "Archwing",
+      "masteryRank": 0,
+      "image": "/data/img/Archwing/Odonata_Prime.png",
+      "wiki": "http://warframe.wikia.com/wiki/Odonata_Prime",
+      "acquisition": "Relics"
+    },
+    {
+      "id": "/Lotus/Weapons/ClanTech/Chemical/RocketLauncher",
+      "name": "Ogris",
+      "type": "Primary",
+      "category": "Launcher",
+      "masteryRank": 9,
+      "image": "/data/img/Primary/Ogris.png",
+      "wiki": "http://warframe.wikia.com/wiki/Ogris",
+      "acquisition": "Chem Lab (Dojo)"
+    },
+    {
+      "id": "/Lotus/Weapons/Corpus/Melee/CrpTonfa/CrpTonfa",
+      "name": "Ohma",
+      "type": "Melee",
+      "category": "Tonfa",
+      "masteryRank": 8,
+      "image": "/data/img/Melee/Ohma.png",
+      "wiki": "http://warframe.wikia.com/wiki/Ohma",
+      "acquisition": "Market (Ship)"
+    },
+    {
+      "id": "/Lotus/Weapons/Tenno/Melee/Swords/TennoSai/TennoSais",
+      "name": "Okina",
+      "type": "Melee",
+      "category": "Dual Daggers",
+      "masteryRank": 5,
+      "image": "/data/img/Melee/Okina.png",
+      "wiki": "http://warframe.wikia.com/wiki/Okina",
+      "acquisition": "Tenno Lab (Dojo)"
+    },
+    {
+      "id": "/Lotus/Types/Friendly/Pets/MoaPets/MoaPetParts/MoaPetHeadOloro",
+      "name": "Oloro Moa",
+      "type": "Sentinel",
+      "masteryRank": 0,
+      "image": "/data/img/Sentinel/Oloro_Moa.png",
+      "wiki": "http://warframe.wikia.com/wiki/Oloro_Moa",
+      "acquisition": "Legs (Fortuna)"
+    },
+    {
+      "id": "/Lotus/Weapons/Tenno/Archwing/Melee/Archaxe/ArchAxeWeapon",
+      "name": "Onorix",
+      "type": "Archwing Melee",
+      "masteryRank": 0,
+      "image": "/data/img/ArchwingMelee/Onorix.png",
+      "wiki": "http://warframe.wikia.com/wiki/Onorix",
+      "acquisition": "Market (Ship)"
+    },
+    {
+      "id": "/Lotus/Weapons/Ostron/Melee/ModularMelee01/Tip/TipTwo",
+      "name": "Ooltha Strike",
+      "type": "Zaw",
+      "masteryRank": 0,
+      "image": "/data/img/Zaw/Ooltha.png",
+      "wiki": "http://warframe.wikia.com/wiki/Ooltha",
+      "acquisition": "Hok's Anvil (Cetus)"
+    },
+    {
+      "id": "/Lotus/Weapons/Corpus/LongGuns/CrpBFG/CrpBFG",
+      "name": "Opticor",
+      "type": "Primary",
+      "category": "Rifle",
+      "masteryRank": 14,
+      "image": "/data/img/Primary/Opticor.png",
+      "wiki": "http://warframe.wikia.com/wiki/Opticor",
+      "acquisition": "Energy Lab (Dojo)"
+    },
+    {
+      "id": "/Lotus/Weapons/Corpus/LongGuns/CrpBFG/Vandal/VandalCrpBFG",
+      "name": "Opticor Vandal",
+      "type": "Primary",
+      "category": "Rifle",
+      "masteryRank": 14,
+      "image": "/data/img/Primary/Opticor_Vandal.png",
+      "wiki": "http://warframe.wikia.com/wiki/Opticor_Vandal",
+      "acquisition": "Buried Debts (Quest)"
+    },
+    {
+      "id": "/Lotus/Weapons/Tenno/Melee/Polearms/PolearmWeapon",
+      "name": "Orthos",
+      "type": "Melee",
+      "category": "Polearm",
+      "masteryRank": 2,
+      "image": "/data/img/Melee/Orthos.png",
+      "wiki": "http://warframe.wikia.com/wiki/Orthos",
+      "acquisition": "Market (Ship)"
+    },
+    {
+      "id": "/Lotus/Weapons/Tenno/Melee/Polearms/PrimePolearmWeapon",
+      "name": "Orthos Prime",
+      "type": "Melee",
+      "category": "Polearm",
+      "masteryRank": 2,
+      "image": "/data/img/Melee/Orthos_Prime.png",
+      "wiki": "http://warframe.wikia.com/wiki/Orthos_Prime",
+      "acquisition": "Relics"
+    },
+    {
+      "id": "/Lotus/Weapons/Tenno/Melee/Glaives/TeshinGlaive/TnTeshinGlaiveWep",
+      "name": "Orvius",
+      "type": "Melee",
+      "category": "Glaive",
+      "masteryRank": 5,
+      "image": "/data/img/Melee/Orvius.png",
+      "wiki": "http://warframe.wikia.com/wiki/Orvius",
+      "acquisition": "The War Within (Quest)"
+    },
+    {
+      "id": "/Lotus/Types/Sentinels/SentinelPowersuits/RadarPowerSuit",
+      "name": "Oxylus",
+      "type": "Sentinel",
+      "masteryRank": 0,
+      "image": "/data/img/Sentinel/Oxylus.png",
+      "wiki": "http://warframe.wikia.com/wiki/Oxylus",
+      "acquisition": "The Business (Fortuna)"
+    },
+    {
+      "id": "/Lotus/Weapons/Tenno/Pistols/TnBardPistol/TnBardPistolGun",
+      "name": "Pandero",
+      "type": "Secondary",
+      "category": "Pistol",
+      "masteryRank": 8,
+      "image": "/data/img/Secondary/Pandero.png",
+      "wiki": "http://warframe.wikia.com/wiki/Pandero",
+      "acquisition": "Market (Ship)"
+    },
+    {
+      "id": "/Lotus/Weapons/Tenno/Melee/Swords/PangolinSword/PangolinLongSword",
+      "name": "Pangolin Sword",
+      "type": "Melee",
+      "category": "Sword",
+      "masteryRank": 0,
+      "image": "/data/img/Melee/Pangolin_Sword.png",
+      "wiki": "http://warframe.wikia.com/wiki/Pangolin_Sword",
+      "acquisition": "Nightwave"
+    },
+    {
+      "id": "/Lotus/Weapons/Tenno/LongGuns/Miter/TnoMiter",
+      "name": "Panthera",
+      "type": "Primary",
+      "category": "Rifle",
+      "masteryRank": 7,
+      "image": "/data/img/Primary/Panthera.png",
+      "wiki": "http://warframe.wikia.com/wiki/Panthera",
+      "acquisition": "Market (Ship)"
+    },
+    {
+      "id": "/Lotus/Types/Friendly/Pets/MoaPets/MoaPetParts/MoaPetHeadPara",
+      "name": "Para Moa",
+      "type": "Sentinel",
+      "masteryRank": 0,
+      "image": "/data/img/Sentinel/Para_Moa.png",
+      "wiki": "http://warframe.wikia.com/wiki/Para_Moa",
+      "acquisition": "Legs (Fortuna)"
+    },
+    {
+      "id": "/Lotus/Weapons/Orokin/BallasSword/BallasSwordWeapon",
+      "name": "Paracesis",
+      "type": "Melee",
+      "category": "Heavy Blade",
+      "masteryRank": 10,
+      "image": "/data/img/Melee/Paracesis.png",
+      "wiki": "http://warframe.wikia.com/wiki/Paracesis",
+      "acquisition": "Chimera Prologue (Quest)"
+    },
+    {
+      "id": "/Lotus/Weapons/Infested/LongGuns/QuantaFullyInfested/InfQuantaRifle",
+      "name": "Paracyst",
+      "type": "Primary",
+      "category": "Rifle",
+      "masteryRank": 7,
+      "image": "/data/img/Primary/Paracyst.png",
+      "wiki": "http://warframe.wikia.com/wiki/Paracyst",
+      "acquisition": "Bio Lab (Dojo)"
+    },
+    {
+      "id": "/Lotus/Weapons/Tenno/Bows/HuntingBow",
+      "name": "Paris",
+      "type": "Primary",
+      "category": "Bow",
+      "masteryRank": 3,
+      "image": "/data/img/Primary/Paris.png",
+      "wiki": "http://warframe.wikia.com/wiki/Paris",
+      "acquisition": "Market (Ship)"
+    },
+    {
+      "id": "/Lotus/Weapons/Tenno/Bows/PrimeHuntingBow",
+      "name": "Paris Prime",
+      "type": "Primary",
+      "category": "Bow",
+      "masteryRank": 8,
+      "image": "/data/img/Primary/Paris_Prime.png",
+      "wiki": "http://warframe.wikia.com/wiki/Paris_Prime",
+      "acquisition": "Relics"
+    },
+    {
+      "id": "/Lotus/Weapons/Corpus/LongGuns/GrenadeLauncher/GrenadeLauncher",
+      "name": "Penta",
+      "type": "Primary",
+      "category": "Launcher",
+      "masteryRank": 6,
+      "image": "/data/img/Primary/Penta.png",
+      "wiki": "http://warframe.wikia.com/wiki/Penta",
+      "acquisition": "Market (Ship)"
+    },
+    {
+      "id": "/Lotus/Weapons/Tenno/Archwing/Primary/ArchLongRifle/ArchLongRifle",
+      "name": "Phaedra",
+      "type": "Archwing Gun",
+      "masteryRank": 3,
+      "image": "/data/img/ArchwingPrimary/Phaedra.png",
+      "wiki": "http://warframe.wikia.com/wiki/Phaedra",
+      "acquisition": "Market (Ship)"
+    },
+    {
+      "id": "/Lotus/Weapons/Infested/LongGuns/Tentacluster/InfestedShotgun",
+      "name": "Phage",
+      "type": "Primary",
+      "category": "Shotgun",
+      "masteryRank": 11,
+      "image": "/data/img/Primary/Phage.png",
+      "wiki": "http://warframe.wikia.com/wiki/Phage",
+      "acquisition": "Bio Lab (Dojo)"
+    },
+    {
+      "id": "/Lotus/Weapons/Tenno/LongGuns/RevenantShotgun/RevenantShotgun",
+      "name": "Phantasma",
+      "type": "Primary",
+      "category": "Shotgun",
+      "masteryRank": 9,
+      "image": "/data/img/Primary/Phantasma.png",
+      "wiki": "http://warframe.wikia.com/wiki/Phantasma",
+      "acquisition": "Market (Ship)"
+    },
+    {
+      "id": "/Lotus/Weapons/Ostron/Melee/ModularMeleeInfested/Tips/InfestedTipTwo",
+      "name": "Plague Keewar Strike",
+      "type": "Zaw",
+      "masteryRank": 0,
+      "image": "/data/img/Zaw/Plague_Keewar.png",
+      "wiki": "http://warframe.wikia.com/wiki/Plague_Keewar",
+      "acquisition": "Operation Plague Star (Cetus)"
+    },
+    {
+      "id": "/Lotus/Weapons/Ostron/Melee/ModularMeleeInfested/Tips/InfestedTipOne",
+      "name": "Plague Kripath Strike",
+      "type": "Zaw",
+      "masteryRank": 0,
+      "image": "/data/img/Zaw/Plague_Kripath.png",
+      "wiki": "http://warframe.wikia.com/wiki/Plague_Kripath",
+      "acquisition": "Operation Plague Star (Cetus)"
+    },
+    {
+      "id": "/Lotus/Weapons/Tenno/Melee/Swords/PlasmaSword/PlasmaLongSword",
+      "name": "Plasma Sword",
+      "type": "Melee",
+      "category": "Sword",
+      "masteryRank": 0,
+      "image": "/data/img/Melee/Plasma_Sword.png",
+      "wiki": "http://warframe.wikia.com/wiki/Plasma_Sword",
+      "acquisition": "Market (Ship)"
+    },
+    {
+      "id": "/Lotus/Weapons/Corpus/Pistols/CrpSonificBlastor/CrpBlastorWeapon",
+      "name": "Plinx",
+      "type": "Secondary",
+      "category": "Pistol",
+      "masteryRank": 6,
+      "image": "/data/img/Secondary/Plinx.png",
+      "wiki": "http://warframe.wikia.com/wiki/Plinx",
+      "acquisition": "Market (Ship)"
+    },
+    {
+      "id": "/Lotus/Weapons/Infested/Pistols/InfProximityStars/InfProximityStars",
+      "name": "Pox",
+      "type": "Secondary",
+      "category": "Thrown",
+      "masteryRank": 9,
+      "image": "/data/img/Secondary/Pox.png",
+      "wiki": "http://warframe.wikia.com/wiki/Pox",
+      "acquisition": "Bio Lab (Dojo)"
+    },
+    {
+      "id": "/Lotus/Types/Sentinels/SentinelWeapons/PrimeLaserRifle",
+      "name": "Prime Laser Rifle",
+      "type": "Sentinel Weapon",
+      "masteryRank": 0,
+      "image": "/data/img/SentinelWeapon/Prime_Laser_Rifle.png",
+      "wiki": "http://warframe.wikia.com/wiki/Prime_Laser_Rifle",
+      "acquisition": "Comes with Companion"
+    },
+    {
+      "id": "/Lotus/Weapons/Corpus/Pistols/CrpHandRL/PrismaAngstrum",
+      "name": "Prisma Angstrum",
+      "type": "Secondary",
+      "category": "Pistol",
+      "masteryRank": 8,
+      "image": "/data/img/Secondary/Prisma_Angstrum.png",
+      "wiki": "http://warframe.wikia.com/wiki/Prisma_Angstrum",
+      "acquisition": "Baro Ki'Teer (Relay)"
+    },
+    {
+      "id": "/Lotus/Types/Sentinels/SentinelWeapons/PrismaBurstLaserPistol",
+      "name": "Prisma Burst Laser",
+      "type": "Sentinel Weapon",
+      "masteryRank": 0,
+      "image": "/data/img/SentinelWeapon/Prisma_Burst_Laser.png",
+      "wiki": "http://warframe.wikia.com/wiki/Prisma_Burst_Laser",
+      "acquisition": "Comes with Companion"
+    },
+    {
+      "id": "/Lotus/Weapons/Grineer/Melee/GrineerMachetteAndCleaver/PrismaDualCleavers",
+      "name": "Prisma Dual Cleavers",
+      "type": "Melee",
+      "category": "Dual Swords",
+      "masteryRank": 3,
+      "image": "/data/img/Melee/Prisma_Dual_Cleavers.png",
+      "wiki": "http://warframe.wikia.com/wiki/Prisma_Dual_Cleavers",
+      "acquisition": "Baro Ki'Teer (Relay)"
+    },
+    {
+      "id": "/Lotus/Weapons/Grineer/LongGuns/VoidTraderGorgon/VTGorgon",
+      "name": "Prisma Gorgon",
+      "type": "Primary",
+      "category": "Rifle",
+      "masteryRank": 11,
+      "image": "/data/img/Primary/Prisma_Gorgon.png",
+      "wiki": "http://warframe.wikia.com/wiki/Prisma_Gorgon",
+      "acquisition": "Baro Ki'Teer (Relay)"
+    },
+    {
+      "id": "/Lotus/Weapons/VoidTrader/PrismaGrakata",
+      "name": "Prisma Grakata",
+      "type": "Primary",
+      "category": "Rifle",
+      "masteryRank": 11,
+      "image": "/data/img/Primary/Prisma_Grakata.png",
+      "wiki": "http://warframe.wikia.com/wiki/Prisma_Grakata",
+      "acquisition": "Baro Ki'Teer (Relay)"
+    },
+    {
+      "id": "/Lotus/Weapons/Grineer/LongGuns/GrineerLeverActionRifle/PrismaGrinlokWeapon",
+      "name": "Prisma Grinlok",
+      "type": "Primary",
+      "category": "Rifle",
+      "masteryRank": 11,
+      "image": "/data/img/Primary/Prisma_Grinlok.png",
+      "wiki": "http://warframe.wikia.com/wiki/Prisma_Grinlok",
+      "acquisition": "Baro Ki'Teer (Relay)"
+    },
+    {
+      "id": "/Lotus/Weapons/Corpus/Melee/KickAndPunch/PrismaObex",
+      "name": "Prisma Obex",
+      "type": "Melee",
+      "category": "Sparring",
+      "masteryRank": 0,
+      "image": "/data/img/Melee/Prisma_Obex.png",
+      "wiki": "http://warframe.wikia.com/wiki/Prisma_Obex",
+      "acquisition": "Baro Ki'Teer (Relay)"
+    },
+    {
+      "id": "/Lotus/Types/Sentinels/SentinelPowersuits/PrismaShadePowerSuit",
+      "name": "Prisma Shade",
+      "type": "Sentinel",
+      "masteryRank": 0,
+      "image": "/data/img/Sentinel/Prisma_Shade.png",
+      "wiki": "http://warframe.wikia.com/wiki/Prisma_Shade",
+      "acquisition": "Baro Ki'Teer (Relay)"
+    },
+    {
+      "id": "/Lotus/Weapons/VoidTrader/PrismaSkana",
+      "name": "Prisma Skana",
+      "type": "Melee",
+      "category": "Sword",
+      "masteryRank": 0,
+      "image": "/data/img/Melee/Prisma_Skana.png",
+      "wiki": "http://warframe.wikia.com/wiki/Prisma_Skana",
+      "acquisition": "Baro Ki'Teer (Relay)"
+    },
+    {
+      "id": "/Lotus/Weapons/Corpus/LongGuns/CorpusUMP/PrismaCorpusUMP",
+      "name": "Prisma Tetra",
+      "type": "Primary",
+      "category": "Rifle",
+      "masteryRank": 4,
+      "image": "/data/img/Primary/Prisma_Tetra.png",
+      "wiki": "http://warframe.wikia.com/wiki/Prisma_Tetra",
+      "acquisition": "Baro Ki'Teer (Relay)"
+    },
+    {
+      "id": "/Lotus/Weapons/Grineer/Pistols/GrineerBulbousSMG/Prisma/PrismaTwinGremlinsWeapon",
+      "name": "Prisma Twin Gremlins",
+      "type": "Secondary",
+      "category": "Dual Pistols",
+      "masteryRank": 11,
+      "image": "/data/img/Secondary/Prisma_Twin_Gremlins.png",
+      "wiki": "http://warframe.wikia.com/wiki/Prisma_Twin_Gremlins",
+      "acquisition": "Baro Ki'Teer (Relay)"
+    },
+    {
+      "id": "/Lotus/Weapons/Tenno/Archwing/Melee/VoidTraderArchsword/VTArchSwordWeapon",
+      "name": "Prisma Veritux",
+      "type": "Archwing Melee",
+      "masteryRank": 0,
+      "image": "/data/img/ArchwingMelee/Prisma_Veritux.png",
+      "wiki": "http://warframe.wikia.com/wiki/Prisma_Veritux",
+      "acquisition": "Baro Ki'Teer (Relay)"
+    },
+    {
+      "id": "/Lotus/Weapons/ClanTech/Energy/ElectroProd",
+      "name": "Prova",
+      "type": "Melee",
+      "category": "Machete",
+      "masteryRank": 3,
+      "image": "/data/img/Melee/Prova.png",
+      "wiki": "http://warframe.wikia.com/wiki/Prova",
+      "acquisition": "Energy Lab (Dojo)"
+    },
+    {
+      "id": "/Lotus/Weapons/ClanTech/Energy/VandalElectroProd",
+      "name": "Prova Vandal",
+      "type": "Melee",
+      "category": "Machete",
+      "masteryRank": 3,
+      "image": "/data/img/Melee/Prova_Vandal.png",
+      "wiki": "http://warframe.wikia.com/wiki/Prova_Vandal",
+      "acquisition": "Baro Ki'Teer (Relay)"
+    },
+    {
+      "id": "/Lotus/Weapons/Infested/Melee/Staff/InfStaff/InfStaff",
+      "name": "Pupacyst",
+      "type": "Melee",
+      "category": "Polearm",
+      "masteryRank": 7,
+      "image": "/data/img/Melee/Pupacyst.png",
+      "wiki": "http://warframe.wikia.com/wiki/Pupacyst",
+      "acquisition": "Bio Lab (Dojo)"
+    },
+    {
+      "id": "/Lotus/Weapons/Tenno/Pistols/SawnOffShotgun/TennoHandShotgun",
+      "name": "Pyrana",
+      "type": "Secondary",
+      "category": "Shotgun Sidearm",
+      "masteryRank": 12,
+      "image": "/data/img/Secondary/Pyrana.png",
+      "wiki": "http://warframe.wikia.com/wiki/Pyrana",
+      "acquisition": "Tenno Lab (Dojo)"
+    },
+    {
+      "id": "/Lotus/Weapons/Tenno/Pistols/PrimePyrana/PrimePyranaPistol",
+      "name": "Pyrana Prime",
+      "type": "Secondary",
+      "category": "Shotgun Sidearm",
+      "masteryRank": 13,
+      "image": "/data/img/Secondary/Pyrana_Prime.png",
+      "wiki": "http://warframe.wikia.com/wiki/Pyrana_Prime",
+      "acquisition": "Relics"
+    },
+    {
+      "id": "/Lotus/Weapons/Corpus/LongGuns/CrpShockRifle/CrpShockRifle",
+      "name": "Quanta",
+      "type": "Primary",
+      "category": "Rifle",
+      "masteryRank": 4,
+      "image": "/data/img/Primary/Quanta.png",
+      "wiki": "http://warframe.wikia.com/wiki/Quanta",
+      "acquisition": "Energy Lab (Dojo)"
+    },
+    {
+      "id": "/Lotus/Weapons/Corpus/LongGuns/CrpShockRifle/QuantaVandal",
+      "name": "Quanta Vandal",
+      "type": "Primary",
+      "category": "Rifle",
+      "masteryRank": 10,
+      "image": "/data/img/Primary/Quanta_Vandal.png",
+      "wiki": "http://warframe.wikia.com/wiki/Quanta_Vandal",
+      "acquisition": "Baro Ki'Teer (Relay)"
+    },
+    {
+      "id": "/Lotus/Weapons/Grineer/LongGuns/GrnFourBarrelRifle/GrnFourBarrelRifleWeapon",
+      "name": "Quartakk",
+      "type": "Primary",
+      "category": "Rifle",
+      "masteryRank": 10,
+      "image": "/data/img/Primary/Quartakk.png",
+      "wiki": "http://warframe.wikia.com/wiki/Quartakk",
+      "acquisition": "Cetus Bounty (Ghoul)"
+    },
+    {
+      "id": "/Lotus/Weapons/Grineer/Pistols/GrnAmphisPistol/GrnAmphisPistol",
+      "name": "Quatz",
+      "type": "Secondary",
+      "category": "Pistol",
+      "masteryRank": 9,
+      "image": "/data/img/Secondary/Quatz.png",
+      "wiki": "http://warframe.wikia.com/wiki/Quatz",
+      "acquisition": "Market (Ship)"
+    },
+    {
+      "id": "/Lotus/Weapons/Ostron/Melee/ModularMelee02/Tip/TipTen",
+      "name": "Rabvee Strike",
+      "type": "Zaw",
+      "masteryRank": 0,
+      "image": "/data/img/Zaw/Rabvee.png",
+      "wiki": "http://warframe.wikia.com/wiki/Rabvee",
+      "acquisition": "Hok's Anvil (Cetus)"
+    },
+    {
+      "id": "/Lotus/Weapons/Sentients/OperatorAmplifiers/Set2/Barrel/SentAmpSet2BarrelPartA",
+      "name": "Rahn Prism",
+      "type": "Amp",
+      "masteryRank": 0,
+      "image": "/data/img/Amp/Rahn_Prism.png",
+      "wiki": "http://warframe.wikia.com/wiki/Rahn_Prism",
+      "acquisition": "The Quills (Cetus)"
+    },
+    {
+      "id": "/Lotus/Types/Game/KubrowPet/GuardKubrowPetPowerSuit",
+      "name": "Raksa Kubrow",
+      "type": "Kubrow",
+      "masteryRank": 0,
+      "image": "/data/img/Kubrow/Raksa_Kubrow.png",
+      "wiki": "http://warframe.wikia.com/wiki/Raksa_Kubrow",
+      "acquisition": "Incubator Segment (Ship)"
+    },
+    {
+      "id": "/Lotus/Weapons/Syndicates/RedVeil/Pistols/RVBallistica",
+      "name": "Rakta Ballistica",
+      "type": "Secondary",
+      "category": "Crossbow",
+      "masteryRank": 6,
+      "image": "/data/img/Secondary/Rakta_Ballistica.png",
+      "wiki": "http://warframe.wikia.com/wiki/Rakta_Ballistica",
+      "acquisition": "Red Veil (Exalted)"
+    },
+    {
+      "id": "/Lotus/Weapons/Syndicates/RedVeil/Bows/RVCernos",
+      "name": "Rakta Cernos",
+      "type": "Primary",
+      "category": "Bow",
+      "masteryRank": 12,
+      "image": "/data/img/Primary/Rakta_Cernos.png",
+      "wiki": "http://warframe.wikia.com/wiki/Rakta_Cernos",
+      "acquisition": "Red Veil (Exalted)"
+    },
+    {
+      "id": "/Lotus/Weapons/Syndicates/RedVeil/Melee/RVDarkDagger",
+      "name": "Rakta Dark Dagger",
+      "type": "Melee",
+      "category": "Dagger",
+      "masteryRank": 8,
+      "image": "/data/img/Melee/Rakta_Dark_Dagger.png",
+      "wiki": "http://warframe.wikia.com/wiki/Rakta_Dark_Dagger",
+      "acquisition": "Red Veil (Exalted)"
+    },
+    {
+      "id": "/Lotus/Weapons/Sentients/OperatorAmplifiers/Set1/Barrel/SentAmpSet1BarrelPartA",
+      "name": "Raplak Prism",
+      "type": "Amp",
+      "masteryRank": 0,
+      "image": "/data/img/Amp/Raplak_Prism.png",
+      "wiki": "http://warframe.wikia.com/wiki/Raplak_Prism",
+      "acquisition": "The Quills (Cetus)"
+    },
+    {
+      "id": "/Lotus/Weapons/Tenno/Archwing/Melee/ArchHammer/ArchHammer",
+      "name": "Rathbone",
+      "type": "Archwing Melee",
+      "masteryRank": 0,
+      "image": "/data/img/ArchwingMelee/Rathbone.png",
+      "wiki": "http://warframe.wikia.com/wiki/Rathbone",
+      "acquisition": "Market (Ship)"
+    },
+    {
+      "id": "/Lotus/Weapons/SolarisUnited/Secondary/SUModularSecondarySet1/Barrel/SUModularSecondaryBarrelCPart",
+      "name": "Rattleguts",
+      "type": "Secondary",
+      "category": "Kitgun",
+      "masteryRank": 0,
+      "image": "/data/img/Secondary/Rattleguts.png",
+      "wiki": "http://warframe.wikia.com/wiki/Rattleguts",
+      "acquisition": "Rude Zuud (Fortuna)"
+    },
+    {
+      "id": "/Lotus/Weapons/Tenno/Melee/Scythe/ReaperWeapon",
+      "name": "Reaper Prime",
+      "type": "Melee",
+      "category": "Scythe",
+      "masteryRank": 2,
+      "image": "/data/img/Melee/Reaper_Prime.png",
+      "wiki": "http://warframe.wikia.com/wiki/Reaper_Prime",
+      "acquisition": "Relics"
+    },
+    {
+      "id": "/Lotus/Weapons/Tenno/Melee/Gunblade/TnoGunblade",
+      "name": "Redeemer",
+      "type": "Melee",
+      "category": "Gunblade",
+      "masteryRank": 4,
+      "image": "/data/img/Melee/Redeemer.png",
+      "wiki": "http://warframe.wikia.com/wiki/Redeemer",
+      "acquisition": "Market (Ship)"
+    },
+    {
+      "id": "/Lotus/Weapons/Tenno/Melee/Gunblade/RedeemerPrime/RedeemerPrimeWep",
+      "name": "Redeemer Prime",
+      "type": "Melee",
+      "category": "Gunblade",
+      "masteryRank": 10,
+      "image": "/data/img/Melee/Redeemer_Prime.png",
+      "wiki": "http://warframe.wikia.com/wiki/Redeemer_Prime",
+      "acquisition": "Relics"
+    },
+    {
+      "id": "/Lotus/Powersuits/Revenant/Revenant",
+      "name": "Revenant",
+      "type": "Warframe",
+      "masteryRank": 0,
+      "image": "/data/img/Warframe/Revenant.png",
+      "wiki": "http://warframe.wikia.com/wiki/Revenant",
+      "acquisition": "Mask of the Lost One (Quest)"
+    },
+    {
+      "id": "/Lotus/Powersuits/Rhino/Rhino",
+      "name": "Rhino",
+      "type": "Warframe",
+      "masteryRank": 0,
+      "image": "/data/img/Warframe/Rhino.png",
+      "wiki": "http://warframe.wikia.com/wiki/Rhino",
+      "acquisition": "Jackal (Boss)"
+    },
+    {
+      "id": "/Lotus/Powersuits/Rhino/RhinoPrime",
+      "name": "Rhino Prime",
+      "type": "Warframe",
+      "masteryRank": 0,
+      "image": "/data/img/Warframe/Rhino_Prime.png",
+      "wiki": "http://warframe.wikia.com/wiki/Rhino_Prime",
+      "acquisition": "Relics"
+    },
+    {
+      "id": "/Lotus/Weapons/Grineer/Melee/GrineerClaws/GrnClaws",
+      "name": "Ripkas",
+      "type": "Melee",
+      "category": "Claws",
+      "masteryRank": 3,
+      "image": "/data/img/Melee/Ripkas.png",
+      "wiki": "http://warframe.wikia.com/wiki/Ripkas",
+      "acquisition": "Market (Ship)"
+    },
+    {
+      "id": "/Lotus/Weapons/Tenno/LongGuns/FiveShotSniper/FiveShotSniper",
+      "name": "Rubico",
+      "type": "Primary",
+      "category": "Sniper Rifle",
+      "masteryRank": 6,
+      "image": "/data/img/Primary/Rubico.png",
+      "wiki": "http://warframe.wikia.com/wiki/Rubico",
+      "acquisition": "Market (Ship)"
+    },
+    {
+      "id": "/Lotus/Weapons/Tenno/LongGuns/RubicoPrime/RubicoPrimeWeapon",
+      "name": "Rubico Prime",
+      "type": "Primary",
+      "category": "Sniper Rifle",
+      "masteryRank": 12,
+      "image": "/data/img/Primary/Rubico_Prime.png",
+      "wiki": "http://warframe.wikia.com/wiki/Rubico_Prime",
+      "acquisition": "Relics"
+    },
+    {
+      "id": "/Lotus/Types/Vehicles/Hoverboard/HoverboardParts/PartComponents/HoverboardCorpusC/HoverboardCorpusCDeck",
+      "name": "Runway",
+      "type": "K-Drive",
+      "masteryRank": 0,
+      "image": "/data/img/KDrive/Runway.png",
+      "wiki": "http://warframe.wikia.com/wiki/Runway",
+      "acquisition": "Roky (Fortuna)"
+    },
+    {
+      "id": "/Lotus/Types/Game/KubrowPet/AdventurerKubrowPetPowerSuit",
+      "name": "Sahasa Kubrow",
+      "type": "Kubrow",
+      "masteryRank": 0,
+      "image": "/data/img/Kubrow/Sahasa_Kubrow.png",
+      "wiki": "http://warframe.wikia.com/wiki/Sahasa_Kubrow",
+      "acquisition": "Incubator Segment (Ship)"
+    },
+    {
+      "id": "/Lotus/Weapons/Syndicates/NewLoka/Pistols/NLCastanas",
+      "name": "Sancti Castanas",
+      "type": "Secondary",
+      "category": "Thrown",
+      "masteryRank": 10,
+      "image": "/data/img/Secondary/Sancti_Castanas.png",
+      "wiki": "http://warframe.wikia.com/wiki/Sancti_Castanas",
+      "acquisition": "New Loka (Flawless)"
+    },
+    {
+      "id": "/Lotus/Weapons/Syndicates/NewLoka/Melee/NLMagistar",
+      "name": "Sancti Magistar",
+      "type": "Melee",
+      "category": "Hammer",
+      "masteryRank": 8,
+      "image": "/data/img/Melee/Sancti_Magistar.png",
+      "wiki": "http://warframe.wikia.com/wiki/Sancti_Magistar",
+      "acquisition": "New Loka (Flawless)"
+    },
+    {
+      "id": "/Lotus/Weapons/Syndicates/NewLoka/LongGuns/NLTigris",
+      "name": "Sancti Tigris",
+      "type": "Primary",
+      "category": "Shotgun",
+      "masteryRank": 12,
+      "image": "/data/img/Primary/Sancti_Tigris.png",
+      "wiki": "http://warframe.wikia.com/wiki/Sancti_Tigris",
+      "acquisition": "New Loka (Flawless)"
+    },
+    {
+      "id": "/Lotus/Weapons/Tenno/Melee/Gunblade/GunbladeAutomatic/TnoGunbladeAutomatic",
+      "name": "Sarpa",
+      "type": "Melee",
+      "category": "Gunblade",
+      "masteryRank": 8,
+      "image": "/data/img/Melee/Sarpa.png",
+      "wiki": "http://warframe.wikia.com/wiki/Sarpa",
+      "acquisition": "Market (Ship)"
+    },
+    {
+      "id": "/Lotus/Powersuits/Saryn/Saryn",
+      "name": "Saryn",
+      "type": "Warframe",
+      "masteryRank": 0,
+      "image": "/data/img/Warframe/Saryn.png",
+      "wiki": "http://warframe.wikia.com/wiki/Saryn",
+      "acquisition": "Kela De Thaym (Boss)"
+    },
+    {
+      "id": "/Lotus/Powersuits/Saryn/SarynPrime",
+      "name": "Saryn Prime",
+      "type": "Warframe",
+      "masteryRank": 0,
+      "image": "/data/img/Warframe/Saryn_Prime.png",
+      "wiki": "http://warframe.wikia.com/wiki/Saryn_Prime",
+      "acquisition": "Relics"
+    },
+    {
+      "id": "/Lotus/Weapons/Tenno/Melee/Axe/AxeWeapon",
+      "name": "Scindo",
+      "type": "Melee",
+      "category": "Heavy Blade",
+      "masteryRank": 2,
+      "image": "/data/img/Melee/Scindo.png",
+      "wiki": "http://warframe.wikia.com/wiki/Scindo",
+      "acquisition": "Market (Ship)"
+    },
+    {
+      "id": "/Lotus/Weapons/Tenno/Melee/Axe/PrimeScindo/PrimeScindoWeapon",
+      "name": "Scindo Prime",
+      "type": "Melee",
+      "category": "Heavy Blade",
+      "masteryRank": 4,
+      "image": "/data/img/Melee/Scindo_Prime.png",
+      "wiki": "http://warframe.wikia.com/wiki/Scindo_Prime",
+      "acquisition": "Relics"
+    },
+    {
+      "id": "/Lotus/Weapons/Infested/Melee/Whip/InfestedWhip/InfestedWhipWeapon",
+      "name": "Scoliac",
+      "type": "Melee",
+      "category": "Whip",
+      "masteryRank": 6,
+      "image": "/data/img/Melee/Scoliac.png",
+      "wiki": "http://warframe.wikia.com/wiki/Scoliac",
+      "acquisition": "Bio Lab (Dojo)"
+    },
+    {
+      "id": "/Lotus/Weapons/Tenno/LongGuns/TnPriestSpear/TnPriestSpearGun",
+      "name": "Scourge",
+      "type": "Primary",
+      "category": "Speargun",
+      "masteryRank": 6,
+      "image": "/data/img/Primary/Scourge.png",
+      "wiki": "http://warframe.wikia.com/wiki/Scourge",
+      "acquisition": "Tenno Lab (Dojo)"
+    },
+    {
+      "id": "/Lotus/Weapons/Syndicates/PerrinSequence/Pistols/PSDualCestra",
+      "name": "Secura Dual Cestra",
+      "type": "Secondary",
+      "category": "Dual Pistols",
+      "masteryRank": 10,
+      "image": "/data/img/Secondary/Secura_Dual_Cestra.png",
+      "wiki": "http://warframe.wikia.com/wiki/Secura_Dual_Cestra",
+      "acquisition": "The Perrin Sequence (Partner)"
+    },
+    {
+      "id": "/Lotus/Weapons/Syndicates/PerrinSequence/Melee/PSLecta",
+      "name": "Secura Lecta",
+      "type": "Melee",
+      "category": "Whip",
+      "masteryRank": 8,
+      "image": "/data/img/Melee/Secura_Lecta.png",
+      "wiki": "http://warframe.wikia.com/wiki/Secura_Lecta",
+      "acquisition": "The Perrin Sequence (Partner)"
+    },
+    {
+      "id": "/Lotus/Weapons/Syndicates/PerrinSequence/LongGuns/PSPenta",
+      "name": "Secura Penta",
+      "type": "Primary",
+      "category": "Launcher",
+      "masteryRank": 12,
+      "image": "/data/img/Primary/Secura_Penta.png",
+      "wiki": "http://warframe.wikia.com/wiki/Secura_Penta",
+      "acquisition": "The Perrin Sequence (Partner)"
+    },
+    {
+      "id": "/Lotus/Weapons/Grineer/GrineerPistol/GrnScopedPistolPlayer",
+      "name": "Seer",
+      "type": "Secondary",
+      "category": "Pistol",
+      "masteryRank": 0,
+      "image": "/data/img/Secondary/Seer.png",
+      "wiki": "http://warframe.wikia.com/wiki/Seer",
+      "acquisition": "Captain Vor (Boss)"
+    },
+    {
+      "id": "/Lotus/Weapons/Ostron/Melee/ModularMelee02/Tip/TipNine",
+      "name": "Sepfahn Strike",
+      "type": "Zaw",
+      "masteryRank": 0,
+      "image": "/data/img/Zaw/Sepfahn.png",
+      "wiki": "http://warframe.wikia.com/wiki/Sepfahn",
+      "acquisition": "Hok's Anvil (Cetus)"
+    },
+    {
+      "id": "/Lotus/Weapons/Corpus/Melee/Polearm/CorpusPolearm01/CorpusPolearmWeapon",
+      "name": "Serro",
+      "type": "Melee",
+      "category": "Polearm",
+      "masteryRank": 2,
+      "image": "/data/img/Melee/Serro.png",
+      "wiki": "http://warframe.wikia.com/wiki/Serro",
+      "acquisition": "Energy Lab (Dojo)"
+    },
+    {
+      "id": "/Lotus/Types/Sentinels/SentinelPowersuits/ShadePowerSuit",
+      "name": "Shade",
+      "type": "Sentinel",
+      "masteryRank": 0,
+      "image": "/data/img/Sentinel/Shade.png",
+      "wiki": "http://warframe.wikia.com/wiki/Shade",
+      "acquisition": "Market (Ship)"
+    },
+    {
+      "id": "/Lotus/Weapons/Tenno/Melee/Nunchaku/TnoNunchaku/TnoNunchaku",
+      "name": "Shaku",
+      "type": "Melee",
+      "category": "Nunchaku",
+      "masteryRank": 0,
+      "image": "/data/img/Melee/Shaku.png",
+      "wiki": "http://warframe.wikia.com/wiki/Shaku",
+      "acquisition": "Tenno Lab (Dojo)"
+    },
+    {
+      "id": "/Lotus/Weapons/Grineer/Melee/GrineerCombatKnife/GrineerCombatKnife",
+      "name": "Sheev",
+      "type": "Melee",
+      "category": "Dagger",
+      "masteryRank": 0,
+      "image": "/data/img/Melee/Sheev.png",
+      "wiki": "http://warframe.wikia.com/wiki/Sheev",
+      "acquisition": "Market (Ship)"
+    },
+    {
+      "id": "/Lotus/Weapons/Sentients/OperatorAmplifiers/Set1/Barrel/SentAmpSet1BarrelPartB",
+      "name": "Shwaak Prism",
+      "type": "Amp",
+      "masteryRank": 0,
+      "image": "/data/img/Amp/Shwaak_Prism.png",
+      "wiki": "http://warframe.wikia.com/wiki/Shwaak_Prism",
+      "acquisition": "The Quills (Cetus)"
+    },
+    {
+      "id": "/Lotus/Weapons/Tenno/Melee/Hammer/IceHammer/IceHammer",
+      "name": "Sibear",
+      "type": "Melee",
+      "category": "Hammer",
+      "masteryRank": 6,
+      "image": "/data/img/Melee/Sibear.png",
+      "wiki": "http://warframe.wikia.com/wiki/Sibear",
+      "acquisition": "Market (Ship)"
+    },
+    {
+      "id": "/Lotus/Weapons/Tenno/Pistol/BurstPistol",
+      "name": "Sicarus",
+      "type": "Secondary",
+      "category": "Pistol",
+      "masteryRank": 3,
+      "image": "/data/img/Secondary/Sicarus.png",
+      "wiki": "http://warframe.wikia.com/wiki/Sicarus",
+      "acquisition": "Market (Ship)"
+    },
+    {
+      "id": "/Lotus/Weapons/Tenno/Pistols/PrimeSicarus/PrimeSicarusPistol",
+      "name": "Sicarus Prime",
+      "type": "Secondary",
+      "category": "Pistol",
+      "masteryRank": 14,
+      "image": "/data/img/Secondary/Sicarus_Prime.png",
+      "wiki": "http://warframe.wikia.com/wiki/Sicarus_Prime",
+      "acquisition": "Relics"
+    },
+    {
+      "id": "/Lotus/Weapons/Tenno/Melee/SwordsAndBoards/SundialSwordBoard/SundialBoardSword",
+      "name": "Sigma & Octantis",
+      "type": "Melee",
+      "category": "Sword and Shield",
+      "masteryRank": 0,
+      "image": "/data/img/Melee/Sigma_&_Octantis.png",
+      "wiki": "http://warframe.wikia.com/wiki/Sigma_&_Octantis",
+      "acquisition": "Login Reward"
+    },
+    {
+      "id": "/Lotus/Weapons/Tenno/Melee/SwordsAndBoards/MeleeContestWinnerOne/TennoSwordShield",
+      "name": "Silva & Aegis",
+      "type": "Melee",
+      "category": "Sword and Shield",
+      "masteryRank": 0,
+      "image": "/data/img/Melee/Silva_&_Aegis.png",
+      "wiki": "http://warframe.wikia.com/wiki/Silva_&_Aegis",
+      "acquisition": "Tenno Lab (Dojo)"
+    },
+    {
+      "id": "/Lotus/Weapons/Tenno/Melee/PrimeSilvaAegis/PrimeSilvaAegis",
+      "name": "Silva & Aegis Prime",
+      "type": "Melee",
+      "category": "Sword and Shield",
+      "masteryRank": 12,
+      "image": "/data/img/Melee/Silva_&_Aegis_Prime.png",
+      "wiki": "http://warframe.wikia.com/wiki/Silva_&_Aegis_Prime",
+      "acquisition": "Relics"
+    },
+    {
+      "id": "/Lotus/Weapons/Cephalon/Primary/CephPrimary/CephPrimary",
+      "name": "Simulor",
+      "type": "Primary",
+      "category": "Rifle",
+      "masteryRank": 5,
+      "image": "/data/img/Primary/Simulor.png",
+      "wiki": "http://warframe.wikia.com/wiki/Simulor",
+      "acquisition": "Cephalon Simaris (Relay)"
+    },
+    {
+      "id": "/Lotus/Weapons/Tenno/Melee/LongSword/LongSword",
+      "name": "Skana",
+      "type": "Melee",
+      "category": "Sword",
+      "masteryRank": 0,
+      "image": "/data/img/Melee/Skana.png",
+      "wiki": "http://warframe.wikia.com/wiki/Skana",
+      "acquisition": "Market (Ship)"
+    },
+    {
+      "id": "/Lotus/Weapons/Tenno/Melee/LongSword/SkanaPrime",
+      "name": "Skana Prime",
+      "type": "Melee",
+      "category": "Sword",
+      "masteryRank": 0,
+      "image": "/data/img/Melee/Skana_Prime.png",
+      "wiki": "http://warframe.wikia.com/wiki/Skana_Prime",
+      "acquisition": "Unobtainable (Founders)"
+    },
+    {
+      "id": "/Lotus/Weapons/Tenno/Melee/Swords/UmbraKatana/UmbraKatana",
+      "name": "Skiajati",
+      "type": "Melee",
+      "category": "Nikana",
+      "masteryRank": 11,
+      "image": "/data/img/Melee/Skiajati.png",
+      "wiki": "http://warframe.wikia.com/wiki/Skiajati",
+      "acquisition": "The Sacrifice (Quest)",
+      "specialNote": "Item are fully ranked when obtained."
+    },
+    {
+      "id": "/Lotus/Types/Game/CatbrowPet/CheshireCatbrowPetPowerSuit",
+      "name": "Smeeta Kavat",
+      "type": "Kavat",
+      "masteryRank": 0,
+      "image": "/data/img/Kavat/Smeeta_Kavat.png",
+      "wiki": "http://warframe.wikia.com/wiki/Smeeta_Kavat",
+      "acquisition": "Kavat Incubator Upgrade Segment (Ship)"
+    },
+    {
+      "id": "/Lotus/Weapons/Tenno/Rifle/SniperRifle",
+      "name": "Snipetron",
+      "type": "Primary",
+      "category": "Sniper Rifle",
+      "masteryRank": 0,
+      "image": "/data/img/Primary/Snipetron.png",
+      "wiki": "http://warframe.wikia.com/wiki/Snipetron",
+      "acquisition": "Operation Plague Star (Cetus)"
+    },
+    {
+      "id": "/Lotus/Weapons/Tenno/Rifle/VandalSniperRifle",
+      "name": "Snipetron Vandal",
+      "type": "Primary",
+      "category": "Sniper Rifle",
+      "masteryRank": 5,
+      "image": "/data/img/Primary/Snipetron_Vandal.png",
+      "wiki": "http://warframe.wikia.com/wiki/Snipetron_Vandal",
+      "acquisition": "Invasions"
+    },
+    {
+      "id": "/Lotus/Weapons/Tenno/Shotgun/DoubleBarrelShotgun",
+      "name": "Sobek",
+      "type": "Primary",
+      "category": "Shotgun",
+      "masteryRank": 7,
+      "image": "/data/img/Primary/Sobek.png",
+      "wiki": "http://warframe.wikia.com/wiki/Sobek",
+      "acquisition": "Market (Ship)"
+    },
+    {
+      "id": "/Lotus/Weapons/Tenno/Rifle/TennoAR",
+      "name": "Soma",
+      "type": "Primary",
+      "category": "Rifle",
+      "masteryRank": 6,
+      "image": "/data/img/Primary/Soma.png",
+      "wiki": "http://warframe.wikia.com/wiki/Soma",
+      "acquisition": "Market (Ship)"
+    },
+    {
+      "id": "/Lotus/Weapons/Tenno/LongGuns/PrimeSoma/PrimeSomaRifle",
+      "name": "Soma Prime",
+      "type": "Primary",
+      "category": "Rifle",
+      "masteryRank": 7,
+      "image": "/data/img/Primary/Soma_Prime.png",
+      "wiki": "http://warframe.wikia.com/wiki/Soma_Prime",
+      "acquisition": "Relics"
+    },
+    {
+      "id": "/Lotus/Weapons/Corpus/Pistols/CrpAirPistol/CrpAirPistolArray",
+      "name": "Sonicor",
+      "type": "Secondary",
+      "category": "Pistol",
+      "masteryRank": 2,
+      "image": "/data/img/Secondary/Sonicor.png",
+      "wiki": "http://warframe.wikia.com/wiki/Sonicor",
+      "acquisition": "Market (Ship)"
+    },
+    {
+      "id": "/Lotus/Weapons/ClanTech/Energy/CrpLaserPistol",
+      "name": "Spectra",
+      "type": "Secondary",
+      "category": "Pistol",
+      "masteryRank": 4,
+      "image": "/data/img/Secondary/Spectra.png",
+      "wiki": "http://warframe.wikia.com/wiki/Spectra",
+      "acquisition": "Energy Lab (Dojo)"
+    },
+    {
+      "id": "/Lotus/Weapons/Corpus/Pistols/CorpusModularPistol/Vandal/CrpLaserPistolVandal",
+      "name": "Spectra Vandal",
+      "type": "Secondary",
+      "category": "Pistol",
+      "masteryRank": 10,
+      "image": "/data/img/Secondary/Spectra_Vandal.png",
+      "wiki": "http://warframe.wikia.com/wiki/Spectra_Vandal",
+      "acquisition": "Operation: Hostile Mergers"
+    },
+    {
+      "id": "/Lotus/Weapons/Tenno/ThrowingWeapons/LiDagger/LiDagger",
+      "name": "Spira",
+      "type": "Secondary",
+      "category": "Thrown",
+      "masteryRank": 8,
+      "image": "/data/img/Secondary/Spira.png",
+      "wiki": "http://warframe.wikia.com/wiki/Spira",
+      "acquisition": "Market (Ship)"
+    },
+    {
+      "id": "/Lotus/Weapons/Tenno/ThrowingWeapons/PrimeLiDagger/PrimeLiDagger",
+      "name": "Spira Prime",
+      "type": "Secondary",
+      "category": "Thrown",
+      "masteryRank": 10,
+      "image": "/data/img/Secondary/Spira_Prime.png",
+      "wiki": "http://warframe.wikia.com/wiki/Spira_Prime",
+      "acquisition": "Relics"
+    },
+    {
+      "id": "/Lotus/Weapons/Corpus/Pistols/CrpElectroMag/CrpElectroMag",
+      "name": "Staticor",
+      "type": "Secondary",
+      "category": "Dual Pistols",
+      "masteryRank": 10,
+      "image": "/data/img/Secondary/Staticor.png",
+      "wiki": "http://warframe.wikia.com/wiki/Staticor",
+      "acquisition": "Energy Lab (Dojo)"
+    },
+    {
+      "id": "/Lotus/Types/Sentinels/SentinelWeapons/SentBioWeapon",
+      "name": "Stinger",
+      "type": "Sentinel Weapon",
+      "masteryRank": 0,
+      "image": "/data/img/SentinelWeapon/Stinger.png",
+      "wiki": "http://warframe.wikia.com/wiki/Stinger",
+      "acquisition": "Comes with Companion"
+    },
+    {
+      "id": "/Lotus/Weapons/Tenno/LongGuns/TennoTommyGun/TennoTommyGunRifle",
+      "name": "Stradavar",
+      "type": "Primary",
+      "category": "Rifle",
+      "masteryRank": 8,
+      "image": "/data/img/Primary/Stradavar.png",
+      "wiki": "http://warframe.wikia.com/wiki/Stradavar",
+      "acquisition": "Market (Ship)"
+    },
+    {
+      "id": "/Lotus/Weapons/Tenno/LongGuns/PrimeStradavar/PrimeStradavarGun",
+      "name": "Stradavar Prime",
+      "type": "Primary",
+      "category": "Rifle",
+      "masteryRank": 12,
+      "image": "/data/img/Primary/Stradavar_Prime.png",
+      "wiki": "http://warframe.wikia.com/wiki/Stradavar_Prime",
+      "acquisition": "Relics"
+    },
+    {
+      "id": "/Lotus/Weapons/Tenno/Shotgun/Shotgun",
+      "name": "Strun",
+      "type": "Primary",
+      "category": "Shotgun",
+      "masteryRank": 1,
+      "image": "/data/img/Primary/Strun.png",
+      "wiki": "http://warframe.wikia.com/wiki/Strun",
+      "acquisition": "Market (Ship)"
+    },
+    {
+      "id": "/Lotus/Weapons/Tenno/Shotgun/ShotgunVandal",
+      "name": "Strun Wraith",
+      "type": "Primary",
+      "category": "Shotgun",
+      "masteryRank": 10,
+      "image": "/data/img/Primary/Strun_Wraith.png",
+      "wiki": "http://warframe.wikia.com/wiki/Strun_Wraith",
+      "acquisition": "Invasions"
+    },
+    {
+      "id": "/Lotus/Weapons/Grineer/Pistols/GrnUzi/GrnUziWeapon",
+      "name": "Stubba",
+      "type": "Secondary",
+      "category": "Pistol",
+      "masteryRank": 7,
+      "image": "/data/img/Secondary/Stubba.png",
+      "wiki": "http://warframe.wikia.com/wiki/Stubba",
+      "acquisition": "Cetus Bounty (Ghoul)"
+    },
+    {
+      "id": "/Lotus/Weapons/Grineer/Pistols/GrineerCrossbow/GrineerGooGun",
+      "name": "Stug",
+      "type": "Secondary",
+      "category": "Pistol",
+      "masteryRank": 2,
+      "image": "/data/img/Secondary/Stug.png",
+      "wiki": "http://warframe.wikia.com/wiki/Stug",
+      "acquisition": "Market (Ship)"
+    },
+    {
+      "id": "/Lotus/Types/Game/KubrowPet/HunterKubrowPetPowerSuit",
+      "name": "Sunika Kubrow",
+      "type": "Kubrow",
+      "masteryRank": 0,
+      "image": "/data/img/Kubrow/Sunika_Kubrow.png",
+      "wiki": "http://warframe.wikia.com/wiki/Sunika_Kubrow",
+      "acquisition": "Incubator Segment (Ship)"
+    },
+    {
+      "id": "/Lotus/Weapons/ClanTech/Energy/CrpHeavyRifle",
+      "name": "Supra",
+      "type": "Primary",
+      "category": "Rifle",
+      "masteryRank": 12,
+      "image": "/data/img/Primary/Supra.png",
+      "wiki": "http://warframe.wikia.com/wiki/Supra",
+      "acquisition": "Energy Lab (Dojo)"
+    },
+    {
+      "id": "/Lotus/Weapons/Corpus/LongGuns/Machinegun/SupraVandal",
+      "name": "Supra Vandal",
+      "type": "Primary",
+      "category": "Rifle",
+      "masteryRank": 14,
+      "image": "/data/img/Primary/Supra_Vandal.png",
+      "wiki": "http://warframe.wikia.com/wiki/Supra_Vandal",
+      "acquisition": "Baro Ki'Teer (Relay)"
+    },
+    {
+      "id": "/Lotus/Types/Sentinels/SentinelWeapons/SentShotgun",
+      "name": "Sweeper",
+      "type": "Sentinel Weapon",
+      "masteryRank": 0,
+      "image": "/data/img/SentinelWeapon/Sweeper.png",
+      "wiki": "http://warframe.wikia.com/wiki/Sweeper",
+      "acquisition": "Comes with Companion"
+    },
+    {
+      "id": "/Lotus/Types/Sentinels/SentinelWeapons/PrimeSentShotgun",
+      "name": "Sweeper Prime",
+      "type": "Sentinel Weapon",
+      "masteryRank": 0,
+      "image": "/data/img/SentinelWeapon/Sweeper_Prime.png",
+      "wiki": "http://warframe.wikia.com/wiki/Sweeper_Prime",
+      "acquisition": "Comes with Companion"
+    },
+    {
+      "id": "/Lotus/Weapons/Tenno/LongGuns/TnoLeverAction/TnoLeverActionRifle",
+      "name": "Sybaris",
+      "type": "Primary",
+      "category": "Rifle",
+      "masteryRank": 5,
+      "image": "/data/img/Primary/Sybaris.png",
+      "wiki": "http://warframe.wikia.com/wiki/Sybaris",
+      "acquisition": "Tenno Lab (Dojo)"
+    },
+    {
+      "id": "/Lotus/Weapons/Tenno/LongGuns/PrimeSybaris/PrimeSybarisRifle",
+      "name": "Sybaris Prime",
+      "type": "Primary",
+      "category": "Rifle",
+      "masteryRank": 12,
+      "image": "/data/img/Primary/Sybaris_Prime.png",
+      "wiki": "http://warframe.wikia.com/wiki/Sybaris_Prime",
+      "acquisition": "Relics"
+    },
+    {
+      "id": "/Lotus/Weapons/Grineer/Melee/GrnTrident/GrnTridentWeapon",
+      "name": "Sydon",
+      "type": "Melee",
+      "category": "Polearm",
+      "masteryRank": 2,
+      "image": "/data/img/Melee/Sydon.png",
+      "wiki": "http://warframe.wikia.com/wiki/Sydon",
+      "acquisition": "Chem Lab (Dojo)"
+    },
+    {
+      "id": "/Lotus/Weapons/Infested/LongGuns/InfestedRifle",
+      "name": "Synapse",
+      "type": "Primary",
+      "category": "Rifle",
+      "masteryRank": 11,
+      "image": "/data/img/Primary/Synapse.png",
+      "wiki": "http://warframe.wikia.com/wiki/Synapse",
+      "acquisition": "Bio Lab (Dojo)"
+    },
+    {
+      "id": "/Lotus/Weapons/Syndicates/CephalonSuda/Pistols/CSSynoidGammacor",
+      "name": "Synoid Gammacor",
+      "type": "Secondary",
+      "category": "Pistol",
+      "masteryRank": 7,
+      "image": "/data/img/Secondary/Synoid_Gammacor.png",
+      "wiki": "http://warframe.wikia.com/wiki/Synoid_Gammacor",
+      "acquisition": "Cephalon Suda (Genius)"
+    },
+    {
+      "id": "/Lotus/Weapons/Syndicates/CephalonSuda/Melee/CSHeliocor",
+      "name": "Synoid Heliocor",
+      "type": "Melee",
+      "category": "Hammer",
+      "masteryRank": 9,
+      "image": "/data/img/Melee/Synoid_Heliocor.png",
+      "wiki": "http://warframe.wikia.com/wiki/Synoid_Heliocor",
+      "acquisition": "Cephalon Suda (Genius)"
+    },
+    {
+      "id": "/Lotus/Weapons/Syndicates/CephalonSuda/LongGuns/CSSimulor",
+      "name": "Synoid Simulor",
+      "type": "Primary",
+      "category": "Rifle",
+      "masteryRank": 12,
+      "image": "/data/img/Primary/Synoid_Simulor.png",
+      "wiki": "http://warframe.wikia.com/wiki/Synoid_Simulor",
+      "acquisition": "Cephalon Suda (Genius)"
+    },
+    {
+      "id": "/Lotus/Weapons/Tenno/ThrowingWeapons/U18ThrowingKnives/U18throwingknives",
+      "name": "Talons",
+      "type": "Secondary",
+      "category": "Thrown",
+      "masteryRank": 8,
+      "image": "/data/img/Secondary/Talons.png",
+      "wiki": "http://warframe.wikia.com/wiki/Talons",
+      "acquisition": "Tenno Lab (Dojo)"
+    },
+    {
+      "id": "/Lotus/Weapons/Tenno/Melee/Swords/TnTwoHandedKatana/TnTwoHandedKatana",
+      "name": "Tatsu",
+      "type": "Melee",
+      "category": "Two-Handed Nikana",
+      "masteryRank": 7,
+      "image": "/data/img/Melee/Tatsu.png",
+      "wiki": "http://warframe.wikia.com/wiki/Tatsu",
+      "acquisition": "Market (Ship)"
+    },
+    {
+      "id": "/Lotus/Types/Sentinels/SentinelPowersuits/TnSentinelCrossPowerSuit",
+      "name": "Taxon",
+      "type": "Sentinel",
+      "masteryRank": 0,
+      "image": "/data/img/Sentinel/Taxon.png",
+      "wiki": "http://warframe.wikia.com/wiki/Taxon",
+      "acquisition": "Market (Ship)"
+    },
+    {
+      "id": "/Lotus/Types/Friendly/Pets/MoaPets/MoaPetComponents/TazronWeapon",
+      "name": "Tazicor",
+      "type": "Sentinel Weapon",
+      "masteryRank": 3,
+      "image": "/data/img/SentinelWeapon/Tazicor.png",
+      "wiki": "http://warframe.wikia.com/wiki/Tazicor",
+      "acquisition": "Legs (Fortuna)"
+    },
+    {
+      "id": "/Lotus/Weapons/Tenno/Melee/Gauntlet/BrawlerKnuckles/BrawlerKnuckles",
+      "name": "Tekko",
+      "type": "Melee",
+      "category": "Fist",
+      "masteryRank": 2,
+      "image": "/data/img/Melee/Tekko.png",
+      "wiki": "http://warframe.wikia.com/wiki/Tekko",
+      "acquisition": "Market (Ship)"
+    },
+    {
+      "id": "/Lotus/Weapons/Syndicates/ArbitersOfHexis/Pistols/AHAkbolto",
+      "name": "Telos Akbolto",
+      "type": "Secondary",
+      "category": "Dual Pistols",
+      "masteryRank": 11,
+      "image": "/data/img/Secondary/Telos_Akbolto.png",
+      "wiki": "http://warframe.wikia.com/wiki/Telos_Akbolto",
+      "acquisition": "Arbiters of Hexis (Maxim)"
+    },
+    {
+      "id": "/Lotus/Weapons/Syndicates/ArbitersOfHexis/Melee/AHBoltace",
+      "name": "Telos Boltace",
+      "type": "Melee",
+      "category": "Tonfa",
+      "masteryRank": 8,
+      "image": "/data/img/Melee/Telos_Boltace.png",
+      "wiki": "http://warframe.wikia.com/wiki/Telos_Boltace",
+      "acquisition": "Arbiters of Hexis (Maxim)"
+    },
+    {
+      "id": "/Lotus/Weapons/Syndicates/ArbitersOfHexis/LongGuns/AHBoltor",
+      "name": "Telos Boltor",
+      "type": "Primary",
+      "category": "Rifle",
+      "masteryRank": 12,
+      "image": "/data/img/Primary/Telos_Boltor.png",
+      "wiki": "http://warframe.wikia.com/wiki/Telos_Boltor",
+      "acquisition": "Arbiters of Hexis (Maxim)"
+    },
+    {
+      "id": "/Lotus/Weapons/Tenno/LongGuns/TnBardRifle/TnBardRifle",
+      "name": "Tenora",
+      "type": "Primary",
+      "category": "Rifle",
+      "masteryRank": 10,
+      "image": "/data/img/Primary/Tenora.png",
+      "wiki": "http://warframe.wikia.com/wiki/Tenora",
+      "acquisition": "Tenno Lab (Dojo)"
+    },
+    {
+      "id": "/Lotus/Weapons/Corpus/LongGuns/CorpusUMP/CorpusUMP",
+      "name": "Tetra",
+      "type": "Primary",
+      "category": "Rifle",
+      "masteryRank": 3,
+      "image": "/data/img/Primary/Tetra.png",
+      "wiki": "http://warframe.wikia.com/wiki/Tetra",
+      "acquisition": "Market (Ship)"
+    },
+    {
+      "id": "/Lotus/Weapons/Tenno/LongGuns/DrakeRifle/DrakeRifle",
+      "name": "Tiberon",
+      "type": "Primary",
+      "category": "Rifle",
+      "masteryRank": 10,
+      "image": "/data/img/Primary/Tiberon.png",
+      "wiki": "http://warframe.wikia.com/wiki/Tiberon",
+      "acquisition": "Market (Ship)"
+    },
+    {
+      "id": "/Lotus/Weapons/Tenno/LongGuns/PrimeTiberon/PrimeTiberonRifle",
+      "name": "Tiberon Prime",
+      "type": "Primary",
+      "category": "Rifle",
+      "masteryRank": 14,
+      "image": "/data/img/Primary/Tiberon_Prime.png",
+      "wiki": "http://warframe.wikia.com/wiki/Tiberon_Prime",
+      "acquisition": "Relics"
+    },
+    {
+      "id": "/Lotus/Weapons/Tenno/LongGuns/DoubleBarrelShotgun/TennoDoubleBarrelShotgun",
+      "name": "Tigris",
+      "type": "Primary",
+      "category": "Shotgun",
+      "masteryRank": 7,
+      "image": "/data/img/Primary/Tigris.png",
+      "wiki": "http://warframe.wikia.com/wiki/Tigris",
+      "acquisition": "Market (Ship)"
+    },
+    {
+      "id": "/Lotus/Weapons/Tenno/LongGuns/PrimeTigris/PrimeTigris",
+      "name": "Tigris Prime",
+      "type": "Primary",
+      "category": "Shotgun",
+      "masteryRank": 13,
+      "image": "/data/img/Primary/Tigris_Prime.png",
+      "wiki": "http://warframe.wikia.com/wiki/Tigris_Prime",
+      "acquisition": "Relics"
+    },
+    {
+      "id": "/Lotus/Weapons/Tenno/Melee/Staff/MonkSpade/TnoMonkStaff",
+      "name": "Tipedo",
+      "type": "Melee",
+      "category": "Staff",
+      "masteryRank": 3,
+      "image": "/data/img/Melee/Tipedo.png",
+      "wiki": "http://warframe.wikia.com/wiki/Tipedo",
+      "acquisition": "Market (Ship)"
+    },
+    {
+      "id": "/Lotus/Weapons/Tenno/Melee/Staff/TipedoPrime/TipedoPrimeWeapon",
+      "name": "Tipedo Prime",
+      "type": "Melee",
+      "category": "Staff",
+      "masteryRank": 10,
+      "image": "/data/img/Melee/Tipedo_Prime.png",
+      "wiki": "http://warframe.wikia.com/wiki/Tipedo_Prime",
+      "acquisition": "Relics"
+    },
+    {
+      "id": "/Lotus/Powersuits/Fairy/Fairy",
+      "name": "Titania",
+      "type": "Warframe",
+      "masteryRank": 0,
+      "image": "/data/img/Warframe/Titania.png",
+      "wiki": "http://warframe.wikia.com/wiki/Titania",
+      "acquisition": "The Silver Grove (Quest)"
+    },
+    {
+      "id": "/Lotus/Weapons/SolarisUnited/Secondary/SUModularSecondarySet1/Barrel/SUModularSecondaryBarrelBPart",
+      "name": "Tombfinger",
+      "type": "Secondary",
+      "category": "Kitgun",
+      "masteryRank": 0,
+      "image": "/data/img/Secondary/Tombfinger.png",
+      "wiki": "http://warframe.wikia.com/wiki/Tombfinger",
+      "acquisition": "Rude Zuud (Fortuna)"
+    },
+    {
+      "id": "/Lotus/Weapons/Tenno/Melee/Polearms/FlowerPowerPolearm/FlowerPowerPolearmWep",
+      "name": "Tonbo",
+      "type": "Melee",
+      "category": "Polearm",
+      "masteryRank": 3,
+      "image": "/data/img/Melee/Tonbo.png",
+      "wiki": "http://warframe.wikia.com/wiki/Tonbo",
+      "acquisition": "Tenno Lab (Dojo)"
+    },
+    {
+      "id": "/Lotus/Weapons/Grineer/LongGuns/GrnGrenadeLauncher/GrnGrenadeLauncher",
+      "name": "Tonkor",
+      "type": "Primary",
+      "category": "Launcher",
+      "masteryRank": 5,
+      "image": "/data/img/Primary/Tonkor.png",
+      "wiki": "http://warframe.wikia.com/wiki/Tonkor",
+      "acquisition": "Market (Ship)"
+    },
+    {
+      "id": "/Lotus/Weapons/ClanTech/Bio/BioWeapon",
+      "name": "Torid",
+      "type": "Primary",
+      "category": "Launcher",
+      "masteryRank": 4,
+      "image": "/data/img/Primary/Torid.png",
+      "wiki": "http://warframe.wikia.com/wiki/Torid",
+      "acquisition": "Bio Lab (Dojo)"
+    },
+    {
+      "id": "/Lotus/Powersuits/Trinity/Trinity",
+      "name": "Trinity",
+      "type": "Warframe",
+      "masteryRank": 0,
+      "image": "/data/img/Warframe/Trinity.png",
+      "wiki": "http://warframe.wikia.com/wiki/Trinity",
+      "acquisition": "Ambulas (Boss)"
+    },
+    {
+      "id": "/Lotus/Powersuits/Trinity/TrinityPrime",
+      "name": "Trinity Prime",
+      "type": "Warframe",
+      "masteryRank": 0,
+      "image": "/data/img/Warframe/Trinity_Prime.png",
+      "wiki": "http://warframe.wikia.com/wiki/Trinity_Prime",
+      "acquisition": "Relics"
+    },
+    {
+      "id": "/Lotus/Weapons/Grineer/Melee/GrnDualFireAxe/GrnDualFireAxe",
+      "name": "Twin Basolk",
+      "type": "Melee",
+      "category": "Dual Swords",
+      "masteryRank": 3,
+      "image": "/data/img/Melee/Twin_Basolk.png",
+      "wiki": "http://warframe.wikia.com/wiki/Twin_Basolk",
+      "acquisition": "Market (Ship)"
+    },
+    {
+      "id": "/Lotus/Weapons/Grineer/LongGuns/GrineerAssaultRifle/TwinGrakatas",
+      "name": "Twin Grakatas",
+      "type": "Secondary",
+      "category": "Dual Pistols",
+      "masteryRank": 9,
+      "image": "/data/img/Secondary/Twin_Grakatas.png",
+      "wiki": "http://warframe.wikia.com/wiki/Twin_Grakatas",
+      "acquisition": "Market (Ship)"
+    },
+    {
+      "id": "/Lotus/Weapons/Grineer/GrineerPistol/GrineerAkimboPistol",
+      "name": "Twin Gremlins",
+      "type": "Secondary",
+      "category": "Dual Pistols",
+      "masteryRank": 5,
+      "image": "/data/img/Secondary/Twin_Gremlins.png",
+      "wiki": "http://warframe.wikia.com/wiki/Twin_Gremlins",
+      "acquisition": "Captain Vor and Lieutenant Lech Kril (Boss Duo)"
+    },
+    {
+      "id": "/Lotus/Weapons/Grineer/Pistols/GrnDWUniques/GrnTwinKohmaks",
+      "name": "Twin Kohmak",
+      "type": "Secondary",
+      "category": "Dual Shotguns",
+      "masteryRank": 10,
+      "image": "/data/img/Secondary/Twin_Kohmak.png",
+      "wiki": "http://warframe.wikia.com/wiki/Twin_Kohmak",
+      "acquisition": "Kela De Thaym (Boss)"
+    },
+    {
+      "id": "/Lotus/Weapons/Grineer/Melee/GrnEgyptSwd/DualGrnEgyptSwdWeapon",
+      "name": "Twin Krohkur",
+      "type": "Melee",
+      "category": "Dual Swords",
+      "masteryRank": 6,
+      "image": "/data/img/Melee/Twin_Krohkur.png",
+      "wiki": "http://warframe.wikia.com/wiki/Twin_Krohkur",
+      "acquisition": "Market (Ship)"
+    },
+    {
+      "id": "/Lotus/Weapons/Grineer/Pistols/GrnQueenGuardDualPistol/GrnQueenGuardDualPistols",
+      "name": "Twin Rogga",
+      "type": "Secondary",
+      "category": "Dual Shotguns",
+      "masteryRank": 9,
+      "image": "/data/img/Secondary/Twin_Rogga.png",
+      "wiki": "http://warframe.wikia.com/wiki/Twin_Rogga",
+      "acquisition": "Market (Ship)"
+    },
+    {
+      "id": "/Lotus/Weapons/Tenno/Akimbo/AkimboViperPistols",
+      "name": "Twin Vipers",
+      "type": "Secondary",
+      "category": "Dual Pistols",
+      "masteryRank": 5,
+      "image": "/data/img/Secondary/Twin_Vipers.png",
+      "wiki": "http://warframe.wikia.com/wiki/Twin_Vipers",
+      "acquisition": "Market (Ship)"
+    },
+    {
+      "id": "/Lotus/Weapons/Grineer/Pistols/WraithTwinVipers/WraithTwinVipers",
+      "name": "Twin Vipers Wraith",
+      "type": "Secondary",
+      "category": "Dual Pistols",
+      "masteryRank": 7,
+      "image": "/data/img/Secondary/Twin_Vipers_Wraith.png",
+      "wiki": "http://warframe.wikia.com/wiki/Twin_Vipers_Wraith",
+      "acquisition": "Invasions"
+    },
+    {
+      "id": "/Lotus/Weapons/Infested/Pistols/InfestedDartPistol/InfestedDartPistol",
+      "name": "Tysis",
+      "type": "Secondary",
+      "category": "Pistol",
+      "masteryRank": 9,
+      "image": "/data/img/Secondary/Tysis.png",
+      "wiki": "http://warframe.wikia.com/wiki/Tysis",
+      "acquisition": "Market (Ship)"
+    },
+    {
+      "id": "/Lotus/Powersuits/Berserker/Berserker",
+      "name": "Valkyr",
+      "type": "Warframe",
+      "masteryRank": 0,
+      "image": "/data/img/Warframe/Valkyr.png",
+      "wiki": "http://warframe.wikia.com/wiki/Valkyr",
+      "acquisition": "Alad V (Boss)"
+    },
+    {
+      "id": "/Lotus/Powersuits/Berserker/ValkyrPrime",
+      "name": "Valkyr Prime",
+      "type": "Warframe",
+      "masteryRank": 0,
+      "image": "/data/img/Warframe/Valkyr_Prime.png",
+      "wiki": "http://warframe.wikia.com/wiki/Valkyr_Prime",
+      "acquisition": "Relics"
+    },
+    {
+      "id": "/Lotus/Weapons/Tenno/Pistol/RevolverPistol",
+      "name": "Vasto",
+      "type": "Secondary",
+      "category": "Pistol",
+      "masteryRank": 4,
+      "image": "/data/img/Secondary/Vasto.png",
+      "wiki": "http://warframe.wikia.com/wiki/Vasto",
+      "acquisition": "Market (Ship)"
+    },
+    {
+      "id": "/Lotus/Weapons/Tenno/Pistols/PrimeVasto/PrimeVastoPistol",
+      "name": "Vasto Prime",
+      "type": "Secondary",
+      "category": "Pistol",
+      "masteryRank": 10,
+      "image": "/data/img/Secondary/Vasto_Prime.png",
+      "wiki": "http://warframe.wikia.com/wiki/Vasto_Prime",
+      "acquisition": "Relics"
+    },
+    {
+      "id": "/Lotus/Powersuits/Trapper/Trapper",
+      "name": "Vauban",
+      "type": "Warframe",
+      "masteryRank": 0,
+      "image": "/data/img/Warframe/Vauban.png",
+      "wiki": "http://warframe.wikia.com/wiki/Vauban",
+      "acquisition": "Nightwave"
+    },
+    {
+      "id": "/Lotus/Powersuits/Trapper/TrapperPrime",
+      "name": "Vauban Prime",
+      "type": "Warframe",
+      "masteryRank": 0,
+      "image": "/data/img/Warframe/Vauban_Prime.png",
+      "wiki": "http://warframe.wikia.com/wiki/Vauban_Prime",
+      "acquisition": "Relics"
+    },
+    {
+      "id": "/Lotus/Weapons/Syndicates/SteelMeridian/LongGuns/SMHek",
+      "name": "Vaykor Hek",
+      "type": "Primary",
+      "category": "Shotgun",
+      "masteryRank": 12,
+      "image": "/data/img/Primary/Vaykor_Hek.png",
+      "wiki": "http://warframe.wikia.com/wiki/Vaykor_Hek",
+      "acquisition": "Steel Meridian (General)"
+    },
+    {
+      "id": "/Lotus/Weapons/Syndicates/SteelMeridian/Pistols/SMMarelok",
+      "name": "Vaykor Marelok",
+      "type": "Secondary",
+      "category": "Pistol",
+      "masteryRank": 10,
+      "image": "/data/img/Secondary/Vaykor_Marelok.png",
+      "wiki": "http://warframe.wikia.com/wiki/Vaykor_Marelok",
+      "acquisition": "Steel Meridian (General)"
+    },
+    {
+      "id": "/Lotus/Weapons/Syndicates/SteelMeridian/Melee/SMSydon",
+      "name": "Vaykor Sydon",
+      "type": "Melee",
+      "category": "Polearm",
+      "masteryRank": 8,
+      "image": "/data/img/Melee/Vaykor_Sydon.png",
+      "wiki": "http://warframe.wikia.com/wiki/Vaykor_Sydon",
+      "acquisition": "Steel Meridian (General)"
+    },
+    {
+      "id": "/Lotus/Weapons/Tenno/Rifle/TennoSniperRifle",
+      "name": "Vectis",
+      "type": "Primary",
+      "category": "Sniper Rifle",
+      "masteryRank": 2,
+      "image": "/data/img/Primary/Vectis.png",
+      "wiki": "http://warframe.wikia.com/wiki/Vectis",
+      "acquisition": "Market (Ship)"
+    },
+    {
+      "id": "/Lotus/Weapons/Tenno/LongGuns/PrimeVectis/PrimeVectisRifle",
+      "name": "Vectis Prime",
+      "type": "Primary",
+      "category": "Sniper Rifle",
+      "masteryRank": 14,
+      "image": "/data/img/Primary/Vectis_Prime.png",
+      "wiki": "http://warframe.wikia.com/wiki/Vectis_Prime",
+      "acquisition": "Relics"
+    },
+    {
+      "id": "/Lotus/Weapons/Tenno/LongGuns/TnRevolverRifle/TnRevolverRifleGun",
+      "name": "Veldt",
+      "type": "Primary",
+      "category": "Rifle",
+      "masteryRank": 8,
+      "image": "/data/img/Primary/Veldt.png",
+      "wiki": "http://warframe.wikia.com/wiki/Veldt",
+      "acquisition": "Tenno Lab (Dojo)"
+    },
+    {
+      "id": "/Lotus/Weapons/Tenno/Archwing/Primary/Railgun/ArchRailgun",
+      "name": "Velocitus",
+      "type": "Archwing Gun",
+      "masteryRank": 0,
+      "image": "/data/img/ArchwingPrimary/Velocitus.png",
+      "wiki": "http://warframe.wikia.com/wiki/Velocitus",
+      "acquisition": "Tenno Lab (Dojo)"
+    },
+    {
+      "id": "/Lotus/Weapons/Tenno/Melee/Claws/TennoClaws",
+      "name": "Venka",
+      "type": "Melee",
+      "category": "Claws",
+      "masteryRank": 3,
+      "image": "/data/img/Melee/Venka.png",
+      "wiki": "http://warframe.wikia.com/wiki/Venka",
+      "acquisition": "Tenno Lab (Dojo)"
+    },
+    {
+      "id": "/Lotus/Weapons/Tenno/Melee/PrimeVenKa/PrimeVenkaClaws",
+      "name": "Venka Prime",
+      "type": "Melee",
+      "category": "Claws",
+      "masteryRank": 8,
+      "image": "/data/img/Melee/Venka_Prime.png",
+      "wiki": "http://warframe.wikia.com/wiki/Venka_Prime",
+      "acquisition": "Relics"
+    },
+    {
+      "id": "/Lotus/Weapons/Tenno/Archwing/Melee/Archsword/ArchSwordWeapon",
+      "name": "Veritux",
+      "type": "Archwing Melee",
+      "masteryRank": 0,
+      "image": "/data/img/ArchwingMelee/Veritux.png",
+      "wiki": "http://warframe.wikia.com/wiki/Veritux",
+      "acquisition": "The Archwing (Quest)"
+    },
+    {
+      "id": "/Lotus/Weapons/Grineer/GrineerPistol/GrineerLightPistol",
+      "name": "Viper",
+      "type": "Secondary",
+      "category": "Pistol",
+      "masteryRank": 4,
+      "image": "/data/img/Secondary/Viper.png",
+      "wiki": "http://warframe.wikia.com/wiki/Viper",
+      "acquisition": "Market (Ship)"
+    },
+    {
+      "id": "/Lotus/Weapons/Grineer/Pistols/WraithSingleViper/WraithSingleViper",
+      "name": "Viper Wraith",
+      "type": "Secondary",
+      "category": "Pistol",
+      "masteryRank": 4,
+      "image": "/data/img/Secondary/Viper_Wraith.png",
+      "wiki": "http://warframe.wikia.com/wiki/Viper_Wraith",
+      "acquisition": "Baro Ki'Teer (Relay)"
+    },
+    {
+      "id": "/Lotus/Weapons/Tenno/Melee/Hammer/GlassHammer/GlassHammer",
+      "name": "Volnus",
+      "type": "Melee",
+      "category": "Hammer",
+      "masteryRank": 4,
+      "image": "/data/img/Melee/Volnus.png",
+      "wiki": "http://warframe.wikia.com/wiki/Volnus",
+      "acquisition": "Market (Ship)"
+    },
+    {
+      "id": "/Lotus/Powersuits/Volt/Volt",
+      "name": "Volt",
+      "type": "Warframe",
+      "masteryRank": 0,
+      "image": "/data/img/Warframe/Volt.png",
+      "wiki": "http://warframe.wikia.com/wiki/Volt",
+      "acquisition": "Tenno Lab (Dojo)"
+    },
+    {
+      "id": "/Lotus/Powersuits/Volt/VoltPrime",
+      "name": "Volt Prime",
+      "type": "Warframe",
+      "masteryRank": 0,
+      "image": "/data/img/Warframe/Volt_Prime.png",
+      "wiki": "http://warframe.wikia.com/wiki/Volt_Prime",
+      "acquisition": "Relics"
+    },
+    {
+      "id": "/Lotus/Types/Friendly/Pets/MoaPets/MoaPetComponents/ThermocorMoaWeapon",
+      "name": "Vulcax",
+      "type": "Sentinel Weapon",
+      "masteryRank": 14,
+      "image": "/data/img/SentinelWeapon/Vulcax.png",
+      "wiki": "http://warframe.wikia.com/wiki/Vulcax",
+      "acquisition": "Legs (Fortuna)"
+    },
+    {
+      "id": "/Lotus/Weapons/Grineer/LongGuns/GrineerSniperRifle/GrnSniperRifle",
+      "name": "Vulkar",
+      "type": "Primary",
+      "category": "Sniper Rifle",
+      "masteryRank": 3,
+      "image": "/data/img/Primary/Vulkar.png",
+      "wiki": "http://warframe.wikia.com/wiki/Vulkar",
+      "acquisition": "Market (Ship)"
+    },
+    {
+      "id": "/Lotus/Weapons/Grineer/LongGuns/GrineerSniperRifle/VulkarWraith",
+      "name": "Vulkar Wraith",
+      "type": "Primary",
+      "category": "Sniper Rifle",
+      "masteryRank": 7,
+      "image": "/data/img/Primary/Vulkar_Wraith.png",
+      "wiki": "http://warframe.wikia.com/wiki/Vulkar_Wraith",
+      "acquisition": "Baro Ki'Teer (Relay)"
+    },
+    {
+      "id": "/Lotus/Types/Sentinels/SentinelWeapons/SentElecRailgun",
+      "name": "Vulklok",
+      "type": "Sentinel Weapon",
+      "masteryRank": 0,
+      "image": "/data/img/SentinelWeapon/Vulklok.png",
+      "wiki": "http://warframe.wikia.com/wiki/Vulklok",
+      "acquisition": "Comes with Companion"
+    },
+    {
+      "id": "/Lotus/Weapons/Tenno/Melee/Swords/StalkerTwo/StalkerTwoGreatSword",
+      "name": "War",
+      "type": "Melee",
+      "category": "Heavy Blade",
+      "masteryRank": 10,
+      "image": "/data/img/Melee/War.png",
+      "wiki": "http://warframe.wikia.com/wiki/War",
+      "acquisition": "The Second Dream (Quest)"
+    },
+    {
+      "id": "/Lotus/Powersuits/Wisp/Wisp",
+      "name": "Wisp",
+      "type": "Warframe",
+      "masteryRank": 0,
+      "image": "/data/img/Warframe/Wisp.png",
+      "wiki": "http://warframe.wikia.com/wiki/Wisp",
+      "acquisition": "Ropalolyst"
+    },
+    {
+      "id": "/Lotus/Weapons/Tenno/Melee/Hammer/ThrowingHammer",
+      "name": "Wolf Sledge",
+      "type": "Melee",
+      "category": "Hammer",
+      "masteryRank": 7,
+      "image": "/data/img/Melee/Wolf_Sledge.png",
+      "wiki": "http://warframe.wikia.com/wiki/Wolf_Sledge",
+      "acquisition": "Wolf of Saturn Six"
+    },
+    {
+      "id": "/Lotus/Powersuits/MonkeyKing/MonkeyKing",
+      "name": "Wukong",
+      "type": "Warframe",
+      "masteryRank": 0,
+      "image": "/data/img/Warframe/Wukong.png",
+      "wiki": "http://warframe.wikia.com/wiki/Wukong",
+      "acquisition": "Tenno Lab (Dojo)"
+    },
+    {
+      "id": "/Lotus/Powersuits/MonkeyKing/WukongPrime",
+      "name": "Wukong Prime",
+      "type": "Warframe",
+      "masteryRank": 0,
+      "image": "/data/img/Warframe/Wukong_Prime.png",
+      "wiki": "http://warframe.wikia.com/wiki/Wukong_Prime",
+      "acquisition": "Relics"
+    },
+    {
+      "id": "/Lotus/Types/Sentinels/SentinelPowersuits/WyrmPowerSuit",
+      "name": "Wyrm",
+      "type": "Sentinel",
+      "masteryRank": 0,
+      "image": "/data/img/Sentinel/Wyrm.png",
+      "wiki": "http://warframe.wikia.com/wiki/Wyrm",
+      "acquisition": "Market (Ship)"
+    },
+    {
+      "id": "/Lotus/Types/Sentinels/SentinelPowersuits/PrimeWyrmPowerSuit",
+      "name": "Wyrm Prime",
+      "type": "Sentinel",
+      "masteryRank": 0,
+      "image": "/data/img/Sentinel/Wyrm_Prime.png",
+      "wiki": "http://warframe.wikia.com/wiki/Wyrm_Prime",
+      "acquisition": "Relics"
+    },
+    {
+      "id": "/Lotus/Weapons/Tenno/Pistols/TnGuandoPistol/TnGuandoPistolGun",
+      "name": "Zakti",
+      "type": "Secondary",
+      "category": "Pistol",
+      "masteryRank": 10,
+      "image": "/data/img/Secondary/Zakti.png",
+      "wiki": "http://warframe.wikia.com/wiki/Zakti",
+      "acquisition": "Tenno Lab (Dojo)"
+    },
+    {
+      "id": "/Lotus/Weapons/Grineer/LongGuns/GrnCannon/GrnCannonWeapon",
+      "name": "Zarr",
+      "type": "Primary",
+      "category": "Launcher",
+      "masteryRank": 7,
+      "image": "/data/img/Primary/Zarr.png",
+      "wiki": "http://warframe.wikia.com/wiki/Zarr",
+      "acquisition": "Market (Ship)"
+    },
+    {
+      "id": "/Lotus/Weapons/Tenno/Melee/SunDialAxe/SundialAxeWeapon",
+      "name": "Zenistar",
+      "type": "Melee",
+      "category": "Heavy Blade",
+      "masteryRank": 6,
+      "image": "/data/img/Melee/Zenistar.png",
+      "wiki": "http://warframe.wikia.com/wiki/Zenistar",
+      "acquisition": "Login Reward"
+    },
+    {
+      "id": "/Lotus/Weapons/Tenno/LongGuns/LoginPrimary/SundialRifle",
+      "name": "Zenith",
+      "type": "Primary",
+      "category": "Rifle",
+      "masteryRank": 10,
+      "image": "/data/img/Primary/Zenith.png",
+      "wiki": "http://warframe.wikia.com/wiki/Zenith",
+      "acquisition": "Login Reward"
+    },
+    {
+      "id": "/Lotus/Powersuits/Tengu/Tengu",
+      "name": "Zephyr",
+      "type": "Warframe",
+      "masteryRank": 0,
+      "image": "/data/img/Warframe/Zephyr.png",
+      "wiki": "http://warframe.wikia.com/wiki/Zephyr",
+      "acquisition": "Tenno Lab (Dojo)"
+    },
+    {
+      "id": "/Lotus/Powersuits/Tengu/ZephyrPrime",
+      "name": "Zephyr Prime",
+      "type": "Warframe",
+      "masteryRank": 0,
+      "image": "/data/img/Warframe/Zephyr_Prime.png",
+      "wiki": "http://warframe.wikia.com/wiki/Zephyr_Prime",
+      "acquisition": "Relics"
+    },
+    {
+      "id": "/Lotus/Weapons/Tenno/LongGuns/RepeatingCrossbow/RepeatingCrossbow",
+      "name": "Zhuge",
+      "type": "Primary",
+      "category": "Crossbow",
+      "masteryRank": 10,
+      "image": "/data/img/Primary/Zhuge.png",
+      "wiki": "http://warframe.wikia.com/wiki/Zhuge",
+      "acquisition": "Market (Ship)"
+    },
+    {
+      "id": "/Lotus/Weapons/Tenno/LongGuns/PrimeZhuge/PrimeZhugeCrossbow",
+      "name": "Zhuge Prime",
+      "type": "Primary",
+      "category": "Crossbow",
+      "masteryRank": 14,
+      "image": "/data/img/Primary/Zhuge_Prime.png",
+      "wiki": "http://warframe.wikia.com/wiki/Zhuge_Prime",
+      "acquisition": "Relics"
+    },
+    {
+      "id": "/Lotus/Weapons/Tenno/Pistols/ConclaveLeverPistol/ConclaveLeverPistol",
+      "name": "Zylok",
+      "type": "Secondary",
+      "category": "Pistol",
+      "masteryRank": 6,
+      "image": "/data/img/Secondary/Zylok.png",
+      "wiki": "http://warframe.wikia.com/wiki/Zylok",
+      "acquisition": "The Pyrys Project (Quest)"
+    }
+  ],
+  "constants": {
+    "TYPE": {
+      "AMP": "Amp",
+      "ARCHWING": "Archwing",
+      "ARCHWING_MELEE": "ArchwingMelee",
+      "ARCHWING_PRIMARY": "ArchwingPrimary",
+      "KAVAT": "Kavat",
+      "KDRIVE": "KDrive",
+      "KUBROW": "Kubrow",
+      "MELEE": "Melee",
+      "MISC": "Misc",
+      "PRIMARY": "Primary",
+      "QUEST": "Quest",
+      "SECONDARY": "Secondary",
+      "SENTINEL": "Sentinel",
+      "SENTINEL_WEAPON": "SentinelWeapon",
+      "UNKNOWN": "Unknown",
+      "WARFRAME": "Warframe",
+      "ZAW": "Zaw"
+    },
+    "TYPES": {
+      "Amp": "Amps",
+      "Archwing": "Archwings",
+      "ArchwingMelee": "Archwing Melees",
+      "ArchwingPrimary": "Archwing Primaries",
+      "Kavat": "Kavats",
+      "KDrive": "K-Drives",
+      "Kubrow": "Kubrows",
+      "Melee": "Melee",
+      "Misc": "Misc",
+      "Primary": "Primaries",
+      "Quest": "Quests",
+      "Secondary": "Secondaries",
+      "Sentinel": "Sentinels",
+      "SentinelWeapon": "Sentinel Weapons",
+      "Unknown": "Unknown",
+      "Warframe": "Warframes",
+      "Zaw": "Zaws"
+    },
+    "MELEE_CATEGORIES": {
+      "BLADE_WHIP": "Blade-Whip",
+      "CLAWS": "Claws",
+      "DAGGER": "Dagger",
+      "DUAL_DAGGERS": "Dual Daggers",
+      "DUAL_SWORDS": "Dual Swords",
+      "FIST": "Fist",
+      "GLAIVE": "Glaive",
+      "GUNBLADE": "Gunblade",
+      "HAMMER": "Hammer",
+      "HEAVY_BLADE": "Heavy Blade",
+      "MACHETE": "Machete",
+      "NIKANA": "Nikana",
+      "NUNCHAKU": "Nunchaku",
+      "POLEARM": "Polearm",
+      "RAPIER": "Rapier",
+      "SCYTHE": "Scythe",
+      "SPARRING": "Sparring",
+      "STAFF": "Staff",
+      "SWORD": "Sword",
+      "SWORD_SHEILD": "Sword-Shield",
+      "TONFA": "Tonfa",
+      "WARFAN": "Warfan",
+      "WHIP": "Whip"
+    },
+    "PRIMARY_CATEGORIES": {
+      "BOW": "Bow",
+      "CONTINUOUS_RIFLE": "Continuous Rifle",
+      "LAUNCHER": "Launcher",
+      "RIFLE": "Rifle",
+      "SHOTGUN": "Shotgun",
+      "SNIPER": "Sniper",
+      "SPEARGUN_RIFLE": "Speargun Rifle"
+    },
+    "SECONDARY_CATEGORIES": {
+      "CONTINUOUS_PISTOL": "Continuous Pistol",
+      "DUAL_PISTOLS": "Dual Pistols",
+      "SHOTGUN_PISTOL": "Shotgun Pistol",
+      "SINGLE_PISTOL": "Single Pistol",
+      "THROWN_SECONDARY": "Thrown"
+    }
+  },
+  "fetched": "2019.07.24 08:04:18 CET+02:00"
+}

@@ -1,0 +1,8 @@
+{
+    "config": {
+        "vendor-dir": "public/helper/Classes/vendor"
+    },
+    "require": {
+        "google/apiclient": "^2.0"
+    }
+}

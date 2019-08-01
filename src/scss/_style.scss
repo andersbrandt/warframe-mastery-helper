@@ -1,0 +1,489 @@
+//
+//  Foundation style overrides
+//
+
+ul.title-area {
+  li.name h1 a {
+    padding-left: 0;
+    font-weight: 700;
+    text-transform: uppercase;
+  }
+}
+
+h3 {
+  margin-top: 1em;
+}
+
+.panel {
+  margin-top: 18px;
+}
+
+.top-bar {
+  margin-top: 12px;
+}
+
+.color-green {
+  color: $color-dark-green;
+}
+
+.text-is-grey {
+  color: #789;
+  a {
+    color: #789;
+  }
+}
+
+.margin-top-small {
+  margin-top: 8px;
+}
+
+.margin-bottom-small {
+  margin-bottom: 8px;
+  display: inline-block;
+}
+
+.margin-top-10 {
+  margin-top: 10px;
+}
+
+.margin-top-medium {
+  margin-top: 14px;
+}
+
+.padding-right-small {
+  padding-right: 8px;
+}
+
+.padding-right-medium {
+  padding-right: 14px;
+}
+
+//
+//  App
+//
+
+#header-logo {
+  width: 32px;
+  margin-right: 10px;
+  margin-top: -5px;
+  vertical-align: middle;
+}
+
+#spinner {
+  padding-top: 100px;
+  text-align: center;
+}
+.spinner-loaded {
+  display: none;
+}
+
+#ranked-indicator {
+  margin-top: 12px;
+  margin-bottom: 12px;
+  font-size: 22px;
+  background-color: $white;
+  border: 1px solid $border-color;
+  padding: 12px 16px;
+  display: inline-block;
+  float: right;
+  span {
+    font-size: 16px;
+  }
+}
+
+#search {
+  font-size: 22px;
+  padding: 22px 12px;
+  margin-bottom: 0;
+  background-color: lighten($background-color, 3%);
+  float: left;
+  border-color: $border-color-darkest;
+  &::placeholder {
+    font-size: 16px;
+
+    opacity: 1;
+    color: $search-input-placeholder-color;
+  }
+  &:focus {
+    background-color: $white;
+    box-shadow: 0 0 7px $search-input-outline;
+  }
+}
+#search-clear {
+  float: right;
+  margin-top: -43px;
+  margin-right: 3px;
+  color: $search-input-placeholder-color;
+  cursor: pointer;
+  font-size: 22px;
+  display: inline-block;
+  padding: 7px;
+  &:hover {
+    color: $body-font-color;
+  }
+}
+
+#filter {
+  float: left;
+  margin-top: 10px;
+  margin-right: 4px;
+  color: $steel;
+  #filter-clear {
+    padding: 0 10px 3px 17px;
+    display: inline-block;
+    font-size: 14px;
+    cursor: pointer;
+    &:hover {
+      color: $color-blue;
+      outline: none !important;
+    }
+    &:focus {
+      color: $color-blue-darker;
+      outline: none !important;
+    }
+  }
+  #filter-label {
+    display: inline-block;
+    margin-right: 4px;
+  }
+  label {
+    display: inline-block;
+    margin-bottom: 4px;
+    outline: none !important;
+    span {
+      display: inline-block;
+      padding: 2px 10px;
+      border: 1px solid $border-color-darkest;
+      margin-right: 6px;
+      color: $steel;
+      line-height: 22px;
+      outline: none !important;
+    }
+  }
+  input {
+    margin: 8px;
+    display: none;
+    &:checked + span{
+      font-weight: bold;
+      background-color: $white;
+      color: $color-blue;
+      border-color: $color-blue;
+    }
+    &#filter-all {
+      &:checked + span{
+        color: $charcoal;
+        border-color: $border-color-darkest;
+      }
+
+    }
+  }
+}
+
+#search-indicator {
+  font-size: 16px;
+  float: right;
+  margin-top: 10px;
+  margin-bottom: 26px;
+  margin-right: 4px;
+  color: $steel;
+  &.search-indicator-filtered {
+    color: $color-blue-darker;
+  }
+  .fa-search {
+    display: inline-block;
+    padding-right: 22px;
+    font-size: 15px;
+  }
+  #search-indicator-value {
+    font-weight: bold;
+  }
+}
+
+.group {
+  padding-bottom: 22px;
+  margin-bottom: 22px;
+  border-bottom: 2px solid $border-color;
+  @include clearfix();
+}
+
+ul#all-items {
+  margin-left: 0;
+  margin-top: 12px;
+}
+
+.thumbnail-wrapper {
+  margin-bottom: 10px;
+  width: 256px;
+  height: 171px;
+}
+
+.thumbnail {
+  width: 256px;
+}
+
+li.item {
+  list-style: none;
+  line-height: normal;
+  background-color: $box-color;
+  border: 1px solid $border-color-item;
+  border-bottom: 1px solid $border-color-darker;
+  padding: 10px;
+  margin-bottom: 22px;
+  &.item-vaulted {
+    background-color: $color-yellow;
+    border: 1px solid $color-yellow-darker;
+    border-bottom: 1px solid $color-yellow-darkest;
+  }
+  &.item-unobtainable {
+    background-color: $color-red;
+    border: 1px solid $color-red-darker;
+    border-bottom: 1px solid $color-red-darkest;
+  }
+  &.item-checked {
+    background-color: $color-green;
+    border: 1px solid $color-green-darker;
+    border-bottom: 1px solid $color-green-darkest;
+    .check {
+      .far {
+        color: $color-dark-green;
+      }
+    }
+  }
+  &.selected {
+    border-color: red;
+  }
+  &.active {
+    background-color: $white;
+    border: 1px solid $border-color-darker;
+    border-bottom: 1px solid $border-color-darker;
+    .name {
+      text-decoration: underline;
+    }
+  }
+  .name {
+    font-size: 22px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  h2 {
+    i {
+      font-size: 18px;
+    }
+  }
+  .tier-rank {
+    display: inline-block;
+    margin-left: 4px;
+    cursor: pointer;
+    .fa-star {
+      font-size: 12px;
+      width: 16px;
+      height: 16px;
+    }
+  }
+  .acquisition {
+    font-style: italic;
+    display: inline-block;
+    padding-left: 6px;
+    cursor: pointer;
+  }
+  .component {
+    display: inline-block;
+    margin-left: 4px;
+    cursor: pointer;
+  }
+  .check {
+    display: inline-block;
+    margin-top: 9px;
+    margin-right: 5px;
+    cursor: pointer;
+    float: right;
+    .fa {
+      width: 32px;
+      height: 32px;
+    }
+  }
+  .specification {
+    margin-top: 4px;
+  }
+  .wikia-link {
+    display: inline-block;
+    margin-left: 4px;
+  }
+  .data {
+    display: none;
+    margin-top: 10px;
+    border-top: 1px solid $border-color;
+    padding-top: 10px;
+    p {
+      margin-bottom: 2px;
+    }
+  }
+  .mastery-icon {
+    width: 32px;
+    position: relative;
+    top: -5px;
+  }
+
+}
+#status-placeholder {
+  margin-bottom: 12px;
+  p {
+    margin-bottom: 4px;
+  }
+}
+
+
+.left-right-table {
+  td {
+    padding-top: 6px;
+    padding-right: 10px;
+    vertical-align: top;
+    line-height: 1.4em;
+  }
+  .table-left {
+    font-weight: bold;
+  }
+  .table-right {
+    width: 100%;
+  }
+}
+
+//
+//  Modals
+//
+#export-data-placeholder {
+  background-color: $silver;
+  border: 1px solid $border-color;
+  padding: 10px;
+  font-family: monospace;
+  word-break: break-all;
+}
+.close-reveal-modal:hover {
+  color: red;
+}
+
+@media only screen and (min-width: 0px) and (max-width: 640px) {
+  .reveal-modal {
+    max-width: 90%;
+    left: 15px;
+    top: 15px;
+  }
+}
+
+//
+//  Page: Help
+//
+body.page-help {
+  #help-placeholder {
+    margin-top: 32px;
+  }
+}
+.legend-icon {
+  margin-right: 6px;
+}
+.legend-color {
+  display: inline-block;
+  width: 16px;
+  height: 18px;
+  margin-right: 11px;
+  vertical-align: sub;
+  &.legend-unchecked {
+    background-color: $box-color;
+    border: 1px solid $border-color-item;
+    border-bottom: 1px solid $border-color-darker;
+  }
+  &.legend-vaulted {
+    background-color: $color-yellow;
+    border: 1px solid $color-yellow-darker;
+    border-bottom: 1px solid $color-yellow-darkest;
+  }
+  &.legend-unobtainable {
+    background-color: $color-red;
+    border: 1px solid $color-red-darker;
+    border-bottom: 1px solid $color-red-darkest;
+  }
+  &.legend-checked {
+    background-color: $color-green;
+    border: 1px solid $color-green-darker;
+    border-bottom: 1px solid $color-green-darkest;
+  }
+}
+
+
+//
+//  Page: Stats
+//
+#stats-placeholder {
+  
+  h2 {
+    margin-bottom: 32px;
+  }
+  
+  table {
+    margin-bottom: 42px;
+    th {
+      text-align: left;
+      padding-right: 12px;
+      padding-bottom: 4px;
+      border-bottom: 1px solid $border-color;
+    }
+    td {
+      padding-top: 4px;
+    }
+    td.name {
+      padding-right: 12px;
+    }
+    td.ranked {
+      padding-right: 12px;
+      text-align: right;
+    }
+    td.unranked {
+      padding-right: 12px;
+      text-align: right;
+      font-weight: bold;
+    }
+    td.xp {
+      padding-right: 12px;
+      text-align: right;
+    }
+    td.total {
+      padding-right: 12px;
+      text-align: right;
+    }
+    tr.divider {
+      border-top: 1px solid $border-color;
+    }
+  }
+
+  .stats-item {
+    padding-bottom: 24px;
+    .name {
+      font-size: 18px;
+    }
+  }
+}
+
+
+//
+//  Footer
+//
+#footer {
+  margin-top: 22px;
+  margin-bottom: 42px;
+  text-align: right;
+  display: none;
+  .inner {
+    background-color: $silver;
+    margin-top: 40px;
+    padding: 0 20px;
+    @include clearfix;
+  }
+}
+
+@media only screen and (min-width: 0px) and (max-width: 640px) {
+  li.item .acquisition,
+  li.item .mastery-rank
+  {
+    display: none;
+  }
+}

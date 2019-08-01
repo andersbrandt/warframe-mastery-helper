@@ -1,0 +1,28 @@
+<IfModule mod_php5.c>
+   php_value short_open_tag 1
+ </IfModule>
+
+<files .htaccess>
+    order allow,deny
+    deny from all
+</files>
+
+<IfModule mod_deflate.c>
+    AddOutputFilterByType DEFLATE text/plain
+    AddOutputFilterByType DEFLATE text/html
+    AddOutputFilterByType DEFLATE text/css
+    AddOutputFilterByType DEFLATE application/javascript
+    AddOutputFilterByType DEFLATE application/x-javascript
+</IfModule>
+
+#Header set Cache-Control "max-age=0,  must-revalidate"
+
+php_value upload_max_filesize 40M
+php_value post_max_size 42M
+
+Options -MultiViews -Indexes
+
+RewriteEngine on
+
+## Example rewrite rule
+#RewriteRule ^api/get/games/_id/([^/.]+)?$ controller-api.php?action=getGames&id=$1 [L]

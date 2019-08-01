@@ -1,0 +1,20 @@
+<div id="user-wrapper">
+    <h2>User</h2>
+    <p>
+        <a onclick="app.import.showModal();">Import data from array</a><br />
+        <a onclick="app.export.showModal();">Export data as array</a><br />
+        <a onclick="app.export.csv();">Download data as CSV</a>
+    </p>
+    <hr />
+    <p>
+        Signed in as <b>{{this.firstName}}</b><br>
+    </p>
+    <!--
+    <p>
+        Application User Id: {{this.uid}}
+    </p>
+    -->
+    <p><a class="button" href="../user/logout.php">Logout</a></p>
+</div>
+
+<a class="close-reveal-modal tippy-close-modal" aria-label="Close">&#215;</a>

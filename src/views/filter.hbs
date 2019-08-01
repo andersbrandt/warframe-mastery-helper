@@ -1,0 +1,19 @@
+<div id="filter">
+        <span id="filter-clear" class="tippy-filter-clear" onclick="app.search.clear();">Clear <i class="fa fa-fw fa-times"></i></span>
+    <label for="filter-all">
+        <input type="radio" name="filter-status" class="filter-status" value="all" id="filter-all" checked="checked" onclick="app.filter.activate('all');">
+        <span class="tippy-filter-showall">All</span>
+    </label>
+    <label for="filter-ranked" onclick="app.filter.activate('ranked');">
+        <input type="radio" name="filter-status" class="filter-status" value="ranked" id="filter-ranked">
+        <span class="tippy-filter-ranked">Ranked</span>
+    </label>
+    <label for="filter-unranked" onclick="app.filter.activate('ranked');">
+        <input type="radio" name="filter-status" class="filter-status" value="unranked" id="filter-unranked">
+        <span class="tippy-filter-unranked">Unranked</span>
+    </label>
+</div>
+
+<div id="search-indicator">
+    <i class="fa fa-fw fa-search"></i><span id="search-indicator-string"></span>Showing <span id="search-indicator-value">443</span>
+</div>

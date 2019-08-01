@@ -1,0 +1,112 @@
+<h2>Help</h2>
+
+<h3>Legend</h3>
+<p><i class="legend-icon far fa-fw fa-square"></i> Item are un-checked</p>
+<p><i class="legend-icon far fa-fw pr-medium fa-check-square"></i> Item are checked</p>
+<p><i class="legend-icon far fa-fw fa-star"></i> Item rating (1 to 3 stars)</p>
+<p><i class="legend-icon fa fa-fw fa-lock"></i> Item are currently vaulted</p>
+<p><i class="legend-icon fa fa-fw fa-exclamation-triangle"></i> Item are unobtainable</p>
+<p><i class="legend-icon fa fa-fw fa-puzzle-piece"></i> Item are a component (save this item in your Inventory)</p>
+<p><i class="legend-icon fa fa-fw fa-external-link-alt"></i> External link, will open in a new tab</p>
+<p><span class="legend-color legend-unchecked"></span> Item are unchecked</p>
+<p><span class="legend-color legend-checked"></span> Item are checked</p>
+<p><span class="legend-color legend-vaulted"></span> Item are vaulted</p>
+<p><span class="legend-color legend-unobtainable"></span> Item are unobtainable</p>
+
+<h3>Useful links</h3>
+<ul>
+    <li><a href="https://drops.warframestat.us/" target="_blank"><b>Drop Data (easily searchable)</b></a></li>
+    <li><a href="https://n8k6e2y6.ssl.hwcdn.net/repos/hnfvc0o3jnfvc873njb03enrf56.html" target="_blank"><b>Official Drop Rates &amp; Locations</b></a></li>
+    <li><a href="https://www.cephalonwannab.com/" target="_blank"><b>i_wanna_b_the_guy's Tier List</b></a></li>
+    <li><a href="https://www.tenno.zone/planner/" target="_blank"><b>Tenno Zone's guide to find relics</b></a></li>
+    <li><a href="https://www.framemastery.com/" target="_blank"><b>FrameMastery.com - Guides for everything</b></a></li>
+    <li><a href="http://content.warframe.com/dynamic/worldState.php" target="_blank">Official World-state API</a></li>
+    <li><a href="https://hub.warframestat.us" target="_blank">Warframe Hub</a></li>
+    <li><a href="http://warframe-builder.com/" target="_blank">Warframe Builds</a></li>
+    <li><a href="https://semlar.com/fish" target="_blank">Guide to fishing</a></li>
+    <li><a href="https://warframeguide.com/resources-farming-in-warframe/" target="_blank">Guide to resource farming</a></li>
+    <li><a href="https://warframe.fandom.com/wiki/Mastery_Rank" target="_blank">All about mastery rank</a></li>
+</ul>
+
+<h3>Notes</h3>
+<p><b>Unobtainable items</b></p>
+<p>Three items are considered "Unobtainable" since they were only accessible from the <a href="https://warframe.fandom.com/wiki/Founders" target="_blank">Founder Packages</a>:</p>
+<ul>
+    <li><a href="https://warframe.fandom.com/wiki/Excalibur_Prime" target="_blank">Excalibur Prime</a></li>
+    <li><a href="https://warframe.fandom.com/wiki/Lato_Prime" target="_blank">Lato Prime</a></li>
+    <li><a href="https://warframe.fandom.com/wiki/Skana_Prime" target="_blank">Skana Prime</a></li>
+</ul>
+<p><b>Fully ranked items</b></p>
+<p>Two items comes fully ranked and will add to mastery once obtained:</p>
+<ul>
+    <li><a href="https://warframe.fandom.com/wiki/Excalibur_Umbra" target="_blank">Excalibur Umbra</a></li>
+    <li><a href="https://warframe.fandom.com/wiki/Skiajati" target="_blank">Skiajati</a></li>
+</ul>
+<p><b>Unique items</b></p>
+<p>One item can reach level 40 and grant an additional 1000 points, but are considered mastered at level 30:</p>
+<ul>
+    <li><a href="https://warframe.fandom.com/wiki/Paracesis" target="_blank">Paracesis</a></li>
+</ul>
+<p><a href="https://warframe.fandom.com/wiki/Khora" target="_blank">Khora's</a> companion Venari will grant 6000 points towards mastery rank.</p>
+<!--
+<p><b>Bugs</b></p>
+<p>K-Drive might not show as a fully ranked item in game, this is a known bug in Warframe.</p>
+-->
+<!--
+<h3>Item types</h3>
+<p>These are the types that are searchable</p>
+<ul>
+    {{#each constants.TYPE }}
+        <li>{{this}}</li>
+    {{/each}}
+</ul>
+-->
+
+<h3>About this app</h3>
+<p>GUI and frontend by <a href="https://andersbrandt.se/">Anders Brandt</a></p>
+<p>Item data are supplied by <a href="https://github.com/WFCD/" target="_blank">Warframe Community Developers</a> repo <a href="https://github.com/WFCD/warframe-items/" target="_blank">warframe-items</a>, thank you guys!</p>
+<p>Tier-list are supplied by <a href="https://www.cephalonwannab.com/" target="_blank">i_wanna_b_the_guy's Tier List</a></p>
+<p>
+    <b>Data fetched:</b><br/>
+    {{ fetched }}
+</p>
+<p>
+    <b>Data actual for versions:</b><br/>
+    PC: {{ version.pc }}<br/>
+    PS4: {{ version.ps4 }}<br/>
+    Xbox: {{ version.xbox }}<br/>
+    Switch: {{ version.switch }}<br/>
+</p>
+
+<h3>Functions</h3>
+<p>Check all items</p>
+<p><code>app.item.checkAll()</code></p>
+<p>Uncheck all items</p>
+<p><code>app.item.unCheckAll()</code></p>
+<p>Copy data for checked items to clipboard (Works for Chrome):</p>
+<p><code>copy(app.storage.list())</code></p>
+<p>Import data</p>
+<p><code>app.import.showModal()</code></p>
+<p>Export data</p>
+<p><code>app.export.showModal()</code></p>
+<p>Download CSV</p>
+<p><code>app.export.csv()</code></p>
+
+<h3>I'm MR-27, what do I do?</h3>
+<p>Check all items by typing this in browser console:</p>
+<p><code>app.item.checkAll()</code></p>
+<p>Search for 'Unobtainable' and remove all Founders items</p>
+<p>Search for 'Login reward' and check those items</p>
+<p>Open Stats and check all categories against in-game menu if the numbers don't add up</p>
+
+<h3>Privacy</h3>
+<p>We will not store any personal information. Login are delegated to Google using <a target="_blank" href="https://developers.google.com/api-client-library/">Google API Client</a></p>
+<p>The only data we store are your <a target="_blank" href="https://www.google.com/search?q=what%27s+my+google+id">public Google ID</a>, used publicly in a obfuscated format.</p>
+<p>Your firstname (displayed in user-menu) are stored in session only, and never stored in database or on disk.</p>
+<p>We will not send you emails or store your email-address.</p>
+
+<a class="close-reveal-modal tippy-close-modal" aria-label="Close">&#215;</a>
+
+<div class="text-right">
+    <button type="button" class="btn btn-default" onclick="app.tools.closeModal();">Close</button>
+</div>

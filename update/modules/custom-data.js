@@ -1,0 +1,59 @@
+module.exports = function (items) {
+
+  for (var i = 0; i < items.array.length; i++) {
+
+    var type = items.array[i]["type"];
+    var category = items.array[i]["category"];
+    var name = items.array[i]["name"];
+
+    // Add " Strike" to all Zaws
+    if (category == "Zaw") {
+      items.array[i]["name"] = items.array[i]["name"] + " Strike";
+    }
+
+    // Rename type and category for Kubrow
+    if (type === "Pets") {
+      items.array[i]["type"] = "Companion";
+      items.array[i]["category"] = "Kubrow";
+    }
+
+    // Rename type and category for Kavat
+    if (name.includes("Kavat")) {
+      items.array[i]["type"] = "Companion";
+      items.array[i]["category"] = "Kavat";
+    }
+
+    // Add 'Kitgun' as type to modular secondary
+    if (name == "Catchmoon" || name == "Rattleguts" || name == "Tombfinger" || name == "Gaze") {
+      items.array[i]["type"] = "Secondary";
+      items.array[i]["category"] = "Kitgun";
+    }
+
+    // Rename type and remove category for Amps
+    if (category === "Amp") {
+      items.array[i]["type"] = "Amp";
+      delete items.array[i]["category"];
+    }
+
+    // Add a note to Excalibur Umbra that item are fully ranked when obtained
+    if (name == "Excalibur Umbra") {
+      items.array[i]["specialNote"] = "Item are fully ranked when obtained.";
+    }
+
+    // Add a note to Skiajati that item are fully ranked when obtained
+    if (name == "Skiajati") {
+      items.array[i]["specialNote"] = "Item are fully ranked when obtained.";
+    }
+
+    // Add a note to Ignis Wraith that item are limited
+    if (name == "Ignis Wraith") {
+      items.array[i]["specialNote"] = "Item are limited.";
+    }
+    // Add a note to Multron that is found in Fortuna
+    if (name == "Multron") {
+      items.array[i]["acquisition"] = items.array[i]["acquisition"] + " (Fortuna)";
+    }
+  }
+  return items;
+
+};

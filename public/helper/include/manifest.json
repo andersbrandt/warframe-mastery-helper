@@ -1,0 +1,5 @@
+{
+  "main.css": "css/stylesheet.css",
+  "main.js": "js/main.js",
+  "webfonts/stylesheet.scss": "webfonts/fa-solid-900.woff2"
+}

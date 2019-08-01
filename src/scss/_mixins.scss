@@ -1,0 +1,23 @@
+//
+//  There are more mixins available in scss/foundation_global.scss
+//
+
+
+//
+//  Custom defined mixins
+//
+
+@mixin border-radius($radius) {
+  -webkit-border-radius: $radius;
+  -moz-border-radius: $radius;
+  -ms-border-radius: $radius;
+  border-radius: $radius;
+}
+
+//
+//  Custom defined functions
+//
+@function add-unit($string,$unit){
+  $unit: unquote($unit);
+  @return $string + $unit;
+}

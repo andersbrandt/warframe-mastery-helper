@@ -1,0 +1,54 @@
+<h2>Statistics</h2>
+
+<h3>Ranked items by type</h3>
+<p>
+    These categories match the in-game menu Profile > Equipment.<br>
+    Note: Unless you are a Founder, there are 3 unobtainable items. Read more in Help.
+</p>
+<table>
+    <thead>
+        <th>Type</th>
+        <th>Unranked</th>
+        <th>Ranked</th>
+        <th>Total items</th>
+        <th>Mastery XP</th>
+    </thead>
+    <tbody>
+        {{#each this}}
+        <tr>
+            <td class="name">{{this.name}}</td>
+            <td class="unranked">{{#if this.unranked.length}}{{this.unranked.length}}{{else}} <i class="fa fa-check color-green"></i> {{/if}}</td>
+            <td class="ranked">{{this.ranked.length}}</td>
+            <td class="total">{{this.total}}</td>
+            <td class="xp">{{this.xp}}</td>
+        </tr>
+        {{/each}}
+        <tr class="divider">
+            <td>&nbsp;</td>
+            <td class="unranked">{{this.totalItemsUnranked}}</td>
+            <td class="ranked">{{this.totalItemsRanked}}</td>
+            <td class="total">{{this.totalItems}}</td>
+            <td class="xp">~{{this.totalXp}}</td>
+        </tr>
+    </tbody>
+</table>
+
+<h3>Unranked items by type</h3>
+{{#each this}}
+<div class="stats-item">
+    <div class="name">
+        <b>{{this.name}}{{#if this.unranked.length}} ({{this.unranked.length}}) {{else}} <i class="fa fa-check color-green"></i> {{/if}} </b>
+    </div>
+    <div class="ranked">
+        {{#each unranked}}
+        <a href="{{ this.url}}" target="_blank">{{ this.name}}{{#if this.unobtainable}} (Unobtainable){{/if}}</a>{{#unless @last}}, {{/unless}}
+        {{/each}}
+    </div>
+</div>
+{{/each}}
+
+<a class="close-reveal-modal tippy-close-modal" aria-label="Close">&#215;</a>
+
+<div class="text-right">
+    <button type="button" class="btn btn-default" onclick="app.tools.closeModal();">Close</button>
+</div>

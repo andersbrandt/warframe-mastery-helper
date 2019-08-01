@@ -1,0 +1,42 @@
+//
+//  Variables
+//
+$color-green: #dff0d8;
+$color-dark-green: #005218;
+$color-yellow: #fcf8e3;
+$color-red: #f2dede;
+$color-blue: #009fc7;
+$background-color: #e9ecef;
+$box-color: #d4dde2;
+$border-color: #cdcdcd;
+$border-color-darkest: #999999;
+$search-input-outline: #9ecaed;
+$search-input-placeholder-color: #aaa;
+$link-color: #014b75;
+
+$border-color-item: $border-color;
+
+$color-green-darker: darken($color-green, 20%);
+$color-green-darkest: darken($color-green, 30%);
+$color-yellow-darker: darken($color-yellow, 30%);
+$color-yellow-darkest: darken($color-yellow, 40%);
+$color-red-darker: darken($color-red, 10%);
+$color-red-darkest: darken($color-red, 15%);
+$color-blue-darker: darken($color-blue, 5%);
+$border-color-darker: darken($border-color, 10%);
+
+//
+//  Foundation variable overrides
+//
+$white: #ffffff;
+$body-font-color: #232323;
+$steel: #666666;
+$charcoal: #555555;
+$silver: #EFEFEF;
+
+$nav-bg-hover: #ffffff;
+$nav-color: #333;
+$nav-bg: $background-color;
+$nav-color-hover: $link-color;
+$nav-color-active: $link-color;
+$nav-color-active-hover: $link-color;

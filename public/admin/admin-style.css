@@ -1,0 +1,34 @@
+table td, table th {
+    border: 1px solid #cdcdcd;
+    padding: 4px 6px;
+}
+table th {
+    background: #f4f4f4;
+}
+
+/*
+    tablesorter
+    https://github.com/kylefox/jquery-tablesort
+*/
+table.sortable th {
+    background: #f4f4f4;
+    cursor: pointer;
+}
+table.sortable th:hover,
+table.sortable th.sorted {
+    background: #d4d4d4;
+}
+table.sortable th.no-sort,
+table.sortable th.no-sort:hover {
+    background: #f4f4f4;
+    cursor: not-allowed;
+}
+table.sortable th.sorted.ascending:after {
+    content: " \2191";
+}
+table.sortable th.sorted.descending:after {
+    content: " \2193";
+}
+table.sortable .disabled {
+    opacity: 0.5;
+}

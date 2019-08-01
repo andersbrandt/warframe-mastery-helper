@@ -1,0 +1,144 @@
+body.start-page {
+    // background-image: url("../images/bg-start-page-v3.jpg");
+    // background-size: cover;
+}
+
+#start-page {
+    padding-top: 36px;
+    padding-bottom: 12px;
+
+    .row {
+        max-width: 1320px;
+    }
+
+    p {
+        margin-top: 0;
+        padding-top: 0;
+        &.text-larger {
+            font-size: 18px;
+        }
+    }
+
+    .box {
+        background-color: #ffffff;
+        padding: 15px 20px 10px 20px;
+    }
+
+    h2 {
+        padding-top: 0;
+        margin: 0;
+        margin-bottom: 16px;
+        font-weight: bold;
+        font-size: 20px;
+    }
+
+    #box-header {
+        @include clearfix();
+
+        img {
+            //float: left,
+            //text-align: right;
+            width: 64px;
+        }
+
+        h1#start-page-header {
+            //margin-bottom: 22px;
+            font-size: 32px;
+            font-weight: bold;
+            //padding-top: 8px;
+            padding-bottom: 12px;
+            //float: left;
+        }
+    }
+
+    #wrapper-weapons {
+        padding: 26px 20px 20px 20px;
+        text-align: center;
+        img {
+            max-width: 171px;
+        }
+    }
+
+    ul#news-list {
+        margin-left: 0;
+
+        li {
+            list-style-type: none;
+            margin-bottom: 12px;
+
+            .news-header {}
+
+            .news-date {
+                font-size: 14px;
+                color: #555555;
+
+            }
+
+            &:nth-child(n+4) {
+                display: none;
+            }
+        }
+    }
+
+    #legend-image {
+        width: 510px;
+    }
+
+    #footer {
+            display: block;
+        }
+}
+
+
+@media only screen and (min-width: 0px) and (max-width: 1320px) {
+    #start-page {
+        #wrapper-weapons {
+            #w-4 {
+                display: none;
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 0px) and (max-width: 1135px) {
+    #start-page {
+        #wrapper-weapons {
+            #w-7 {
+                display: none;
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 0px) and (max-width: 960px) {
+    #start-page {
+        #wrapper-weapons {
+            img {
+                max-width: 128px;
+            }
+            #w-7 {
+                display: inline-block;
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 0px) and (max-width: 880px) {
+    #start-page {
+        #wrapper-weapons {
+            #w-7 {
+                display: none;
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 0px) and (max-width: 746px) {
+    #start-page {
+        #wrapper-weapons {
+            #w-6 {
+                display: none;
+            }
+        }
+    }
+}
