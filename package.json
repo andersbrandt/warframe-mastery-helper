@@ -19,7 +19,7 @@
     "handlebars": "^4.1.2",
     "handlebars-loader": "^1.7.1",
     "jquery": "^3.4.1",
-    "marked": "^0.6.2",
+    "marked": "^0.7.0",
     "mini-css-extract-plugin": "^0.4.5",
     "moment": "^2.24.0",
     "node-sass": "^4.12.0",
@@ -35,7 +35,6 @@
     "cheerio": "*",
     "node-fetch": "^2.5.0",
     "path-alias": "0.0.7",
-    "rimraf": "^2.6.3",
-    "warframe-item-list": "github:andersbrandt/warframe-item-list#master-with-dist"
+    "rimraf": "^2.6.3"
   }
 }
