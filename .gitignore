@@ -5,6 +5,7 @@ public/include/helper/js/main.js.map
 update/temp
 public/admin/.htpasswd
 public/version.txt
+public/helper/Classes/vendor
 
 npm-debug.log
 node_modules
