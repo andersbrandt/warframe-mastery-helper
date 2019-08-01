@@ -14,15 +14,13 @@ https://raw.githubusercontent.com/weblue/wanna_b_tierlist/362af0205fa639cd8471e3
 
 # TODO / BUGS
 
-- Fix publish.js (Uploading all files, not just updated files)
-
 - Fix ugly SQL in class User.php
 
 - Spinner when saving
 
 - fix hardcoded path in user-auth.php & admin-auth.php - Maybe not possible
 
-- https://webpack.js.org/guides/build-performance/ < start using include
+- https://webpack.js.org/guides/build-performance/ < start using include for faster webpack-performance
 
 
 **Features needed**
