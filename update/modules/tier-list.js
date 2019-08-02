@@ -17,8 +17,8 @@ module.exports = function (items) {
     }
   }
 
-  const tierData = JSON.parse(fs.readFileSync(pathAlias.resolve("@static/theList.json")));
-  //const tierData = JSON.parse(fs.readFileSync(pathAlias.resolve("@temp/theList.json")));
+  //const tierData = JSON.parse(fs.readFileSync(pathAlias.resolve("@static/theList.json")));
+  const tierData = JSON.parse(fs.readFileSync(pathAlias.resolve("@temp/theList.json")));
 
   // Save version-string
   items.version.tier = tierData.version;
@@ -32,6 +32,7 @@ module.exports = function (items) {
 
   // Map data
   for (var group in tierData) {
+    console.log(group);
     for (var item in tierData[group]) {
       for (var i = 0; i < items.array.length; i++) {
         if (items.array[i].name == tierData[group][item]["name"]) {
