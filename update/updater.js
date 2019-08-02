@@ -38,6 +38,11 @@ class Updater {
       );
 
       await
+      this.fetchJsonFile(
+        [paths.updateData.tierRanking]
+      );
+
+      await
       this.populateItems(
         paths.source.files
       );
