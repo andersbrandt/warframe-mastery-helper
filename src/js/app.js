@@ -8,7 +8,7 @@ const tippy = require("./tippy/tippy.min.js");
 
 var app = {
   name: "Warframe Mastery Helper",
-  version: "2.4.1",
+  version: "2.4.2",
   data: {},
   config: {
     modal: {
