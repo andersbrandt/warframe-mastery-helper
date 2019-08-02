@@ -414,9 +414,11 @@ var app = {
     },
     setState: function (name, state) {
       var objIndex = app.item.getIndexByName(name);
-      if (objIndex !== -1) {
-        //TODO better handling?
+      if (objIndex !== -1 && objIndex !== false) {
         app.data.array[objIndex]["checked"] = state;
+      } else {
+        console.error("Can't find index for " + name);
+        alert("Can't find index for " + name);
       }
     },
     checkAll: function () {

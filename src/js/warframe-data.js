@@ -8457,9 +8457,9 @@ module.exports = {
       "sentinel": false,
       "masteryReq": 6,
       "omegaAttenuation": 1,
-      "buildPrice": 25000,
-      "buildTime": 86400,
-      "skipBuildTimePrice": 25,
+      "buildPrice": 15000,
+      "buildTime": 43200,
+      "skipBuildTimePrice": 50,
       "buildQuantity": 1,
       "consumeOnBuild": true,
       "type": "Secondary",
@@ -17832,6 +17832,7 @@ module.exports = {
       "polarities": [
         "Madurai"
       ],
+      "stancePolarity": "Zenurik",
       "tags": [
         "Corpus"
       ],
@@ -38411,7 +38412,7 @@ module.exports = {
       "component": false
     }
   ],
-  "fetched": "2019.08.02 12:03:23 CET+02:00",
+  "fetched": "2019.08.02 04:44:21 CET+02:00",
   "version": {
     "pc": "Wukong Deluxe: Update 25.5.0",
     "ps4": "Tenno Reinforcements:  Update 25.4.0",
