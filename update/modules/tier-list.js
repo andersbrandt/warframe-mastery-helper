@@ -32,7 +32,6 @@ module.exports = function (items) {
 
   // Map data
   for (var group in tierData) {
-    console.log(group);
     for (var item in tierData[group]) {
       for (var i = 0; i < items.array.length; i++) {
         if (items.array[i].name == tierData[group][item]["name"]) {

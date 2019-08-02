@@ -8205,6 +8205,22 @@ module.exports = {
       "component": false
     },
     {
+      "name": "Lambeo Moa",
+      "uniqueName": "/Lotus/Types/Friendly/Pets/MoaPets/MoaPetParts/MoaPetHeadLambeo",
+      "type": "Sentinel",
+      "imageName": "lambeo-moa.png",
+      "tradable": false,
+      "acquisition": "Legs (Fortuna)",
+      "checked": false,
+      "shortName": "LambeoMoa",
+      "unobtainable": false,
+      "vaulted": false,
+      "tierData": false,
+      "tierRank": 0,
+      "component": false,
+      "wikiaUrl": "http://warframe.wikia.com/wiki/Lambeo_Moa"
+    },
+    {
       "name": "Lanka",
       "uniqueName": "/Lotus/Weapons/ClanTech/Energy/Railgun",
       "totalDamage": 525,
@@ -10551,6 +10567,22 @@ module.exports = {
       "component": false
     },
     {
+      "name": "Oloro Moa",
+      "uniqueName": "/Lotus/Types/Friendly/Pets/MoaPets/MoaPetParts/MoaPetHeadOloro",
+      "type": "Sentinel",
+      "imageName": "oloro-moa.png",
+      "tradable": false,
+      "acquisition": "Legs (Fortuna)",
+      "checked": false,
+      "shortName": "OloroMoa",
+      "unobtainable": false,
+      "vaulted": false,
+      "tierData": false,
+      "tierRank": 0,
+      "component": false,
+      "wikiaUrl": "http://warframe.wikia.com/wiki/Oloro_Moa"
+    },
+    {
       "name": "Onorix",
       "uniqueName": "/Lotus/Weapons/Tenno/Archwing/Melee/Archaxe/ArchAxeWeapon",
       "totalDamage": 290,
@@ -10920,6 +10952,22 @@ module.exports = {
       "rank": 65.6,
       "tierRank": 1,
       "component": false
+    },
+    {
+      "name": "Para Moa",
+      "uniqueName": "/Lotus/Types/Friendly/Pets/MoaPets/MoaPetParts/MoaPetHeadPara",
+      "type": "Sentinel",
+      "imageName": "para-moa.png",
+      "tradable": false,
+      "acquisition": "Legs (Fortuna)",
+      "checked": false,
+      "shortName": "ParaMoa",
+      "unobtainable": false,
+      "vaulted": false,
+      "tierData": false,
+      "tierRank": 0,
+      "component": false,
+      "wikiaUrl": "http://warframe.wikia.com/wiki/Para_Moa"
     },
     {
       "name": "Paracesis",
@@ -17281,7 +17329,7 @@ module.exports = {
       "component": false
     }
   ],
-  "fetched": "2019.08.02 07:11:02 CET+02:00",
+  "fetched": "2019.08.02 07:18:25 CET+02:00",
   "version": {
     "pc": "Wukong Deluxe: Update 25.5.0",
     "ps4": "Tenno Reinforcements:  Update 25.4.0",

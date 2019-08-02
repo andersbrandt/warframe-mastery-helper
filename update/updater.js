@@ -213,21 +213,23 @@ class Updater {
               json[i]["type"] = "Vehicle";
               json[i]["category"] = "K-Drive";
             }
-            if (json[i]["uniqueName"].includes('MoaPetHead')) {
-              json[i]["type"] = "Sentinel";
-              delete json[i]["category"];
-            }
             if (
               !json[i]["uniqueName"].includes('Barrel') &&
               !json[i]["uniqueName"].includes('Deck') &&
-              !json[i]["uniqueName"].includes('MoaPetHead') &&
               !json[i]["uniqueName"].includes('Tip')
             ) {
               delete json[i];
             }
           }
           if (path === "Pets.json") {
-            if (!json[i]["uniqueName"].includes('PetPowerSuit')) {
+            if (json[i]["uniqueName"].includes('MoaPetHead')) {
+              json[i]["type"] = "Sentinel";
+              delete json[i]["category"];
+            }
+            if (
+              !json[i]["uniqueName"].includes('PetPowerSuit') && 
+              !json[i]["uniqueName"].includes('MoaPetHead')
+              ) {
               delete json[i];
             }
           }
