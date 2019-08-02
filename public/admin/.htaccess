@@ -1,7 +1,0 @@
-AuthType Basic
-AuthName "Password Protected Area"
-AuthUserFile /Library/WebServer/Documents/warframe-mastery-helper/warframe-mastery-helper/public/admin/.htpasswd
-Require valid-user
-
-# .htpasswd example with admin/admin
-# admin:$apr1$k/Cvt3l.$B8ZQ4UGiEEfy6rFJXI4Fz/

@@ -3,7 +3,6 @@ public/conf.php
 public/include/helper/css/stylesheet.css.map
 public/include/helper/js/main.js.map
 update/temp
-public/admin/.htpasswd
 public/version.txt
 public/helper/Classes/vendor
 
