@@ -19,7 +19,7 @@
         <title>Warframe Mastery Helper</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
         <meta name="apple-mobile-web-app-capable" content="yes">
-        <meta name="description" content="Keep track of all leveled items required for mastery rank. Features tier-ranking, recommendations and in-depth information. Get your Warframe Mastery Rank up!"/>
+        <meta name="description" content="Get your Warframe Mastery Rank up! Keep track of all leveled items required for mastery rank. Features tier-ranking, recommendations and in-depth information."/>
         <?php if ($functions->isDev()) { ?>
             <link type="image/png" rel="icon" href="<?=$config->get("root")?>helper/include/images/favicon-dev.png"/>
             <link type="text/css" rel="stylesheet" href="<?=$config->get("root")?>helper/include/css/stylesheet.css"/>
