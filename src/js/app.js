@@ -4,7 +4,6 @@ const {utils} = require("./utils.js");
 const warframeData = require("./warframe-data.js");
 const ClockEidolon = require("./clock-eidolon.js");
 const ClockOrbvallis = require("./clock-orbvallis.js");
-const tippy = require("./tippy/tippy.min.js");
 
 var app = {
   name: "Warframe Mastery Helper",
@@ -40,7 +39,6 @@ var app = {
         $(document).foundation();
         app.render.spinner.hide();
         app.search.updateIndicator();
-        app.tippy.bind();
       }
     );
 
@@ -151,37 +149,31 @@ var app = {
         var template = require("./../views/item.hbs");
         var html = template(data);
         $('*[data-name="' + name + '"]').replaceWith(html);
-        app.tippy.bind();
       },
       help: function () {
         var template = require("./../views/pages/help.hbs");
         var html = template(app.data);
         $("#help-placeholder").html(html);
-        app.tippy.bind();
       },
       stats: function () {
         var template = require("./../views/pages/stats.hbs");
         var html = template(app.stats.create());
         $("#stats-placeholder").html(html);
-        app.tippy.bind();
       },
       user: function () {
         var template = require("./../views/pages/user.hbs");
         var html = template(user);
         $("#user-placeholder").html(html);
-        app.tippy.bind();
       },
       clock: function () {
         var template = require("./../views/clock-modal.hbs");
         var html = template();
         $("#clock-placeholder").html(html);
-        app.tippy.bind();
       },
       guide: function () {
         var template = require("./../views/beginner-guide.hbs");
         var html = template(app.data);
         $("#guide-placeholder").html(html);
-        app.tippy.bind();
       }
     },
     page: {
@@ -397,7 +389,6 @@ var app = {
       var html = template(data);
       $("#item-info-placeholder").html(html).foundation("reveal", "open", app.config.modal);
       app.tools.closeMenu();
-      app.tippy.bind();
     },
     check: function (name, state) {
       if (state) {
@@ -596,57 +587,6 @@ var app = {
         clockEidolon.start();
         clockOrbvallis.updateTime();
         clockOrbvallis.start();
-      });
-    }
-
-  },
-  tippy: {
-    bind: function(){
-      tippy.setDefaults({
-        arrow: true,
-        delay: 300,
-      });
-      tippy('.tippy-wikia', {
-        content: "Open page on Warframe Wikia"
-      });
-      tippy('.tippy-component', {
-        content: "Item are a component<br>(Save this item in your Inventory)"
-      });
-      tippy('.tippy-unobtainable', {
-        content: "Item are unobtainable"
-      });
-      tippy('.tippy-vaulted', {
-        content: "Item are currently vaulted"
-      });
-      tippy('.tippy-one-star', {
-        content: "Item are ranked Viable (1/3 stars)"
-      });
-      tippy('.tippy-two-stars', {
-        content: "Item are ranked Contender (2/3 stars)"
-      });
-      tippy('.tippy-three-stars', {
-        content: "Item are ranked Top (3/3 stars)"
-      });
-      tippy('.tippy-item-check', {
-        content: "Check this item as ranked"
-      });
-      tippy('.tippy-filter-clear', {
-        content: "Clear search & filter"
-      });
-      tippy('.tippy-filter-ranked', {
-        content: "Filter result on ranked items"
-      });
-      tippy('.tippy-filter-unranked', {
-        content: "Filter result on unranked items"
-      });
-      tippy('.tippy-filter-showall', {
-        content: "Remove filter and show all"
-      });
-      tippy('.tippy-rating-site', {
-        content: "Open cephalonwannab.com in new tab"
-      });
-      tippy('.tippy-close-modal', {
-        content: "Close this modal"
       });
     }
   }

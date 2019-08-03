@@ -9,17 +9,17 @@
 {{/if}}
 <span class="acquisition"><a onclick="app.search.searchFor('{{escape acquisition }}');">{{acquisition}}</a>{{#if vaulted}} <i class="fa fa-fw fa-lock"></i>{{/if}}{{#if unobtainable}} <i class="fa fa-fw fa-exclamation-triangle"></i>{{/if}}</span>
 {{#ifCond this.tierRank "==" "3"}}
-    <span class="tier-rank tier-rank-3 tippy-three-stars">
+    <span class="tier-rank tier-rank-3">
     <i class="far fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i>
     </span>
 {{/ifCond}}
 {{#ifCond this.tierRank "==" "2"}}
-    <span class="tier-rank tier-rank-2 tippy-two-stars">
+    <span class="tier-rank tier-rank-2">
     <i class="far fa-star"></i><i class="far fa-star"></i>
     </span>
 {{/ifCond}}
 {{#ifCond this.tierRank "==" "1"}}
-    <span class="tier-rank tier-rank-1 tippy-one-star">
+    <span class="tier-rank tier-rank-1">
     <i class="far fa-star"></i>
     </span>
 {{/ifCond}}
@@ -38,7 +38,7 @@
         {{#if this.wikiaUrl}}
         <tr>
             <td class="table-left">Wikia:</td>
-            <td class="table-right"><a href="{{wikiaUrl}}" target="_blank" class="tippy-wikia">{{name}} <i class="fa fa-external-link-alt"></i></a></td>
+            <td class="table-right"><a href="{{wikiaUrl}}" target="_blank">{{name}} <i class="fa fa-external-link-alt"></i></a></td>
         </tr>
         {{/if}}
         {{#if this.tier}}
@@ -133,7 +133,7 @@
         {{/if}}
     </table>
     {{#if this.tier}}
-        <p class="text-is-grey margin-top-medium">Data from <a href="https://www.cephalonwannab.com/" target="_blank" class="tippy-rating-site">cephalonwannab.com <i class="fa fa-external-link-alt"></i></a></p>
+        <p class="text-is-grey margin-top-medium">Data from <a href="https://www.cephalonwannab.com/" target="_blank">cephalonwannab.com <i class="fa fa-external-link-alt"></i></a></p>
     {{/if}}
-    <a class="close-reveal-modal tippy-close-modal" aria-label="Close">&#215;</a>
+    <a class="close-reveal-modal" aria-label="Close">&#215;</a>
 </div>

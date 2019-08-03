@@ -63,7 +63,7 @@ include_once($config->get("path") . "/helper/include/header.php");
     <p class="lead">Save this string to a text-file:</p>
     <!-- TODO should be a textarea -->
     <div id="export-data-placeholder"></div>
-    <a class="close-reveal-modal tippy-close-modal" aria-label="Close">&#215;</a>
+    <a class="close-reveal-modal" aria-label="Close">&#215;</a>
 </div>
 
 <div id="modal-import" class="reveal-modal" data-reveal aria-labelledby="modalTitle" aria-hidden="true" role="dialog">
@@ -73,7 +73,7 @@ include_once($config->get("path") . "/helper/include/header.php");
     <p class="lead">Paste saved string from export here:</p>
     <textarea id="import-data"></textarea>
     <button onclick="app.import.list();">Import</button>
-    <a class="close-reveal-modal tippy-close-modal" aria-label="Close">&#215;</a>
+    <a class="close-reveal-modal" aria-label="Close">&#215;</a>
 </div>
 
 <?php if ($functions->isDev()) { ?>

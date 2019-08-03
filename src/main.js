@@ -5,8 +5,6 @@ if (process.env.NODE_ENV !== 'production') {
 }
 
 import "./js/vendor/foundation.js";
-import "./js/tippy/popper.min.js";
-import "./js/tippy/tippy.min.js";
 import "./js/warframe-data.js";
 import "./js/app.js";
 import "./js/clock-eidolon.js";
