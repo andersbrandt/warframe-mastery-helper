@@ -8,7 +8,7 @@ include_once($config->get("path") . "/helper/include/header.php");
 
 ?>
     <div id="spinner" style="display: block;">
-        <i class="fas fa-pulse fa-spinner fa-3x"></i>
+        <i class="icon-spinner animate-spin icon-3x"></i>
     </div>
 
     <div class="row spinner-loaded">

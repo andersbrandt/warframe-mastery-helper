@@ -55,7 +55,7 @@
                     <?php if ($userISloggedIn) { ?>
                         <p class="text-center">
                             <b class="margin-bottom-small">You are already logged in</b><br>
-                            <a href="helper/" class="button success"><i class="far fa-fw fa-check-circle"></i> Continue to app</a><br>
+                            <a href="helper/" class="button success"><i class="icon-ok-circled2"></i> Continue to app</a><br>
                         </p>
                     <?php } else { ?>
                         <p class="text-center">

@@ -49,8 +49,8 @@ module.exports = {
           loader: "file-loader",
           options: {
             name: "[name].[ext]",
-            outputPath: "webfonts/",
-            publicPath: "../webfonts/"
+            outputPath: "font/",
+            publicPath: "../font/"
 
           }
         }]

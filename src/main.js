@@ -21,3 +21,9 @@ import "./views/status.hbs";
 import "./views/pages/help.hbs";
 import "./views/pages/stats.hbs";
 import "./views/pages/user.hbs";
+
+import "./font/fontello.eot";
+import "./font/fontello.svg";
+import "./font/fontello.ttf";
+import "./font/fontello.woff";
+import "./font/fontello.woff2";

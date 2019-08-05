@@ -47,7 +47,7 @@
                         <li><a onclick="app.render.page.help();" title="Help">Help</a></li>
                         <li><a onclick="app.render.page.stats();" title="Statistics">Statistics</a></li>
                         <li><a onclick="app.render.page.clock();" title="Clock">Clock</a></li>
-                        <li><a onclick="app.render.page.user();" title="User"><?php echo $_SESSION['userData']["first_name"]?> <i class="fa fa-fw fa-user"></i></a></li>
+                        <li><a onclick="app.render.page.user();" title="User"><?php echo $_SESSION['userData']["first_name"]?> <i class="icon-user"></i></a></li>
                     </ul>
                 </section>
             </nav>
