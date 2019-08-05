@@ -62,6 +62,10 @@ h3 {
   font-size: 2em;
 }
 
+.icon-3x {
+  font-size: 3em;
+}
+
 
 //
 //  App
@@ -194,10 +198,12 @@ h3 {
   &.search-indicator-filtered {
     color: $color-blue-darker;
   }
-  .fa-search {
+  .icon-search {
     display: inline-block;
-    padding-right: 22px;
-    font-size: 15px;
+    padding-right: 4px;
+    font-size: 14px;
+    position: relative;
+    top: -2px;
   }
   #search-indicator-value {
     font-weight: bold;
@@ -279,7 +285,7 @@ li.item {
     display: inline-block;
     margin-left: 4px;
     cursor: pointer;
-    .fa-star {
+    .icon-star-empty {
       font-size: 12px;
       width: 16px;
       height: 16px;
