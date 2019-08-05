@@ -17329,9 +17329,9 @@ module.exports = {
       "component": false
     }
   ],
-  "fetched": "2019.08.02 07:18:25 CET+02:00",
+  "fetched": "2019.08.05 10:06:00 CET+02:00",
   "version": {
-    "pc": "Wukong Deluxe: Update 25.5.0",
+    "pc": "Wukong Deluxe: Hotfix 25.5.2",
     "ps4": "Tenno Reinforcements:  Update 25.4.0",
     "xbox": "Tenno Reinforcements:  Update 25.4.0",
     "switch": "Tenno Reinforcements:  Update 25.4.0",
