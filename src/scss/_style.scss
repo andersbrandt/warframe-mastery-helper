@@ -58,6 +58,11 @@ h3 {
   padding-right: 14px;
 }
 
+.icon-2x {
+  font-size: 2em;
+}
+
+
 //
 //  App
 //
@@ -244,7 +249,7 @@ li.item {
     border: 1px solid $color-green-darker;
     border-bottom: 1px solid $color-green-darkest;
     .check {
-      .far {
+      .icon-check-empty, .icon-check {
         color: $color-dark-green;
       }
     }
@@ -297,7 +302,7 @@ li.item {
     margin-right: 5px;
     cursor: pointer;
     float: right;
-    .fa {
+    .icon-check, .icon-check-empty {
       width: 32px;
       height: 32px;
     }

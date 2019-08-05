@@ -1,26 +1,26 @@
 <h2 id="modalTitle" class="name">
     {{#if this.checked }}
-        <i class="far fa-check-square"></i>
+        <i class="icon-check"></i>
     {{/if}}
     {{name}}
 </h2>
 {{#if this.imageName}}
     <p><div class="thumbnail-wrapper"><img class="thumbnail"  src="https://cdn.warframestat.us/img/{{imageName}}"></div></p>
 {{/if}}
-<span class="acquisition"><a onclick="app.search.searchFor('{{escape acquisition }}');">{{acquisition}}</a>{{#if vaulted}} <i class="fa fa-fw fa-lock"></i>{{/if}}{{#if unobtainable}} <i class="fa fa-fw fa-exclamation-triangle"></i>{{/if}}</span>
+<span class="acquisition"><a onclick="app.search.searchFor('{{escape acquisition }}');">{{acquisition}}</a>{{#if vaulted}} <i class="icon-lock"></i>{{/if}}{{#if unobtainable}} <i class="icon-attention"></i>{{/if}}</span>
 {{#ifCond this.tierRank "==" "3"}}
     <span class="tier-rank tier-rank-3">
-    <i class="far fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i>
+    <i class="icon-star-empty"></i><i class="icon-star-empty"></i><i class="icon-star-empty"></i>
     </span>
 {{/ifCond}}
 {{#ifCond this.tierRank "==" "2"}}
     <span class="tier-rank tier-rank-2">
-    <i class="far fa-star"></i><i class="far fa-star"></i>
+    <i class="icon-star-empty"></i><i class="icon-star-empty"></i>
     </span>
 {{/ifCond}}
 {{#ifCond this.tierRank "==" "1"}}
     <span class="tier-rank tier-rank-1">
-    <i class="far fa-star"></i>
+    <i class="icon-star-empty"></i>
     </span>
 {{/ifCond}}
 <p>
@@ -38,7 +38,7 @@
         {{#if this.wikiaUrl}}
         <tr>
             <td class="table-left">Wikia:</td>
-            <td class="table-right"><a href="{{wikiaUrl}}" target="_blank">{{name}} <i class="fa fa-external-link-alt"></i></a></td>
+            <td class="table-right"><a href="{{wikiaUrl}}" target="_blank">{{name}} <i class="icon-link-ext"></i></a></td>
         </tr>
         {{/if}}
         {{#if this.tier}}
@@ -128,12 +128,12 @@
         {{#if this.component}}
             <tr>
                 <td class="table-left">Component:</td>
-                <td class="table-right"><a href="http://warframe.wikia.com/wiki/Weapons_Required_as_Crafting_Ingredients#Combined_blueprints" target="_blank">Item are a component, read more about build-chains. <i class="fa fa-external-link-alt"></i></a></td>
+                <td class="table-right"><a href="http://warframe.wikia.com/wiki/Weapons_Required_as_Crafting_Ingredients#Combined_blueprints" target="_blank">Item are a component, read more about build-chains. <i class="icon-link-ext"></i></a></td>
             </tr>
         {{/if}}
     </table>
     {{#if this.tier}}
-        <p class="text-is-grey margin-top-medium">Data from <a href="https://www.cephalonwannab.com/" target="_blank">cephalonwannab.com <i class="fa fa-external-link-alt"></i></a></p>
+        <p class="text-is-grey margin-top-medium">Data from <a href="https://www.cephalonwannab.com/" target="_blank">cephalonwannab.com <i class="icon-link-ext"></i></a></p>
     {{/if}}
     <a class="close-reveal-modal" aria-label="Close">&#215;</a>
 </div>
