@@ -11,7 +11,6 @@
         <th>Unranked</th>
         <th>Ranked</th>
         <th>Total items</th>
-        <th>Mastery XP</th>
     </thead>
     <tbody>
         {{#each this}}
@@ -20,7 +19,6 @@
             <td class="unranked">{{#if this.unranked.length}}{{this.unranked.length}}{{else}} <i class="icon-ok color-green"></i> {{/if}}</td>
             <td class="ranked">{{this.ranked.length}}</td>
             <td class="total">{{this.total}}</td>
-            <td class="xp">{{this.xp}}</td>
         </tr>
         {{/each}}
         <tr class="divider">
@@ -28,7 +26,6 @@
             <td class="unranked">{{this.totalItemsUnranked}}</td>
             <td class="ranked">{{this.totalItemsRanked}}</td>
             <td class="total">{{this.totalItems}}</td>
-            <td class="xp">~{{this.totalXp}}</td>
         </tr>
     </tbody>
 </table>

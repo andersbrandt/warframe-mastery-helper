@@ -90,13 +90,6 @@ var app = {
       }
       return list.length;
     },
-    xpMultiplier: function (type) {
-      if (type == "Archwing" || type == "Warframe" || type == "Sentinel" || type == "Kavat" || type == "Kubrow" || type == "K-Drive") {
-        return 6000;
-      } else {
-        return 3000;
-      }
-    },
     checkData: function(){
       var missingWikiaUrl = [];
       var missingMasteryReq = [];
@@ -505,13 +498,11 @@ var app = {
       var totalItems = 0;
       var totalItemsRanked = 0;
       var totalItemsUnranked = 0;
-      var totalXp = 0;
 
       for (var key in categories) {
         var typeDataRanked = [];
         var typeDataUnranked = [];
         var typeDataTotal = 0;
-        var typeXP = 0;
         for (var type in categories[key]["types"]) {
           var typeStatus = app.tools.statusByType(categories[key]["types"][type]);
           for (var i=0; i < typeStatus["unranked"].length; i++) {
@@ -520,24 +511,19 @@ var app = {
           for (var i=0; i < typeStatus["ranked"].length; i++) {
             typeDataRanked.push(typeStatus["ranked"][i]);
           }
-          typeXP = typeXP + typeDataRanked.length * app.tools.xpMultiplier(categories[key]["label"]);
         }
-        var xp = typeXP;
         var total = typeDataTotal + (typeDataRanked.length + typeDataUnranked.length);;
         var item = {
           "name": categories[key]["label"],
           "ranked": typeDataRanked,
           "unranked": typeDataUnranked,
-          "total": total,
-          "xp": utils.formatNumber(xp)
+          "total": total
         };
         data.push(item);
-        totalXp += xp;
         totalItems += total;
         totalItemsRanked += typeDataRanked.length;
         totalItemsUnranked += typeDataUnranked.length;
       }
-      data.totalXp = utils.formatNumber(totalXp);
       data.totalItemsRanked = totalItemsRanked;
       data.totalItemsUnranked = totalItemsUnranked;
       data.totalItems = totalItems;
