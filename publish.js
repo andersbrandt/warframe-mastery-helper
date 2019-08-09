@@ -16,11 +16,7 @@ const paths = {
       'public/**',
       '!public/conf.php',
       '!public/conf.php.sample',
-      '!public/user-auth.php',
-      '!public/admin/.htpasswd',
-      '!public/admin/.htaccess',
-      '!public/admin/auth-admin.php',
-      '!public/helper/include/manifest.json'
+      '!public/user-auth.php'
     ]
   }
 };

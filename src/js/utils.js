@@ -17,6 +17,11 @@ var utils = {
     return false;
   },
 
+  scrubName: function (string) {
+    var temp = string.replace(/[^a-zA-Z]+/g, '');
+    return temp.replace(/\s/g, '');
+  },
+
   formatNumber: function(num) {
     return num.toString().replace(/(\d)(?=(\d{3})+(?!\d))/g, "$1.")
   },
@@ -147,15 +152,9 @@ var utils = {
           return options.inverse(this);
       }
     });
-  },
-  clog: function () {
-    console.log("c");
   }
 
 };
-
-// utils.tryLocalStorage();
-//window.utils = utils;
 
 module.exports = {
   utils: utils
