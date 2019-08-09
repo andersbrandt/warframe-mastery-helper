@@ -3,9 +3,9 @@
 -- http://www.phpmyadmin.net
 --
 -- Host: localhost
--- Generation Time: Mar 31, 2018 at 03:11 PM
+-- Generation Time: Aug 09, 2019 at 03:04 PM
 -- Server version: 5.7.16
--- PHP Version: 5.5.38
+-- PHP Version: 7.3.1
 
 SET SQL_MODE="NO_AUTO_VALUE_ON_ZERO";
 SET time_zone = "+00:00";
@@ -23,6 +23,20 @@ SET time_zone = "+00:00";
 -- --------------------------------------------------------
 
 --
+-- Table structure for table `warframeUserData`
+--
+
+CREATE TABLE IF NOT EXISTS `warframeUserData` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `userId` varchar(100) NOT NULL,
+  `data` text NOT NULL,
+  `timeStamp` datetime NOT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=latin1 AUTO_INCREMENT=1 ;
+
+-- --------------------------------------------------------
+
+--
 -- Table structure for table `warframeUsers`
 --
 
@@ -33,9 +47,9 @@ CREATE TABLE IF NOT EXISTS `warframeUsers` (
   `uid` varchar(100) COLLATE utf8_unicode_ci NOT NULL,
   `locale` varchar(10) COLLATE utf8_unicode_ci NOT NULL,
   `created` datetime NOT NULL,
-  `modified` datetime NOT NULL,
+  `modified` datetime DEFAULT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB  DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci AUTO_INCREMENT=7 ;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci AUTO_INCREMENT=1 ;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
