@@ -13,10 +13,6 @@ Copy file ``public/conf.php.sample`` to ``public/conf.php``
 
 Edit ``$conf["baseUrl"]`` and ``$conf["root"]`` in file ``public/conf.php``
 
-Copy file ``.ftpconfig.js.sample`` to ``.ftpconfig.js``
-
-Edit file ``.ftpconfig.js``
-
 Create file public/version.txt: `touch public/version.txt`
 
 Add environment variables and database-scripts
