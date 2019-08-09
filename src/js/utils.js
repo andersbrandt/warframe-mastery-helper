@@ -105,7 +105,9 @@ var utils = {
       }
     });
     Handlebars.registerHelper('escape', function(variable) {
-      return variable.replace(/(['"])/g, '\\$1');
+      if (typeof(variable) != "undefined"){
+        return variable.replace(/(['"])/g, '\\$1');
+      }
     });
     Handlebars.registerHelper('unescape', function (obj) {
       var doc = new DOMParser().parseFromString(arguments[0], "text/html");

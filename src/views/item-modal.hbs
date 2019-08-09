@@ -5,34 +5,26 @@
     {{name}}
 </h2>
 {{#if this.imageName}}
-    <p><div class="thumbnail-wrapper"><img class="thumbnail"  src="https://cdn.warframestat.us/img/{{imageName}}"></div></p>
+<div class="thumbnail-wrapper"><img class="thumbnail"  src="https://cdn.warframestat.us/img/{{imageName}}"></div>
 {{/if}}
-<span class="acquisition"><a onclick="app.search.searchFor('{{escape acquisition }}');">{{acquisition}}</a>{{#if vaulted}} <i class="icon-lock"></i>{{/if}}{{#if unobtainable}} <i class="icon-attention"></i>{{/if}}</span>
-{{#ifCond this.tierRank "==" "3"}}
-    <span class="tier-rank tier-rank-3">
-    <i class="icon-star-empty"></i><i class="icon-star-empty"></i><i class="icon-star-empty"></i>
-    </span>
-{{/ifCond}}
-{{#ifCond this.tierRank "==" "2"}}
-    <span class="tier-rank tier-rank-2">
-    <i class="icon-star-empty"></i><i class="icon-star-empty"></i>
-    </span>
-{{/ifCond}}
-{{#ifCond this.tierRank "==" "1"}}
-    <span class="tier-rank tier-rank-1">
-    <i class="icon-star-empty"></i>
-    </span>
-{{/ifCond}}
-<p>
-    <span class="type">{{type}}</span><span class="category">{{#if category}}: {{category}}{{/if}}</span>
-    {{#ifCond masteryRank ">=" 1}} | MR-{{masteryRank}}{{/ifCond}}
-</p>
 <div class="data">
     <table class="left-right-table">
-        {{#if this.description}}
+        {{#if this.type}}
         <tr>
-            <td class="table-left">Description:</td>
-            <td class="table-right"> {{{description}}}</td>
+            <td class="table-left">Category:</td>
+            <td class="table-right"> <a onclick="app.search.searchFor('{{escape type }}');">{{{type}}}</a></td>
+        </tr>
+        {{/if}}
+        {{#if this.category}}
+        <tr>
+            <td class="table-left">Type:</td>
+            <td class="table-right"> <a onclick="app.search.searchFor('{{escape category }}');">{{{category}}}</a></td>
+        </tr>
+        {{/if}}
+        {{#if this.acquisition}}
+        <tr>
+            <td class="table-left">Acquisition:</td>
+            <td class="table-right"> <a onclick="app.search.searchFor('{{escape acquisition }}');">{{{acquisition}}}</a>{{#if vaulted}} <i class="icon-lock"></i>{{/if}}{{#if unobtainable}} <i class="icon-attention"></i>{{/if}}{{#ifCond masteryReq ">=" 1}} | MR-{{masteryReq}}{{/ifCond}}</td>
         </tr>
         {{/if}}
         {{#if this.wikiaUrl}}
@@ -41,10 +33,35 @@
             <td class="table-right"><a href="{{wikiaUrl}}" target="_blank">{{name}} <i class="icon-link-ext"></i></a></td>
         </tr>
         {{/if}}
+        <tr>
+            <td colspan="2"><hr></td>
+        </tr>
+        {{#if this.description}}
+        <tr>
+            <td class="table-left">Description:</td>
+            <td class="table-right"> {{{description}}}</td>
+        </tr>
+        {{/if}}
         {{#if this.tier}}
         <tr>
             <td class="table-left">Tier:</td>
-            <td class="table-right"> {{tier}}</td>
+            <td class="table-right">
+                {{#ifCond this.tierRank "==" "3"}}
+                <span class="tier-rank tier-rank-3">
+                    <i class="icon-star-empty"></i><i class="icon-star-empty"></i><i class="icon-star-empty"></i>
+                </span>
+                {{/ifCond}}
+                {{#ifCond this.tierRank "==" "2"}}
+                <span class="tier-rank tier-rank-2">
+                    <i class="icon-star-empty"></i><i class="icon-star-empty"></i>
+                </span>
+                {{/ifCond}}
+                {{#ifCond this.tierRank "==" "1"}}
+                <span class="tier-rank tier-rank-1">
+                    <i class="icon-star-empty"></i>
+                </span>
+                {{/ifCond}}
+                 ({{tier}})</td>
         </tr>
         {{/if}}
         {{#if this.rank}}

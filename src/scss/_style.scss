@@ -66,6 +66,10 @@ h3 {
   font-size: 3em;
 }
 
+.icon-star-empty:before {
+  margin-left: 0;
+  margin-right: 0.2em;
+}
 
 //
 //  App
@@ -343,13 +347,17 @@ li.item {
   }
 }
 
-
 .left-right-table {
   td {
     padding-top: 6px;
     padding-right: 10px;
     vertical-align: top;
     line-height: 1.4em;
+    hr {
+      margin-top: 16px;
+      margin-bottom: 14px;
+      border-color: #cdcdcd;
+    }
   }
   .table-left {
     font-weight: bold;
