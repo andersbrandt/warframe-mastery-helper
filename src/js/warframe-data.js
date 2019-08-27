@@ -8846,7 +8846,7 @@ module.exports = {
       "imageName": "mesa-prime.png",
       "tradable": true,
       "aura": "madurai",
-      "conclave": false,
+      "conclave": true,
       "color": 3353891,
       "introduced": "24.2.2",
       "sex": "Female",
@@ -9378,11 +9378,11 @@ module.exports = {
       "checked": false,
       "unobtainable": false,
       "tierData": true,
-      "tier": "Need buffs",
-      "notes": "Very low damage per shot, poor DPS, projectile munitions. Alt fire creats a bubble that can be combined up to three times. Firing through the bubble increase damage and critical chance. ",
+      "tier": "Contender",
+      "notes": "Very low damage per shot, monstrous DPS, projectile munitions. Alt fire creats a bubble that can be combined up to three times. Firing through the bubble increase damage and critical chance. Bursting Mass changes the interaction by absorbing 200% of the damage passing through and detonating it every time another bubble is launched. ✪",
       "dmg": "Status",
-      "rank": 77.1,
-      "tierRank": 0,
+      "rank": 54.9,
+      "tierRank": 2,
       "component": false
     },
     {
@@ -16807,12 +16807,12 @@ module.exports = {
       "component": false
     }
   ],
-  "fetched": "2019.08.09 01:15:50 CET+02:00",
+  "fetched": "2019.08.25 08:12:13 CET+02:00",
   "version": {
-    "pc": "25.6.1",
-    "ps4": "Tenno Reinforcements:  Update 25.4.0",
-    "xbox": "Tenno Reinforcements:  Update 25.4.0",
-    "switch": "Tenno Reinforcements:  Update 25.4.0",
+    "pc": "25.6.3",
+    "ps4": "25.6.0",
+    "xbox": "25.6.0",
+    "switch": "25.6.0",
     "tier": "Warframe Patch 25.4 - Quatz ranked. "
   }
 }
