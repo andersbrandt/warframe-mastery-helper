@@ -103,13 +103,13 @@
         <div class="row show-for-medium-up">
             <div class="column large-12">
                 <div id="wrapper-weapons">
-                    <img id="w-1" alt="Warframe primary weapon: Arca Plasmor" title="Warframe primary weapon: Arca Plasmor" src="https://raw.githubusercontent.com/wfcd/warframe-items/development/data/img/arca-plasmor.png">
-                    <img id="w-2" alt="Warframe primary weapon: Kohm" title="Warframe primary weapon: Kohm" src="https://raw.githubusercontent.com/wfcd/warframe-items/development/data/img/kohm.png">
-                    <img id="w-3" alt="Warframe secondary weapon: Lato" title="Warframe secondary weapon: Lato" src="https://raw.githubusercontent.com/wfcd/warframe-items/development/data/img/lato.png">
-                    <img id="w-4" alt="Warframe melee weapon: Dual Cleavers" title="Warframe melee weapon: Dual Cleavers" src="https://raw.githubusercontent.com/wfcd/warframe-items/development/data/img/dual-cleavers.png">
-                    <img id="w-5" alt="Warframe primary weapon: Braton" title="Warframe primary weapon: Braton" src="https://raw.githubusercontent.com/wfcd/warframe-items/development/data/img/braton.png">
-                    <img id="w-6" alt="Warframe melee weapon: Dual Heat Swords" title="Warframe melee weapon: Dual Heat Swords" src="https://raw.githubusercontent.com/wfcd/warframe-items/development/data/img/dual-heat-swords.png">
-                    <img id="w-7" alt="Warframe secondary weapon: Detron" title="Warframe secondary weapon: Detron" src="https://raw.githubusercontent.com/wfcd/warframe-items/development/data/img/detron.png">
+                    <img id="w-1" alt="Warframe primary weapon: Arca Plasmor" title="Warframe primary weapon: Arca Plasmor" src="<?=$config->get("root")?>helper/include/images/start-page/arca-plasmor.png">
+                    <img id="w-2" alt="Warframe primary weapon: Kohm" title="Warframe primary weapon: Kohm" src="<?=$config->get("root")?>helper/include/images/start-page/kohm.png">
+                    <img id="w-3" alt="Warframe secondary weapon: Lato" title="Warframe secondary weapon: Lato" src="<?=$config->get("root")?>helper/include/images/start-page/lato.png">
+                    <img id="w-4" alt="Warframe melee weapon: Dual Cleavers" title="Warframe melee weapon: Dual Cleavers" src="<?=$config->get("root")?>helper/include/images/start-page/dual-cleavers.png">
+                    <img id="w-5" alt="Warframe primary weapon: Braton" title="Warframe primary weapon: Braton" src="<?=$config->get("root")?>helper/include/images/start-page/braton.png">
+                    <img id="w-6" alt="Warframe melee weapon: Dual Heat Swords" title="Warframe melee weapon: Dual Heat Swords" src="<?=$config->get("root")?>helper/include/images/start-page/dual-heat-swords.png">
+                    <img id="w-7" alt="Warframe secondary weapon: Detron" title="Warframe secondary weapon: Detron" src="<?=$config->get("root")?>helper/include/images/start-page/detron.png">
                 </div>            
             </div>
         </div>
