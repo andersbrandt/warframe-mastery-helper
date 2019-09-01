@@ -135,6 +135,12 @@ body.start-page {
 
 @media only screen and (min-width: 0px) and (max-width: 746px) {
     #start-page {
+        p,
+        ul#news-list li .news-date,
+        ul#news-list li .news-header
+        {
+            font-size: 18px;
+        }
         #wrapper-weapons {
             #w-6 {
                 display: none;

@@ -1,6 +1,6 @@
 <?php
 
-    include_once "conf.php";
+    include_once("conf.php");
 
     $userISloggedIn = false;
     if (!empty($_SESSION["userData"])) {
@@ -13,11 +13,12 @@
     $authUrl = $client->createAuthUrl();
 
 ?>
-<html>
+<!DOCTYPE html>
+<html lang="en">
     <head>
         <meta charset="UTF-8">
         <title>Warframe Mastery Helper</title>
-        <link rel="canonical" href="https://warframe-mastery.com/" />
+        <link rel="canonical" href="https://warframe-mastery.com/index.php" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
         <meta name="apple-mobile-web-app-capable" content="yes">
         <meta name="description" content="Get your Warframe Mastery Rank up! Keep track of all leveled items required for mastery rank. Features tier-ranking, recommendations and in-depth information."/>
@@ -35,7 +36,7 @@
         <div class="row">
             <div class="column large-12">
                 <div id="box-header" class="text-center">
-                    <img src="helper/include/images/favicon.png"> 
+                    <img src="<?=$config->get("root")?>helper/include/images/favicon.png" alt="Logotype"> 
                     <h1 class="text-center" id="start-page-header">Warframe Mastery Helper</h1>
                 </div>
             </div>
@@ -61,7 +62,7 @@
                     <?php } else { ?>
                         <p class="text-center">
                             <span class="margin-bottom-small">Account will be created automatically</span><br>
-                            <a href="<?php echo filter_var($authUrl, FILTER_SANITIZE_URL) ?>" class="button">Login with Google account</a>
+                            <span onclick="window.location = '<?php echo filter_var($authUrl, FILTER_SANITIZE_URL) ?>'" class="button">Login with Google account</span>
                         </p>
                     <?php } ?>
                     <p style="margin-bottom: 22px;">We will not store your personal data or send you any emails.</p>
@@ -127,14 +128,14 @@
             <div class="column large-4 margin-top-10">
                 <div class="box" data-equalizer-watch="boxes-bottom">
                     <h2>Legend</h2>
-                    <img src="helper/include/images/legend.png" id="legend-image">
+                    <img src="helper/include/images/legend.png" id="legend-image" alt="Site legend">
                 </div>
             </div>
             <div class="column large-4 margin-top-10">
                 <div class="box" data-equalizer-watch="boxes-bottom">
                     <h2>Privacy Policy & Disclaimer</h2>
-                    <p>We will not store any personal information. Login are delegated to Google using <a target="_blank" href="https://developers.google.com/api-client-library/">Google API Client</a></p>
-                    <p>The only data we store are your <a target="_blank" href="https://www.google.com/search?q=what%27s+my+google+id">public Google ID</a>, used publicly in a obfuscated format.</p>
+                    <p>We will not store any personal information. Login are delegated to Google using <a target="_blank" href="https://developers.google.com/api-client-library/" rel="noopener">Google API Client</a></p>
+                    <p>The only data we store are your public Google ID, used publicly in a obfuscated format.</p>
                     <p>We will not send you emails or store your email.</p>
                     <p>This site is not affiliated with Digital Extremes.</p>
                 </div>
