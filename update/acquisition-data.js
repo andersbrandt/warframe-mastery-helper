@@ -89,7 +89,8 @@ RAZORBACK_ARMADA = 'Razorback Armada';
 RELICS = 'Relics';
 SANCTUARY_ONSLAUGHT = 'Sanctuary Onslaught';
 SPY_MISSIONS = 'Spy Missions';
-HOSTILE_MERGERS = "Operation: Hostile Mergers"
+HOSTILE_MERGERS = "Operation: Hostile Mergers",
+DISRUPTION = "Disruption";
 
 // Misc
 SENTINEL = 'Comes with Companion';
@@ -2730,6 +2731,22 @@ var items = [{
     "name": "Quatz",
     "acquisition": MARKET,
     "id": "/Lotus/Weapons/Grineer/Pistols/GrnAmphisPistol/GrnAmphisPistol"
+  },
+  // Gauss
+  {
+    "name": "Gauss",
+    "acquisition": MARKET,
+    "id": "/Lotus/Powersuits/Runner/Runner"
+  },
+  {
+    "name": "Acceltra",
+    "acquisition": DISRUPTION,
+    "id": "/Lotus/Weapons/Tenno/LongGuns/SapientPrimary/SapientPrimaryWeapon"
+  },
+  {
+    "name": "Akarius",
+    "acquisition": DISRUPTION,
+    "id": "/Lotus/Weapons/Tenno/Pistols/SapientPistol/SapientPistol"
   },
 
 ];

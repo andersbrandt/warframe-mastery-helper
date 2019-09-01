@@ -48,6 +48,9 @@ class Updater {
       );
 
       await
+      this.customRemove();
+
+      await
       this.sort();
 
       await
@@ -113,7 +116,7 @@ class Updater {
       request = await fetch(url);
       json = await request.text();
       json = json.replace(/(?:\\[rn]|[\r\n]+)+/g, '');
-      this.clog(`Writing ${url}]`);
+      this.clog(`Writing ${url}`);
       try {
         fs.writeFileSync(`${this.tempFolder}${filename}.json`, stringify(JSON.parse(json)));
       } catch (e) {
@@ -147,7 +150,7 @@ class Updater {
     await
     asyncForEach(path, async (path) => {
       let fileContent = null;
-      this.clog(`Adding ${path}]`)
+      this.clog(`Adding ${path}`)
       try {
         fileContent = await fs.readFileSync(`${this.tempFolder}${path}`, 'utf8');
         const json = JSON.parse(fileContent);
@@ -187,9 +190,6 @@ class Updater {
           let newType = json[i]["category"];
           json[i]["category"] = json[i]["type"];
           json[i]["type"] = newType;
-          if (json[i]["name"] === "Prisma Machete") {
-            delete json[i];
-          }
           if (path === "Archwing.json") {
             if (json[i]["uniqueName"].includes('Melee')) {
               json[i]["type"] = "Archwing Melee";
@@ -259,6 +259,11 @@ class Updater {
         throw e;
       }
     });
+  }
+
+  async customRemove() {
+    this.items = require(pathAlias.resolve("@modules/custom-remove"))(this.items);
+    this.clog("Removed items");
   }
 
   async sort() {

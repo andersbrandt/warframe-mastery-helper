@@ -22,14 +22,12 @@ module.exports = function (items) {
       console.log(items.array[i]["uniqueName"]);
       console.log("");
       var tempString = `
-
-//  {
-//    "name": "`+items.array[i]["name"]+`",
-//    "acquisition": UNKNOWN,
-//    "id": "`+items.array[i]["id"]+`"
-//  },
+  // {
+  //   "name": "`+items.array[i]["name"]+`",
+  //   "acquisition": UNKNOWN,
+  //   "id": "`+items.array[i]["uniqueName"]+`"
+  // },
       `;
-
       fs.appendFileSync(pathAlias.resolve("@root/update/acquisition-data.js"), tempString, 'utf8');
     }
   }
