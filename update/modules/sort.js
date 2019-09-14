@@ -6,7 +6,7 @@ module.exports = function (items) {
   sortByName = utils.sortByName;
 
   items.array = items.array.sort(sortByName);
-  delete items.objects;
+
   items.fetched = moment().format('YYYY.MM.DD hh:mm:ss [CET]Z');
 
   return items;

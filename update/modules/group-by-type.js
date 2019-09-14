@@ -1,7 +1,5 @@
 module.exports = function (items) {
 
-    const pathAlias = require('path-alias');
-    const paths = require(("../update-config.js"));
     const {utils} = require("../../src/js/utils");
 
     var namesOnly = [];
@@ -16,5 +14,5 @@ module.exports = function (items) {
     let itemsByType = groupByType(namesOnly);
     itemsByType = utils.sortObject(itemsByType);
 
-    require('fs').writeFileSync(pathAlias.resolve(paths.startPageItemList.dest), JSON.stringify(itemsByType));
+    return itemsByType;
 };
