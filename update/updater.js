@@ -80,6 +80,9 @@ class Updater {
       await
       this.writeItemList()
 
+      await
+      this.writeStartPageItemList()
+
     } catch (e) {
       console.error(e);
     }
@@ -320,6 +323,11 @@ class Updater {
     } catch (e) {
       throw e;
     }
+  }
+
+  async writeStartPageItemList() {
+    require(pathAlias.resolve("@modules/group-by-type"))(this.items);
+    this.clog("Writing start-page-item-list.json");
   }
 
   async logItems() {

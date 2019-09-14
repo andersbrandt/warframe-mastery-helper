@@ -32,6 +32,9 @@ module.exports = {
         weaponComponents: "http://warframe.wikia.com/wiki/Weapons_Required_as_Crafting_Ingredients",
         versions: "https://warframe.com/index.php"
     },
+    startPageItemList: {
+        dest: "@root/public/helper/include/js/start-page-item-list.json"
+    },
     warframeData: {
         dest: "@root/src/js/warframe-data.js"
     },

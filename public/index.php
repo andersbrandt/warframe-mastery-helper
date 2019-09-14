@@ -61,7 +61,7 @@
         <div class="row" data-equalizer="boxes-top">
             <div class="column large-4">
                 <div class="box margin-top-10" data-equalizer-watch="boxes-top">
-                    <h2>Mastery Rank Tool</h2>
+                    <h2>Warframe Mastery Rank Tool</h2>
                     <p class="text-larger">Keep track of all leveled items required for mastery rank.</p>
                     <p class="text-larger">Features tier-ranking, recommendations and in-depth information.</p>
                     <p class="text-larger">Get your Warframe Mastery Rank up!</p>
@@ -154,6 +154,28 @@
                     <p>The only data we store are your public Google ID, used publicly in a obfuscated format.</p>
                     <p>We will not send you emails or store your email.</p>
                     <p>This site is not affiliated with Digital Extremes.</p>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="column large-12 small-12">
+                <div class="box item-list">
+                <h2>Warframe items included in list for Mastery Rank</h2>
+                <?php 
+                    $itemList = json_decode(file_get_contents($config->get("path") . "helper/include/js/start-page-item-list.json"));
+                    $itemListString = "";
+                    foreach ($itemList as $key => $value) {
+                        $itemListString .= "<p><b>" . $key . "</b><br>";
+                        foreach ($value as $item) {
+                            $itemListString .= $item->name;
+                            if (next($value)) {
+                                $itemListString .=  ", ";
+                            }
+                        }
+                        $itemListString .=  "</p>";
+                    }
+                    echo $itemListString;                
+                ?>
                 </div>
             </div>
         </div>

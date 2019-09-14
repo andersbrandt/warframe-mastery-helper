@@ -1,15 +1,9 @@
 module.exports = function (items) {
 
   const moment = require("moment");
+  const {utils} = require("../../src/js/utils");
 
-  function sortByName(a, b) {
-    if (a["name"] === b["name"]) {
-      return 0;
-    }
-    else {
-      return (a["name"] < b["name"]) ? -1 : 1;
-    }
-  }
+  sortByName = utils.sortByName;
 
   items.array = items.array.sort(sortByName);
   delete items.objects;

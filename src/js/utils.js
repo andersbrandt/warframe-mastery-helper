@@ -17,6 +17,13 @@ var utils = {
     return false;
   },
 
+  groupBy: key => array =>
+    array.reduce((objectsByKeyValue, obj) => {
+      const value = obj[key];
+      objectsByKeyValue[value] = (objectsByKeyValue[value] || []).concat(obj);
+      return objectsByKeyValue;
+    }, {}),
+
   scrubName: function (string) {
     var temp = string.replace(/[^a-zA-Z]+/g, '');
     return temp.replace(/\s/g, '');
@@ -28,6 +35,21 @@ var utils = {
 
   sortNumber: function(a, b) {
     return b - a;
+  },
+
+  sortByName: function (a, b) {
+    if (a["name"] === b["name"]) {
+      return 0;
+    } else {
+      return (a["name"] < b["name"]) ? -1 : 1;
+    }
+  },
+
+  sortObject: function(obj) {
+    return Object.keys(obj).sort().reduce(function (result, key) {
+      result[key] = obj[key];
+      return result;
+    }, {});
   },
 
   //
