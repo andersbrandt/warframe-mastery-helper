@@ -33,7 +33,7 @@ module.exports = {
         versions: "https://warframe.com/index.php"
     },
     startPageItemList: {
-        dest: "@root/public/helper/include/js/start-page-item-list.json"
+        dest: "@root/public/helper/include/start-page-item-list.html"
     },
     warframeData: {
         dest: "@root/src/js/warframe-data.js"

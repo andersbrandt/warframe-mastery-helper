@@ -326,13 +326,13 @@ class Updater {
   }
 
   async writeStartPageItemList() {
-    let itemsByType = require(pathAlias.resolve("@modules/group-by-type"))(this.items);
+    let itemsByTypeString = require(pathAlias.resolve("@modules/group-by-type"))(this.items);
     try {
-        require('fs').writeFileSync(pathAlias.resolve(paths.startPageItemList.dest), JSON.stringify(itemsByType));
+        require('fs').writeFileSync(pathAlias.resolve(paths.startPageItemList.dest), itemsByTypeString);
     } catch (e) {
       throw e;
     }
-    this.clog("Writing start-page-item-list.json");
+    this.clog("Writing start-page-item-list.html");
   }
 
   async logItems() {

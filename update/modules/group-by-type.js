@@ -14,5 +14,17 @@ module.exports = function (items) {
     let itemsByType = groupByType(namesOnly);
     itemsByType = utils.sortObject(itemsByType);
 
-    return itemsByType;
+    itemsByTypeString = "";
+    for (let group in itemsByType) {
+        itemsByTypeString += "<p><b>" + group + "</b><br>";
+        itemsByType[group].forEach( (item, index) => {
+            itemsByTypeString += item.name;
+            if (index !== itemsByType[group].length -1) {
+                itemsByTypeString += ", ";
+            }
+        });
+        itemsByTypeString += "</p>";
+    }
+
+    return itemsByTypeString;
 };

@@ -12,19 +12,6 @@
     }
     $authUrl = $client->createAuthUrl();
 
-    $itemList = json_decode(file_get_contents($config->get("path") . "helper/include/js/start-page-item-list.json"));
-    $itemListString = "";
-    foreach ($itemList as $key => $value) {
-        $itemListString .= "<p><b>" . $key . "</b><br>";
-        foreach ($value as $item) {
-            $itemListString .= $item->name;
-            if (next($value)) {
-                $itemListString .=  ", ";
-            }
-        }
-        $itemListString .=  "</p>";
-    }
-
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -175,7 +162,7 @@
                 <div class="box item-list">
                 <h2>Warframe items included in list for Mastery Rank</h2>
                 <?php 
-                    echo $itemListString;                
+                    readfile($config->get("path") . "helper/include/start-page-item-list.html")
                 ?>
                 </div>
             </div>

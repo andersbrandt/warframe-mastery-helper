@@ -16910,7 +16910,7 @@ module.exports = {
       "component": false
     }
   ],
-  "fetched": "2019.09.14 11:03:36 CET+02:00",
+  "fetched": "2019.09.15 01:37:40 CET+02:00",
   "version": {
     "pc": "25.7.5",
     "ps4": "25.7.4",
