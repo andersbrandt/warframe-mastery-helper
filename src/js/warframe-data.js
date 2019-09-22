@@ -17,7 +17,7 @@ module.exports = {
       "imageName": "acceltra.png",
       "category": "Rifle",
       "tradable": false,
-      "damage": "70.0",
+      "damage": "35.0",
       "flight": "???",
       "projectile": "Projectile",
       "wikiaThumbnail": "https://vignette.wikia.nocookie.net/warframe/images/1/19/Acceltra.png/revision/latest?cb=20190831102245",
@@ -203,9 +203,14 @@ module.exports = {
       "imageName": "akarius.png",
       "category": "Dual Pistols",
       "tradable": false,
-      "damage": "419.0 blast",
+      "damage": "68.0",
       "flight": "???",
       "projectile": "Projectile",
+      "secondary": {
+        "name": "Rocket Detonation",
+        "blast": 419,
+        "damage": "419.0 blast"
+      },
       "wikiaThumbnail": "https://vignette.wikia.nocookie.net/warframe/images/8/89/Akarius.png/revision/latest?cb=20190831103041",
       "wikiaUrl": "http://warframe.fandom.com/wiki/Akarius",
       "disposition": 3,
@@ -16910,9 +16915,9 @@ module.exports = {
       "component": false
     }
   ],
-  "fetched": "2019.09.15 01:37:40 CET+02:00",
+  "fetched": "2019.09.22 05:57:09 CET+02:00",
   "version": {
-    "pc": "25.7.5",
+    "pc": "25.7.6",
     "ps4": "25.7.4",
     "xbox": "25.7.4",
     "switch": "25.7.4",

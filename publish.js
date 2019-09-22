@@ -16,7 +16,8 @@ const paths = {
       'public/**',
       '!public/conf.php',
       '!public/conf.php.sample',
-      '!public/user-auth.php'
+      '!public/user-auth.php',
+      '!public/helper/Classes/vendor/**'
     ]
   }
 };
