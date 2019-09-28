@@ -91,6 +91,7 @@ SANCTUARY_ONSLAUGHT = 'Sanctuary Onslaught';
 SPY_MISSIONS = 'Spy Missions';
 HOSTILE_MERGERS = "Operation: Hostile Mergers",
 DISRUPTION = "Disruption";
+EMISSARY = "Emissary Derelict Assassinate";
 
 // Misc
 SENTINEL = 'Comes with Companion';
@@ -2747,6 +2748,12 @@ var items = [{
     "name": "Akarius",
     "acquisition": DISRUPTION,
     "id": "/Lotus/Weapons/Tenno/Pistols/SapientPistol/SapientPistol"
+  },
+  // Pathocyst (Hotfix 25.7.7)
+  {
+    "name": "Pathocyst",
+    "acquisition": EMISSARY,
+    "id": "/Lotus/Weapons/Infested/Melee/InfBoomerang/InfBoomerangWeapon"
   },
 
 ];

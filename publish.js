@@ -30,10 +30,11 @@ if (process.env.SAFE_TO_PUBLISH === 'true') {
     {
       buffer: false
     })
-    //.pipe(conn.newerOrDifferentSize(paths.upload.dest))
     .pipe(conn.newer(paths.upload.dest))
     .pipe(conn.dest(paths.upload.dest)
   );
+  // Update sitemap
+  require("./generate-sitemap.js");
 
 } else {
 

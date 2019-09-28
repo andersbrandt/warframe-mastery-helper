@@ -92,7 +92,7 @@ module.exports = {
       "damage": "35.0 toxin",
       "flight": 65,
       "projectile": "Projectile",
-      "wikiaThumbnail": "https://vignette.wikia.nocookie.net/warframe/images/a/a8/Acrid2.png/revision/latest?cb=20130530193010",
+      "wikiaThumbnail": "https://vignette.wikia.nocookie.net/warframe/images/a/a8/Acrid2.png/revision/latest?cb=20190926231820",
       "wikiaUrl": "http://warframe.fandom.com/wiki/Acrid",
       "disposition": 5,
       "acquisition": "Bio Lab (Dojo)",
@@ -1524,7 +1524,7 @@ module.exports = {
         "puncture": 20
       },
       "statusChance": 10,
-      "wikiaThumbnail": "https://vignette.wikia.nocookie.net/warframe/images/9/92/DEBallistica.png/revision/latest?cb=20140101053337",
+      "wikiaThumbnail": "https://vignette.wikia.nocookie.net/warframe/images/9/92/DEBallistica.png/revision/latest?cb=20190926235141",
       "wikiaUrl": "http://warframe.fandom.com/wiki/Ballistica",
       "disposition": 3,
       "acquisition": "Market (Orbiter)",
@@ -1986,7 +1986,7 @@ module.exports = {
       "damage": "46.0",
       "flight": 100,
       "projectile": "Projectile",
-      "wikiaThumbnail": "https://vignette.wikia.nocookie.net/warframe/images/5/59/DEPrimeBoltor.png/revision/latest?cb=20140306030523",
+      "wikiaThumbnail": "https://vignette.wikia.nocookie.net/warframe/images/5/59/DEPrimeBoltor.png/revision/latest?cb=20190925045504",
       "wikiaUrl": "http://warframe.fandom.com/wiki/Boltor_Prime",
       "disposition": 3,
       "releaseDate": "2014 03 06",
@@ -4888,7 +4888,7 @@ module.exports = {
       "tradable": false,
       "damage": "420.0 radiation",
       "projectile": "Projectile",
-      "wikiaThumbnail": "https://vignette.wikia.nocookie.net/warframe/images/6/6c/Exergis.png/revision/latest?cb=20181218162843",
+      "wikiaThumbnail": "https://vignette.wikia.nocookie.net/warframe/images/6/6c/Exergis.png/revision/latest?cb=20190925182707",
       "wikiaUrl": "http://warframe.fandom.com/wiki/Exergis",
       "disposition": 3,
       "acquisition": "Market (Orbiter)",
@@ -7692,7 +7692,8 @@ module.exports = {
       "category": "Sniper Rifle",
       "tradable": false,
       "damage": "87.0",
-      "projectile": "Hitscan",
+      "flight": "???",
+      "projectile": "Projectile",
       "secondary": {
         "name": "3.5x Zoom Mode",
         "speed": 1.5,
@@ -9474,7 +9475,7 @@ module.exports = {
         "toxin": 100,
         "damage": "100.0 toxin"
       },
-      "wikiaThumbnail": "https://vignette.wikia.nocookie.net/warframe/images/2/26/InfCrpShockSwarm.png/revision/latest?cb=20140620010138",
+      "wikiaThumbnail": "https://vignette.wikia.nocookie.net/warframe/images/2/26/InfCrpShockSwarm.png/revision/latest?cb=20190925142901",
       "wikiaUrl": "http://warframe.fandom.com/wiki/Mutalist_Quanta",
       "disposition": 5,
       "acquisition": "Bio Lab (Dojo)",
@@ -10464,7 +10465,7 @@ module.exports = {
       "damage": 400,
       "projectile": "Hitscan",
       "statusChance": 30,
-      "wikiaThumbnail": "https://vignette.wikia.nocookie.net/warframe/images/7/7e/OpticorVandal.png/revision/latest?cb=20190308163219",
+      "wikiaThumbnail": "https://vignette.wikia.nocookie.net/warframe/images/7/7e/OpticorVandal.png/revision/latest?cb=20190925144954",
       "wikiaUrl": "http://warframe.fandom.com/wiki/Opticor_Vandal",
       "disposition": 3,
       "acquisition": "Buried Debts (Quest)",
@@ -10895,6 +10896,50 @@ module.exports = {
       "component": false
     },
     {
+      "name": "Pathocyst",
+      "uniqueName": "/Lotus/Weapons/Infested/Melee/InfBoomerang/InfBoomerangWeapon",
+      "totalDamage": 82,
+      "trigger": "Melee",
+      "description": "Each strike of this infested glaive infects its target with viral pathogens. Occasionally, it discharges the spores of rabid, enemy-seeking maggots, either in-flight or on contact with the enemy.",
+      "accuracy": 100,
+      "wallAttack": 246,
+      "slot": 5,
+      "noise": "Alarming",
+      "sentinel": false,
+      "masteryReq": 9,
+      "omegaAttenuation": 1,
+      "type": "Melee",
+      "imageName": "pathocyst.png",
+      "category": "Glaive",
+      "tradable": false,
+      "drops": [
+        {
+          "location": "Zealoid Prelate nce: 100.00 nce: 100.00",
+          "type": "Enemy Blueprint Tables",
+          "rarity": "Common",
+          "chance": 0.3333
+        },
+        {
+          "location": "Zealoid Prelate nce: 100.00 nce: 100.00",
+          "type": "Enemy Blueprint Tables",
+          "rarity": "Common",
+          "chance": 0.3333
+        }
+      ],
+      "channeling": 1.5,
+      "damage": "29.0 viral",
+      "wikiaThumbnail": "https://vignette.wikia.nocookie.net/warframe/images/e/ec/Pathocyst.png/revision/latest?cb=20190926231228",
+      "wikiaUrl": "http://warframe.fandom.com/wiki/Pathocyst",
+      "disposition": 3,
+      "acquisition": "Emissary Derelict Assassinate",
+      "checked": false,
+      "unobtainable": false,
+      "vaulted": false,
+      "tierData": false,
+      "tierRank": 0,
+      "component": false
+    },
+    {
       "name": "Penta",
       "uniqueName": "/Lotus/Weapons/Corpus/LongGuns/GrenadeLauncher/GrenadeLauncher",
       "totalDamage": 0,
@@ -11115,7 +11160,7 @@ module.exports = {
       "tradable": false,
       "damage": "20.0 heat",
       "projectile": "Hitscan",
-      "wikiaThumbnail": "https://vignette.wikia.nocookie.net/warframe/images/e/e5/Plinx.png/revision/latest?cb=20181218162842",
+      "wikiaThumbnail": "https://vignette.wikia.nocookie.net/warframe/images/e/e5/Plinx.png/revision/latest?cb=20190927104229",
       "wikiaUrl": "http://warframe.fandom.com/wiki/Plinx",
       "disposition": 3,
       "acquisition": "Market (Orbiter)",
@@ -13986,7 +14031,7 @@ module.exports = {
         "slash": 48,
         "puncture": 24
       },
-      "wikiaThumbnail": "https://vignette.wikia.nocookie.net/warframe/images/d/d2/StradavarPrime.png/revision/latest?cb=20190403021436",
+      "wikiaThumbnail": "https://vignette.wikia.nocookie.net/warframe/images/d/d2/StradavarPrime.png/revision/latest?cb=20190925153736",
       "wikiaUrl": "http://warframe.fandom.com/wiki/Stradavar_Prime",
       "disposition": 3,
       "releaseDate": "2019 03 27",
@@ -16915,12 +16960,12 @@ module.exports = {
       "component": false
     }
   ],
-  "fetched": "2019.09.22 05:57:09 CET+02:00",
+  "fetched": "2019.09.27 08:19:29 CET+02:00",
   "version": {
-    "pc": "25.7.6",
-    "ps4": "25.7.4",
-    "xbox": "25.7.4",
-    "switch": "25.7.4",
+    "pc": "Hotfix 25.7.8",
+    "ps4": "Nightwave Ep 5",
+    "xbox": "Nightwave Ep 5",
+    "switch": "Nightwave Ep 5",
     "tier": "Warframe Patch 25.7 - Acceltra and Akarius ranked. Bows re-ranked, as well as Mara Detron and Dual Toxocyst. "
   }
 }

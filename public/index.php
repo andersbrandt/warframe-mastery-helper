@@ -89,6 +89,10 @@
                     <h2>News</h2>
                     <ul id="news-list">
                         <li>
+                            <div class="news-header">Added Pathocyst</div>
+                            <div class="news-date">2019.10.27</div>
+                        </li>
+                        <li>
                             <div class="news-header">Added Gauss, Acceltra & Akarius</div>
                             <div class="news-date">2019.10.01</div>
                         </li>
