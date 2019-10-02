@@ -2755,7 +2755,30 @@ var items = [{
     "acquisition": EMISSARY,
     "id": "/Lotus/Weapons/Infested/Melee/InfBoomerang/InfBoomerangWeapon"
   },
+  // Atlas Prime
+  {
+    "name": "Atlas Prime",
+    "acquisition": RELICS,
+    "id": "/Lotus/Powersuits/Brawler/AtlasPrime"
+  },
 
+  {
+    "name": "Deth Machine Rifle Prime",
+    "acquisition": RELICS,
+    "id": "/Lotus/Types/Sentinels/SentinelWeapons/PrimeDethMachineRifle"
+  },
+
+  {
+    "name": "Dethcube Prime",
+    "acquisition": RELICS,
+    "id": "/Lotus/Types/Sentinels/SentinelPowersuits/PrimeDethCubePowerSuit"
+  },
+
+  {
+    "name": "Tekko Prime",
+    "acquisition": RELICS,
+    "id": "/Lotus/Weapons/Tenno/Melee/PrimeTekko/PrimeTekko"
+  },
 ];
 
 module.exports = {
