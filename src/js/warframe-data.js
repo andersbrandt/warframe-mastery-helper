@@ -17079,7 +17079,7 @@ module.exports = {
       "component": false
     }
   ],
-  "fetched": "2019.10.13 12:52:36 CET+02:00",
+  "fetched": "2019.10.13 01:16:02 CET+02:00",
   "version": {
     "pc": "25.8.1.1",
     "ps4": "Atlas Prime",
