@@ -6,12 +6,11 @@ module.exports = function (items) {
   const paths = require("../update-config.js");
   const {utils} = require("../../src/js/utils");
 
-
   const html = fs.readFileSync(pathAlias.resolve("@temp/Prime_Vault.html"));
   const $ = cheerio.load(html);
   var vaultedItems = [];
   $(".article-table.sortable tr").each(function () {
-    $(this).find("td").first().find("a").each(function () {
+    $(this).find("td").first().find("a").eq(1).each(function () {
       vaultedItems.push($(this).text().trim());
     });
   });
