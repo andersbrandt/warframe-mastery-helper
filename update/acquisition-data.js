@@ -2862,23 +2862,20 @@ var items = [{
     "acquisition": INCUBATOR_UPGRADE_KAVAT,
     "id": "/Lotus/Types/Game/CatbrowPet/VampireCatbrowPetPowerSuit"
   },
+  {
+    "name": "Kuva Twin Stubbas",
+    "acquisition": KUVA_LICH,
+    "id": "/Lotus/Weapons/Grineer/KuvaLich/Secondaries/Stubba/KuvaStubba"
+  },
+  {
+    "name": "Masseter",
+    "acquisition": DOJO_TENNO_LAB,
+    "id": "/Lotus/Weapons/Tenno/Melee/Swords/TnChiselKanabo/TnChiselKanabo"
+  },
+
 
 ];
 
 module.exports = {
   items: items
 };
-
-      
-  // {
-  //   "name": "Masseter",
-  //   "acquisition": UNKNOWN,
-  //   "id": "/Lotus/Weapons/Tenno/Melee/Swords/TnChiselKanabo/TnChiselKanabo"
-  // },
-
-  // {
-  //   "name": "Masseter",
-  //   "acquisition": UNKNOWN,
-  //   "id": "/Lotus/Weapons/Tenno/Melee/Swords/TnChiselKanabo/TnChiselKanabo"
-  // },
-      
