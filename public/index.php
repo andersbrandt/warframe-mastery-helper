@@ -89,16 +89,20 @@
                     <h2>News</h2>
                     <ul id="news-list">
                         <li>
+                            <div class="news-header">Added The Old Blood Update</div>
+                            <div class="news-date">2019.11.01</div>
+                        </li>
+                        <li>
                             <div class="news-header">Added Atlas Prime release</div>
-                            <div class="news-date">2019.11.02</div>
+                            <div class="news-date">2019.10.02</div>
                         </li>
                         <li>
                             <div class="news-header">Added Pathocyst</div>
-                            <div class="news-date">2019.10.27</div>
+                            <div class="news-date">2019.09.27</div>
                         </li>
                         <li>
                             <div class="news-header">Added Gauss, Acceltra & Akarius</div>
-                            <div class="news-date">2019.10.01</div>
+                            <div class="news-date">2019.09.01</div>
                         </li>
                         <li>
                             <div class="news-header">Added Wukong Prime update + Quatz</div>

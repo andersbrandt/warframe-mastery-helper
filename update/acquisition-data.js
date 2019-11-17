@@ -28,6 +28,7 @@ VOR = 'Captain Vor (Boss)';
 VOR_AND_KRILL = 'Captain Vor and Lieutenant Lech Kril (Boss Duo)';
 WOLF = 'Wolf of Saturn Six'
 ROPALOLYST = 'Ropalolyst'
+KUVA_LICH = 'Kuva Lich';
 
 // Faction Reward
 ARBITERS_OF_HEXIS = 'Arbiters of Hexis (Maxim)';
@@ -56,6 +57,7 @@ LEGS = 'Legs (Fortuna)';
 VENT_KID = 'Roky (Fortuna)';
 THE_BUSINESS = 'The Business (Fortuna)';
 LITTLE_DUCK = 'Little Duck (Fortuna)';
+ARBITRATION_HONORS = 'Arbitration Honors Vendor';
 
 // Quests
 CHAINS_OF_HARROW = 'Chains of Harrow (Quest)';
@@ -2773,14 +2775,110 @@ var items = [{
     "acquisition": RELICS,
     "id": "/Lotus/Types/Sentinels/SentinelPowersuits/PrimeDethCubePowerSuit"
   },
+  {
+      "name": "Tekko Prime",
+      "acquisition": RELICS,
+      "id": "/Lotus/Weapons/Tenno/Melee/PrimeTekko/PrimeTekko"
+  },
+  // The Old Blood
+  {
+    "name": "Grendel",
+    "acquisition": ARBITRATION_HONORS,
+    "id": "/Lotus/Powersuits/Devourer/Devourer"
+  },
+  {
+    "name": "Kuva Ayanga",
+    "acquisition": KUVA_LICH,
+    "id": "/Lotus/Weapons/Grineer/HeavyWeapons/GrnHeavyGrenadeLauncher"
+  },
 
   {
-    "name": "Tekko Prime",
-    "acquisition": RELICS,
-    "id": "/Lotus/Weapons/Tenno/Melee/PrimeTekko/PrimeTekko"
+    "name": "Kuva Brakk",
+    "acquisition": KUVA_LICH,
+    "id": "/Lotus/Weapons/Grineer/KuvaLich/Secondaries/Brakk/KuvaBrakk"
   },
+
+  {
+    "name": "Kuva Chakkhurr",
+    "acquisition": KUVA_LICH,
+    "id": "/Lotus/Weapons/Grineer/LongGuns/GrnKuvaLichRifle/GrnKuvaLichRifleWeapon"
+  },
+
+  {
+    "name": "Kuva Drakgoon",
+    "acquisition": KUVA_LICH,
+    "id": "/Lotus/Weapons/Grineer/KuvaLich/LongGuns/Drakgoon/KuvaDrakgoon"
+  },
+
+  {
+    "name": "Kuva Karak",
+    "acquisition": KUVA_LICH,
+    "id": "/Lotus/Weapons/Grineer/KuvaLich/LongGuns/Karak/KuvaKarak"
+  },
+
+  {
+    "name": "Kuva Kohm",
+    "acquisition": KUVA_LICH,
+    "id": "/Lotus/Weapons/Grineer/KuvaLich/LongGuns/Kohm/KuvaKohm"
+  },
+
+  {
+    "name": "Kuva Kraken",
+    "acquisition": KUVA_LICH,
+    "id": "/Lotus/Weapons/Grineer/KuvaLich/Secondaries/Kraken/KuvaKraken"
+  },
+
+  {
+    "name": "Kuva Ogris",
+    "acquisition": KUVA_LICH,
+    "id": "/Lotus/Weapons/Grineer/KuvaLich/LongGuns/Ogris/KuvaOgris"
+  },
+
+  {
+    "name": "Kuva Quartakk",
+    "acquisition": KUVA_LICH,
+    "id": "/Lotus/Weapons/Grineer/KuvaLich/LongGuns/Quartakk/KuvaQuartakk"
+  },
+
+  {
+    "name": "Kuva Seer",
+    "acquisition": KUVA_LICH,
+    "id": "/Lotus/Weapons/Grineer/KuvaLich/Secondaries/Seer/KuvaSeer"
+  },
+
+  {
+    "name": "Kuva Shildeg",
+    "acquisition": KUVA_LICH,
+    "id": "/Lotus/Weapons/Grineer/Melee/GrnKuvaLichScythe/GrnKuvaLichScytheWeapon"
+  },
+
+  {
+    "name": "Kuva Tonkor",
+    "acquisition": KUVA_LICH,
+    "id": "/Lotus/Weapons/Grineer/KuvaLich/LongGuns/Tonkor/KuvaTonkor"
+  },
+  {
+    "name": "Vasca Kavat",
+    "acquisition": INCUBATOR_UPGRADE_KAVAT,
+    "id": "/Lotus/Types/Game/CatbrowPet/VampireCatbrowPetPowerSuit"
+  },
+
 ];
 
 module.exports = {
   items: items
 };
+
+      
+  // {
+  //   "name": "Masseter",
+  //   "acquisition": UNKNOWN,
+  //   "id": "/Lotus/Weapons/Tenno/Melee/Swords/TnChiselKanabo/TnChiselKanabo"
+  // },
+
+  // {
+  //   "name": "Masseter",
+  //   "acquisition": UNKNOWN,
+  //   "id": "/Lotus/Weapons/Tenno/Melee/Swords/TnChiselKanabo/TnChiselKanabo"
+  // },
+      

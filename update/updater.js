@@ -190,6 +190,7 @@ class Updater {
           delete json[i]["power"];
           delete json[i]["tags"];
           delete json[i]["marketCost"];
+          delete json[i]["patchlogs"];
           let newType = json[i]["category"];
           json[i]["category"] = json[i]["type"];
           json[i]["type"] = newType;
