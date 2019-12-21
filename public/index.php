@@ -89,6 +89,10 @@
                     <h2>News</h2>
                     <ul id="news-list">
                         <li>
+                            <div class="news-header">Added Ivara Prime release</div>
+                            <div class="news-date">2019.12.21</div>
+                        </li>
+                        <li>
                             <div class="news-header">Added Update 27</div>
                             <div class="news-date">2019.12.17</div>
                         </li>

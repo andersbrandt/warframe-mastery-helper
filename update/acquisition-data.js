@@ -2888,6 +2888,22 @@ var items = [{
     "acquisition": SYMBILYSTS,
     "id": "/Lotus/Weapons/Sentients/Shedu/SheduHeavyWeapon"
   },
+  //  Ivara Prime update
+  {
+    "name": "Ivara Prime",
+    "acquisition": RELICS,
+    "id": "/Lotus/Powersuits/Ranger/IvaraPrime"
+  },
+  {
+    "name": "Aksomati Prime",
+    "acquisition": RELICS,
+    "id": "/Lotus/Weapons/Tenno/Pistols/PrimeAksomati/PrimeAksomati"
+  },
+  {
+    "name": "Baza Prime",
+    "acquisition": RELICS,
+    "id": "/Lotus/Weapons/Tenno/LongGuns/PrimeBaza/PrimeBazaGun"
+  },
 
 ];
 
