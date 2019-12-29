@@ -94,12 +94,14 @@ SPY_MISSIONS = 'Spy Missions';
 HOSTILE_MERGERS = "Operation: Hostile Mergers",
 DISRUPTION = "Disruption";
 EMISSARY = "Emissary Derelict Assassinate";
+EMPYREAN = 'Empyrean';
 
 // Misc
 SENTINEL = 'Comes with Companion';
 UNOBTAINABLE = 'Unobtainable (Founders)';
 CHINESE_VERSION = 'Chinese version only';
 TUSK_THUMPER = 'Tusk Thumper (Plains of Eidolon)'
+SYMBILYSTS = 'Symbilysts';
 UNKNOWN = "Acquisition: Unknown";
 
 //
@@ -2763,13 +2765,11 @@ var items = [{
     "acquisition": RELICS,
     "id": "/Lotus/Powersuits/Brawler/AtlasPrime"
   },
-
   {
     "name": "Deth Machine Rifle Prime",
     "acquisition": RELICS,
     "id": "/Lotus/Types/Sentinels/SentinelWeapons/PrimeDethMachineRifle"
   },
-
   {
     "name": "Dethcube Prime",
     "acquisition": RELICS,
@@ -2872,7 +2872,38 @@ var items = [{
     "acquisition": DOJO_TENNO_LAB,
     "id": "/Lotus/Weapons/Tenno/Melee/Swords/TnChiselKanabo/TnChiselKanabo"
   },
-
+  // Update 27
+  {
+    "name": "Pennant",
+    "acquisition": EMPYREAN,
+    "id": "/Lotus/Weapons/Tenno/Melee/Swords/TnRailjackGreatKatana/TnRailJackGreatKatanaWeapon"
+  },
+  {
+    "name": "Quellor",
+    "acquisition": EMPYREAN,
+    "id": "/Lotus/Weapons/Tenno/LongGuns/TnRailjackRifle/RailjackRifleGun"
+  },
+  {
+    "name": "Shedu",
+    "acquisition": SYMBILYSTS,
+    "id": "/Lotus/Weapons/Sentients/Shedu/SheduHeavyWeapon"
+  },
+  //  Ivara Prime update
+  {
+    "name": "Ivara Prime",
+    "acquisition": RELICS,
+    "id": "/Lotus/Powersuits/Ranger/IvaraPrime"
+  },
+  {
+    "name": "Aksomati Prime",
+    "acquisition": RELICS,
+    "id": "/Lotus/Weapons/Tenno/Pistols/PrimeAksomati/PrimeAksomati"
+  },
+  {
+    "name": "Baza Prime",
+    "acquisition": RELICS,
+    "id": "/Lotus/Weapons/Tenno/LongGuns/PrimeBaza/PrimeBazaGun"
+  },
 
 ];
 
