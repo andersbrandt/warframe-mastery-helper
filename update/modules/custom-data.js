@@ -49,9 +49,15 @@ module.exports = function (items) {
     if (name == "Ignis Wraith") {
       items.array[i]["specialNote"] = "Item are limited.";
     }
+  
     // Add a note to Multron that is found in Fortuna
     if (name == "Multron") {
       items.array[i]["acquisition"] = items.array[i]["acquisition"] + " (Fortuna)";
+    }
+
+    // Change the Kuva Ayanga to a Archwing Gun 
+    if (name == "Kuva Ayanga") {
+      items.array[i]["type"] = "Archwing Gun";
     }
   }
   return items;

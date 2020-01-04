@@ -160,6 +160,7 @@ class Updater {
         for (let i = 0; i < json.length; i += 1) {
           delete json[i]["components"];
           delete json[i]["abilities"];
+          delete json[i]["areaAttack"];
           delete json[i]["damagePerShot"];
           delete json[i]["damagePerSecond"];
           delete json[i]["secondsPerShot"];
@@ -194,15 +195,19 @@ class Updater {
           let newType = json[i]["category"];
           json[i]["category"] = json[i]["type"];
           json[i]["type"] = newType;
-          if (path === "Archwing.json") {
-            if (json[i]["uniqueName"].includes('Melee')) {
-              json[i]["type"] = "Archwing Melee";
-              delete json[i]["category"];
-            }
+          if (path === "Arch-Gun.json") {
             if (json[i]["uniqueName"].includes('Primary')) {
               json[i]["type"] = "Archwing Gun";
               delete json[i]["category"];
             }
+          }
+          if (path === "Arch-Melee.json") {
+            if (json[i]["uniqueName"].includes('Melee')) {
+              json[i]["type"] = "Archwing Melee";
+              delete json[i]["category"];
+            }
+          }
+          if (path === "Archwing.json") {
             if (json[i]["uniqueName"].includes('Powersuits')) {
               json[i]["type"] = "Vehicle";
               json[i]["category"] = "Archwing";

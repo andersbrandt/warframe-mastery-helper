@@ -18,6 +18,8 @@ module.exports = {
         files: [
             'Misc.json',
             'Archwing.json',
+            'Arch-Gun.json',
+            'Arch-Melee.json',
             'Melee.json',
             'Pets.json',
             'Primary.json',
