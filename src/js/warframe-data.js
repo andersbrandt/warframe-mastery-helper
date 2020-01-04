@@ -17,6 +17,11 @@ module.exports = {
       "imageName": "acceltra.png",
       "category": "Rifle",
       "tradable": false,
+      "areaAttack": {
+        "name": "Rocket Explosion",
+        "slash": 8.8,
+        "puncture": 35.2
+      },
       "damage": "35.0",
       "flight": 70,
       "projectile": "Projectile",
@@ -910,6 +915,12 @@ module.exports = {
       "imageName": "angstrum.png",
       "category": "Pistol",
       "tradable": false,
+      "areaAttack": {
+        "name": "Single Rocket Explosion",
+        "blast": 250,
+        "damage": "250.0 blast"
+      },
+      "chargeTime": 0.5,
       "damage": 200,
       "projectile": "Projectile",
       "secondary": {
@@ -1302,6 +1313,14 @@ module.exports = {
       "imageName": "astilla.png",
       "category": "Shotgun",
       "tradable": false,
+      "areaAttack": {
+        "name": "Glass Explosion",
+        "crit_chance": 17,
+        "crit_mult": 1.9,
+        "status_chance": 0.3,
+        "slash": 78,
+        "puncture": 42
+      },
       "damage": "70.0",
       "flight": 75,
       "projectile": "Projectile",
@@ -1571,6 +1590,7 @@ module.exports = {
       "imageName": "ballistica.png",
       "category": "Crossbow",
       "tradable": false,
+      "chargeTime": 1,
       "damage": 100,
       "projectile": "Projectile",
       "secondary": {
@@ -3051,9 +3071,7 @@ module.exports = {
       "imageName": "corinth.png",
       "category": "Shotgun",
       "tradable": false,
-      "damage": "540.0",
-      "projectile": "Hitscan",
-      "secondary": {
+      "areaAttack": {
         "name": "Air Burst Projectile",
         "crit_chance": 4,
         "crit_mult": 1.6,
@@ -3062,6 +3080,8 @@ module.exports = {
         "shot_speed": null,
         "impact": 100
       },
+      "damage": "540.0",
+      "projectile": "Hitscan",
       "secondaryArea": {
         "name": "Air Burst Explosion",
         "status_chance": 28,
@@ -3197,7 +3217,12 @@ module.exports = {
       "imageName": "cyanex.png",
       "category": "Pistol",
       "tradable": false,
-      "damage": "41.0 gas",
+      "areaAttack": {
+        "name": "Projectile Explosion",
+        "gas": 41,
+        "damage": "41.0 gas"
+      },
+      "damage": "50.0",
       "projectile": "Projectile",
       "secondary": {
         "name": "Burst Mode",
@@ -3290,7 +3315,7 @@ module.exports = {
       "omegaAttenuation": 1.3,
       "imageName": "cyngas.png",
       "tradable": false,
-      "damage": "47.9",
+      "damage": "48.0",
       "projectile": "Projectile",
       "wikiaThumbnail": "https://vignette.wikia.nocookie.net/warframe/images/2/2f/ArchBurstGun.png/revision/latest?cb=20160710175146",
       "wikiaUrl": "http://warframe.fandom.com/wiki/Cyngas",
@@ -3321,6 +3346,7 @@ module.exports = {
       "imageName": "daikyu.png",
       "category": "Bow",
       "tradable": false,
+      "chargeTime": 1,
       "damage": 700,
       "projectile": "Projectile",
       "statusChance": 46,
@@ -5170,9 +5196,7 @@ module.exports = {
       "imageName": "ferrox.png",
       "category": "Speargun",
       "tradable": false,
-      "damage": 350,
-      "projectile": "Hitscan",
-      "secondary": {
+      "areaAttack": {
         "name": "Throw Spear",
         "speed": 1,
         "crit_chance": 4,
@@ -5184,6 +5208,16 @@ module.exports = {
         "impact": 455,
         "slash": 122.5,
         "puncture": 72.5
+      },
+      "chargeTime": 0.5,
+      "damage": 350,
+      "projectile": "Hitscan",
+      "secondary": {
+        "name": "Attraction Field",
+        "speed": 0.5,
+        "crit_chance": 0,
+        "crit_mult": 2,
+        "status_chance": 0.5
       },
       "statusChance": 10,
       "wikiaThumbnail": "https://vignette.wikia.nocookie.net/warframe/images/5/56/Ferrox.png/revision/latest?cb=20170309230240",
@@ -6193,6 +6227,12 @@ module.exports = {
       "omegaAttenuation": 0.94999999,
       "imageName": "grattler.png",
       "tradable": false,
+      "areaAttack": {
+        "name": "Explosion",
+        "impact": 9,
+        "slash": 9,
+        "puncture": 72
+      },
       "damage": "58.0",
       "projectile": "Projectile",
       "wikiaThumbnail": "https://vignette.wikia.nocookie.net/warframe/images/7/70/GrnAntiAirGun.png/revision/latest?cb=20150731174941",
@@ -7320,7 +7360,16 @@ module.exports = {
       "imageName": "javlok.png",
       "category": "Speargun",
       "tradable": false,
-      "damage": 230,
+      "areaAttack": {
+        "name": "Projectile Explosion",
+        "crit_chance": 20,
+        "crit_mult": 2,
+        "status_chance": 0.3,
+        "heat": 120,
+        "damage": "120.0 heat"
+      },
+      "chargeTime": 0.3,
+      "damage": 160,
       "projectile": "Projectile",
       "secondary": {
         "name": "Throw Spear",
@@ -7338,7 +7387,7 @@ module.exports = {
       "secondaryArea": {
         "name": "Spear Explosion",
         "status_chance": 25,
-        "radius": 700,
+        "radius": 500,
         "heat": 300,
         "damage": "300.0 heat"
       },
@@ -7890,6 +7939,11 @@ module.exports = {
       "imageName": "komorex.png",
       "category": "Sniper Rifle",
       "tradable": false,
+      "areaAttack": {
+        "speed": 1.5,
+        "viral": 66,
+        "damage": "66.0 viral"
+      },
       "damage": "87.0",
       "flight": "???",
       "projectile": "Projectile",
@@ -8167,6 +8221,13 @@ module.exports = {
       "imageName": "kulstar.png",
       "category": "Pistol",
       "tradable": false,
+      "areaAttack": {
+        "name": "Rocket Explosion",
+        "shot_type": "Projectile",
+        "shot_speed": null,
+        "blast": 300,
+        "damage": "300.0 blast"
+      },
       "damage": "200.0",
       "flight": "???",
       "projectile": "Projectile",
@@ -8245,11 +8306,16 @@ module.exports = {
       "omegaAttenuation": 1,
       "imageName": "kuva-ayanga.png",
       "tradable": false,
+      "areaAttack": {
+        "name": "Explosion",
+        "blast": 100,
+        "damage": "100.0 blast"
+      },
       "damage": "30.0",
       "wikiaThumbnail": "https://vignette.wikia.nocookie.net/warframe/images/3/3b/KuvaAyanga.png/revision/latest?cb=20191102023834",
       "wikiaUrl": "http://warframe.fandom.com/wiki/Kuva_Ayanga",
       "disposition": 3,
-      "type": "Primary",
+      "type": "Archwing Gun",
       "acquisition": "Kuva Lich",
       "checked": false,
       "unobtainable": false,
@@ -8305,6 +8371,13 @@ module.exports = {
       "imageName": "kuva-chakkhurr.png",
       "category": "Rifle",
       "tradable": false,
+      "areaAttack": {
+        "name": "Explosion",
+        "slash": 36,
+        "puncture": 50,
+        "blast": 20,
+        "damage": "20.0 blast"
+      },
       "damage": "260.0",
       "flight": 30,
       "projectile": "Projectile",
@@ -8464,6 +8537,13 @@ module.exports = {
       "imageName": "kuva-ogris.png",
       "category": "Launcher",
       "tradable": false,
+      "areaAttack": {
+        "name": "Rocket Explosion",
+        "slash": 275,
+        "puncture": 159,
+        "blast": 253,
+        "damage": "253.0 blast"
+      },
       "damage": "27.0",
       "flight": 40,
       "projectile": "Projectile",
@@ -8535,6 +8615,11 @@ module.exports = {
       "imageName": "kuva-seer.png",
       "category": "Pistol",
       "tradable": false,
+      "areaAttack": {
+        "name": "Explosion",
+        "corrosive": 69,
+        "damage": "69.0 corrosive"
+      },
       "damage": "131.0",
       "projectile": "Projectile",
       "wikiaThumbnail": "https://vignette.wikia.nocookie.net/warframe/images/b/bd/KuvaSeer.png/revision/latest?cb=20191102024222",
@@ -8595,6 +8680,13 @@ module.exports = {
       "imageName": "kuva-tonkor.png",
       "category": "Launcher",
       "tradable": false,
+      "areaAttack": {
+        "name": "Grenade Explosion",
+        "slash": 270,
+        "puncture": 176,
+        "blast": 228,
+        "damage": "228.0 blast"
+      },
       "damage": "59.0",
       "flight": 30,
       "projectile": "Projectile",
@@ -9044,6 +9136,12 @@ module.exports = {
       "imageName": "lenz.png",
       "category": "Bow",
       "tradable": false,
+      "areaAttack": {
+        "name": "Initial Burst",
+        "cold": 10,
+        "damage": "10.0 cold"
+      },
+      "chargeTime": 1.2,
       "damage": 50,
       "projectile": "Projectile",
       "secondaryArea": {
@@ -10078,6 +10176,11 @@ module.exports = {
       "imageName": "mutalist-cernos.png",
       "category": "Bow",
       "tradable": false,
+      "areaAttack": {
+        "name": "Toxin Cloud",
+        "toxin": 50,
+        "damage": "50.0 toxin"
+      },
       "damage": "205.0",
       "flight": 70,
       "projectile": "Projectile",
@@ -10114,6 +10217,14 @@ module.exports = {
       "imageName": "mutalist-quanta.png",
       "category": "Rifle",
       "tradable": false,
+      "areaAttack": {
+        "name": "Infested Orb",
+        "status_chance": 1,
+        "shot_type": "Projectile",
+        "shot_speed": null,
+        "radiation": 20,
+        "damage": "20.0 radiation"
+      },
       "damage": "25.0",
       "flight": 100,
       "projectile": "Projectile",
@@ -10910,6 +11021,16 @@ module.exports = {
       "imageName": "ogris.png",
       "category": "Launcher",
       "tradable": false,
+      "areaAttack": {
+        "name": "Rocket Explosion",
+        "speed": 1.5,
+        "crit_chance": 5,
+        "crit_mult": 2,
+        "status_chance": 0.3,
+        "blast": 600,
+        "damage": "600.0 blast"
+      },
+      "chargeTime": 0.3,
       "damage": 100,
       "projectile": "Projectile",
       "statusChance": 35,
@@ -11078,6 +11199,11 @@ module.exports = {
       "imageName": "opticor.png",
       "category": "Rifle",
       "tradable": false,
+      "areaAttack": {
+        "magnetic": 400,
+        "damage": "400.0 magnetic"
+      },
+      "chargeTime": 2,
       "damage": 1000,
       "projectile": "Hitscan",
       "statusChance": 20,
@@ -11113,6 +11239,11 @@ module.exports = {
       "imageName": "opticor-vandal.png",
       "category": "Rifle",
       "tradable": true,
+      "areaAttack": {
+        "magnetic": 200,
+        "damage": "200.0 magnetic"
+      },
+      "chargeTime": 0.6,
       "damage": 400,
       "projectile": "Hitscan",
       "statusChance": 30,
@@ -11736,8 +11867,23 @@ module.exports = {
       "imageName": "phantasma.png",
       "category": "Shotgun",
       "tradable": false,
+      "areaAttack": {
+        "name": "Bomb Explosion",
+        "radiation": 73,
+        "damage": "73.0 radiation"
+      },
       "damage": "50.0 radiation",
       "projectile": "Hitscan",
+      "secondaryArea": {
+        "name": "Cluster Bombs",
+        "status_chance": 37,
+        "pellet": {
+          "name": "Bomblet",
+          "count": 5
+        },
+        "impact": 75
+      },
+      "statusChance": 37,
       "wikiaThumbnail": "https://vignette.wikia.nocookie.net/warframe/images/d/d6/RevenantShotgun.png/revision/latest?cb=20180825053839",
       "wikiaUrl": "http://warframe.fandom.com/wiki/Phantasma",
       "disposition": 3,
@@ -11873,6 +12019,11 @@ module.exports = {
       "imageName": "pox.png",
       "category": "Thrown",
       "tradable": false,
+      "areaAttack": {
+        "name": "Poison Cloud",
+        "toxin": 100,
+        "damage": "100.0 toxin"
+      },
       "damage": "50.0 toxin",
       "flight": "???",
       "projectile": "Projectile",
@@ -11937,6 +12088,12 @@ module.exports = {
       "imageName": "prisma-angstrum.png",
       "category": "Pistol",
       "tradable": false,
+      "areaAttack": {
+        "name": "Single Rocket Explosion",
+        "blast": 250,
+        "damage": "250.0 blast"
+      },
+      "chargeTime": 0.2,
       "damage": 200,
       "projectile": "Projectile",
       "secondary": {
@@ -12518,14 +12675,33 @@ module.exports = {
       "imageName": "quanta.png",
       "category": "Rifle",
       "tradable": false,
+      "areaAttack": {
+        "name": "Cube (Hits enemy)",
+        "speed": 4,
+        "crit_chance": 5,
+        "crit_mult": 1.5,
+        "status_chance": 0.3,
+        "shot_type": "Projectile",
+        "shot_speed": null,
+        "electricity": 100,
+        "damage": "100.0 electricity"
+      },
       "damage": "20.0 electricity",
       "projectile": "Discharge",
-      "secondaryArea": {
+      "secondary": {
         "name": "Cube (Shot by player)",
-        "status_chance": 26,
         "speed": 4,
+        "crit_chance": 5,
+        "crit_mult": 1.5,
+        "status_chance": 0.3,
         "blast": 600,
         "damage": "600.0 blast"
+      },
+      "secondaryArea": {
+        "name": "Cube Explosion",
+        "radius": 50,
+        "blast": 150,
+        "damage": "150.0 blast"
       },
       "wikiaThumbnail": "https://vignette.wikia.nocookie.net/warframe/images/7/75/CrpShockRifle.png/revision/latest?cb=20140731223522",
       "wikiaUrl": "http://warframe.fandom.com/wiki/Quanta",
@@ -12555,14 +12731,33 @@ module.exports = {
       "imageName": "quanta-vandal.png",
       "category": "Rifle",
       "tradable": true,
+      "areaAttack": {
+        "name": "Cube (Hits enemy)",
+        "speed": 4,
+        "crit_chance": 5,
+        "crit_mult": 1.5,
+        "status_chance": 0.3,
+        "shot_type": "Projectile",
+        "shot_speed": null,
+        "electricity": 100,
+        "damage": "100.0 electricity"
+      },
       "damage": "26.0 electricity",
       "projectile": "Discharge",
-      "secondaryArea": {
+      "secondary": {
         "name": "Cube (Shot by player)",
-        "status_chance": 26,
         "speed": 4,
+        "crit_chance": 5,
+        "crit_mult": 1.5,
+        "status_chance": 0.3,
         "blast": 600,
         "damage": "600.0 blast"
+      },
+      "secondaryArea": {
+        "name": "Cube Explosion",
+        "radius": 50,
+        "blast": 150,
+        "damage": "150.0 blast"
       },
       "wikiaThumbnail": "https://vignette.wikia.nocookie.net/warframe/images/9/91/QuantaVandal.png/revision/latest?cb=20150519212443",
       "wikiaUrl": "http://warframe.fandom.com/wiki/Quanta_Vandal",
@@ -12769,6 +12964,7 @@ module.exports = {
       "imageName": "rakta-ballistica.png",
       "category": "Crossbow",
       "tradable": true,
+      "chargeTime": 1,
       "damage": 300,
       "projectile": "Projectile",
       "secondary": {
@@ -13582,20 +13778,28 @@ module.exports = {
       "imageName": "scourge.png",
       "category": "Speargun",
       "tradable": false,
+      "areaAttack": {
+        "name": "Explosion",
+        "crit_chance": 2,
+        "crit_mult": 1.5,
+        "status_chance": 0.3,
+        "corrosive": 55,
+        "damage": "55.0 corrosive"
+      },
       "damage": "70.0 corrosive",
       "projectile": "Hitscan",
       "secondary": {
-        "name": "Throw Spear",
-        "speed": 1,
-        "crit_chance": 4,
-        "crit_mult": 2,
-        "status_chance": 0.3,
-        "charge_time": 0.5,
-        "impact": 455,
-        "slash": 122.5,
-        "puncture": 72.5,
+        "name": "Spear Explosion",
         "corrosive": 50,
         "damage": "50.0 corrosive"
+      },
+      "secondaryArea": {
+        "name": "Throw Spear",
+        "status_chance": 30,
+        "speed": 1,
+        "impact": 105,
+        "slash": 22.5,
+        "puncture": 22.5
       },
       "wikiaThumbnail": "https://vignette.wikia.nocookie.net/warframe/images/c/c8/PriestSpearGun.png/revision/latest?cb=20170629034316",
       "wikiaUrl": "http://warframe.fandom.com/wiki/Scourge",
@@ -13899,8 +14103,12 @@ module.exports = {
       "checked": false,
       "unobtainable": false,
       "vaulted": false,
-      "tierData": false,
-      "tierRank": 0,
+      "tierData": true,
+      "tier": "Top",
+      "notes": "Low damage per shot; projectile munitions. Depleting your ammo releases a pulse that deals Electric damage, stuns, and resets sentient resistance. ✪",
+      "dmg": "Crit/Status",
+      "rank": 39.6,
+      "tierRank": 3,
       "component": false
     },
     {
@@ -14183,6 +14391,11 @@ module.exports = {
       "imageName": "simulor.png",
       "category": "Rifle",
       "tradable": false,
+      "areaAttack": {
+        "name": "Orb Merge",
+        "magnetic": 27,
+        "damage": "27.0 magnetic"
+      },
       "damage": "50.0 magnetic",
       "flight": "???",
       "projectile": "Projectile",
@@ -14191,8 +14404,8 @@ module.exports = {
         "crit_chance": 12,
         "crit_mult": 2,
         "status_chance": 0.3,
-        "electricity": 75,
-        "damage": "75.0 electricity"
+        "magnetic": 75,
+        "damage": "75.0 magnetic"
       },
       "wikiaThumbnail": "https://vignette.wikia.nocookie.net/warframe/images/9/9a/CephPrimary.png/revision/latest?cb=20150625220225",
       "wikiaUrl": "http://warframe.fandom.com/wiki/Simulor",
@@ -14502,6 +14715,13 @@ module.exports = {
       "imageName": "sonicor.png",
       "category": "Pistol",
       "tradable": false,
+      "areaAttack": {
+        "name": "Explosion",
+        "crit_chance": 10,
+        "crit_mult": 2,
+        "status_chance": 0.3,
+        "impact": 50
+      },
       "damage": "150.0",
       "flight": 80,
       "projectile": "Projectile",
@@ -14669,6 +14889,12 @@ module.exports = {
       "imageName": "staticor.png",
       "category": "Dual Pistols",
       "tradable": false,
+      "areaAttack": {
+        "name": "Fully Charged Projectile",
+        "charge_time": 1,
+        "radiation": 176,
+        "damage": "176.0 radiation"
+      },
       "damage": "44.0 radiation",
       "flight": 50,
       "projectile": "Projectile",
@@ -14926,7 +15152,15 @@ module.exports = {
       "imageName": "stug.png",
       "category": "Pistol",
       "tradable": false,
-      "damage": "156.0 corrosive",
+      "areaAttack": {
+        "name": "Blob Explosion",
+        "crit_chance": 5,
+        "crit_mult": 1.5,
+        "status_chance": 0.1,
+        "corrosive": 75,
+        "damage": "75.0 corrosive"
+      },
+      "damage": "4.0 corrosive",
       "flight": 35,
       "projectile": "Projectile",
       "wikiaThumbnail": "https://vignette.wikia.nocookie.net/warframe/images/f/fc/GrineerCrossbowGooGun.png/revision/latest?cb=20140124172529",
@@ -15303,7 +15537,12 @@ module.exports = {
       "imageName": "synoid-simulor.png",
       "category": "Rifle",
       "tradable": true,
-      "damage": "20.0 magnetic",
+      "areaAttack": {
+        "name": "Orb Merge",
+        "magnetic": 28,
+        "damage": "28.0 magnetic"
+      },
+      "damage": "50.0 magnetic",
       "flight": "???",
       "projectile": "Projectile",
       "secondary": {
@@ -15311,8 +15550,8 @@ module.exports = {
         "crit_chance": 14,
         "crit_mult": 2,
         "status_chance": 0.3,
-        "electricity": 75,
-        "damage": "75.0 electricity"
+        "magnetic": 75,
+        "damage": "75.0 magnetic"
       },
       "wikiaThumbnail": "https://vignette.wikia.nocookie.net/warframe/images/0/09/SyndicateCSSimulor.png/revision/latest?cb=20150902215134",
       "wikiaUrl": "http://warframe.fandom.com/wiki/Synoid_Simulor",
@@ -15747,6 +15986,17 @@ module.exports = {
       "imageName": "tiberon-prime.png",
       "category": "Rifle",
       "tradable": true,
+      "areaAttack": {
+        "name": "Auto",
+        "speed": 8.33,
+        "crit_chance": 16,
+        "crit_mult": 2.8,
+        "status_chance": 0.3,
+        "shot_type": "Hit-Scan",
+        "impact": 13.8,
+        "slash": 13.8,
+        "puncture": 18.4
+      },
       "damage": "46.0",
       "projectile": "Hitscan",
       "secondary": {
@@ -16011,6 +16261,11 @@ module.exports = {
       "imageName": "tonkor.png",
       "category": "Launcher",
       "tradable": false,
+      "areaAttack": {
+        "name": "Grenade Explosion",
+        "blast": 650,
+        "damage": "650.0 blast"
+      },
       "damage": "75.0",
       "flight": 30,
       "projectile": "Projectile",
@@ -16046,6 +16301,13 @@ module.exports = {
       "imageName": "torid.png",
       "category": "Launcher",
       "tradable": false,
+      "areaAttack": {
+        "name": "Poison Cloud",
+        "crit_chance": 15,
+        "crit_mult": 2,
+        "toxin": 400,
+        "damage": "400.0 toxin"
+      },
       "damage": "100.0 toxin",
       "flight": 25,
       "projectile": "Projectile",
@@ -17130,6 +17392,7 @@ module.exports = {
       "type": "Sentinel Weapon",
       "imageName": "vulcax.png",
       "tradable": false,
+      "chargeTime": 1,
       "damage": 35,
       "projectile": "Discharge",
       "statusChance": 10,
@@ -17317,6 +17580,11 @@ module.exports = {
       "imageName": "wolf-sledge.png",
       "category": "Hammer",
       "tradable": false,
+      "areaAttack": {
+        "name": "Recall Explosion",
+        "blast": 200,
+        "damage": "200.0 blast"
+      },
       "channeling": 1.5,
       "damage": "259.8",
       "wikiaUrl": "http://warframe.fandom.com/wiki/Wolf_Sledge",
@@ -17442,6 +17710,11 @@ module.exports = {
       "imageName": "zakti.png",
       "category": "Pistol",
       "tradable": false,
+      "areaAttack": {
+        "name": "Gas Cloud",
+        "gas": 80,
+        "damage": "80.0 gas"
+      },
       "damage": "30.0",
       "flight": 66,
       "projectile": "Projectile",
@@ -17477,6 +17750,13 @@ module.exports = {
       "imageName": "zarr.png",
       "category": "Launcher",
       "tradable": false,
+      "areaAttack": {
+        "name": "Cannon Mode Explosion",
+        "crit_chance": 17,
+        "status_chance": 0.3,
+        "blast": 175,
+        "damage": "175.0 blast"
+      },
       "damage": "25.0",
       "flight": "???",
       "projectile": "Projectile",
@@ -17534,6 +17814,11 @@ module.exports = {
       "imageName": "zenistar.png",
       "category": "Heavy Blade",
       "tradable": false,
+      "areaAttack": {
+        "name": "Disc Explosion",
+        "heat": 350,
+        "damage": "350.0 heat"
+      },
       "channeling": 1.5,
       "damage": "150.0 heat",
       "secondary": {
@@ -17718,6 +18003,15 @@ module.exports = {
       "imageName": "zhuge-prime.png",
       "category": "Crossbow",
       "tradable": true,
+      "areaAttack": {
+        "name": "Arrow Explosion",
+        "crit_chance": 26,
+        "crit_mult": 2,
+        "status_chance": 0.3,
+        "impact": 11.2,
+        "slash": 24.8,
+        "puncture": 4
+      },
       "damage": "50.0",
       "flight": "???",
       "projectile": "Projectile",
@@ -17774,12 +18068,12 @@ module.exports = {
       "component": false
     }
   ],
-  "fetched": "2019.12.21 12:16:55 CET+01:00",
+  "fetched": "2020.01.04 10:43:10 CET+01:00",
   "version": {
     "pc": "27.0.8",
     "ps4": "27.0.5",
     "xbox": "27.0.5",
     "switch": "Ivara Prime",
-    "tier": "Warframe Patch 27.06 - Baza Prime and Aksomati Prime updated. Other equipment pending tests are marked as such. "
+    "tier": "Warframe Patch 27.0.6.1 - Baza Prime and Aksomati Prime updated. Other equipment pending tests are marked as such. "
   }
 }
