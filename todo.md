@@ -1,17 +1,3 @@
-# Missing items
-
-None right now
-
-## Tier-list are disabled
-
-Removal of all but weapons happened 2019.03.15
-
-https://github.com/weblue/wanna_b_tierlist/commit/8483698b2b49d0396168594e897027c86baf9940#diff-09703098c69f3c7fccc211e0a0091959 
-
-Using data-file from commit preceding change 
-
-https://raw.githubusercontent.com/weblue/wanna_b_tierlist/362af0205fa639cd8471e3cf55bc3160ea8fbb68/js/thelist.json
-
 # TODO / BUGS
 
 - Fix ugly SQL in class User.php
