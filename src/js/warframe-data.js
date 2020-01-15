@@ -12996,7 +12996,7 @@ module.exports = {
     {
       "name": "Redeemer",
       "uniqueName": "/Lotus/Weapons/Tenno/Melee/Gunblade/TnoGunblade",
-      "totalDamage": 1800,
+      "totalDamage": 180,
       "trigger": "Melee",
       "description": "Striking with massive twin blades, the Redeemer fires the killing blow with its built-in shotgun.",
       "accuracy": 100,
@@ -13026,7 +13026,7 @@ module.exports = {
     {
       "name": "Redeemer Prime",
       "uniqueName": "/Lotus/Weapons/Tenno/Melee/Gunblade/RedeemerPrime/RedeemerPrimeWep",
-      "totalDamage": 2120,
+      "totalDamage": 212,
       "trigger": "Melee",
       "description": "Deal double-bladed, double-barreled death with this primed gunblade.",
       "accuracy": 100,
@@ -17801,9 +17801,9 @@ module.exports = {
       "component": false
     }
   ],
-  "fetched": "2020.01.10 07:17:05 CET+01:00",
+  "fetched": "2020.01.15 06:28:15 CET+01:00",
   "version": {
-    "pc": "27.0.9",
+    "pc": "27.0.10",
     "ps4": "27.0.5",
     "xbox": "27.0.5",
     "switch": "27.0.5",
