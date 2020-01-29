@@ -136,7 +136,7 @@ class Updater {
       let filename = url.split('/')[url.split('/').length - 1].split('.')[0];
       request = await fetch(url, {
         headers: {
-          cookie: "landing=eyJpdiI6Im8wekNMTFM1bXQxZ2Zic0lFeDdKSkE9PSIsInZhbHVlIjoiUnhuQklKV1IzTXJGOHdHSTR6enV2dz09IiwibWFjIjoiMTk3OTk3M2U0OGU4NDU2ZTI5ZWQwOWMxYmY0YmE0ZGU3NzM0NzIxNGM1NmRiZmJmMzdhMDFkNDNjYWU3NDIwNyJ9;"
+          cookie: "landing=eyJpdiI6IkZDRGEzT0pyaCswQXRnZU5SYXNxaGc9PSIsInZhbHVlIjoiNUYrWDI4ektkY3p0aFhMbHFEZjBrdz09IiwibWFjIjoiZmUzYWQ4Yjg2NWY2MGUzMjNmNTdmZDY3ODlhZTZiYTJhNDY2NmI2N2VkY2FlZjg4MTM2MjljZDgwZGQ0ZDBkNCJ9"
         }
       });
       text = await request.text();

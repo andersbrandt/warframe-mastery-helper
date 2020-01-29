@@ -17803,12 +17803,12 @@ module.exports = {
       "component": false
     }
   ],
-  "fetched": "2020.01.29 10:20:26 CET+01:00",
+  "fetched": "2020.01.29 10:34:49 CET+01:00",
   "version": {
-    "pc": "",
-    "ps4": "",
-    "xbox": "",
-    "switch": "",
+    "pc": "27.0.12.1",
+    "ps4": "27.0.5",
+    "xbox": "27.0.5",
+    "switch": "27.0.5",
     "tier": "Warframe Patch 27.0.6.1 - Baza Prime and Aksomati Prime updated. Other equipment pending tests are marked as such. "
   }
 }
