@@ -101,7 +101,7 @@ SENTINEL = 'Comes with Companion';
 UNOBTAINABLE = 'Unobtainable (Founders)';
 CHINESE_VERSION = 'Chinese version only';
 TUSK_THUMPER = 'Tusk Thumper (Plains of Eidolon)'
-SYMBILYSTS = 'Symbilysts';
+SYMBILYSTS = 'Symbilysts (Railjack Anomaly)';
 UNKNOWN = "Acquisition: Unknown";
 
 //
@@ -2903,6 +2903,22 @@ var items = [{
     "name": "Baza Prime",
     "acquisition": RELICS,
     "id": "/Lotus/Weapons/Tenno/LongGuns/PrimeBaza/PrimeBazaGun"
+  },
+  // Kuva Lich update
+  {
+    "name": "Kuva Bramma",
+    "acquisition": KUVA_LICH,
+    "id": "/Lotus/Weapons/Grineer/Bows/GrnBow/GrnBowWeapon"
+  },
+  {
+    "name": "Kuva Hind",
+    "acquisition": KUVA_LICH,
+    "id": "/Lotus/Weapons/Grineer/KuvaLich/LongGuns/Hind/KuvaHind"
+  },
+  {
+    "name": "Kuva Nukor",
+    "acquisition": KUVA_LICH,
+    "id": "/Lotus/Weapons/Grineer/KuvaLich/Secondaries/Nukor/KuvaNukor"
   },
 
 ];

@@ -89,6 +89,10 @@
                     <h2>News</h2>
                     <ul id="news-list">
                         <li>
+                            <div class="news-header">Added Kuva Lich Update</div>
+                            <div class="news-date">2020.02.07</div>
+                        </li>
+                        <li>
                             <div class="news-header">Added Empyrean release</div>
                             <div class="news-date">2019.12.29</div>
                         </li>
