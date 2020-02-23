@@ -1783,13 +1783,10 @@ module.exports = {
       "damage": "42.0 magnetic",
       "flight": 115,
       "projectile": "Projectile",
-      "secondary": {
-        "speed": 1,
-        "crit_chance": 34,
-        "crit_mult": 3,
-        "status_chance": 0.1,
-        "charge_time": 0.4,
-        "shot_type": "Hit-Scan",
+      "secondaryArea": {
+        "name": "Beam AoE",
+        "status_chance": 8,
+        "radius": 600,
         "radiation": 208,
         "damage": "208.0 radiation"
       },
@@ -6815,6 +6812,7 @@ module.exports = {
       "uniqueName": "/Lotus/Types/Sentinels/SentinelPowersuits/PrimeHeliosPowerSuit",
       "name": "Helios Prime",
       "description": "This knowledge hungry protector defends its master with Deconstructor Prime.",
+      "masteryReq": 8,
       "type": "Sentinel",
       "imageName": "helios-prime.png",
       "tradable": true,
@@ -8638,8 +8636,8 @@ module.exports = {
         "status_chance": 0.2,
         "shot_type": "Hit-Scan",
         "impact": 18,
-        "slash": 18,
-        "puncture": 54
+        "slash": 54,
+        "puncture": 18
       },
       "wikiaThumbnail": "https://vignette.wikia.nocookie.net/warframe/images/f/f1/KuvaHind.png/revision/latest?cb=20200205044256",
       "wikiaUrl": "http://warframe.fandom.com/wiki/Kuva_Hind",
@@ -13890,7 +13888,7 @@ module.exports = {
       "tradable": false,
       "channeling": 1.5,
       "damage": "160.0",
-      "statusChance": 25,
+      "statusChance": 28,
       "wikiaThumbnail": "https://vignette.wikia.nocookie.net/warframe/images/c/c2/TnoGunbladeAuto.png/revision/latest?cb=20160819234433",
       "wikiaUrl": "http://warframe.fandom.com/wiki/Sarpa",
       "disposition": 4,
@@ -16326,11 +16324,11 @@ module.exports = {
       "damage": "46.0",
       "projectile": "Hitscan",
       "secondary": {
-        "name": "Semi",
-        "speed": 6,
-        "crit_chance": 30,
-        "crit_mult": 3.4,
-        "status_chance": 0.2,
+        "name": "Auto",
+        "speed": 8.33,
+        "crit_chance": 16,
+        "crit_mult": 2.8,
+        "status_chance": 0.3,
         "shot_type": "Hit-Scan",
         "impact": 13.8,
         "slash": 13.8,
@@ -17385,9 +17383,9 @@ module.exports = {
       "unobtainable": false,
       "tierData": true,
       "tier": "Top",
-      "notes": "Very high damage per shot; hitscan munitions. Sniper combo counter rampup is slow (min. 5), zooming in gives additive bonus to headshots (35%/55%). ",
-      "dmg": "Crit/Status",
-      "rank": 41.7401754250991,
+      "notes": "Very high damage per shot; hitscan munitions. Sniper combo counter rampup is slow (min. 5), zooming in gives additive bonus to headshots (40%/60%). ",
+      "dmg": "Critical",
+      "rank": 37.1213203435596,
       "tierRank": 3,
       "component": false
     },
@@ -18396,12 +18394,12 @@ module.exports = {
       "component": false
     }
   ],
-  "fetched": "2020.02.12 06:06:19 CET+01:00",
+  "fetched": "2020.02.23 12:26:51 CET+01:00",
   "version": {
-    "pc": "Prime Vault",
-    "ps4": "Prime Vault",
-    "xbox": "Prime Vault",
-    "switch": "Prime Vault",
+    "pc": "27.1.2",
+    "ps4": "27.1.0",
+    "xbox": "27.1.0",
+    "switch": "27.1.0",
     "tier": "Warframe Patch 27.0.6.1 - Baza Prime and Aksomati Prime updated. Other equipment pending tests are marked as such. "
   }
 }
