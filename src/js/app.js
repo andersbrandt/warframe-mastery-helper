@@ -7,7 +7,7 @@ const ClockOrbvallis = require("./clock-orbvallis.js");
 
 var app = {
   name: "Warframe Mastery Helper",
-  version: "2.4.8",
+  version: "2.5.0",
   data: {},
   config: {
     modal: {
@@ -41,7 +41,6 @@ var app = {
         app.search.updateIndicator();
       }
     );
-
   },
   tools: {
     restart: function () {
@@ -184,25 +183,50 @@ var app = {
         app.render.views.help();
         $("#help-modal").foundation("reveal", "open", app.config.modal);
         app.tools.closeMenu();
+        // Track event
+        gtag('event', 'Open modal: Help', {
+          'event_category': 'Open modal',
+          'event_label': 'Open modal: Help'
+        });
       },
       stats: function () {
         app.render.views.stats();
         $("#stats-modal").foundation("reveal", "open", app.config.modal);
         app.tools.closeMenu();
+        // Track event
+        gtag('event', 'Open modal: Stats', {
+          'event_category': 'Open modal',
+          'event_label': 'Open modal: Stats'
+        });
       },
       clock: function () {
         $("#clock-modal").foundation("reveal", "open", app.config.modal);
         app.tools.closeMenu();
+        // Track event
+        gtag('event', 'Open modal: Clock', {
+          'event_category': 'Open modal',
+          'event_label': 'Open modal: Clock'
+        });
       },
       guide: function () {
         app.render.views.guide();
         $("#guide-modal").foundation("reveal", "open", app.config.modal);
         app.tools.closeMenu();
+        // Track event
+        gtag('event', 'Open modal: Guide', {
+          'event_category': 'Open modal',
+          'event_label': 'Open modal: Guide'
+        });
       },
       user: function () {
         app.render.views.user();
         $("#user-modal").foundation("reveal", "open", app.config.modal);
         app.tools.closeMenu();
+        // Track event
+        gtag('event', 'Open modal: User', {
+          'event_category': 'Open modal',
+          'event_label': 'Open modal: User'
+        });
       }
     },
     reset: function () {
@@ -382,6 +406,11 @@ var app = {
       var html = template(data);
       $("#item-info-placeholder").html(html).foundation("reveal", "open", app.config.modal);
       app.tools.closeMenu();
+      // Track event
+      gtag('event', 'Open modal: Item', {
+        'event_category': 'Open modal',
+        'event_label': 'Open modal: Item'
+      });
     },
     check: function (name, state) {
       if (state) {
@@ -401,6 +430,11 @@ var app = {
       if (objIndex !== -1 && objIndex !== false) {
         app.data.array[objIndex]["checked"] = state;
       } else {
+        // Track event
+        gtag('event', 'Error:  Can\'t find item', {
+          'event_category': 'Error',
+          'event_label': 'Error:  Can\'t find item ' + name
+        });
         console.error("Can't find index for " + name);
         alert("Can't find index for " + name);
       }
@@ -547,7 +581,12 @@ var app = {
       var data = utils.readLocalStorage("data");
       console.log("Data to export", JSON.parse(data));
       $("#export-data-placeholder").html(data);
-      $("#modal-export").foundation('reveal', 'open', app.config.modal)
+      $("#modal-export").foundation('reveal', 'open', app.config.modal);
+      // Track event
+      gtag('event', 'Export data as array', {
+        'event_category': 'Export',
+        'event_label': 'Export data as array'
+      });
     },
     csv: function () {
       var today = new Date().toISOString().slice(0, 10);
@@ -556,6 +595,12 @@ var app = {
       for (var i = 0; i < array.length; i++) {
         str += array[i] + '\r\n';
       }
+      // Track event
+      gtag('event', 'Export data as CSV', {
+        'event_category': 'Export',
+        'event_label': 'Export data as CSV'
+      });
+      // Open window
       window.open("data:text/csv;charset=utf-8," + escape(str))
     }
   },
