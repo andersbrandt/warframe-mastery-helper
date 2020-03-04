@@ -49,11 +49,14 @@
     <li><a href="https://warframe.fandom.com/wiki/Paracesis" target="_blank">Paracesis</a></li>
     <li><a href="https://warframe.fandom.com/wiki/Kuva_Ayanga" target="_blank">Kuva Ayanga</a></li>
     <li><a href="https://warframe.fandom.com/wiki/Kuva_Brakk" target="_blank">Kuva Brakk</a></li>
+    <li><a href="https://warframe.fandom.com/wiki/Kuva_Bramma" target="_blank">Kuva Bramma</a></li>
     <li><a href="https://warframe.fandom.com/wiki/Kuva_Chakkhurr" target="_blank">Kuva Chakkhurr</a></li>
     <li><a href="https://warframe.fandom.com/wiki/Kuva_Drakgoon" target="_blank">Kuva Drakgoon</a></li>
+    <li><a href="https://warframe.fandom.com/wiki/Kuva_Hind" target="_blank">Kuva Hind</a></li>
     <li><a href="https://warframe.fandom.com/wiki/Kuva_Karak" target="_blank">Kuva Karak</a></li>
     <li><a href="https://warframe.fandom.com/wiki/Kuva_Kohm" target="_blank">Kuva Kohm</a></li>
     <li><a href="https://warframe.fandom.com/wiki/Kuva_Kraken" target="_blank">Kuva Kraken</a></li>
+    <li><a href="https://warframe.fandom.com/wiki/Kuva_Nukor" target="_blank">Kuva Nukor</a></li>
     <li><a href="https://warframe.fandom.com/wiki/Kuva_Ogris" target="_blank">Kuva Ogris</a></li>
     <li><a href="https://warframe.fandom.com/wiki/Kuva_Quartakk" target="_blank">Kuva Quartakk</a></li>
     <li><a href="https://warframe.fandom.com/wiki/Kuva_Seer" target="_blank">Kuva Seer</a></li>
@@ -62,21 +65,15 @@
     <li><a href="https://warframe.fandom.com/wiki/Kuva_Twin_Stubbas" target="_blank">Kuva Twin Stubbas</a></li>
 </ul>
 
-<h3>About this app</h3>
-<p>GUI and frontend by <a href="https://andersbrandt.se/">Anders Brandt</a></p>
-<p>Item data are supplied by <a href="https://github.com/WFCD/" target="_blank">Warframe Community Developers</a> repo <a href="https://github.com/WFCD/warframe-items/" target="_blank">warframe-items</a>, thank you guys!</p>
-<p>Tier-list are supplied by <a href="https://www.cephalonwannab.com/" target="_blank">i_wanna_b_the_guy's Tier List</a></p>
-<p>
-    <b>Data fetched:</b><br/>
-    {{ fetched }}
-</p>
-<p>
-    <b>Data actual for versions:</b><br/>
-    PC: {{ version.pc }}<br/>
-    PS4: {{ version.ps4 }}<br/>
-    Xbox: {{ version.xbox }}<br/>
-    Switch: {{ version.switch }}<br/>
-</p>
+<h3>I'm MR-28, what do I do?</h3>
+<p>Check all items by typing this in browser console:</p>
+<p><code>app.item.checkAll()</code></p>
+<p>Logout and login to flush the local storage</p>
+<p>Search for 'Unobtainable' and remove all Founders items</p>
+<p>Search for 'Login reward' and check those items</p>
+<p>Search for 'Kuva' and check all items obtained from Kuva Liches</p>
+<p>Open Stats and check all categories against in-game menu if the numbers don't add up</p>
+
 
 <h3>Functions</h3>
 <p>Check all items</p>
@@ -92,18 +89,29 @@
 <p>Download CSV</p>
 <p><code>app.export.csv()</code></p>
 
-<h3>I'm MR-28, what do I do?</h3>
-<p>Check all items by typing this in browser console:</p>
-<p><code>app.item.checkAll()</code></p>
-<p>Search for 'Unobtainable' and remove all Founders items</p>
-<p>Search for 'Login reward' and check those items</p>
-<p>Open Stats and check all categories against in-game menu if the numbers don't add up</p>
+<h3>About this app</h3>
+<p>UX, frontend &amp; backend by <a href="https://andersbrandt.se/">Anders Brandt</a></p>
+<p>Item data are supplied by <a href="https://github.com/WFCD/" target="_blank">Warframe Community Developers</a> repo
+    <a href="https://github.com/WFCD/warframe-items/" target="_blank">warframe-items</a>, thank you guys!</p>
+<p>Tier-list are supplied by <a href="https://www.cephalonwannab.com/" target="_blank">i_wanna_b_the_guy's Tier List</a>
+</p>
+<p>
+    <b>Data fetched:</b><br />
+    {{ fetched }}
+</p>
+<p>
+    <b>Data actual for versions:</b><br />
+    PC: {{ version.pc }}<br />
+    PS4: {{ version.ps4 }}<br />
+    Xbox: {{ version.xbox }}<br />
+    Switch: {{ version.switch }}<br />
+</p>
 
 <h3>Privacy</h3>
 <p>We will not store any personal information. Login are delegated to Google using <a target="_blank" href="https://developers.google.com/api-client-library/">Google API Client</a></p>
-<p>The only data we store are your <a target="_blank" href="https://www.google.com/search?q=what%27s+my+google+id">public Google ID</a>, used publicly in a obfuscated format.</p>
+<p>The only data we store are your <a target="_blank" href="https://www.google.com/search?q=what%27s+my+google+id">public Google ID</a>. Your ID is used in a obfuscated format in this app.</p>
 <p>Your firstname (displayed in user-menu) are stored in session only, and never stored in database or on disk.</p>
-<p>We will not send you emails or store your email-address.</p>
+<p><b>We will not send you emails or store your email-address.</b></p>
 
 <a class="close-reveal-modal" aria-label="Close">&#215;</a>
 

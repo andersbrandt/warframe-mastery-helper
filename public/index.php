@@ -179,7 +179,7 @@
                 <div class="box" data-equalizer-watch="boxes-bottom">
                     <h2>Privacy Policy & Disclaimer</h2>
                     <p>We will not store any personal information. Login are delegated to Google using <a target="_blank" href="https://developers.google.com/api-client-library/" rel="noopener">Google API Client</a></p>
-                    <p>The only data we store are your public Google ID, used publicly in a obfuscated format.</p>
+                    <p>The only data we store are your public Google ID. Your ID is used in a obfuscated format in this app.</p>
                     <p>We will not send you emails or store your email.</p>
                     <p>This site is not affiliated with Digital Extremes.</p>
                 </div>
@@ -197,15 +197,12 @@
         </div>
     </div>
 
-        <?php if ($functions->isDev()) { ?>
-            <script  src="<?=$config->get("root")?>helper/include/js/start-page.js"></script>
-        <?php } else { ?>
-            <script  src="<?=$config->get("root")?>helper/include/js/start-page.min.js?v=<?php echo $functions->getVersion();?>"></script>
-        <?php } ?>
+    <?php if ($functions->isDev()) { ?>
+        <script  src="<?=$config->get("root")?>helper/include/js/start-page.js"></script>
+    <?php } else { ?>
+        <script  src="<?=$config->get("root")?>helper/include/js/start-page.min.js?v=<?php echo $functions->getVersion();?>"></script>
+        <?php include($config->get("path") . "helper/include/google-analytics-tracking.php")?>
+    <?php } ?>
 
-        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-77926302-2"></script>
-        <script>
-            window.dataLayer = window.dataLayer || [];function gtag(){dataLayer.push(arguments);}gtag('js', new Date());gtag('config', 'UA-77926302-2');
-        </script>
     </body>
 </html>
