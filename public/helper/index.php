@@ -80,17 +80,8 @@ include_once($config->get("path") . "/helper/include/header.php");
     <script src="<?=$config->get("root")?>helper/include/js/main.js"></script>
 <?php } else { ?>
     <script src="<?=$config->get("root")?>helper/include/js/main.min.js?v=<?php echo $functions->getVersion();?>"></script>
+    <?php include($config->get("path") . "helper/include/google-analytics-tracking.php")?>
 <?php } ?>
-
-        <!-- Global site tag (gtag.js) - Google Analytics -->
-        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-77926302-2"></script>
-        <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
-
-        gtag('config', 'UA-77926302-2');
-        </script>
 
     </body>
 </html>
