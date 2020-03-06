@@ -14,16 +14,30 @@ class Warframe
         $data = $functions->returnSafe(serialize($data));
         $data = base64_encode($data);
         $date = date("Y-m-d H:i:s");
-        $db->insert($this->dataTbl, array(
+        // Find the users entry, update OR insert
+        $db->select($this->dataTbl, "id", null, "userId = '$userId'", "id desc", "1");
+        $userEntry = $db->getResult();
+        //TODO check for errors!
+        if (count($userEntry)) {
+            // UPDATE
+            $userEntryId = $userEntry[0]["id"];
+            $db->update($this->dataTbl, array(
                 "data" => $data,
                 "timeStamp" => $date,
                 "userId" => $userId
-            )
-        );
-        $result = $db->getResult();
-        //TODO check result and send error | proceed
-        //$returnData = $this->getData($userId);
-        return $result;
+                ), "id = '$userEntryId'");
+            $db->getResult();
+            return 1;
+        } else {
+            // INSERT
+            $db->insert($this->dataTbl, array(
+                "data" => $data,
+                "timeStamp" => $date,
+                "userId" => $userId
+            ));
+            $result = $db->getResult();
+            return $result;
+        }
     }
 
     public function getData($userId)
@@ -77,9 +91,6 @@ class Warframe
             )
         );
         $result = $db->getResult();
-
-
     }
-
 
 }

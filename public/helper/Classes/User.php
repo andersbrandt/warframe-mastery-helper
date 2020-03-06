@@ -24,7 +24,7 @@ class User
         global $functions;
         global $wf;
         if (!empty($userData)) {
-            // Check whether user data already exists in database
+            // Check if user data already exists in database
             $prevQuery = "SELECT * FROM " . $this->userTbl . " WHERE oauth_provider = '" . $userData['oauth_provider'] . "' AND oauth_uid = '" . $userData['oauth_uid'] . "'";
             $prevResult = $this->db->query($prevQuery);
             if ($prevResult->num_rows > 0) {
