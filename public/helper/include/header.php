@@ -25,6 +25,7 @@
 <body dir="ltr">
 <div id="wrapper">
     <div id="notification"></div>
+    <div id="warning-container"></div>
     <div class="row" id="nav">
         <div class="column large-12">
             <nav class="top-bar" data-topbar role="navigation">

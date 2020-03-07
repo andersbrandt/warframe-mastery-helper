@@ -196,12 +196,12 @@
             </div>
         </div>
     </div>
+    <?php include($config->get("path") . "helper/include/google-analytics-tracking.php")?>
 
     <?php if ($functions->isDev()) { ?>
         <script  src="<?=$config->get("root")?>helper/include/js/start-page.js"></script>
     <?php } else { ?>
         <script  src="<?=$config->get("root")?>helper/include/js/start-page.min.js?v=<?php echo $functions->getVersion();?>"></script>
-        <?php include($config->get("path") . "helper/include/google-analytics-tracking.php")?>
     <?php } ?>
 
     </body>

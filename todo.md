@@ -4,7 +4,7 @@
 
 - Spinner when saving
 
-- fix hardcoded path in user-auth.php & admin-auth.php - Maybe not possible
+- fix hardcoded path in user-auth.php  - Maybe not possible
 
 - https://webpack.js.org/guides/build-performance/ < start using include for faster webpack-performance
 
@@ -26,7 +26,7 @@
 
 **Features wanted**
 
-- Todo list with possibility to add the resources needed for crafting an item
+- Todo-list for each user with possibility to add the resources needed for crafting an item
 
 - Better logging and saving of items, add at least timestamp for checking
 
