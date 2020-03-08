@@ -7,24 +7,24 @@ class Warframe
 
     public function saveData($userId, $data)
     {
-        global $db;
-        global $functions;
-        $db->connect();
-        $data = $functions->returnSafe(serialize($data));
+        $Functions = new Functions;
+        $User = new User;
+        $data = $Functions->returnSafe(serialize($data));
         $data = base64_encode($data);
-        $date = date("Y-m-d H:i:s");
+        $timestamp = date("Y-m-d H:i:s");
+        $User->updateModified($userId, $timestamp);
         $userEntryId = $this->getUserEntryId($userId);
         if ($userEntryId) {
-            $this->updateData($data, $date, $userId, $userEntryId);
+            $this->updateData($data, $timestamp, $userId, $userEntryId);
             return 1;
         } else {
-            $result = $this->insertData($data, $date, $userId);
+            $result = $this->insertData($data, $timestamp, $userId);
             return $result;
         }
     }
 
     private function getUserEntryId($userId) {
-        global $db;
+        $db = New Database;
         $db->connect();
         $db->select($this->dataTbl, "id", null, "userId = '$userId'", "id desc", "1");
         $userEntry = $db->getResult();
@@ -40,7 +40,7 @@ class Warframe
     }
 
     private function updateData($data, $date, $userId, $userEntryId) {
-        global $db;
+        $db = new Database;
         $db->connect();
         $db->update($this->dataTbl, array(
             "data" => $data,
@@ -52,7 +52,7 @@ class Warframe
     }
 
     private function insertData($data, $date, $userId) {
-        global $db;
+        $db = new Database;
         $db->connect();
         $db->insert($this->dataTbl, array(
             "data" => $data,
@@ -65,10 +65,10 @@ class Warframe
 
     public function getData($userId)
     {
-        global $db;
-        global $functions;
+        $db = new Database;
+        $Functions = new Functions;
         $db->connect();
-        $userId = $functions->returnSafe($userId);
+        $userId = $Functions->returnSafe($userId);
         $db->select($this->dataTbl, "data, timeStamp", null, "userId = '$userId'", "id desc", "1");
         $result = $db->getResult();
         if ($result) {
@@ -81,38 +81,6 @@ class Warframe
                 "timeStamp" => date("Y-m-d H:i:s")
             ];
         }
-    }
-
-    public function getDataByUId($uid)
-    {
-        global $db;
-        $db->connect();
-        $db->select($this->dataTbl, "*", null, "userId = '$uid'");
-        $result = $db->getResult();
-        return $result;
-    }
-
-    public function deleteAllButLatest($uid)
-    {
-        global $db;
-        $db->connect();
-
-        // Get latest
-        $db->select($this->dataTbl, "data, timeStamp", null, "userId = '$uid'", "id desc", "1");
-        $latestData = $db->getResult();
-
-        // Delete all
-        $db->delete($this->dataTbl, "userId = '". $uid ."'");
-        $result = $db->getResult();
-
-        // Insert latest
-        $db->insert($this->dataTbl, array(
-                "data" => $latestData[0]["data"],
-                "timeStamp" => $latestData[0]["timeStamp"],
-                "userId" => $uid
-            )
-        );
-        $result = $db->getResult();
     }
 
 }

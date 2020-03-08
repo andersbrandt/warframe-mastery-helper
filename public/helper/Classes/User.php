@@ -28,7 +28,7 @@ class User
             $prevQuery = "SELECT * FROM " . $this->userTbl . " WHERE oauth_provider = '" . $userData['oauth_provider'] . "' AND oauth_uid = '" . $userData['oauth_uid'] . "'";
             $prevResult = $this->db->query($prevQuery);
             if ($prevResult->num_rows > 0) {
-                // Update user data if already exists to get last login
+                // Update user data if already exists to save latest login
                 $query = "UPDATE " . $this->userTbl . " SET locale = '" . $userData['locale'] . "', modified = '" . date("Y-m-d H:i:s") . "' WHERE oauth_provider = '" . $userData['oauth_provider'] . "' AND oauth_uid = '" . $userData['oauth_uid'] . "'";
                 $update = $this->db->query($query);
             } else {
@@ -39,13 +39,23 @@ class User
                 $insert = $this->db->query($query);
                 // Create an empty save-object for new user
                 $wf->saveData($uid, []);
-
             }
             // Get user data from the database
             $result = $this->db->query($prevQuery);
             $userData = $result->fetch_assoc();
         }
         return $userData;
+    }
+
+    public function updateModified($uid, $timestamp)
+    {
+        $db = new Database;
+        $db->connect();
+        $db->update($this->userTbl, array(
+            "modified" => $timestamp,
+            ), "uid = '$uid'");
+        $db->getResult();
+        return 1;
     }
 
     public function get()
@@ -56,24 +66,6 @@ class User
         } else {
             return false;
         }
-    }
-
-    public function listAll()
-    {
-        global $db;
-        $db->connect();
-        $db->select($this->userTbl, "*", null, null, "id");
-        $result = $db->getResult();
-        return $result;
-    }
-
-    public function getById($id)
-    {
-        global $db;
-        $db->connect();
-        $db->select($this->userTbl, "*", null, "id = '$id'");
-        $result = $db->getResult();
-        return $result;
     }
 
 }
