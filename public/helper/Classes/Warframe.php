@@ -39,24 +39,24 @@ class Warframe
         }
     }
 
-    private function updateData($data, $date, $userId, $userEntryId) {
+    private function updateData($data, $timestamp, $userId, $userEntryId) {
         $db = new Database;
         $db->connect();
         $db->update($this->dataTbl, array(
             "data" => $data,
-            "timeStamp" => $date,
+            "timeStamp" => $timestamp,
             "userId" => $userId
             ), "id = '$userEntryId'");
         $db->getResult();
         return 1;
     }
 
-    private function insertData($data, $date, $userId) {
+    private function insertData($data, $timestamp, $userId) {
         $db = new Database;
         $db->connect();
         $db->insert($this->dataTbl, array(
             "data" => $data,
-            "timeStamp" => $date,
+            "timeStamp" => $timestamp,
             "userId" => $userId
         ));
         $result = $db->getResult();
