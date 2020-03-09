@@ -80,9 +80,6 @@ class Updater {
       await
       this.writeItemList()
 
-      await
-      this.writeStartPageItemList()
-
     } catch (e) {
       console.error(e);
     }
@@ -329,16 +326,6 @@ class Updater {
     } catch (e) {
       throw e;
     }
-  }
-
-  async writeStartPageItemList() {
-    let itemsByTypeString = require(pathAlias.resolve("@modules/group-by-type"))(this.items);
-    try {
-        require('fs').writeFileSync(pathAlias.resolve(paths.startPageItemList.dest), itemsByTypeString);
-    } catch (e) {
-      throw e;
-    }
-    this.clog("Writing start-page-item-list.html");
   }
 
   async logItems() {

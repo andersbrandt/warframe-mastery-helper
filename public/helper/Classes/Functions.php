@@ -47,7 +47,7 @@ class Functions
         global $config;
         $version = file_get_contents($config->get("path") . "version.txt");
         if ($version){
-            return $version;
+            return trim($version);
         } else {
             return "asdf1234";
         }
