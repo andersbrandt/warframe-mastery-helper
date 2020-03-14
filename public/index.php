@@ -21,7 +21,7 @@
         <link rel="canonical" href="https://warframe-mastery.com/" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
         <meta name="apple-mobile-web-app-capable" content="yes">
-        <meta name="description" content="Get your Warframe Mastery Rank up! Keep track of all ranked items required for mastery rank. Features tier-ranking and in-depth information."/>
+        <meta name="description" content="Get your Warframe Mastery Rank up! Keep track of all items required for mastery rank. Features tier-ranking and in-depth information. The only Warframe Mastery Tracker you need."/>
         <?php if ($functions->isDev()) { ?>
             <link type="image/png" rel="icon" href="<?=$config->get("root")?>helper/include/images/favicon-dev.png"/>
             <link type="text/css" rel="stylesheet" href="<?=$config->get("root")?>helper/include/css/stylesheet.css"/>
@@ -45,6 +45,39 @@
             <link rel="apple-touch-icon" sizes="180x180" href="<?=$config->get("root")?>helper/include/images/favicon/favicon-180.png">
             <link type="text/css" rel="stylesheet" href="<?=$config->get("root")?>helper/include/css/stylesheet.min.css?v=<?php echo $functions->getVersion();?>"/>
         <?php } ?>
+        <script type="application/ld+json">
+            {
+                "@context": "https://schema.org",        
+                "@type": "WebApplication",
+                "url": "https://warframe-mastery.com/",
+                "name": "Warframe Mastery Helper",
+                "image": "https://warframe-mastery.com/helper/include/images/favicon.png",
+                "description": "Warframe Mastery Tracker. Keep track of all items required for mastery rank.",
+                "author" : {
+                    "@type" : "Person",
+                    "name" : "Anders Brandt",
+                    "email": "info@warframe-mastery.com"
+                },
+                "applicationCategory": "OtherApplication",
+                "browserRequirements": "Requires JavaScript. Requires HTML5.",
+                "operatingSystem": "All",
+                "screenshot": "https://warframe-mastery.com/helper/include/images/screenshot.png",
+                "inLanguage":[{
+                    "@type": "Language",
+                    "name": "English",
+                    "alternateName": "en",
+                    "additionalType":"https://www.loc.gov/standards/iso639-2/php/code_list.php",
+                    "sameAs":"https://en.wikipedia.org/wiki/English_language"
+                    }
+                ],
+                "offers": {
+                    "@type": "Offer",
+                    "availability": "http://schema.org/InStock",
+                    "price": "0",
+                    "priceCurrency": "USD"
+                }
+            }
+        </script>        
     </head>
     <body class="start-page">
 
@@ -183,6 +216,11 @@
                     <p>We will not send you emails or store your email.</p>
                     <p>This site is not affiliated with Digital Extremes.</p>
                 </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="column large-12">
+                    <p class="text-center" id="footer-author">Author: Anders Brandt | Contact: <a href="mailto:info@warframe-mastery.com">info@warframe-mastery.com</a></p>
             </div>
         </div>
     </div>
