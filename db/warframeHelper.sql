@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Host: localhost
--- Generation Time: Aug 09, 2019 at 03:04 PM
+-- Generation Time: Mar 14, 2020 at 02:31 PM
 -- Server version: 5.7.16
 -- PHP Version: 7.3.1
 
@@ -32,7 +32,7 @@ CREATE TABLE IF NOT EXISTS `warframeUserData` (
   `data` text NOT NULL,
   `timeStamp` datetime NOT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB DEFAULT CHARSET=latin1 AUTO_INCREMENT=1 ;
+) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=38354 ;
 
 -- --------------------------------------------------------
 
@@ -47,9 +47,26 @@ CREATE TABLE IF NOT EXISTS `warframeUsers` (
   `uid` varchar(100) COLLATE utf8_unicode_ci NOT NULL,
   `locale` varchar(10) COLLATE utf8_unicode_ci NOT NULL,
   `created` datetime NOT NULL,
-  `modified` datetime DEFAULT NULL,
+  `modified` datetime NOT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci AUTO_INCREMENT=1 ;
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci AUTO_INCREMENT=308 ;
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `warframeUserStatistics`
+--
+
+CREATE TABLE IF NOT EXISTS `warframeUserStatistics` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `timeStamp` datetime NOT NULL,
+  `total` int(11) NOT NULL,
+  `inActive` int(11) NOT NULL,
+  `today` int(11) NOT NULL,
+  `sevenDays` int(11) NOT NULL,
+  `thirtyDays` int(11) NOT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=3 ;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;

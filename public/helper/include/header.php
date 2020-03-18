@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title><?php echo $pageTitle?></title>
-    <meta name="description" content="Get your Warframe Mastery Rank up! Keep track of all ranked items required for mastery rank. Features tier-ranking and in-depth information."/>
+    <meta name="description" content="Get your Warframe Mastery Rank up! Keep track of all items required for mastery rank. Features tier-ranking and in-depth information. The only Warframe Mastery Tracker you need."/>
     <meta name="format-detection" content="telephone=no"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <meta name="apple-mobile-web-app-capable" content="yes">
@@ -25,6 +25,7 @@
 <body dir="ltr">
 <div id="wrapper">
     <div id="notification"></div>
+    <div id="warning-container"></div>
     <div class="row" id="nav">
         <div class="column large-12">
             <nav class="top-bar" data-topbar role="navigation">

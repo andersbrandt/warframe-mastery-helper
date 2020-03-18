@@ -291,8 +291,16 @@ var app = {
         },
         dataType: "json",
         success: function (data) {
+          // ERROR: From ajax-controller if user are not authenticated
           if (typeof data["ERROR"] !="undefined"){
             app.tools.restart();            
+          }
+          // Track new user event
+          if (typeof(data) == "object"){
+            gtag('event', 'New user: First save', {
+              'event_category': 'New user',
+              'event_label': 'New user: First save'
+            });
           }
           if (typeof callback == "function") {
             callback(data);

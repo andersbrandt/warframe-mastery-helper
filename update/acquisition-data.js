@@ -2488,7 +2488,7 @@ var items = [{
   },
   {
     "name": "Nagantaka",
-    "acquisition": MARKET, //TODO Look into this
+    "acquisition": MARKET,
     "id": "/Lotus/Weapons/Tenno/LongGuns/GarudaCrossbow/GarudaCrossbow"
   },
   {

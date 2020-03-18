@@ -19,6 +19,9 @@ $conf["google"]["clientId"] = '*********.apps.googleusercontent.com';
 $conf["google"]["clientSecret"] = "************";
 $conf["google"]["clientApiKEY"] = "************************";
 
+// Analytics
+$conf["google"]["trackingId"] = "UA-77926302-3";
+
 //
 //	Error Reporting
 //

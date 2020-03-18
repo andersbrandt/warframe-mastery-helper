@@ -61,7 +61,6 @@ include_once($config->get("path") . "/helper/include/header.php");
 <div id="modal-export" class="reveal-modal" data-reveal aria-labelledby="modalTitle" aria-hidden="true" role="dialog">
     <h1>Export data</h1>
     <p class="lead">Save this string to a text-file:</p>
-    <!-- TODO should be a textarea -->
     <div id="export-data-placeholder"></div>
     <a class="close-reveal-modal" aria-label="Close">&#215;</a>
 </div>
@@ -76,11 +75,12 @@ include_once($config->get("path") . "/helper/include/header.php");
     <a class="close-reveal-modal" aria-label="Close">&#215;</a>
 </div>
 
+<?php include($config->get("path") . "helper/include/google-analytics-tracking.php")?>
+
 <?php if ($functions->isDev()) { ?>
     <script src="<?=$config->get("root")?>helper/include/js/main.js"></script>
 <?php } else { ?>
     <script src="<?=$config->get("root")?>helper/include/js/main.min.js?v=<?php echo $functions->getVersion();?>"></script>
-    <?php include($config->get("path") . "helper/include/google-analytics-tracking.php")?>
 <?php } ?>
 
     </body>
