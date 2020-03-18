@@ -18458,12 +18458,12 @@ module.exports = {
       "component": false
     }
   ],
-  "fetched": "2020.03.04 09:10:28 CET+01:00",
+  "fetched": "2020.03.18 07:29:40 CET+01:00",
   "version": {
-    "pc": "27.1.2",
-    "ps4": "27.1.0",
-    "xbox": "27.1.0",
-    "switch": "27.1.0",
+    "pc": "27.2.2",
+    "ps4": "27.2.2",
+    "xbox": "27.2.2",
+    "switch": "27.2.2",
     "tier": "Warframe Patch 27.1.2 - Zaws and Kuva Weapons added. Other equipment pending tests are marked as such. "
   }
 }
