@@ -120,60 +120,7 @@
             <div class="column large-4">
                 <div class="box margin-top-10" data-equalizer-watch="boxes-top">
                     <h2>News</h2>
-                    <ul id="news-list">
-                        <li>
-                            <div class="news-header">Added Kuva Lich Update</div>
-                            <div class="news-date">2020.02.07</div>
-                        </li>
-                        <li>
-                            <div class="news-header">Added Empyrean release</div>
-                            <div class="news-date">2019.12.29</div>
-                        </li>
-                        <li>
-                            <div class="news-header">Added Ivara Prime release</div>
-                            <div class="news-date">2019.12.21</div>
-                        </li>
-                        <li>
-                            <div class="news-header">Added Update 27</div>
-                            <div class="news-date">2019.12.17</div>
-                        </li>
-                        <li>
-                            <div class="news-header">Added The Old Blood Update</div>
-                            <div class="news-date">2019.11.01</div>
-                        </li>
-                        <li>
-                            <div class="news-header">Added Atlas Prime release</div>
-                            <div class="news-date">2019.10.02</div>
-                        </li>
-                        <li>
-                            <div class="news-header">Added Pathocyst</div>
-                            <div class="news-date">2019.09.27</div>
-                        </li>
-                        <li>
-                            <div class="news-header">Added Gauss, Acceltra & Akarius</div>
-                            <div class="news-date">2019.09.01</div>
-                        </li>
-                        <li>
-                            <div class="news-header">Added Wukong Prime update + Quatz</div>
-                            <div class="news-date">2019.08.24</div>
-                        </li>
-                        <li>
-                            <div class="news-header">Added items for The Jovian Concord</div>
-                            <div class="news-date">2019.05.23</div>
-                        </li>
-                        <li>
-                            <div class="news-header">Added items for Equinox Prime & Eidolon update</div>
-                            <div class="news-date">2019.04.08</div>
-                        </li>
-                        <li>
-                            <div class="news-header">Added items for 'Buried Debts' update</div>
-                            <div class="news-date">2019.03.02</div>
-                        </li>
-                        <li>
-                            <div class="news-header">Section 'Statistics' are now grouped as in-game menu</div>
-                            <div class="news-date">2019.02.23</div>
-                        </li>
-                    </ul>
+                    <?php echo $news->printNews(3); ?>
                 </div>
             </div>
         </div>
