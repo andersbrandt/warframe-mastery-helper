@@ -24,17 +24,17 @@ class News
     {
         $out = "<ul id='news-list'>";
         foreach ($newsList as $key => $item) {
-            $out .= "<li>";            
-            $out .= "   <div class='news-header'>" . $item["header"] . "</div>";
-            $out .= "   <div class='news-date'>";
+            $out .= "<li>\n";            
+            $out .= "   <div class='news-header'>" . $item["header"] . "</div>\n";
+            $out .= "   <div class='news-date'>\n";
             $out .= $item["date"];
             if ($item["url"]) {
                 $out .= "   <span class='news-url'><a target='_blank' href='" . $item["url"] . "' rel='noopener'>Read more</a></span>";
             }
             $out .= "</div>";   
-            $out .= "</li>";            
+            $out .= "</li>\n";            
         }
-        $out .= "</ul>";
+        $out .= "</ul>\n\n";
         return $out;
     }
 }

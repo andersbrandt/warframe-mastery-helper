@@ -1,7 +1,7 @@
 module.exports = function () {
   var eido_timestamp = 1540015141;
   const UPDATE_INTERVAL = 1000;
-  const WARNING_MESSAGE = "Warning: unable to get time. Retrying soon.";
+  const WARNING_MESSAGE = "Warning: unable to get time for Eidolon Clock. Retrying soon.";
 
   function defaultGetTimeCallback(t) {
     eido_timestamp = t;

@@ -218,6 +218,15 @@ var app = {
           'event_label': 'Open modal: Guide'
         });
       },
+      news: function () {
+        $("#news-modal").foundation("reveal", "open", app.config.modal);
+        app.tools.closeMenu();
+        // Track event
+        gtag('event', 'Open modal: News', {
+          'event_category': 'Open modal',
+          'event_label': 'Open modal: News'
+        });
+      },
       user: function () {
         app.render.views.user();
         $("#user-modal").foundation("reveal", "open", app.config.modal);

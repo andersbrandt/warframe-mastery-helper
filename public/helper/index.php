@@ -75,6 +75,12 @@ include_once($config->get("path") . "/helper/include/header.php");
     <a class="close-reveal-modal" aria-label="Close">&#215;</a>
 </div>
 
+<div id="news-modal" class="reveal-modal" data-reveal aria-labelledby="modalTitle" aria-hidden="true" role="dialog">
+    <h1>News</h1>
+    <?php echo $news->printNews(1000)?>
+    <a class="close-reveal-modal" aria-label="Close">&#215;</a>
+</div>
+
 <?php include($config->get("path") . "helper/include/google-analytics-tracking.php")?>
 
 <?php if ($functions->isDev()) { ?>
