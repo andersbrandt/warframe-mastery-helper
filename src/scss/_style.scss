@@ -432,6 +432,24 @@ body.page-help {
   }
 }
 
+//
+//  Page: News
+//
+ul#news-list {
+  margin-left: 0;
+  li {
+    list-style-type: none;
+    margin-bottom: 12px;
+    .news-date {
+      font-size: 14px;
+      color: #555555;
+    }
+    .news-url {
+      font-size: 14px;
+      color: $primary-color;
+    }
+  }
+}
 
 //
 //  Page: Stats

@@ -71,7 +71,11 @@ body.start-page {
             .news-date {
                 font-size: 14px;
                 color: #555555;
+            }
 
+            .news-url {
+                font-size: 14px;
+                color: $primary-color;
             }
 
             &:nth-child(n+4) {

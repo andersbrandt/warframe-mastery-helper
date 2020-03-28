@@ -25,7 +25,7 @@
 <body dir="ltr">
 <div id="wrapper">
     <div id="notification"></div>
-    <div id="warning-container"></div>
+    <div id="warning-container" style="display: none;"></div>
     <div class="row" id="nav">
         <div class="column large-12">
             <nav class="top-bar" data-topbar role="navigation">
@@ -48,6 +48,7 @@
                         <li><a onclick="app.render.page.help();" title="Help">Help</a></li>
                         <li><a onclick="app.render.page.stats();" title="Statistics">Statistics</a></li>
                         <li><a onclick="app.render.page.clock();" title="Clock">Clock</a></li>
+                        <li><a onclick="app.render.page.news();" title="News">News</a></li>
                         <li><a onclick="app.render.page.user();" title="User"><?php echo $_SESSION['userData']["first_name"]?> <i class="icon-user"></i></a></li>
                     </ul>
                 </section>
