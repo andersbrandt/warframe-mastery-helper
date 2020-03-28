@@ -29,7 +29,7 @@ class News
             $out .= "   <div class='news-date'>";
             $out .= $item["date"];
             if ($item["url"]) {
-                $out .= "   <span class='news-url'><a target='_blank' href='" . $item["url"] . "'>Read more</a></span>";
+                $out .= "   <span class='news-url'><a target='_blank' href='" . $item["url"] . "' rel='noopener'>Read more</a></span>";
             }
             $out .= "</div>";   
             $out .= "</li>";            
