@@ -39,7 +39,6 @@ module.exports = function (items) {
           items.array[i].tier = tierData[group][item]["tier"];
           items.array[i].notes = tierData[group][item]["notes"];
           items.array[i].dmg = tierData[group][item]["dmg"];
-          items.array[i].rank = tierData[group][item]["rank"];
           items.array[i].tierRank = getTierRank(tierData[group][item]["tier"]);
           if (typeof tierData[group][item]["wepnotes"] != "undefined") {
             items.array[i].weaponNotes = tierData[group][item]["wepnotes"]
@@ -52,6 +51,11 @@ module.exports = function (items) {
           }
           if (typeof tierData[group][item]["stancenotes"] != "undefined") {
             items.array[i].stanceNotes = tierData[group][item]["stancenotes"]
+          }
+          if (typeof tierData[group][item]["dmgLink"] != "undefined") {
+            items.array[i].buildLink = tierData[group][item]["dmgLink"]
+            let buildLinkDomain = tierData[group][item]["dmgLink"].match(/^https?\:\/\/([^\/?#]+)(?:[\/?#]|$)/i);
+            items.array[i].buildLinkDomain = buildLinkDomain[1];
           }
           if (typeof tierData[group][item]["combo"] != "undefined") {
             items.array[i].combo = tierData[group][item]["combo"]

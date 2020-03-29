@@ -101,7 +101,7 @@ SENTINEL = 'Comes with Companion';
 UNOBTAINABLE = 'Unobtainable (Founders)';
 CHINESE_VERSION = 'Chinese version only';
 TUSK_THUMPER = 'Tusk Thumper (Plains of Eidolon)'
-SYMBILYSTS = 'Symbilysts (Railjack Anomaly)';
+SYMBILYSTS = 'Symbilyst (Railjack Anomaly)';
 UNKNOWN = "Acquisition: Unknown";
 
 //

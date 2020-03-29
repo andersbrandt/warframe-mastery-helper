@@ -33,6 +33,12 @@
             <td class="table-right"><a href="{{wikiaUrl}}" target="_blank">{{name}} <i class="icon-link-ext"></i></a></td>
         </tr>
         {{/if}}
+        {{#if this.buildLink}}
+        <tr>
+            <td class="table-left">Build:</td>
+            <td class="table-right"><a href="{{{buildLink}}}" target="_blank" rel="noopener">{{{buildLinkDomain}}} <i class="icon-link-ext"></i></a></td>
+        </tr>
+        {{/if}}
         <tr>
             <td colspan="2"><hr></td>
         </tr>
@@ -64,10 +70,10 @@
                  ({{tier}})</td>
         </tr>
         {{/if}}
-        {{#if this.rank}}
+        {{#if this.maxLevelCap}}
         <tr>
-            <td class="table-left">Rank:</td>
-            <td class="table-right"> {{{rank}}}</td>
+            <td class="table-left">Max level:</td>
+            <td class="table-right"> {{{maxLevelCap}}}</td>
         </tr>
         {{/if}}
         {{#if this.releaseDate}}
@@ -136,16 +142,21 @@
                 <td class="table-right"> {{{combo}}}</td>
             </tr>
         {{/if}}
-        {{#if this.use}}
+        {{#if this.tradable}}
             <tr>
-                <td class="table-left">Use:</td>
-                <td class="table-right"> {{{use}}}</td>
+                <td class="table-left">Tradable:</td>
+                <td class="table-right"> Yes</td>
+            </tr>
+        {{else}}
+            <tr>
+                <td class="table-left">Tradable:</td>
+                <td class="table-right"> No</td>
             </tr>
         {{/if}}
         {{#if this.component}}
             <tr>
                 <td class="table-left">Component:</td>
-                <td class="table-right"><a href="http://warframe.wikia.com/wiki/Weapons_Required_as_Crafting_Ingredients#Combined_blueprints" target="_blank">Item are a component, read more about build-chains. <i class="icon-link-ext"></i></a></td>
+                <td class="table-right"> <a href="http://warframe.wikia.com/wiki/Weapons_Required_as_Crafting_Ingredients#Combined_blueprints" target="_blank">Item are a component, read more about build-chains. <i class="icon-link-ext"></i></a></td>
             </tr>
         {{/if}}
     </table>
