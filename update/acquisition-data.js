@@ -95,6 +95,7 @@ HOSTILE_MERGERS = "Operation: Hostile Mergers",
 DISRUPTION = "Disruption";
 EMISSARY = "Emissary Derelict Assassinate";
 EMPYREAN = 'Empyrean';
+SCARLET_SPEAR = "Operation: Scarlet Spear";
 
 // Misc
 SENTINEL = 'Comes with Companion';
@@ -2919,6 +2920,34 @@ var items = [{
     "name": "Kuva Nukor",
     "acquisition": KUVA_LICH,
     "id": "/Lotus/Weapons/Grineer/KuvaLich/Secondaries/Nukor/KuvaNukor"
+  },
+  // Operation Scarlet Spear
+  {
+    "name": "Basmu",
+    "acquisition": SCARLET_SPEAR,
+    "id": "/Lotus/Weapons/Sentients/SentRifleNewWar/SentRifleNewWarGun"
+  },
+
+  {
+    "name": "Ceti Lacera",
+    "acquisition": SCARLET_SPEAR,
+    "id": "/Lotus/Weapons/Tenno/Melee/Swords/StalkerMios/OperationsLacera"
+  },
+  // Titania Prime release
+  {
+    "name": "Corinth Prime",
+    "acquisition": RELICS,
+    "id": "/Lotus/Weapons/Tenno/LongGuns/PrimeCorinth/PrimeCorinth"
+  },
+  {
+    "name": "Pangolin Prime",
+    "acquisition": RELICS,
+    "id": "/Lotus/Weapons/Tenno/Melee/Swords/PrimePangolinSword/PrimePangolinSword"
+  },
+  {
+    "name": "Titania Prime",
+    "acquisition": RELICS,
+    "id": "/Lotus/Powersuits/Fairy/TitaniaPrime"
   },
 
 ];
