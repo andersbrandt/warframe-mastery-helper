@@ -1,0 +1,50 @@
+.color-test {
+    width: 80px;
+    height: 34px;
+    padding: 6px;
+    font-size: 11px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    color: white;
+
+    &.wf-color-0 {
+        background-color: $wf-color-0;
+    }
+    &.wf-color-1 {
+        background-color: $wf-color-1;
+    }
+    &.wf-color-2 {
+        background-color: $wf-color-2;
+    }
+    &.wf-light-0 {
+        background-color: $wf-light-0;
+    }
+    &.wf-light-1 {
+        background-color: $wf-light-1;
+    }
+    &.white {
+        background-color: $white;
+    }
+    &.wf-grey {
+        background-color: $wf-grey;
+    }
+    &.wf-silver {
+        background-color: $wf-silver;
+    }
+    &.wf-white {
+        background-color: $wf-white;
+    }
+    &.wf-red {
+        background-color: $wf-red;
+    }
+    &.wf-yellow {
+        background-color: $wf-yellow;
+    }
+    &.wf-blue {
+        background-color: $wf-blue;
+    }
+    &.wf-blue-dark {
+        background-color: $wf-blue-dark;
+    }
+
+}
