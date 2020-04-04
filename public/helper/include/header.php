@@ -8,7 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <meta name="apple-mobile-web-app-capable" content="yes">
     <?php if ($functions->isDev()) { ?>
-        <link type="image/png" rel="icon" href="<?=$config->get("root")?>helper/include/images/favicon-dev.png"/>
+        <link type="image/png" rel="icon" href="<?=$config->get("root")?>helper/include/images/favicon.png"/>
         <link type="text/css" rel="stylesheet" href="<?=$config->get("root")?>helper/include/css/stylesheet.css"/>
     <?php } else { ?>
         <link type="image/png" rel="icon" href="<?=$config->get("root")?>helper/include/images/favicon.png"/>
@@ -33,11 +33,10 @@
                     <li class="name">
                         <h1><a onclick="window.location.reload()" title="Start">
                         <?php if (!$functions->isDev()) { ?>
-                            <img src="include/images/favicon.png" id="header-logo">
+                            <img src="include/images/wmh-logo.svg" id="header-logo" alt="Warframe Mastery Helper" title="Warframe Mastery Helper">
                         <?php } else { ?>
-                            <img src="include/images/favicon-dev.png" id="header-logo">
+                            <img src="include/images/wmh-logo.svg" id="header-logo" alt="Warframe Mastery Helper" title="Warframe Mastery Helper">
                         <?php } ?>
-                        Warframe Mastery Helper
                         </a></h1>
                     </li>
                     <li class="toggle-topbar menu-icon"><a href="#"><span></span></a></li>

@@ -22,7 +22,7 @@ include_once($config->get("path") . "/helper/include/header.php");
             <div id="filter-placeholder" class="view-placeholder"></div>
         </div>
 
-        <?php include_once("include/test-style.php") ?>
+        <?php // include_once("include/test-style.php") ?>
 
         <div class="column large-12">
             <div id="all-items-placeholder" class="view-placeholder"></div>

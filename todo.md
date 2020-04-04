@@ -2,11 +2,17 @@
 
 - Fix ugly SQL in class User.php
 
-- Spinner when saving
-
 - fix hardcoded path in user-auth.php  - Maybe not possible
 
 - https://webpack.js.org/guides/build-performance/ < start using include for faster webpack-performance
+
+
+## TODO Redesign
+
+- legend.png
+- all sizes for favicons
+- fix paths for favicon & logo dev
+- item modal image background
 
 
 **Features needed**
