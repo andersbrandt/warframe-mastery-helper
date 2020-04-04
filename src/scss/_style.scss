@@ -35,7 +35,6 @@ h3 {
 //
 // Custom
 //
-
 .color-green {
   color: $color-dark-green;
 }
@@ -81,12 +80,9 @@ h3 {
 //
 //  App
 //
-
 img#header-logo {
   width: 232px;
-  //width: 32px;
   margin-right: 10px;
-  //margin-top: -5px;
   vertical-align: middle;
 }
 
@@ -102,9 +98,7 @@ img#header-logo {
   margin-top: 12px;
   margin-bottom: 12px;
   font-size: 22px;
-  //background-color: $wf-light-1;
   color: $wf-silver;
-  //border: 1px solid $border-color;
   padding: 4px 0;
   display: inline-block;
   float: right;
@@ -129,7 +123,6 @@ img#header-logo {
   &:focus {
     background-color: $wf-light-1;
     border-color: $wf-blue;
-    //outline: 3px solid $wf-blue;
     box-shadow: $wf-blue 0 0 2px;
     color: $white;
   }
@@ -189,17 +182,9 @@ img#header-logo {
     margin: 8px;
     display: none;
     &:checked + span{
-      //font-weight: bold;
-      //background-color: $wf-color-0;
       color: $color-blue;
       border-color: $color-blue;
     }
-    // &#filter-all {
-    //   &:checked + span{
-    //     color: $charcoal;
-    //     border-color: $border-color-darkest;
-    //   }
-    // }
   }
 }
 
@@ -251,28 +236,18 @@ li.item {
   list-style: none;
   line-height: normal;
   background-color: $box-color;
-  //border: 1px solid $border-color-item;
-  //border-bottom: 1px solid $border-color-darker;
   padding: 10px 10px 10px 14px;
   margin-bottom: 22px;
   border-left: 2px solid $box-color;
   &.item-vaulted {
-    //background-color: $color-yellow;
-    //border: 1px solid $color-yellow-darker;
-    //border-bottom: 1px solid $color-yellow-darkest;
     border-left: 2px solid $wf-yellow;
   }
   &.item-unobtainable {
-    //background-color: $color-red;
-    //border: 1px solid $color-red-darker;
-    //border-bottom: 1px solid $color-red-darkest;
     border-left: 2px solid $wf-red;
   }
   &.item-checked {
     background-color: $color-green;
     border-left: 2px solid $color-green;
-    //border: 1px solid $color-green-darker;
-    //border-bottom: 1px solid $color-green-darkest;
     .check {
       .icon-check-empty, .icon-check {
         color: $color-dark-green;
@@ -285,13 +260,11 @@ li.item {
       border-left: 2px solid $color-green;
     }
   }
-
   &.selected {
     //border-color: red;
   }
   &.active {
     background-color: $white;
-    //border: 1px solid $border-color-darker;
     border-bottom: 1px solid $border-color-darker;
     .name {
       text-decoration: underline;
@@ -519,7 +492,6 @@ ul#news-list {
   }
 }
 
-
 //
 //  Footer
 //
@@ -536,6 +508,9 @@ ul#news-list {
   }
 }
 
+//
+//  Media queries
+//
 @media only screen and (min-width: 0px) and (max-width: 640px) {
   li.item .acquisition,
   li.item .mastery-rank
