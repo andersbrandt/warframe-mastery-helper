@@ -15,6 +15,7 @@ const paths = {
     globs: [
       'public/**',
       '!public/conf.php',
+      '!public/setuser.php',
       '!public/conf.php.sample',
       '!public/user-auth.php',
       '!public/helper/Classes/vendor/**'
