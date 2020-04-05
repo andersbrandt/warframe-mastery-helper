@@ -131,7 +131,7 @@ img#header-logo {
 
 #search {
   font-size: 22px;
-  padding: 22px 12px;
+  padding: 22px 12px 22px 14px;
   margin-bottom: 0;
   background-color: lighten($background-color, 5%); // TODO
   float: left;
@@ -174,7 +174,7 @@ img#header-logo {
   margin-right: 4px;
   color: $wf-white;
   #filter-clear {
-    padding: 0 10px 3px 17px;
+    padding: 0 10px 3px 16px;
     display: inline-block;
     font-size: 14px;
     color: $link-color;
@@ -223,8 +223,8 @@ img#header-logo {
 #search-indicator {
   font-size: 16px;
   float: right;
-  margin-top: 10px;
-  margin-bottom: 26px;
+  margin-top: 12px;
+  margin-bottom: 22px;
   margin-right: 4px;
   color: $wf-white;
   .icon-search {
