@@ -115,6 +115,11 @@ var app = {
         var template = require("./../views/search.hbs");
         var html = template();
         $("#search-placeholder").html(html);
+        $("#search").bind("keypress", function (e) {
+          if (e.which === 13) {
+            app.search.done();
+          }
+        });
       },
       filter: function () {
         var template = require("./../views/filter.hbs");
@@ -339,6 +344,10 @@ var app = {
     }
   },
   search: {
+    done: function () {
+      document.activeElement.blur();
+      return false;
+    },
     action: function () {
       var input, filter, li, name, i, category, type, acquisition;
       var filterStatus = app.filter.getStatus();
