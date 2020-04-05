@@ -23,7 +23,7 @@
         <meta name="apple-mobile-web-app-capable" content="yes">
         <meta name="description" content="Get your Warframe Mastery Rank up! Keep track of all items required for mastery rank. Features tier-ranking and in-depth information. The only Warframe Mastery Tracker you need."/>
         <?php if ($functions->isDev()) { ?>
-            <link type="image/png" rel="icon" href="<?=$config->get("root")?>helper/include/images/favicon-dev.png"/>
+            <link type="image/png" rel="icon" href="<?=$config->get("root")?>helper/include/images/favicon.png"/>
             <link type="text/css" rel="stylesheet" href="<?=$config->get("root")?>helper/include/css/stylesheet.css"/>
         <?php } else { ?>
             <link rel="shortcut icon" href="/favicon.ico">
@@ -81,12 +81,11 @@
     </head>
     <body class="start-page">
 
-    <div id="start-page" >
+    <div id="start-page">
         <div class="row">
             <div class="column large-12">
                 <div id="box-header" class="text-center">
-                    <img src="<?=$config->get("root")?>helper/include/images/favicon.png" alt="Logotype"> 
-                    <h1 class="text-center" id="start-page-header">Warframe Mastery Helper</h1>
+                    <img src="<?=$config->get("root")?>helper/include/images/wmh-logo.svg" alt="Warframe Mastery Helper" title="Warframe Mastery Helper"> 
                 </div>
             </div>
         </div>
@@ -158,7 +157,7 @@
             <div class="column large-4 margin-top-10">
                 <div class="box" data-equalizer-watch="boxes-bottom">
                     <h2>Privacy Policy & Disclaimer</h2>
-                    <p>We will not store any personal information. Login are delegated to Google using <a target="_blank" href="https://developers.google.com/api-client-library/" rel="noopener">Google API Client</a></p>
+                    <p>We will not store any personal information. Login are delegated to Google using <a class="white-link" target="_blank" href="https://developers.google.com/api-client-library/" rel="noopener">Google API Client</a></p>
                     <p>The only data we store are your public Google ID. Your ID is used in a obfuscated format in this app.</p>
                     <p>We will not send you emails or store your email.</p>
                     <p>This site is not affiliated with Digital Extremes.</p>
@@ -167,7 +166,7 @@
         </div>
         <div class="row">
             <div class="column large-12">
-                    <p class="text-center" id="footer-author">Author: Anders Brandt | Contact: <a href="mailto:info@warframe-mastery.com">info@warframe-mastery.com</a></p>
+                    <p class="text-center" id="footer-author">Author: Anders Brandt | Contact: <a href="mailto:info@warframe-mastery.com" class="white-link">info@warframe-mastery.com</a></p>
             </div>
         </div>
     </div>

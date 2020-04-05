@@ -1,6 +1,4 @@
 body.start-page {
-    // background-image: url("../images/bg-start-page-v3.jpg");
-    // background-size: cover;
 }
 
 #start-page {
@@ -20,7 +18,7 @@ body.start-page {
     }
 
     .box {
-        background-color: #ffffff;
+        background-color: $wf-color-1;;
         padding: 15px 20px 10px 20px;
     }
 
@@ -34,20 +32,10 @@ body.start-page {
 
     #box-header {
         @include clearfix();
-
         img {
-            //float: left,
-            //text-align: right;
-            width: 64px;
-        }
-
-        h1#start-page-header {
-            //margin-bottom: 22px;
-            font-size: 32px;
-            font-weight: bold;
-            //padding-top: 8px;
-            padding-bottom: 12px;
-            //float: left;
+            width: 464px;
+            max-width: 464px;
+            margin-bottom: 32px;
         }
     }
 
@@ -70,12 +58,15 @@ body.start-page {
 
             .news-date {
                 font-size: 14px;
-                color: #555555;
+                color: $wf-grey;
             }
 
-            .news-url {
+            .news-url a {
                 font-size: 14px;
-                color: $primary-color;
+                color: $wf-grey;
+                &:hover {
+                    color: $white;
+                }
             }
 
             &:nth-child(n+4) {

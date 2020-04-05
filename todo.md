@@ -11,9 +11,9 @@
 
 - legend.png
 - all sizes for favicons
+- /favicon.ico
 - fix paths for favicon & logo dev
-- item modal image background
-
+- fix vaulted-status fetching from warframe-items
 
 **Features needed**
 
