@@ -336,20 +336,12 @@ var app = {
     },
     getStatus: function () {
       return $(".filter-status:checked").val();
-    },
-    setBodyClass: function (status) {
-      if (status) {
-        $("body").addClass("filter-active");
-      } else {
-        $("body").removeClass("filter-active");
-      }
     }
   },
   search: {
     action: function () {
       var input, filter, li, name, i, category, type, acquisition;
       var filterStatus = app.filter.getStatus();
-      app.filter.setBodyClass(filterStatus);
       input = document.getElementById("search");
       filter = input.value.toUpperCase();
       li = document.getElementsByClassName("item");
@@ -369,7 +361,6 @@ var app = {
       }
       switch (filterStatus) {
         case "all":
-          app.filter.setBodyClass(false);
           break;
         case "ranked":
           $(".item.item-unchecked").hide();
@@ -389,14 +380,6 @@ var app = {
         $("#search-indicator").find("#search-indicator-string").html("");
       }
       $("#search-indicator").find("#search-indicator-value").html(count);
-      var filterStatus = app.filter.getStatus();
-      if (filterStatus == "unranked" || filterStatus == "ranked") {
-        $("#search-indicator").addClass("search-indicator-filtered");
-        app.filter.setBodyClass(true);
-      } else {
-        $("#search-indicator").removeClass("search-indicator-filtered");
-        app.filter.setBodyClass(false);
-      }
     },
     clear: function () {
       $("#search").val("").focus();

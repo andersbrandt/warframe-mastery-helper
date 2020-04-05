@@ -65,7 +65,7 @@
                     <li class="toggle-topbar menu-icon"><a href="#"><span></span></a></li>
                 </ul>
                 <section class="top-bar-section">
-                    <ul class="right spinner-loaded">
+                    <ul class="right spinner-loaded" style="display:none">
                         <li><a onclick="app.render.page.start();" title="Home">Home</a></li>
                         <li><a onclick="app.render.page.help();" title="Help">Help</a></li>
                         <li><a onclick="app.render.page.stats();" title="Statistics">Statistics</a></li>

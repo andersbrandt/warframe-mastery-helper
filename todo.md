@@ -6,6 +6,7 @@
 
 - https://webpack.js.org/guides/build-performance/ < start using include for faster webpack-performance
 
+- check all archwing weapons that have parts in syndicates, labeled as "Market" today which is misleading
 
 ## TODO Redesign
 

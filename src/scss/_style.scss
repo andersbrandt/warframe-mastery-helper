@@ -33,6 +33,13 @@ h3 {
   .toggle-topbar.menu-icon {
     width: 50px;
   }
+  .icon-user {
+    width: 16px;
+    &::before {
+      width: auto;
+      margin-right: 0;
+    }
+  }
 }
 
 //
@@ -211,9 +218,6 @@ img#header-logo {
   margin-bottom: 26px;
   margin-right: 4px;
   color: $wf-white;
-  &.search-indicator-filtered {
-    color: $color-blue-darker;
-  }
   .icon-search {
     display: inline-block;
     padding-right: 4px;
@@ -319,13 +323,15 @@ li.item {
   }
   .check {
     display: inline-block;
-    margin-top: 9px;
-    margin-right: 5px;
+    margin-top: 6px;
     cursor: pointer;
     float: right;
     .icon-check, .icon-check-empty {
       width: 32px;
       height: 32px;
+    }
+    .icon-check-empty {
+      margin-right: 2px;
     }
   }
   .specification {
