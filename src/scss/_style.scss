@@ -30,6 +30,9 @@ h3 {
   li:last-child  a {
     padding-right: 0 !important;
   }
+  .toggle-topbar.menu-icon {
+    width: 50px;
+  }
 }
 
 //
@@ -77,6 +80,13 @@ h3 {
   margin-right: 0.2em;
 }
 
+a.white-link {
+  color: $wf-white;
+  &:hover {
+    color: $white;
+  }
+}
+
 //
 //  App
 //
@@ -89,6 +99,7 @@ img#header-logo {
 #spinner {
   padding-top: 100px;
   text-align: center;
+  color: $white;
 }
 .spinner-loaded {
   display: none;
@@ -131,7 +142,7 @@ img#header-logo {
   float: right;
   margin-top: -43px;
   margin-right: 3px;
-  color: $search-input-placeholder-color;
+  color: $link-color;
   cursor: pointer;
   font-size: 22px;
   display: inline-block;
@@ -145,18 +156,19 @@ img#header-logo {
   float: left;
   margin-top: 10px;
   margin-right: 4px;
-  color: $steel;
+  color: $wf-white;
   #filter-clear {
     padding: 0 10px 3px 17px;
     display: inline-block;
     font-size: 14px;
+    color: $link-color;
     cursor: pointer;
     &:hover {
-      color: $color-blue;
+      color: $white;
       outline: none !important;
     }
     &:focus {
-      color: $color-blue-darker;
+      color: $white;
       outline: none !important;
     }
   }
@@ -171,19 +183,23 @@ img#header-logo {
     span {
       display: inline-block;
       padding: 2px 10px;
-      border: 1px solid $border-color-darkest;
+      border: 1px solid $wf-blue;
       margin-right: 6px;
-      color: $steel;
+      color: $wf-blue;
       line-height: 22px;
       outline: none !important;
+      &:hover {
+        color: scale-color($link-color, $lightness: -14%); 
+        border-color: scale-color($link-color, $lightness: -14%); 
+      }
     }
   }
   input {
     margin: 8px;
     display: none;
     &:checked + span{
-      color: $color-blue;
-      border-color: $color-blue;
+      color: $white;
+      border-color: $white;
     }
   }
 }
@@ -368,6 +384,10 @@ li.item {
 //
 //  Modals
 //
+.reveal-modal.open {
+  outline: none;
+}
+
 #export-data-placeholder {
   background-color: $silver;
   border: 1px solid $border-color;
@@ -516,5 +536,18 @@ ul#news-list {
   li.item .mastery-rank
   {
     display: none;
+  }
+  .top-bar-section ul {
+    margin-top: 16px;
+    background-color: $wf-color-darkest;
+    li {
+      background-color: $wf-color-darkest;
+      &:hover {
+        background-color: $wf-color-darkest !important;
+      }
+      a:hover {
+        background-color: $wf-color-darkest !important;
+      }
+    }
   }
 }

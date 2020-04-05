@@ -56,7 +56,7 @@ include_once($config->get("path") . "/helper/include/header.php");
 
 <div class="row spinner-loaded" id="footer">
     <div class="column large-12">
-        Warframe Mastery Helper <?php echo date("Y"); ?> | <a href="mailto:info@warframe-mastery.com">Contact us</a>
+        <p>Warframe Mastery Helper <?php echo date("Y"); ?> | <a class="white-link" href="mailto:info@warframe-mastery.com">Contact us</a></p>
     </div>
 </div>
 

@@ -2,6 +2,7 @@
 //  Variables
 //
 
+$wf-color-darkest: darken(#121a26, 3%);
 $wf-color-0: #121a26;
 $wf-color-1: #1C2834;
 $wf-color-2: #17212f;
@@ -11,7 +12,7 @@ $wf-light-1: #2a4158;
 
 $black: #000000;
 $wf-grey: #888888;
-$wf-white: #bbbbbb;
+$wf-white: #bebebe;
 $wf-silver: #cccccc; // Brighter white
 $white: #ffffff;
 
@@ -56,6 +57,10 @@ $charcoal: $wf-white;
 $silver: #EFEFEF;
 $reveal-modal-bg: $wf-color-1;
 $reveal-border-color: $border-color;
+$button-bg-color: scale-color($link-color, $lightness: -14%);
+$button-bg-hover: scale-color($button-bg-color, $lightness: -20%);
+
+
 
 // CHECK ALL THESE !!
 $nav-bg-hover: $wf-color-0;

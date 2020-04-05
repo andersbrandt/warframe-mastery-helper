@@ -611,14 +611,14 @@ var app = {
       var str = 'Ranked items ' + today + ': ' + array.length + '\r\n';
       for (var i = 0; i < array.length; i++) {
         str += array[i] + '\r\n';
-      }
+      };
       // Track event
       gtag('event', 'Export data as CSV', {
         'event_category': 'Export',
         'event_label': 'Export data as CSV'
       });
       // Open window
-      window.open("data:text/csv;charset=utf-8," + escape(str))
+      window.open("data:text/csv;charset=utf-8," + escape(str));
     }
   },
   clocks: {
