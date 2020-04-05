@@ -125,6 +125,10 @@ img#header-logo {
   }
 }
 
+#search-placeholder {
+  @include clearfix();
+}
+
 #search {
   font-size: 22px;
   padding: 22px 12px;
@@ -134,9 +138,10 @@ img#header-logo {
   color: $search-input-placeholder-color;
   border-color: $border-color;
   &::placeholder {
-    font-size: 16px;
+    font-size: 15px;
     opacity: 1;
     color: $search-input-placeholder-color;
+    line-height: 2em;
   }
   &:focus {
     background-color: $wf-light-1;
@@ -157,6 +162,10 @@ img#header-logo {
   &:hover {
     color: $white;
   }
+}
+
+#filter-placeholder {
+  @include clearfix();
 }
 
 #filter {
@@ -223,7 +232,7 @@ img#header-logo {
     padding-right: 4px;
     font-size: 14px;
     position: relative;
-    top: -2px;
+    top: -1px;
   }
   #search-indicator-value {
     font-weight: bold;
@@ -537,12 +546,9 @@ ul#news-list {
 //
 //  Media queries
 //
-@media only screen and (min-width: 0px) and (max-width: 640px) {
-  li.item .acquisition,
-  li.item .mastery-rank
-  {
-    display: none;
-  }
+
+// 1024px
+@media only screen and (min-width: 0px) and (max-width: $medium-breakpoint) {
   .top-bar-section ul {
     margin-top: 16px;
     background-color: $wf-color-darkest;
@@ -555,5 +561,28 @@ ul#news-list {
         background-color: $wf-color-darkest !important;
       }
     }
+  }
+}
+
+// 700px
+@media only screen and (min-width: 0px) and (max-width: 700px) {
+  #filter {
+    float: none;
+    #filter-clear {
+      padding-left: 2px;
+    }
+  }
+
+  #search-indicator {
+    float: none;
+  }
+}
+
+// 640px
+@media only screen and (min-width: 0px) and (max-width: $small-breakpoint) {
+  li.item .acquisition,
+  li.item .mastery-rank
+  {
+    display: none;
   }
 }

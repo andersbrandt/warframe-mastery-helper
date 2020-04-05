@@ -9,7 +9,7 @@
     <meta name="apple-mobile-web-app-capable" content="yes">
     <?php if ($functions->isDev()) { ?>
         <link type="image/png" rel="icon" href="<?=$config->get("root")?>helper/include/images/favicon.png"/>
-        <link type="text/css" rel="stylesheet" href="<?=$config->get("root")?>helper/include/css/stylesheet.css"/>
+        <link type="text/css" rel="stylesheet" href="<?=$config->get("root")?>helper/include/css/stylesheet.css?v=<?php echo rand(1000,9999); ?>"/>
     <?php } else { ?>
         <link type="image/png" rel="icon" href="<?=$config->get("root")?>helper/include/images/favicon.png"/>
         <link type="text/css" rel="stylesheet" href="<?=$config->get("root")?>helper/include/css/stylesheet.min.css?v=<?php echo $functions->getVersion();?>"/>
