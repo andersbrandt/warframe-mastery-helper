@@ -1,71 +1,47 @@
 //
 //  Variables
 //
-
 $wf-color-darkest: darken(#121a26, 3%);
 $wf-color-0: #121a26;
 $wf-color-1: #1C2834;
 $wf-color-2: #17212f;
-
-$wf-light-0: #1f3144;
+$wf-light-0: #1f3144; // Not used
 $wf-light-1: #2a4158;
+$wf-light-2: #2a3543;
 
 $black: #000000;
 $wf-grey: #888888;
 $wf-white: #bebebe;
 $wf-silver: #cccccc; // Brighter white
 $white: #ffffff;
-
+$silver: #efefef;
 $wf-red: red;  //TODO
 $wf-yellow: #deec11;
-$wf-blue: #40C4FF;
+$wf-blue: #40c4ff;
 $wf-blue-dark: #009fc7;
 
-$color-green: $wf-color-2;
-$color-dark-green: $wf-white;
+//
+//  Style controller
+// 
+$color-item-checked: $wf-color-2;
+$color-item-unchecked: $wf-light-1;
+$border-color: $wf-light-2;
 $color-yellow: $wf-yellow;
 $color-red: $wf-color-2;
 $color-blue: $wf-blue;
-
 $background-color: $wf-color-0;
 $link-color: $wf-blue;
-$box-color: $wf-light-1;
-$border-color: #2a3543;
-$border-color-darkest: $border-color;
-$search-input-outline: $wf-blue;
-$search-input-placeholder-color: $wf-white;
-
-$border-color-item: $border-color;
-
-// TODO These are not used anymore?
-$color-green-darker: $color-green;
-$color-green-darkest: $color-green;
-$color-yellow-darker: $color-yellow;
-$color-yellow-darkest: $color-yellow;
-$color-red-darker: $color-red;
-$color-red-darkest: $color-red;
-$color-blue-darker: $color-blue;
-$border-color-darker: $border-color;
-
-//
-//  Foundation variable overrides
-//
 $primary-color: $wf-blue;
+$body-font-color-darker: $wf-grey;
 $body-font-color: $wf-white;
-$steel: $wf-white;
-$charcoal: $wf-white;
-$silver: #EFEFEF;
+$body-font-color-bright: $wf-silver;
 $reveal-modal-bg: $wf-color-1;
 $reveal-border-color: $border-color;
 $button-bg-color: scale-color($link-color, $lightness: -14%);
 $button-bg-hover: scale-color($button-bg-color, $lightness: -20%);
-
-
-
-// CHECK ALL THESE !!
 $nav-bg-hover: $wf-color-0;
 $nav-color: $link-color;
 $nav-bg: $background-color;
-$nav-color-hover: #ffffff;
+$nav-color-hover: $white;
 $nav-color-active: $link-color;
 $nav-color-active-hover: $link-color;

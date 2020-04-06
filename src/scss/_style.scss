@@ -6,7 +6,7 @@ ul.title-area {
     padding-left: 0;
     font-weight: 700;
     text-transform: uppercase;
-    color: $wf-silver;
+    color: $body-font-color-bright;
     &:hover {
       color: $white;
     }
@@ -14,7 +14,7 @@ ul.title-area {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  color: $wf-white;
+  color: $body-font-color;
 }
 
 h3 {
@@ -42,13 +42,12 @@ h3 {
   }
 }
 
+#nav {
+  padding-top: 4px;
+}
 //
 // Custom
 //
-.color-green {
-  color: $color-dark-green;
-}
-
 .margin-top-small {
   margin-top: 8px;
 }
@@ -88,7 +87,7 @@ h3 {
 }
 
 a.white-link {
-  color: $wf-white;
+  color: $body-font-color;
   &:hover {
     color: $white;
   }
@@ -116,7 +115,7 @@ img#header-logo {
   margin-top: 12px;
   margin-bottom: 12px;
   font-size: 22px;
-  color: $wf-silver;
+  color: $body-font-color-bright;
   padding: 4px 0;
   display: inline-block;
   float: right;
@@ -135,18 +134,18 @@ img#header-logo {
   margin-bottom: 0;
   background-color: lighten($background-color, 5%); // TODO
   float: left;
-  color: $search-input-placeholder-color;
+  color: $body-font-color;
   border-color: $border-color;
   &::placeholder {
     font-size: 15px;
     opacity: 1;
-    color: $search-input-placeholder-color;
+    color: $body-font-color;
     line-height: 2em;
   }
   &:focus {
     background-color: $wf-light-1;
-    border-color: $wf-blue;
-    box-shadow: $wf-blue 0 0 2px;
+    border-color: $color-blue;
+    box-shadow: $color-blue 0 0 2px;
     color: $white;
   }
 }
@@ -172,7 +171,7 @@ img#header-logo {
   float: left;
   margin-top: 10px;
   margin-right: 4px;
-  color: $wf-white;
+  color: $body-font-color;
   #filter-clear {
     padding: 0 10px 3px 16px;
     display: inline-block;
@@ -199,9 +198,9 @@ img#header-logo {
     span {
       display: inline-block;
       padding: 2px 10px;
-      border: 1px solid $wf-blue;
+      border: 1px solid $color-blue;
       margin-right: 6px;
-      color: $wf-blue;
+      color: $color-blue;
       line-height: 22px;
       outline: none !important;
       &:hover {
@@ -226,7 +225,7 @@ img#header-logo {
   margin-top: 12px;
   margin-bottom: 22px;
   margin-right: 4px;
-  color: $wf-white;
+  color: $body-font-color;
   .icon-search {
     display: inline-block;
     padding-right: 4px;
@@ -264,29 +263,29 @@ ul#all-items {
 li.item {
   list-style: none;
   line-height: normal;
-  background-color: $box-color;
+  background-color: $color-item-unchecked;
   padding: 10px 10px 10px 14px;
   margin-bottom: 22px;
-  border-left: 2px solid $box-color;
+  border-left: 2px solid $color-item-unchecked;
   &.item-vaulted {
-    border-left: 2px solid $wf-yellow;
+    border-left: 2px solid $color-yellow;
   }
   &.item-unobtainable {
-    border-left: 2px solid $wf-red;
+    border-left: 2px solid $color-red;
   }
   &.item-checked {
-    background-color: $color-green;
-    border-left: 2px solid $color-green;
+    background-color: $color-item-checked;
+    border-left: 2px solid $color-item-checked;
     .check {
       .icon-check-empty, .icon-check {
-        color: $color-dark-green;
+        color: $body-font-color;
       }
     }
     &.item-vaulted {
-      border-left: 2px solid $color-green;
+      border-left: 2px solid $color-item-checked;
     }
     &.item-unobtainable {
-      border-left: 2px solid $color-green;
+      border-left: 2px solid $color-item-checked;
     }
   }
   &.selected {
@@ -294,7 +293,7 @@ li.item {
   }
   &.active {
     background-color: $white;
-    border-bottom: 1px solid $border-color-darker;
+    border-bottom: 1px solid $border-color;
     .name {
       text-decoration: underline;
     }
@@ -385,7 +384,7 @@ li.item {
     hr {
       margin-top: 16px;
       margin-bottom: 14px;
-      border-color: $wf-silver;
+      border-color: $body-font-color-bright;
     }
   }
   .table-left {
@@ -415,7 +414,7 @@ textarea#import-data {
   color: $black;
 }
 .close-reveal-modal:hover {
-  color: $wf-red;
+  color: $color-red;
 }
 
 @media only screen and (min-width: 0px) and (max-width: 640px) {
@@ -448,10 +447,10 @@ body.page-help {
   margin-right: 11px;
   vertical-align: sub;
   &.legend-vaulted {
-    background-color: $wf-yellow;
+    background-color: $color-yellow;
   }
   &.legend-unobtainable {
-    background-color: $wf-red;
+    background-color: $color-red;
   }
 }
 
@@ -465,7 +464,7 @@ ul#news-list {
     margin-bottom: 12px;
     .news-date {
       font-size: 14px;
-      color: $wf-grey;
+      color: $body-font-color-darker;
     }
     .news-url {
       font-size: 14px;
@@ -489,7 +488,7 @@ ul#news-list {
       text-align: left;
       padding-right: 12px;
       padding-bottom: 4px;
-      border-bottom: 1px solid $wf-white;
+      border-bottom: 1px solid $body-font-color;
     }
     td {
       padding-top: 4px;
@@ -515,7 +514,7 @@ ul#news-list {
       text-align: right;
     }
     tr.divider {
-      border-top: 1px solid $wf-white;
+      border-top: 1px solid $body-font-color;
     }
   }
 
