@@ -19,6 +19,9 @@ include_once($config->get("path") . "/helper/include/header.php");
 
         <div class="column large-12">
             <div id="search-placeholder" class="view-placeholder"></div>
+        </div>    
+
+        <div class="column large-12">
             <div id="filter-placeholder" class="view-placeholder"></div>
         </div>
 

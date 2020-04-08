@@ -38,7 +38,7 @@
     </div>
     <div class="ranked">
         {{#each unranked}}
-        <a href="{{ this.url}}" target="_blank">{{ this.name}}{{#if this.unobtainable}} (Unobtainable){{/if}}</a>{{#unless @last}}, {{/unless}}
+        <a class="white-link" href="{{ this.wikiaUrl}}" target="_blank">{{ this.name}}{{#if this.unobtainable}} (Unobtainable){{/if}}</a>{{#unless @last}}, {{/unless}}
         {{/each}}
     </div>
 </div>

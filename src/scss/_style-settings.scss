@@ -1,9 +1,9 @@
 //
 //  Variables
 //
-$wf-color-darkest: darken(#121a26, 3%);
-$wf-color-0: #121a26;
-$wf-color-1: #1C2834;
+$wf-color-darkest: #0d131c;
+$wf-color-0: #121a26; // Not used
+$wf-color-1: #1C2834; // Not used
 $wf-color-2: #17212f;
 $wf-light-0: #1f3144; // Not used
 $wf-light-1: #2a4158;
@@ -27,19 +27,19 @@ $color-item-checked: $wf-color-2;
 $color-item-unchecked: $wf-light-1;
 $border-color: $wf-light-2;
 $color-yellow: $wf-yellow;
-$color-red: $wf-color-2;
+$color-red: $wf-red;
 $color-blue: $wf-blue;
-$background-color: $wf-color-0;
+$background-color: $wf-color-darkest;
 $link-color: $wf-blue;
 $primary-color: $wf-blue;
 $body-font-color-darker: $wf-grey;
 $body-font-color: $wf-white;
 $body-font-color-bright: $wf-silver;
-$reveal-modal-bg: $wf-color-1;
+$reveal-modal-bg: $wf-color-2;
 $reveal-border-color: $border-color;
-$button-bg-color: scale-color($link-color, $lightness: -14%);
-$button-bg-hover: scale-color($button-bg-color, $lightness: -20%);
-$nav-bg-hover: $wf-color-0;
+$button-bg-color: scale-color($link-color, $lightness: -30%);
+$button-bg-hover: scale-color($link-color, $lightness: -14%);
+$nav-bg-hover: $background-color;
 $nav-color: $link-color;
 $nav-bg: $background-color;
 $nav-color-hover: $white;

@@ -157,7 +157,7 @@
             <div class="column large-4 margin-top-10">
                 <div class="box" data-equalizer-watch="boxes-bottom">
                     <h2>Legend</h2>
-                    <img src="helper/include/images/legend.png" id="legend-image" alt="Site legend">
+                    <img src="helper/include/images/legend-v3.png" id="legend-image" alt="Site legend">
                 </div>
             </div>
             <div class="column large-4 margin-top-10">

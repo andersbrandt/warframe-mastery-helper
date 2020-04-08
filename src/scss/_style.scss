@@ -165,6 +165,7 @@ img#header-logo {
 
 #filter-placeholder {
   @include clearfix();
+  margin-top: 4px;
 }
 
 #filter {
@@ -438,7 +439,7 @@ body.page-help {
 }
 #legend-image {
   margin-top: 8px;
-  width: 400px;
+  width: 425px;
 }
 .legend-color {
   display: inline-block;
@@ -468,7 +469,13 @@ ul#news-list {
     }
     .news-url {
       font-size: 14px;
-      color: $primary-color;
+      color: $body-font-color-darker;
+      a {
+        color: $body-font-color-darker;
+        &:hover {
+          color: $white;
+        }
+      }
     }
   }
 }
