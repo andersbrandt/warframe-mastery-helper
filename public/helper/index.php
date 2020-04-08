@@ -84,6 +84,9 @@ include_once($config->get("path") . "/helper/include/header.php");
     <h1>News</h1>
     <?php echo $news->printNews(1000)?>
     <a class="close-reveal-modal" aria-label="Close">&#215;</a>
+    <div class="text-right">
+        <button type="button" class="btn btn-default" onclick="app.tools.closeModal();">Close</button>
+    </div>
 </div>
 
 <?php include($config->get("path") . "helper/include/google-analytics-tracking.php")?>
