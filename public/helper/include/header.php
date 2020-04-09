@@ -13,9 +13,8 @@
     <?php } else { ?>
         <link type="image/png" rel="icon" href="<?=$config->get("root")?>helper/include/images/favicon.png"/>
         <link type="text/css" rel="stylesheet" href="<?=$config->get("root")?>helper/include/css/stylesheet.min.css?v=<?php echo $functions->getVersion();?>"/>
-        <link rel="shortcut icon" href="/favicon.ico">
-        <link rel="icon" sizes="16x16 32x32 64x64" href="/favicon.ico">
-        <link rel="icon" sizes="16x16 32x32 64x64" href="/favicon.ico">
+        <link rel="shortcut icon" href="<?=$config->get("root")?>favicon.ico">
+        <link rel="icon" sizes="16x16 32x32 64x64" href="<?=$config->get("root")?>favicon.ico">
         <link rel="icon" type="image/png" href="<?=$config->get("root")?>helper/include/images/favicon.png"/>
         <link rel="icon" type="image/png" sizes="196x196" href="<?=$config->get("root")?>helper/include/images/favicon/favicon-196x196.png">
         <link rel="icon" type="image/png" sizes="192x192" href="<?=$config->get("root")?>helper/include/images/favicon/android-icon-192x192.png">
