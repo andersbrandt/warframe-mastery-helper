@@ -1,13 +1,20 @@
 //
 //  Foundation style overrides
 //
-
 ul.title-area {
   li.name h1 a {
     padding-left: 0;
     font-weight: 700;
     text-transform: uppercase;
+    color: $body-font-color-bright;
+    &:hover {
+      color: $white;
+    }
   }
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: $body-font-color;
 }
 
 h3 {
@@ -20,19 +27,27 @@ h3 {
 
 .top-bar {
   margin-top: 12px;
-}
-
-.color-green {
-  color: $color-dark-green;
-}
-
-.text-is-grey {
-  color: #789;
-  a {
-    color: #789;
+  li:last-child  a {
+    padding-right: 0 !important;
+  }
+  .toggle-topbar.menu-icon {
+    width: 50px;
+  }
+  .icon-user {
+    width: 16px;
+    &::before {
+      width: auto;
+      margin-right: 0;
+    }
   }
 }
 
+#nav {
+  padding-top: 4px;
+}
+//
+// Custom
+//
 .margin-top-small {
   margin-top: 8px;
 }
@@ -71,20 +86,26 @@ h3 {
   margin-right: 0.2em;
 }
 
+a.white-link {
+  color: $body-font-color;
+  &:hover {
+    color: $white;
+  }
+}
+
 //
 //  App
 //
-
-#header-logo {
-  width: 32px;
+img#header-logo {
+  width: 232px;
   margin-right: 10px;
-  margin-top: -5px;
   vertical-align: middle;
 }
 
 #spinner {
   padding-top: 100px;
   text-align: center;
+  color: $white;
 }
 .spinner-loaded {
   display: none;
@@ -94,9 +115,8 @@ h3 {
   margin-top: 12px;
   margin-bottom: 12px;
   font-size: 22px;
-  background-color: $white;
-  border: 1px solid $border-color;
-  padding: 12px 16px;
+  color: $body-font-color-bright;
+  padding: 4px 0;
   display: inline-block;
   float: right;
   span {
@@ -104,54 +124,67 @@ h3 {
   }
 }
 
+#search-placeholder {
+  @include clearfix();
+}
+
 #search {
   font-size: 22px;
-  padding: 22px 12px;
+  padding: 22px 12px 22px 14px;
   margin-bottom: 0;
-  background-color: lighten($background-color, 3%);
+  background-color: lighten($background-color, 5%); // TODO
   float: left;
-  border-color: $border-color-darkest;
+  color: $body-font-color;
+  border-color: $border-color;
   &::placeholder {
-    font-size: 16px;
-
+    font-size: 15px;
     opacity: 1;
-    color: $search-input-placeholder-color;
+    color: $body-font-color;
+    line-height: 2em;
   }
   &:focus {
-    background-color: $white;
-    box-shadow: 0 0 7px $search-input-outline;
+    background-color: $wf-light-1;
+    border-color: $color-blue;
+    box-shadow: $color-blue 0 0 2px;
+    color: $white;
   }
 }
 #search-clear {
   float: right;
   margin-top: -43px;
   margin-right: 3px;
-  color: $search-input-placeholder-color;
+  color: $link-color;
   cursor: pointer;
   font-size: 22px;
   display: inline-block;
   padding: 7px;
   &:hover {
-    color: $body-font-color;
+    color: $white;
   }
+}
+
+#filter-placeholder {
+  @include clearfix();
+  margin-top: 4px;
 }
 
 #filter {
   float: left;
   margin-top: 10px;
   margin-right: 4px;
-  color: $steel;
+  color: $body-font-color;
   #filter-clear {
-    padding: 0 10px 3px 17px;
+    padding: 0 10px 3px 16px;
     display: inline-block;
     font-size: 14px;
+    color: $link-color;
     cursor: pointer;
     &:hover {
-      color: $color-blue;
+      color: $white;
       outline: none !important;
     }
     &:focus {
-      color: $color-blue-darker;
+      color: $white;
       outline: none !important;
     }
   }
@@ -166,28 +199,23 @@ h3 {
     span {
       display: inline-block;
       padding: 2px 10px;
-      border: 1px solid $border-color-darkest;
+      border: 1px solid $color-blue;
       margin-right: 6px;
-      color: $steel;
+      color: $color-blue;
       line-height: 22px;
       outline: none !important;
+      &:hover {
+        color: scale-color($link-color, $lightness: -14%); 
+        border-color: scale-color($link-color, $lightness: -14%); 
+      }
     }
   }
   input {
     margin: 8px;
     display: none;
     &:checked + span{
-      font-weight: bold;
-      background-color: $white;
-      color: $color-blue;
-      border-color: $color-blue;
-    }
-    &#filter-all {
-      &:checked + span{
-        color: $charcoal;
-        border-color: $border-color-darkest;
-      }
-
+      color: $white;
+      border-color: $white;
     }
   }
 }
@@ -195,19 +223,16 @@ h3 {
 #search-indicator {
   font-size: 16px;
   float: right;
-  margin-top: 10px;
-  margin-bottom: 26px;
+  margin-top: 12px;
+  margin-bottom: 22px;
   margin-right: 4px;
-  color: $steel;
-  &.search-indicator-filtered {
-    color: $color-blue-darker;
-  }
+  color: $body-font-color;
   .icon-search {
     display: inline-block;
     padding-right: 4px;
     font-size: 14px;
     position: relative;
-    top: -2px;
+    top: -1px;
   }
   #search-indicator-value {
     font-weight: bold;
@@ -239,38 +264,37 @@ ul#all-items {
 li.item {
   list-style: none;
   line-height: normal;
-  background-color: $box-color;
-  border: 1px solid $border-color-item;
-  border-bottom: 1px solid $border-color-darker;
-  padding: 10px;
+  background-color: $color-item-unchecked;
+  padding: 10px 10px 10px 14px;
   margin-bottom: 22px;
+  border-left: 2px solid $color-item-unchecked;
   &.item-vaulted {
-    background-color: $color-yellow;
-    border: 1px solid $color-yellow-darker;
-    border-bottom: 1px solid $color-yellow-darkest;
+    border-left: 2px solid $color-yellow;
   }
   &.item-unobtainable {
-    background-color: $color-red;
-    border: 1px solid $color-red-darker;
-    border-bottom: 1px solid $color-red-darkest;
+    border-left: 2px solid $color-red;
   }
   &.item-checked {
-    background-color: $color-green;
-    border: 1px solid $color-green-darker;
-    border-bottom: 1px solid $color-green-darkest;
+    background-color: $color-item-checked;
+    border-left: 2px solid $color-item-checked;
     .check {
       .icon-check-empty, .icon-check {
-        color: $color-dark-green;
+        color: $body-font-color;
       }
+    }
+    &.item-vaulted {
+      border-left: 2px solid $color-item-checked;
+    }
+    &.item-unobtainable {
+      border-left: 2px solid $color-item-checked;
     }
   }
   &.selected {
-    border-color: red;
+    //border-color: red;
   }
   &.active {
     background-color: $white;
-    border: 1px solid $border-color-darker;
-    border-bottom: 1px solid $border-color-darker;
+    border-bottom: 1px solid $border-color;
     .name {
       text-decoration: underline;
     }
@@ -308,13 +332,15 @@ li.item {
   }
   .check {
     display: inline-block;
-    margin-top: 9px;
-    margin-right: 5px;
+    margin-top: 6px;
     cursor: pointer;
     float: right;
     .icon-check, .icon-check-empty {
       width: 32px;
       height: 32px;
+    }
+    .icon-check-empty {
+      margin-right: 2px;
     }
   }
   .specification {
@@ -323,6 +349,9 @@ li.item {
   .wikia-link {
     display: inline-block;
     margin-left: 4px;
+    &:hover {
+      color: $white;  
+    }
   }
   .data {
     display: none;
@@ -356,7 +385,7 @@ li.item {
     hr {
       margin-top: 16px;
       margin-bottom: 14px;
-      border-color: #cdcdcd;
+      border-color: $body-font-color-bright;
     }
   }
   .table-left {
@@ -370,15 +399,23 @@ li.item {
 //
 //  Modals
 //
+.reveal-modal.open {
+  outline: none;
+}
+
 #export-data-placeholder {
   background-color: $silver;
   border: 1px solid $border-color;
   padding: 10px;
   font-family: monospace;
   word-break: break-all;
+  color: $black;
+}
+textarea#import-data {
+  color: $black;
 }
 .close-reveal-modal:hover {
-  color: red;
+  color: $color-red;
 }
 
 @media only screen and (min-width: 0px) and (max-width: 640px) {
@@ -402,7 +439,7 @@ body.page-help {
 }
 #legend-image {
   margin-top: 8px;
-  width: 400px;
+  width: 425px;
 }
 .legend-color {
   display: inline-block;
@@ -410,25 +447,11 @@ body.page-help {
   height: 18px;
   margin-right: 11px;
   vertical-align: sub;
-  &.legend-unchecked {
-    background-color: $box-color;
-    border: 1px solid $border-color-item;
-    border-bottom: 1px solid $border-color-darker;
-  }
   &.legend-vaulted {
     background-color: $color-yellow;
-    border: 1px solid $color-yellow-darker;
-    border-bottom: 1px solid $color-yellow-darkest;
   }
   &.legend-unobtainable {
     background-color: $color-red;
-    border: 1px solid $color-red-darker;
-    border-bottom: 1px solid $color-red-darkest;
-  }
-  &.legend-checked {
-    background-color: $color-green;
-    border: 1px solid $color-green-darker;
-    border-bottom: 1px solid $color-green-darkest;
   }
 }
 
@@ -442,11 +465,17 @@ ul#news-list {
     margin-bottom: 12px;
     .news-date {
       font-size: 14px;
-      color: #555555;
+      color: $body-font-color-darker;
     }
     .news-url {
       font-size: 14px;
-      color: $primary-color;
+      color: $body-font-color-darker;
+      a {
+        color: $body-font-color-darker;
+        &:hover {
+          color: $white;
+        }
+      }
     }
   }
 }
@@ -466,7 +495,7 @@ ul#news-list {
       text-align: left;
       padding-right: 12px;
       padding-bottom: 4px;
-      border-bottom: 1px solid $border-color;
+      border-bottom: 1px solid $body-font-color;
     }
     td {
       padding-top: 4px;
@@ -492,7 +521,7 @@ ul#news-list {
       text-align: right;
     }
     tr.divider {
-      border-top: 1px solid $border-color;
+      border-top: 1px solid $body-font-color;
     }
   }
 
@@ -503,7 +532,6 @@ ul#news-list {
     }
   }
 }
-
 
 //
 //  Footer
@@ -521,7 +549,43 @@ ul#news-list {
   }
 }
 
-@media only screen and (min-width: 0px) and (max-width: 640px) {
+//
+//  Media queries
+//
+
+// 1024px
+@media only screen and (min-width: 0px) and (max-width: $medium-breakpoint) {
+  .top-bar-section ul {
+    margin-top: 16px;
+    background-color: $wf-color-darkest;
+    li {
+      background-color: $wf-color-darkest;
+      &:hover {
+        background-color: $wf-color-darkest !important;
+      }
+      a:hover {
+        background-color: $wf-color-darkest !important;
+      }
+    }
+  }
+}
+
+// 700px
+@media only screen and (min-width: 0px) and (max-width: 700px) {
+  #filter {
+    float: none;
+    #filter-clear {
+      padding-left: 2px;
+    }
+  }
+
+  #search-indicator {
+    float: none;
+  }
+}
+
+// 640px
+@media only screen and (min-width: 0px) and (max-width: $small-breakpoint) {
   li.item .acquisition,
   li.item .mastery-rank
   {

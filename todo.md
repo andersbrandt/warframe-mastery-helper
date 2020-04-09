@@ -2,12 +2,19 @@
 
 - Fix ugly SQL in class User.php
 
-- Spinner when saving
-
 - fix hardcoded path in user-auth.php  - Maybe not possible
 
 - https://webpack.js.org/guides/build-performance/ < start using include for faster webpack-performance
 
+- check all archwing weapons that have parts in syndicates, labeled as "Market" today which is misleading
+
+## TODO Redesign
+
+- legend.png
+- all sizes for favicons
+- /favicon.ico
+- fix paths for favicon & logo dev
+- fix vaulted-status fetching from warframe-items
 
 **Features needed**
 

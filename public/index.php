@@ -23,28 +23,33 @@
         <meta name="apple-mobile-web-app-capable" content="yes">
         <meta name="description" content="Get your Warframe Mastery Rank up! Keep track of all items required for mastery rank. Features tier-ranking and in-depth information. The only Warframe Mastery Tracker you need."/>
         <?php if ($functions->isDev()) { ?>
-            <link type="image/png" rel="icon" href="<?=$config->get("root")?>helper/include/images/favicon-dev.png"/>
+            <link type="image/png" rel="icon" href="<?=$config->get("root")?>helper/include/images/favicon.png"/>
             <link type="text/css" rel="stylesheet" href="<?=$config->get("root")?>helper/include/css/stylesheet.css"/>
         <?php } else { ?>
-            <link rel="shortcut icon" href="/favicon.ico">
-            <link rel="icon" sizes="16x16 32x32 64x64" href="/favicon.ico">
-            <link rel="icon" type="image/png" sizes="196x196" href="<?=$config->get("root")?>helper/include/images/favicon/favicon-192.png">
-            <link rel="icon" type="image/png" sizes="160x160" href="<?=$config->get("root")?>helper/include/images/favicon/favicon-160.png">
-            <link rel="icon" type="image/png" sizes="96x96" href="<?=$config->get("root")?>helper/include/images/favicon/favicon-96.png">
-            <link rel="icon" type="image/png" sizes="64x64" href="<?=$config->get("root")?>helper/include/images/favicon/favicon-64.png">
-            <link rel="icon" type="image/png" sizes="32x32" href="<?=$config->get("root")?>helper/include/images/favicon/favicon-32.png">
-            <link rel="icon" type="image/png" sizes="16x16" href="<?=$config->get("root")?>helper/include/images/favicon/favicon-16.png">
-            <link rel="apple-touch-icon" href="<?=$config->get("root")?>helper/include/images/favicon/favicon-57.png">
-            <link rel="apple-touch-icon" sizes="114x114" href="<?=$config->get("root")?>helper/include/images/favicon/favicon-114.png">
-            <link rel="apple-touch-icon" sizes="72x72" href="<?=$config->get("root")?>helper/include/images/favicon/favicon-72.png">
-            <link rel="apple-touch-icon" sizes="144x144" href="<?=$config->get("root")?>helper/include/images/favicon/favicon-144.png">
-            <link rel="apple-touch-icon" sizes="60x60" href="<?=$config->get("root")?>helper/include/images/favicon/favicon-60.png">
-            <link rel="apple-touch-icon" sizes="120x120" href="<?=$config->get("root")?>helper/include/images/favicon/favicon-120.png">
-            <link rel="apple-touch-icon" sizes="76x76" href="<?=$config->get("root")?>helper/include/images/favicon/favicon-76.png">
-            <link rel="apple-touch-icon" sizes="152x152" href="<?=$config->get("root")?>helper/include/images/favicon/favicon-152.png">
-            <link rel="apple-touch-icon" sizes="180x180" href="<?=$config->get("root")?>helper/include/images/favicon/favicon-180.png">
+            <link rel="shortcut icon" href="<?=$config->get("root")?>favicon.ico">
+            <link rel="icon" sizes="16x16 32x32 64x64" href="<?=$config->get("root")?>favicon.ico">
+            <link rel="icon" type="image/png" href="<?=$config->get("root")?>helper/include/images/favicon.png"/>
+            <link rel="icon" type="image/png" sizes="196x196" href="<?=$config->get("root")?>helper/include/images/favicon/favicon-196x196.png">
+            <link rel="icon" type="image/png" sizes="192x192" href="<?=$config->get("root")?>helper/include/images/favicon/android-icon-192x192.png">
+            <link rel="icon" type="image/png" sizes="160x160" href="<?=$config->get("root")?>helper/include/images/favicon/favicon-160x160.png">
+            <link rel="icon" type="image/png" sizes="64x64" href="<?=$config->get("root")?>helper/include/images/favicon/favicon-64x64.png">
+            <link rel="icon" type="image/png" sizes="32x32" href="<?=$config->get("root")?>helper/include/images/favicon/favicon-32x32.png">
+            <link rel="icon" type="image/png" sizes="96x96" href="<?=$config->get("root")?>helper/include/images/favicon/favicon-96x96.png">
+            <link rel="icon" type="image/png" sizes="16x16" href="<?=$config->get("root")?>helper/include/images/favicon/favicon-16x16.png">
+            <link rel="apple-touch-icon" sizes="57x57" href="<?=$config->get("root")?>helper/include/images/favicon/apple-icon-57x57.png">
+            <link rel="apple-touch-icon" sizes="60x60" href="<?=$config->get("root")?>helper/include/images/favicon/apple-icon-60x60.png">
+            <link rel="apple-touch-icon" sizes="72x72" href="<?=$config->get("root")?>helper/include/images/favicon/apple-icon-72x72.png">
+            <link rel="apple-touch-icon" sizes="76x76" href="<?=$config->get("root")?>helper/include/images/favicon/apple-icon-76x76.png">
+            <link rel="apple-touch-icon" sizes="114x114" href="<?=$config->get("root")?>helper/include/images/favicon/apple-icon-114x114.png">
+            <link rel="apple-touch-icon" sizes="120x120" href="<?=$config->get("root")?>helper/include/images/favicon/apple-icon-120x120.png">
+            <link rel="apple-touch-icon" sizes="144x144" href="<?=$config->get("root")?>helper/include/images/favicon/apple-icon-144x144.png">
+            <link rel="apple-touch-icon" sizes="152x152" href="<?=$config->get("root")?>helper/include/images/favicon/apple-icon-152x152.png">
+            <link rel="apple-touch-icon" sizes="180x180" href="<?=$config->get("root")?>helper/include/images/favicon/apple-icon-180x180.png">
+            <meta name="msapplication-TileColor" content="#ffffff">
+            <meta name="msapplication-TileImage" content="<?=$config->get("root")?>helper/include/images/favicon/ms-icon-144x144.png">
+            <meta name="theme-color" content="#ffffff">
             <link type="text/css" rel="stylesheet" href="<?=$config->get("root")?>helper/include/css/stylesheet.min.css?v=<?php echo $functions->getVersion();?>"/>
-        <?php } ?>
+            <?php } ?>
         <script type="application/ld+json">
             {
                 "@context": "https://schema.org",        
@@ -81,12 +86,11 @@
     </head>
     <body class="start-page">
 
-    <div id="start-page" >
+    <div id="start-page">
         <div class="row">
             <div class="column large-12">
                 <div id="box-header" class="text-center">
-                    <img src="<?=$config->get("root")?>helper/include/images/favicon.png" alt="Logotype"> 
-                    <h1 class="text-center" id="start-page-header">Warframe Mastery Helper</h1>
+                    <img src="<?=$config->get("root")?>helper/include/images/wmh-logo.svg" alt="Warframe Mastery Helper" title="Warframe Mastery Helper"> 
                 </div>
             </div>
         </div>
@@ -152,13 +156,13 @@
             <div class="column large-4 margin-top-10">
                 <div class="box" data-equalizer-watch="boxes-bottom">
                     <h2>Legend</h2>
-                    <img src="helper/include/images/legend.png" id="legend-image" alt="Site legend">
+                    <img src="helper/include/images/legend-v3.png" id="legend-image" alt="Site legend">
                 </div>
             </div>
             <div class="column large-4 margin-top-10">
                 <div class="box" data-equalizer-watch="boxes-bottom">
                     <h2>Privacy Policy & Disclaimer</h2>
-                    <p>We will not store any personal information. Login are delegated to Google using <a target="_blank" href="https://developers.google.com/api-client-library/" rel="noopener">Google API Client</a></p>
+                    <p>We will not store any personal information. Login are delegated to Google using <a class="white-link" target="_blank" href="https://developers.google.com/api-client-library/" rel="noopener">Google API Client</a></p>
                     <p>The only data we store are your public Google ID. Your ID is used in a obfuscated format in this app.</p>
                     <p>We will not send you emails or store your email.</p>
                     <p>This site is not affiliated with Digital Extremes.</p>
@@ -167,7 +171,7 @@
         </div>
         <div class="row">
             <div class="column large-12">
-                    <p class="text-center" id="footer-author">Author: Anders Brandt | Contact: <a href="mailto:info@warframe-mastery.com">info@warframe-mastery.com</a></p>
+                    <p class="text-center" id="footer-author">Author: Anders Brandt | Contact: <a href="mailto:info@warframe-mastery.com" class="white-link">info@warframe-mastery.com</a></p>
             </div>
         </div>
     </div>

@@ -7,7 +7,7 @@ const ClockOrbvallis = require("./clock-orbvallis.js");
 
 var app = {
   name: "Warframe Mastery Helper",
-  version: "3.0.2",
+  version: "3.1.0",
   data: {},
   config: {
     modal: {
@@ -115,6 +115,11 @@ var app = {
         var template = require("./../views/search.hbs");
         var html = template();
         $("#search-placeholder").html(html);
+        $("#search").bind("keypress", function (e) {
+          if (e.which === 13) {
+            app.search.done();
+          }
+        });
       },
       filter: function () {
         var template = require("./../views/filter.hbs");
@@ -336,20 +341,16 @@ var app = {
     },
     getStatus: function () {
       return $(".filter-status:checked").val();
-    },
-    setBodyClass: function (status) {
-      if (status) {
-        $("body").addClass("filter-active");
-      } else {
-        $("body").removeClass("filter-active");
-      }
     }
   },
   search: {
+    done: function () {
+      document.activeElement.blur();
+      return false;
+    },
     action: function () {
       var input, filter, li, name, i, category, type, acquisition;
       var filterStatus = app.filter.getStatus();
-      app.filter.setBodyClass(filterStatus);
       input = document.getElementById("search");
       filter = input.value.toUpperCase();
       li = document.getElementsByClassName("item");
@@ -369,7 +370,6 @@ var app = {
       }
       switch (filterStatus) {
         case "all":
-          app.filter.setBodyClass(false);
           break;
         case "ranked":
           $(".item.item-unchecked").hide();
@@ -389,14 +389,6 @@ var app = {
         $("#search-indicator").find("#search-indicator-string").html("");
       }
       $("#search-indicator").find("#search-indicator-value").html(count);
-      var filterStatus = app.filter.getStatus();
-      if (filterStatus == "unranked" || filterStatus == "ranked") {
-        $("#search-indicator").addClass("search-indicator-filtered");
-        app.filter.setBodyClass(true);
-      } else {
-        $("#search-indicator").removeClass("search-indicator-filtered");
-        app.filter.setBodyClass(false);
-      }
     },
     clear: function () {
       $("#search").val("").focus();
@@ -611,14 +603,14 @@ var app = {
       var str = 'Ranked items ' + today + ': ' + array.length + '\r\n';
       for (var i = 0; i < array.length; i++) {
         str += array[i] + '\r\n';
-      }
+      };
       // Track event
       gtag('event', 'Export data as CSV', {
         'event_category': 'Export',
         'event_label': 'Export data as CSV'
       });
       // Open window
-      window.open("data:text/csv;charset=utf-8," + escape(str))
+      window.open("data:text/csv;charset=utf-8," + escape(str));
     }
   },
   clocks: {

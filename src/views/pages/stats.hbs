@@ -16,7 +16,7 @@
         {{#each this}}
         <tr>
             <td class="name">{{this.name}}</td>
-            <td class="unranked">{{#if this.unranked.length}}{{this.unranked.length}}{{else}} <i class="icon-ok color-green"></i> {{/if}}</td>
+            <td class="unranked">{{#if this.unranked.length}}{{this.unranked.length}}{{else}} <i class="icon-ok"></i> {{/if}}</td>
             <td class="ranked">{{this.ranked.length}}</td>
             <td class="total">{{this.total}}</td>
         </tr>
@@ -34,11 +34,11 @@
 {{#each this}}
 <div class="stats-item">
     <div class="name">
-        <b>{{this.name}}{{#if this.unranked.length}} ({{this.unranked.length}}) {{else}} <i class="icon-ok color-green"></i> {{/if}} </b>
+        <b>{{this.name}}{{#if this.unranked.length}} ({{this.unranked.length}}) {{else}} <i class="icon-ok"></i> {{/if}} </b>
     </div>
     <div class="ranked">
         {{#each unranked}}
-        <a href="{{ this.url}}" target="_blank">{{ this.name}}{{#if this.unobtainable}} (Unobtainable){{/if}}</a>{{#unless @last}}, {{/unless}}
+        <a class="white-link" href="{{ this.wikiaUrl}}" target="_blank">{{ this.name}}{{#if this.unobtainable}} (Unobtainable){{/if}}</a>{{#unless @last}}, {{/unless}}
         {{/each}}
     </div>
 </div>

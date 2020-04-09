@@ -19,8 +19,13 @@ include_once($config->get("path") . "/helper/include/header.php");
 
         <div class="column large-12">
             <div id="search-placeholder" class="view-placeholder"></div>
+        </div>    
+
+        <div class="column large-12">
             <div id="filter-placeholder" class="view-placeholder"></div>
         </div>
+
+        <?php // include_once("include/test-style.php") ?>
 
         <div class="column large-12">
             <div id="all-items-placeholder" class="view-placeholder"></div>
@@ -54,7 +59,7 @@ include_once($config->get("path") . "/helper/include/header.php");
 
 <div class="row spinner-loaded" id="footer">
     <div class="column large-12">
-        Warframe Mastery Helper <?php echo date("Y"); ?> | <a href="mailto:info@warframe-mastery.com">Contact us</a>
+        <p>Warframe Mastery Helper <?php echo date("Y"); ?> | <a class="white-link" href="mailto:info@warframe-mastery.com">Contact us</a></p>
     </div>
 </div>
 
@@ -79,12 +84,15 @@ include_once($config->get("path") . "/helper/include/header.php");
     <h1>News</h1>
     <?php echo $news->printNews(1000)?>
     <a class="close-reveal-modal" aria-label="Close">&#215;</a>
+    <div class="text-right">
+        <button type="button" class="btn btn-default" onclick="app.tools.closeModal();">Close</button>
+    </div>
 </div>
 
 <?php include($config->get("path") . "helper/include/google-analytics-tracking.php")?>
 
 <?php if ($functions->isDev()) { ?>
-    <script src="<?=$config->get("root")?>helper/include/js/main.js"></script>
+    <script src="<?=$config->get("root")?>helper/include/js/main.js?v=<?php echo rand(1000,9999); ?>"></script>
 <?php } else { ?>
     <script src="<?=$config->get("root")?>helper/include/js/main.min.js?v=<?php echo $functions->getVersion();?>"></script>
 <?php } ?>
