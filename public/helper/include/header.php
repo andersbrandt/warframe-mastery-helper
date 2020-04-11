@@ -8,7 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <meta name="apple-mobile-web-app-capable" content="yes">
     <?php if ($functions->isDev()) { ?>
-        <link type="image/png" rel="icon" href="<?=$config->get("root")?>helper/include/images/favicon.png"/>
+        <link type="image/png" rel="icon" href="<?=$config->get("root")?>helper/include/images/favicon-dev.png"/>
         <link type="text/css" rel="stylesheet" href="<?=$config->get("root")?>helper/include/css/stylesheet.css?v=<?php echo rand(1000,9999); ?>"/>
     <?php } else { ?>
         <link type="image/png" rel="icon" href="<?=$config->get("root")?>helper/include/images/favicon.png"/>

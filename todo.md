@@ -10,10 +10,6 @@
 
 ## TODO Redesign
 
-- legend.png
-- all sizes for favicons
-- /favicon.ico
-- fix paths for favicon & logo dev
 - fix vaulted-status fetching from warframe-items
 
 **Features needed**

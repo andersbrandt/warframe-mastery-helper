@@ -23,7 +23,7 @@
         <meta name="apple-mobile-web-app-capable" content="yes">
         <meta name="description" content="Get your Warframe Mastery Rank up! Keep track of all items required for mastery rank. Features tier-ranking and in-depth information. The only Warframe Mastery Tracker you need."/>
         <?php if ($functions->isDev()) { ?>
-            <link type="image/png" rel="icon" href="<?=$config->get("root")?>helper/include/images/favicon.png"/>
+            <link type="image/png" rel="icon" href="<?=$config->get("root")?>helper/include/images/favicon-dev.png"/>
             <link type="text/css" rel="stylesheet" href="<?=$config->get("root")?>helper/include/css/stylesheet.css"/>
         <?php } else { ?>
             <link rel="shortcut icon" href="<?=$config->get("root")?>favicon.ico">
