@@ -1,6 +1,6 @@
 <li class="item {{#if checked}}item-checked{{else}}item-unchecked{{/if}}{{#if vaulted}} item-vaulted{{/if}}{{#if unobtainable}} item-unobtainable{{/if}}" data-name="{{name}}">
     <span class="name" onclick="app.item.toggleInfo('{{name}}')">{{name}}</span>
-    <span class="acquisition" onclick="app.item.toggleInfo('{{name}}')">{{acquisition}}{{#if vaulted}} <i class="icon-lock"></i>{{/if}}{{#if unobtainable}} <i class="icon-attention"></i>{{/if}}</span>
+    <span class="acquisition" onclick="app.item.toggleInfo('{{name}}')">{{acquisition}}{{#if vaulted}} <i class="icon-lock"></i> (Vaulted){{/if}}{{#if unobtainable}} <i class="icon-attention"></i>{{/if}}</span>
     {{#ifCond this.tierRank "==" "3"}}
         <span class="tier-rank tier-rank-3" onclick="app.item.toggleInfo('{{name}}')">
             <i class="icon-star-empty"></i><i class="icon-star-empty"></i><i class="icon-star-empty"></i>
