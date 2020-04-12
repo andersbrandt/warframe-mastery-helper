@@ -8084,8 +8084,16 @@ module.exports = {
       "acquisition": "Chimera Prologue (Quest)",
       "checked": false,
       "unobtainable": false,
-      "tierData": false,
-      "tierRank": 0,
+      "tierData": true,
+      "tier": "Viable",
+      "dmg": "Crit & Status",
+      "tierRank": 1,
+      "weaponNotes": "High damage per hit, low attack speed. Has +60% damage bonus to sentients and reset their damage resistances. ",
+      "stance": "Cleaving Whirlwind",
+      "stanceNotes": "",
+      "buildLink": "https://overframe.gg/build/28728/",
+      "buildLinkDomain": "overframe.gg",
+      "combo": "Broken Bull",
       "component": false
     },
     {
@@ -12469,7 +12477,7 @@ module.exports = {
       "component": false
     }
   ],
-  "fetched": "2020.04.11 11:31:13 CET+02:00",
+  "fetched": "2020.04.11 11:43:38 CET+02:00",
   "version": {
     "pc": "27.3.11",
     "ps4": "27.3.9",

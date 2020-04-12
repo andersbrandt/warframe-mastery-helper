@@ -24,7 +24,7 @@
         {{#if this.acquisition}}
         <tr>
             <td class="table-left">Acquisition:</td>
-            <td class="table-right"> <a onclick="app.search.searchFor('{{escape acquisition }}');">{{{acquisition}}}</a>{{#if vaulted}} <i class="icon-lock"></i>{{/if}}{{#if unobtainable}} <i class="icon-attention"></i>{{/if}}{{#ifCond masteryReq ">=" 1}} | MR-{{masteryReq}}{{/ifCond}}</td>
+            <td class="table-right"> <a onclick="app.search.searchFor('{{escape acquisition }}');">{{{acquisition}}}</a>{{#if vaulted}} <i class="icon-lock"></i> (Vaulted){{/if}}{{#if unobtainable}} <i class="icon-attention"></i>{{/if}}{{#ifCond masteryReq ">=" 1}} | MR-{{masteryReq}}{{/ifCond}}</td>
         </tr>
         {{/if}}
         {{#if this.wikiaUrl}}

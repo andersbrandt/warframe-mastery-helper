@@ -30,7 +30,6 @@ module.exports = {
     },
     updateData: {
         tierRanking: "https://www.cephalonwannab.com/js/thelist.json",
-        //vaultedItems: "http://warframe.wikia.com/wiki/Prime_Vault",
         weaponComponents: "http://warframe.wikia.com/wiki/Weapons_Required_as_Crafting_Ingredients",
         versions: "https://warframe.com/index.php"
     },
@@ -46,9 +45,6 @@ module.exports = {
     warframeComponentData: {
         dest: "@updateData/component-data.json"
     },
-    // wikiaVaultedStatus: {
-    //     dest: "@updateData/vaulted-status-wikia.json"
-    // },
     versions: {
         dest: "@updateData/versions.json"
     }

@@ -8,9 +8,6 @@
 
 - check all archwing weapons that have parts in syndicates, labeled as "Market" today which is misleading
 
-## TODO Redesign
-
-- fix vaulted-status fetching from warframe-items
 
 **Features needed**
 

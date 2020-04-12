@@ -27,7 +27,6 @@ class Updater {
 
       await
       this.fetchHtmlFile([
-        //paths.updateData.vaultedItems,
         paths.updateData.weaponComponents,
         paths.updateData.versions
       ]);
@@ -58,9 +57,6 @@ class Updater {
 
       await
       this.setDefaults();
-
-      //await
-      //this.vaultedStatus();
 
       await
       this.versions();
@@ -323,11 +319,6 @@ class Updater {
     this.items = require(pathAlias.resolve("@modules/tier-list"))(this.items);
     this.clog("Added tier ranking");
   }
-
-  // async vaultedStatus() {
-  //   this.items = require(pathAlias.resolve("@modules/vaulted-status"))(this.items);
-  //   this.clog("Added vaulted status");
-  // }
 
   async components() {
     this.items = require(pathAlias.resolve("@modules/components"))(this.items);
