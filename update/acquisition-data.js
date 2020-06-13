@@ -77,7 +77,8 @@ MASK_OF_THE_LOST_ONE = 'Mask of the Lost One (Quest)';
 THE_PYRYS_PROJECT = "The Pyrys Project (Quest)";
 CHIMERA_PROLOGUE = "Chimera Prologue (Quest)";
 VOX_SOLARIS = "Vox Solaris (Quest)";
-BURIED_DEBTS = "Buried Debts (Quest)"
+BURIED_DEBTS = "Buried Debts (Quest)";
+DEADLOCK_PROTOCOL = "Deaclock Protocol (Quest)";
 
 // Rewards
 ANNIVERSARY = 'Anniversary';
@@ -104,6 +105,7 @@ CHINESE_VERSION = 'Chinese version only';
 TUSK_THUMPER = 'Tusk Thumper (Plains of Eidolon)'
 SYMBILYSTS = 'Symbilyst (Railjack Anomaly)';
 UNKNOWN = "Acquisition: Unknown";
+GRANUM_VOID = "Granum Void";
 
 //
 //  Add new items to the end of array
@@ -1878,7 +1880,7 @@ var items = [{
   },
   {
     "name": "Ether Daggers",
-    "acquisition": OPERATION_PLAGUE_STAR,
+    "acquisition": MARKET,
     "id": "/Lotus/Weapons/Tenno/Melee/DualDagger/DualEtherDagger"
   },
   {
@@ -2948,6 +2950,42 @@ var items = [{
     "name": "Titania Prime",
     "acquisition": RELICS,
     "id": "/Lotus/Powersuits/Fairy/TitaniaPrime"
+  },
+  // Deadlock Protocol
+  {
+    "name": "Helstrum",
+    "acquisition": LEGS,
+    "id": "/Lotus/Types/Friendly/Pets/MoaPets/MoaPetComponents/SwarmerWeapon"
+  },
+  {
+    "name": "Nychus Moa",
+    "acquisition": LEGS,
+    "id": "/Lotus/Types/Friendly/Pets/MoaPets/MoaPetParts/MoaPetHeadMelee"
+  },
+  {
+    "name": "Protea",
+    "acquisition": DEADLOCK_PROTOCOL,
+    "id": "/Lotus/Powersuits/Odalisk/Odalisk"
+  },
+  {
+    "name": "Stahlta",
+    "acquisition": JACKAL,
+    "id": "/Lotus/Weapons/Corpus/LongGuns/CrpRubanRifle/CrpRubanRifle"
+  },
+  {
+    "name": "Stropha",
+    "acquisition": JACKAL,
+    "id": "/Lotus/Weapons/Corpus/Melee/Gunblade/CrpGunBlade/CrpGunbladeWeapon"
+  },
+  {
+    "name": "Velox",
+    "acquisition": GRANUM_VOID,
+    "id": "/Lotus/Weapons/Tenno/Pistols/TnOdaliskSmg/TnOdaliskSmgPistol"
+  },
+  {
+    "name": "Xoris",
+    "acquisition": DEADLOCK_PROTOCOL,
+    "id": "/Lotus/Weapons/Corpus/Melee/Glaive/CrpGhostCatcherGlaive/CrpGhostCatcherGlaive"
   },
 
 ];

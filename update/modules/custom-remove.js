@@ -1,6 +1,7 @@
 module.exports = function (items) {
 
-  for (var i = 0; i < items.array.length; i++) {
+  var i = items.array.length;
+  while (i--) {
 
     // Remove 'Prisma Machete'
     if (items.array[i]["name"] === "Prisma Machete") {
@@ -12,7 +13,32 @@ module.exports = function (items) {
       items.array.splice(i, 1);
     }
 
+    // Remove Kitgun parts
+    if (items.array[i]["uniqueName"].includes("ClipPart")) {
+      items.array.splice(i, 1);
+    }
+    if (items.array[i]["uniqueName"].includes("\/Handle\/")) {
+      items.array.splice(i, 1);
+    }
+    if (items.array[i]["uniqueName"].includes("\/Grip\/")) {
+      items.array.splice(i, 1);
+    }
+
+    // Remove Amp parts
+    if (items.array[i]["name"].includes("Scaffold")) {
+      items.array.splice(i, 1);
+    }
+
+    // Remove Zaw parts
+    if (items.array[i]["uniqueName"].includes("Balance")) {
+      items.array.splice(i, 1);
+    }
+    if (items.array[i]["uniqueName"].includes("\/Handles\/")) {
+      items.array.splice(i, 1);
+    }
+        
   }
+
   return items;
 
 };
