@@ -8762,7 +8762,7 @@ module.exports = {
       "imageName": "protea.png",
       "tradable": false,
       "wikiaUrl": "http://warframe.fandom.com/wiki/Protea",
-      "acquisition": "Deaclock Protocol (Quest)",
+      "acquisition": "Deadlock Protocol (Quest)",
       "checked": false,
       "unobtainable": false,
       "tierData": false,
@@ -12410,7 +12410,7 @@ module.exports = {
       "category": "Glaive",
       "tradable": false,
       "wikiaUrl": "http://warframe.fandom.com/wiki/Xoris",
-      "acquisition": "Deaclock Protocol (Quest)",
+      "acquisition": "Deadlock Protocol (Quest)",
       "checked": false,
       "unobtainable": false,
       "tierData": true,
@@ -12634,7 +12634,7 @@ module.exports = {
       "component": false
     }
   ],
-  "fetched": "2020.06.13 10:51:05 CET+02:00",
+  "fetched": "2020.06.14 01:21:10 CET+02:00",
   "version": {
     "pc": "28.0.4",
     "ps4": "Prime Vault",

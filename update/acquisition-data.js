@@ -78,7 +78,7 @@ THE_PYRYS_PROJECT = "The Pyrys Project (Quest)";
 CHIMERA_PROLOGUE = "Chimera Prologue (Quest)";
 VOX_SOLARIS = "Vox Solaris (Quest)";
 BURIED_DEBTS = "Buried Debts (Quest)";
-DEADLOCK_PROTOCOL = "Deaclock Protocol (Quest)";
+DEADLOCK_PROTOCOL = "Deadlock Protocol (Quest)";
 
 // Rewards
 ANNIVERSARY = 'Anniversary';
