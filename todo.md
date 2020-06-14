@@ -1,5 +1,8 @@
 # TODO / BUGS
 
+- Remove versions, it do not work due to inaccesible data from Warframe.com
+
+
 - Fix ugly SQL in class User.php
 
 - fix hardcoded path in user-auth.php  - Maybe not possible

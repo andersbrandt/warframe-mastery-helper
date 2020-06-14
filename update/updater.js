@@ -251,6 +251,8 @@ class Updater {
             if (json[i]["uniqueName"].includes('Tip')) {
               json[i]["type"] = "Melee";
               json[i]["category"] = "Zaw";
+              const wikiSlug = json[i]["name"].replace(/ /g, '_').replace(/'/g, '%27');
+              json[i]["wikiaUrl"] = `http://warframe.wikia.com/wiki/${wikiSlug}`;
             }
             if (json[i]["uniqueName"].includes('Deck')) {
               json[i]["type"] = "Vehicle";
@@ -274,6 +276,11 @@ class Updater {
               !json[i]["uniqueName"].includes('MoaPetHead')
               ) {
               delete json[i];
+            }
+          }
+          if (path === "Primary.json") {
+            if (json[i]["productCategory"] == "SentinelWeapons") {
+              json[i]["type"] = "Sentinel Weapon";
             }
           }
           if (path === "Secondary.json") {
