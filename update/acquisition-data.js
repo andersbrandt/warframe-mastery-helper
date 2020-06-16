@@ -2701,7 +2701,7 @@ var items = [{
   },
   {
     "name": "Glaxion Vandal",
-    "acquisition": HOSTILE_MERGERS,
+    "acquisition": BARO_KITEER,
     "id": "/Lotus/Weapons/Corpus/LongGuns/CrpFreezeRay/Vandal/CrpFreezeRayVandalRifle"
   },
   {

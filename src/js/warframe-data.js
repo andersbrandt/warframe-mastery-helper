@@ -4207,7 +4207,7 @@ module.exports = {
       "category": "Rifle",
       "tradable": true,
       "wikiaUrl": "http://warframe.fandom.com/wiki/Glaxion_Vandal",
-      "acquisition": "Operation: Hostile Mergers",
+      "acquisition": "Baro Ki'Teer (Relay)",
       "checked": false,
       "unobtainable": false,
       "tierData": true,
@@ -12706,7 +12706,7 @@ module.exports = {
       "component": false
     }
   ],
-  "fetched": "2020.06.16 09:37:09 CET+02:00",
+  "fetched": "2020.06.16 09:40:20 CET+02:00",
   "version": {
     "pc": "28.0.4",
     "ps4": "Prime Vault",
