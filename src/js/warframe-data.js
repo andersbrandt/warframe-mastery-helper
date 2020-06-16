@@ -1481,6 +1481,24 @@ module.exports = {
       "component": false
     },
     {
+      "name": "Brash",
+      "uniqueName": "/Lotus/Weapons/SolarisUnited/Primary/SUModularPrimarySet1/Handles/SUModularPrimaryHandleAPart",
+      "description": "",
+      "masteryReq": 0,
+      "productCategory": "Pistols",
+      "type": "Primary",
+      "imageName": "brash.png",
+      "category": "Kitgun",
+      "tradable": false,
+      "acquisition": "Rude Zuud (Fortuna)",
+      "checked": false,
+      "unobtainable": false,
+      "tierData": false,
+      "tierRank": 0,
+      "component": false,
+      "wikiaUrl": "http://warframe.wikia.com/wiki/Brash"
+    },
+    {
       "name": "Braton",
       "uniqueName": "/Lotus/Weapons/Tenno/Rifle/Rifle",
       "description": "The Braton's high rate of fire and accuracy make it a favorite among the Tenno.",
@@ -9889,6 +9907,24 @@ module.exports = {
       "component": false
     },
     {
+      "name": "Shrewd",
+      "uniqueName": "/Lotus/Weapons/SolarisUnited/Primary/SUModularPrimarySet1/Handles/SUModularPrimaryHandleBPart",
+      "description": "",
+      "masteryReq": 0,
+      "productCategory": "Pistols",
+      "type": "Primary",
+      "imageName": "shrewd.png",
+      "category": "Kitgun",
+      "tradable": false,
+      "acquisition": "Rude Zuud (Fortuna)",
+      "checked": false,
+      "unobtainable": false,
+      "tierData": false,
+      "tierRank": 0,
+      "component": false,
+      "wikiaUrl": "http://warframe.wikia.com/wiki/Shrewd"
+    },
+    {
       "name": "Shwaak Prism",
       "uniqueName": "/Lotus/Weapons/Sentients/OperatorAmplifiers/Set1/Barrel/SentAmpSet1BarrelPartB",
       "description": "",
@@ -10432,6 +10468,24 @@ module.exports = {
       "buildLink": "https://overframe.gg/build/27907/",
       "buildLinkDomain": "overframe.gg",
       "component": false
+    },
+    {
+      "name": "Steadyslam",
+      "uniqueName": "/Lotus/Weapons/SolarisUnited/Primary/SUModularPrimarySet1/Handles/SUModularPrimaryHandleCPart",
+      "description": "",
+      "masteryReq": 0,
+      "productCategory": "Pistols",
+      "type": "Primary",
+      "imageName": "steadyslam.png",
+      "category": "Kitgun",
+      "tradable": false,
+      "acquisition": "Rude Zuud (Fortuna)",
+      "checked": false,
+      "unobtainable": false,
+      "tierData": false,
+      "tierRank": 0,
+      "component": false,
+      "wikiaUrl": "http://warframe.wikia.com/wiki/Steadyslam"
     },
     {
       "name": "Stinger",
@@ -11416,6 +11470,24 @@ module.exports = {
       "buildLink": "https://overframe.gg/build/26585/",
       "buildLinkDomain": "overframe.gg",
       "component": false
+    },
+    {
+      "name": "Tremor",
+      "uniqueName": "/Lotus/Weapons/SolarisUnited/Primary/SUModularPrimarySet1/Handles/SUModularPrimaryHandleDPart",
+      "description": "",
+      "masteryReq": 0,
+      "productCategory": "Pistols",
+      "type": "Primary",
+      "imageName": "tremor.png",
+      "category": "Kitgun",
+      "tradable": false,
+      "acquisition": "Rude Zuud (Fortuna)",
+      "checked": false,
+      "unobtainable": false,
+      "tierData": false,
+      "tierRank": 0,
+      "component": false,
+      "wikiaUrl": "http://warframe.wikia.com/wiki/Tremor"
     },
     {
       "uniqueName": "/Lotus/Powersuits/Trinity/Trinity",
@@ -12634,7 +12706,7 @@ module.exports = {
       "component": false
     }
   ],
-  "fetched": "2020.06.14 01:24:18 CET+02:00",
+  "fetched": "2020.06.16 09:22:05 CET+02:00",
   "version": {
     "pc": "28.0.4",
     "ps4": "Prime Vault",

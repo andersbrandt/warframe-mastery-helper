@@ -2987,7 +2987,26 @@ var items = [{
     "acquisition": DEADLOCK_PROTOCOL,
     "id": "/Lotus/Weapons/Corpus/Melee/Glaive/CrpGhostCatcherGlaive/CrpGhostCatcherGlaive"
   },
-
+  {
+    "name": "Brash",
+    "acquisition": RUDE_ZUUD,
+    "id": "/Lotus/Weapons/SolarisUnited/Primary/SUModularPrimarySet1/Handles/SUModularPrimaryHandleAPart"
+  },
+  {
+    "name": "Shrewd",
+    "acquisition": RUDE_ZUUD,
+    "id": "/Lotus/Weapons/SolarisUnited/Primary/SUModularPrimarySet1/Handles/SUModularPrimaryHandleBPart"
+  },
+  {
+    "name": "Steadyslam",
+    "acquisition": RUDE_ZUUD,
+    "id": "/Lotus/Weapons/SolarisUnited/Primary/SUModularPrimarySet1/Handles/SUModularPrimaryHandleCPart"
+  },
+  {
+    "name": "Tremor",
+    "acquisition": RUDE_ZUUD,
+    "id": "/Lotus/Weapons/SolarisUnited/Primary/SUModularPrimarySet1/Handles/SUModularPrimaryHandleDPart"
+  },
 ];
 
 module.exports = {

@@ -33,10 +33,6 @@ module.exports = function (items) {
     if (items.array[i]["uniqueName"].includes("Balance")) {
       items.array.splice(i, 1);
     }
-    if (items.array[i]["uniqueName"].includes("\/Handles\/")) {
-      items.array.splice(i, 1);
-    }
-        
   }
 
   return items;
