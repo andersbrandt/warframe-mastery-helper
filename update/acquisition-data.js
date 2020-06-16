@@ -106,6 +106,7 @@ TUSK_THUMPER = 'Tusk Thumper (Plains of Eidolon)'
 SYMBILYSTS = 'Symbilyst (Railjack Anomaly)';
 UNKNOWN = "Acquisition: Unknown";
 GRANUM_VOID = "Granum Void";
+VEIL_PROXIMA = "Veil Proxima Caches";
 
 //
 //  Add new items to the end of array
@@ -2710,7 +2711,7 @@ var items = [{
   },
   {
     "name": "Spectra Vandal",
-    "acquisition": HOSTILE_MERGERS,
+    "acquisition": VEIL_PROXIMA,
     "id": "/Lotus/Weapons/Corpus/Pistols/CorpusModularPistol/Vandal/CrpLaserPistolVandal"
   },
   {

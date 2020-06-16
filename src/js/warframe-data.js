@@ -10360,7 +10360,7 @@ module.exports = {
       "category": "Pistol",
       "tradable": true,
       "wikiaUrl": "http://warframe.fandom.com/wiki/Spectra_Vandal",
-      "acquisition": "Operation: Hostile Mergers",
+      "acquisition": "Veil Proxima Caches",
       "checked": false,
       "unobtainable": false,
       "tierData": true,
@@ -12706,7 +12706,7 @@ module.exports = {
       "component": false
     }
   ],
-  "fetched": "2020.06.16 09:22:05 CET+02:00",
+  "fetched": "2020.06.16 09:37:09 CET+02:00",
   "version": {
     "pc": "28.0.4",
     "ps4": "Prime Vault",
