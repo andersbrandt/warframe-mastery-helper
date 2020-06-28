@@ -8773,7 +8773,7 @@ module.exports = {
     {
       "uniqueName": "/Lotus/Powersuits/Odalisk/Odalisk",
       "name": "Protea",
-      "description": "Ready for any eventuality the versatile Protea uses her many gadgets to overcome the odds.",
+      "description": "Ready for any eventuality, the versatile Protea uses her many gadgets to overcome the odds.",
       "masteryReq": 0,
       "productCategory": "Suits",
       "type": "Warframe",
@@ -12706,12 +12706,12 @@ module.exports = {
       "component": false
     }
   ],
-  "fetched": "2020.06.16 09:40:20 CET+02:00",
+  "fetched": "2020.06.28 12:22:25 CET+02:00",
   "version": {
-    "pc": "28.0.4",
-    "ps4": "Prime Vault",
-    "xbox": "Prime Vault",
-    "switch": "Prime Vault",
-    "tier": "Warframe Patch 28.0.3 - Added Velox, Stahlta, Stropha, and Xoris. Re-ranked Kuva Bramma. Equipment pending tests are marked as such. "
+    "pc": "28.0.7",
+    "ps4": "The Deadlock Protocol: June 30th",
+    "xbox": "The Deadlock Protocol: June 30th",
+    "switch": "The Deadlock Protocol: June 30th",
+    "tier": "Warframe Patch 28.0.5 - Added Primary Kitguns, Velox, Stahlta, Stropha, and Xoris. Re-ranked Kuva Bramma. Equipment pending tests are marked as such. "
   }
 }
