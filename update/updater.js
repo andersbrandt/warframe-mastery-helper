@@ -258,12 +258,7 @@ class Updater {
               json[i]["type"] = "Vehicle";
               json[i]["category"] = "K-Drive";
             }
-            if (json[i]["uniqueName"].includes('ModularPrimaryHandle')) {
-              json[i]["type"] = "Primary";
-              json[i]["category"] = "Kitgun";
-            }
             if (
-              !json[i]["uniqueName"].includes('ModularPrimaryHandle') &&
               !json[i]["uniqueName"].includes('Barrel') &&
               !json[i]["uniqueName"].includes('Deck') &&
               !json[i]["uniqueName"].includes('Tip')
