@@ -20,9 +20,6 @@ module.exports = function (items) {
   //const tierData = JSON.parse(fs.readFileSync(pathAlias.resolve("@static/theList.json")));
   const tierData = JSON.parse(fs.readFileSync(pathAlias.resolve("@temp/theList.json")));
 
-  // Save version-string
-  items.version.tier = tierData.version;
-
   // Remove unwanted objects
   delete tierData.alerts;
   delete tierData.version;

@@ -27,8 +27,7 @@ class Updater {
 
       await
       this.fetchHtmlFile([
-        paths.updateData.weaponComponents,
-        paths.updateData.versions
+        paths.updateData.weaponComponents
       ]);
 
       await
@@ -57,9 +56,6 @@ class Updater {
 
       await
       this.setDefaults();
-
-      await
-      this.versions();
 
       await
       this.tierList();
@@ -127,11 +123,7 @@ class Updater {
       let request = null;
       let text = null;
       let filename = url.split('/')[url.split('/').length - 1].split('.')[0];
-      request = await fetch(url, {
-        headers: {
-          cookie: "landing=eyJpdiI6IkZDRGEzT0pyaCswQXRnZU5SYXNxaGc9PSIsInZhbHVlIjoiNUYrWDI4ektkY3p0aFhMbHFEZjBrdz09IiwibWFjIjoiZmUzYWQ4Yjg2NWY2MGUzMjNmNTdmZDY3ODlhZTZiYTJhNDY2NmI2N2VkY2FlZjg4MTM2MjljZDgwZGQ0ZDBkNCJ9"
-        }
-      });
+      request = await fetch(url);
       text = await request.text();
       this.clog(`Writing ${url}`);
       try {
@@ -344,11 +336,6 @@ class Updater {
   async setDefaults() {
     this.items = require(pathAlias.resolve("@modules/set-defaults"))(this.items);
     this.clog("Set default values");
-  }
-
-  async versions() {
-    this.items = require(pathAlias.resolve("@modules/versions"))(this.items);
-    this.clog("Updated versions");
   }
 
   async tierList() {

@@ -12634,12 +12634,5 @@ module.exports = {
       "component": false
     }
   ],
-  "fetched": "2020.07.04 05:46:31 CET+02:00",
-  "version": {
-    "pc": "28.0.7",
-    "ps4": "The Deadlock Protocol",
-    "xbox": "The Deadlock Protocol",
-    "switch": "The Deadlock Protocol",
-    "tier": "Warframe Patch 28.0.5 - Added Primary Kitguns, Velox, Stahlta, Stropha, and Xoris. Re-ranked Kuva Bramma. Equipment pending tests are marked as such. "
-  }
+  "fetched": "2020.07.04 06:06:03 CET+02:00"
 }

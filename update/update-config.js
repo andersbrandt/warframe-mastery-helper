@@ -30,8 +30,7 @@ module.exports = {
     },
     updateData: {
         tierRanking: "https://www.cephalonwannab.com/js/thelist.json",
-        weaponComponents: "http://warframe.wikia.com/wiki/Weapons_Required_as_Crafting_Ingredients",
-        versions: "https://warframe.com/index.php"
+        weaponComponents: "http://warframe.wikia.com/wiki/Weapons_Required_as_Crafting_Ingredients"
     },
     warframeData: {
         dest: "@root/src/js/warframe-data.js"
@@ -44,8 +43,5 @@ module.exports = {
     },
     warframeComponentData: {
         dest: "@updateData/component-data.json"
-    },
-    versions: {
-        dest: "@updateData/versions.json"
     }
 };
