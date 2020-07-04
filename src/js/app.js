@@ -1,6 +1,8 @@
 "use strict";
 
-const {utils} = require("./utils.js");
+const {
+  utils
+} = require("./utils.js");
 const warframeData = require("./warframe-data.js");
 const ClockEidolon = require("./clock-eidolon.js");
 const ClockOrbvallis = require("./clock-orbvallis.js");
@@ -26,10 +28,16 @@ var app = {
     app.data = JSON.parse(JSON.stringify(warframeData));
     app.storage.getData(
       function (data) {
-        // Ugly hack in order to solve backwards compability with old data-sources
-        for (var i = 0; i < data.data.length; i++) {
+        var i = data.data.length;
+        while (i--) {
+          // Ugly hack in order to solve backwards compability with old data-sources
           if (data.data[i].indexOf("MK1") == 0) {
             data.data[i] = data.data[i].replace("MK1", "Mk1");
+          }
+          // Ugly hack to remove Primary Kitguns added by mistake
+          var itemsToRemove = ["Brash", "Shrewd", "Steadyslam", "Tremor"];
+          if (itemsToRemove.indexOf(data.data[i]) > -1) {
+            data.data.splice(i, 1);
           }
         }
         utils.writeLocalStorage("data", JSON.stringify(data.data));
@@ -89,18 +97,18 @@ var app = {
       }
       return list.length;
     },
-    checkData: function(){
+    checkData: function () {
       var missingWikiaUrl = [];
       var missingMasteryReq = [];
       var missingImageName = [];
-      app.data.array.forEach(function(item){
-        if (typeof(item.wikiaUrl) == "undefined") {
+      app.data.array.forEach(function (item) {
+        if (typeof (item.wikiaUrl) == "undefined") {
           missingWikiaUrl.push(item.name);
         }
-        if (typeof(item.masteryReq) == "undefined") {
+        if (typeof (item.masteryReq) == "undefined") {
           missingMasteryReq.push(item.name);
         }
-        if (typeof(item.imageName) == "undefined") {
+        if (typeof (item.imageName) == "undefined") {
           missingImageName.push(item.name);
         }
       });
@@ -306,11 +314,11 @@ var app = {
         dataType: "json",
         success: function (data) {
           // ERROR: From ajax-controller if user are not authenticated
-          if (typeof data["ERROR"] !="undefined"){
-            app.tools.restart();            
+          if (typeof data["ERROR"] != "undefined") {
+            app.tools.restart();
           }
           // Track new user event
-          if (typeof(data) == "object"){
+          if (typeof (data) == "object") {
             gtag('event', 'New user: First save', {
               'event_category': 'New user',
               'event_label': 'New user: First save'
@@ -359,10 +367,10 @@ var app = {
         type = li[i].getElementsByClassName("type")[0];
         category = li[i].getElementsByClassName("category")[0];
         acquisition = li[i].getElementsByClassName("acquisition")[0];
-        if (name.innerHTML.toUpperCase().indexOf(filter) > -1
-          || category.innerHTML.toUpperCase().indexOf(filter) > -1
-          || type.innerHTML.toUpperCase().indexOf(filter) > -1
-          || acquisition.innerHTML.toUpperCase().indexOf(filter) > -1) {
+        if (name.innerHTML.toUpperCase().indexOf(filter) > -1 ||
+          category.innerHTML.toUpperCase().indexOf(filter) > -1 ||
+          type.innerHTML.toUpperCase().indexOf(filter) > -1 ||
+          acquisition.innerHTML.toUpperCase().indexOf(filter) > -1) {
           li[i].style.display = "";
         } else {
           li[i].style.display = "none";
@@ -473,37 +481,36 @@ var app = {
   stats: {
     create: function () {
       //var types = app.data.constants.TYPES;
-      var categories = [
-        {
+      var categories = [{
           "label": "Warframe",
           "types": [
-            "Warframe"           
+            "Warframe"
           ]
         },
         {
           "label": "Primary",
           "types": [
-            "Primary"           
+            "Primary"
           ]
         },
         {
           "label": "Secondary",
           "types": [
-            "Secondary"           
+            "Secondary"
           ]
         },
         {
           "label": "Melee",
           "types": [
             "Melee",
-            "Zaw"           
+            "Zaw"
           ]
         },
         {
           "label": "Robotic",
           "types": [
-            "Sentinel",           
-            "Sentinel Weapon"           
+            "Sentinel",
+            "Sentinel Weapon"
           ]
         },
         {
@@ -515,19 +522,19 @@ var app = {
         {
           "label": "Vehicles",
           "types": [
-            "Vehicle"            
+            "Vehicle"
           ]
         },
         {
           "label": "Archgun",
           "types": [
-            "Archwing Gun"       
+            "Archwing Gun"
           ]
         },
         {
           "label": "Archmelee",
           "types": [
-            "Archwing Melee"       
+            "Archwing Melee"
           ]
         },
         {
@@ -548,10 +555,10 @@ var app = {
         var typeDataTotal = 0;
         for (var type in categories[key]["types"]) {
           var typeStatus = app.tools.statusByType(categories[key]["types"][type]);
-          for (var i=0; i < typeStatus["unranked"].length; i++) {
+          for (var i = 0; i < typeStatus["unranked"].length; i++) {
             typeDataUnranked.push(typeStatus["unranked"][i]);
           }
-          for (var i=0; i < typeStatus["ranked"].length; i++) {
+          for (var i = 0; i < typeStatus["ranked"].length; i++) {
             typeDataRanked.push(typeStatus["ranked"][i]);
           }
         }

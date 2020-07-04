@@ -77,7 +77,8 @@ MASK_OF_THE_LOST_ONE = 'Mask of the Lost One (Quest)';
 THE_PYRYS_PROJECT = "The Pyrys Project (Quest)";
 CHIMERA_PROLOGUE = "Chimera Prologue (Quest)";
 VOX_SOLARIS = "Vox Solaris (Quest)";
-BURIED_DEBTS = "Buried Debts (Quest)"
+BURIED_DEBTS = "Buried Debts (Quest)";
+DEADLOCK_PROTOCOL = "Deadlock Protocol (Quest)";
 
 // Rewards
 ANNIVERSARY = 'Anniversary';
@@ -104,6 +105,8 @@ CHINESE_VERSION = 'Chinese version only';
 TUSK_THUMPER = 'Tusk Thumper (Plains of Eidolon)'
 SYMBILYSTS = 'Symbilyst (Railjack Anomaly)';
 UNKNOWN = "Acquisition: Unknown";
+GRANUM_VOID = "Granum Void";
+VEIL_PROXIMA = "Veil Proxima Caches";
 
 //
 //  Add new items to the end of array
@@ -1878,7 +1881,7 @@ var items = [{
   },
   {
     "name": "Ether Daggers",
-    "acquisition": OPERATION_PLAGUE_STAR,
+    "acquisition": MARKET,
     "id": "/Lotus/Weapons/Tenno/Melee/DualDagger/DualEtherDagger"
   },
   {
@@ -2698,7 +2701,7 @@ var items = [{
   },
   {
     "name": "Glaxion Vandal",
-    "acquisition": HOSTILE_MERGERS,
+    "acquisition": BARO_KITEER,
     "id": "/Lotus/Weapons/Corpus/LongGuns/CrpFreezeRay/Vandal/CrpFreezeRayVandalRifle"
   },
   {
@@ -2708,7 +2711,7 @@ var items = [{
   },
   {
     "name": "Spectra Vandal",
-    "acquisition": HOSTILE_MERGERS,
+    "acquisition": VEIL_PROXIMA,
     "id": "/Lotus/Weapons/Corpus/Pistols/CorpusModularPistol/Vandal/CrpLaserPistolVandal"
   },
   {
@@ -2949,7 +2952,62 @@ var items = [{
     "acquisition": RELICS,
     "id": "/Lotus/Powersuits/Fairy/TitaniaPrime"
   },
-
+  // Deadlock Protocol
+  {
+    "name": "Helstrum",
+    "acquisition": LEGS,
+    "id": "/Lotus/Types/Friendly/Pets/MoaPets/MoaPetComponents/SwarmerWeapon"
+  },
+  {
+    "name": "Nychus Moa",
+    "acquisition": LEGS,
+    "id": "/Lotus/Types/Friendly/Pets/MoaPets/MoaPetParts/MoaPetHeadMelee"
+  },
+  {
+    "name": "Protea",
+    "acquisition": DEADLOCK_PROTOCOL,
+    "id": "/Lotus/Powersuits/Odalisk/Odalisk"
+  },
+  {
+    "name": "Stahlta",
+    "acquisition": JACKAL,
+    "id": "/Lotus/Weapons/Corpus/LongGuns/CrpRubanRifle/CrpRubanRifle"
+  },
+  {
+    "name": "Stropha",
+    "acquisition": JACKAL,
+    "id": "/Lotus/Weapons/Corpus/Melee/Gunblade/CrpGunBlade/CrpGunbladeWeapon"
+  },
+  {
+    "name": "Velox",
+    "acquisition": GRANUM_VOID,
+    "id": "/Lotus/Weapons/Tenno/Pistols/TnOdaliskSmg/TnOdaliskSmgPistol"
+  },
+  {
+    "name": "Xoris",
+    "acquisition": DEADLOCK_PROTOCOL,
+    "id": "/Lotus/Weapons/Corpus/Melee/Glaive/CrpGhostCatcherGlaive/CrpGhostCatcherGlaive"
+  },
+  {
+    "name": "Brash",
+    "acquisition": RUDE_ZUUD,
+    "id": "/Lotus/Weapons/SolarisUnited/Primary/SUModularPrimarySet1/Handles/SUModularPrimaryHandleAPart"
+  },
+  {
+    "name": "Shrewd",
+    "acquisition": RUDE_ZUUD,
+    "id": "/Lotus/Weapons/SolarisUnited/Primary/SUModularPrimarySet1/Handles/SUModularPrimaryHandleBPart"
+  },
+  {
+    "name": "Steadyslam",
+    "acquisition": RUDE_ZUUD,
+    "id": "/Lotus/Weapons/SolarisUnited/Primary/SUModularPrimarySet1/Handles/SUModularPrimaryHandleCPart"
+  },
+  {
+    "name": "Tremor",
+    "acquisition": RUDE_ZUUD,
+    "id": "/Lotus/Weapons/SolarisUnited/Primary/SUModularPrimarySet1/Handles/SUModularPrimaryHandleDPart"
+  },
 ];
 
 module.exports = {

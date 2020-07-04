@@ -212,6 +212,20 @@ class Updater {
           delete json[i]["parents"];
           delete json[i]["wikiaThumbnail"];
           delete json[i]["secondaryArea"];
+          delete json[i]["blockingAngle"];
+          delete json[i]["comboDuration"];
+          delete json[i]["followThrough"];
+          delete json[i]["slamAttack"];
+          delete json[i]["range"];
+          delete json[i]["slamRadialDamage"];
+          delete json[i]["slamRadius"];
+          delete json[i]["slideAttack"];
+          delete json[i]["heavyAttackDamage"];
+          delete json[i]["heavySlamAttack"];
+          delete json[i]["heavySlamRadialDamage"];
+          delete json[i]["heavySlamRadius"];
+          delete json[i]["windUp"];
+          delete json[i]["multishot"];
           let newType = json[i]["category"];
           json[i]["category"] = json[i]["type"];
           json[i]["type"] = newType;
@@ -237,6 +251,8 @@ class Updater {
             if (json[i]["uniqueName"].includes('Tip')) {
               json[i]["type"] = "Melee";
               json[i]["category"] = "Zaw";
+              const wikiSlug = json[i]["name"].replace(/ /g, '_').replace(/'/g, '%27');
+              json[i]["wikiaUrl"] = `http://warframe.wikia.com/wiki/${wikiSlug}`;
             }
             if (json[i]["uniqueName"].includes('Deck')) {
               json[i]["type"] = "Vehicle";
@@ -262,6 +278,11 @@ class Updater {
               delete json[i];
             }
           }
+          if (path === "Primary.json") {
+            if (json[i]["productCategory"] == "SentinelWeapons") {
+              json[i]["type"] = "Sentinel Weapon";
+            }
+          }
           if (path === "Secondary.json") {
             if (json[i]["uniqueName"].includes('SentinelWeapon')) {
               json[i]["type"] = "Sentinel Weapon";
@@ -271,6 +292,21 @@ class Updater {
               json[i]["type"] = "Sentinel Weapon";
               delete json[i]["category"];
             }
+
+
+
+            // TEMPORARY should be in check for melee
+            if (json[i]["uniqueName"].includes("\/Tip\/")) {
+              json[i]["type"] = "Melee";
+              json[i]["category"] = "Zaw";
+            }
+            if (json[i]["uniqueName"].includes("\/Tips\/")) {
+              json[i]["type"] = "Melee";
+              json[i]["category"] = "Zaw";
+            }
+
+
+
           }
           if (path === "Sentinels.json") {
             json[i]["type"] = "Sentinel";

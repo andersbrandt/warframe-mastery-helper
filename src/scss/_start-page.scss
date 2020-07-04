@@ -136,6 +136,12 @@ body.start-page {
 
 @media only screen and (min-width: 0px) and (max-width: 746px) {
     #start-page {
+        #box-header {
+            img {
+                max-width: 80%;
+            }
+        }
+
         p,
         ul#news-list li .news-date,
         ul#news-list li .news-header
