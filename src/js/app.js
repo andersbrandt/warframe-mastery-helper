@@ -9,7 +9,7 @@ const ClockOrbvallis = require("./clock-orbvallis.js");
 
 var app = {
   name: "Warframe Mastery Helper",
-  version: "3.1.0",
+  version: "3.2.0",
   data: {},
   config: {
     modal: {
