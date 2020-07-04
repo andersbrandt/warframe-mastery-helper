@@ -12634,7 +12634,7 @@ module.exports = {
       "component": false
     }
   ],
-  "fetched": "2020.07.01 07:39:14 CET+02:00",
+  "fetched": "2020.07.04 05:46:31 CET+02:00",
   "version": {
     "pc": "28.0.7",
     "ps4": "The Deadlock Protocol",
