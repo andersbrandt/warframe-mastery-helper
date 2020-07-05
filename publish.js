@@ -18,6 +18,7 @@ const paths = {
       '!public/setuser.php',
       '!public/conf.php.sample',
       '!public/user-auth.php',
+      '!public/setuser-test.php',
       '!public/helper/Classes/vendor/**'
     ]
   }

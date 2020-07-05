@@ -1,5 +1,5 @@
-describe("Start Page", () => {
-  it('Assert start-page"', () => {
+xdescribe("Start Page", () => {
+  it("Assert start-page", () => {
     cy.clearCookies();
     cy.visit("index.php");
     // 1300 x 600  
