@@ -3,43 +3,37 @@
 -- http://www.phpmyadmin.net
 --
 -- Host: localhost
--- Generation Time: Mar 14, 2020 at 02:31 PM
+-- Generation Time: Jul 05, 2020 at 03:37 PM
 -- Server version: 5.7.16
 -- PHP Version: 7.3.1
-
-SET SQL_MODE="NO_AUTO_VALUE_ON_ZERO";
+SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 SET time_zone = "+00:00";
-
-
-/*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
-/*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
-/*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
-/*!40101 SET NAMES utf8 */;
-
+/*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */
+;
+/*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */
+;
+/*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */
+;
+/*!40101 SET NAMES utf8 */
+;
 --
 -- Database: `warframeHelper`
 --
-
 -- --------------------------------------------------------
-
 --
 -- Table structure for table `warframeUserData`
 --
-
 CREATE TABLE IF NOT EXISTS `warframeUserData` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `userId` varchar(100) NOT NULL,
   `data` text NOT NULL,
   `timeStamp` datetime NOT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=38354 ;
-
+) ENGINE = InnoDB DEFAULT CHARSET = latin1 AUTO_INCREMENT = 38373;
 -- --------------------------------------------------------
-
 --
 -- Table structure for table `warframeUsers`
 --
-
 CREATE TABLE IF NOT EXISTS `warframeUsers` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `oauth_provider` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
@@ -49,14 +43,11 @@ CREATE TABLE IF NOT EXISTS `warframeUsers` (
   `created` datetime NOT NULL,
   `modified` datetime NOT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB  DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci AUTO_INCREMENT=308 ;
-
+) ENGINE = InnoDB DEFAULT CHARSET = utf8 COLLATE = utf8_unicode_ci AUTO_INCREMENT = 327;
 -- --------------------------------------------------------
-
 --
 -- Table structure for table `warframeUserStatistics`
 --
-
 CREATE TABLE IF NOT EXISTS `warframeUserStatistics` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `timeStamp` datetime NOT NULL,
@@ -66,8 +57,10 @@ CREATE TABLE IF NOT EXISTS `warframeUserStatistics` (
   `sevenDays` int(11) NOT NULL,
   `thirtyDays` int(11) NOT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=3 ;
-
-/*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
-/*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
-/*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
+) ENGINE = InnoDB DEFAULT CHARSET = latin1 AUTO_INCREMENT = 13;
+/*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */
+;
+/*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */
+;
+/*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */
+;
