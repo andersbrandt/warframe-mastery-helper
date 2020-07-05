@@ -9,4 +9,4 @@ public/setuser.php
 npm-debug.log
 node_modules
 .DS_Store
-.public/setuser-test.php
+public/setuser-test.php
