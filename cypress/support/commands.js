@@ -23,3 +23,18 @@
 //
 // -- This will overwrite an existing command --
 // Cypress.Commands.overwrite("visit", (originalFn, url, options) => { ... })
+
+Cypress.LocalStorage.clear = function (keys, ls, rs) {
+  return;
+};
+
+Cypress.Commands.add("login", () => {
+    cy.visit("setuser-test.php");
+    cy.visit("helper/index.php");
+    cy.viewport(1300, 600);
+    cy.wait(100);
+    cy.get("#help-placeholder")
+      .find(".close-reveal-modal")
+      .click({ force: true });
+    cy.get("#help-placeholder").should("not.be.visible");
+});

@@ -6,7 +6,8 @@
     "build": "webpack --config webpack.prod.js",
     "publish": "npm run build && node publish.js",
     "updater": "node update/updater.js && npm run build && npm start",
-    "test": "./node_modules/.bin/cypress open"
+    "test": "./node_modules/.bin/cypress open",
+    "test-headless": "./node_modules/.bin/cypress run"
   },
   "devDependencies": {
     "@intervolga/optimize-cssnano-plugin": "^1.0.6",

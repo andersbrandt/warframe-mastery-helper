@@ -16,13 +16,6 @@ describe("Login", () => {
       .should("contain", " Continue to app");
     // Visit /helper
     cy.visit("helper/index.php");
-    cy.get("#help-placeholder")
-      .should("be.visible");
-    cy.get("#help-placeholder")
-      .find(".close-reveal-modal")
-        .click({force:true});
-    cy.get("#help-placeholder")
-      .should("not.be.visible");
     cy.get("#user-name")
       .should("contain", "TEST");
     cy.window()

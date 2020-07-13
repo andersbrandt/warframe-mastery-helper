@@ -43,17 +43,16 @@ Edit ``.ftpconfig.js``
 
 Run ``npm run publish`` in terminal
 
-[![Supported by Warframe Community Developers](https://warframestat.us/wfcd.png)](https://github.com/WFCD "Supported by Warframe Community Developers")
 
 ## Tests
-
-Test are using Cypress.io
+Test are run using Cypress.io
 
 Tests require file ``public/setuser.php`` with content:
 
+    <?php
     include_once("conf.php");
     $userData = [
-        "id" => "1000000000",
+        "id" => "38373",
         "oauth_provider" => "google",
         "oauth_uid" => "100000000000000000000",
         "uid" => "10000000-0000-0000-0000-000000000000",
@@ -63,3 +62,10 @@ Tests require file ``public/setuser.php`` with content:
         "first_name" => "TEST"
     ];
     $_SESSION["userData"] = $userData;
+
+    // Set 'Aceltra' as saved data
+    $saveData = json_decode('["Acceltra"]', TRUE);
+    $saveData = str_replace('\\', "", $saveData);
+    $data = $wf->saveData($_SESSION['userData']["uid"], $saveData);
+
+[![Supported by Warframe Community Developers](https://warframestat.us/wfcd.png)](https://github.com/WFCD "Supported by Warframe Community Developers")

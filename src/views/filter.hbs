@@ -1,7 +1,7 @@
 <div id="filter">
-        <span id="filter-clear" onclick="app.search.clear();">Clear <i class="icon-cancel"></i></span>
-    <label for="filter-all">
-        <input type="radio" name="filter-status" class="filter-status" value="all" id="filter-all" checked="checked" onclick="app.filter.activate('all');">
+    <span id="filter-clear" onclick="app.search.clear();">Clear <i class="icon-cancel"></i></span>
+    <label for="filter-all" onclick="app.filter.activate('all');">
+        <input type="radio" name="filter-status" class="filter-status" value="all" id="filter-all" checked>
         <span>All</span>
     </label>
     <label for="filter-ranked" onclick="app.filter.activate('ranked');">
