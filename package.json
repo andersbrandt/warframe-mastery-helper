@@ -5,12 +5,15 @@
     "start": "webpack --config webpack.dev.js",
     "build": "webpack --config webpack.prod.js",
     "publish": "npm run build && node publish.js",
-    "updater": "node update/updater.js && npm run build && npm start"
+    "updater": "node update/updater.js && npm run build && npm start",
+    "test": "./node_modules/.bin/cypress open",
+    "test-headless": "./node_modules/.bin/cypress run"
   },
   "devDependencies": {
     "@intervolga/optimize-cssnano-plugin": "^1.0.6",
     "ansi-colors": "^2.0.5",
     "css-loader": "^1.0.1",
+    "cypress": "^4.9.0",
     "dotenv": "^6.2.0",
     "expose-loader": "^0.7.5",
     "fancy-log": "^1.3.3",

@@ -70,7 +70,7 @@
                         <li><a onclick="app.render.page.stats();" title="Statistics">Statistics</a></li>
                         <li><a onclick="app.render.page.clock();" title="Clock">Clock</a></li>
                         <li><a onclick="app.render.page.news();" title="News">News</a></li>
-                        <li><a onclick="app.render.page.user();" title="User"><?php echo $_SESSION['userData']["first_name"]?> <i class="icon-user"></i></a></li>
+                        <li><a onclick="app.render.page.user();" title="User" id="user-name"><?php echo $_SESSION['userData']["first_name"]?> <i class="icon-user"></i></a></li>
                     </ul>
                 </section>
             </nav>

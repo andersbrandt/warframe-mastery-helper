@@ -6,6 +6,7 @@ const {
 const warframeData = require("./warframe-data.js");
 const ClockEidolon = require("./clock-eidolon.js");
 const ClockOrbvallis = require("./clock-orbvallis.js");
+const config = require("./config.js");
 
 var app = {
   name: "Warframe Mastery Helper",
@@ -274,7 +275,7 @@ var app = {
     },
     get: function (item) {
       //TODO rename to itemExist
-      var data = app.storage.list();
+      var data = this.list();
       if (data.indexOf(item) !== -1) {
         return true
       } else {
@@ -282,7 +283,7 @@ var app = {
       }
     },
     add: function (item) {
-      var checked = app.storage.list();
+      var checked = this.list();
       if (checked.indexOf(item) == -1) {
         checked.push(item);
         utils.writeLocalStorage("data", JSON.stringify(checked));
@@ -291,7 +292,7 @@ var app = {
       }
     },
     remove: function (item) {
-      var data = app.storage.list();
+      var data = this.list();
       var index = data.indexOf(item);
       if (index !== -1) {
         data.splice(index, 1);
@@ -304,7 +305,7 @@ var app = {
       utils.writeLocalStorage("data", "[]");
     },
     saveData: function (callback) {
-      var payload = app.storage.list();
+      var payload = this.list();
       $.ajax({
         url: "ajax-controller.php?action=save",
         type: "POST",
@@ -644,7 +645,11 @@ $(document).ready(function () {
 });
 
 window.app = app; //TODO delete or not?
+window.utils = utils; //TODO delete or not?
+window.config = config; //TODO delete or not?
 
 module.exports = {
-  app: app
+  app: app,
+  utils: utils,
+  config: config
 };
