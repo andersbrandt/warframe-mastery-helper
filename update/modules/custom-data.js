@@ -59,6 +59,15 @@ module.exports = function (items) {
     if (name == "Kuva Ayanga") {
       items.array[i]["type"] = "Archwing Gun";
     }
+
+    // Inaros update weapons are mislabeled
+    if (name == "Karyst Prime") {
+      items.array[i]["category"] = "Dagger";
+    }
+    if (name == "Panthera Prime") {
+      items.array[i]["category"] = "Rifle";
+    }
+
   }
   return items;
 
