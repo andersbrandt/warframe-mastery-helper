@@ -2400,7 +2400,7 @@ module.exports = {
       "productCategory": "Melee",
       "type": "Melee",
       "imageName": "dark-split-sword.png",
-      "category": "Melee",
+      "category": "Dual Swords",
       "tradable": false,
       "acquisition": "Tenno Lab (Dojo)",
       "checked": false,
@@ -4978,14 +4978,14 @@ module.exports = {
       "type": "Warframe",
       "imageName": "inaros-prime.png",
       "tradable": true,
+      "wikiaUrl": "http://warframe.fandom.com/wiki/Inaros_Prime",
       "releaseDate": "2020 07 14",
       "acquisition": "Relics",
       "checked": false,
       "unobtainable": false,
       "tierData": false,
       "tierRank": 0,
-      "component": false,
-      "wikiaUrl": "http://warframe.wikia.com/wiki/Inaros_Prime"
+      "component": false
     },
     {
       "uniqueName": "/Lotus/Powersuits/Archwing/StealthJetPack/StealthJetPack",
@@ -12576,5 +12576,5 @@ module.exports = {
       "component": false
     }
   ],
-  "fetched": "2020.07.14 11:10:55 CET+02:00"
+  "fetched": "2020.07.19 06:09:40 CET+02:00"
 }

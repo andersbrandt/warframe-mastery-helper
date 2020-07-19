@@ -68,6 +68,11 @@ module.exports = function (items) {
       items.array[i]["category"] = "Rifle";
     }
 
+    // Dark Split-Sword are mislabeled
+    if (name == "Dark Split-Sword") {
+      items.array[i]["category"] = "Dual Swords";
+    }
+
   }
   return items;
 
