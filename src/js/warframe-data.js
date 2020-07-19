@@ -12576,5 +12576,5 @@ module.exports = {
       "component": false
     }
   ],
-  "fetched": "2020.07.19 06:09:40 CET+02:00"
+  "fetched": "2020.07.19 07:26:04 CET+02:00"
 }
