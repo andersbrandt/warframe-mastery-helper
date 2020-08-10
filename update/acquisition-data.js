@@ -107,6 +107,7 @@ SYMBILYSTS = 'Symbilyst (Railjack Anomaly)';
 UNKNOWN = "Acquisition: Unknown";
 GRANUM_VOID = "Granum Void";
 VEIL_PROXIMA = "Veil Proxima Caches";
+TENNOCON_2020 = "Tennocon 2020 Twitch Reward";
 
 //
 //  Add new items to the end of array
@@ -3091,6 +3092,13 @@ var items = [
     acquisition: RELICS,
     id: "/Lotus/Weapons/Tenno/LongGuns/PrimePanthera/PrimePanthera",
   },
+  // Tennocon 2020
+  {
+    "name": "Athodai",
+    "acquisition": TENNOCON_2020,
+    "id": "/Lotus/Weapons/Tenno/Pistols/TnJetTurbine/TnJetTurbinePistolWeapon"
+  },
+
 ];
 
 module.exports = {

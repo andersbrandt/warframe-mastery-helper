@@ -902,6 +902,26 @@ module.exports = {
       "component": false
     },
     {
+      "name": "Athodai",
+      "uniqueName": "/Lotus/Weapons/Tenno/Pistols/TnJetTurbine/TnJetTurbinePistolWeapon",
+      "description": "Reverse-engineered from propulsion tech this hand-cannon packs a kick. Headshots trigger Overdrive, locking off secondary functions while maximizing your fire rate and ammo efficiency for a short time.",
+      "masteryReq": 10,
+      "productCategory": "Pistols",
+      "trigger": "Auto",
+      "type": "Secondary",
+      "imageName": "athodai.png",
+      "category": "Pistol",
+      "tradable": false,
+      "projectile": "Hitscan",
+      "wikiaUrl": "http://warframe.fandom.com/wiki/Athodai",
+      "acquisition": "Tennocon 2020 Twitch Reward",
+      "checked": false,
+      "unobtainable": false,
+      "tierData": false,
+      "tierRank": 0,
+      "component": false
+    },
+    {
       "uniqueName": "/Lotus/Powersuits/Brawler/Brawler",
       "name": "Atlas",
       "description": "Titan of stone, lord of the earthly elementals.",
@@ -1824,6 +1844,7 @@ module.exports = {
       "description": "",
       "masteryReq": 0,
       "productCategory": "Pistols",
+      "primeOmegaAttenuation": 0.75,
       "type": "Secondary",
       "imageName": "catchmoon.png",
       "category": "Kitgun",
@@ -4057,6 +4078,7 @@ module.exports = {
       "description": "",
       "masteryReq": 0,
       "productCategory": "Pistols",
+      "primeOmegaAttenuation": 0.64999998,
       "type": "Secondary",
       "imageName": "gaze.png",
       "category": "Kitgun",
@@ -9141,6 +9163,7 @@ module.exports = {
       "description": "",
       "masteryReq": 0,
       "productCategory": "Pistols",
+      "primeOmegaAttenuation": 0.60000002,
       "type": "Secondary",
       "imageName": "rattleguts.png",
       "category": "Kitgun",
@@ -11281,6 +11304,7 @@ module.exports = {
       "description": "",
       "masteryReq": 0,
       "productCategory": "Pistols",
+      "primeOmegaAttenuation": 0.60000002,
       "type": "Secondary",
       "imageName": "tombfinger.png",
       "category": "Kitgun",
@@ -12576,5 +12600,5 @@ module.exports = {
       "component": false
     }
   ],
-  "fetched": "2020.07.19 07:26:04 CET+02:00"
+  "fetched": "2020.08.01 09:42:51 CET+02:00"
 }

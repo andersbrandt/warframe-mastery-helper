@@ -33,6 +33,12 @@ module.exports = function (items) {
     if (items.array[i]["uniqueName"].includes("Balance")) {
       items.array.splice(i, 1);
     }
+    
+    // Remove PvP variants of Zaws
+    if (items.array[i]["uniqueName"].includes("PvPVariant")) {
+      items.array.splice(i, 1);
+    }
+    
   }
 
   return items;
