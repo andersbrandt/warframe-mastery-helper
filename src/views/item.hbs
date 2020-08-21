@@ -1,27 +1,29 @@
 <li class="item {{#if checked}}item-checked{{else}}item-unchecked{{/if}}{{#if vaulted}} item-vaulted{{/if}}{{#if unobtainable}} item-unobtainable{{/if}}" data-name="{{name}}">
-    <span class="name" onclick="app.item.toggleInfo('{{name}}')">{{name}}</span>
-    <span class="acquisition" onclick="app.item.toggleInfo('{{name}}')">{{acquisition}}{{#if vaulted}} <i class="icon-lock"></i> (Vaulted){{/if}}{{#if unobtainable}} <i class="icon-attention"></i>{{/if}}</span>
-    {{#ifCond this.tierRank "==" "3"}}
-        <span class="tier-rank tier-rank-3" onclick="app.item.toggleInfo('{{name}}')">
-            <i class="icon-star-empty"></i><i class="icon-star-empty"></i><i class="icon-star-empty"></i>
-        </span>
-    {{/ifCond}}
-    {{#ifCond this.tierRank "==" "2"}}
-        <span class="tier-rank tier-rank-2" onclick="app.item.toggleInfo('{{name}}')">
-            <i class="icon-star-empty"></i><i class="icon-star-empty"></i>
-        </span>
-    {{/ifCond}}
-    {{#ifCond this.tierRank "==" "1"}}
-        <span class="tier-rank tier-rank-1" onclick="app.item.toggleInfo('{{name}}')">
-            <i class="icon-star-empty"></i>
-        </span>
-    {{/ifCond}}
-    {{#if this.component}}<span class="component" onclick="app.item.toggleInfo('{{name}}')"><i class="icon-puzzle"></i></span>{{/if}}
+    <span class="action-toggle-info" data-item="{{name}}">
+        <span class="name">{{name}}</span>
+        <span class="acquisition">{{acquisition}}{{#if vaulted}} <i class="icon-lock"></i> (Vaulted){{/if}}{{#if unobtainable}} <i class="icon-attention"></i>{{/if}}</span>
+        {{#ifCond this.tierRank "==" "3"}}
+            <span class="tier-rank tier-rank-3">
+                <i class="icon-star-empty"></i><i class="icon-star-empty"></i><i class="icon-star-empty"></i>
+            </span>
+        {{/ifCond}}
+        {{#ifCond this.tierRank "==" "2"}}
+            <span class="tier-rank tier-rank-2">
+                <i class="icon-star-empty"></i><i class="icon-star-empty"></i>
+            </span>
+        {{/ifCond}}
+        {{#ifCond this.tierRank "==" "1"}}
+            <span class="tier-rank tier-rank-1">
+                <i class="icon-star-empty"></i>
+            </span>
+        {{/ifCond}}
+        {{#if this.component}}<span class="component"><i class="icon-puzzle"></i></span>{{/if}}
+    </span>
     <span class="check">
         {{#if this.checked }}
-            <i class="icon-check icon-2x" onclick="app.item.check('{{name}}', false)"></i>
+            <i class="icon-check icon-2x action-item-check" data-item-check="{{name}}" data-state="false"></i>
         {{else}}
-            <i class="icon-check-empty icon-2x" onclick="app.item.check('{{name}}', true)"></i>
+            <i class="icon-check-empty icon-2x action-item-check" data-item-check="{{name}}" data-state="true"></i>
         {{/if}}
     </span>
     <div class="specification">

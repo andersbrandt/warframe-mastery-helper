@@ -1,14 +1,14 @@
 <div id="filter">
-    <span id="filter-clear" onclick="app.search.clear();">Clear <i class="icon-cancel"></i></span>
-    <label for="filter-all" onclick="app.filter.activate('all');">
+    <span id="filter-clear" class="action-clear-search">Clear <i class="icon-cancel"></i></span>
+    <label for="filter-all" class="action-activate-filter">
         <input type="radio" name="filter-status" class="filter-status" value="all" id="filter-all" checked>
         <span>All</span>
     </label>
-    <label for="filter-ranked" onclick="app.filter.activate('ranked');">
+    <label for="filter-ranked" class="action-activate-filter">
         <input type="radio" name="filter-status" class="filter-status" value="ranked" id="filter-ranked">
         <span>Ranked</span>
     </label>
-    <label for="filter-unranked" onclick="app.filter.activate('ranked');">
+    <label for="filter-unranked" class="action-activate-filter">
         <input type="radio" name="filter-status" class="filter-status" value="unranked" id="filter-unranked">
         <span>Unranked</span>
     </label>

@@ -12,19 +12,19 @@
         {{#if this.type}}
         <tr>
             <td class="table-left">Category:</td>
-            <td class="table-right"> <a onclick="app.search.searchFor('{{escape type }}');">{{{type}}}</a></td>
+            <td class="table-right"> <a class="action-search" data-query="{{escape type }}">{{{type}}}</a></td>
         </tr>
         {{/if}}
         {{#if this.category}}
         <tr>
             <td class="table-left">Type:</td>
-            <td class="table-right"> <a onclick="app.search.searchFor('{{escape category }}');">{{{category}}}</a></td>
+            <td class="table-right"> <a class="action-search" data-query="{{escape category }}">{{{category}}}</a></td>
         </tr>
         {{/if}}
         {{#if this.acquisition}}
         <tr>
             <td class="table-left">Acquisition:</td>
-            <td class="table-right"> <a onclick="app.search.searchFor('{{escape acquisition }}');">{{{acquisition}}}</a>{{#if vaulted}} <i class="icon-lock"></i> (Vaulted){{/if}}{{#if unobtainable}} <i class="icon-attention"></i>{{/if}}{{#ifCond masteryReq ">=" 1}} | MR-{{masteryReq}}{{/ifCond}}</td>
+            <td class="table-right"> <a class="action-search" data-query="{{escape acquisition }}">{{{acquisition}}}</a>{{#if vaulted}} <i class="icon-lock"></i> (Vaulted){{/if}}{{#if unobtainable}} <i class="icon-attention"></i>{{/if}}{{#ifCond masteryReq ">=" 1}} | MR-{{masteryReq}}{{/ifCond}}</td>
         </tr>
         {{/if}}
         {{#if this.wikiaUrl}}

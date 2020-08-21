@@ -47,6 +47,7 @@ var app = {
         app.render.spinner.show();
         $(document).foundation();
         app.render.spinner.hide();
+        app.render.bind.start();
         app.search.updateIndicator();
       }
     );
@@ -119,6 +120,44 @@ var app = {
     }
   },
   render: {
+    bind: {
+      start: function () {
+        $(".action-reload").on("click", function () {
+          window.location.reload()
+        });
+        $(".action-render-page").on("click", function () {
+          var page = $(this).data("page");
+          window["app"]["render"]["page"][page]();
+        });
+        $(".action-close-modal").on("click", function () {
+          app.tools.closeModal();
+        });
+        $(".action-clear-search").on("click", function () {
+          app.search.clear();
+        });
+        $(".action-activate-filter").on("click", function () {
+          app.filter.activate();
+        });
+        $(".action-toggle-info").on("click", function () {
+          var item = $(this).data("item");
+          window["app"]["item"]["toggleInfo"](item);
+        });
+        $(".action-item-check").on("click", function () {
+          var item = $(this).data("item-check");
+          var state = JSON.parse($(this).data("state"));
+          window["app"]["item"]["check"](item, state);
+        });
+        $(".action-import-list").on("click", function () {
+          app.import.list();
+        });
+      },
+      infoModal: function () {
+        $(".action-search").on("click", function () {
+          var query = $(this).data("query");
+          window["app"]["search"]["searchFor"](query);
+        });
+      }
+    },
     views: {
       search: function () {
         var template = require("./../views/search.hbs");
@@ -160,16 +199,31 @@ var app = {
         var template = require("./../views/pages/help.hbs");
         var html = template(app.data);
         $("#help-placeholder").html(html);
+        $(".action-close-modal").on("click", function () {
+          app.tools.closeModal();
+        });
       },
       stats: function () {
         var template = require("./../views/pages/stats.hbs");
         var html = template(app.stats.create());
         $("#stats-placeholder").html(html);
+        $(".action-close-modal").on("click", function () {
+          app.tools.closeModal();
+        });
       },
       user: function () {
         var template = require("./../views/pages/user.hbs");
         var html = template(user);
         $("#user-placeholder").html(html);
+        $(".action-modal-import").on("click", function () {
+          app.import.showModal();
+        });
+        $(".action-modal-export").on("click", function () {
+          app.export.showModal();
+        });
+        $(".action-modal-csv").on("click", function () {
+          app.export.csv();
+        });
       },
       clock: function () {
         var template = require("./../views/clock-modal.hbs");
@@ -345,7 +399,7 @@ var app = {
     }
   },
   filter: {
-    activate: function (status) {
+    activate: function () {
       app.search.action();
     },
     getStatus: function () {
@@ -424,6 +478,7 @@ var app = {
       var html = template(data);
       $("#item-info-placeholder").html(html).foundation("reveal", "open", app.config.modal);
       app.tools.closeMenu();
+      app.render.bind.infoModal();
       // Track event
       gtag('event', 'Open modal: Item', {
         'event_category': 'Open modal',
@@ -441,6 +496,15 @@ var app = {
         app.render.views.status();
         app.render.views.item(name);
         app.search.updateIndicator();
+        $(".action-item-check[data-item-check='" + name + "']").on("click", function () {
+          var item = $(this).data("item-check");
+          var state = JSON.parse($(this).data("state"));
+          window["app"]["item"]["check"](item, state);
+        });
+        $(".action-toggle-info[data-item='" + name + "']").on("click", function () {
+          var item = $(this).data("item");
+          window["app"]["item"]["toggleInfo"](item);
+        });
       });
     },
     setState: function (name, state) {
@@ -644,9 +708,9 @@ $(document).ready(function () {
   app.init();
 });
 
-window.app = app; //TODO delete or not?
-window.utils = utils; //TODO delete or not?
-window.config = config; //TODO delete or not?
+window.app = app; 
+window.utils = utils; 
+window.config = config; 
 
 module.exports = {
   app: app,

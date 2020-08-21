@@ -196,6 +196,9 @@ describe("GUI", () => {
     cy.get("#item-info-placeholder").find(".data").should("be.visible");
     cy.get("#item-info-placeholder").find(".close-reveal-modal").click();
     cy.get("#item-info-placeholder").should("not.be.visible");
+    //TODO assert search for type
+    //TODO assert search for category
+    //TODO assert search for acquisition
   });
 
   it("Assert modal Clock", () => {
