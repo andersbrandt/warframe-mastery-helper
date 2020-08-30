@@ -274,6 +274,16 @@ class Updater {
             if (json[i]["productCategory"] == "SentinelWeapons") {
               json[i]["type"] = "Sentinel Weapon";
             }
+            if (json[i]["uniqueName"].includes('ArchGun')) {
+              json[i]["type"] = "Archwing Gun";
+            }
+            if (json[i]["uniqueName"].includes('ArchLongGun')) {
+              json[i]["type"] = "Archwing Gun";
+            }
+            // Larkspur are duplicated as Primary, will be removed in custom-remove.js
+            if (json[i]["uniqueName"].includes('TnShieldFrameArchGun')) {
+              json[i]["type"] = "Primary";
+            }
           }
           if (path === "Secondary.json") {
             if (json[i]["uniqueName"].includes('SentinelWeapon')) {

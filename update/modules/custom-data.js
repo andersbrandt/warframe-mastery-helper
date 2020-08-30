@@ -73,6 +73,21 @@ module.exports = function (items) {
       items.array[i]["category"] = "Dual Swords";
     }
 
+    // Cortege are mislabeled
+    if (name == "Cortege") {
+      items.array[i]["type"] = "Archwing Gun";
+    }
+
+    // Mausolon are mislabeled
+    if (name == "Mausolon") {
+      items.array[i]["type"] = "Archwing Gun";
+    }
+
+    // Label Vulpaphyla as Kavats
+    if (items.array[i]["name"].includes("Vulpaphyla")) {
+      items.array[i]["category"] = "Kavat";
+    }
+
   }
   return items;
 
