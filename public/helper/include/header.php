@@ -53,7 +53,7 @@
             <nav class="top-bar" data-topbar role="navigation">
                 <ul class="title-area">
                     <li class="name">
-                        <h1><a onclick="window.location.reload()" title="Start">
+                        <h1><a title="Start" class="action-reload">
                         <?php if (!$functions->isDev()) { ?>
                             <img src="include/images/wmh-logo.svg" id="header-logo" alt="Warframe Mastery Helper" title="Warframe Mastery Helper">
                         <?php } else { ?>
@@ -65,12 +65,12 @@
                 </ul>
                 <section class="top-bar-section">
                     <ul class="right spinner-loaded" style="display:none">
-                        <li><a onclick="app.render.page.start();" title="Home">Home</a></li>
-                        <li><a onclick="app.render.page.help();" title="Help">Help</a></li>
-                        <li><a onclick="app.render.page.stats();" title="Statistics">Statistics</a></li>
-                        <li><a onclick="app.render.page.clock();" title="Clock">Clock</a></li>
-                        <li><a onclick="app.render.page.news();" title="News">News</a></li>
-                        <li><a onclick="app.render.page.user();" title="User" id="user-name"><?php echo $_SESSION['userData']["first_name"]?> <i class="icon-user"></i></a></li>
+                        <li><a class="action-render-page" title="Home" data-page="start">Home</a></li>
+                        <li><a class="action-render-page" title="Help" data-page="help">Help</a></li>
+                        <li><a class="action-render-page" title="Statistics" data-page="stats">Statistics</a></li>
+                        <li><a class="action-render-page" title="Clock" data-page="clock">Clock</a></li>
+                        <li><a class="action-render-page" title="News" data-page="news">News</a></li>
+                        <li><a class="action-render-page" title="User" data-page="user" id="user-name"><?php echo $_SESSION['userData']["first_name"]?> <i class="icon-user"></i></a></li>
                     </ul>
                 </section>
             </nav>

@@ -26,9 +26,10 @@ TYL_REGOR = 'Tyl Regor (Boss)';
 VAY_HEK = 'Councilor Vay Hek (Boss)';
 VOR = 'Captain Vor (Boss)';
 VOR_AND_KRILL = 'Captain Vor and Lieutenant Lech Kril (Boss Duo)';
-WOLF = 'Wolf of Saturn Six'
-ROPALOLYST = 'Ropalolyst'
+WOLF = 'Wolf of Saturn Six';
+ROPALOLYST = 'Ropalolyst';
 KUVA_LICH = 'Kuva Lich';
+EMISSARY = "Zealoid Prelate Assassination";
 
 // Faction Reward
 ARBITERS_OF_HEXIS = 'Arbiters of Hexis (Maxim)';
@@ -58,6 +59,10 @@ VENT_KID = 'Roky (Fortuna)';
 THE_BUSINESS = 'The Business (Fortuna)';
 LITTLE_DUCK = 'Little Duck (Fortuna)';
 ARBITRATION_HONORS = 'Arbitration Honors Vendor';
+MOTHER = "Mother (Nekralisk)";
+FATHER = "Father (Nekralisk)";
+SON = "Son (Nekralisk)";
+LOID = "Loid (Nekralisk)";
 
 // Quests
 CHAINS_OF_HARROW = 'Chains of Harrow (Quest)';
@@ -79,6 +84,7 @@ CHIMERA_PROLOGUE = "Chimera Prologue (Quest)";
 VOX_SOLARIS = "Vox Solaris (Quest)";
 BURIED_DEBTS = "Buried Debts (Quest)";
 DEADLOCK_PROTOCOL = "Deadlock Protocol (Quest)";
+HEART_OF_DEIMOS = "Hearth of Deimos (Quest)";
 
 // Rewards
 ANNIVERSARY = 'Anniversary';
@@ -94,7 +100,6 @@ SANCTUARY_ONSLAUGHT = 'Sanctuary Onslaught';
 SPY_MISSIONS = 'Spy Missions';
 HOSTILE_MERGERS = "Operation: Hostile Mergers",
 DISRUPTION = "Disruption";
-EMISSARY = "Emissary Derelict Assassinate";
 EMPYREAN = 'Empyrean';
 SCARLET_SPEAR = "Operation: Scarlet Spear";
 
@@ -108,6 +113,7 @@ UNKNOWN = "Acquisition: Unknown";
 GRANUM_VOID = "Granum Void";
 VEIL_PROXIMA = "Veil Proxima Caches";
 TENNOCON_2020 = "Tennocon 2020 Twitch Reward";
+NECROMECH = "Comes with Necromech";
 
 //
 //  Add new items to the end of array
@@ -3098,6 +3104,91 @@ var items = [
     "acquisition": TENNOCON_2020,
     "id": "/Lotus/Weapons/Tenno/Pistols/TnJetTurbine/TnJetTurbinePistolWeapon"
   },
+  // Heart oid Deimos update
+  {
+    "name": "Cortege",
+    "acquisition": LOID,
+    "id": "/Lotus/Weapons/Tenno/Archwing/Primary/ThanoTechArchGun/ThanoTechArchGun"
+  },
+
+  {
+    "name": "Crescent Vulpaphyla",
+    "acquisition": SON,
+    "id": "/Lotus/Types/Friendly/Pets/CreaturePets/HornedInfestedCatbrowPetPowerSuit"
+  },
+
+  {
+    "name": "Keratinos",
+    "acquisition": FATHER,
+    "id": "/Lotus/Weapons/Infested/Melee/InfTransformClaw/InfTransformClawsWeapon"
+  },
+
+  {
+    "name": "Medjay Predasite",
+    "acquisition": SON,
+    "id": "/Lotus/Types/Friendly/Pets/CreaturePets/MedjayPredatorKubrowPetPowerSuit"
+  },
+
+  {
+    "name": "Panzer Vulpaphyla",
+    "acquisition": SON,
+    "id": "/Lotus/Types/Friendly/Pets/CreaturePets/ArmoredInfestedCatbrowPetPowerSuit"
+  },
+
+  {
+    "name": "Pharaoh Predasite",
+    "acquisition": SON,
+    "id": "/Lotus/Types/Friendly/Pets/CreaturePets/PharaohPredatorKubrowPetPowerSuit"
+  },
+
+  {
+    "name": "Quassus",
+    "acquisition": MOTHER,
+    "id": "/Lotus/Weapons/Tenno/Melee/Warfan/TnBrokenFrameWarfan/TnBrokenFrameWarfanWeapon"
+  },
+
+  {
+    "name": "Sepulcrum",
+    "acquisition": FATHER,
+    "id": "/Lotus/Weapons/Thanotech/ThanoPistol/ThanotechPistol"
+  },
+
+  {
+    "name": "Sly Vulpaphyla",
+    "acquisition": SON,
+    "id": "/Lotus/Types/Friendly/Pets/CreaturePets/VulpineInfestedCatbrowPetPowerSuit"
+  },
+
+  {
+    "name": "Trumna",
+    "acquisition": FATHER,
+    "id": "/Lotus/Weapons/Thanotech/ThanoRifle/ThanotechRifle"
+  },
+
+  {
+    "name": "Vizier Predasite",
+    "acquisition": SON,
+    "id": "/Lotus/Types/Friendly/Pets/CreaturePets/VizierPredatorKubrowPetPowerSuit"
+  },
+
+  {
+    "name": "Xaku",
+    "acquisition": HEART_OF_DEIMOS,
+    "id": "/Lotus/Powersuits/BrokenFrame/BrokenFrame"
+  },
+
+  {
+    "name": "Zymos",
+    "acquisition": FATHER,
+    "id": "/Lotus/Weapons/Infested/Pistols/InfUzi/InfUziWeapon"
+  },
+
+  {
+    "name": "Mausolon",
+    "acquisition": NECROMECH,
+    "id": "/Lotus/Weapons/Tenno/Archwing/Primary/ThanoTechArchLongGun/ThanoTechLongGun"
+  },
+
 
 ];
 

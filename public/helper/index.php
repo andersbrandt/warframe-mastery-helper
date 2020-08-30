@@ -64,28 +64,28 @@ include_once($config->get("path") . "/helper/include/header.php");
 </div>
 
 <div id="modal-export" class="reveal-modal" data-reveal aria-labelledby="modalTitle" aria-hidden="true" role="dialog">
-    <h1>Export data</h1>
+    <h2>Export data</h2>
     <p class="lead">Save this string to a text-file:</p>
     <div id="export-data-placeholder"></div>
     <a class="close-reveal-modal" aria-label="Close">&#215;</a>
 </div>
 
 <div id="modal-import" class="reveal-modal" data-reveal aria-labelledby="modalTitle" aria-hidden="true" role="dialog">
-    <h1>Import data</h1>
+    <h2>Import data</h2>
     <p>Expects array ["Excalibur", "Braton Prime"]</p>
     <p>Note: Import will overwrite current saved data!</p>
     <p class="lead">Paste saved string from export here:</p>
     <textarea id="import-data"></textarea>
-    <button onclick="app.import.list();">Import</button>
+    <button class="action-import-list">Import</button>
     <a class="close-reveal-modal" aria-label="Close">&#215;</a>
 </div>
 
 <div id="news-modal" class="reveal-modal" data-reveal aria-labelledby="modalTitle" aria-hidden="true" role="dialog">
-    <h1>News</h1>
+    <h2>News</h2>
     <?php echo $news->printNews(1000)?>
     <a class="close-reveal-modal" aria-label="Close">&#215;</a>
     <div class="text-right">
-        <button type="button" class="btn btn-default" onclick="app.tools.closeModal();">Close</button>
+        <button type="button" class="btn btn-default action-close-modal">Close</button>
     </div>
 </div>
 

@@ -38,7 +38,12 @@ module.exports = function (items) {
     if (items.array[i]["uniqueName"].includes("PvPVariant")) {
       items.array.splice(i, 1);
     }
-    
+
+    // Remove Archguns duplicated as primary weapon
+    if (items.array[i]["uniqueName"].includes("Archwing/Primary") && items.array[i]["type"] == "Primary") {
+      items.array.splice(i, 1);
+    }
+
   }
 
   return items;
