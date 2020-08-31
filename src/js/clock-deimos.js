@@ -10,17 +10,17 @@ module.exports = function () {
         var nextState;
         var nextPeriod;
         var currentState;
-        var cycleStart = 1598873806000; // Vome start as date +%s
-        var fassCycleLength =  6000000; // Long, 100 minutes
-        var vomeCycleLength = 3000000; // Short, 50 minutes
-        var currentTime = (Date.now() - cycleStart) % fassCycleLength;
-        if (currentTime < vomeCycleLength) {
-            nextPeriod = vomeCycleLength - currentTime;
+        var cycleStart = 1598873806000; // Vome start, as date +%s
+        var longCycleLength = 6000000; // Fass
+        var shortCycleLength =  3000000; // Vome
+        var currentTime = (Date.now() - cycleStart) % shortCycleLength;
+        if (currentTime < shortCycleLength) {
+            nextPeriod = shortCycleLength - currentTime;
             nextState = "Vome";
             currentState = "Fass";
             //$('#deimos-clock').addClass('weather-is-warm').removeClass('weather-is-cold');
         } else {
-            nextPeriod = fassCycleLength - currentTime;
+            nextPeriod = longCycleLength - currentTime;
             nextState = "Fass";
             currentState = "Vome";
             //$('#deimos-clock').addClass('weather-is-cold').removeClass('weather-is-warm');
