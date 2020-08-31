@@ -113,7 +113,7 @@ UNKNOWN = "Acquisition: Unknown";
 GRANUM_VOID = "Granum Void";
 VEIL_PROXIMA = "Veil Proxima Caches";
 TENNOCON_2020 = "Tennocon 2020 Twitch Reward";
-NECROMECH = "Comes with Necromech";
+NECRAMECH = "Comes with Necramech";
 
 //
 //  Add new items to the end of array
@@ -3185,7 +3185,7 @@ var items = [
 
   {
     "name": "Mausolon",
-    "acquisition": NECROMECH,
+    "acquisition": NECRAMECH,
     "id": "/Lotus/Weapons/Tenno/Archwing/Primary/ThanoTechArchLongGun/ThanoTechLongGun"
   },
 

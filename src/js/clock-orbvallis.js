@@ -22,8 +22,8 @@ module.exports = function () {
             nextState = "warm";
             $('#orbvallis-clock').addClass('weather-is-cold').removeClass('weather-is-warm');
         }
-        $('#orbvallis-clock .next-period').text(nextState);
-        $('.weather>.big-minute').text(convertMilliseconds(nextPeriod));
+        $("#orbvallis-clock").find(".next-period").text(nextState);
+        $("#orbvallis-clock").find(".weather>.big-minute").text(convertMilliseconds(nextPeriod));
     }
     this.init = function () {
         this.updateTime();
