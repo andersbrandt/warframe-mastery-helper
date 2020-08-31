@@ -5,6 +5,9 @@
   color: $wf-white;
 }
 
+.current-state {
+  text-transform: uppercase;
+}
 .time-indicator {
   @include clearfix();
   display: inline-block;

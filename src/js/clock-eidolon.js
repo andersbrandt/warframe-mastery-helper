@@ -93,11 +93,13 @@ module.exports = function () {
       $('#eidolon-clock').addClass('time-is-day').removeClass('time-is-night');
       $('#eidolon-clock .day').addClass('night').removeClass('day');
       $('#eidolon-clock .night').text('night');
+      $('#eidolon-clock .current-state').text('day');
       next_interval = 21;
     } else {
       $('#eidolon-clock').addClass('time-is-night').removeClass('time-is-day');
       $('#eidolon-clock .night').addClass('day').removeClass('night');
       $('#eidolon-clock .day').text('day');
+      $("#eidolon-clock .current-state").text("night");
       next_interval = 5;
     }
 
