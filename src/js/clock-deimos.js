@@ -1,10 +1,20 @@
 module.exports = function () {
 
-    function convertMilliseconds(millis) {
-        var minutes = Math.floor(millis / 60000);
-        var seconds = ((millis % 60000) / 1000).toFixed(0);
-        return minutes + ":" + (seconds < 10 ? '0' : '') + seconds;
-    }
+    function convertMillisecondsToTime(duration) {
+      var timeString = "";
+      var milliseconds = parseInt((duration % 1000) / 100);
+      var seconds = Math.floor((duration / 1000) % 60);
+      var minutes = Math.floor((duration / (1000 * 60)) % 60);
+      var hours = Math.floor((duration / (1000 * 60 * 60)) % 24);
+      hours = (hours < 10) ? "0" + hours : hours;
+      minutes = (minutes < 10) ? "0" + minutes : minutes;
+      seconds = (seconds < 10) ? "0" + seconds : seconds;
+      if (hours !== "00") {
+        timeString += hours + ":";
+      }
+      timeString += minutes + ":" + seconds;
+      return timeString;
+    };
 
     this.updateTime = function () {
       var nextState;
@@ -30,8 +40,9 @@ module.exports = function () {
       $("#deimos-clock .current-state").text(currentState);
       $("#deimos-clock")
         .find(".weather>.big-minute")
-        .text(convertMilliseconds(nextPeriod)); //TODO fix time-format
-    };;
+        .text(convertMillisecondsToTime(nextPeriod));
+    };
+
     this.init = function () {
         this.updateTime();
     };
