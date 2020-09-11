@@ -7,28 +7,31 @@ module.exports = function () {
     }
 
     this.updateTime = function () {
-        var nextState;
-        var nextPeriod;
-        var currentState;
-        var cycleStart = 1598873806000; // Vome start, as date +%s
-        var longCycleLength = 6000000; // Fass
-        var shortCycleLength =  3000000; // Vome
-        var currentTime = (Date.now() - cycleStart) % shortCycleLength;
-        if (currentTime < shortCycleLength) {
-            nextPeriod = shortCycleLength - currentTime;
-            nextState = "Vome";
-            currentState = "Fass";
-            //$('#deimos-clock').addClass('weather-is-warm').removeClass('weather-is-cold');
-        } else {
-            nextPeriod = longCycleLength - currentTime;
-            nextState = "Fass";
-            currentState = "Vome";
-            //$('#deimos-clock').addClass('weather-is-cold').removeClass('weather-is-warm');
-        }
-        $('#deimos-clock .next-state').text(nextState);
-        $('#deimos-clock .current-state').text(currentState);
-        $('#deimos-clock').find('.weather>.big-minute').text(convertMilliseconds(nextPeriod)); //TODO fix time-format
-    }
+      var nextState;
+      var currentState;
+      var nextPeriod;
+      var cycleStart = 1598873791000; // Vome start,  +/- 5sec
+      var longCycleLength = 6000000; // Fass
+      var shortCycleLength = 3000000; // Vome
+      var totalCycleLength = longCycleLength + shortCycleLength;
+
+      var currentTime = (Date.now() - cycleStart) % totalCycleLength;
+      if (currentTime < shortCycleLength) {
+        nextPeriod = shortCycleLength - currentTime;
+        nextState = "Fass";
+        currentState = "Vome";
+      } else {
+        nextPeriod = totalCycleLength - currentTime;
+        nextState = "Vome";
+        currentState = "Fass";
+      }
+
+      $("#deimos-clock .next-state").text(nextState);
+      $("#deimos-clock .current-state").text(currentState);
+      $("#deimos-clock")
+        .find(".weather>.big-minute")
+        .text(convertMilliseconds(nextPeriod)); //TODO fix time-format
+    };;
     this.init = function () {
         this.updateTime();
     };
