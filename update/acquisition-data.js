@@ -102,6 +102,7 @@ HOSTILE_MERGERS = "Operation: Hostile Mergers",
 DISRUPTION = "Disruption";
 EMPYREAN = 'Empyrean';
 SCARLET_SPEAR = "Operation: Scarlet Spear";
+GLASSMAKER = "Nightware: Glassmaker";
 
 // Misc
 SENTINEL = 'Comes with Companion';
@@ -3100,96 +3101,128 @@ var items = [
   },
   // Tennocon 2020
   {
-    "name": "Athodai",
-    "acquisition": TENNOCON_2020,
-    "id": "/Lotus/Weapons/Tenno/Pistols/TnJetTurbine/TnJetTurbinePistolWeapon"
+    name: "Athodai",
+    acquisition: TENNOCON_2020,
+    id: "/Lotus/Weapons/Tenno/Pistols/TnJetTurbine/TnJetTurbinePistolWeapon",
   },
   // Heart oid Deimos update
   {
-    "name": "Cortege",
-    "acquisition": LOID,
-    "id": "/Lotus/Weapons/Tenno/Archwing/Primary/ThanoTechArchGun/ThanoTechArchGun"
+    name: "Cortege",
+    acquisition: LOID,
+    id:
+      "/Lotus/Weapons/Tenno/Archwing/Primary/ThanoTechArchGun/ThanoTechArchGun",
   },
 
   {
-    "name": "Crescent Vulpaphyla",
-    "acquisition": SON,
-    "id": "/Lotus/Types/Friendly/Pets/CreaturePets/HornedInfestedCatbrowPetPowerSuit"
+    name: "Crescent Vulpaphyla",
+    acquisition: SON,
+    id:
+      "/Lotus/Types/Friendly/Pets/CreaturePets/HornedInfestedCatbrowPetPowerSuit",
   },
 
   {
-    "name": "Keratinos",
-    "acquisition": FATHER,
-    "id": "/Lotus/Weapons/Infested/Melee/InfTransformClaw/InfTransformClawsWeapon"
+    name: "Keratinos",
+    acquisition: FATHER,
+    id:
+      "/Lotus/Weapons/Infested/Melee/InfTransformClaw/InfTransformClawsWeapon",
   },
 
   {
-    "name": "Medjay Predasite",
-    "acquisition": SON,
-    "id": "/Lotus/Types/Friendly/Pets/CreaturePets/MedjayPredatorKubrowPetPowerSuit"
+    name: "Medjay Predasite",
+    acquisition: SON,
+    id:
+      "/Lotus/Types/Friendly/Pets/CreaturePets/MedjayPredatorKubrowPetPowerSuit",
   },
 
   {
-    "name": "Panzer Vulpaphyla",
-    "acquisition": SON,
-    "id": "/Lotus/Types/Friendly/Pets/CreaturePets/ArmoredInfestedCatbrowPetPowerSuit"
+    name: "Panzer Vulpaphyla",
+    acquisition: SON,
+    id:
+      "/Lotus/Types/Friendly/Pets/CreaturePets/ArmoredInfestedCatbrowPetPowerSuit",
   },
 
   {
-    "name": "Pharaoh Predasite",
-    "acquisition": SON,
-    "id": "/Lotus/Types/Friendly/Pets/CreaturePets/PharaohPredatorKubrowPetPowerSuit"
+    name: "Pharaoh Predasite",
+    acquisition: SON,
+    id:
+      "/Lotus/Types/Friendly/Pets/CreaturePets/PharaohPredatorKubrowPetPowerSuit",
   },
 
   {
-    "name": "Quassus",
-    "acquisition": MOTHER,
-    "id": "/Lotus/Weapons/Tenno/Melee/Warfan/TnBrokenFrameWarfan/TnBrokenFrameWarfanWeapon"
+    name: "Quassus",
+    acquisition: MOTHER,
+    id:
+      "/Lotus/Weapons/Tenno/Melee/Warfan/TnBrokenFrameWarfan/TnBrokenFrameWarfanWeapon",
   },
 
   {
-    "name": "Sepulcrum",
-    "acquisition": FATHER,
-    "id": "/Lotus/Weapons/Thanotech/ThanoPistol/ThanotechPistol"
+    name: "Sepulcrum",
+    acquisition: FATHER,
+    id: "/Lotus/Weapons/Thanotech/ThanoPistol/ThanotechPistol",
   },
 
   {
-    "name": "Sly Vulpaphyla",
-    "acquisition": SON,
-    "id": "/Lotus/Types/Friendly/Pets/CreaturePets/VulpineInfestedCatbrowPetPowerSuit"
+    name: "Sly Vulpaphyla",
+    acquisition: SON,
+    id:
+      "/Lotus/Types/Friendly/Pets/CreaturePets/VulpineInfestedCatbrowPetPowerSuit",
   },
 
   {
-    "name": "Trumna",
-    "acquisition": FATHER,
-    "id": "/Lotus/Weapons/Thanotech/ThanoRifle/ThanotechRifle"
+    name: "Trumna",
+    acquisition: FATHER,
+    id: "/Lotus/Weapons/Thanotech/ThanoRifle/ThanotechRifle",
   },
 
   {
-    "name": "Vizier Predasite",
-    "acquisition": SON,
-    "id": "/Lotus/Types/Friendly/Pets/CreaturePets/VizierPredatorKubrowPetPowerSuit"
+    name: "Vizier Predasite",
+    acquisition: SON,
+    id:
+      "/Lotus/Types/Friendly/Pets/CreaturePets/VizierPredatorKubrowPetPowerSuit",
   },
 
   {
-    "name": "Xaku",
-    "acquisition": HEART_OF_DEIMOS,
-    "id": "/Lotus/Powersuits/BrokenFrame/BrokenFrame"
+    name: "Xaku",
+    acquisition: HEART_OF_DEIMOS,
+    id: "/Lotus/Powersuits/BrokenFrame/BrokenFrame",
   },
 
   {
-    "name": "Zymos",
-    "acquisition": FATHER,
-    "id": "/Lotus/Weapons/Infested/Pistols/InfUzi/InfUziWeapon"
+    name: "Zymos",
+    acquisition: FATHER,
+    id: "/Lotus/Weapons/Infested/Pistols/InfUzi/InfUziWeapon",
   },
 
   {
-    "name": "Mausolon",
-    "acquisition": NECRAMECH,
-    "id": "/Lotus/Weapons/Tenno/Archwing/Primary/ThanoTechArchLongGun/ThanoTechLongGun"
+    name: "Mausolon",
+    acquisition: NECRAMECH,
+    id:
+      "/Lotus/Weapons/Tenno/Archwing/Primary/ThanoTechArchLongGun/ThanoTechLongGun",
   },
 
+  // Nezha update
+  {
+    name: "Guandao Prime",
+    acquisition: RELICS,
+    id: "/Lotus/Weapons/Tenno/Melee/Polearms/PrimeGuandao/PrimeGuandaoWeapon",
+  },
 
+  {
+    name: "Nezha Prime",
+    acquisition: RELICS,
+    id: "/Lotus/Powersuits/Nezha/NezhaPrime",
+  },
+
+  {
+    name: "Vitrica",
+    acquisition: GLASSMAKER,
+    id: "/Lotus/Weapons/Tenno/Melee/Swords/NWIIIOrokinSword/NWOrokinSword",
+  },
+  {
+    name: "Zakti Prime",
+    acquisition: RELICS,
+    id: "/Lotus/Weapons/Tenno/Pistols/PrimeZakti/PrimeZaktiPistol",
+  },
 ];
 
 module.exports = {

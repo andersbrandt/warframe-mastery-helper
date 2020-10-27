@@ -218,6 +218,7 @@ class Updater {
           delete json[i]["heavySlamRadius"];
           delete json[i]["windUp"];
           delete json[i]["multishot"];
+          delete json[i]["drops"];
           let newType = json[i]["category"];
           json[i]["category"] = json[i]["type"];
           json[i]["type"] = newType;
