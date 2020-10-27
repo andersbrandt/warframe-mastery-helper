@@ -20,7 +20,8 @@ module.exports = function () {
       var nextState;
       var currentState;
       var nextPeriod;
-      var cycleStart = 1598873791000; // Vome start,  +/- 5sec
+      //var cycleStart = 1598873791000; // Vome start,  +/- 5sec
+      var cycleStart = 1603823170000; // Vome start,  +/- 5sec
       var longCycleLength = 6000000; // Fass
       var shortCycleLength = 3000000; // Vome
       var totalCycleLength = longCycleLength + shortCycleLength;
