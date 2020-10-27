@@ -6,6 +6,7 @@ const {
 const warframeData = require("./warframe-data.js");
 const ClockEidolon = require("./clock-eidolon.js");
 const ClockOrbvallis = require("./clock-orbvallis.js");
+const ClockDeimos = require("./clock-deimos.js");
 const config = require("./config.js");
 
 var app = {
@@ -689,16 +690,21 @@ var app = {
     init: function () {
       var clockEidolon = new ClockEidolon();
       var clockOrbvallis = new ClockOrbvallis();
+      var clockDeimos = new ClockDeimos();
       clockEidolon.init();
       clockOrbvallis.init();
+      clockDeimos.init();
       $("#clock-modal").bind('closed.fndtn.reveal', function () {
         clockEidolon.stop();
         clockOrbvallis.stop();
+        clockDeimos.stop();
       });
       $("#clock-modal").bind('open.fndtn.reveal', function () {
         clockEidolon.start();
         clockOrbvallis.updateTime();
         clockOrbvallis.start();
+        clockDeimos.updateTime();
+        clockDeimos.start();
       });
     }
   }

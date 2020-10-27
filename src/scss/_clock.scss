@@ -5,6 +5,9 @@
   color: $wf-white;
 }
 
+.current-state {
+  text-transform: uppercase;
+}
 .time-indicator {
   @include clearfix();
   display: inline-block;
@@ -22,7 +25,6 @@
 .time-box {
   padding: 10px;
   @include clearfix();
-
   .hour,
   .minute,
   .second {
@@ -30,7 +32,6 @@
     font-weight: bold;
     font-size: 72px;
   }
-
   .big-hour-divider {
     display: inline-block;
     font-weight: bold;
@@ -57,7 +58,6 @@
   padding: 10px;
   font-size: 18px;
   text-align: center;
-
   &.time-is-night {
     .time-indicator::before {
       font-family: 'fontello';
@@ -65,7 +65,6 @@
       color: #0085c7;
     }
   }
-
   &.time-is-day {
     .time-indicator::before {
       font-family: 'fontello';
@@ -73,7 +72,6 @@
       color: #dc7e00;
     }
   }
-
 }
 
 #orbvallis-clock {
@@ -82,7 +80,6 @@
   padding: 10px;
   font-size: 18px;
   text-align: center;
-
   &.weather-is-cold {
     .time-indicator::before {
       content: "\F2DC";
@@ -90,7 +87,6 @@
       color: #0085c7;
     }
   }
-
   &.weather-is-warm {
     .time-indicator::before {
       font-family: 'fontello';
@@ -98,19 +94,24 @@
       color: #dc7e00;
     }
   }
+}
 
+#deimos-clock {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 10px;
+  font-size: 18px;
+  text-align: center;
 }
 
 @media only screen and (min-width: 0px) and (max-width: 500px) {
-
   #eidolon-clock,
-  #orbvallis-clock {
+  #orbvallis-clock,
+  #deimos-clock {
     .time-indicator {
       display: none;
     }
-
     .time-box {
-
       .hour,
       .minute,
       .second,
@@ -118,7 +119,6 @@
         font-size: 54px;
       }
     }
-
     .time-info {
       font-size: 18px;
     }
