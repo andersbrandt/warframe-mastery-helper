@@ -24,7 +24,7 @@ module.exports = function (items) {
     }
 
     // Add 'Kitgun' as type to modular secondary
-    if (name == "Catchmoon" || name == "Rattleguts" || name == "Tombfinger" || name == "Gaze") {
+    if (name == "Catchmoon" || name == "Rattleguts" || name == "Tombfinger" || name == "Gaze" || name == "Sporelacer" || name == "Vermisplicer") {
       items.array[i]["type"] = "Secondary";
       items.array[i]["category"] = "Kitgun";
     }

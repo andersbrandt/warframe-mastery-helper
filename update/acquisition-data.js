@@ -63,6 +63,7 @@ MOTHER = "Mother (Nekralisk)";
 FATHER = "Father (Nekralisk)";
 SON = "Son (Nekralisk)";
 LOID = "Loid (Nekralisk)";
+ISOLATION_VAULT = "Isolation Vault (Deimos)";
 
 // Quests
 CHAINS_OF_HARROW = 'Chains of Harrow (Quest)';
@@ -115,6 +116,7 @@ GRANUM_VOID = "Granum Void";
 VEIL_PROXIMA = "Veil Proxima Caches";
 TENNOCON_2020 = "Tennocon 2020 Twitch Reward";
 NECRAMECH = "Comes with Necramech";
+K_DRIVE_DEIMOS = "K-Drive Races (Deimos)";
 
 //
 //  Add new items to the end of array
@@ -3222,6 +3224,55 @@ var items = [
     name: "Zakti Prime",
     acquisition: RELICS,
     id: "/Lotus/Weapons/Tenno/Pistols/PrimeZakti/PrimeZaktiPistol",
+  },
+
+  // Deimos arcana update
+  {
+    name: "Arum Spinosa",
+    acquisition: ISOLATION_VAULT,
+    id: "/Lotus/Weapons/Infested/Melee/InfWarfan/InfWarfanWeapon",
+  },
+  {
+    name: "Bubonico",
+    acquisition: DOJO_BIO_LAB,
+    id: "/Lotus/Weapons/Infested/LongGuns/InfArmCannon/InfArmCannon",
+  },
+  {
+    name: "Catabolyst",
+    acquisition: DOJO_BIO_LAB,
+    id: "/Lotus/Weapons/Infested/Pistols/InfBeamPistol/InfBeamPistol",
+  },
+  {
+    name: "Feverspine",
+    acquisition: K_DRIVE_DEIMOS,
+    id:
+      "/Lotus/Types/Vehicles/Hoverboard/HoverboardParts/PartComponents/HoverboardInfestedB/HoverboardInfestedBDeck",
+  },
+  {
+    name: "Proboscis Cernos",
+    acquisition: MARKET,
+    id: "/Lotus/Weapons/Tenno/Bows/PrimeDerelictCernos/DerelictCernos",
+  },
+  {
+    name: "Pulmonars",
+    acquisition: MARKET,
+    id: "/Lotus/Weapons/Infested/Melee/Nunchaku/InfNunchuck/InfNunchuck",
+  },
+  {
+    name: "Sporelacer",
+    acquisition: FATHER,
+    id:
+      "/Lotus/Weapons/Infested/Pistols/InfKitGun/Barrels/InfBarrelEgg/InfModularBarrelEggPart",
+  },
+  {
+    "name": "Sporothrix",
+    "acquisition": ISOLATION_VAULT,
+    "id": "/Lotus/Weapons/Infested/LongGuns/InfSniperRifle/InfSniperRifle"
+  },
+  {
+    "name": "Vermisplicer",
+    "acquisition": FATHER,
+    "id": "/Lotus/Weapons/Infested/Pistols/InfKitGun/Barrels/InfBarrelBeam/InfModularBarrelBeamPart"
   },
 ];
 
