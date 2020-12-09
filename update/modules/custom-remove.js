@@ -2,7 +2,6 @@ module.exports = function (items) {
 
   var i = items.array.length;
   while (i--) {
-
     // Remove 'Prisma Machete'
     if (items.array[i]["name"] === "Prisma Machete") {
       items.array.splice(i, 1);
@@ -17,10 +16,10 @@ module.exports = function (items) {
     if (items.array[i]["uniqueName"].includes("ClipPart")) {
       items.array.splice(i, 1);
     }
-    if (items.array[i]["uniqueName"].includes("\/Handle\/")) {
+    if (items.array[i]["uniqueName"].includes("/Handle/")) {
       items.array.splice(i, 1);
     }
-    if (items.array[i]["uniqueName"].includes("\/Grip\/")) {
+    if (items.array[i]["uniqueName"].includes("/Grip/")) {
       items.array.splice(i, 1);
     }
 
@@ -33,17 +32,29 @@ module.exports = function (items) {
     if (items.array[i]["uniqueName"].includes("Balance")) {
       items.array.splice(i, 1);
     }
-    
+
     // Remove PvP variants of Zaws
     if (items.array[i]["uniqueName"].includes("PvPVariant")) {
       items.array.splice(i, 1);
     }
 
     // Remove Archguns duplicated as primary weapon
-    if (items.array[i]["uniqueName"].includes("Archwing/Primary") && items.array[i]["type"] == "Primary") {
+    if (
+      items.array[i]["uniqueName"].includes("Archwing/Primary") &&
+      items.array[i]["type"] == "Primary"
+    ) {
       items.array.splice(i, 1);
     }
 
+    // Remove Voidrig Necramech
+    // 
+    if (
+      items.array[i]["uniqueName"].includes(
+        "Lotus/Powersuits/EntratiMech/NechroTech"
+      )
+    ) {
+      items.array.splice(i, 1);
+    }
   }
 
   return items;
