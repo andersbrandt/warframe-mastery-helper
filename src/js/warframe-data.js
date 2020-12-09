@@ -1989,7 +1989,7 @@ module.exports = {
       "category": "Dagger",
       "tradable": false,
       "wikiaUrl": "http://warframe.fandom.com/wiki/Ceramic_Dagger",
-      "acquisition": "Market (Orbiter)",
+      "acquisition": "Nightwave",
       "checked": false,
       "unobtainable": false,
       "tierData": true,
@@ -4239,7 +4239,7 @@ module.exports = {
       "tradable": false,
       "projectile": "Thrown",
       "wikiaUrl": "http://warframe.fandom.com/wiki/Glaive",
-      "acquisition": "Market (Orbiter)",
+      "acquisition": "Nightwave",
       "checked": false,
       "unobtainable": false,
       "tierData": false,
@@ -4670,7 +4670,7 @@ module.exports = {
       "category": "Dagger",
       "tradable": false,
       "wikiaUrl": "http://warframe.fandom.com/wiki/Heat_Dagger",
-      "acquisition": "Market (Orbiter)",
+      "acquisition": "Nightwave",
       "checked": false,
       "unobtainable": false,
       "tierData": true,
@@ -4695,7 +4695,7 @@ module.exports = {
       "category": "Sword",
       "tradable": false,
       "wikiaUrl": "http://warframe.fandom.com/wiki/Heat_Sword",
-      "acquisition": "Market (Orbiter)",
+      "acquisition": "Nightwave",
       "checked": false,
       "unobtainable": false,
       "tierData": true,
@@ -8629,7 +8629,7 @@ module.exports = {
       "category": "Sword",
       "tradable": false,
       "wikiaUrl": "http://warframe.fandom.com/wiki/Plasma_Sword",
-      "acquisition": "Market (Orbiter)",
+      "acquisition": "Nightwave",
       "checked": false,
       "unobtainable": false,
       "tierData": true,
@@ -13155,5 +13155,5 @@ module.exports = {
       "component": false
     }
   ],
-  "fetched": "2020.12.09 01:52:49 CET+01:00"
+  "fetched": "2020.12.09 02:12:16 CET+01:00"
 }

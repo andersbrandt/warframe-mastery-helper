@@ -1803,7 +1803,7 @@ var items = [
   },
   {
     name: "Ceramic Dagger",
-    acquisition: MARKET,
+    acquisition: NIGHTWAVE,
     id: "/Lotus/Weapons/Tenno/Melee/Dagger/CeramicDagger",
   },
   {
@@ -1976,7 +1976,7 @@ var items = [
   },
   {
     name: "Glaive",
-    acquisition: MARKET,
+    acquisition: NIGHTWAVE,
     id: "/Lotus/Weapons/Tenno/Melee/Glaives/LightGlaive/LightGlaiveWeapon",
   },
   {
@@ -2012,12 +2012,12 @@ var items = [
   },
   {
     name: "Heat Dagger",
-    acquisition: MARKET,
+    acquisition: NIGHTWAVE,
     id: "/Lotus/Weapons/Tenno/Melee/Dagger/Dagger",
   },
   {
     name: "Heat Sword",
-    acquisition: MARKET,
+    acquisition: NIGHTWAVE,
     id: "/Lotus/Weapons/Tenno/Melee/Swords/HeatSword/HeatLongSword",
   },
   {
@@ -2212,7 +2212,7 @@ var items = [
   },
   {
     name: "Plasma Sword",
-    acquisition: MARKET,
+    acquisition: NIGHTWAVE,
     id: "/Lotus/Weapons/Tenno/Melee/Swords/PlasmaSword/PlasmaLongSword",
   },
   {
