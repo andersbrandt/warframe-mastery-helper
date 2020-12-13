@@ -1,5 +1,13 @@
 # TODO / BUGS
 
+- Add Voidrig (Vehicle)
+
+- Add Bonewidow (Vehicle)
+
+- Add Morgha (Archgun)
+
+**Code**
+
 - Fix ugly SQL in class User.php
 
 - fix hardcoded path in user-auth.php  - Maybe not possible
