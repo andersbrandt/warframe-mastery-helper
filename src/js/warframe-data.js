@@ -1515,6 +1515,7 @@ module.exports = {
       "tierRank": 0,
       "component": false,
       "category": "Necramech",
+      "maxLevelCap": 40,
       "wikiaUrl": "http://warframe.wikia.com/wiki/Bonewidow"
     },
     {
@@ -3617,26 +3618,6 @@ module.exports = {
       "acquisition": "Lieutenant Lech Kril (Boss)",
       "checked": false,
       "unobtainable": false,
-      "tierData": false,
-      "tierRank": 0,
-      "component": false
-    },
-    {
-      "uniqueName": "/Lotus/Powersuits/Excalibur/ExcaliburPrime",
-      "name": "Excalibur Prime",
-      "description": "Excalibur Prime is the epitome of mobility and offense, and features the same abilities as Excalibur, but has unique mod polarities installed allowing for greater customization.",
-      "masteryReq": 0,
-      "exalted": [
-        "/Lotus/Powersuits/Excalibur/DoomSwordPrime"
-      ],
-      "productCategory": "Suits",
-      "type": "Warframe",
-      "imageName": "excalibur-prime.png",
-      "tradable": false,
-      "wikiaUrl": "http://warframe.fandom.com/wiki/Excalibur_Prime",
-      "acquisition": "Unobtainable (Founders)",
-      "checked": false,
-      "unobtainable": true,
       "tierData": false,
       "tierRank": 0,
       "component": false
@@ -6458,26 +6439,6 @@ module.exports = {
       "tierData": false,
       "tierRank": 0,
       "component": true
-    },
-    {
-      "name": "Lato Prime",
-      "uniqueName": "/Lotus/Weapons/Tenno/Pistol/LatoPrime",
-      "description": "The Lato is a highly accurate pistol used by the Tenno everywhere. Prime model offers slightly increased damage.",
-      "masteryReq": 14,
-      "productCategory": "Pistols",
-      "trigger": "Semi",
-      "type": "Secondary",
-      "imageName": "lato-prime.png",
-      "category": "Pistol",
-      "tradable": false,
-      "projectile": "Hitscan",
-      "wikiaUrl": "http://warframe.fandom.com/wiki/Lato_Prime",
-      "acquisition": "Unobtainable (Founders)",
-      "checked": false,
-      "unobtainable": true,
-      "tierData": false,
-      "tierRank": 0,
-      "component": false
     },
     {
       "name": "Lato Vandal",
@@ -10458,24 +10419,6 @@ module.exports = {
       "component": false
     },
     {
-      "name": "Skana Prime",
-      "uniqueName": "/Lotus/Weapons/Tenno/Melee/LongSword/SkanaPrime",
-      "description": "A basic blade known as a Skana. It is widely used by the Tenno. Prime model offers slightly increased damage.",
-      "masteryReq": 12,
-      "productCategory": "Melee",
-      "type": "Melee",
-      "imageName": "skana-prime.png",
-      "category": "Sword",
-      "tradable": false,
-      "wikiaUrl": "http://warframe.fandom.com/wiki/Skana_Prime",
-      "acquisition": "Unobtainable (Founders)",
-      "checked": false,
-      "unobtainable": true,
-      "tierData": false,
-      "tierRank": 0,
-      "component": false
-    },
-    {
       "name": "Skiajati",
       "uniqueName": "/Lotus/Weapons/Tenno/Melee/Swords/UmbraKatana/UmbraKatana",
       "description": "Forged of steel grafted from Umbra's flesh, this elegant Nikana unites with its Warframe to form a single being of seething purpose.",
@@ -12632,6 +12575,7 @@ module.exports = {
       "tierRank": 0,
       "component": false,
       "category": "Necramech",
+      "maxLevelCap": 40,
       "wikiaUrl": "http://warframe.wikia.com/wiki/Voidrig_Necramech"
     },
     {
@@ -13219,5 +13163,5 @@ module.exports = {
       "component": false
     }
   ],
-  "fetched": "2020.12.14 08:18:33 CET+01:00"
+  "fetched": "2020.12.14 08:45:29 CET+01:00"
 }

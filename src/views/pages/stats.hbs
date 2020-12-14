@@ -2,9 +2,13 @@
 
 <h3>Ranked items by type</h3>
 <p>
-    These categories match the in-game menu Profile > Equipment.<br>
-    Note: Unless you are a Founder, there are 3 unobtainable items. Read more in Help.
+    These categories match the in-game menu Profile > Equipment.
 </p>
+<p><b>Note about Kitguns</b><br />
+Kitguns are both Secondary &amp; Primary, but only one version need to gilded &amp; ranked.<br />
+This app label Kitguns as Secondary, and if the item are ranked they will be added to the stats for Primary.<br />
+This will make app statistics correspond to in-game statistics.</p>
+<br />
 <table>
     <thead>
         <th>Type</th>
@@ -22,27 +26,40 @@
         </tr>
         {{/each}}
         <tr class="divider">
+            <td>Total:</td>
             <td>&nbsp;</td>
-            <td class="unranked">{{this.totalItemsUnranked}}</td>
-            <td class="ranked">{{this.totalItemsRanked}}</td>
+            <td>&nbsp;</td>
             <td class="total">{{this.totalItems}}</td>
         </tr>
     </tbody>
 </table>
 
-<h3>Unranked items by type</h3>
-{{#each this}}
-<div class="stats-item">
-    <div class="name">
-        <b>{{this.name}}{{#if this.unranked.length}} ({{this.unranked.length}}) {{else}} <i class="icon-ok"></i> {{/if}} </b>
-    </div>
-    <div class="ranked">
-        {{#each unranked}}
-        <a class="white-link" href="{{ this.wikiaUrl}}" target="_blank">{{ this.name}}{{#if this.unobtainable}} (Unobtainable){{/if}}</a>{{#unless @last}}, {{/unless}}
-        {{/each}}
-    </div>
-</div>
-{{/each}}
+{{#ifCond this.totalItemsUnranked "==" "0"}}
+
+<p><b>All items are ranked, nicely done!</b></p>
+
+{{else}}
+
+    <h3>Unranked items by type</h3>
+    {{#each this}}
+        {{#if this.unranked.length }}
+        <div class="stats-item">
+            <div class="name">
+                <b>{{this.name}} ({{this.unranked.length}})
+                </b>
+            </div>
+            <div class="ranked">
+                {{#each unranked}}
+                <a class="white-link" href="{{ this.wikiaUrl}}" target="_blank">{{ this.name}}{{#if this.unobtainable}}
+                    (Unobtainable){{/if}}</a>{{#unless @last}}, {{/unless}}
+                {{/each}}
+            </div>
+        </div>
+        {{/if}}
+    {{/each}}
+
+{{/ifCond}}
+
 
 <a class="close-reveal-modal" aria-label="Close">&#215;</a>
 

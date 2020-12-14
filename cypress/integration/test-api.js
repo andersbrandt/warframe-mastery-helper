@@ -27,13 +27,13 @@ describe("API", () => {
     //
     // Assert getItemByName for Skana Prime (Unobtainable)
     //
-    cy.get('[data-name="Skana Prime"]').should("have.length", 1);
-    cy.window().then((win) => {
-      let skanaPrimeData = win.app.item.getDataByName("Skana Prime");
-      expect(skanaPrimeData.name).to.equal("Skana Prime");
-      expect(skanaPrimeData.checked).to.equal(false);
-      expect(skanaPrimeData.unobtainable).to.equal(true);
-    });
+    // cy.get('[data-name="Skana Prime"]').should("have.length", 1);
+    // cy.window().then((win) => {
+    //   let skanaPrimeData = win.app.item.getDataByName("Skana Prime");
+    //   expect(skanaPrimeData.name).to.equal("Skana Prime");
+    //   expect(skanaPrimeData.checked).to.equal(false);
+    //   expect(skanaPrimeData.unobtainable).to.equal(true);
+    // });
 
     //
     //  Assert 'Acceltra' are checked

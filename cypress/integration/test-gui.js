@@ -161,7 +161,7 @@ describe("GUI", () => {
     cy.get(".legend-icon.icon-check-empty").should("be.visible");
     cy.get("#legend-image").should("be.visible");
     cy.get("ul#help-modal-unique-items-list").should("be.visible");
-    cy.get("ul#help-modal-unique-items-list").find("li").should("have.length", 17);
+    cy.get("ul#help-modal-unique-items-list").find("li").should("have.length", 19);
     cy.get("#help-placeholder").find(".close-reveal-modal").should("be.visible").click();
     cy.get("#help-modal").should("not.be.visible");
   });
@@ -173,14 +173,6 @@ describe("GUI", () => {
     cy.get("#stats-modal").should("not.be.visible");
     cy.get(".top-bar-section").contains("Statistics").click();
     cy.get("#stats-modal").should("be.visible");
-    cy.get("#stats-modal").find("tr.divider").find("td.ranked").should("have.text", "1");
-    cy.window().then((win) => {
-      let unranked = parseInt(win.document.querySelectorAll("#stats-modal tr.divider td.unranked")[0].innerHTML);
-      let ranked = parseInt(win.document.querySelectorAll("#stats-modal tr.divider td.ranked")[0].innerHTML);
-      let total = parseInt(win.document.querySelectorAll("#stats-modal tr.divider td.total")[0].innerHTML);
-      let unrankedCount = total - ranked;
-      expect(unranked).to.equal(unrankedCount);
-    });
     cy.get("#stats-placeholder").find(".close-reveal-modal").click({force:true});
     cy.get("#stats-modal").should("not.be.visible");
   });

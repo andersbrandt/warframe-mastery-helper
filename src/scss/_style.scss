@@ -498,7 +498,8 @@ ul#news-list {
       border-bottom: 1px solid $body-font-color;
     }
     td {
-      padding-top: 4px;
+      padding-top: 2px;
+      padding-bottom: 4px;
     }
     td.name {
       padding-right: 12px;
@@ -522,6 +523,9 @@ ul#news-list {
     }
     tr.divider {
       border-top: 1px solid $body-font-color;
+      td {
+        padding-top: 8px;
+      }
     }
   }
 

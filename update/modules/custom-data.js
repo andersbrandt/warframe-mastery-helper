@@ -95,16 +95,18 @@ module.exports = function (items) {
       items.array[i]["category"] = "Kavat";
     }
 
-    // Label Bonewidow as Vehicle / Necramech
+    // Label Bonewidow as Vehicle / Necramech & add maxLevelCap
     if (name == "Bonewidow") {
       items.array[i]["type"] = "Vehicle";
       items.array[i]["category"] = "Necramech";
+      items.array[i]["maxLevelCap"] = 40;
     }
 
-    // Label Voidrig as Vehicle / Necramech
+    // Label Voidrig as Vehicle / Necramech & add maxLevelCap
     if (name == "Voidrig Necramech") {
       items.array[i]["type"] = "Vehicle";
       items.array[i]["category"] = "Necramech";
+      items.array[i]["maxLevelCap"] = 40;
     }
 
     // Label Morgha

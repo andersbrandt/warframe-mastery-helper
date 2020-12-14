@@ -45,6 +45,19 @@ module.exports = function (items) {
     ) {
       items.array.splice(i, 1);
     }
+
+    // Remove Founders Items
+    if (items.array[i]["name"] === "Excalibur Prime") {
+      items.array.splice(i, 1);
+    }
+    if (items.array[i]["name"] === "Lato Prime") {
+      items.array.splice(i, 1);
+    }
+    if (items.array[i]["name"] === "Skana Prime") {
+      items.array.splice(i, 1);
+    }
+
+
   }
 
   return items;
