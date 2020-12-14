@@ -45,16 +45,6 @@ module.exports = function (items) {
     ) {
       items.array.splice(i, 1);
     }
-
-    // Remove Voidrig Necramech
-    // 
-    if (
-      items.array[i]["uniqueName"].includes(
-        "Lotus/Powersuits/EntratiMech/NechroTech"
-      )
-    ) {
-      items.array.splice(i, 1);
-    }
   }
 
   return items;

@@ -3265,15 +3265,26 @@ var items = [
       "/Lotus/Weapons/Infested/Pistols/InfKitGun/Barrels/InfBarrelEgg/InfModularBarrelEggPart",
   },
   {
-    "name": "Sporothrix",
-    "acquisition": ISOLATION_VAULT,
-    "id": "/Lotus/Weapons/Infested/LongGuns/InfSniperRifle/InfSniperRifle"
+    name: "Sporothrix",
+    acquisition: ISOLATION_VAULT,
+    id: "/Lotus/Weapons/Infested/LongGuns/InfSniperRifle/InfSniperRifle"
   },
   {
-    "name": "Vermisplicer",
-    "acquisition": FATHER,
-    "id": "/Lotus/Weapons/Infested/Pistols/InfKitGun/Barrels/InfBarrelBeam/InfModularBarrelBeamPart"
+    name: "Vermisplicer",
+    acquisition: FATHER,
+    id: "/Lotus/Weapons/Infested/Pistols/InfKitGun/Barrels/InfBarrelBeam/InfModularBarrelBeamPart"
   },
+  {
+    name: "Bonewidow",
+    acquisition: LOID,
+    id: "/Lotus/Powersuits/EntratiMech/ThanoTech"
+  },
+  {
+    name: "Voidrig Necramech",
+    acquisition: LOID,
+    id: "/Lotus/Powersuits/EntratiMech/NechroTech"
+  },
+
 ];
 
 module.exports = {

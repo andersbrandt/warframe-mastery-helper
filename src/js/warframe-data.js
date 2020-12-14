@@ -1500,6 +1500,24 @@ module.exports = {
       "component": false
     },
     {
+      "uniqueName": "/Lotus/Powersuits/EntratiMech/ThanoTech",
+      "name": "Bonewidow",
+      "description": "This fearsome Necramech, fashioned in honor of the Entrati matriarch, is a robust front-line fighter. Favoring armor and health over shield strength, Bonewidow can grab and hurl enemies, deploy a heavy shield for personal defense, and cleave through opposing ranks with a massive warblade.",
+      "masteryReq": 0,
+      "productCategory": "MechSuits",
+      "type": "Vehicle",
+      "imageName": "bonewidow.png",
+      "tradable": false,
+      "acquisition": "Loid (Nekralisk)",
+      "checked": false,
+      "unobtainable": false,
+      "tierData": false,
+      "tierRank": 0,
+      "component": false,
+      "category": "Necramech",
+      "wikiaUrl": "http://warframe.wikia.com/wiki/Bonewidow"
+    },
+    {
       "name": "Brakk",
       "uniqueName": "/Lotus/Weapons/Grineer/Pistols/GrineerHandShotgun/GrineerHandCannon",
       "description": "Simple but powerful. The semi-automatic Brakk hand cannon delivers a lot of punch in a small package.",
@@ -1899,6 +1917,7 @@ module.exports = {
       "description": "Splatter enemies with a short-range stream of corrosive bile and then toss the ammo bladder as a grenade when reloading. The emptier the pistol’s ammo bladder, the more potent its damage. A fully empty bladder packs the biggest punch.",
       "masteryReq": 11,
       "productCategory": "Pistols",
+      "trigger": "Held",
       "type": "Secondary",
       "imageName": "catabolyst.png",
       "category": "Pistol",
@@ -1939,7 +1958,7 @@ module.exports = {
     {
       "name": "Caustacyst",
       "uniqueName": "/Lotus/Weapons/Infested/Melee/InfEmbolistScythe/InfestedScythe",
-      "description": "Charge attacks from this scythe unleash a wave of acid that mutilates enemies and leaves a trail of corrosive sludge.",
+      "description": "Heavy attacks from this scythe unleash a wave of acid that mutilates enemies and leaves a trail of corrosive sludge.",
       "masteryReq": 7,
       "productCategory": "Melee",
       "type": "Melee",
@@ -4810,7 +4829,7 @@ module.exports = {
       "name": "Helstrum",
       "uniqueName": "/Lotus/Types/Friendly/Pets/MoaPets/MoaPetComponents/SwarmerWeapon",
       "description": "Launches a swarm of micro-missiles.",
-      "masteryReq": 1,
+      "masteryReq": 0,
       "productCategory": "SentinelWeapons",
       "trigger": "Burst",
       "type": "Sentinel Weapon",
@@ -12571,6 +12590,27 @@ module.exports = {
       "wikiaUrl": "http://warframe.wikia.com/wiki/Vizier_Predasite"
     },
     {
+      "uniqueName": "/Lotus/Powersuits/EntratiMech/NechroTech",
+      "name": "Voidrig Necramech",
+      "description": "Nothing fancy but gets the job done and then some. With its electrified armor, this rough and ready mech can make the battlefield treacherous for the enemy with an arsenal of explosives.",
+      "masteryReq": 0,
+      "exalted": [
+        "/Lotus/Types/Enemies/Orokin/Entrati/EntratiTech/NechroTech/ExaltedArtilleryWeapon"
+      ],
+      "productCategory": "MechSuits",
+      "type": "Vehicle",
+      "imageName": "voidrig-necramech.png",
+      "tradable": false,
+      "acquisition": "Loid (Nekralisk)",
+      "checked": false,
+      "unobtainable": false,
+      "tierData": false,
+      "tierRank": 0,
+      "component": false,
+      "category": "Necramech",
+      "wikiaUrl": "http://warframe.wikia.com/wiki/Voidrig_Necramech"
+    },
+    {
       "name": "Volnus",
       "uniqueName": "/Lotus/Weapons/Tenno/Melee/Hammer/GlassHammer/GlassHammer",
       "description": "Tear and maim with this agile, lightweight glass hammer. When Gara's wields her signature melee weapon, it gains additional Slam Radial Damage.",
@@ -13155,5 +13195,5 @@ module.exports = {
       "component": false
     }
   ],
-  "fetched": "2020.12.09 02:12:16 CET+01:00"
+  "fetched": "2020.12.14 07:59:41 CET+01:00"
 }
