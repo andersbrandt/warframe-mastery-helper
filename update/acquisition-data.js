@@ -3284,9 +3284,21 @@ var items = [
     acquisition: LOID,
     id: "/Lotus/Powersuits/EntratiMech/NechroTech"
   },
-
+  {
+    name: "Morgha",
+    acquisition: LOID,
+    id: "/Lotus/Weapons/Tenno/Archwing/Primary/ThanoTechGrenadeLaunch/ThanoTechGrenadeLauncher"
+  },
+        
 ];
 
 module.exports = {
   items: items
 };
+
+  // {
+  //   name: "Morgha",
+  //   acquisition: UNKNOWN,
+  //   id: "/Lotus/Weapons/Tenno/Archwing/ThanoTechGrenadeLaunch/ThanoTechGrenadeLauncher"
+  // },
+      

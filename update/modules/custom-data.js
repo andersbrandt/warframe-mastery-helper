@@ -106,6 +106,12 @@ module.exports = function (items) {
       items.array[i]["type"] = "Vehicle";
       items.array[i]["category"] = "Necramech";
     }
+
+    // Label Morgha
+    if (name == "Morgha") {
+      items.array[i]["type"] = "Archwing Gun";
+      delete items.array[i]["category"];
+    }
   }
   return items;
 
