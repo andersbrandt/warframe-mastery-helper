@@ -46,6 +46,9 @@ class Updater {
       );
 
       await
+      this.customAdd();
+
+      await
       this.customRemove();
 
       await
@@ -327,6 +330,11 @@ class Updater {
         throw e;
       }
     });
+  }
+
+  async customAdd() {
+    this.items = require(pathAlias.resolve("@modules/custom-add"))(this.items);
+    this.clog("Added missing items");
   }
 
   async customRemove() {

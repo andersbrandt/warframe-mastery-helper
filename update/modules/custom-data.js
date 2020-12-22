@@ -1,7 +1,6 @@
 module.exports = function (items) {
 
   for (var i = 0; i < items.array.length; i++) {
-
     var type = items.array[i]["type"];
     var category = items.array[i]["category"];
     var name = items.array[i]["name"];
@@ -24,7 +23,14 @@ module.exports = function (items) {
     }
 
     // Add 'Kitgun' as type to modular secondary
-    if (name == "Catchmoon" || name == "Rattleguts" || name == "Tombfinger" || name == "Gaze") {
+    if (
+      name == "Catchmoon" ||
+      name == "Rattleguts" ||
+      name == "Tombfinger" ||
+      name == "Gaze" ||
+      name == "Sporelacer" ||
+      name == "Vermisplicer"
+    ) {
       items.array[i]["type"] = "Secondary";
       items.array[i]["category"] = "Kitgun";
     }
@@ -49,13 +55,14 @@ module.exports = function (items) {
     if (name == "Ignis Wraith") {
       items.array[i]["specialNote"] = "Item are limited.";
     }
-  
+
     // Add a note to Multron that is found in Fortuna
     if (name == "Multron") {
-      items.array[i]["acquisition"] = items.array[i]["acquisition"] + " (Fortuna)";
+      items.array[i]["acquisition"] =
+        items.array[i]["acquisition"] + " (Fortuna)";
     }
 
-    // Change the Kuva Ayanga to a Archwing Gun 
+    // Change the Kuva Ayanga to a Archwing Gun
     if (name == "Kuva Ayanga") {
       items.array[i]["type"] = "Archwing Gun";
     }
@@ -88,6 +95,25 @@ module.exports = function (items) {
       items.array[i]["category"] = "Kavat";
     }
 
+    // Label Bonewidow as Vehicle / Necramech & add maxLevelCap
+    if (name == "Bonewidow") {
+      items.array[i]["type"] = "Vehicle";
+      items.array[i]["category"] = "Necramech";
+      items.array[i]["maxLevelCap"] = 40;
+    }
+
+    // Label Voidrig as Vehicle / Necramech & add maxLevelCap
+    if (name == "Voidrig Necramech") {
+      items.array[i]["type"] = "Vehicle";
+      items.array[i]["category"] = "Necramech";
+      items.array[i]["maxLevelCap"] = 40;
+    }
+
+    // Label Morgha
+    if (name == "Morgha") {
+      items.array[i]["type"] = "Archwing Gun";
+      delete items.array[i]["category"];
+    }
   }
   return items;
 

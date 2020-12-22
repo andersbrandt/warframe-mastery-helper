@@ -36,9 +36,14 @@ var app = {
           if (data.data[i].indexOf("MK1") == 0) {
             data.data[i] = data.data[i].replace("MK1", "Mk1");
           }
-          // Ugly hack to remove Primary Kitguns added by mistake
+          // Ugly hack to remove Primary Kitgun grips added by mistake
           var itemsToRemove = ["Brash", "Shrewd", "Steadyslam", "Tremor"];
           if (itemsToRemove.indexOf(data.data[i]) > -1) {
+            data.data.splice(i, 1);
+          }
+          // Ugly hack to Founders items that are checked by users
+          var foundersItemsToRemove = ["Excalibur Prime", "Lato Prime", "Skana Prime"];
+          if (foundersItemsToRemove.indexOf(data.data[i]) > -1) {
             data.data.splice(i, 1);
           }
         }
@@ -546,7 +551,6 @@ var app = {
   },
   stats: {
     create: function () {
-      //var types = app.data.constants.TYPES;
       var categories = [{
           "label": "Warframe",
           "types": [
@@ -623,12 +627,27 @@ var app = {
           var typeStatus = app.tools.statusByType(categories[key]["types"][type]);
           for (var i = 0; i < typeStatus["unranked"].length; i++) {
             typeDataUnranked.push(typeStatus["unranked"][i]);
+
+            // Kitguns need to added to Primary as well
+            if (typeStatus["unranked"][i]["category"] === "Kitgun") {
+              data[1]["unranked"].push(typeStatus["unranked"][i]);
+              if (categories[key]["types"][0] === "Secondary") {
+                data[1].total = data[1].total + 1;
+              }
+            }
           }
           for (var i = 0; i < typeStatus["ranked"].length; i++) {
             typeDataRanked.push(typeStatus["ranked"][i]);
+            // Kitguns need to added to Primary as well
+            if (typeStatus["ranked"][i]["category"] === "Kitgun") {
+              data[1]["ranked"].push(typeStatus["ranked"][i]);
+              if (categories[key]["types"][0] === "Secondary") {
+                data[1].total = data[1].total + 1;
+              }
+            }
           }
         }
-        var total = typeDataTotal + (typeDataRanked.length + typeDataUnranked.length);;
+        var total = typeDataTotal + (typeDataRanked.length + typeDataUnranked.length);
         var item = {
           "name": categories[key]["label"],
           "ranked": typeDataRanked,
@@ -636,13 +655,16 @@ var app = {
           "total": total
         };
         data.push(item);
-        totalItems += total;
         totalItemsRanked += typeDataRanked.length;
         totalItemsUnranked += typeDataUnranked.length;
+        if (categories[key]["types"][0] === "Primary") {
+          total = total + 6;
+        }
+        totalItems += total;
       }
       data.totalItemsRanked = totalItemsRanked;
       data.totalItemsUnranked = totalItemsUnranked;
-      data.totalItems = totalItems;
+      data.totalItems = totalItemsRanked + totalItemsUnranked + 6; // Add total amount of kitguns
       return data;
     }
   },

@@ -1,7 +1,7 @@
-<li class="item {{#if checked}}item-checked{{else}}item-unchecked{{/if}}{{#if vaulted}} item-vaulted{{/if}}{{#if unobtainable}} item-unobtainable{{/if}}" data-name="{{name}}">
+<li class="item {{#if checked}}item-checked{{else}}item-unchecked{{/if}}{{#if unobtainable}} item-unobtainable{{/if}}" data-name="{{name}}">
     <span class="action-toggle-info" data-item="{{name}}">
         <span class="name">{{name}}</span>
-        <span class="acquisition">{{acquisition}}{{#if vaulted}} <i class="icon-lock"></i> (Vaulted){{/if}}{{#if unobtainable}} <i class="icon-attention"></i>{{/if}}</span>
+        <span class="acquisition">{{acquisition}}{{#if unobtainable}} <i class="icon-attention"></i>{{/if}}</span>
         {{#ifCond this.tierRank "==" "3"}}
             <span class="tier-rank tier-rank-3">
                 <i class="icon-star-empty"></i><i class="icon-star-empty"></i><i class="icon-star-empty"></i>
