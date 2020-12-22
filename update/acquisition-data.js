@@ -3295,10 +3295,3 @@ var items = [
 module.exports = {
   items: items
 };
-
-  // {
-  //   name: "Morgha",
-  //   acquisition: UNKNOWN,
-  //   id: "/Lotus/Weapons/Tenno/Archwing/ThanoTechGrenadeLaunch/ThanoTechGrenadeLauncher"
-  // },
-      
