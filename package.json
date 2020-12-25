@@ -37,7 +37,7 @@
   },
   "dependencies": {
     "cheerio": "*",
-    "node-fetch": "^2.5.0",
+    "node-fetch": "^2.6.1",
     "path-alias": "0.0.7",
     "rimraf": "^2.7.1"
   }
