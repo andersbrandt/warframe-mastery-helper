@@ -102,10 +102,12 @@ module.exports = function (items) {
       items.array[i]["maxLevelCap"] = 40;
     }
 
-    // Label Voidrig as Vehicle / Necramech & add maxLevelCap
-    if (name == "Voidrig Necramech") {
+    // Label Voidrig as Vehicle / Necramech & add maxLevelCap, rename
+    if (name == "Voidrig") {
+      items.array[i]["name"] = "Voidrig Necramech";
       items.array[i]["type"] = "Vehicle";
       items.array[i]["category"] = "Necramech";
+      items.array[i]["imageName"] = "voidrig-necramech.png";
       items.array[i]["maxLevelCap"] = 40;
     }
 

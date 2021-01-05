@@ -94,7 +94,7 @@ CETUS_BOUNTY_40_60 = 'Cetus Bounty (Levels 40 - 60)';
 FOMORIAN_SABOTAGE = 'Fomorian Sabotage';
 INVASIONS = 'Invasions';
 LOGIN_REWARD = 'Login Reward';
-OPERATION_PLAGUE_STAR = 'Operation Plague Star (Cetus)';
+OPERATION_PLAGUE_STAR = 'Operation: Plague Star (Cetus)';
 RAZORBACK_ARMADA = 'Razorback Armada';
 RELICS = 'Relics';
 SANCTUARY_ONSLAUGHT = 'Sanctuary Onslaught';
@@ -104,6 +104,7 @@ DISRUPTION = "Disruption";
 EMPYREAN = 'Empyrean';
 SCARLET_SPEAR = "Operation: Scarlet Spear";
 GLASSMAKER = "Nightware: Glassmaker";
+ORPHIX_VENOM = "Operation: Orphix Venom";
 
 // Misc
 SENTINEL = 'Comes with Companion';
@@ -3267,29 +3268,40 @@ var items = [
   {
     name: "Sporothrix",
     acquisition: ISOLATION_VAULT,
-    id: "/Lotus/Weapons/Infested/LongGuns/InfSniperRifle/InfSniperRifle"
+    id: "/Lotus/Weapons/Infested/LongGuns/InfSniperRifle/InfSniperRifle",
   },
   {
     name: "Vermisplicer",
     acquisition: FATHER,
-    id: "/Lotus/Weapons/Infested/Pistols/InfKitGun/Barrels/InfBarrelBeam/InfModularBarrelBeamPart"
+    id:
+      "/Lotus/Weapons/Infested/Pistols/InfKitGun/Barrels/InfBarrelBeam/InfModularBarrelBeamPart",
   },
   {
     name: "Bonewidow",
     acquisition: LOID,
-    id: "/Lotus/Powersuits/EntratiMech/ThanoTech"
+    id: "/Lotus/Powersuits/EntratiMech/ThanoTech",
   },
   {
     name: "Voidrig Necramech",
     acquisition: LOID,
-    id: "/Lotus/Powersuits/EntratiMech/NechroTech"
+    id: "/Lotus/Powersuits/EntratiMech/NechroTech",
   },
   {
     name: "Morgha",
     acquisition: LOID,
-    id: "/Lotus/Weapons/Tenno/Archwing/Primary/ThanoTechGrenadeLaunch/ThanoTechGrenadeLauncher"
+    id:
+      "/Lotus/Weapons/Tenno/Archwing/Primary/ThanoTechGrenadeLaunch/ThanoTechGrenadeLauncher",
   },
-        
+  {
+    name: "Cedo",
+    acquisition: ORPHIX_VENOM,
+    id: "/Lotus/Weapons/Tenno/LongGuns/TnAlchemistShotgun/TnAlchemistShotgun",
+  },
+  {
+    name: "Lavos",
+    acquisition: ORPHIX_VENOM,
+    id: "/Lotus/Powersuits/Alchemist/Alchemist",
+  },
 ];
 
 module.exports = {
