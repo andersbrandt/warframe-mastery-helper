@@ -1982,6 +1982,31 @@ module.exports = {
       "component": false
     },
     {
+      "name": "Cedo",
+      "uniqueName": "/Lotus/Weapons/Tenno/LongGuns/TnAlchemistShotgun/TnAlchemistShotgun",
+      "description": "Launch a glaive that ricochets off surfaces in bursts of elemental damage, then perforate enemies with primary fire’s precision buck-shot. Damage increases with each Status Effect afflicting a target. Lavos will transmute a small portion of any ammo pickup to Shotgun Ammo when wielding his signature Cedo.",
+      "masteryReq": 8,
+      "productCategory": "LongGuns",
+      "trigger": "Auto",
+      "type": "Primary",
+      "imageName": "cedo.png",
+      "category": "Shotgun",
+      "tradable": false,
+      "projectile": "Hitscan",
+      "wikiaUrl": "http://warframe.fandom.com/wiki/Cedo",
+      "acquisition": "Operation: Orphix Venom",
+      "checked": false,
+      "unobtainable": false,
+      "tierData": true,
+      "tier": "Top",
+      "notes": "High damage per shot. Alt fire launches a (sic) glaive that bounces around with high status chance. Primary fire damage increases with Status Effect applied on victim similar to how Condition Overload works. ",
+      "dmg": "Critical & Status",
+      "tierRank": 3,
+      "buildLink": "https://overframe.gg/build/113589/",
+      "buildLinkDomain": "overframe.gg",
+      "component": false
+    },
+    {
       "name": "Centaur",
       "uniqueName": "/Lotus/Weapons/Tenno/Archwing/Melee/Archswordandshield/ArchSwordShield",
       "description": "Part sword, part shield, the Centaur excels at charging headlong into enemy fire.",
@@ -6533,6 +6558,23 @@ module.exports = {
       "component": false
     },
     {
+      "uniqueName": "/Lotus/Powersuits/Alchemist/Alchemist",
+      "name": "Lavos",
+      "description": "This master alchemist effortlessly commands the elemental forces.",
+      "masteryReq": 0,
+      "productCategory": "Suits",
+      "type": "Warframe",
+      "imageName": "lavos.png",
+      "tradable": false,
+      "wikiaUrl": "http://warframe.fandom.com/wiki/Lavos",
+      "acquisition": "Operation: Orphix Venom",
+      "checked": false,
+      "unobtainable": false,
+      "tierData": false,
+      "tierRank": 0,
+      "component": false
+    },
+    {
       "name": "Lecta",
       "uniqueName": "/Lotus/Weapons/Corpus/Melee/Whip/CorpusWhipWeapon",
       "description": "Half taser, half whip. The Corpus Lecta delivers a deadly shock to anything it touches.",
@@ -8597,7 +8639,7 @@ module.exports = {
       "category": "Zaw",
       "tradable": false,
       "wikiaUrl": "http://warframe.wikia.com/wiki/Plague_Keewar",
-      "acquisition": "Operation Plague Star (Cetus)",
+      "acquisition": "Operation: Plague Star (Cetus)",
       "checked": false,
       "unobtainable": false,
       "tierData": false,
@@ -8615,7 +8657,7 @@ module.exports = {
       "category": "Zaw",
       "tradable": false,
       "wikiaUrl": "http://warframe.wikia.com/wiki/Plague_Kripath",
-      "acquisition": "Operation Plague Star (Cetus)",
+      "acquisition": "Operation: Plague Star (Cetus)",
       "checked": false,
       "unobtainable": false,
       "tierData": false,
@@ -9007,6 +9049,7 @@ module.exports = {
       "imageName": "proboscis-cernos.png",
       "category": "Bow",
       "tradable": true,
+      "chargeTime": 0.7,
       "projectile": "Projectile",
       "wikiaUrl": "http://warframe.fandom.com/wiki/Proboscis_Cernos",
       "acquisition": "Market (Orbiter)",
@@ -10491,7 +10534,7 @@ module.exports = {
       "tradable": false,
       "projectile": "Hitscan",
       "wikiaUrl": "http://warframe.fandom.com/wiki/Snipetron",
-      "acquisition": "Operation Plague Star (Cetus)",
+      "acquisition": "Operation: Plague Star (Cetus)",
       "checked": false,
       "unobtainable": false,
       "tierData": false,
@@ -13163,5 +13206,5 @@ module.exports = {
       "component": false
     }
   ],
-  "fetched": "2020.12.25 09:37:52 CET+01:00"
+  "fetched": "2021.01.05 09:31:13 CET+01:00"
 }
