@@ -15,7 +15,7 @@ pathAlias.setAlias('static', 'update/static/');
 module.exports = {
   source: {
     path:
-      "https://raw.githubusercontent.com/WFCD/warframe-items/development/data/json/",
+      "https://raw.githubusercontent.com/WFCD/warframe-items/master/data/json/",
     files: [
       "Misc.json",
       "Archwing.json",

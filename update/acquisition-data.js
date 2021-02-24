@@ -3302,6 +3302,24 @@ var items = [
     acquisition: ORPHIX_VENOM,
     id: "/Lotus/Powersuits/Alchemist/Alchemist",
   },
+  // Octavia Prime Update
+  {
+    name: "Octavia Prime",
+    acquisition: RELICS,
+    id: "/Lotus/Powersuits/Bard/OctaviaPrime"
+  },
+
+  {
+    name: "Pandero Prime",
+    acquisition: RELICS,
+    id: "/Lotus/Weapons/Tenno/Pistols/PrimePandero/PanderoPrimeWeapon"
+  },
+
+  {
+    name: "Tenora Prime",
+    acquisition: RELICS,
+    id: "/Lotus/Weapons/Tenno/LongGuns/PrimeTenora/TenoraPrimeWeapon"
+  },
 ];
 
 module.exports = {
