@@ -118,6 +118,7 @@ VEIL_PROXIMA = "Veil Proxima Caches";
 TENNOCON_2020 = "Tennocon 2020 Twitch Reward";
 NECRAMECH = "Comes with Necramech";
 K_DRIVE_DEIMOS = "K-Drive Races (Deimos)";
+RAILJACK_CORPUS = "Railjack (Corpus)";
 
 //
 //  Add new items to the end of array
@@ -3306,19 +3307,37 @@ var items = [
   {
     name: "Octavia Prime",
     acquisition: RELICS,
-    id: "/Lotus/Powersuits/Bard/OctaviaPrime"
+    id: "/Lotus/Powersuits/Bard/OctaviaPrime",
   },
 
   {
     name: "Pandero Prime",
     acquisition: RELICS,
-    id: "/Lotus/Weapons/Tenno/Pistols/PrimePandero/PanderoPrimeWeapon"
+    id: "/Lotus/Weapons/Tenno/Pistols/PrimePandero/PanderoPrimeWeapon",
   },
 
   {
     name: "Tenora Prime",
     acquisition: RELICS,
-    id: "/Lotus/Weapons/Tenno/LongGuns/PrimeTenora/TenoraPrimeWeapon"
+    id: "/Lotus/Weapons/Tenno/LongGuns/PrimeTenora/TenoraPrimeWeapon",
+  },
+  // Corpus Proxima Update
+  {
+    name: "Carmine Penta",
+    acquisition: RAILJACK_CORPUS,
+    id: "/Lotus/Weapons/Corpus/LongGuns/GrenadeLauncher/CarminePenta"
+  },
+
+  {
+    name: "Nautilus",
+    acquisition: MARKET,
+    id: "/Lotus/Types/Sentinels/SentinelPowersuits/EmpyreanSentinelPowerSuit"
+  },
+
+  {
+    name: "Verglas",
+    acquisition: SENTINEL,
+    id: "/Lotus/Types/Sentinels/SentinelWeapons/SentinelFreezeRayRifle"
   },
 ];
 
