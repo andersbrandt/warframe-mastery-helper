@@ -3325,19 +3325,25 @@ var items = [
   {
     name: "Carmine Penta",
     acquisition: RAILJACK_CORPUS,
-    id: "/Lotus/Weapons/Corpus/LongGuns/GrenadeLauncher/CarminePenta"
+    id: "/Lotus/Weapons/Corpus/LongGuns/GrenadeLauncher/CarminePenta",
   },
 
   {
     name: "Nautilus",
     acquisition: MARKET,
-    id: "/Lotus/Types/Sentinels/SentinelPowersuits/EmpyreanSentinelPowerSuit"
+    id: "/Lotus/Types/Sentinels/SentinelPowersuits/EmpyreanSentinelPowerSuit",
   },
 
   {
     name: "Verglas",
     acquisition: SENTINEL,
-    id: "/Lotus/Types/Sentinels/SentinelWeapons/SentinelFreezeRayRifle"
+    id: "/Lotus/Types/Sentinels/SentinelWeapons/SentinelFreezeRayRifle",
+  },
+  // Prisma Dual Decurion handled manually in custom-add.js
+  {
+    name: "Prisma Dual Decurion",
+    acquisition: BARO_KITEER,
+    id: "/Lotus/Weapons/Tenno/Archwing/Primary/PrismaDualDecurionData/PrismaDualDecurionData"
   },
 ];
 

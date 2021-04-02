@@ -8907,6 +8907,32 @@ module.exports = {
       "component": false
     },
     {
+      "name": "Prisma Dual Decurion",
+      "type": "Archwing Gun",
+      "uniqueName": "/Lotus/Weapons/Tenno/Archwing/Primary/PrismaDualDecurionData/PrismaDualDecurionData",
+      "description": "The Prisma Dual Decurion is the Prisma variant of the Dual Decurion twin Arch-gun rifles, boasting higher critical chance, fire rate, status chance, and accuracy.",
+      "masteryReq": 10,
+      "productCategory": "SpaceGuns",
+      "trigger": "Auto",
+      "imageName": "dual-decurion.png",
+      "tradable": true,
+      "damage": "110.0",
+      "damageTypes": {
+        "impact": 49,
+        "slash": 30,
+        "puncture": 20
+      },
+      "wikiaThumbnail": "https://static.wikia.nocookie.net/warframe/images/b/bb/PrismaDualDecurion.png/revision/latest?cb=20201218230225",
+      "wikiaUrl": "https://warframe.fandom.com/wiki/Prisma_Dual_Decurion",
+      "disposition": 1,
+      "acquisition": "Baro Ki'Teer (Relay)",
+      "checked": false,
+      "unobtainable": false,
+      "tierData": false,
+      "tierRank": 0,
+      "component": false
+    },
+    {
       "name": "Prisma Gorgon",
       "uniqueName": "/Lotus/Weapons/Grineer/LongGuns/VoidTraderGorgon/VTGorgon",
       "description": "Adorned with void hardened prisma crystal, this Gorgon variant is prized for its beauty and enhanced mechanics.",
@@ -13327,5 +13353,5 @@ module.exports = {
       "component": false
     }
   ],
-  "fetched": "2021.03.21 07:17:52 CET+01:00"
+  "fetched": "2021.04.02 06:39:01 CET+02:00"
 }

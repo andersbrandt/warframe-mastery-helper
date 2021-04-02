@@ -10,7 +10,6 @@ module.exports = function (items) {
     masteryReq: 15,
     productCategory: "SpaceGuns",
     trigger: "Auto Burst",
-    type: "",
     imageName: "morgha.png",
     tradable: false,
     damage: "32.0",
@@ -22,7 +21,32 @@ module.exports = function (items) {
     wikiaUrl: "http://warframe.fandom.com/wiki/Morgha",
     disposition: 1,
   };
-
   items.array.push(morghaData);
+
+  var prismaDualDecurionData = {
+    name: "Prisma Dual Decurion",
+    type: "Archwing Gun",
+    uniqueName:
+      "/Lotus/Weapons/Tenno/Archwing/Primary/PrismaDualDecurionData/PrismaDualDecurionData",
+    description:
+      "The Prisma Dual Decurion is the Prisma variant of the Dual Decurion twin Arch-gun rifles, boasting higher critical chance, fire rate, status chance, and accuracy.",
+    masteryReq: 10,
+    productCategory: "SpaceGuns",
+    trigger: "Auto",
+    imageName: "dual-decurion.png",
+    tradable: true,
+    damage: "110.0",
+    damageTypes: {
+      impact: 49,
+      slash: 30,
+      puncture: 20,
+    },
+    wikiaThumbnail:
+      "https://static.wikia.nocookie.net/warframe/images/b/bb/PrismaDualDecurion.png/revision/latest?cb=20201218230225",
+    wikiaUrl: "https://warframe.fandom.com/wiki/Prisma_Dual_Decurion",
+    disposition: 1,
+  };
+  items.array.push(prismaDualDecurionData);
+  
   return items;
 };

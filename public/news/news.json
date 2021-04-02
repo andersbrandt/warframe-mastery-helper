@@ -1,5 +1,10 @@
 [
     {
+        "header": "Added Prisma Dual Decurion",
+        "date": "2021.04.02",
+        "url": "https://warframe.fandom.com/wiki/Prisma_Dual_Decurion"
+    },
+    {
         "header": "Added Corpus Proxima update",
         "date": "2021.03.20",
         "url": "https://www.warframe.com/news/corpus-proxima-and-the-new-railjack"
@@ -10,7 +15,7 @@
         "url": "https://www.warframe.com/news/octavia-prime-access"
     },
     {
-        "header": "Added Oprhix Vemon update",
+        "header": "Added Orphix Vemon update",
         "date": "2021.01.05",
         "url": "https://www.warframe.com/news/operation-orphix-venom"
     },
