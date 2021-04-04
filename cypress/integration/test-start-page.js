@@ -50,7 +50,6 @@ describe("Start Page", () => {
     cy.viewport(600, 600);
     cy.get("#wrapper-weapons")
       .find("img:visible")
-      .should("have.length", "0")
-      .and("not.be.visible");
+      .should("have.length", "0");
   });
 });

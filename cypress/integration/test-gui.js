@@ -117,7 +117,7 @@ describe("GUI", () => {
     //
     cy.get("#help-modal").should("not.be.visible");
     cy.get("#help-placeholder").should("not.be.visible");
-    cy.get(".reveal-modal-bg").should("not.be.visible").and("have.length", 0);
+    //cy.get(".reveal-modal-bg").should("not.be.visible").and("have.length", 0);
 
     //
     // Open modal
