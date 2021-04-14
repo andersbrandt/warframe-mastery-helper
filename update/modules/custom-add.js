@@ -47,6 +47,28 @@ module.exports = function (items) {
     disposition: 1,
   };
   items.array.push(prismaDualDecurionData);
+
+  var mausolonData = {
+    acquisition: "Comes with Necramech",
+    category: "",
+    checked: true,
+    component: false,
+    description: "An ancient weapon designed by the Entrati for use by their Necramechs. Primary fire siphons life essence from the target to fuel a devastating secondary fire. Punishing automatic primary fire and a secondary mode that charges up to unleash a destructive beam of energy with a large explosion at point of impact.",
+    imageName: "mausolon.png",
+    masteryReq: 14,
+    name: "Mausolon",
+    productCategory: "SpaceGuns",
+    projectile: "Hitscan",
+    tierData: false,
+    tierRank: 0,
+    tradable: false,
+    trigger: "Auto",
+    type: "Archwing Gun",
+    uniqueName: "/Lotus/Weapons/Tenno/Archwing/Primary/ThanoTechArchLongGun/ThanoTechLongGun",
+    unobtainable: false,
+    wikiaUrl: "http://warframe.fandom.com/wiki/Mausolon"   
+  }
+  items.array.push(mausolonData);
   
   return items;
 };

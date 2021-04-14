@@ -57,6 +57,10 @@ module.exports = function (items) {
       items.array.splice(i, 1);
     }
 
+    // Mausolon are added 3 times, remove all and add in custom-add.js
+    if (items.array[i]["name"] === "Mausolon") {
+      items.array.splice(i, 1);
+    }
 
   }
 

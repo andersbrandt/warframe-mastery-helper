@@ -45,11 +45,11 @@ class Updater {
         paths.source.files
       );
 
-      await
-      this.customAdd();
+      await 
+      this.customRemove();
 
       await
-      this.customRemove();
+      this.customAdd();
 
       await
       this.sort();

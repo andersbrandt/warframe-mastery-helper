@@ -86,6 +86,7 @@ VOX_SOLARIS = "Vox Solaris (Quest)";
 BURIED_DEBTS = "Buried Debts (Quest)";
 DEADLOCK_PROTOCOL = "Deadlock Protocol (Quest)";
 HEART_OF_DEIMOS = "Hearth of Deimos (Quest)";
+TEMPESTARII = "Call of the Tempestarii (Quest)";
 
 // Rewards
 ANNIVERSARY = 'Anniversary';
@@ -119,6 +120,7 @@ TENNOCON_2020 = "Tennocon 2020 Twitch Reward";
 NECRAMECH = "Comes with Necramech";
 K_DRIVE_DEIMOS = "K-Drive Races (Deimos)";
 RAILJACK_CORPUS = "Railjack (Corpus)";
+VOID_STORM = "Void Storms (Railjack)";
 
 //
 //  Add new items to the end of array
@@ -3343,7 +3345,24 @@ var items = [
   {
     name: "Prisma Dual Decurion",
     acquisition: BARO_KITEER,
-    id: "/Lotus/Weapons/Tenno/Archwing/Primary/PrismaDualDecurionData/PrismaDualDecurionData"
+    id:
+      "/Lotus/Weapons/Tenno/Archwing/Primary/PrismaDualDecurionData/PrismaDualDecurionData",
+  },
+  // Call of the Tempestarii
+  {
+    name: "Epitaph",
+    acquisition: VOID_STORM,
+    id: "/Lotus/Weapons/Tenno/Pistols/TnWraitheSidearm/TnWraitheSidearmWeapon",
+  },
+  {
+    name: "Halikar Wraith",
+    acquisition: BARO_KITEER,
+    id: "/Lotus/Weapons/Grineer/Melee/GrnBoomerang/HalikarWraithWeapon"
+  },
+  {
+    name: "Sevagoth",
+    acquisition: TEMPESTARII,
+    id: "/Lotus/Powersuits/Wraith/Wraith",
   },
 ];
 
