@@ -3311,13 +3311,11 @@ var items = [
     acquisition: RELICS,
     id: "/Lotus/Powersuits/Bard/OctaviaPrime",
   },
-
   {
     name: "Pandero Prime",
     acquisition: RELICS,
     id: "/Lotus/Weapons/Tenno/Pistols/PrimePandero/PanderoPrimeWeapon",
   },
-
   {
     name: "Tenora Prime",
     acquisition: RELICS,
@@ -3329,7 +3327,6 @@ var items = [
     acquisition: RAILJACK_CORPUS,
     id: "/Lotus/Weapons/Corpus/LongGuns/GrenadeLauncher/CarminePenta",
   },
-
   {
     name: "Nautilus",
     acquisition: MARKET,

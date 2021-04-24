@@ -7031,7 +7031,6 @@ module.exports = {
     {
       "acquisition": "Comes with Necramech",
       "category": "",
-      "checked": false,
       "component": false,
       "description": "An ancient weapon designed by the Entrati for use by their Necramechs. Primary fire siphons life essence from the target to fuel a devastating secondary fire. Punishing automatic primary fire and a secondary mode that charges up to unleash a destructive beam of energy with a large explosion at point of impact.",
       "imageName": "mausolon.png",
@@ -7046,7 +7045,8 @@ module.exports = {
       "type": "Archwing Gun",
       "uniqueName": "/Lotus/Weapons/Tenno/Archwing/Primary/ThanoTechArchLongGun/ThanoTechLongGun",
       "unobtainable": false,
-      "wikiaUrl": "http://warframe.fandom.com/wiki/Mausolon"
+      "wikiaUrl": "http://warframe.fandom.com/wiki/Mausolon",
+      "checked": false
     },
     {
       "uniqueName": "/Lotus/Types/Friendly/Pets/CreaturePets/MedjayPredatorKubrowPetPowerSuit",
@@ -8807,6 +8807,24 @@ module.exports = {
       "buildLinkDomain": "overframe.gg",
       "combo": "Wings and Beak",
       "component": false
+    },
+    {
+      "acquisition": "Comes with Railjack",
+      "category": "Railjack",
+      "component": false,
+      "description": "The Plexus allows you to use your Railjack mod selection with any Railjack you crew upon.",
+      "imageName": "railjack.png",
+      "masteryReq": 3,
+      "name": "Plexus",
+      "tierData": false,
+      "tierRank": 0,
+      "tradable": false,
+      "trigger": "Auto",
+      "type": "Vehicle",
+      "uniqueName": "/Lotus/Tenno/Plexus",
+      "unobtainable": false,
+      "wikiaUrl": "http://warframe.fandom.com/wiki/Plexus",
+      "checked": false
     },
     {
       "name": "Plinx",
@@ -11371,7 +11389,7 @@ module.exports = {
     {
       "name": "Synapse",
       "uniqueName": "/Lotus/Weapons/Infested/LongGuns/InfestedRifle",
-      "description": "Powered by a bio-chemical reaction, the infested Synapse rifle fries its targets with a steady stream of <DT_CORROSIVE>Corrosive energy.",
+      "description": "Powered by a bio-chemical reaction, the Infested Synapse rifle fries its targets with a steady stream of <DT_CORROSIVE>Corrosive energy.",
       "masteryReq": 11,
       "productCategory": "LongGuns",
       "trigger": "Held",
@@ -13417,5 +13435,5 @@ module.exports = {
       "component": false
     }
   ],
-  "fetched": "2021.04.14 06:43:20 CET+02:00"
+  "fetched": "2021.04.16 07:37:54 CET+02:00"
 }
