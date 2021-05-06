@@ -1661,7 +1661,7 @@ module.exports = {
       "buildLink": "https://overframe.gg/build/28647/",
       "buildLinkDomain": "overframe.gg",
       "combo": "Wings and Beak",
-      "component": true
+      "component": false
     },
     {
       "name": "Bronco",
@@ -1702,7 +1702,7 @@ module.exports = {
       "unobtainable": false,
       "tierData": false,
       "tierRank": 0,
-      "component": true
+      "component": false
     },
     {
       "name": "Bubonico",
@@ -3143,7 +3143,7 @@ module.exports = {
       "unobtainable": false,
       "tierData": false,
       "tierRank": 0,
-      "component": true
+      "component": false
     },
     {
       "name": "Dual Decurion",
@@ -3255,7 +3255,7 @@ module.exports = {
       "unobtainable": false,
       "tierData": false,
       "tierRank": 0,
-      "component": true
+      "component": false
     },
     {
       "name": "Dual Kamas Prime",
@@ -3357,7 +3357,7 @@ module.exports = {
       "buildLink": "https://overframe.gg/build/28668/",
       "buildLinkDomain": "overframe.gg",
       "combo": "Winding Claws",
-      "component": true
+      "component": false
     },
     {
       "name": "Dual Toxocyst",
@@ -3407,7 +3407,7 @@ module.exports = {
       "buildLink": "https://overframe.gg/build/28669/",
       "buildLinkDomain": "overframe.gg",
       "combo": "Winding Claws",
-      "component": true
+      "component": false
     },
     {
       "uniqueName": "/Lotus/Powersuits/Archwing/DemolitionJetPack/DemolitionJetPack",
@@ -6767,7 +6767,7 @@ module.exports = {
       "tierRank": 0,
       "buildLink": "https://overframe.gg/build/27883/",
       "buildLinkDomain": "overframe.gg",
-      "component": true
+      "component": false
     },
     {
       "uniqueName": "/Lotus/Powersuits/Magician/Magician",
@@ -7456,7 +7456,7 @@ module.exports = {
       "tierRank": 3,
       "buildLink": "https://overframe.gg/build/26564/",
       "buildLinkDomain": "overframe.gg",
-      "component": true
+      "component": false
     },
     {
       "name": "Mutalist Quanta",
@@ -8716,7 +8716,7 @@ module.exports = {
       "imageName": "phantasma.png",
       "category": "Shotgun",
       "tradable": false,
-      "projectile": "Projectile",
+      "projectile": "Hitscan",
       "wikiaUrl": "http://warframe.fandom.com/wiki/Phantasma",
       "acquisition": "Market (Orbiter)",
       "checked": false,
@@ -10406,7 +10406,7 @@ module.exports = {
       "trigger": "Auto",
       "type": "Primary",
       "imageName": "shedu.png",
-      "category": "Arm-Cannon",
+      "category": "Arm Cannon",
       "tradable": false,
       "projectile": "Projectile",
       "wikiaUrl": "http://warframe.fandom.com/wiki/Shedu",
@@ -12413,7 +12413,7 @@ module.exports = {
       "tierRank": 0,
       "buildLink": "https://overframe.gg/build/27926/",
       "buildLinkDomain": "overframe.gg",
-      "component": true
+      "component": false
     },
     {
       "uniqueName": "/Lotus/Powersuits/Trapper/Trapper",
@@ -13435,5 +13435,5 @@ module.exports = {
       "component": false
     }
   ],
-  "fetched": "2021.04.16 07:37:54 CET+02:00"
+  "fetched": "2021.05.06 08:19:24 CET+02:00"
 }
