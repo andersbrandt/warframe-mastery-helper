@@ -132,32 +132,27 @@ var items = [
   {
     name: "Granmu Prism",
     acquisition: THE_QUILLS,
-    id:
-      "/Lotus/Weapons/Sentients/OperatorAmplifiers/Set1/Barrel/SentAmpSet1BarrelPartC",
+    id: "/Lotus/Weapons/Sentients/OperatorAmplifiers/Set1/Barrel/SentAmpSet1BarrelPartC",
   },
   {
     name: "Mote Prism",
     acquisition: THE_QUILLS,
-    id:
-      "/Lotus/Weapons/Sentients/OperatorAmplifiers/SentTrainingAmplifier/SentAmpTrainingBarrel",
+    id: "/Lotus/Weapons/Sentients/OperatorAmplifiers/SentTrainingAmplifier/SentAmpTrainingBarrel",
   },
   {
     name: "Rahn Prism",
     acquisition: THE_QUILLS,
-    id:
-      "/Lotus/Weapons/Sentients/OperatorAmplifiers/Set2/Barrel/SentAmpSet2BarrelPartA",
+    id: "/Lotus/Weapons/Sentients/OperatorAmplifiers/Set2/Barrel/SentAmpSet2BarrelPartA",
   },
   {
     name: "Raplak Prism",
     acquisition: THE_QUILLS,
-    id:
-      "/Lotus/Weapons/Sentients/OperatorAmplifiers/Set1/Barrel/SentAmpSet1BarrelPartA",
+    id: "/Lotus/Weapons/Sentients/OperatorAmplifiers/Set1/Barrel/SentAmpSet1BarrelPartA",
   },
   {
     name: "Shwaak Prism",
     acquisition: THE_QUILLS,
-    id:
-      "/Lotus/Weapons/Sentients/OperatorAmplifiers/Set1/Barrel/SentAmpSet1BarrelPartB",
+    id: "/Lotus/Weapons/Sentients/OperatorAmplifiers/Set1/Barrel/SentAmpSet1BarrelPartB",
   },
   {
     name: "Amesha",
@@ -197,32 +192,27 @@ var items = [
   {
     name: "Dual Decurion",
     acquisition: MARKET,
-    id:
-      "/Lotus/Weapons/Tenno/Archwing/Primary/ArchwingHeavyPistols/ArchHeavyPistols",
+    id: "/Lotus/Weapons/Tenno/Archwing/Primary/ArchwingHeavyPistols/ArchHeavyPistols",
   },
   {
     name: "Fluctus",
     acquisition: DOJO_TENNO_LAB,
-    id:
-      "/Lotus/Weapons/Tenno/Archwing/Primary/RocketArtillery/ArchRocketCrossbow",
+    id: "/Lotus/Weapons/Tenno/Archwing/Primary/RocketArtillery/ArchRocketCrossbow",
   },
   {
     name: "Grattler",
     acquisition: DOJO_CHEM_LAB,
-    id:
-      "/Lotus/Weapons/Tenno/Archwing/Primary/RepurposedGrineerAntiAircraftGun/ArchGRNAAGun",
+    id: "/Lotus/Weapons/Tenno/Archwing/Primary/RepurposedGrineerAntiAircraftGun/ArchGRNAAGun",
   },
   {
     name: "Imperator",
     acquisition: THE_ARCHWING,
-    id:
-      "/Lotus/Weapons/Tenno/Archwing/Primary/FoldingMachineGun/ArchMachineGun",
+    id: "/Lotus/Weapons/Tenno/Archwing/Primary/FoldingMachineGun/ArchMachineGun",
   },
   {
     name: "Imperator Vandal",
     acquisition: FOMORIAN_SABOTAGE,
-    id:
-      "/Lotus/Weapons/Tenno/Archwing/Primary/FoldingMachineGun/ArchMachineGunVandal",
+    id: "/Lotus/Weapons/Tenno/Archwing/Primary/FoldingMachineGun/ArchMachineGunVandal",
   },
   {
     name: "Phaedra",
@@ -242,8 +232,7 @@ var items = [
   {
     name: "Centaur",
     acquisition: MARKET,
-    id:
-      "/Lotus/Weapons/Tenno/Archwing/Melee/Archswordandshield/ArchSwordShield",
+    id: "/Lotus/Weapons/Tenno/Archwing/Melee/Archswordandshield/ArchSwordShield",
   },
   {
     name: "Kaszas",
@@ -263,8 +252,7 @@ var items = [
   {
     name: "Prisma Veritux",
     acquisition: BARO_KITEER,
-    id:
-      "/Lotus/Weapons/Tenno/Archwing/Melee/VoidTraderArchsword/VTArchSwordWeapon",
+    id: "/Lotus/Weapons/Tenno/Archwing/Melee/VoidTraderArchsword/VTArchSwordWeapon",
   },
   {
     name: "Rathbone",
@@ -394,8 +382,7 @@ var items = [
   {
     name: "Deconstructor Prime",
     acquisition: SENTINEL,
-    id:
-      "/Lotus/Types/Sentinels/SentinelWeapons/DeconstructorPrime/PrimeHeliosGlaiveWeapon",
+    id: "/Lotus/Types/Sentinels/SentinelWeapons/DeconstructorPrime/PrimeHeliosGlaiveWeapon",
   },
   {
     name: "Deth Machine Rifle",
@@ -905,8 +892,7 @@ var items = [
   {
     name: "Hema",
     acquisition: DOJO_BIO_LAB,
-    id:
-      "/Lotus/Weapons/Infested/LongGuns/InfWFAccompanyingPri/InfestedBurstRifle",
+    id: "/Lotus/Weapons/Infested/LongGuns/InfWFAccompanyingPri/InfestedBurstRifle",
   },
   {
     name: "Hind",
@@ -996,8 +982,7 @@ var items = [
   {
     name: "Mutalist Quanta",
     acquisition: DOJO_BIO_LAB,
-    id:
-      "/Lotus/Weapons/Infested/LongGuns/InfCrpShockSwarm/InfCrpShockSwarmRifle",
+    id: "/Lotus/Weapons/Infested/LongGuns/InfCrpShockSwarm/InfCrpShockSwarmRifle",
   },
   {
     name: "Ogris",
@@ -1072,8 +1057,7 @@ var items = [
   {
     name: "Quartakk",
     acquisition: CETUS_BOUNTY_GHOUL,
-    id:
-      "/Lotus/Weapons/Grineer/LongGuns/GrnFourBarrelRifle/GrnFourBarrelRifleWeapon",
+    id: "/Lotus/Weapons/Grineer/LongGuns/GrnFourBarrelRifle/GrnFourBarrelRifleWeapon",
   },
   {
     name: "Rakta Cernos",
@@ -1203,8 +1187,7 @@ var items = [
   {
     name: "Tigris",
     acquisition: MARKET,
-    id:
-      "/Lotus/Weapons/Tenno/LongGuns/DoubleBarrelShotgun/TennoDoubleBarrelShotgun",
+    id: "/Lotus/Weapons/Tenno/LongGuns/DoubleBarrelShotgun/TennoDoubleBarrelShotgun",
   },
   {
     name: "Tigris Prime",
@@ -1574,8 +1557,7 @@ var items = [
   {
     name: "Prisma Twin Gremlins",
     acquisition: BARO_KITEER,
-    id:
-      "/Lotus/Weapons/Grineer/Pistols/GrineerBulbousSMG/Prisma/PrismaTwinGremlinsWeapon",
+    id: "/Lotus/Weapons/Grineer/Pistols/GrineerBulbousSMG/Prisma/PrismaTwinGremlinsWeapon",
   },
   {
     name: "Pyrana",
@@ -1660,8 +1642,7 @@ var items = [
   {
     name: "Talons",
     acquisition: DOJO_TENNO_LAB,
-    id:
-      "/Lotus/Weapons/Tenno/ThrowingWeapons/U18ThrowingKnives/U18throwingknives",
+    id: "/Lotus/Weapons/Tenno/ThrowingWeapons/U18ThrowingKnives/U18throwingknives",
   },
   {
     name: "Telos Akbolto",
@@ -1686,8 +1667,7 @@ var items = [
   {
     name: "Twin Rogga",
     acquisition: MARKET,
-    id:
-      "/Lotus/Weapons/Grineer/Pistols/GrnQueenGuardDualPistol/GrnQueenGuardDualPistols",
+    id: "/Lotus/Weapons/Grineer/Pistols/GrnQueenGuardDualPistol/GrnQueenGuardDualPistols",
   },
   {
     name: "Twin Vipers",
@@ -1797,8 +1777,7 @@ var items = [
   {
     name: "Cassowar",
     acquisition: DOJO_TENNO_LAB,
-    id:
-      "/Lotus/Weapons/Tenno/Melee/Polearms/TnHalberdPolearm/TnHalberdPolearmWeapon",
+    id: "/Lotus/Weapons/Tenno/Melee/Polearms/TnHalberdPolearm/TnHalberdPolearmWeapon",
   },
   {
     name: "Caustacyst",
@@ -1813,8 +1792,7 @@ var items = [
   {
     name: "Cerata",
     acquisition: DOJO_BIO_LAB,
-    id:
-      "/Lotus/Weapons/Infested/Melee/Glaives/PunctureGlaive/PunctureGlaiveWeapon",
+    id: "/Lotus/Weapons/Infested/Melee/Glaives/PunctureGlaive/PunctureGlaiveWeapon",
   },
   {
     name: "Cronus",
@@ -1834,8 +1812,7 @@ var items = [
   {
     name: "Dark Split-Sword",
     acquisition: DOJO_TENNO_LAB,
-    id:
-      "/Lotus/Weapons/Tenno/Melee/Swords/DarkSword/DarkSwordDaggerHybridWeapon",
+    id: "/Lotus/Weapons/Tenno/Melee/Swords/DarkSword/DarkSwordDaggerHybridWeapon",
   },
   {
     name: "Dark Sword",
@@ -1865,8 +1842,7 @@ var items = [
   {
     name: "Dual Cleavers",
     acquisition: MARKET,
-    id:
-      "/Lotus/Weapons/Grineer/Melee/GrineerMachetteAndCleaver/DualCleaverWeapon",
+    id: "/Lotus/Weapons/Grineer/Melee/GrineerMachetteAndCleaver/DualCleaverWeapon",
   },
   {
     name: "Dual Ether",
@@ -1996,8 +1972,7 @@ var items = [
   {
     name: "Guandao",
     acquisition: DOJO_TENNO_LAB,
-    id:
-      "/Lotus/Weapons/Tenno/Melee/Polearms/TnGuandaoPolearm/TnGuandaoPolearmWeapon",
+    id: "/Lotus/Weapons/Tenno/Melee/Polearms/TnGuandaoPolearm/TnGuandaoPolearmWeapon",
   },
   {
     name: "Gunsen",
@@ -2032,14 +2007,12 @@ var items = [
   {
     name: "Hirudo",
     acquisition: MARKET,
-    id:
-      "/Lotus/Weapons/Infested/Melee/InfWFAccompanyingSparring/InfestedKogake",
+    id: "/Lotus/Weapons/Infested/Melee/InfWFAccompanyingSparring/InfestedKogake",
   },
   {
     name: "Jat Kittag",
     acquisition: DOJO_CHEM_LAB,
-    id:
-      "/Lotus/Weapons/Grineer/Melee/GrineerJetPoweredPolearm/GrineerJetPolearm",
+    id: "/Lotus/Weapons/Grineer/Melee/GrineerJetPoweredPolearm/GrineerJetPolearm",
   },
   {
     name: "Jat Kusar",
@@ -2094,8 +2067,7 @@ var items = [
   {
     name: "Kronen Prime",
     acquisition: RELICS,
-    id:
-      "/Lotus/Weapons/Tenno/Melee/Tonfa/TonfaContestWinnerPrime/TonfaContestWinnerPrimeWeapon",
+    id: "/Lotus/Weapons/Tenno/Melee/Tonfa/TonfaContestWinnerPrime/TonfaContestWinnerPrimeWeapon",
   },
   {
     name: "Lacera",
@@ -2130,8 +2102,7 @@ var items = [
   {
     name: "Machete Wraith",
     acquisition: BARO_KITEER,
-    id:
-      "/Lotus/Weapons/Grineer/Melee/GrineerMachetteAndCleaver/WraithMacheteWeapon",
+    id: "/Lotus/Weapons/Grineer/Melee/GrineerMachetteAndCleaver/WraithMacheteWeapon",
   },
   {
     name: "Magistar",
@@ -2151,8 +2122,7 @@ var items = [
   {
     name: "Nami Skyla",
     acquisition: DOJO_TENNO_LAB,
-    id:
-      "/Lotus/Weapons/Tenno/Melee/Swords/CutlassAndPoignard/CutlassPoignardSwords",
+    id: "/Lotus/Weapons/Tenno/Melee/Swords/CutlassAndPoignard/CutlassPoignardSwords",
   },
   {
     name: "Nami Skyla Prime",
@@ -2222,8 +2192,7 @@ var items = [
   {
     name: "Prisma Dual Cleavers",
     acquisition: BARO_KITEER,
-    id:
-      "/Lotus/Weapons/Grineer/Melee/GrineerMachetteAndCleaver/PrismaDualCleavers",
+    id: "/Lotus/Weapons/Grineer/Melee/GrineerMachetteAndCleaver/PrismaDualCleavers",
   },
   {
     name: "Prisma Obex",
@@ -2273,8 +2242,7 @@ var items = [
   {
     name: "Sarpa",
     acquisition: MARKET,
-    id:
-      "/Lotus/Weapons/Tenno/Melee/Gunblade/GunbladeAutomatic/TnoGunbladeAutomatic",
+    id: "/Lotus/Weapons/Tenno/Melee/Gunblade/GunbladeAutomatic/TnoGunbladeAutomatic",
   },
   {
     name: "Scindo",
@@ -2299,8 +2267,7 @@ var items = [
   {
     name: "Serro",
     acquisition: DOJO_ENERGY_LAB,
-    id:
-      "/Lotus/Weapons/Corpus/Melee/Polearm/CorpusPolearm01/CorpusPolearmWeapon",
+    id: "/Lotus/Weapons/Corpus/Melee/Polearm/CorpusPolearm01/CorpusPolearmWeapon",
   },
   {
     name: "Shaku",
@@ -2320,14 +2287,12 @@ var items = [
   {
     name: "Sigma & Octantis",
     acquisition: LOGIN_REWARD,
-    id:
-      "/Lotus/Weapons/Tenno/Melee/SwordsAndBoards/SundialSwordBoard/SundialBoardSword",
+    id: "/Lotus/Weapons/Tenno/Melee/SwordsAndBoards/SundialSwordBoard/SundialBoardSword",
   },
   {
     name: "Silva & Aegis",
     acquisition: DOJO_TENNO_LAB,
-    id:
-      "/Lotus/Weapons/Tenno/Melee/SwordsAndBoards/MeleeContestWinnerOne/TennoSwordShield",
+    id: "/Lotus/Weapons/Tenno/Melee/SwordsAndBoards/MeleeContestWinnerOne/TennoSwordShield",
   },
   {
     name: "Silva & Aegis Prime",
@@ -2377,8 +2342,7 @@ var items = [
   {
     name: "Tonbo",
     acquisition: DOJO_TENNO_LAB,
-    id:
-      "/Lotus/Weapons/Tenno/Melee/Polearms/FlowerPowerPolearm/FlowerPowerPolearmWep",
+    id: "/Lotus/Weapons/Tenno/Melee/Polearms/FlowerPowerPolearm/FlowerPowerPolearmWep",
   },
   {
     name: "Twin Basolk",
@@ -2519,8 +2483,7 @@ var items = [
   {
     name: "Battacor",
     acquisition: DOJO_ENERGY_LAB,
-    id:
-      "/Lotus/Weapons/Corpus/LongGuns/CrpSentExperimentRifle/CrpSentExperimentRifle",
+    id: "/Lotus/Weapons/Corpus/LongGuns/CrpSentExperimentRifle/CrpSentExperimentRifle",
   },
   {
     name: "Cryotra",
@@ -2550,8 +2513,7 @@ var items = [
   {
     name: "Ocucor",
     acquisition: DOJO_ENERGY_LAB,
-    id:
-      "/Lotus/Weapons/Corpus/Pistols/CrpSentExperimentPistol/CrpSentExperimentPistol",
+    id: "/Lotus/Weapons/Corpus/Pistols/CrpSentExperimentPistol/CrpSentExperimentPistol",
   },
   {
     name: "Oxylus",
@@ -2566,20 +2528,17 @@ var items = [
   {
     name: "Vulcax",
     acquisition: LEGS,
-    id:
-      "/Lotus/Types/Friendly/Pets/MoaPets/MoaPetComponents/ThermocorMoaWeapon",
+    id: "/Lotus/Types/Friendly/Pets/MoaPets/MoaPetComponents/ThermocorMoaWeapon",
   },
   {
     name: "Catchmoon",
     acquisition: RUDE_ZUUD,
-    id:
-      "/Lotus/Weapons/SolarisUnited/Secondary/SUModularSecondarySet1/Barrel/SUModularSecondaryBarrelAPart",
+    id: "/Lotus/Weapons/SolarisUnited/Secondary/SUModularSecondarySet1/Barrel/SUModularSecondaryBarrelAPart",
   },
   {
     name: "Gaze",
     acquisition: RUDE_ZUUD,
-    id:
-      "/Lotus/Weapons/SolarisUnited/Secondary/SUModularSecondarySet1/Barrel/SUModularSecondaryBarrelDPart",
+    id: "/Lotus/Weapons/SolarisUnited/Secondary/SUModularSecondarySet1/Barrel/SUModularSecondaryBarrelDPart",
   },
   {
     name: "Lambeo Moa",
@@ -2599,40 +2558,34 @@ var items = [
   {
     name: "Rattleguts",
     acquisition: RUDE_ZUUD,
-    id:
-      "/Lotus/Weapons/SolarisUnited/Secondary/SUModularSecondarySet1/Barrel/SUModularSecondaryBarrelCPart",
+    id: "/Lotus/Weapons/SolarisUnited/Secondary/SUModularSecondarySet1/Barrel/SUModularSecondaryBarrelCPart",
   },
   {
     name: "Tombfinger",
     acquisition: RUDE_ZUUD,
-    id:
-      "/Lotus/Weapons/SolarisUnited/Secondary/SUModularSecondarySet1/Barrel/SUModularSecondaryBarrelBPart",
+    id: "/Lotus/Weapons/SolarisUnited/Secondary/SUModularSecondarySet1/Barrel/SUModularSecondaryBarrelBPart",
   },
 
   {
     name: "Bad Baby",
     acquisition: VENT_KID,
-    id:
-      "/Lotus/Types/Vehicles/Hoverboard/HoverboardParts/PartComponents/HoverboardSolarisA/HoverboardSolarisADeck",
+    id: "/Lotus/Types/Vehicles/Hoverboard/HoverboardParts/PartComponents/HoverboardSolarisA/HoverboardSolarisADeck",
   },
   {
     name: "Flatbelly",
     acquisition: VENT_KID,
-    id:
-      "/Lotus/Types/Vehicles/Hoverboard/HoverboardParts/PartComponents/HoverboardCorpusA/HoverboardCorpusADeck",
+    id: "/Lotus/Types/Vehicles/Hoverboard/HoverboardParts/PartComponents/HoverboardCorpusA/HoverboardCorpusADeck",
   },
   {
     name: "Needlenose",
     acquisition: VENT_KID,
-    id:
-      "/Lotus/Types/Vehicles/Hoverboard/HoverboardParts/PartComponents/HoverboardCorpusB/HoverboardCorpusBDeck",
+    id: "/Lotus/Types/Vehicles/Hoverboard/HoverboardParts/PartComponents/HoverboardCorpusB/HoverboardCorpusBDeck",
   },
   // Hotfix addition
   {
     name: "Akvasto Prime",
     acquisition: RELICS,
-    id:
-      "/Lotus/Weapons/Tenno/Pistols/PrimeVasto/AkPrimeVasto/AkPrimeVastoPistol",
+    id: "/Lotus/Weapons/Tenno/Pistols/PrimeVasto/AkPrimeVasto/AkPrimeVastoPistol",
   },
   // Mesa Prime
   {
@@ -2659,8 +2612,7 @@ var items = [
   {
     name: "Cantic Prism",
     acquisition: LITTLE_DUCK,
-    id:
-      "/Lotus/Weapons/Corpus/OperatorAmplifiers/Set1/Barrel/CorpAmpSet1BarrelPartA",
+    id: "/Lotus/Weapons/Corpus/OperatorAmplifiers/Set1/Barrel/CorpAmpSet1BarrelPartA",
   },
   {
     name: "Exergis",
@@ -2675,14 +2627,12 @@ var items = [
   {
     name: "Klamora Prism",
     acquisition: LITTLE_DUCK,
-    id:
-      "/Lotus/Weapons/Corpus/OperatorAmplifiers/Set1/Barrel/CorpAmpSet1BarrelPartC",
+    id: "/Lotus/Weapons/Corpus/OperatorAmplifiers/Set1/Barrel/CorpAmpSet1BarrelPartC",
   },
   {
     name: "Lega Prism",
     acquisition: LITTLE_DUCK,
-    id:
-      "/Lotus/Weapons/Corpus/OperatorAmplifiers/Set1/Barrel/CorpAmpSet1BarrelPartB",
+    id: "/Lotus/Weapons/Corpus/OperatorAmplifiers/Set1/Barrel/CorpAmpSet1BarrelPartB",
   },
   {
     name: "Plinx",
@@ -2692,8 +2642,7 @@ var items = [
   {
     name: "Cobra & Crane",
     acquisition: MARKET,
-    id:
-      "/Lotus/Weapons/Tenno/Melee/SwordsAndBoards/PacifistShieldAndSword/PacifistShieldSword",
+    id: "/Lotus/Weapons/Tenno/Melee/SwordsAndBoards/PacifistShieldAndSword/PacifistShieldSword",
   },
   // Buried Debts
   {
@@ -2704,8 +2653,7 @@ var items = [
   {
     name: "Larkspur",
     acquisition: DOJO_TENNO_LAB,
-    id:
-      "/Lotus/Weapons/Tenno/Archwing/Primary/TnShieldframeArchGun/TnShieldFrameArchGun",
+    id: "/Lotus/Weapons/Tenno/Archwing/Primary/TnShieldframeArchGun/TnShieldFrameArchGun",
   },
   {
     name: "Opticor Vandal",
@@ -2715,14 +2663,12 @@ var items = [
   {
     name: "Prisma Grinlok",
     acquisition: BARO_KITEER,
-    id:
-      "/Lotus/Weapons/Grineer/LongGuns/GrineerLeverActionRifle/PrismaGrinlokWeapon",
+    id: "/Lotus/Weapons/Grineer/LongGuns/GrineerLeverActionRifle/PrismaGrinlokWeapon",
   },
   {
     name: "Runway",
     acquisition: VENT_KID,
-    id:
-      "/Lotus/Types/Vehicles/Hoverboard/HoverboardParts/PartComponents/HoverboardCorpusC/HoverboardCorpusCDeck",
+    id: "/Lotus/Types/Vehicles/Hoverboard/HoverboardParts/PartComponents/HoverboardCorpusC/HoverboardCorpusCDeck",
   },
   {
     name: "Tatsu",
@@ -2749,8 +2695,7 @@ var items = [
   {
     name: "Korrudo",
     acquisition: TUSK_THUMPER,
-    id:
-      "/Lotus/Weapons/Grineer/Melee/GrnSparring/GrnSpiderSparring/GrnSpiderSparring",
+    id: "/Lotus/Weapons/Grineer/Melee/GrnSparring/GrnSpiderSparring/GrnSpiderSparring",
   },
   // Nightwave Season 1
   {
@@ -2772,8 +2717,7 @@ var items = [
   {
     name: "Glaxion Vandal",
     acquisition: BARO_KITEER,
-    id:
-      "/Lotus/Weapons/Corpus/LongGuns/CrpFreezeRay/Vandal/CrpFreezeRayVandalRifle",
+    id: "/Lotus/Weapons/Corpus/LongGuns/CrpFreezeRay/Vandal/CrpFreezeRayVandalRifle",
   },
   {
     name: "Komorex",
@@ -2783,8 +2727,7 @@ var items = [
   {
     name: "Spectra Vandal",
     acquisition: VEIL_PROXIMA,
-    id:
-      "/Lotus/Weapons/Corpus/Pistols/CorpusModularPistol/Vandal/CrpLaserPistolVandal",
+    id: "/Lotus/Weapons/Corpus/Pistols/CorpusModularPistol/Vandal/CrpLaserPistolVandal",
   },
   {
     name: "Wisp",
@@ -2877,8 +2820,7 @@ var items = [
   {
     name: "Kuva Chakkhurr",
     acquisition: KUVA_LICH,
-    id:
-      "/Lotus/Weapons/Grineer/LongGuns/GrnKuvaLichRifle/GrnKuvaLichRifleWeapon",
+    id: "/Lotus/Weapons/Grineer/LongGuns/GrnKuvaLichRifle/GrnKuvaLichRifleWeapon",
   },
 
   {
@@ -2926,8 +2868,7 @@ var items = [
   {
     name: "Kuva Shildeg",
     acquisition: KUVA_LICH,
-    id:
-      "/Lotus/Weapons/Grineer/Melee/GrnKuvaLichScythe/GrnKuvaLichScytheWeapon",
+    id: "/Lotus/Weapons/Grineer/Melee/GrnKuvaLichScythe/GrnKuvaLichScytheWeapon",
   },
 
   {
@@ -2954,8 +2895,7 @@ var items = [
   {
     name: "Pennant",
     acquisition: EMPYREAN,
-    id:
-      "/Lotus/Weapons/Tenno/Melee/Swords/TnRailjackGreatKatana/TnRailJackGreatKatanaWeapon",
+    id: "/Lotus/Weapons/Tenno/Melee/Swords/TnRailjackGreatKatana/TnRailJackGreatKatanaWeapon",
   },
   {
     name: "Quellor",
@@ -3020,8 +2960,7 @@ var items = [
   {
     name: "Pangolin Prime",
     acquisition: RELICS,
-    id:
-      "/Lotus/Weapons/Tenno/Melee/Swords/PrimePangolinSword/PrimePangolinSword",
+    id: "/Lotus/Weapons/Tenno/Melee/Swords/PrimePangolinSword/PrimePangolinSword",
   },
   {
     name: "Titania Prime",
@@ -3062,32 +3001,27 @@ var items = [
   {
     name: "Xoris",
     acquisition: DEADLOCK_PROTOCOL,
-    id:
-      "/Lotus/Weapons/Corpus/Melee/Glaive/CrpGhostCatcherGlaive/CrpGhostCatcherGlaive",
+    id: "/Lotus/Weapons/Corpus/Melee/Glaive/CrpGhostCatcherGlaive/CrpGhostCatcherGlaive",
   },
   {
     name: "Brash",
     acquisition: RUDE_ZUUD,
-    id:
-      "/Lotus/Weapons/SolarisUnited/Primary/SUModularPrimarySet1/Handles/SUModularPrimaryHandleAPart",
+    id: "/Lotus/Weapons/SolarisUnited/Primary/SUModularPrimarySet1/Handles/SUModularPrimaryHandleAPart",
   },
   {
     name: "Shrewd",
     acquisition: RUDE_ZUUD,
-    id:
-      "/Lotus/Weapons/SolarisUnited/Primary/SUModularPrimarySet1/Handles/SUModularPrimaryHandleBPart",
+    id: "/Lotus/Weapons/SolarisUnited/Primary/SUModularPrimarySet1/Handles/SUModularPrimaryHandleBPart",
   },
   {
     name: "Steadyslam",
     acquisition: RUDE_ZUUD,
-    id:
-      "/Lotus/Weapons/SolarisUnited/Primary/SUModularPrimarySet1/Handles/SUModularPrimaryHandleCPart",
+    id: "/Lotus/Weapons/SolarisUnited/Primary/SUModularPrimarySet1/Handles/SUModularPrimaryHandleCPart",
   },
   {
     name: "Tremor",
     acquisition: RUDE_ZUUD,
-    id:
-      "/Lotus/Weapons/SolarisUnited/Primary/SUModularPrimarySet1/Handles/SUModularPrimaryHandleDPart",
+    id: "/Lotus/Weapons/SolarisUnited/Primary/SUModularPrimarySet1/Handles/SUModularPrimaryHandleDPart",
   },
   // Inaros Prime update
   {
@@ -3115,50 +3049,43 @@ var items = [
   {
     name: "Cortege",
     acquisition: LOID,
-    id:
-      "/Lotus/Weapons/Tenno/Archwing/Primary/ThanoTechArchGun/ThanoTechArchGun",
+    id: "/Lotus/Weapons/Tenno/Archwing/Primary/ThanoTechArchGun/ThanoTechArchGun",
   },
 
   {
     name: "Crescent Vulpaphyla",
     acquisition: SON,
-    id:
-      "/Lotus/Types/Friendly/Pets/CreaturePets/HornedInfestedCatbrowPetPowerSuit",
+    id: "/Lotus/Types/Friendly/Pets/CreaturePets/HornedInfestedCatbrowPetPowerSuit",
   },
 
   {
     name: "Keratinos",
     acquisition: FATHER,
-    id:
-      "/Lotus/Weapons/Infested/Melee/InfTransformClaw/InfTransformClawsWeapon",
+    id: "/Lotus/Weapons/Infested/Melee/InfTransformClaw/InfTransformClawsWeapon",
   },
 
   {
     name: "Medjay Predasite",
     acquisition: SON,
-    id:
-      "/Lotus/Types/Friendly/Pets/CreaturePets/MedjayPredatorKubrowPetPowerSuit",
+    id: "/Lotus/Types/Friendly/Pets/CreaturePets/MedjayPredatorKubrowPetPowerSuit",
   },
 
   {
     name: "Panzer Vulpaphyla",
     acquisition: SON,
-    id:
-      "/Lotus/Types/Friendly/Pets/CreaturePets/ArmoredInfestedCatbrowPetPowerSuit",
+    id: "/Lotus/Types/Friendly/Pets/CreaturePets/ArmoredInfestedCatbrowPetPowerSuit",
   },
 
   {
     name: "Pharaoh Predasite",
     acquisition: SON,
-    id:
-      "/Lotus/Types/Friendly/Pets/CreaturePets/PharaohPredatorKubrowPetPowerSuit",
+    id: "/Lotus/Types/Friendly/Pets/CreaturePets/PharaohPredatorKubrowPetPowerSuit",
   },
 
   {
     name: "Quassus",
     acquisition: MOTHER,
-    id:
-      "/Lotus/Weapons/Tenno/Melee/Warfan/TnBrokenFrameWarfan/TnBrokenFrameWarfanWeapon",
+    id: "/Lotus/Weapons/Tenno/Melee/Warfan/TnBrokenFrameWarfan/TnBrokenFrameWarfanWeapon",
   },
 
   {
@@ -3170,8 +3097,7 @@ var items = [
   {
     name: "Sly Vulpaphyla",
     acquisition: SON,
-    id:
-      "/Lotus/Types/Friendly/Pets/CreaturePets/VulpineInfestedCatbrowPetPowerSuit",
+    id: "/Lotus/Types/Friendly/Pets/CreaturePets/VulpineInfestedCatbrowPetPowerSuit",
   },
 
   {
@@ -3183,8 +3109,7 @@ var items = [
   {
     name: "Vizier Predasite",
     acquisition: SON,
-    id:
-      "/Lotus/Types/Friendly/Pets/CreaturePets/VizierPredatorKubrowPetPowerSuit",
+    id: "/Lotus/Types/Friendly/Pets/CreaturePets/VizierPredatorKubrowPetPowerSuit",
   },
 
   {
@@ -3202,8 +3127,7 @@ var items = [
   {
     name: "Mausolon",
     acquisition: NECRAMECH,
-    id:
-      "/Lotus/Weapons/Tenno/Archwing/Primary/ThanoTechArchLongGun/ThanoTechLongGun",
+    id: "/Lotus/Weapons/Tenno/Archwing/Primary/ThanoTechArchLongGun/ThanoTechLongGun",
   },
 
   // Nezha update
@@ -3249,8 +3173,7 @@ var items = [
   {
     name: "Feverspine",
     acquisition: K_DRIVE_DEIMOS,
-    id:
-      "/Lotus/Types/Vehicles/Hoverboard/HoverboardParts/PartComponents/HoverboardInfestedB/HoverboardInfestedBDeck",
+    id: "/Lotus/Types/Vehicles/Hoverboard/HoverboardParts/PartComponents/HoverboardInfestedB/HoverboardInfestedBDeck",
   },
   {
     name: "Proboscis Cernos",
@@ -3265,8 +3188,7 @@ var items = [
   {
     name: "Sporelacer",
     acquisition: FATHER,
-    id:
-      "/Lotus/Weapons/Infested/Pistols/InfKitGun/Barrels/InfBarrelEgg/InfModularBarrelEggPart",
+    id: "/Lotus/Weapons/Infested/Pistols/InfKitGun/Barrels/InfBarrelEgg/InfModularBarrelEggPart",
   },
   {
     name: "Sporothrix",
@@ -3276,8 +3198,7 @@ var items = [
   {
     name: "Vermisplicer",
     acquisition: FATHER,
-    id:
-      "/Lotus/Weapons/Infested/Pistols/InfKitGun/Barrels/InfBarrelBeam/InfModularBarrelBeamPart",
+    id: "/Lotus/Weapons/Infested/Pistols/InfKitGun/Barrels/InfBarrelBeam/InfModularBarrelBeamPart",
   },
   {
     name: "Bonewidow",
@@ -3292,8 +3213,7 @@ var items = [
   {
     name: "Morgha",
     acquisition: LOID,
-    id:
-      "/Lotus/Weapons/Tenno/Archwing/Primary/ThanoTechGrenadeLaunch/ThanoTechGrenadeLauncher",
+    id: "/Lotus/Weapons/Tenno/Archwing/Primary/ThanoTechGrenadeLaunch/ThanoTechGrenadeLauncher",
   },
   {
     name: "Cedo",
@@ -3342,8 +3262,7 @@ var items = [
   {
     name: "Prisma Dual Decurion",
     acquisition: BARO_KITEER,
-    id:
-      "/Lotus/Weapons/Tenno/Archwing/Primary/PrismaDualDecurionData/PrismaDualDecurionData",
+    id: "/Lotus/Weapons/Tenno/Archwing/Primary/PrismaDualDecurionData/PrismaDualDecurionData",
   },
   // Call of the Tempestarii
   {
@@ -3354,12 +3273,30 @@ var items = [
   {
     name: "Halikar Wraith",
     acquisition: BARO_KITEER,
-    id: "/Lotus/Weapons/Grineer/Melee/GrnBoomerang/HalikarWraithWeapon"
+    id: "/Lotus/Weapons/Grineer/Melee/GrnBoomerang/HalikarWraithWeapon",
   },
   {
     name: "Sevagoth",
     acquisition: TEMPESTARII,
     id: "/Lotus/Powersuits/Wraith/Wraith",
+  },
+  // Gara Prime update
+  {
+    name: "Astilla Prime",
+    acquisition: RELICS,
+    id: "/Lotus/Weapons/Tenno/LongGuns/PrimeAstilla/AstillaPrimeWeapon",
+  },
+
+  {
+    name: "Gara Prime",
+    acquisition: RELICS,
+    id: "/Lotus/Powersuits/Glass/GaraPrime",
+  },
+
+  {
+    name: "Volnus Prime",
+    acquisition: RELICS,
+    id: "/Lotus/Weapons/Tenno/Melee/PrimeVolnus/VolnusPrimeWeapon",
   },
 ];
 
