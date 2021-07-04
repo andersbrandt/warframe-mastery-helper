@@ -116,6 +116,12 @@ module.exports = function (items) {
       items.array[i]["type"] = "Archwing Gun";
       delete items.array[i]["category"];
     }
+
+    // Fix amps being labeled as Misc
+    if (items.array[i]["uniqueName"].includes("OperatorAmplifiers")) {
+      items.array[i]["type"] = "Amp";
+    }    
+
   }
   return items;
 
