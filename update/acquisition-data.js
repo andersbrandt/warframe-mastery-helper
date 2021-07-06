@@ -30,6 +30,8 @@ WOLF = 'Wolf of Saturn Six';
 ROPALOLYST = 'Ropalolyst';
 KUVA_LICH = 'Kuva Lich';
 EMISSARY = "Zealoid Prelate Assassination";
+SISTERS_PARVOS = "Sisters of Parvos";
+SISTERS_PARVOS_HOUND = "Sisters of Parvos Hound";
 
 // Faction Reward
 ARBITERS_OF_HEXIS = 'Arbiters of Hexis (Maxim)';
@@ -87,6 +89,7 @@ BURIED_DEBTS = "Buried Debts (Quest)";
 DEADLOCK_PROTOCOL = "Deadlock Protocol (Quest)";
 HEART_OF_DEIMOS = "Hearth of Deimos (Quest)";
 TEMPESTARII = "Call of the Tempestarii (Quest)";
+WAVERIDER = "Waverider (Quest)";
 
 // Rewards
 ANNIVERSARY = 'Anniversary';
@@ -2441,7 +2444,7 @@ var items = [
   },
   {
     name: "Prisma Machete",
-    acquisition: CHINESE_VERSION,
+    acquisition: BARO_KITEER,
     id: "/Lotus/Weapons/Grineer/Melee/GrineerMachetteAndCleaver/PrismaMachete",
   },
   {
@@ -3297,6 +3300,157 @@ var items = [
     name: "Volnus Prime",
     acquisition: RELICS,
     id: "/Lotus/Weapons/Tenno/Melee/PrimeVolnus/VolnusPrimeWeapon",
+  },
+
+  // Sisters of Parvos update
+  {
+    name: "Akaten (Hec Hound)",
+    acquisition: SISTERS_PARVOS_HOUND,
+    id: "/Lotus/Types/Friendly/Pets/ZanukaPets/ZanukaPetMeleeWeaponPS",
+  },
+
+  {
+    name: "Ambassador",
+    acquisition: RAILJACK_CORPUS,
+    id: "/Lotus/Weapons/Corpus/LongGuns/CrpArSniper/CrpArSniperRifle",
+  },
+
+  {
+    name: "Batoten (Dorma Hound)",
+    acquisition: SISTERS_PARVOS_HOUND,
+    id: "/Lotus/Types/Friendly/Pets/ZanukaPets/ZanukaPetMeleeWeaponIP",
+  },
+
+  {
+    name: "Burst Laser Prime",
+    acquisition: UNKNOWN,
+    id: "/Lotus/Types/Sentinels/SentinelWeapons/PrimeBurstLaserPistol",
+  },
+
+  {
+    name: "Cadus",
+    acquisition: LOGIN_REWARD,
+    id: "/Lotus/Weapons/Tenno/Melee/Staff/SingleStaff",
+  },
+
+  {
+    name: "Kompressa",
+    acquisition: VENT_KID,
+    id: "/Lotus/Weapons/Tenno/Pistols/TnYareliPistol/TnYareliPistolWeapon",
+  },
+
+  {
+    name: "Kuva Grattler",
+    acquisition: KUVA_LICH,
+    id: "/Lotus/Weapons/Grineer/KuvaLich/HeavyWeapons/Grattler/KuvaGrattler",
+  },
+
+  {
+    name: "Kuva Hek",
+    acquisition: KUVA_LICH,
+    id: "/Lotus/Weapons/Grineer/KuvaLich/LongGuns/Hek/KuvaHekWeapon",
+  },
+
+  {
+    name: "Kuva Zarr",
+    acquisition: KUVA_LICH,
+    id: "/Lotus/Weapons/Grineer/KuvaLich/LongGuns/Zarr/KuvaZarr",
+  },
+
+  {
+    name: "Lacerten (Bhaira Hound)",
+    acquisition: SISTERS_PARVOS_HOUND,
+    id: "/Lotus/Types/Friendly/Pets/ZanukaPets/ZanukaPetMeleeWeaponIS",
+  },
+
+  {
+    name: "Stinger Prime",
+    acquisition: UNKNOWN,
+    id: "/Lotus/Types/Sentinels/SentinelWeapons/PrimeSentBioWeapon",
+  },
+
+  {
+    name: "Tenet Agendus",
+    acquisition: SISTERS_PARVOS,
+    id: "/Lotus/Weapons/Corpus/Melee/ShieldAndSword/CrpHammerShield/CrpHammerShield",
+  },
+
+  {
+    name: "Tenet Arca Plasmor",
+    acquisition: SISTERS_PARVOS,
+    id: "/Lotus/Weapons/Corpus/BoardExec/Primary/CrpBEArcaPlasmor/CrpBEArcaPlasmor",
+  },
+
+  {
+    name: "Tenet Cycron",
+    acquisition: SISTERS_PARVOS,
+    id: "/Lotus/Weapons/Corpus/BoardExec/Secondary/CrpBECycron/CrpBECycron",
+  },
+
+  {
+    name: "Tenet Detron",
+    acquisition: SISTERS_PARVOS,
+    id: "/Lotus/Weapons/Corpus/BoardExec/Secondary/CrpBEDetron/CrpBEDetron",
+  },
+
+  {
+    name: "Tenet Diplos",
+    acquisition: SISTERS_PARVOS,
+    id: "/Lotus/Weapons/Corpus/Pistols/CrpBriefcaseAkimbo/CrpBriefcaseAkimboPistol",
+  },
+
+  {
+    name: "Tenet Envoy",
+    acquisition: SISTERS_PARVOS,
+    id: "/Lotus/Weapons/Corpus/LongGuns/CrpBriefcaseLauncher/CrpBriefcaseLauncher",
+  },
+
+  {
+    name: "Tenet Exec",
+    acquisition: SISTERS_PARVOS,
+    id: "/Lotus/Weapons/Tenno/Melee/Swords/CrpBigSlash/CrpBigSlash",
+  },
+
+  {
+    name: "Tenet Flux Rifle",
+    acquisition: SISTERS_PARVOS,
+    id: "/Lotus/Weapons/Corpus/BoardExec/Primary/CrpBEFluxRifle/CrpBEFluxRifle",
+  },
+
+  {
+    name: "Tenet Grigori",
+    acquisition: SISTERS_PARVOS,
+    id: "/Lotus/Weapons/Corpus/Melee/CrpBriefcaseScythe/CrpBriefcaseScythe",
+  },
+
+  {
+    name: "Tenet Livia",
+    acquisition: SISTERS_PARVOS,
+    id: "/Lotus/Weapons/Corpus/Melee/CrpBriefcase2HKatana/CrpBriefcase2HKatana",
+  },
+
+  {
+    name: "Tenet Spirex",
+    acquisition: SISTERS_PARVOS,
+    id: "/Lotus/Weapons/Corpus/Pistols/CrpIgniterPistol/CrpIgniterPistol",
+  },
+
+  {
+    name: "Tenet Tetra",
+    acquisition: SISTERS_PARVOS,
+    id: "/Lotus/Weapons/Corpus/BoardExec/Primary/CrpBETetra/CrpBETetra",
+  },
+
+  {
+    name: "Vulklok Prime",
+    acquisition: UNKNOWN,
+    id: "/Lotus/Types/Sentinels/SentinelWeapons/PrimeSentElecRailgun",
+  },
+
+  {
+    name: "Yareli",
+    acquisition: WAVERIDER,
+    id: "/Lotus/Powersuits/Yareli/Yareli",
   },
 ];
 

@@ -88,5 +88,28 @@ module.exports = function (items) {
   };
   items.array.push(plexusData);
 
+  var kuvaGrattlerData = {
+      "name": "Kuva Grattler",
+      "uniqueName": "/Lotus/Weapons/Grineer/KuvaLich/HeavyWeapons/Grattler/KuvaGrattler",
+      "description": "Reconfigured for maximum lethality, the Kuva Grattler still shatters targets with explosive shells, but now reaches maximum fire-rate instantaneously.",
+      "masteryReq": 15,
+      "productCategory": "SpaceGuns",
+      "maxLevelCap": 40,
+      "trigger": "Auto",
+      "type": "Archwing Gun",
+      "imageName": "kuva-grattler.png",
+      "category": "Arch-Gun",
+      "tradable": false,
+      "wikiaUrl": "http://warframe.fandom.com/wiki/Kuva_Grattler",
+      "acquisition": "Kuva Lich",
+      "checked": false,
+      "unobtainable": false,
+      "tierData": false,
+      "tierRank": 0,
+      "component": false
+  };
+  items.array.push(kuvaGrattlerData);
+
+
   return items;
 };

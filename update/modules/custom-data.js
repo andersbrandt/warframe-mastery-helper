@@ -122,6 +122,36 @@ module.exports = function (items) {
       items.array[i]["type"] = "Amp";
     }    
 
+    // Fix Ambassador
+    if (name == "Ambassador") {
+      items.array[i]["type"] = "Primary";
+      items.array[i]["category"] = "Rifle";
+    }    
+
+    // Fix Tenet weapons
+    if (name == "Tenet Envoy") {
+      items.array[i]["category"] = "Rocket Launcher";
+    }    
+    if (name == "Tenet Tetra") {
+      items.array[i]["category"] = "Rifle";
+    }    
+
+    // Fix Corpus Liches hound weapons
+    if (name == "Akaten") {
+      items.array[i]["name"] = "Akaten (Hec Hound)";
+      items.array[i]["category"] = "Hound attack";
+    }
+    if (name == "Lacerten") {
+      items.array[i]["name"] = "Lacerten (Bhaira Hound)";
+      items.array[i]["category"] = "Hound attack";
+    }
+    if (name == "Batoten") {
+      items.array[i]["name"] = "Batoten (Dorma Hound)";
+      items.array[i]["category"] = "Hound attack";
+    }
+
+
+
   }
   return items;
 

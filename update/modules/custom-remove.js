@@ -3,9 +3,9 @@ module.exports = function (items) {
   var i = items.array.length;
   while (i--) {
     // Remove 'Prisma Machete'
-    if (items.array[i]["name"] === "Prisma Machete") {
-      items.array.splice(i, 1);
-    }
+    // if (items.array[i]["name"] === "Prisma Machete") {
+    //   items.array.splice(i, 1);
+    // }
 
     // Remove 'Deck 12 Scene'
     if (items.array[i]["name"] === "Deck 12 Scene") {
@@ -59,6 +59,22 @@ module.exports = function (items) {
 
     // Mausolon are added 3 times, remove all and add in custom-add.js
     if (items.array[i]["name"] === "Mausolon") {
+      items.array.splice(i, 1);
+    }
+
+    // Kuva Grattler are added 2 times, remove and add in custom-add.js
+    if (items.array[i]["name"] === "Kuva Grattler") {
+      items.array.splice(i, 1);
+    }
+
+    // Remove Prime sentinel weapons that are unreleased
+    if (items.array[i]["name"] === "Burst Laser Prime") {
+      items.array.splice(i, 1);
+    }
+    if (items.array[i]["name"] === "Stinger Prime") {
+      items.array.splice(i, 1);
+    }
+    if (items.array[i]["name"] === "Vulklok Prime") {
       items.array.splice(i, 1);
     }
 
