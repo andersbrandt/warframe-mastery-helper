@@ -7710,30 +7710,6 @@ module.exports = {
       "component": false
     },
     {
-      "name": "Morgha",
-      "type": "Archwing Gun",
-      "uniqueName": "/Lotus/Weapons/Tenno/Archwing/Primary/ThanoTechGrenadeLaunch/ThanoTechGrenadeLauncher",
-      "description": "Blast through enemies with a double-barreled shot of energized slugs. This siphons their life essence which is then used to generate the secondary fire's massive air-burst mortar. The ancient Entrati weapon was built for Necramechs but also functions as an Archgun.",
-      "masteryReq": 15,
-      "productCategory": "SpaceGuns",
-      "trigger": "Auto Burst",
-      "imageName": "morgha.png",
-      "tradable": false,
-      "damage": "32.0",
-      "damageTypes": {
-        "impact": 32
-      },
-      "wikiaThumbnail": "https://static.wikia.nocookie.net/warframe/images/e/e1/Morgha.png/revision/latest?cb=20201120225855",
-      "wikiaUrl": "http://warframe.fandom.com/wiki/Morgha",
-      "disposition": 1,
-      "acquisition": "Loid (Nekralisk)",
-      "checked": false,
-      "unobtainable": false,
-      "tierData": false,
-      "tierRank": 0,
-      "component": false
-    },
-    {
       "description": "",
       "imageName": "mote-prism.png",
       "masteryReq": 0,
@@ -14160,5 +14136,5 @@ module.exports = {
       "component": false
     }
   ],
-  "fetched": "2021.08.08 04:47:52 CET+02:00"
+  "fetched": "2021.08.08 04:56:59 CET+02:00"
 }
