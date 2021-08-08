@@ -120,10 +120,13 @@ UNKNOWN = "Acquisition: Unknown";
 GRANUM_VOID = "Granum Void";
 VEIL_PROXIMA = "Veil Proxima Caches";
 TENNOCON_2020 = "Tennocon 2020 Twitch Reward";
+TENNOCON_2021 = "Tennocon 2021 Twitch Reward";
 NECRAMECH = "Comes with Necramech";
 K_DRIVE_DEIMOS = "K-Drive Races (Deimos)";
 RAILJACK_CORPUS = "Railjack (Corpus)";
-VOID_STORM = "Void Storms (Railjack)";
+VOID_STORM = "Void Storm (Railjack)";
+HOLOKEYS = "Holokeys (Void Storm)";
+
 
 //
 //  Add new items to the end of array
@@ -3311,7 +3314,7 @@ var items = [
 
   {
     name: "Ambassador",
-    acquisition: RAILJACK_CORPUS,
+    acquisition: VOID_STORM,
     id: "/Lotus/Weapons/Corpus/LongGuns/CrpArSniper/CrpArSniperRifle",
   },
 
@@ -3371,7 +3374,7 @@ var items = [
 
   {
     name: "Tenet Agendus",
-    acquisition: SISTERS_PARVOS,
+    acquisition: HOLOKEYS,
     id: "/Lotus/Weapons/Corpus/Melee/ShieldAndSword/CrpHammerShield/CrpHammerShield",
   },
 
@@ -3407,7 +3410,7 @@ var items = [
 
   {
     name: "Tenet Exec",
-    acquisition: SISTERS_PARVOS,
+    acquisition: HOLOKEYS,
     id: "/Lotus/Weapons/Tenno/Melee/Swords/CrpBigSlash/CrpBigSlash",
   },
 
@@ -3419,13 +3422,13 @@ var items = [
 
   {
     name: "Tenet Grigori",
-    acquisition: SISTERS_PARVOS,
+    acquisition: HOLOKEYS,
     id: "/Lotus/Weapons/Corpus/Melee/CrpBriefcaseScythe/CrpBriefcaseScythe",
   },
 
   {
     name: "Tenet Livia",
-    acquisition: SISTERS_PARVOS,
+    acquisition: HOLOKEYS,
     id: "/Lotus/Weapons/Corpus/Melee/CrpBriefcase2HKatana/CrpBriefcase2HKatana",
   },
 
@@ -3452,8 +3455,22 @@ var items = [
     acquisition: WAVERIDER,
     id: "/Lotus/Powersuits/Yareli/Yareli",
   },
+  // Tennocon 2021
+  {
+    name: "Vastilok",
+    acquisition: TENNOCON_2021,
+    id: "/Lotus/Weapons/Grineer/Melee/GunBlade/GrnGunBlade/GrnGunblade",
+  },
+  // 
+  {
+    name: "Prisma Dual Decurions",
+    acquisition: BARO_KITEER,
+    id: "/Lotus/Weapons/Tenno/Archwing/Primary/ArchwingHeavyPistols/Prisma/PrismaArchHeavyPistols"
+  },
 ];
 
 module.exports = {
   items: items
 };
+
+      

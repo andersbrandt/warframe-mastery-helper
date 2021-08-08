@@ -222,6 +222,7 @@ class Updater {
           delete json[i]["windUp"];
           delete json[i]["multishot"];
           delete json[i]["drops"];
+          delete json[i]["attacks"];
           let newType = json[i]["category"];
           json[i]["category"] = json[i]["type"];
           json[i]["type"] = newType;

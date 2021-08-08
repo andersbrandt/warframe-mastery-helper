@@ -140,17 +140,18 @@ module.exports = function (items) {
     if (name == "Akaten") {
       items.array[i]["name"] = "Akaten (Hec Hound)";
       items.array[i]["category"] = "Hound attack";
+      items.array[i]["wikiaUrl"] = "https://warframe.fandom.com/wiki/Akaten";
     }
     if (name == "Lacerten") {
       items.array[i]["name"] = "Lacerten (Bhaira Hound)";
       items.array[i]["category"] = "Hound attack";
+      items.array[i]["wikiaUrl"] = "https://warframe.fandom.com/wiki/Lacerten";
     }
     if (name == "Batoten") {
       items.array[i]["name"] = "Batoten (Dorma Hound)";
       items.array[i]["category"] = "Hound attack";
+      items.array[i]["wikiaUrl"] ="https://warframe.fandom.com/wiki/Batoten";
     }
-
-
 
   }
   return items;

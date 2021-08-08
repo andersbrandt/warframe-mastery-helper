@@ -52,17 +52,17 @@
         <tr>
             <td class="table-left">Tier:</td>
             <td class="table-right">
-                {{#ifCond this.tierRank "==" "3"}}
+                {{#ifCond this.tier "==" "Exceptional"}}
                 <span class="tier-rank tier-rank-3">
                     <i class="icon-star-empty"></i><i class="icon-star-empty"></i><i class="icon-star-empty"></i>
                 </span>
                 {{/ifCond}}
-                {{#ifCond this.tierRank "==" "2"}}
+                {{#ifCond this.tier "==" "Satisfactory"}}
                 <span class="tier-rank tier-rank-2">
                     <i class="icon-star-empty"></i><i class="icon-star-empty"></i>
                 </span>
                 {{/ifCond}}
-                {{#ifCond this.tierRank "==" "1"}}
+                {{#ifCond this.tier "==" "Mediocre"}}
                 <span class="tier-rank tier-rank-1">
                     <i class="icon-star-empty"></i>
                 </span>
@@ -78,7 +78,7 @@
         {{/if}}
         {{#if this.releaseDate}}
         <tr>
-            <td class="table-left">Release date:</td>
+            <td class="table-left">Release:</td>
             <td class="table-right"> {{{releaseDate}}}</td>
         </tr>
         {{/if}}
