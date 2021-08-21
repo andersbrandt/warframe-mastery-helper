@@ -46,6 +46,11 @@ var app = {
           if (foundersItemsToRemove.indexOf(data.data[i]) > -1) {
             data.data.splice(i, 1);
           }
+          // Ugly hack to remove miss-spelled weapons
+          var itemsToRemove = ["Prisma Dual Decurion"];
+          if (itemsToRemove.indexOf(data.data[i]) > -1) {
+            data.data.splice(i, 1);
+          }
         }
         utils.writeLocalStorage("data", JSON.stringify(data.data));
         app.tools.mapFromStorage();

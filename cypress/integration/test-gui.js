@@ -161,7 +161,7 @@ describe("GUI", () => {
     cy.get(".legend-icon.icon-check-empty").should("be.visible");
     cy.get("#legend-image").should("be.visible");
     cy.get("ul#help-modal-unique-items-list").should("be.visible");
-    cy.get("ul#help-modal-unique-items-list").find("li").should("have.length", 19);
+    cy.get("ul#help-modal-unique-items-list").find("li").should("have.length", 34);
     cy.get("#help-placeholder").find(".close-reveal-modal").should("be.visible").click();
     cy.get("#help-modal").should("not.be.visible");
   });

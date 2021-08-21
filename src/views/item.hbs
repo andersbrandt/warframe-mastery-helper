@@ -2,17 +2,17 @@
     <span class="action-toggle-info" data-item="{{name}}">
         <span class="name">{{name}}</span>
         <span class="acquisition">{{acquisition}}{{#if unobtainable}} <i class="icon-attention"></i>{{/if}}</span>
-        {{#ifCond this.tierRank "==" "3"}}
+        {{#ifCond this.tier "==" "Exceptional"}}
             <span class="tier-rank tier-rank-3">
                 <i class="icon-star-empty"></i><i class="icon-star-empty"></i><i class="icon-star-empty"></i>
             </span>
         {{/ifCond}}
-        {{#ifCond this.tierRank "==" "2"}}
+        {{#ifCond this.tier "==" "Satisfactory"}}
             <span class="tier-rank tier-rank-2">
                 <i class="icon-star-empty"></i><i class="icon-star-empty"></i>
             </span>
         {{/ifCond}}
-        {{#ifCond this.tierRank "==" "1"}}
+        {{#ifCond this.tier "==" "Mediocre"}}
             <span class="tier-rank tier-rank-1">
                 <i class="icon-star-empty"></i>
             </span>
