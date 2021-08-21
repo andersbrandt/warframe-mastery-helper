@@ -8,7 +8,7 @@ const config = require("./config.js");
 
 var app = {
   name: "Warframe Mastery Helper",
-  version: "3.2.1",
+  version: "3.2.2",
   data: {},
   config: {
     modal: {
