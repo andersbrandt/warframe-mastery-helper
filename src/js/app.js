@@ -4,9 +4,6 @@ const {
   utils
 } = require("./utils.js");
 const warframeData = require("./warframe-data.js");
-const ClockEidolon = require("./clock-eidolon.js");
-const ClockOrbvallis = require("./clock-orbvallis.js");
-const ClockDeimos = require("./clock-deimos.js");
 const config = require("./config.js");
 
 var app = {
@@ -23,7 +20,6 @@ var app = {
     app.render.spinner.show();
     utils.tryLocalStorage();
     utils.registerHandlebarHelpers();
-    app.clocks.init();
     if (utils.readLocalStorage("data") == false) {
       app.tools.firstRun();
     }
@@ -236,11 +232,6 @@ var app = {
           app.export.csv();
         });
       },
-      clock: function () {
-        var template = require("./../views/clock-modal.hbs");
-        var html = template();
-        $("#clock-placeholder").html(html);
-      },
       guide: function () {
         var template = require("./../views/beginner-guide.hbs");
         var html = template(app.data);
@@ -254,7 +245,6 @@ var app = {
         app.render.views.filter();
         app.render.views.status();
         app.render.views.allItems();
-        app.render.views.clock();
         app.render.views.help();
         app.search.updateIndicator();
       },
@@ -276,15 +266,6 @@ var app = {
         gtag('event', 'Open modal: Stats', {
           'event_category': 'Open modal',
           'event_label': 'Open modal: Stats'
-        });
-      },
-      clock: function () {
-        $("#clock-modal").foundation("reveal", "open", app.config.modal);
-        app.tools.closeMenu();
-        // Track event
-        gtag('event', 'Open modal: Clock', {
-          'event_category': 'Open modal',
-          'event_label': 'Open modal: Clock'
         });
       },
       guide: function () {
@@ -711,28 +692,6 @@ var app = {
       });
       // Open window
       window.open("data:text/csv;charset=utf-8," + escape(str));
-    }
-  },
-  clocks: {
-    init: function () {
-      var clockEidolon = new ClockEidolon();
-      var clockOrbvallis = new ClockOrbvallis();
-      var clockDeimos = new ClockDeimos();
-      clockEidolon.init();
-      clockOrbvallis.init();
-      clockDeimos.init();
-      $("#clock-modal").bind('closed.fndtn.reveal', function () {
-        clockEidolon.stop();
-        clockOrbvallis.stop();
-        clockDeimos.stop();
-      });
-      $("#clock-modal").bind('open.fndtn.reveal', function () {
-        clockEidolon.start();
-        clockOrbvallis.updateTime();
-        clockOrbvallis.start();
-        clockDeimos.updateTime();
-        clockDeimos.start();
-      });
     }
   }
 };

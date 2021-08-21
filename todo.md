@@ -16,7 +16,6 @@
 
 - check all archwing weapons that have parts in syndicates, labeled as "Market" today which is misleading
 
-- Adjust clock for Orb Vallis, currently 22 seconds too early
 
 **Features needed**
 
