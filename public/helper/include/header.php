@@ -67,7 +67,6 @@
                     <ul class="right spinner-loaded" style="display:none">
                         <li><a class="action-render-page" title="Help" data-page="help">Help</a></li>
                         <li><a class="action-render-page" title="Statistics" data-page="stats">Statistics</a></li>
-                        <li><a class="action-render-page" title="Clock" data-page="clock">Clock</a></li>
                         <li><a class="action-render-page" title="News" data-page="news">News</a></li>
                         <li><a class="action-render-page" title="User" data-page="user" id="user-name"><?php echo $_SESSION['userData']["first_name"]?> <i class="icon-user"></i></a></li>
                     </ul>

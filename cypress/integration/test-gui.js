@@ -193,19 +193,6 @@ describe("GUI", () => {
     //TODO assert search for acquisition
   });
 
-  it("Assert modal Clock", () => {
-    //
-    //  Modal Clock
-    //
-    cy.get("#clock-modal").should("not.be.visible");
-    cy.get(".top-bar-section").contains("Clock").click();
-    cy.get("#clock-modal").should("be.visible");
-    cy.get("#eidolon-clock").should("be.visible");
-    cy.get("#orbvallis-clock").should("be.visible");
-    cy.get("#clock-placeholder").find(".close-reveal-modal").click({ force: true });
-    cy.get("#clock-modal").should("not.be.visible");
-  });
-
   it("Assert modal News", () => {
     //
     //  Modal News

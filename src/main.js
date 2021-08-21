@@ -7,8 +7,6 @@ if (process.env.NODE_ENV !== 'production') {
 import "./js/vendor/foundation.js";
 import "./js/warframe-data.js";
 import "./js/app.js";
-import "./js/clock-eidolon.js";
-import "./js/clock-orbvallis";
 
 import "./views/beginner-guide.hbs";
 import "./views/all-items.hbs";

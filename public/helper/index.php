@@ -35,10 +35,6 @@ include_once($config->get("path") . "/helper/include/header.php");
             <div id="stats-placeholder" class="view-placeholder"></div>
         </div>
 
-        <div id="clock-modal" class="reveal-modal" data-reveal aria-labelledby="modalTitle" aria-hidden="true" role="dialog">
-            <div id="clock-placeholder"></div>
-        </div>
-
         <div id="guide-modal" class="reveal-modal" data-reveal aria-labelledby="modalTitle" aria-hidden="true" role="dialog">
             <div id="guide-placeholder"></div>
         </div>
