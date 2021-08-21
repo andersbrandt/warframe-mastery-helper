@@ -2,11 +2,6 @@ module.exports = function (items) {
 
   var i = items.array.length;
   while (i--) {
-    // Remove 'Prisma Machete'
-    // if (items.array[i]["name"] === "Prisma Machete") {
-    //   items.array.splice(i, 1);
-    // }
-
     // Remove 'Deck 12 Scene'
     if (items.array[i]["name"] === "Deck 12 Scene") {
       items.array.splice(i, 1);
