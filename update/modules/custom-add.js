@@ -62,6 +62,65 @@ module.exports = function (items) {
   };
   items.array.push(kuvaGrattlerData);
 
+  var bhairaHoundData = {
+    name: "Bhaira Hound",
+    uniqueName: "/Lotus/Custom/BhairaHound",
+    description:
+      "This model devastates enemies with the Lacerten weapon and comes equiped with the 'Null Audit' precept",
+    wikiaUrl: "http://warframe.fandom.com/wiki/Hound_(Companion)",
+    tradable: true,
+    masteryReq: 5,
+    productCategory: "Sentinels",
+    type: "Sentinel",
+    imageName: "bhaira-hound.png",
+    acquisition: "Sisters of Parvos",
+    checked: false,
+    unobtainable: false,
+    tierData: false,
+    tierRank: 0,
+    component: false,
+  };
+  items.array.push(bhairaHoundData);
+
+  var dormaHoundData = {
+    name: "Dorma Hound",
+    uniqueName: "/Lotus/Custom/DormaHound",
+    description:
+      "This model pierces through enemies with the Batoten weapon and comes equipped with the 'Repo Audit' precept.",
+    wikiaUrl: "http://warframe.fandom.com/wiki/Hound_(Companion)",
+    tradable: true,
+    masteryReq: 5,
+    productCategory: "Sentinels",
+    type: "Sentinel",
+    imageName: "dorma-hound.png",
+    acquisition: "Sisters of Parvos",
+    checked: false,
+    unobtainable: false,
+    tierData: false,
+    tierRank: 0,
+    component: false,
+  };
+  items.array.push(dormaHoundData);
+
+  var hecHoundData = {
+    name: "Hec Hound",
+    uniqueName: "/Lotus/Custom/HecHound",
+    description:
+      "This model eviscerates enemies with the Akaten weapon and comes equipped with the 'Equilibrium Audit' precept.",
+    wikiaUrl: "http://warframe.fandom.com/wiki/Hound_(Companion)",
+    tradable: true,
+    masteryReq: 5,
+    productCategory: "Sentinels",
+    type: "Sentinel",
+    imageName: "hec-hound.png",
+    acquisition: "Sisters of Parvos",
+    checked: false,
+    unobtainable: false,
+    tierData: false,
+    tierRank: 0,
+    component: false,
+  };
+  items.array.push(hecHoundData);
 
   return items;
 };
