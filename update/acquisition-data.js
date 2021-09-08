@@ -3461,11 +3461,35 @@ var items = [
     acquisition: TENNOCON_2021,
     id: "/Lotus/Weapons/Grineer/Melee/GunBlade/GrnGunBlade/GrnGunblade",
   },
-  // 
+  //
   {
     name: "Prisma Dual Decurions",
     acquisition: BARO_KITEER,
-    id: "/Lotus/Weapons/Tenno/Archwing/Primary/ArchwingHeavyPistols/Prisma/PrismaArchHeavyPistols"
+    id: "/Lotus/Weapons/Tenno/Archwing/Primary/ArchwingHeavyPistols/Prisma/PrismaArchHeavyPistols",
+  },
+  // Nidus Prime Update
+  {
+    name: "Ghoulsaw",
+    acquisition: OPERATION_PLAGUE_STAR,
+    id: "/Lotus/Weapons/Grineer/Melee/GrnGhoulSaw/GrnGhoulSawPlayer",
+  },
+
+  {
+    name: "Magnus Prime",
+    acquisition: RELICS,
+    id: "/Lotus/Weapons/Tenno/Pistols/PrimeMagnus/PrimeMagnusWeapon",
+  },
+
+  {
+    name: "Nidus Prime",
+    acquisition: RELICS,
+    id: "/Lotus/Powersuits/Infestation/InfestationPrime",
+  },
+
+  {
+    name: "Strun Prime",
+    acquisition: RELICS,
+    id: "/Lotus/Weapons/Tenno/LongGuns/PrimeStrun/PrimeStrunWeapon",
   },
 ];
 
