@@ -14,8 +14,7 @@ pathAlias.setAlias('static', 'update/static/');
 //
 module.exports = {
   source: {
-    path:
-      "https://raw.githubusercontent.com/WFCD/warframe-items/master/data/json/",
+    path: "https://raw.githubusercontent.com/WFCD/warframe-items/master/data/json/",
     files: [
       "Misc.json",
       "Archwing.json",
@@ -27,6 +26,7 @@ module.exports = {
       "Secondary.json",
       "Sentinels.json",
       "Warframes.json",
+      "SentinelWeapons.json",
     ],
   },
   updateData: {

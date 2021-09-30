@@ -11,3 +11,5 @@ node_modules
 .DS_Store
 public/setuser-test.php
 cypress/screenshots/
+public/helper/include/js/main.min.js.LICENSE.txt
+public/helper/include/js/start-page.min.js.LICENSE.txt
