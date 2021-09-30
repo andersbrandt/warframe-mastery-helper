@@ -1,16 +1,16 @@
-const fs = require('fs');
-const pathAlias = require('path-alias');
-const fetch = require('node-fetch');
-const rimraf = require('rimraf');
-const colors = require('ansi-colors');
+const fs = require("fs");
+const pathAlias = require("path-alias");
+const rimraf = require("rimraf");
+const chalk = require("chalk");
+const fetch = (...args) =>
+  import("node-fetch").then(({ default: fetch }) => fetch(...args));
 
-const paths = require("./update-config.js"); 
+const paths = require("./update-config.js");
 
 class Updater {
-
   constructor() {
     this.items = {
-      array: []
+      array: [],
     };
     this.fileListUrls = []; // Set with setFileListUrls in constructor
     this.tempFolder = "update/temp/";
@@ -18,76 +18,49 @@ class Updater {
 
   async run() {
     try {
+      await this.cleanup();
 
-      await
-      this.cleanup();
+      await this.setFileListUrls();
 
-      await
-      this.setFileListUrls();
+      await this.fetchHtmlFile([paths.updateData.weaponComponents]);
 
-      await
-      this.fetchHtmlFile([
-        paths.updateData.weaponComponents
-      ]);
+      await this.fetchJsonFile(this.fileListUrls);
 
-      await
-      this.fetchJsonFile(
-        this.fileListUrls
-      );
+      await this.fetchJsonFile([paths.updateData.tierRanking]);
 
-      await
-      this.fetchJsonFile(
-        [paths.updateData.tierRanking]
-      );
+      await this.populateItems(paths.source.files);
 
-      await
-      this.populateItems(
-        paths.source.files
-      );
+      await this.customRemove();
 
-      await 
-      this.customRemove();
+      await this.customAdd();
 
-      await
-      this.customAdd();
+      await this.sort();
 
-      await
-      this.sort();
+      await this.acquisition();
 
-      await
-      this.acquisition();
+      await this.setDefaults();
 
-      await
-      this.setDefaults();
+      await this.tierList();
 
-      await
-      this.tierList();
+      await this.components();
 
-      await
-      this.components();
+      await this.customData();
 
-      await
-      this.customData();
+      await this.wikiaUrl();
 
-      await
-      this.wikiaUrl();
-
-      await
-      this.writeItemList()
-
+      await this.writeItemList();
     } catch (e) {
       console.error(e);
     }
-
   }
 
   async clog(string) {
-    console.log(colors.cyan('[ \u2714 ]'), colors.cyan(string));
+    console.log(chalk.cyan("[ \u2714 ]"), chalk.cyan(string));
+    //console.log('[ \u2714 ]' + string);
   }
 
   async cleanup() {
-    await
-    this.clog("Cleaning up");
+    await this.clog("Cleaning up");
     rimraf.sync(this.tempFolder);
     if (!fs.existsSync(this.tempFolder)) {
       fs.mkdirSync(this.tempFolder);
@@ -96,24 +69,26 @@ class Updater {
 
   async setFileListUrls() {
     const files = [];
-    await paths.source.files.forEach(file => {
+    await paths.source.files.forEach((file) => {
       files.push(`${paths.source.path}${file}`);
     });
     this.fileListUrls = files;
   }
 
   async fetchJsonFile(url) {
-    await
-    asyncForEach(url, async (url) => {
+    await asyncForEach(url, async (url) => {
       let request = null;
       let json = null;
-      let filename = url.split('/')[url.split('/').length - 1].split('.')[0];
+      let filename = url.split("/")[url.split("/").length - 1].split(".")[0];
       request = await fetch(url);
       json = await request.text();
-      json = json.replace(/(?:\\[rn]|[\r\n]+)+/g, '');
+      json = json.replace(/(?:\\[rn]|[\r\n]+)+/g, "");
       this.clog(`Writing ${url}`);
       try {
-        fs.writeFileSync(`${this.tempFolder}${filename}.json`, stringify(JSON.parse(json)));
+        fs.writeFileSync(
+          `${this.tempFolder}${filename}.json`,
+          stringify(JSON.parse(json))
+        );
       } catch (e) {
         throw e;
       }
@@ -121,11 +96,10 @@ class Updater {
   }
 
   async fetchHtmlFile(url) {
-    await
-    asyncForEach(url, async (url) => {
+    await asyncForEach(url, async (url) => {
       let request = null;
       let text = null;
-      let filename = url.split('/')[url.split('/').length - 1].split('.')[0];
+      let filename = url.split("/")[url.split("/").length - 1].split(".")[0];
       request = await fetch(url);
       text = await request.text();
       this.clog(`Writing ${url}`);
@@ -138,12 +112,14 @@ class Updater {
   }
 
   async populateItems(path) {
-    await
-    asyncForEach(path, async (path) => {
+    await asyncForEach(path, async (path) => {
       let fileContent = null;
-      this.clog(`Adding ${path}`)
+      this.clog(`Adding ${path}`);
       try {
-        fileContent = await fs.readFileSync(`${this.tempFolder}${path}`, 'utf8');
+        fileContent = await fs.readFileSync(
+          `${this.tempFolder}${path}`,
+          "utf8"
+        );
         const json = JSON.parse(fileContent);
         for (let i = 0; i < json.length; i += 1) {
           delete json[i]["components"];
@@ -227,51 +203,55 @@ class Updater {
           json[i]["category"] = json[i]["type"];
           json[i]["type"] = newType;
           if (path === "Arch-Gun.json") {
-            if (json[i]["uniqueName"].includes('Primary')) {
+            if (json[i]["uniqueName"].includes("Primary")) {
               json[i]["type"] = "Archwing Gun";
               delete json[i]["category"];
             }
           }
           if (path === "Arch-Melee.json") {
-            if (json[i]["uniqueName"].includes('Melee')) {
+            if (json[i]["uniqueName"].includes("Melee")) {
               json[i]["type"] = "Archwing Melee";
               delete json[i]["category"];
             }
           }
           if (path === "Archwing.json") {
-            if (json[i]["uniqueName"].includes('Powersuits')) {
+            if (json[i]["uniqueName"].includes("Powersuits")) {
               json[i]["type"] = "Vehicle";
               json[i]["category"] = "Archwing";
             }
           }
           if (path === "Misc.json") {
-            if (json[i]["uniqueName"].includes('Tip')) {
+            if (json[i]["uniqueName"].includes("Tip")) {
               json[i]["type"] = "Melee";
               json[i]["category"] = "Zaw";
-              const wikiSlug = json[i]["name"].replace(/ /g, '_').replace(/'/g, '%27');
-              json[i]["wikiaUrl"] = `http://warframe.wikia.com/wiki/${wikiSlug}`;
+              const wikiSlug = json[i]["name"]
+                .replace(/ /g, "_")
+                .replace(/'/g, "%27");
+              json[i][
+                "wikiaUrl"
+              ] = `http://warframe.wikia.com/wiki/${wikiSlug}`;
             }
-            if (json[i]["uniqueName"].includes('Deck')) {
+            if (json[i]["uniqueName"].includes("Deck")) {
               json[i]["type"] = "Vehicle";
               json[i]["category"] = "K-Drive";
             }
             if (
-              !json[i]["uniqueName"].includes('Barrel') &&
-              !json[i]["uniqueName"].includes('Deck') &&
-              !json[i]["uniqueName"].includes('Tip')
+              !json[i]["uniqueName"].includes("Barrel") &&
+              !json[i]["uniqueName"].includes("Deck") &&
+              !json[i]["uniqueName"].includes("Tip")
             ) {
               delete json[i];
             }
           }
           if (path === "Pets.json") {
-            if (json[i]["uniqueName"].includes('MoaPetHead')) {
+            if (json[i]["uniqueName"].includes("MoaPetHead")) {
               json[i]["type"] = "Sentinel";
               delete json[i]["category"];
             }
             if (
-              !json[i]["uniqueName"].includes('PetPowerSuit') && 
-              !json[i]["uniqueName"].includes('MoaPetHead')
-              ) {
+              !json[i]["uniqueName"].includes("PetPowerSuit") &&
+              !json[i]["uniqueName"].includes("MoaPetHead")
+            ) {
               delete json[i];
             }
           }
@@ -279,41 +259,36 @@ class Updater {
             if (json[i]["productCategory"] == "SentinelWeapons") {
               json[i]["type"] = "Sentinel Weapon";
             }
-            if (json[i]["uniqueName"].includes('ArchGun')) {
+            if (json[i]["uniqueName"].includes("ArchGun")) {
               json[i]["type"] = "Archwing Gun";
             }
-            if (json[i]["uniqueName"].includes('ArchLongGun')) {
+            if (json[i]["uniqueName"].includes("ArchLongGun")) {
               json[i]["type"] = "Archwing Gun";
             }
             // Larkspur are duplicated as Primary, will be removed in custom-remove.js
-            if (json[i]["uniqueName"].includes('TnShieldFrameArchGun')) {
+            if (json[i]["uniqueName"].includes("TnShieldFrameArchGun")) {
               json[i]["type"] = "Primary";
             }
           }
           if (path === "Secondary.json") {
-            if (json[i]["uniqueName"].includes('SentinelWeapon')) {
+            if (json[i]["uniqueName"].includes("SentinelWeapon")) {
               json[i]["type"] = "Sentinel Weapon";
               delete json[i]["category"];
             }
-            if (json[i]["uniqueName"].includes('MoaPetComponents')) {
+            if (json[i]["uniqueName"].includes("MoaPetComponents")) {
               json[i]["type"] = "Sentinel Weapon";
               delete json[i]["category"];
             }
-
-
 
             // TEMPORARY should be in check for melee
-            if (json[i]["uniqueName"].includes("\/Tip\/")) {
+            if (json[i]["uniqueName"].includes("/Tip/")) {
               json[i]["type"] = "Melee";
               json[i]["category"] = "Zaw";
             }
-            if (json[i]["uniqueName"].includes("\/Tips\/")) {
+            if (json[i]["uniqueName"].includes("/Tips/")) {
               json[i]["type"] = "Melee";
               json[i]["category"] = "Zaw";
             }
-
-
-
           }
           if (path === "Sentinels.json") {
             json[i]["type"] = "Sentinel";
@@ -324,7 +299,7 @@ class Updater {
             delete json[i]["category"];
           }
         }
-        await json.forEach(async item => {
+        await json.forEach(async (item) => {
           await this.items.array.push(item);
         });
       } catch (e) {
@@ -339,7 +314,9 @@ class Updater {
   }
 
   async customRemove() {
-    this.items = require(pathAlias.resolve("@modules/custom-remove"))(this.items);
+    this.items = require(pathAlias.resolve("@modules/custom-remove"))(
+      this.items
+    );
     this.clog("Removed items");
   }
 
@@ -354,7 +331,9 @@ class Updater {
   }
 
   async setDefaults() {
-    this.items = require(pathAlias.resolve("@modules/set-defaults"))(this.items);
+    this.items = require(pathAlias.resolve("@modules/set-defaults"))(
+      this.items
+    );
     this.clog("Set default values");
   }
 
@@ -379,23 +358,26 @@ class Updater {
   }
 
   async writeItemList() {
-    const count = this.items.array.length
+    const count = this.items.array.length;
     this.clog(`Writing ${count} items`);
     try {
-      var warframeData = "module.exports = " + JSON.stringify(this.items, null, 2);
-      require('fs').writeFileSync(pathAlias.resolve(paths.warframeData.dest), warframeData);
+      var warframeData =
+        "module.exports = " + JSON.stringify(this.items, null, 2);
+      require("fs").writeFileSync(
+        pathAlias.resolve(paths.warframeData.dest),
+        warframeData
+      );
     } catch (e) {
       throw e;
     }
   }
 
   async logItems() {
-    await this.items.array.forEach(async item => {
+    await this.items.array.forEach(async (item) => {
       console.log(item["name"]);
       console.log(item);
     });
   }
-
 }
 
 const asyncForEach = async (a, cb) => {
@@ -406,11 +388,18 @@ const asyncForEach = async (a, cb) => {
 };
 
 const stringify = (object) => {
-  const isPrimitive = obj => obj === null || ['string', 'number', 'boolean'].includes(typeof obj);
-  const isArrayOfPrimitive = obj => Array.isArray(obj) && obj.every(isPrimitive);
-  const format = arr => `^^^[ ${arr.map(val => JSON.stringify(val)).join(', ')} ]`;
-  const replacer = (key, value) => (isArrayOfPrimitive(value) ? format(value) : value);
-  const expand = str => str.replace(/(?:"\^\^\^)(\[ .* \])(?:")/g, (match, a) => a.replace(/\\"/g, '"'));
+  const isPrimitive = (obj) =>
+    obj === null || ["string", "number", "boolean"].includes(typeof obj);
+  const isArrayOfPrimitive = (obj) =>
+    Array.isArray(obj) && obj.every(isPrimitive);
+  const format = (arr) =>
+    `^^^[ ${arr.map((val) => JSON.stringify(val)).join(", ")} ]`;
+  const replacer = (key, value) =>
+    isArrayOfPrimitive(value) ? format(value) : value;
+  const expand = (str) =>
+    str.replace(/(?:"\^\^\^)(\[ .* \])(?:")/g, (match, a) =>
+      a.replace(/\\"/g, '"')
+    );
   return expand(JSON.stringify(object, replacer, 2));
 };
 

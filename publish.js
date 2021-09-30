@@ -1,7 +1,7 @@
 var fs = require("vinyl-fs");
 var ftp = require("vinyl-ftp");
 var ftpConfig = require("./.ftpconfig.js");
-var colors = require('ansi-colors');
+var colors = require('chalk');
 
 require('dotenv').config();
 
