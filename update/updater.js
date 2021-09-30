@@ -270,6 +270,11 @@ class Updater {
               json[i]["type"] = "Primary";
             }
           }
+          if (path === "SentinelWeapons.json") {
+            if (json[i]["productCategory"] == "SentinelWeapons") {
+              json[i]["type"] = "Sentinel Weapon";
+            }
+          }
           if (path === "Secondary.json") {
             if (json[i]["uniqueName"].includes("SentinelWeapon")) {
               json[i]["type"] = "Sentinel Weapon";
@@ -281,11 +286,11 @@ class Updater {
             }
 
             // TEMPORARY should be in check for melee
-            if (json[i]["uniqueName"].includes("/Tip/")) {
+            if (json[i]["uniqueName"].includes('\/Tip\/')) {
               json[i]["type"] = "Melee";
               json[i]["category"] = "Zaw";
             }
-            if (json[i]["uniqueName"].includes("/Tips/")) {
+            if (json[i]["uniqueName"].includes('\/Tips\/')) {
               json[i]["type"] = "Melee";
               json[i]["category"] = "Zaw";
             }
