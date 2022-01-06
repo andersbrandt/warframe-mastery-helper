@@ -21,7 +21,7 @@ describe("API", () => {
       expect(acceltraData.type).to.equal("Primary");
       expect(acceltraData.component).to.equal(false);
       expect(acceltraData.uniqueName).to.equal("/Lotus/Weapons/Tenno/LongGuns/SapientPrimary/SapientPrimaryWeapon");
-      expect(acceltraData.wikiaUrl).to.equal("http://warframe.fandom.com/wiki/Acceltra");
+      expect(acceltraData.wikiaUrl).to.equal("https://warframe.fandom.com/wiki/Acceltra");
     });
 
     //

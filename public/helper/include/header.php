@@ -7,6 +7,8 @@
     <meta name="format-detection" content="telephone=no"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="msapplication-TileColor" content="#0d131c"/>
+		<meta name="theme-color" content="#0d131c"/>				
     <?php if ($functions->isDev()) { ?>
         <link type="image/png" rel="icon" href="<?=$config->get("root")?>helper/include/images/favicon-dev.png"/>
         <link type="text/css" rel="stylesheet" href="<?=$config->get("root")?>helper/include/css/stylesheet.css?v=<?php echo rand(1000,9999); ?>"/>
