@@ -1,10 +1,6 @@
 # TODO / BUGS
 
-- Add Voidrig (Vehicle)
-
-- Add Bonewidow (Vehicle)
-
-- Add Morgha (Archgun)
+- Sirooco are added in custom-add.js and lack image from repo
 
 **Code**
 

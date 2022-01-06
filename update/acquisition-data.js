@@ -25,7 +25,7 @@ THE_SERGEANT = 'The Sergeant (Boss)';
 TYL_REGOR = 'Tyl Regor (Boss)';
 VAY_HEK = 'Councilor Vay Hek (Boss)';
 VOR = 'Captain Vor (Boss)';
-VOR_AND_KRILL = 'Captain Vor and Lieutenant Lech Kril (Boss Duo)';
+VOR_AND_KRILL = 'Captain Vor and Lieutenant Lech Kril (Boss)';
 WOLF = 'Wolf of Saturn Six';
 ROPALOLYST = 'Ropalolyst';
 KUVA_LICH = 'Kuva Lich';
@@ -43,14 +43,14 @@ THE_PERRIN_SEQUENCE = 'The Perrin Sequence (Partner)';
 NIGHTWAVE = 'Nightwave';
 
 // Location
-BARO_KITEER = 'Baro Ki\'Teer (Relay)';
+BARO_KITEER = "Baro Ki'Teer (Relay)";
 CEPHALON_SIMARIS = 'Cephalon Simaris (Relay)';
 DOJO_BIO_LAB = 'Bio Lab (Dojo)';
 DOJO_CHEM_LAB = 'Chem Lab (Dojo)';
 DOJO_ENERGY_LAB = 'Energy Lab (Dojo)';
 DOJO_OROKIN_LAB = 'Orokin Lab (Dojo)';
 DOJO_TENNO_LAB = 'Tenno Lab (Dojo)';
-HOKS_ANVIL = 'Hok\'s Anvil (Cetus)';
+HOKS_ANVIL = "Hok's Anvil (Cetus)";
 INCUBATOR_SEGMENT = 'Incubator Segment (Orbiter)';
 INCUBATOR_UPGRADE_KAVAT = 'Kavat Incubator Upgrade Segment (Orbiter)';
 MARKET = 'Market (Orbiter)';
@@ -66,13 +66,14 @@ FATHER = "Father (Nekralisk)";
 SON = "Son (Nekralisk)";
 LOID = "Loid (Nekralisk)";
 ISOLATION_VAULT = "Isolation Vault (Deimos)";
+NARMER_BOUNTIES = "Narmer Bounties"
 
 // Quests
 CHAINS_OF_HARROW = 'Chains of Harrow (Quest)';
 HIDDEN_MESSAGES = 'Hidden Messages (Quest)';
-OCTAVIAS_ANTHEM = 'Octavia\'s Anthem (Quest)';
+OCTAVIAS_ANTHEM = "Octavia's Anthem (Quest)";
 SANDS_OF_INAROS = 'Sands of Inaros (Quest)';
-SAYAS_VIGIL = 'Saya\'s Vigil (Quest)';
+SAYAS_VIGIL = "Saya's Vigil (Quest)";
 THE_ARCHWING = 'The Archwing (Quest)';
 THE_GLAST_GAMBIT = 'The Glast Gambit (Quest)';
 THE_LIMBO_THEOREM = 'The Limbo Theorem (Quest)';
@@ -3522,12 +3523,12 @@ var items = [
 	},
 	{
 		name: "Korumm",
-		acquisition: THE_NEW_WAR,
+		acquisition: NARMER_BOUNTIES,
 		id: "/Lotus/Weapons/Archon/Melee/Trident/ArchonTridentPlayerWep",
 	},
 	{
 		name: "Nepheri",
-		acquisition: THE_NEW_WAR,
+		acquisition: NARMER_BOUNTIES,
 		id: "/Lotus/Weapons/Archon/Melee/DualDaggers/ArchonDualDaggersPlayerWep",
 	},
 	{
@@ -3537,7 +3538,7 @@ var items = [
 	},
 	{
 		name: "Verdilac",
-		acquisition: THE_NEW_WAR,
+		acquisition: NARMER_BOUNTIES,
 		id: "/Lotus/Weapons/Archon/Melee/Whip/ArchonWhipPlayerWep",
 	},
 ];
