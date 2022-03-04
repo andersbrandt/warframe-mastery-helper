@@ -3522,6 +3522,11 @@ var items = [
 		id: "/Lotus/Weapons/Tenno/Bows/Omicrus/OmicrusPlayerWep",
 	},
 	{
+	  name: "Sirocco",
+	  acquisition: THE_NEW_WAR,
+	  id: "/Lotus/Weapons/Operator/Pistols/DrifterPistol/DrifterPistolPlayerWeapon"
+	},
+	{
 		name: "Korumm",
 		acquisition: NARMER_BOUNTIES,
 		id: "/Lotus/Weapons/Archon/Melee/Trident/ArchonTridentPlayerWep",
@@ -3545,9 +3550,4 @@ var items = [
 
 module.exports = {
   items: items
-};      
-
-      
-      
-      
-      
+};

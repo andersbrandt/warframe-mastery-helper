@@ -9,7 +9,7 @@
 ## How do I do that?
 
 - Clear a path to each planets Junction, then check the requirement for that Junction. Complete the list. Move on to the next planet.
-- Your first goal is Fossa on Venus. Repeat Fossa until you have required all parts for Rhinos. Build all the parts needed, then buy the blueprint for Rhino in Market to build the complete frame. Rhino is a tank and very durable, you will need Rhino to progress. 
+- Your first goal is Fossa on Venus. Repeat Fossa until you have required all parts for Rhinow. Build all the parts needed, then buy the blueprint for Rhino in Market to build the complete frame. Rhino is a tank and very durable, you will need Rhino to progress. 
 - Your second goal should be unlocking Seimeni on Ceres. Seimeni is a great credit-farm, and you will need credits. 
 - Next goal is Helene on Saturn. Helene is a great affinity-farm (XP) and will help in leveling weapons and frames.
 - Acquire more frames and weapons by farming Assasination missions on each planet.

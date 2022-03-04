@@ -27,6 +27,12 @@ module.exports = function (items) {
     if (items.array[i]["uniqueName"].includes("Balance")) {
       items.array.splice(i, 1);
     }
+    if (items.array[i]["name"] == "Plague Akwin") {
+			items.array.splice(i, 1);
+		}
+    if (items.array[i]["name"] == "Plague Bokwin") {
+			items.array.splice(i, 1);
+		}
 
     // Remove PvP variants of Zaws
     if (items.array[i]["uniqueName"].includes("PvPVariant")) {

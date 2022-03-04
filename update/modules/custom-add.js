@@ -126,25 +126,5 @@ module.exports = function (items) {
 	};
 	items.array.push(hecHoundData);
 
-	var siroccoData = {
-		name: "Sirocco",
-		uniqueName: "/Lotus/Custom/Amp/Sirocco",
-		description:
-			"A silent pistol for infiltrations and assassinations. Generates its own ammunition from Void energy. A precisely timed reload over-charges the next shot.",
-		wikiaUrl: "https://warframe.fandom.com/wiki/Sirocco",
-		tradable: false,
-		masteryReq: 0,
-		productCategory: "Pistols",
-		type: "Amp",
-		imageName: "sirocco.png",
-		acquisition: "The New War (Quest)",	
-		checked: false,
-		unobtainable: false,
-		tierData: false,
-		tierRank: 0,
-		component: false,
-	};
-	items.array.push(siroccoData);
-
 	return items;
 };
