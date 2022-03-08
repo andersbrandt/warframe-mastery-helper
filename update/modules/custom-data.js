@@ -6,8 +6,9 @@ module.exports = function (items) {
     var name = items.array[i]["name"];
 
     // Add " Strike" to all Zaws
-    if (category == "Zaw") {
+    if (category == "Zaw Component") {
       items.array[i]["name"] = items.array[i]["name"] + " Strike";
+      items.array[i]["category"] = "Zaw";
     }
 
     // Rename type and category for Kubrow
