@@ -18,6 +18,9 @@
     <head>
         <meta charset="UTF-8">
         <title>Warframe Mastery Helper</title>
+
+				<?php include $config->get("path") . "helper/include/google-analytics-tracking.php"?>
+
         <link rel="canonical" href="https://warframe-mastery.com/" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
         <meta name="apple-mobile-web-app-capable" content="yes">
@@ -87,7 +90,6 @@
         </script>        
     </head>
     <body class="start-page">
-
     <div id="start-page">
         <div class="row">
             <div class="column large-12">
@@ -177,7 +179,6 @@
             </div>
         </div>
     </div>
-    <?php include($config->get("path") . "helper/include/google-analytics-tracking.php")?>
 
     <?php if ($functions->isDev()) { ?>
         <script  src="<?=$config->get("root")?>helper/include/js/start-page.js"></script>
