@@ -3,6 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <title><?php echo $pageTitle?></title>
+		
+		<?php include $config->get("path") . "helper/include/google-analytics-tracking.php"?>
+
     <meta name="description" content="Get your Warframe Mastery Rank up! Keep track of all items required for mastery rank. Features tier-ranking and in-depth information. The only Warframe Mastery Tracker you need."/>
     <meta name="format-detection" content="telephone=no"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>

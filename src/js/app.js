@@ -253,10 +253,10 @@ var app = {
         $("#help-modal").foundation("reveal", "open", app.config.modal);
         app.tools.closeMenu();
         // Track event
-        gtag('event', 'Open modal: Help', {
-          'event_category': 'Open modal',
-          'event_label': 'Open modal: Help'
-        });
+        gtag("event", "Open modal: Help", {
+					event_category: "Open modal",
+					event_label: "Open modal: Help",
+				});
       },
       stats: function () {
         app.render.views.stats();

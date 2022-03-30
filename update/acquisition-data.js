@@ -3522,9 +3522,9 @@ var items = [
 		id: "/Lotus/Weapons/Tenno/Bows/Omicrus/OmicrusPlayerWep",
 	},
 	{
-	  name: "Sirocco",
-	  acquisition: THE_NEW_WAR,
-	  id: "/Lotus/Weapons/Operator/Pistols/DrifterPistol/DrifterPistolPlayerWeapon"
+		name: "Sirocco",
+		acquisition: THE_NEW_WAR,
+		id: "/Lotus/Weapons/Operator/Pistols/DrifterPistol/DrifterPistolPlayerWeapon",
 	},
 	{
 		name: "Korumm",
@@ -3546,8 +3546,26 @@ var items = [
 		acquisition: NARMER_BOUNTIES,
 		id: "/Lotus/Weapons/Archon/Melee/Whip/ArchonWhipPlayerWep",
 	},
+	// Garuda Prime Update
+	{
+	  name: "Corvas Prime",
+	  acquisition: RELICS,
+	  id: "/Lotus/Weapons/Tenno/Archwing/Primary/PrimeCorvas/PrimeCorvasWeapon"
+	},
+	{
+	  name: "Garuda Prime",
+	  acquisition: RELICS,
+	  id: "/Lotus/Powersuits/Garuda/GarudaPrime"
+	},
+	{
+	  name: "Nagantaka Prime",
+	  acquisition: RELICS,
+	  id: "/Lotus/Weapons/Tenno/LongGuns/PrimeNagantaka/PrimeNagantakaWeapon"
+	},
 ];
 
 module.exports = {
   items: items
 };
+
+      

@@ -85,8 +85,6 @@ include_once($config->get("path") . "/helper/include/header.php");
     </div>
 </div>
 
-<?php include($config->get("path") . "helper/include/google-analytics-tracking.php")?>
-
 <?php if ($functions->isDev()) { ?>
     <script src="<?=$config->get("root")?>helper/include/js/main.js?v=<?php echo rand(1000,9999); ?>"></script>
 <?php } else { ?>
