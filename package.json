@@ -37,7 +37,7 @@
   "dependencies": {
     "chalk": "^4.1.2",
     "cheerio": "*",
-    "node-fetch": "^3.0.0",
+    "node-fetch": "^3.1.1",
     "path-alias": "^0.0.12",
     "path-browserify": "^1.0.1",
     "rimraf": "^3.0.2"
