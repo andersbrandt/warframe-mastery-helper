@@ -7,7 +7,7 @@ require('child_process').execSync("echo " + version + " > public/version.txt");
 
 var options = {
 	host: ftpConfig.host,
-	port: 2020,
+	port: ftpConfig.port,
 	username: ftpConfig.user,
 	path: "./public/",
 	remoteDir: ftpConfig.path,
