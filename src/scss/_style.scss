@@ -254,11 +254,12 @@ ul#all-items {
 .thumbnail-wrapper {
   margin-bottom: 10px;
   width: 256px;
-  height: 200px;
+  height: 230px;
 }
 
 .thumbnail {
-  width: 256px;
+  max-width: 226px;
+	max-height: 230px;
 }
 
 li.item {

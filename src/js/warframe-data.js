@@ -96,6 +96,26 @@ module.exports = {
       "wikiaUrl": "http://warframe.wikia.com/wiki/Adarza_Kavat"
     },
     {
+      "category": "Rifle",
+      "description": "This unusual automatic rifle feels strangely familiar and has two fire modes. Primary fire packs radiation damage. Alternate fire charges up to launch an explosive projectile.",
+      "imageName": "aeolak.png",
+      "masteryReq": 10,
+      "name": "Aeolak",
+      "productCategory": "LongGuns",
+      "releaseDate": "2022-04-27",
+      "tradable": false,
+      "trigger": "Auto",
+      "type": "Primary",
+      "uniqueName": "/Lotus/Weapons/Tenno/LongGuns/TnRifleErsatz/TnRifleErsatzWeapon",
+      "wikiaUrl": "https://warframe.fandom.com/wiki/Aeolak",
+      "acquisition": "Zariman Bounties",
+      "checked": false,
+      "unobtainable": false,
+      "tierData": false,
+      "tierRank": 0,
+      "component": false
+    },
+    {
       "bpCost": 15000,
       "category": "Dual Pistols",
       "description": "Furis pistols equipped in each hand. Twice the Magazine Capacity and slightly faster Fire Rate, but Accuracy and Reload Speed are lowered.",
@@ -588,6 +608,26 @@ module.exports = {
       "tierRank": 0,
       "buildLink": "https://overframe.gg/build/27835/",
       "buildLinkDomain": "overframe.gg",
+      "component": false
+    },
+    {
+      "category": "Rifle",
+      "description": "Gyre’s signature weapon has two fire modes. Primary fire shocks enemies with electrical orbs. Alternate fire is a large ball of electricity that sticks to any surface and pulses Electricity before it explodes. In Gyre's hands, the weapon has a small amount of multishot.",
+      "imageName": "alternox.png",
+      "masteryReq": 8,
+      "name": "Alternox",
+      "productCategory": "LongGuns",
+      "releaseDate": "2022-04-27",
+      "tradable": false,
+      "trigger": "Auto",
+      "type": "Primary",
+      "uniqueName": "/Lotus/Weapons/Tenno/LongGuns/GyreRifle/GyreRifleWeapon",
+      "wikiaUrl": "https://warframe.fandom.com/wiki/Alternox",
+      "acquisition": "Zariman Bounties",
+      "checked": false,
+      "unobtainable": false,
+      "tierData": false,
+      "tierRank": 0,
       "component": false
     },
     {
@@ -2569,7 +2609,7 @@ module.exports = {
     },
     {
       "bpCost": 35000,
-      "description": "When fully charged, this flak-cannon delivers a devastating shot. Perfect for taking down fast-moving interceptors.",
+      "description": "When fully charged, this flak cannon delivers a devastating shot. Perfect for taking down fast-moving interceptors.",
       "imageName": "corvas.png",
       "masteryReq": 1,
       "name": "Corvas",
@@ -2588,7 +2628,7 @@ module.exports = {
       "component": false
     },
     {
-      "description": "Flaunting ceremonial beauty, this arch-gun flak-cannon is even more devastating than its standard issue counterpart.",
+      "description": "Flaunting ceremonial beauty, this arch gun flak cannon is even more devastating than its standard issue counterpart.",
       "imageName": "corvas-prime.png",
       "masteryReq": 14,
       "name": "Corvas Prime",
@@ -5034,6 +5074,24 @@ module.exports = {
       "component": false
     },
     {
+      "description": "Gyre embodies elegant theory. Annihilate enemies with the conductivity of coils and transmitters.",
+      "imageName": "gyre.png",
+      "masteryReq": 0,
+      "name": "Gyre",
+      "productCategory": "Suits",
+      "releaseDate": "2022-04-27",
+      "tradable": false,
+      "type": "Warframe",
+      "uniqueName": "/Lotus/Powersuits/Gyre/Gyre",
+      "wikiaUrl": "https://warframe.fandom.com/wiki/Gyre",
+      "acquisition": "Zariman Bounties",
+      "checked": false,
+      "unobtainable": false,
+      "tierData": false,
+      "tierRank": 0,
+      "component": false
+    },
+    {
       "bpCost": 20000,
       "category": "Melee",
       "description": "This jet powered Grineer throwing mace always comes back to its master and is even capable of disarming targets.",
@@ -5372,6 +5430,25 @@ module.exports = {
       "tierRank": 0,
       "buildLink": "https://overframe.gg/build/10359/",
       "buildLinkDomain": "overframe.gg",
+      "component": false
+    },
+    {
+      "category": "Melee",
+      "description": "This Heavy Scythe echoes battles of another time. It is far more a weapon of sheer force than one of finesse.",
+      "imageName": "hespar.png",
+      "masteryReq": 12,
+      "name": "Hespar",
+      "productCategory": "Melee",
+      "releaseDate": "2022-04-27",
+      "tradable": false,
+      "type": "Melee",
+      "uniqueName": "/Lotus/Weapons/Tenno/Melee/HeavyScythe/DuviriScythe/DuviriHeavyScytheWeapon",
+      "wikiaUrl": "https://warframe.fandom.com/wiki/Hespar",
+      "acquisition": "Zariman Bounties",
+      "checked": false,
+      "unobtainable": false,
+      "tierData": false,
+      "tierRank": 0,
       "component": false
     },
     {
@@ -7064,6 +7141,26 @@ module.exports = {
       "uniqueName": "/Lotus/Types/Friendly/Pets/ZanukaPets/ZanukaPetMeleeWeaponIS",
       "wikiaUrl": "https://warframe.fandom.com/wiki/Lacerten",
       "acquisition": "Sisters of Parvos Hound",
+      "checked": false,
+      "unobtainable": false,
+      "tierData": false,
+      "tierRank": 0,
+      "component": false
+    },
+    {
+      "category": "Pistol",
+      "description": "During parades and victory marches, the Laetum fired pigmented airburst rounds that rained onto festive crowds. The Orokin sent Laetum with the Zariman so they could properly celebrate a successful maiden voyage to Tau. There would be no such celebration, but the Void imbued the Laetum with a much more explosive capacity.",
+      "imageName": "laetum.png",
+      "masteryReq": 14,
+      "name": "Laetum",
+      "productCategory": "Pistols",
+      "releaseDate": "2022-04-27",
+      "tradable": false,
+      "trigger": "Semi",
+      "type": "Secondary",
+      "uniqueName": "/Lotus/Weapons/Tenno/Zariman/Pistols/HeavyPistol/ZarimanHeavyPistol",
+      "wikiaUrl": "https://warframe.fandom.com/wiki/Laetum",
+      "acquisition": "Cavalero (Zariman)",
       "checked": false,
       "unobtainable": false,
       "tierData": false,
@@ -9551,6 +9648,26 @@ module.exports = {
       "wikiaUrl": "http://warframe.wikia.com/wiki/Pharaoh_Predasite"
     },
     {
+      "category": "Rifle",
+      "description": "Zariman colonists originally intended to use the Phenmor in burial rites. In Orokin society, the higher the rank, the greater number of volleys for the deceased. Its stock is carved from Phenaureus Pine, a tree designed to release seedlings only onto scorched earth. In the hands of the Void, the Phenmor becomes darkly aggressive.",
+      "imageName": "phenmor.png",
+      "masteryReq": 14,
+      "name": "Phenmor",
+      "productCategory": "LongGuns",
+      "releaseDate": "2022-04-27",
+      "tradable": false,
+      "trigger": "Semi",
+      "type": "Primary",
+      "uniqueName": "/Lotus/Weapons/Tenno/Zariman/LongGuns/SemiAutoRifle/ZarimanSemiAutoRifle",
+      "wikiaUrl": "https://warframe.fandom.com/wiki/Phenmor",
+      "acquisition": "Cavalero (Zariman)",
+      "checked": false,
+      "unobtainable": false,
+      "tierData": false,
+      "tierRank": 0,
+      "component": false
+    },
+    {
       "category": "Zaw",
       "description": "",
       "imageName": "plague-keewar.png",
@@ -9682,6 +9799,25 @@ module.exports = {
       "tierRank": 0,
       "buildLink": "https://overframe.gg/build/27889/",
       "buildLinkDomain": "overframe.gg",
+      "component": false
+    },
+    {
+      "category": "Melee",
+      "description": "Orokin elites admired farmers in conquered regions, because they had learned to fight with modified farming tools despite being forbidden to own weapons. For their voyage, the Zariman were presented with Praedos in recognition of Zariman tenacity. The Void reinforces the strength of the spirited individual by fortifying the Praedos.",
+      "imageName": "praedos.png",
+      "masteryReq": 14,
+      "name": "Praedos",
+      "productCategory": "Melee",
+      "releaseDate": "2022-04-27",
+      "tradable": false,
+      "type": "Melee",
+      "uniqueName": "/Lotus/Weapons/Tenno/Zariman/Melee/Tonfas/ZarimanTonfaWeapon",
+      "wikiaUrl": "https://warframe.fandom.com/wiki/Praedos",
+      "acquisition": "Cavalero (Zariman)",
+      "checked": false,
+      "unobtainable": false,
+      "tierData": false,
+      "tierRank": 0,
       "component": false
     },
     {
@@ -14796,7 +14932,7 @@ module.exports = {
     },
     {
       "category": "Pistol",
-      "description": "Infect your foes with this spore-scattering pistol. Head shots burrow in and explode, releasing spore clouds that seek out nearby enemies.",
+      "description": "Infect your foes with this spore-scattering pistol. Headshots burrow in and explode, releasing spore clouds that seek out nearby enemies.",
       "imageName": "zymos.png",
       "masteryReq": 11,
       "name": "Zymos",
@@ -14820,5 +14956,5 @@ module.exports = {
       "component": false
     }
   ],
-  "fetched": "2022.04.03 09:35:05 CET+02:00"
+  "fetched": "2022.05.15 07:51:21 CET+02:00"
 }
