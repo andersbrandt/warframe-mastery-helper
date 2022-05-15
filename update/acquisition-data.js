@@ -67,6 +67,10 @@ SON = "Son (Nekralisk)";
 LOID = "Loid (Nekralisk)";
 ISOLATION_VAULT = "Isolation Vault (Deimos)";
 NARMER_BOUNTIES = "Narmer Bounties"
+ZARIMAN_BOUNTIES = "Zariman Bounties"
+CAVALERO = "Cavalero (Zariman)"
+
+
 
 // Quests
 CHAINS_OF_HARROW = 'Chains of Harrow (Quest)';
@@ -3548,24 +3552,58 @@ var items = [
 	},
 	// Garuda Prime Update
 	{
-	  name: "Corvas Prime",
-	  acquisition: RELICS,
-	  id: "/Lotus/Weapons/Tenno/Archwing/Primary/PrimeCorvas/PrimeCorvasWeapon"
+		name: "Corvas Prime",
+		acquisition: RELICS,
+		id: "/Lotus/Weapons/Tenno/Archwing/Primary/PrimeCorvas/PrimeCorvasWeapon",
 	},
 	{
-	  name: "Garuda Prime",
-	  acquisition: RELICS,
-	  id: "/Lotus/Powersuits/Garuda/GarudaPrime"
+		name: "Garuda Prime",
+		acquisition: RELICS,
+		id: "/Lotus/Powersuits/Garuda/GarudaPrime",
 	},
 	{
-	  name: "Nagantaka Prime",
-	  acquisition: RELICS,
-	  id: "/Lotus/Weapons/Tenno/LongGuns/PrimeNagantaka/PrimeNagantakaWeapon"
+		name: "Nagantaka Prime",
+		acquisition: RELICS,
+		id: "/Lotus/Weapons/Tenno/LongGuns/PrimeNagantaka/PrimeNagantakaWeapon",
+	},
+	// Zariman Update
+	{
+		name: "Laetum",
+		acquisition: CAVALERO,
+		id: "/Lotus/Weapons/Tenno/Zariman/Pistols/HeavyPistol/ZarimanHeavyPistol",
+	},
+	{
+		name: "Phenmor",
+		acquisition: CAVALERO,
+		id: "/Lotus/Weapons/Tenno/Zariman/LongGuns/SemiAutoRifle/ZarimanSemiAutoRifle",
+	},
+	{
+		name: "Praedos",
+		acquisition: CAVALERO,
+		id: "/Lotus/Weapons/Tenno/Zariman/Melee/Tonfas/ZarimanTonfaWeapon",
+	},
+	{
+		name: "Gyre",
+		acquisition: ZARIMAN_BOUNTIES,
+		id: "/Lotus/Powersuits/Gyre/Gyre",
+	},
+	{
+		name: "Alternox",
+		acquisition: ZARIMAN_BOUNTIES,
+		id: "/Lotus/Weapons/Tenno/LongGuns/GyreRifle/GyreRifleWeapon",
+	},
+	{
+	  name: "Aeolak",
+	  acquisition: ZARIMAN_BOUNTIES,
+	  id: "/Lotus/Weapons/Tenno/LongGuns/TnRifleErsatz/TnRifleErsatzWeapon"
+	},
+	{
+	  name: "Hespar",
+	  acquisition: ZARIMAN_BOUNTIES,
+	  id: "/Lotus/Weapons/Tenno/Melee/HeavyScythe/DuviriScythe/DuviriHeavyScytheWeapon"
 	},
 ];
 
 module.exports = {
   items: items
 };
-
-      
