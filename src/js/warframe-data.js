@@ -4153,6 +4153,26 @@ module.exports = {
       "component": false
     },
     {
+      "category": "Shotgun",
+      "description": "The Felarx invokes ancient times when aristocrats hunted game. For ceremonies, Orokin elites bred creatures reminiscent of game birds to reanimate cultural myths. They gave the Zariman crew Felarx and a brace of birds as a sign of acceptance into elite society. The brace of birds becomes a pair of pistols at the hands of the Void.",
+      "imageName": "felarx.png",
+      "masteryReq": 14,
+      "name": "Felarx",
+      "productCategory": "LongGuns",
+      "releaseDate": "2022-06-09",
+      "tradable": false,
+      "trigger": "Auto",
+      "type": "Primary",
+      "uniqueName": "/Lotus/Weapons/Tenno/Zariman/LongGuns/PumpShotgun/ZarimanPumpShotgun",
+      "wikiaUrl": "https://warframe.fandom.com/wiki/Felarx",
+      "acquisition": "Cavalero (Zariman)",
+      "checked": false,
+      "unobtainable": false,
+      "tierData": false,
+      "tierRank": 0,
+      "component": false
+    },
+    {
       "bpCost": 15000,
       "category": "Rifle",
       "description": "Discharge a rail of ionized death or throw the Ferrox like a spear and create a localized field of attraction no enemy can escape from.",
@@ -5767,8 +5787,28 @@ module.exports = {
       "tradable": false,
       "type": "Warframe",
       "uniqueName": "/Lotus/Powersuits/Sandman/InarosPrime",
+      "vaulted": true,
       "wikiaUrl": "https://warframe.fandom.com/wiki/Inaros%2FPrime",
       "acquisition": "Relics",
+      "checked": false,
+      "unobtainable": false,
+      "tierData": false,
+      "tierRank": 0,
+      "component": false
+    },
+    {
+      "category": "Melee",
+      "description": "In the early Orokin Empire, elites wore Innodem as a symbolic reminder to defend the defenseless. The tradition fell out of style, but nostalgic elites acknowledged the sentiment in the form of a gift. The Void amplifies that ideal. Void energy strengthens Innodem gliding aerial attacks and the wielder is increasingly resilient as they perform finisher attacks in Incarnon Form.",
+      "imageName": "innodem.png",
+      "masteryReq": 14,
+      "name": "Innodem",
+      "productCategory": "Melee",
+      "releaseDate": "2022-06-09",
+      "tradable": false,
+      "type": "Melee",
+      "uniqueName": "/Lotus/Weapons/Tenno/Zariman/Melee/Dagger/ZarimanDaggerWeapon",
+      "wikiaUrl": "https://warframe.fandom.com/wiki/Innodem",
+      "acquisition": "Cavalero (Zariman)",
       "checked": false,
       "unobtainable": false,
       "tierData": false,
@@ -9338,6 +9378,7 @@ module.exports = {
       "trigger": "Auto",
       "type": "Primary",
       "uniqueName": "/Lotus/Weapons/Tenno/LongGuns/PrimePanthera/PrimePanthera",
+      "vaulted": true,
       "wikiaUrl": "https://warframe.fandom.com/wiki/Panthera_Prime",
       "acquisition": "Relics",
       "checked": false,
@@ -13001,7 +13042,7 @@ module.exports = {
     },
     {
       "category": "Melee",
-      "description": "The sleek lines of the Granum Attaché case conceal a infinitely sharp two-handed blade. Blocked attacks have a chance to increase the blocking angle. Note: The Granum Attaché system pauses the combo timer when holstered.",
+      "description": "The sleek lines of the Granum Attaché case conceal an infinitely sharp two-handed blade. Blocked attacks have a chance to increase the blocking angle. Note: The Granum Attaché system pauses the combo timer when holstered.",
       "imageName": "tenet-livia.png",
       "masteryReq": 14,
       "maxLevelCap": 40,
@@ -14175,6 +14216,25 @@ module.exports = {
       "component": false
     },
     {
+      "category": "Melee",
+      "description": "Unfurl this warfan like a rapidly waxing moon.",
+      "imageName": "vericres.png",
+      "masteryReq": 8,
+      "name": "Vericres",
+      "productCategory": "Melee",
+      "releaseDate": "0000-00-00",
+      "tradable": false,
+      "type": "Melee",
+      "uniqueName": "/Lotus/Weapons/Tenno/Melee/Warfan/TnMoonWarfan/MoonWarfanWeapon",
+      "wikiaUrl": "https://warframe.fandom.com/wiki/Vericres",
+      "acquisition": "Tennocon 2022 Twitch Reward",
+      "checked": false,
+      "unobtainable": false,
+      "tierData": false,
+      "tierRank": 0,
+      "component": false
+    },
+    {
       "description": "Weightless space turns this impossibly massive sword into an agile instrument of destruction.",
       "imageName": "veritux.png",
       "masteryReq": 0,
@@ -14956,5 +15016,5 @@ module.exports = {
       "component": false
     }
   ],
-  "fetched": "2022.05.15 07:51:21 CET+02:00"
+  "fetched": "2022.06.11 02:35:27 CET+02:00"
 }

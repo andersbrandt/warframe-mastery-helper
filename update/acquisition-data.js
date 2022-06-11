@@ -70,8 +70,6 @@ NARMER_BOUNTIES = "Narmer Bounties"
 ZARIMAN_BOUNTIES = "Zariman Bounties"
 CAVALERO = "Cavalero (Zariman)"
 
-
-
 // Quests
 CHAINS_OF_HARROW = 'Chains of Harrow (Quest)';
 HIDDEN_MESSAGES = 'Hidden Messages (Quest)';
@@ -127,12 +125,12 @@ GRANUM_VOID = "Granum Void";
 VEIL_PROXIMA = "Veil Proxima Caches";
 TENNOCON_2020 = "Tennocon 2020 Twitch Reward";
 TENNOCON_2021 = "Tennocon 2021 Twitch Reward";
+TENNOCON_2022 = "Tennocon 2022 Twitch Reward";
 NECRAMECH = "Comes with Necramech";
 K_DRIVE_DEIMOS = "K-Drive Races (Deimos)";
 RAILJACK_CORPUS = "Railjack (Corpus)";
 VOID_STORM = "Void Storm (Railjack)";
 HOLOKEYS = "Holokeys (Void Storm)";
-
 
 //
 //  Add new items to the end of array
@@ -3593,17 +3591,35 @@ var items = [
 		id: "/Lotus/Weapons/Tenno/LongGuns/GyreRifle/GyreRifleWeapon",
 	},
 	{
-	  name: "Aeolak",
-	  acquisition: ZARIMAN_BOUNTIES,
-	  id: "/Lotus/Weapons/Tenno/LongGuns/TnRifleErsatz/TnRifleErsatzWeapon"
+		name: "Aeolak",
+		acquisition: ZARIMAN_BOUNTIES,
+		id: "/Lotus/Weapons/Tenno/LongGuns/TnRifleErsatz/TnRifleErsatzWeapon",
 	},
 	{
-	  name: "Hespar",
-	  acquisition: ZARIMAN_BOUNTIES,
-	  id: "/Lotus/Weapons/Tenno/Melee/HeavyScythe/DuviriScythe/DuviriHeavyScytheWeapon"
+		name: "Hespar",
+		acquisition: ZARIMAN_BOUNTIES,
+		id: "/Lotus/Weapons/Tenno/Melee/HeavyScythe/DuviriScythe/DuviriHeavyScytheWeapon",
+	},
+	// Echoes of Zarima Update
+	{
+		name: "Felarx",
+		acquisition: CAVALERO,
+		id: "/Lotus/Weapons/Tenno/Zariman/LongGuns/PumpShotgun/ZarimanPumpShotgun",
+	},
+	{
+		name: "Innodem",
+		acquisition: CAVALERO,
+		id: "/Lotus/Weapons/Tenno/Zariman/Melee/Dagger/ZarimanDaggerWeapon",
+	},
+	{
+		name: "Vericres",
+		acquisition: TENNOCON_2022,
+		id: "/Lotus/Weapons/Tenno/Melee/Warfan/TnMoonWarfan/MoonWarfanWeapon",
 	},
 ];
 
 module.exports = {
   items: items
 };
+
+      
