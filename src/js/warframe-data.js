@@ -3626,6 +3626,25 @@ module.exports = {
       "component": false
     },
     {
+      "category": "Melee",
+      "description": "The hunted will meet a quick end when faced with Khora Prime's signature swords. Heavy Attack Efficiency is enhanced when wielded by Khora.",
+      "imageName": "dual-keres-prime.png",
+      "masteryReq": 14,
+      "name": "Dual Keres Prime",
+      "productCategory": "Melee",
+      "releaseDate": "2022-05-21",
+      "tradable": false,
+      "type": "Melee",
+      "uniqueName": "/Lotus/Weapons/Tenno/Melee/Swords/PrimeDualKeres/PrimeDualKeresWeapon",
+      "wikiaUrl": "https://warframe.fandom.com/wiki/Dual_Keres_Prime",
+      "acquisition": "Relics",
+      "checked": false,
+      "unobtainable": false,
+      "tierData": false,
+      "tierRank": 0,
+      "component": false
+    },
+    {
       "bpCost": 15000,
       "category": "Melee",
       "description": "Razor sharp battle-hatchets, designed to compliment the Soma.",
@@ -5650,7 +5669,7 @@ module.exports = {
     {
       "bpCost": 25000,
       "category": "Pistol",
-      "description": "Heat, cold, electricity, or toxin: choose an element and launch a flurry of deadly quills. This versatile sidearm is Khora’s signature weapon.",
+      "description": "Heat, cold, electricity, or toxin: choose an element and launch a flurry of deadly quills. This versatile sidearm is Khora’s signature weapon and has a chance to instantly reload after headshots when she wields it.",
       "imageName": "hystrix.png",
       "masteryReq": 7,
       "name": "Hystrix",
@@ -5671,6 +5690,26 @@ module.exports = {
       "tierRank": 0,
       "buildLink": "https://overframe.gg/build/27865/",
       "buildLinkDomain": "overframe.gg",
+      "component": false
+    },
+    {
+      "category": "Pistol",
+      "description": "Versatile weapons complement deadly hunters. Khora Prime’s signature pistol rotates through hot, cold, electric, and toxic quills. When equipped on Khora, Hystrix Prime has a chance to instantly reload after headshots.",
+      "imageName": "hystrix-prime.png",
+      "masteryReq": 12,
+      "name": "Hystrix Prime",
+      "productCategory": "Pistols",
+      "releaseDate": "2022-05-21",
+      "tradable": false,
+      "trigger": "Auto",
+      "type": "Secondary",
+      "uniqueName": "/Lotus/Weapons/Tenno/Pistols/PrimeHystrix/PrimeHystrixWeapon",
+      "wikiaUrl": "https://warframe.fandom.com/wiki/Hystrix_Prime",
+      "acquisition": "Relics",
+      "checked": false,
+      "unobtainable": false,
+      "tierData": false,
+      "tierRank": 0,
       "component": false
     },
     {
@@ -6216,6 +6255,27 @@ module.exports = {
       "uniqueName": "/Lotus/Powersuits/Khora/Khora",
       "wikiaUrl": "https://warframe.fandom.com/wiki/Khora",
       "acquisition": "Sanctuary Onslaught",
+      "checked": false,
+      "unobtainable": false,
+      "tierData": false,
+      "tierRank": 0,
+      "component": false
+    },
+    {
+      "description": "A harmony of mistress and monster. The gilded huntress and her loyal Kavat, Venari, dominate the battlefield with their will.",
+      "exalted": [
+        "/Lotus/Powersuits/Khora/Kavat/KhoraPrimeKavatPowerSuit"
+      ],
+      "imageName": "khora-prime.png",
+      "masteryReq": 0,
+      "name": "Khora Prime",
+      "productCategory": "Suits",
+      "releaseDate": "2022-05-21",
+      "tradable": false,
+      "type": "Warframe",
+      "uniqueName": "/Lotus/Powersuits/Khora/KhoraPrime",
+      "wikiaUrl": "https://warframe.fandom.com/wiki/Khora%2FPrime",
+      "acquisition": "Relics",
       "checked": false,
       "unobtainable": false,
       "tierData": false,
@@ -13366,7 +13426,7 @@ module.exports = {
       "imageName": "tombfinger.png",
       "masteryReq": 0,
       "name": "Tombfinger",
-      "primeOmegaAttenuation": 0.94999999,
+      "primeOmegaAttenuation": 1,
       "productCategory": "Pistols",
       "releaseDate": "2018-11-08",
       "tradable": false,
@@ -14222,7 +14282,7 @@ module.exports = {
       "masteryReq": 8,
       "name": "Vericres",
       "productCategory": "Melee",
-      "releaseDate": "0000-00-00",
+      "releaseDate": "2022-07-14",
       "tradable": false,
       "type": "Melee",
       "uniqueName": "/Lotus/Weapons/Tenno/Melee/Warfan/TnMoonWarfan/MoonWarfanWeapon",
@@ -14258,7 +14318,7 @@ module.exports = {
       "imageName": "vermisplicer.png",
       "masteryReq": 0,
       "name": "Vermisplicer",
-      "primeOmegaAttenuation": 0.85000002,
+      "primeOmegaAttenuation": 0.89999998,
       "productCategory": "Pistols",
       "releaseDate": "2020-11-19",
       "tradable": false,
@@ -15016,5 +15076,5 @@ module.exports = {
       "component": false
     }
   ],
-  "fetched": "2022.06.11 02:35:27 CET+02:00"
+  "fetched": "2022.07.18 01:18:12 CET+02:00"
 }

@@ -3616,10 +3616,29 @@ var items = [
 		acquisition: TENNOCON_2022,
 		id: "/Lotus/Weapons/Tenno/Melee/Warfan/TnMoonWarfan/MoonWarfanWeapon",
 	},
+	// Kora Prime Update
+	{
+		name: "Dual Keres Prime",
+		acquisition: RELICS,
+		id: "/Lotus/Weapons/Tenno/Melee/Swords/PrimeDualKeres/PrimeDualKeresWeapon",
+	},
+
+	{
+		name: "Hystrix Prime",
+		acquisition: RELICS,
+		id: "/Lotus/Weapons/Tenno/Pistols/PrimeHystrix/PrimeHystrixWeapon",
+	},
+
+	{
+		name: "Khora Prime",
+		acquisition: RELICS,
+		id: "/Lotus/Powersuits/Khora/KhoraPrime",
+	},
 ];
 
 module.exports = {
   items: items
 };
 
+      
       
