@@ -66,9 +66,11 @@ FATHER = "Father (Nekralisk)";
 SON = "Son (Nekralisk)";
 LOID = "Loid (Nekralisk)";
 ISOLATION_VAULT = "Isolation Vault (Deimos)";
-NARMER_BOUNTIES = "Narmer Bounties"
-ZARIMAN_BOUNTIES = "Zariman Bounties"
-CAVALERO = "Cavalero (Zariman)"
+NARMER_BOUNTIES = "Narmer Bounties";
+ZARIMAN_BOUNTIES = "Zariman Bounties";
+CAVALERO = "Cavalero (Zariman)";
+KAHLS = "Kahl's Bounties";
+
 
 // Quests
 CHAINS_OF_HARROW = 'Chains of Harrow (Quest)';
@@ -3634,6 +3636,27 @@ var items = [
 		acquisition: RELICS,
 		id: "/Lotus/Powersuits/Khora/KhoraPrime",
 	},
+	// Veilbreaker update
+	{
+		name: "Aegrit",
+		acquisition: KAHLS,
+		id: "/Lotus/Weapons/Grineer/ThrowingWeapons/GrnVorStickyBomb/GrnVorStickyBomb",
+	},
+	{
+		name: "Afentis",
+		acquisition: KAHLS,
+		id: "/Lotus/Weapons/Tenno/LongGuns/TnHopliteSpear/TnHopliteSpearGunWeapon",
+	},
+	{
+		name: "Slaytra",
+		acquisition: KAHLS,
+		id: "/Lotus/Weapons/Grineer/Melee/GrnSharbola/GrnSharbolaWeapon",
+	},
+	{
+		name: "Styanax",
+		acquisition: KAHLS,
+		id: "/Lotus/Powersuits/Hoplite/Hoplite",
+	},
 ];
 
 module.exports = {
@@ -3641,4 +3664,6 @@ module.exports = {
 };
 
       
+      
+  
       

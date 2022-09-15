@@ -96,6 +96,26 @@ module.exports = {
       "wikiaUrl": "http://warframe.wikia.com/wiki/Adarza_Kavat"
     },
     {
+      "category": "Throwing",
+      "description": "What the Aegrit lacks in quantity it makes up for in destructive power. Toss the Aegrit onto your enemy’s position then detonate remotely at the right moment for maximum destructive effect.",
+      "imageName": "aegrit.png",
+      "masteryReq": 11,
+      "name": "Aegrit",
+      "productCategory": "Pistols",
+      "releaseDate": "2022-09-07",
+      "tradable": false,
+      "trigger": "Active",
+      "type": "Secondary",
+      "uniqueName": "/Lotus/Weapons/Grineer/ThrowingWeapons/GrnVorStickyBomb/GrnVorStickyBomb",
+      "wikiaUrl": "https://warframe.fandom.com/wiki/Aegrit",
+      "acquisition": "Kahl's Bounties",
+      "checked": false,
+      "unobtainable": false,
+      "tierData": false,
+      "tierRank": 0,
+      "component": false
+    },
+    {
       "category": "Rifle",
       "description": "This unusual automatic rifle feels strangely familiar and has two fire modes. Primary fire packs radiation damage. Alternate fire charges up to launch an explosive projectile.",
       "imageName": "aeolak.png",
@@ -109,6 +129,26 @@ module.exports = {
       "uniqueName": "/Lotus/Weapons/Tenno/LongGuns/TnRifleErsatz/TnRifleErsatzWeapon",
       "wikiaUrl": "https://warframe.fandom.com/wiki/Aeolak",
       "acquisition": "Zariman Bounties",
+      "checked": false,
+      "unobtainable": false,
+      "tierData": false,
+      "tierRank": 0,
+      "component": false
+    },
+    {
+      "category": "Rifle",
+      "description": "Styanax’s speargun matches his might. Throw Afentis to pin an enemy and nearby enemies will also be stunned. Throw Afentis onto the ground to buff nearby allies with Ballistarii Might. The buff increases reload speed, fire rate, and ammo pools and reduces recoil. Allies who kill enemies with Ballistarii Might maintain the buff temporarily when they move away from Afentis.",
+      "imageName": "afentis.png",
+      "masteryReq": 8,
+      "name": "Afentis",
+      "productCategory": "LongGuns",
+      "releaseDate": "2022-09-07",
+      "tradable": false,
+      "trigger": "Semi",
+      "type": "Primary",
+      "uniqueName": "/Lotus/Weapons/Tenno/LongGuns/TnHopliteSpear/TnHopliteSpearGunWeapon",
+      "wikiaUrl": "https://warframe.fandom.com/wiki/Afentis",
+      "acquisition": "Kahl's Bounties",
       "checked": false,
       "unobtainable": false,
       "tierData": false,
@@ -2204,17 +2244,16 @@ module.exports = {
       "name": "Catchmoon",
       "primeOmegaAttenuation": 1.1,
       "productCategory": "Pistols",
-      "releaseDate": "2018-11-08",
       "tradable": false,
       "type": "Secondary",
       "uniqueName": "/Lotus/Weapons/SolarisUnited/Secondary/SUModularSecondarySet1/Barrel/SUModularSecondaryBarrelAPart",
-      "wikiaUrl": "https://warframe.fandom.com/wiki/Catchmoon",
       "acquisition": "Rude Zuud (Fortuna)",
       "checked": false,
       "unobtainable": false,
       "tierData": false,
       "tierRank": 0,
-      "component": false
+      "component": false,
+      "wikiaUrl": "http://warframe.wikia.com/wiki/Catchmoon"
     },
     {
       "bpCost": 50000,
@@ -3886,6 +3925,7 @@ module.exports = {
       "component": false
     },
     {
+      "bpCost": 25000,
       "description": "Split between day and night, Equinox manifests aggressive and defensive forms at will.",
       "imageName": "equinox.png",
       "masteryReq": 0,
@@ -4731,17 +4771,16 @@ module.exports = {
       "name": "Gaze",
       "primeOmegaAttenuation": 1.05,
       "productCategory": "Pistols",
-      "releaseDate": "2018-11-08",
       "tradable": false,
       "type": "Secondary",
       "uniqueName": "/Lotus/Weapons/SolarisUnited/Secondary/SUModularSecondarySet1/Barrel/SUModularSecondaryBarrelDPart",
-      "wikiaUrl": "https://warframe.fandom.com/wiki/Gaze",
       "acquisition": "Rude Zuud (Fortuna)",
       "checked": false,
       "unobtainable": false,
       "tierData": false,
       "tierRank": 0,
-      "component": false
+      "component": false,
+      "wikiaUrl": "http://warframe.wikia.com/wiki/Gaze"
     },
     {
       "category": "Melee",
@@ -5223,7 +5262,7 @@ module.exports = {
     {
       "description": "The Inquisitor Eternal arises, hallowed by the Void, preaching a gospel of iron and flame.",
       "imageName": "harrow-prime.png",
-      "masteryReq": 8,
+      "masteryReq": 0,
       "name": "Harrow Prime",
       "productCategory": "Suits",
       "releaseDate": "2021-12-16",
@@ -7654,6 +7693,7 @@ module.exports = {
       "component": false
     },
     {
+      "bpCost": 35000,
       "description": "Desired by advanced players, Loki offers a variety of specialized reconfiguring abilities. The creativity of Loki's powers allows players to master the battlefield through manipulation.",
       "imageName": "loki.png",
       "masteryReq": 0,
@@ -7736,6 +7776,7 @@ module.exports = {
       "component": false
     },
     {
+      "bpCost": 25000,
       "description": "With full command of surrounding magnetic energy, Mag is an expert at enemy manipulation.",
       "imageName": "mag.png",
       "masteryReq": 0,
@@ -8547,6 +8588,7 @@ module.exports = {
       "wikiaUrl": "http://warframe.wikia.com/wiki/Needlenose"
     },
     {
+      "bpCost": 100000,
       "description": "Nekros uses his dark powers to manipulate his enemies, both living and dead.",
       "imageName": "nekros.png",
       "masteryReq": 0,
@@ -8603,6 +8645,7 @@ module.exports = {
       "component": false
     },
     {
+      "bpCost": 35000,
       "description": "A petite and playful facade conceals this frame's immense power.",
       "imageName": "nezha.png",
       "masteryReq": 0,
@@ -8769,6 +8812,7 @@ module.exports = {
       "component": false
     },
     {
+      "bpCost": 35000,
       "description": "Nova uses electromagnetic energy to contain and control highly volatile antimatter that fuels her abilities.",
       "imageName": "nova.png",
       "masteryReq": 0,
@@ -8849,6 +8893,7 @@ module.exports = {
       "wikiaUrl": "http://warframe.wikia.com/wiki/Nychus_Moa"
     },
     {
+      "bpCost": 25000,
       "description": "Mind control and psychic attacks make Nyx a very dangerous foe. Her ability to reach into enemy consciousness and manipulate their behavior can turn the tide of battle.",
       "imageName": "nyx.png",
       "masteryReq": 0,
@@ -10627,7 +10672,7 @@ module.exports = {
       "masteryReq": 0,
       "name": "Rahn Prism",
       "productCategory": "Pistols",
-      "releaseDate": "2018-08-16",
+      "releaseDate": "2017-10-12",
       "tradable": false,
       "type": "Amp",
       "uniqueName": "/Lotus/Weapons/Sentients/OperatorAmplifiers/Set2/Barrel/SentAmpSet2BarrelPartA",
@@ -10772,17 +10817,16 @@ module.exports = {
       "name": "Rattleguts",
       "primeOmegaAttenuation": 1,
       "productCategory": "Pistols",
-      "releaseDate": "2018-11-08",
       "tradable": false,
       "type": "Secondary",
       "uniqueName": "/Lotus/Weapons/SolarisUnited/Secondary/SUModularSecondarySet1/Barrel/SUModularSecondaryBarrelCPart",
-      "wikiaUrl": "https://warframe.fandom.com/wiki/Rattleguts",
       "acquisition": "Rude Zuud (Fortuna)",
       "checked": false,
       "unobtainable": false,
       "tierData": false,
       "tierRank": 0,
-      "component": false
+      "component": false,
+      "wikiaUrl": "http://warframe.wikia.com/wiki/Rattleguts"
     },
     {
       "category": "Melee",
@@ -10877,6 +10921,7 @@ module.exports = {
       "component": false
     },
     {
+      "bpCost": 35000,
       "description": "Rhino is the heaviest Warframe, combining offensive and defensive capabilities.",
       "imageName": "rhino.png",
       "masteryReq": 0,
@@ -11145,6 +11190,7 @@ module.exports = {
       "component": false
     },
     {
+      "bpCost": 35000,
       "description": "Saryn's venomous attacks are horrifyingly effective against organic and synthetic enemies, and her ability to 'shed' her skin makes her very elusive.",
       "imageName": "saryn.png",
       "masteryReq": 0,
@@ -11840,6 +11886,25 @@ module.exports = {
       "specialNote": "Item are fully ranked when obtained."
     },
     {
+      "category": "Melee",
+      "description": "The Slaytra is a powerful reiteration of the traditional Grineer Machete that doubles the duration of bleed from slash damage.",
+      "imageName": "slaytra.png",
+      "masteryReq": 13,
+      "name": "Slaytra",
+      "productCategory": "Melee",
+      "releaseDate": "2022-09-07",
+      "tradable": false,
+      "type": "Melee",
+      "uniqueName": "/Lotus/Weapons/Grineer/Melee/GrnSharbola/GrnSharbolaWeapon",
+      "wikiaUrl": "https://warframe.fandom.com/wiki/Slaytra",
+      "acquisition": "Kahl's Bounties",
+      "checked": false,
+      "unobtainable": false,
+      "tierData": false,
+      "tierRank": 0,
+      "component": false
+    },
+    {
       "category": "Kavat",
       "description": "Fast and foxy, Vulpaphyla are agile allies to bring along on your next adventure.",
       "imageName": "sly-vulpaphyla.png",
@@ -12118,17 +12183,16 @@ module.exports = {
       "name": "Sporelacer",
       "primeOmegaAttenuation": 1.05,
       "productCategory": "Pistols",
-      "releaseDate": "2020-11-19",
       "tradable": false,
       "type": "Secondary",
       "uniqueName": "/Lotus/Weapons/Infested/Pistols/InfKitGun/Barrels/InfBarrelEgg/InfModularBarrelEggPart",
-      "wikiaUrl": "https://warframe.fandom.com/wiki/Sporelacer",
       "acquisition": "Father (Nekralisk)",
       "checked": false,
       "unobtainable": false,
       "tierData": false,
       "tierRank": 0,
-      "component": false
+      "component": false,
+      "wikiaUrl": "http://warframe.wikia.com/wiki/Sporelacer"
     },
     {
       "category": "Rifle",
@@ -12320,7 +12384,7 @@ module.exports = {
       "component": false
     },
     {
-      "category": "Rifle",
+      "category": "Shotgun",
       "description": "A classic shotgun design, embellished for the elite as only the Orokin could.",
       "imageName": "strun-prime.png",
       "masteryReq": 14,
@@ -12418,6 +12482,24 @@ module.exports = {
       "tierRank": 0,
       "buildLink": "https://overframe.gg/build/27909/",
       "buildLinkDomain": "overframe.gg",
+      "component": false
+    },
+    {
+      "description": "Styanax never wonders how many enemies he will face, only where he can find them.",
+      "imageName": "styanax.png",
+      "masteryReq": 0,
+      "name": "Styanax",
+      "productCategory": "Suits",
+      "releaseDate": "2022-09-07",
+      "tradable": false,
+      "type": "Warframe",
+      "uniqueName": "/Lotus/Powersuits/Hoplite/Hoplite",
+      "wikiaUrl": "https://warframe.fandom.com/wiki/Styanax",
+      "acquisition": "Kahl's Bounties",
+      "checked": false,
+      "unobtainable": false,
+      "tierData": false,
+      "tierRank": 0,
       "component": false
     },
     {
@@ -13428,17 +13510,16 @@ module.exports = {
       "name": "Tombfinger",
       "primeOmegaAttenuation": 1,
       "productCategory": "Pistols",
-      "releaseDate": "2018-11-08",
       "tradable": false,
       "type": "Secondary",
       "uniqueName": "/Lotus/Weapons/SolarisUnited/Secondary/SUModularSecondarySet1/Barrel/SUModularSecondaryBarrelBPart",
-      "wikiaUrl": "https://warframe.fandom.com/wiki/Tombfinger",
       "acquisition": "Rude Zuud (Fortuna)",
       "checked": false,
       "unobtainable": false,
       "tierData": false,
       "tierRank": 0,
-      "component": false
+      "component": false,
+      "wikiaUrl": "http://warframe.wikia.com/wiki/Tombfinger"
     },
     {
       "bpCost": 15000,
@@ -13520,6 +13601,7 @@ module.exports = {
       "component": false
     },
     {
+      "bpCost": 25000,
       "description": "Trinity is great for players who prefer a supportive role. Warframes with healing technology are rare making Trinity a great equalizer when the odds are stacked against the Tenno.",
       "imageName": "trinity.png",
       "masteryReq": 0,
@@ -13805,6 +13887,7 @@ module.exports = {
       "component": false
     },
     {
+      "bpCost": 35000,
       "description": "Forged in the labs of the Zanuka project, the original Valkyr was subject to cruel experiments, leaving her scarred, angry and frighteningly adept at killing.",
       "exalted": [
         "/Lotus/Powersuits/Berserker/BerserkerMelee"
@@ -13938,6 +14021,7 @@ module.exports = {
       "component": false
     },
     {
+      "bpCost": 35000,
       "description": "The highly tactical Vauban uses his powers to create deadly traps that can zap, imprison and dimensionally crush enemies.",
       "imageName": "vauban.png",
       "masteryReq": 0,
@@ -14320,17 +14404,16 @@ module.exports = {
       "name": "Vermisplicer",
       "primeOmegaAttenuation": 0.89999998,
       "productCategory": "Pistols",
-      "releaseDate": "2020-11-19",
       "tradable": false,
       "type": "Secondary",
       "uniqueName": "/Lotus/Weapons/Infested/Pistols/InfKitGun/Barrels/InfBarrelBeam/InfModularBarrelBeamPart",
-      "wikiaUrl": "https://warframe.fandom.com/wiki/Vermisplicer",
       "acquisition": "Father (Nekralisk)",
       "checked": false,
       "unobtainable": false,
       "tierData": false,
       "tierRank": 0,
-      "component": false
+      "component": false,
+      "wikiaUrl": "http://warframe.wikia.com/wiki/Vermisplicer"
     },
     {
       "bpCost": 20000,
@@ -14486,6 +14569,7 @@ module.exports = {
       "component": false
     },
     {
+      "bpCost": 35000,
       "description": "Volt can create and harness electrical elements. This is a high-damage Warframe perfect for players who want a potent alternative to gun-play.",
       "imageName": "volt.png",
       "masteryReq": 0,
@@ -14679,6 +14763,7 @@ module.exports = {
       "component": false
     },
     {
+      "bpCost": 35000,
       "description": "A primal warrior with the heart of a trickster.",
       "exalted": [
         "/Lotus/Powersuits/MonkeyKing/MonkeyKingStaff"
@@ -15076,5 +15161,5 @@ module.exports = {
       "component": false
     }
   ],
-  "fetched": "2022.07.18 01:18:12 CET+02:00"
+  "fetched": "2022.09.15 08:24:37 CET+02:00"
 }
