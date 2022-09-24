@@ -1660,7 +1660,7 @@ module.exports = {
       "masteryReq": 7,
       "name": "Bolto",
       "productCategory": "Pistols",
-      "releaseDate": "2013-01-10",
+      "releaseDate": "2012-10-25",
       "tradable": false,
       "trigger": "Semi",
       "type": "Secondary",
@@ -15161,5 +15161,5 @@ module.exports = {
       "component": false
     }
   ],
-  "fetched": "2022.09.15 08:24:37 CET+02:00"
+  "fetched": "2022.09.24 07:53:32 CET+02:00"
 }
