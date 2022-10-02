@@ -430,30 +430,31 @@ textarea#import-data {
 //
 //  Page: Help
 //
-body.page-help {
-  #help-placeholder {
-    margin-top: 32px;
+#help-modal {
+  h5 {
+    font-weight: bold;
+		margin-top: 22px;
   }
-}
-.legend-icon {
-  margin-right: 6px;
-}
-#legend-image {
-  margin-top: 8px;
-  width: 425px;
-}
-.legend-color {
-  display: inline-block;
-  width: 16px;
-  height: 18px;
-  margin-right: 11px;
-  vertical-align: sub;
-  &.legend-vaulted {
-    background-color: $color-yellow;
-  }
-  &.legend-unobtainable {
-    background-color: $color-red;
-  }
+	.legend-icon {
+		margin-right: 6px;
+	}
+	#legend-image {
+		margin-top: 8px;
+		width: 425px;
+	}
+	.legend-color {
+		display: inline-block;
+		width: 16px;
+		height: 18px;
+		margin-right: 11px;
+		vertical-align: sub;
+		&.legend-vaulted {
+			background-color: $color-yellow;
+		}
+		&.legend-unobtainable {
+			background-color: $color-red;
+		}
+	}
 }
 
 //

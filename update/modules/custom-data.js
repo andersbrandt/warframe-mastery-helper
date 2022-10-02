@@ -123,6 +123,12 @@ module.exports = function (items) {
       items.array[i]["type"] = "Amp";
     }    
 
+		// Fix Sirocco being mislabeled as Primary Pistol
+    if (name == "Sirocco") {
+			items.array[i]["type"] = "Amp";
+      delete items.array[i]["category"];
+		}
+
     // Fix Ambassador
     if (name == "Ambassador") {
       items.array[i]["type"] = "Primary";

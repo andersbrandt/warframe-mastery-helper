@@ -11819,7 +11819,6 @@ module.exports = {
       "component": false
     },
     {
-      "category": "Pistol",
       "description": "A silent, pistol-style Amp for the Drifter. Generates its own ammunition from Void energy. A precisely timed reload over-charges the next shot.",
       "imageName": "sirocco.png",
       "masteryReq": 0,
@@ -11828,7 +11827,7 @@ module.exports = {
       "releaseDate": "2021-12-15",
       "tradable": false,
       "trigger": "Semi",
-      "type": "Primary",
+      "type": "Amp",
       "uniqueName": "/Lotus/Weapons/Operator/Pistols/DrifterPistol/DrifterPistolPlayerWeapon",
       "wikiaUrl": "https://warframe.fandom.com/wiki/Sirocco",
       "acquisition": "The New War (Quest)",
@@ -15161,5 +15160,5 @@ module.exports = {
       "component": false
     }
   ],
-  "fetched": "2022.09.24 07:53:32 CET+02:00"
+  "fetched": "2022.09.27 12:50:40 CET+02:00"
 }
