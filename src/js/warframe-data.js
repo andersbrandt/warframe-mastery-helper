@@ -1367,7 +1367,7 @@ module.exports = {
     {
       "description": "Banshee Prime assails her foes by manipulating sonic forces to deadly effect. Featuring altered mod polarities for greater customization.",
       "imageName": "banshee-prime.png",
-      "masteryReq": 8,
+      "masteryReq": 0,
       "name": "Banshee Prime",
       "productCategory": "Suits",
       "releaseDate": "2017-02-28",
@@ -2511,7 +2511,7 @@ module.exports = {
     {
       "description": "Bind the elements and unleash untold destruction with Chroma Prime. Featuring altered mod polarities for greater customization.",
       "imageName": "chroma-prime.png",
-      "masteryReq": 6,
+      "masteryReq": 0,
       "name": "Chroma Prime",
       "productCategory": "Suits",
       "releaseDate": "2018-09-25",
@@ -3946,7 +3946,7 @@ module.exports = {
     {
       "description": "Night and Day in final balance; the graceful perfection of the one that walks the borders.",
       "imageName": "equinox-prime.png",
-      "masteryReq": 5,
+      "masteryReq": 0,
       "name": "Equinox Prime",
       "productCategory": "Suits",
       "releaseDate": "2019-03-27",
@@ -5109,6 +5109,7 @@ module.exports = {
       "tradable": false,
       "type": "Melee",
       "uniqueName": "/Lotus/Weapons/Tenno/Melee/Polearms/PrimeGuandao/PrimeGuandaoWeapon",
+      "vaulted": true,
       "wikiaUrl": "https://warframe.fandom.com/wiki/Guandao_Prime",
       "acquisition": "Relics",
       "checked": false,
@@ -5689,7 +5690,7 @@ module.exports = {
     {
       "description": "Command the ocean’s fury with this king of gold and silver. Featuring altered mod polarities for greater customization.",
       "imageName": "hydroid-prime.png",
-      "masteryReq": 5,
+      "masteryReq": 0,
       "name": "Hydroid Prime",
       "productCategory": "Suits",
       "releaseDate": "2017-08-29",
@@ -7676,7 +7677,7 @@ module.exports = {
     {
       "description": "Dance between realms with this golden rift walker. Featuring altered mod polarities for greater customization.",
       "imageName": "limbo-prime.png",
-      "masteryReq": 4,
+      "masteryReq": 0,
       "name": "Limbo Prime",
       "productCategory": "Suits",
       "releaseDate": "2018-06-19",
@@ -8016,7 +8017,7 @@ module.exports = {
         "/Lotus/Powersuits/Cowgirl/PrimeSlingerPistols"
       ],
       "imageName": "mesa-prime.png",
-      "masteryReq": 2,
+      "masteryReq": 0,
       "name": "Mesa Prime",
       "productCategory": "Suits",
       "releaseDate": "2018-12-12",
@@ -8099,7 +8100,7 @@ module.exports = {
     {
       "description": "Dazzle the opposition with this golden master of illusion and mayhem. Featuring altered mod polarities allow for greater customization.",
       "imageName": "mirage-prime.png",
-      "masteryReq": 8,
+      "masteryReq": 0,
       "name": "Mirage Prime",
       "productCategory": "Suits",
       "releaseDate": "2017-12-12",
@@ -8673,6 +8674,7 @@ module.exports = {
       "tradable": false,
       "type": "Warframe",
       "uniqueName": "/Lotus/Powersuits/Nezha/NezhaPrime",
+      "vaulted": true,
       "wikiaUrl": "https://warframe.fandom.com/wiki/Nezha%2FPrime",
       "acquisition": "Relics",
       "checked": false,
@@ -8952,7 +8954,7 @@ module.exports = {
     {
       "description": "Protect the balance with this regal forest guardian. Featuring altered mod polarities for greater customization.",
       "imageName": "oberon-prime.png",
-      "masteryReq": 8,
+      "masteryReq": 0,
       "name": "Oberon Prime",
       "productCategory": "Suits",
       "releaseDate": "2017-05-30",
@@ -9774,6 +9776,26 @@ module.exports = {
       "tierRank": 0,
       "buildLink": "https://overframe.gg/build/74198/",
       "buildLinkDomain": "overframe.gg",
+      "component": false
+    },
+    {
+      "category": "Shotgun",
+      "description": "Phantasma Prime is burnished with deadly force. In Revenant’s hands, it has increased magazine capacity. The might of its irradiated plasma is reminiscent of the fearsome Eidolon.",
+      "imageName": "phantasma-prime.png",
+      "masteryReq": 14,
+      "name": "Phantasma Prime",
+      "productCategory": "LongGuns",
+      "releaseDate": "2022-10-05",
+      "tradable": false,
+      "trigger": "Held",
+      "type": "Primary",
+      "uniqueName": "/Lotus/Weapons/Tenno/LongGuns/PrimePhantasma/PhantasmaPrimeShotgun",
+      "wikiaUrl": "https://warframe.fandom.com/wiki/Phantasma_Prime",
+      "acquisition": "Relics",
+      "checked": false,
+      "unobtainable": false,
+      "tierData": false,
+      "tierRank": 0,
       "component": false
     },
     {
@@ -10914,6 +10936,24 @@ module.exports = {
       "uniqueName": "/Lotus/Powersuits/Revenant/Revenant",
       "wikiaUrl": "https://warframe.fandom.com/wiki/Revenant",
       "acquisition": "Mask of the Lost One (Quest)",
+      "checked": false,
+      "unobtainable": false,
+      "tierData": false,
+      "tierRank": 0,
+      "component": false
+    },
+    {
+      "description": "The lost one rises. Reify the essence of the Eidolon as you wield Revenant Prime’s power.",
+      "imageName": "revenant-prime.png",
+      "masteryReq": 0,
+      "name": "Revenant Prime",
+      "productCategory": "Suits",
+      "releaseDate": "2022-10-05",
+      "tradable": false,
+      "type": "Warframe",
+      "uniqueName": "/Lotus/Powersuits/Revenant/RevenantPrime",
+      "wikiaUrl": "https://warframe.fandom.com/wiki/Revenant%2FPrime",
+      "acquisition": "Relics",
       "checked": false,
       "unobtainable": false,
       "tierData": false,
@@ -12180,7 +12220,7 @@ module.exports = {
       "imageName": "sporelacer.png",
       "masteryReq": 0,
       "name": "Sporelacer",
-      "primeOmegaAttenuation": 1.05,
+      "primeOmegaAttenuation": 1.1,
       "productCategory": "Pistols",
       "tradable": false,
       "type": "Secondary",
@@ -12824,6 +12864,25 @@ module.exports = {
       "buildLink": "https://overframe.gg/build/28755/",
       "buildLinkDomain": "overframe.gg",
       "combo": "Heavy Attack",
+      "component": false
+    },
+    {
+      "category": "Melee",
+      "description": "Tatsu Prime glows with spectral splendor. It grows more powerful with each enemy’s demise, especially when wielded by Revenant.",
+      "imageName": "tatsu-prime.png",
+      "masteryReq": 14,
+      "name": "Tatsu Prime",
+      "productCategory": "Melee",
+      "releaseDate": "2022-10-05",
+      "tradable": false,
+      "type": "Melee",
+      "uniqueName": "/Lotus/Weapons/Tenno/Melee/Swords/PrimeTatsu/PrimeTatsuWeapon",
+      "wikiaUrl": "https://warframe.fandom.com/wiki/Tatsu_Prime",
+      "acquisition": "Relics",
+      "checked": false,
+      "unobtainable": false,
+      "tierData": false,
+      "tierRank": 0,
       "component": false
     },
     {
@@ -13485,7 +13544,7 @@ module.exports = {
         "/Lotus/Powersuits/Fairy/PrimeFlightSword"
       ],
       "imageName": "titania-prime.png",
-      "masteryReq": 2,
+      "masteryReq": 0,
       "name": "Titania Prime",
       "productCategory": "Suits",
       "releaseDate": "2020-03-31",
@@ -14789,7 +14848,7 @@ module.exports = {
         "/Lotus/Powersuits/MonkeyKing/WukongPrimeStaff"
       ],
       "imageName": "wukong-prime.png",
-      "masteryReq": 5,
+      "masteryReq": 0,
       "name": "Wukong Prime",
       "productCategory": "Suits",
       "releaseDate": "2019-07-07",
@@ -14934,6 +14993,7 @@ module.exports = {
       "trigger": "Semi",
       "type": "Secondary",
       "uniqueName": "/Lotus/Weapons/Tenno/Pistols/PrimeZakti/PrimeZaktiPistol",
+      "vaulted": true,
       "wikiaUrl": "https://warframe.fandom.com/wiki/Zakti_Prime",
       "acquisition": "Relics",
       "checked": false,
@@ -15046,7 +15106,7 @@ module.exports = {
     {
       "description": "Take to the skies with this golden bird of destruction.",
       "imageName": "zephyr-prime.png",
-      "masteryReq": 6,
+      "masteryReq": 0,
       "name": "Zephyr Prime",
       "productCategory": "Suits",
       "releaseDate": "2018-03-20",
@@ -15160,5 +15220,5 @@ module.exports = {
       "component": false
     }
   ],
-  "fetched": "2022.09.27 12:50:40 CET+02:00"
+  "fetched": "2022.10.06 11:27:40 CET+02:00"
 }

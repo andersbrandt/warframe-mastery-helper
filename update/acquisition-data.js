@@ -3657,13 +3657,25 @@ var items = [
 		acquisition: KAHLS,
 		id: "/Lotus/Powersuits/Hoplite/Hoplite",
 	},
+	// Revenant Prime Update
+	{
+		name: "Phantasma Prime",
+		acquisition: RELICS,
+		id: "/Lotus/Weapons/Tenno/LongGuns/PrimePhantasma/PhantasmaPrimeShotgun",
+	},
+	{
+		name: "Revenant Prime",
+		acquisition: RELICS,
+		id: "/Lotus/Powersuits/Revenant/RevenantPrime",
+	},
+	{
+		name: "Tatsu Prime",
+		acquisition: RELICS,
+		id: "/Lotus/Weapons/Tenno/Melee/Swords/PrimeTatsu/PrimeTatsuWeapon",
+	},
 ];
 
 module.exports = {
   items: items
 };
-
-      
-      
   
-      
