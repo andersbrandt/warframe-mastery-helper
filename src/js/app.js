@@ -28,26 +28,26 @@ var app = {
       function (data) {
         var i = data.data.length;
         while (i--) {
-          // Ugly hack in order to solve backwards compability with old data-sources
-          if (data.data[i].indexOf("MK1") == 0) {
-            data.data[i] = data.data[i].replace("MK1", "Mk1");
-          }
-          // Ugly hack to remove Primary Kitgun grips added by mistake
-          var itemsToRemove = ["Brash", "Shrewd", "Steadyslam", "Tremor"];
-          if (itemsToRemove.indexOf(data.data[i]) > -1) {
-            data.data.splice(i, 1);
-          }
-          // Ugly hack to Founders items that are checked by users
-          var foundersItemsToRemove = ["Excalibur Prime", "Lato Prime", "Skana Prime"];
-          if (foundersItemsToRemove.indexOf(data.data[i]) > -1) {
-            data.data.splice(i, 1);
-          }
-          // Ugly hack to remove miss-spelled weapons
-          var itemsToRemove = ["Prisma Dual Decurion"];
-          if (itemsToRemove.indexOf(data.data[i]) > -1) {
-            data.data.splice(i, 1);
-          }
-        }
+					// Ugly hack in order to solve backwards compability with old data-sources
+					if (data.data[i].indexOf("MK1") == 0) {
+						data.data[i] = data.data[i].replace("MK1", "Mk1");
+					}
+					// Ugly hack to remove Primary Kitgun grips added by mistake
+					var itemsToRemove = ["Brash", "Shrewd", "Steadyslam", "Tremor"];
+					if (itemsToRemove.indexOf(data.data[i]) > -1) {
+						data.data.splice(i, 1);
+					}
+					// Ugly hack to remove Founders items that are checked by users
+					var foundersItemsToRemove = ["Excalibur Prime", "Lato Prime", "Skana Prime",];
+					if (foundersItemsToRemove.indexOf(data.data[i]) > -1) {
+						data.data.splice(i, 1);
+					}
+					// Ugly hack to remove miss-spelled weapons
+					var itemsToRemove = ["Prisma Dual Decurion"];
+					if (itemsToRemove.indexOf(data.data[i]) > -1) {
+						data.data.splice(i, 1);
+					}
+				}
         utils.writeLocalStorage("data", JSON.stringify(data.data));
         app.tools.mapFromStorage();
         app.render.page.start();

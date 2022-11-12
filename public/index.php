@@ -102,7 +102,7 @@
         <div class="row" data-equalizer="boxes-top">
             <div class="column large-4">
                 <div class="box margin-top-10" data-equalizer-watch="boxes-top">
-                    <h2>Warframe Mastery Tracker</h2>
+                    <h1>Warframe Mastery Tracker</h1>
                     <p class="text-larger">Keep track of all items required for mastery rank.</p>
                     <p class="text-larger">Features tier-ranking, recommendations and in-depth information.</p>
                     <p class="text-larger">Get your Warframe Mastery Rank up!</p>
