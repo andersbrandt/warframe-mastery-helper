@@ -4260,7 +4260,6 @@ module.exports = {
     {
       "category": "K-Drive",
       "description": "",
-      "excludeFromCodex": true,
       "imageName": "feverspine.png",
       "masteryReq": 0,
       "name": "Feverspine",
@@ -5432,7 +5431,6 @@ module.exports = {
     {
       "description": "This knowledge hungry protector defends its master with Deconstructor Prime.",
       "imageName": "helios-prime.png",
-      "masteryReq": 8,
       "name": "Helios Prime",
       "productCategory": "Sentinels",
       "releaseDate": "2017-02-28",
@@ -5774,7 +5772,7 @@ module.exports = {
       "component": false
     },
     {
-      "bpCost": 15000,
+      "bpCost": 20000,
       "category": "Rifle",
       "description": "A blood-red variant of this destructive flamethrower.",
       "imageName": "ignis-wraith.png",
@@ -15220,5 +15218,5 @@ module.exports = {
       "component": false
     }
   ],
-  "fetched": "2022.10.06 11:27:40 CET+02:00"
+  "fetched": "2022.11.20 08:00:04 CET+01:00"
 }
