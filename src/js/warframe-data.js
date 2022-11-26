@@ -27,7 +27,6 @@ module.exports = {
     },
     {
       "bpCost": 15000,
-      "category": "Melee",
       "description": "Tyl Regor’s custom axe and shield are how he likes to eliminate ‘frustrations’.",
       "imageName": "ack-&-brunt.png",
       "masteryReq": 3,
@@ -715,7 +714,6 @@ module.exports = {
     },
     {
       "bpCost": 15000,
-      "category": "Melee",
       "description": "Fashioned with Grineer materials and balanced for marine infantry use, the Amphis is a traditional staff weapon that has received a monstrous makeover that enables shock damage on jump attacks. Connects with multiple enemies with each strike.",
       "imageName": "amphis.png",
       "masteryReq": 5,
@@ -789,7 +787,6 @@ module.exports = {
     },
     {
       "bpCost": 15000,
-      "category": "Melee",
       "description": "Reap havoc with this full sized Tenno-crafted scythe.",
       "imageName": "anku.png",
       "masteryReq": 3,
@@ -816,7 +813,6 @@ module.exports = {
     },
     {
       "bpCost": 15000,
-      "category": "Melee",
       "description": "A pair of mighty gauntlets, the Ankyros were designed by the Tenno for close quarters combat. What they lack in range they make up for in speed.",
       "imageName": "ankyros.png",
       "masteryReq": 2,
@@ -835,7 +831,6 @@ module.exports = {
       "component": true
     },
     {
-      "category": "Melee",
       "description": "This Orokin variation of the Ankyros is superior to its successor in every way.",
       "imageName": "ankyros-prime.png",
       "masteryReq": 8,
@@ -915,7 +910,6 @@ module.exports = {
     },
     {
       "bpCost": 30000,
-      "category": "Melee",
       "description": "Each successive kill from this massive electron hammer builds an electron charge that is unleashed on slam attacks.",
       "imageName": "arca-titron.png",
       "masteryReq": 10,
@@ -987,7 +981,6 @@ module.exports = {
       "component": false
     },
     {
-      "category": "Melee",
       "description": "Slash through enemies with two leaves of the exceedingly rare Arum Spinosa plant. Heavy Attack to whip a flurry of toxic spines at ranged attackers.",
       "imageName": "arum-spinosa.png",
       "masteryReq": 11,
@@ -1186,7 +1179,6 @@ module.exports = {
     },
     {
       "bpCost": 20000,
-      "category": "Melee",
       "description": "A multi-bladed whip that is adept at flaying skin from bone. In extreme cases, disobedient Grineer are sentenced to death by Atterax.",
       "imageName": "atterax.png",
       "masteryReq": 5,
@@ -1281,7 +1273,6 @@ module.exports = {
       "wikiaUrl": "http://warframe.wikia.com/wiki/Bad_Baby"
     },
     {
-      "category": "Zaw",
       "description": "",
       "imageName": "balla.png",
       "masteryReq": 0,
@@ -1541,7 +1532,6 @@ module.exports = {
     },
     {
       "bpCost": 15000,
-      "category": "Melee",
       "description": "A two-handed, reinforced staff that can send multiple enemies airborne.",
       "imageName": "bo.png",
       "masteryReq": 4,
@@ -1560,7 +1550,6 @@ module.exports = {
       "component": true
     },
     {
-      "category": "Melee",
       "description": "A classic Orokin weapon, Bo Prime creates elegant fury on the battlefield.",
       "imageName": "bo-prime.png",
       "masteryReq": 5,
@@ -1634,7 +1623,6 @@ module.exports = {
     },
     {
       "bpCost": 20000,
-      "category": "Melee",
       "description": "An intimidating Tonfa set designed to match the briary design of the Boltor.",
       "imageName": "boltace.png",
       "masteryReq": 4,
@@ -1834,7 +1822,6 @@ module.exports = {
       "component": false
     },
     {
-      "category": "Melee",
       "description": "A shattered talisman of the Grineer Elder Queen. It pulls health orbs from deceased enemies and energy orbs from destroyed robots.",
       "imageName": "broken-scepter.png",
       "masteryReq": 7,
@@ -1860,7 +1847,6 @@ module.exports = {
       "component": false
     },
     {
-      "category": "Melee",
       "description": "A fragment of Stalker's War sword, a symbol of his defeat.",
       "imageName": "broken-war.png",
       "masteryReq": 10,
@@ -2046,7 +2032,6 @@ module.exports = {
     },
     {
       "bpCost": 20000,
-      "category": "Melee",
       "description": "A lone Tenno once used this staff to fight back a horde of Infested.",
       "imageName": "cadus.png",
       "masteryReq": 4,
@@ -2164,7 +2149,6 @@ module.exports = {
     },
     {
       "bpCost": 15000,
-      "category": "Melee",
       "description": "Light and nimble, the twin blades of this polearm will swoop and slice through throngs of hardened foes.",
       "imageName": "cassowar.png",
       "masteryReq": 5,
@@ -2257,7 +2241,6 @@ module.exports = {
     },
     {
       "bpCost": 50000,
-      "category": "Melee",
       "description": "Heavy attacks from this scythe unleash a wave of acid that mutilates enemies and leaves a trail of corrosive sludge.",
       "imageName": "caustacyst.png",
       "masteryReq": 7,
@@ -2327,7 +2310,6 @@ module.exports = {
       "component": false
     },
     {
-      "category": "Melee",
       "description": "This short blade weapon was built using ceramic. It has limited range but comes out fast.",
       "imageName": "ceramic-dagger.png",
       "masteryReq": 3,
@@ -2354,7 +2336,6 @@ module.exports = {
     },
     {
       "bpCost": 50000,
-      "category": "Melee",
       "description": "Twisted and tortured from exposure to the Infestation, this glaive becomes an absolute predator in the hands of the right Tenno.",
       "imageName": "cerata.png",
       "masteryReq": 7,
@@ -2448,7 +2429,6 @@ module.exports = {
       "component": true
     },
     {
-      "category": "Melee",
       "description": "Forged for veterans of the Scarlet Spear conflict, this Lacera has been modified to enhance nimbleness and lethality.",
       "imageName": "ceti-lacera.png",
       "masteryReq": 12,
@@ -2529,7 +2509,6 @@ module.exports = {
     },
     {
       "bpCost": 20000,
-      "category": "Melee",
       "description": "Baruuk's signature weapons: a sword for retribution, a shield for restraint. In Baruuk's hands, and his hands only, Cobra's first strike in a combo renders his foe unconscious.",
       "imageName": "cobra-&-crane.png",
       "masteryReq": 10,
@@ -2703,7 +2682,6 @@ module.exports = {
       "wikiaUrl": "http://warframe.wikia.com/wiki/Crescent_Vulpaphyla"
     },
     {
-      "category": "Melee",
       "description": "A strong blade forged using ceramic.",
       "imageName": "cronus.png",
       "masteryReq": 0,
@@ -2775,7 +2753,6 @@ module.exports = {
       "component": false
     },
     {
-      "category": "Zaw",
       "description": "",
       "imageName": "cyath.png",
       "masteryReq": 0,
@@ -2866,7 +2843,6 @@ module.exports = {
       "component": false
     },
     {
-      "category": "Melee",
       "description": "The Dakra Prime is a Tenno forged weapon, crafted during the time of the Orokin. It is renowned for speed, power and the ability to hit multiple targets.",
       "imageName": "dakra-prime.png",
       "masteryReq": 10,
@@ -2893,7 +2869,6 @@ module.exports = {
       "component": false
     },
     {
-      "category": "Melee",
       "description": "This short blade weapon forged using dark metals has limited range but comes out fast.",
       "imageName": "dark-dagger.png",
       "masteryReq": 2,
@@ -2912,7 +2887,6 @@ module.exports = {
       "component": false
     },
     {
-      "category": "Dual Swords",
       "description": "Use as a devastating heavy sword or apply a Dual Melee stance and split the weapon into two ferocious blades.",
       "imageName": "dark-split-sword.png",
       "masteryReq": 0,
@@ -2937,7 +2911,6 @@ module.exports = {
       "wikiaUrl": "http://warframe.wikia.com/wiki/Dark_Split-Sword"
     },
     {
-      "category": "Melee",
       "description": "A blade forged using dark metals, capable of delivering innate <DT_RADIATION>Radiation Damage with attacks.",
       "imageName": "dark-sword.png",
       "masteryReq": 8,
@@ -2985,7 +2958,7 @@ module.exports = {
       "category": "Companion Weapon",
       "description": "Allows the Helios Prime to violently disassemble and turn itself into a deadly projectile.",
       "imageName": "deconstructor-prime.png",
-      "masteryReq": 8,
+      "masteryReq": 0,
       "name": "Deconstructor Prime",
       "productCategory": "SentinelWeapons",
       "releaseDate": "2017-02-28",
@@ -3001,7 +2974,6 @@ module.exports = {
       "component": false
     },
     {
-      "category": "Zaw",
       "description": "",
       "imageName": "dehtat.png",
       "masteryReq": 0,
@@ -3092,7 +3064,6 @@ module.exports = {
     },
     {
       "bpCost": 25000,
-      "category": "Melee",
       "description": "Elevate martial combat into an art form with this Tenno rapier.",
       "imageName": "destreza.png",
       "masteryReq": 7,
@@ -3111,7 +3082,6 @@ module.exports = {
       "component": false
     },
     {
-      "category": "Melee",
       "description": "Take mastery to the next level with this primed rapier.",
       "imageName": "destreza-prime.png",
       "masteryReq": 10,
@@ -3232,7 +3202,6 @@ module.exports = {
       "component": false
     },
     {
-      "category": "Melee",
       "description": "A gift from the Lotus to commemorate the anniversary of the first Tenno waking from Cryo stasis.",
       "imageName": "dex-dakra.png",
       "masteryReq": 6,
@@ -3335,7 +3304,6 @@ module.exports = {
       "wikiaUrl": "http://warframe.wikia.com/wiki/Djinn"
     },
     {
-      "category": "Zaw",
       "description": "",
       "imageName": "dokrahm.png",
       "masteryReq": 0,
@@ -3372,7 +3340,6 @@ module.exports = {
     },
     {
       "bpCost": 30000,
-      "category": "Melee",
       "description": "The Dragon Nikana is forged from ancient Tenno steel. This is a master's weapon, only the most worthy of Tenno may wield it.",
       "imageName": "dragon-nikana.png",
       "masteryReq": 8,
@@ -3471,7 +3438,6 @@ module.exports = {
     },
     {
       "bpCost": 25000,
-      "category": "Melee",
       "description": "Butcher your foes with brutal blades in each hand.",
       "imageName": "dual-cleavers.png",
       "masteryReq": 5,
@@ -3511,7 +3477,6 @@ module.exports = {
     },
     {
       "bpCost": 20000,
-      "category": "Melee",
       "description": "Fast and precise. The Dual Ether cuts so cleanly that it was considered by the Tenno to be a more humane weapon for ‘cleansing’ infested allies. Capable of hitting multiple targets.",
       "imageName": "dual-ether.png",
       "masteryReq": 8,
@@ -3538,7 +3503,6 @@ module.exports = {
     },
     {
       "bpCost": 15000,
-      "category": "Melee",
       "description": "With a Heat Sword in each hand, enemies reach their fiery demise twice as fast. Can connect with multiple targets at once.",
       "imageName": "dual-heat-swords.png",
       "masteryReq": 3,
@@ -3565,7 +3529,6 @@ module.exports = {
     },
     {
       "bpCost": 50000,
-      "category": "Melee",
       "description": "The fast and brutal Dual Ichor axes will quickly tear through enemies with a high probability of inflicting Critical Damage.",
       "imageName": "dual-ichor.png",
       "masteryReq": 6,
@@ -3592,7 +3555,6 @@ module.exports = {
     },
     {
       "bpCost": 40000,
-      "category": "Melee",
       "description": "Wielding a Kama in each hand brings a savage amount of <DT_SLASH>Slash Damage to bear against your enemies.",
       "imageName": "dual-kamas.png",
       "masteryReq": 1,
@@ -3611,7 +3573,6 @@ module.exports = {
       "component": false
     },
     {
-      "category": "Melee",
       "description": "The sensual lines of these golden Kamas have long been celebrated as a masterwork of Tenno weapon smithing.",
       "imageName": "dual-kamas-prime.png",
       "masteryReq": 8,
@@ -3639,7 +3600,6 @@ module.exports = {
     },
     {
       "bpCost": 25000,
-      "category": "Melee",
       "description": "Tear through any target with these vicious, claw-like blades. The signature swords of Khora.",
       "imageName": "dual-keres.png",
       "masteryReq": 7,
@@ -3665,7 +3625,6 @@ module.exports = {
       "component": false
     },
     {
-      "category": "Melee",
       "description": "The hunted will meet a quick end when faced with Khora Prime's signature swords. Heavy Attack Efficiency is enhanced when wielded by Khora.",
       "imageName": "dual-keres-prime.png",
       "masteryReq": 14,
@@ -3685,7 +3644,6 @@ module.exports = {
     },
     {
       "bpCost": 15000,
-      "category": "Melee",
       "description": "Razor sharp battle-hatchets, designed to compliment the Soma.",
       "imageName": "dual-raza.png",
       "masteryReq": 6,
@@ -3712,7 +3670,6 @@ module.exports = {
     },
     {
       "bpCost": 25000,
-      "category": "Melee",
       "description": "A shorter Skana in each hand. Can hit multiple targets.",
       "imageName": "dual-skana.png",
       "masteryReq": 0,
@@ -3765,7 +3722,6 @@ module.exports = {
     },
     {
       "bpCost": 15000,
-      "category": "Melee",
       "description": "Short axes held in each hand. High attack speed and can hit multiple targets. Delivers a high percentage of critical strikes.",
       "imageName": "dual-zoren.png",
       "masteryReq": 2,
@@ -3874,7 +3830,6 @@ module.exports = {
     },
     {
       "bpCost": 15000,
-      "category": "Melee",
       "description": "The delicate form of this Tenno rapier conceals its ferocious and resilient force.",
       "imageName": "endura.png",
       "masteryReq": 7,
@@ -3963,7 +3918,6 @@ module.exports = {
       "component": false
     },
     {
-      "category": "Melee",
       "description": "A shorter version of the Ether blade that allows for a more focused attack on a single target.",
       "imageName": "ether-daggers.png",
       "masteryReq": 6,
@@ -3990,7 +3944,6 @@ module.exports = {
     },
     {
       "bpCost": 50000,
-      "category": "Melee",
       "description": "With a blade forged from the same material as the Ether Sword, the Ether Reaper delivers quick death to its victims.",
       "imageName": "ether-reaper.png",
       "masteryReq": 4,
@@ -4017,7 +3970,6 @@ module.exports = {
     },
     {
       "bpCost": 20000,
-      "category": "Melee",
       "description": "A single blade for more precision. The Ether Sword cuts so cleanly that it was considered by the Tenno to be a more humane weapon for ‘cleansing’ infested allies.",
       "imageName": "ether-sword.png",
       "masteryReq": 7,
@@ -4140,7 +4092,6 @@ module.exports = {
     },
     {
       "bpCost": 15000,
-      "category": "Melee",
       "description": "Carve through enemies with surgical precision using this Corpus-tech glaive.",
       "imageName": "falcor.png",
       "masteryReq": 8,
@@ -4167,7 +4118,6 @@ module.exports = {
     },
     {
       "bpCost": 20000,
-      "category": "Melee",
       "description": "These matching stilettos have increased attack speed and can unleash a flurry of multi-hit attacks.",
       "imageName": "fang.png",
       "masteryReq": 0,
@@ -4186,7 +4136,6 @@ module.exports = {
       "component": false
     },
     {
-      "category": "Melee",
       "description": "A set of ceremonial daggers from the Orokin era, the Fang Prime's blades resonate violently as they strike. This allows them to pierce hardened materials like armor with ease.",
       "imageName": "fang-prime.png",
       "masteryReq": 10,
@@ -4341,7 +4290,6 @@ module.exports = {
     },
     {
       "bpCost": 15000,
-      "category": "Melee",
       "description": "A large two-handed hammer, the Fragor requires great strength to wield, but impacts with enough force to send groups of enemies tumbling.",
       "imageName": "fragor.png",
       "masteryReq": 2,
@@ -4360,7 +4308,6 @@ module.exports = {
       "component": false
     },
     {
-      "category": "Melee",
       "description": "A beautifully forged instrument of devastation.",
       "imageName": "fragor-prime.png",
       "masteryReq": 12,
@@ -4452,7 +4399,6 @@ module.exports = {
     },
     {
       "bpCost": 15000,
-      "category": "Melee",
       "description": "These power gauntlets lack the range of most Melee Weapons, but Furax is far more devastating when you strike an enemy in close combat.",
       "imageName": "furax.png",
       "masteryReq": 5,
@@ -4471,7 +4417,6 @@ module.exports = {
       "component": true
     },
     {
-      "category": "Melee",
       "description": "These Wraith gauntlets have been augmented for power.",
       "imageName": "furax-wraith.png",
       "masteryReq": 9,
@@ -4545,7 +4490,6 @@ module.exports = {
     },
     {
       "bpCost": 25000,
-      "category": "Melee",
       "description": "With massive charged power and the ability to hit up to five foes in a single swing, the Galatine sword is the heavy artillery of Melee Weapons.",
       "imageName": "galatine.png",
       "masteryReq": 3,
@@ -4564,7 +4508,6 @@ module.exports = {
       "component": true
     },
     {
-      "category": "Melee",
       "description": "Only Tenno were strong enough to wield this noble beast of a weapon.",
       "imageName": "galatine-prime.png",
       "masteryReq": 13,
@@ -4592,7 +4535,6 @@ module.exports = {
     },
     {
       "bpCost": 20000,
-      "category": "Melee",
       "description": "Shock and maim with this heavyweight retractable whip.",
       "imageName": "galvacord.png",
       "masteryReq": 6,
@@ -4737,7 +4679,6 @@ module.exports = {
     },
     {
       "bpCost": 15000,
-      "category": "Melee",
       "description": "Each kill with this swooping blade adds bonus damage to the Djinn Sentinel’s next Fatal Attraction ability. In turn, Fatal Attraction bestows the weapon with a period of <DT_CORROSIVE>Corrosive Damage.",
       "imageName": "gazal-machete.png",
       "masteryReq": 5,
@@ -4782,7 +4723,6 @@ module.exports = {
       "wikiaUrl": "http://warframe.wikia.com/wiki/Gaze"
     },
     {
-      "category": "Melee",
       "description": "The cruelest of weapons built for the crudest of Grineer soldiers. Rips through metal like flesh, and through flesh like day-old pudding.",
       "imageName": "ghoulsaw.png",
       "masteryReq": 7,
@@ -4801,7 +4741,6 @@ module.exports = {
       "component": false
     },
     {
-      "category": "Melee",
       "description": "Dating back to the time of the first Tenno, the Glaive is a uniquely deadly weapon. This multi-bladed disc is not only effective for melee combat; it can also be thrown like a boomerang to cut down enemies at a distance.",
       "imageName": "glaive.png",
       "masteryReq": 1,
@@ -4820,7 +4759,6 @@ module.exports = {
       "component": false
     },
     {
-      "category": "Melee",
       "description": "The Glaive Prime is a deadly and beautiful weapon from the Orokin era. The blades are as effective in close quarters as they are when thrown at distant enemies.",
       "imageName": "glaive-prime.png",
       "masteryReq": 10,
@@ -4955,7 +4893,6 @@ module.exports = {
     },
     {
       "bpCost": 15000,
-      "category": "Melee",
       "description": "The heavy two-handed sword known as Gram requires great strength to wield, but it is notorious for its splitting power. Can hit multiple targets with each strike.",
       "imageName": "gram.png",
       "masteryReq": 2,
@@ -4974,7 +4911,6 @@ module.exports = {
       "component": false
     },
     {
-      "category": "Melee",
       "description": "Born anew, the father of swords returns.",
       "imageName": "gram-prime.png",
       "masteryReq": 14,
@@ -5079,7 +5015,6 @@ module.exports = {
     },
     {
       "bpCost": 15000,
-      "category": "Melee",
       "description": "Harvest the enemy with this towering polearm.",
       "imageName": "guandao.png",
       "masteryReq": 4,
@@ -5098,7 +5033,6 @@ module.exports = {
       "component": false
     },
     {
-      "category": "Melee",
       "description": "That a god might reap a harvest of lives.",
       "imageName": "guandao-prime.png",
       "masteryReq": 12,
@@ -5126,7 +5060,6 @@ module.exports = {
     },
     {
       "bpCost": 15000,
-      "category": "Melee",
       "description": "Lacerate attackers with two razor sharp warfans.",
       "imageName": "gunsen.png",
       "masteryReq": 8,
@@ -5171,7 +5104,6 @@ module.exports = {
     },
     {
       "bpCost": 20000,
-      "category": "Melee",
       "description": "This jet powered Grineer throwing mace always comes back to its master and is even capable of disarming targets.",
       "imageName": "halikar.png",
       "masteryReq": 7,
@@ -5190,7 +5122,6 @@ module.exports = {
       "component": false
     },
     {
-      "category": "Melee",
       "description": "A different take on the throwing mace, the Halikar Wraith features unique styling.",
       "imageName": "halikar-wraith.png",
       "masteryReq": 13,
@@ -5278,7 +5209,6 @@ module.exports = {
       "component": false
     },
     {
-      "category": "Melee",
       "description": "Hate is a scythe with a cruel blade, wielded by The Stalker.",
       "imageName": "hate.png",
       "masteryReq": 8,
@@ -5304,7 +5234,6 @@ module.exports = {
       "component": false
     },
     {
-      "category": "Melee",
       "description": "This short blade weapon has limited range but comes out fast and can inflict fire damage.",
       "imageName": "heat-dagger.png",
       "masteryReq": 3,
@@ -5330,7 +5259,6 @@ module.exports = {
       "component": false
     },
     {
-      "category": "Melee",
       "description": "A strong blade capable of inflicting <DT_SLASH>Slash Damage to its foes.",
       "imageName": "heat-sword.png",
       "masteryReq": 3,
@@ -5394,7 +5322,6 @@ module.exports = {
       "component": false
     },
     {
-      "category": "Melee",
       "description": "Obtain enlightenment with this massive hammer that performs a Codex scan on each fatal strike. Scans require an equipped Codex Scanner and an available charge.",
       "imageName": "heliocor.png",
       "masteryReq": 9,
@@ -5510,7 +5437,6 @@ module.exports = {
       "component": false
     },
     {
-      "category": "Melee",
       "description": "This Heavy Scythe echoes battles of another time. It is far more a weapon of sheer force than one of finesse.",
       "imageName": "hespar.png",
       "masteryReq": 12,
@@ -5624,7 +5550,6 @@ module.exports = {
     },
     {
       "bpCost": 15000,
-      "category": "Melee",
       "description": "Rip into the enemy with fists of razor sharp cartilage. Steals health with each critical hit.",
       "imageName": "hirudo.png",
       "masteryReq": 7,
@@ -5874,7 +5799,6 @@ module.exports = {
       "component": false
     },
     {
-      "category": "Melee",
       "description": "In the early Orokin Empire, elites wore Innodem as a symbolic reminder to defend the defenseless. The tradition fell out of style, but nostalgic elites acknowledged the sentiment in the form of a gift. The Void amplifies that ideal. Void energy strengthens Innodem gliding aerial attacks and the wielder is increasingly resilient as they perform finisher attacks in Incarnon Form.",
       "imageName": "innodem.png",
       "masteryReq": 14,
@@ -5955,7 +5879,6 @@ module.exports = {
     },
     {
       "bpCost": 15000,
-      "category": "Melee",
       "description": "Deliver crushing blows with this Grineer built, jet powered mace.",
       "imageName": "jat-kittag.png",
       "masteryReq": 5,
@@ -5982,7 +5905,6 @@ module.exports = {
     },
     {
       "bpCost": 15000,
-      "category": "Melee",
       "description": "Overwhelm hostiles with this jet-powered sickle and razor-chain weapon. Charged strikes ignite an explosive blast at range.",
       "imageName": "jat-kusar.png",
       "masteryReq": 11,
@@ -6034,7 +5956,6 @@ module.exports = {
       "component": false
     },
     {
-      "category": "Melee",
       "description": "A blade with a serrated edge that delivers strong quick attacks.",
       "imageName": "jaw-sword.png",
       "masteryReq": 0,
@@ -6061,7 +5982,6 @@ module.exports = {
     },
     {
       "bpCost": 40000,
-      "category": "Melee",
       "description": "The Kama is a Tenno style hatchet, capable of making short work of any foe.",
       "imageName": "kama.png",
       "masteryReq": 1,
@@ -6134,7 +6054,6 @@ module.exports = {
     },
     {
       "bpCost": 20000,
-      "category": "Melee",
       "description": "Once the blade weapon of choice for an exclusive order of Tenno assassins, the Karyst dagger grew to become a symbol of honor and duty for all Tenno.",
       "imageName": "karyst.png",
       "masteryReq": 6,
@@ -6153,7 +6072,6 @@ module.exports = {
       "component": false
     },
     {
-      "category": "Dagger",
       "description": "This master blade is the heavier, oversized and far more lethal version of the signature weapon of an extinct order of Tenno assassins.",
       "imageName": "karyst-prime.png",
       "masteryReq": 12,
@@ -6199,7 +6117,6 @@ module.exports = {
       "component": false
     },
     {
-      "category": "Melee",
       "description": "Leave your mark with these infected claws with increased heavy attack range. Heavy attack at max combo to keep the extended range and slam radius for 3 minutes.",
       "imageName": "keratinos.png",
       "masteryReq": 9,
@@ -6226,7 +6143,6 @@ module.exports = {
     },
     {
       "bpCost": 15000,
-      "category": "Melee",
       "description": "Slice through mobs of unruly enemies with this fierce halberd; the signature weapon of the Kuva Guardians.",
       "imageName": "kesheg.png",
       "masteryReq": 7,
@@ -6253,7 +6169,6 @@ module.exports = {
     },
     {
       "bpCost": 20000,
-      "category": "Melee",
       "description": "The Kestrel boomerang is a heavy throwing weapon that can knock down enemies at a distance.",
       "imageName": "kestrel.png",
       "masteryReq": 0,
@@ -6405,7 +6320,6 @@ module.exports = {
     },
     {
       "bpCost": 15000,
-      "category": "Melee",
       "description": "These coverings for the hands and feet allow devastating high flying hand-to-hand combat attacks without risking harm to the user.",
       "imageName": "kogake.png",
       "masteryReq": 2,
@@ -6424,7 +6338,6 @@ module.exports = {
       "component": true
     },
     {
-      "category": "Melee",
       "description": "Deliver a golden knockout with these prime Melee Weapons.",
       "imageName": "kogake-prime.png",
       "masteryReq": 10,
@@ -6549,7 +6462,6 @@ module.exports = {
       "component": false
     },
     {
-      "category": "Melee",
       "description": "When they go high, go low. Powerful pneumatic grips and toecaps amplify every blow. Four ways to deal twice the pain.",
       "imageName": "korrudo.png",
       "masteryReq": 9,
@@ -6575,7 +6487,6 @@ module.exports = {
       "component": false
     },
     {
-      "category": "Melee",
       "description": "Archon Boreal’s signature trident. Thrust Korumm into the ground with a Tactical Combo and then rip it out in a shower of electricity.",
       "imageName": "korumm.png",
       "masteryReq": 13,
@@ -6621,7 +6532,6 @@ module.exports = {
     },
     {
       "bpCost": 15000,
-      "category": "Melee",
       "description": "This unsophisticated Corpus survival tool does what it was designed for: hacking and splitting whatever it strikes.",
       "imageName": "kreska.png",
       "masteryReq": 6,
@@ -6648,7 +6558,6 @@ module.exports = {
     },
     {
       "bpCost": 25000,
-      "category": "Melee",
       "description": "This hooked blade rewards critical hits to those skilled enough to strike with finesse.",
       "imageName": "krohkur.png",
       "masteryReq": 9,
@@ -6675,7 +6584,6 @@ module.exports = {
     },
     {
       "bpCost": 65000,
-      "category": "Melee",
       "description": "The Kronen resurrects a lethal fighting style once thought lost to the ages.",
       "imageName": "kronen.png",
       "masteryReq": 3,
@@ -6694,7 +6602,6 @@ module.exports = {
       "component": true
     },
     {
-      "category": "Melee",
       "description": "Ancient blades, perfected for today’s combat.",
       "imageName": "kronen-prime.png",
       "masteryReq": 13,
@@ -6721,7 +6628,6 @@ module.exports = {
       "component": false
     },
     {
-      "category": "Zaw",
       "description": "",
       "imageName": "kronsh.png",
       "masteryReq": 0,
@@ -7146,7 +7052,6 @@ module.exports = {
       "component": false
     },
     {
-      "category": "Melee",
       "description": "A crushing, killing, rocket-powered stab-hammer. Grineer, naturally.",
       "imageName": "kuva-shildeg.png",
       "masteryReq": 13,
@@ -7247,7 +7152,6 @@ module.exports = {
     },
     {
       "bpCost": 15000,
-      "category": "Melee",
       "description": "In the practiced hands of a master, this blade and whip becomes exceedingly devastating.",
       "imageName": "lacera.png",
       "masteryReq": 7,
@@ -7520,7 +7424,6 @@ module.exports = {
     },
     {
       "bpCost": 30000,
-      "category": "Melee",
       "description": "Half taser, half whip. The Corpus Lecta delivers a deadly shock to anything it touches.",
       "imageName": "lecta.png",
       "masteryReq": 0,
@@ -7584,7 +7487,6 @@ module.exports = {
     },
     {
       "bpCost": 25000,
-      "category": "Melee",
       "description": "An instrument of unrelenting harm. If Lesion tastes blood, it becomes invigorated with faster Attack Speed and increased <DT_POISON>Toxin Damage.",
       "imageName": "lesion.png",
       "masteryReq": 9,
@@ -7730,7 +7632,6 @@ module.exports = {
       "component": false
     },
     {
-      "category": "Melee",
       "description": "A ferocious Melee Weapon crafted by the Grineer and carried by their elite melee forces.",
       "imageName": "machete.png",
       "masteryReq": 1,
@@ -7749,7 +7650,6 @@ module.exports = {
       "component": false
     },
     {
-      "category": "Melee",
       "description": "A different take on a familiar combat knife, the Machete Wraith features unique styling.",
       "imageName": "machete-wraith.png",
       "masteryReq": 11,
@@ -7814,7 +7714,6 @@ module.exports = {
     },
     {
       "bpCost": 25000,
-      "category": "Melee",
       "description": "The Magistar mace wields justice and truth in the form of bone-crushing blows.",
       "imageName": "magistar.png",
       "masteryReq": 1,
@@ -7926,7 +7825,6 @@ module.exports = {
     },
     {
       "bpCost": 15000,
-      "category": "Melee",
       "description": "Tear and chew through enemies with this unusual crankshaft-style greatsword. When wielded by Grendel he is immune to staggers and knockdowns during heavy attacks.",
       "imageName": "masseter.png",
       "masteryReq": 8,
@@ -8032,7 +7930,6 @@ module.exports = {
       "component": false
     },
     {
-      "category": "Zaw",
       "description": "",
       "imageName": "mewan.png",
       "masteryReq": 0,
@@ -8052,7 +7949,6 @@ module.exports = {
     },
     {
       "bpCost": 50000,
-      "category": "Melee",
       "description": "This bone-forged sword includes a tendon-whip to distract and maim the enemy.",
       "imageName": "mios.png",
       "masteryReq": 8,
@@ -8116,7 +8012,6 @@ module.exports = {
     },
     {
       "bpCost": 15000,
-      "category": "Melee",
       "description": "A relic from the Great Plague, the Mire Infested Sword is a brutal weapon. It not only cuts into the enemy, it infects the wounds of its victim with a toxic nerve poison. Deals <DT_POISON>Toxin Damage on Ground Slam attacks.",
       "imageName": "mire.png",
       "masteryReq": 5,
@@ -8167,7 +8062,6 @@ module.exports = {
       "component": true
     },
     {
-      "category": "Rifle",
       "description": "The MK1-Bo is the standard issue staff weapon for all Tenno.",
       "imageName": "mk1-bo.png",
       "masteryReq": 0,
@@ -8206,7 +8100,6 @@ module.exports = {
       "component": false
     },
     {
-      "category": "Rifle",
       "description": "The MK1-Furax is the standard issue fist weapon for all Tenno.",
       "imageName": "mk1-furax.png",
       "masteryReq": 0,
@@ -8460,7 +8353,6 @@ module.exports = {
     },
     {
       "bpCost": 15000,
-      "category": "Melee",
       "description": "Like the surge and crash of storm waves, a master of the Nami cutlass and Skyla dagger turns these two separate weapons into one fluid attack.",
       "imageName": "nami-skyla.png",
       "masteryReq": 2,
@@ -8479,7 +8371,6 @@ module.exports = {
       "component": false
     },
     {
-      "category": "Melee",
       "description": "Forged by a forgotten master, these exquisite blades are bounty from a golden-age long gone.",
       "imageName": "nami-skyla-prime.png",
       "masteryReq": 11,
@@ -8507,7 +8398,6 @@ module.exports = {
     },
     {
       "bpCost": 20000,
-      "category": "Melee",
       "description": "Evoking the oceans of earth, this exquisite cutlass is a deadly work of art.",
       "imageName": "nami-solo.png",
       "masteryReq": 6,
@@ -8625,7 +8515,6 @@ module.exports = {
       "component": false
     },
     {
-      "category": "Melee",
       "description": "The dual flaming fang-blades of the Archon Amar. Has a unique Neutral Combo that blasts out four short-range fireballs.",
       "imageName": "nepheri.png",
       "masteryReq": 13,
@@ -8719,7 +8608,6 @@ module.exports = {
     },
     {
       "bpCost": 15000,
-      "category": "Melee",
       "description": "The Nikana reintroduces a lost Tenno blade and with it another fragment of the old ways.",
       "imageName": "nikana.png",
       "masteryReq": 4,
@@ -8738,7 +8626,6 @@ module.exports = {
       "component": true
     },
     {
-      "category": "Melee",
       "description": "An ancient blade predating the fall of the Orokin Empire. Forged using techniques lost over the centuries, the edge remains sharper than that of any modern Nikana.",
       "imageName": "nikana-prime.png",
       "masteryReq": 12,
@@ -8766,7 +8653,6 @@ module.exports = {
     },
     {
       "bpCost": 20000,
-      "category": "Melee",
       "description": "With its lightning-fast strikes, the Ninkondi pays respect to the old ways.",
       "imageName": "ninkondi.png",
       "masteryReq": 8,
@@ -8785,7 +8671,6 @@ module.exports = {
       "component": true
     },
     {
-      "category": "Melee",
       "description": "An ancient weapon imbued with a new truth.",
       "imageName": "ninkondi-prime.png",
       "masteryReq": 14,
@@ -8970,7 +8855,6 @@ module.exports = {
     },
     {
       "bpCost": 15000,
-      "category": "Melee",
       "description": "The Obex system multiplies the kinetic energy of a Tenno's kicks and punches, delivering devastating blows to any target.",
       "imageName": "obex.png",
       "masteryReq": 4,
@@ -9116,7 +9000,6 @@ module.exports = {
     },
     {
       "bpCost": 55000,
-      "category": "Melee",
       "description": "Bring the enemy to its knees with these twin electrified tonfas.",
       "imageName": "ohma.png",
       "masteryReq": 8,
@@ -9143,7 +9026,6 @@ module.exports = {
     },
     {
       "bpCost": 15000,
-      "category": "Melee",
       "description": "Perforate enemies with these two needle-sharp sai.",
       "imageName": "okina.png",
       "masteryReq": 5,
@@ -9205,7 +9087,6 @@ module.exports = {
       "component": false
     },
     {
-      "category": "Zaw",
       "description": "",
       "imageName": "ooltha.png",
       "masteryReq": 0,
@@ -9271,7 +9152,6 @@ module.exports = {
     },
     {
       "bpCost": 20000,
-      "category": "Melee",
       "description": "The Tenno forged Orthos is a rare double bladed polearm. Those who take the time to master it speak of its impressive striking distance and ability to hit multiple targets.",
       "imageName": "orthos.png",
       "masteryReq": 2,
@@ -9290,7 +9170,6 @@ module.exports = {
       "component": false
     },
     {
-      "category": "Melee",
       "description": "Orthos Prime is an ancient Orokin martial weapon, forged from the purest Rubedo making it extremely light-weight.",
       "imageName": "orthos-prime.png",
       "masteryReq": 12,
@@ -9317,7 +9196,6 @@ module.exports = {
       "component": false
     },
     {
-      "category": "Melee",
       "description": "Turn foes into puppets with Teshin’s versatile throwing disc.",
       "imageName": "orvius.png",
       "masteryReq": 5,
@@ -9405,7 +9283,6 @@ module.exports = {
       "component": false
     },
     {
-      "category": "Melee",
       "description": "A classic Tenno blade, beautifully reimagined.",
       "imageName": "pangolin-prime.png",
       "masteryReq": 14,
@@ -9432,7 +9309,6 @@ module.exports = {
       "component": false
     },
     {
-      "category": "Melee",
       "description": "A unique blade used by an old Tenno clan.",
       "imageName": "pangolin-sword.png",
       "masteryReq": 3,
@@ -9532,7 +9408,6 @@ module.exports = {
       "wikiaUrl": "http://warframe.wikia.com/wiki/Para_Moa"
     },
     {
-      "category": "Rifle",
       "description": "The Sentient slayer. An offering from Ballas.",
       "imageName": "paracesis.png",
       "masteryReq": 10,
@@ -9632,7 +9507,6 @@ module.exports = {
       "component": false
     },
     {
-      "category": "Melee",
       "description": "Each strike of this infested glaive infects its target with viral pathogens. Occasionally, it discharges the spores of rabid, enemy-seeking maggots, either in-flight or on contact with the enemy.",
       "imageName": "pathocyst.png",
       "masteryReq": 9,
@@ -9658,7 +9532,6 @@ module.exports = {
       "component": false
     },
     {
-      "category": "Melee",
       "description": "The steel flag of Old War Railjack crews, the Pennant was invaluable in repelling boarders. With each heavy attack kill the Pennant's speed of attack increases.",
       "imageName": "pennant.png",
       "masteryReq": 7,
@@ -9834,7 +9707,6 @@ module.exports = {
       "component": false
     },
     {
-      "category": "Zaw",
       "description": "",
       "imageName": "plague-keewar.png",
       "masteryReq": 0,
@@ -9853,7 +9725,6 @@ module.exports = {
       "component": false
     },
     {
-      "category": "Zaw",
       "description": "",
       "imageName": "plague-kripath.png",
       "masteryReq": 0,
@@ -9872,7 +9743,6 @@ module.exports = {
       "component": false
     },
     {
-      "category": "Melee",
       "description": "An advanced blade that delivers high-damage attacks. Delivers a high percentage of critical strikes.",
       "imageName": "plasma-sword.png",
       "masteryReq": 4,
@@ -9968,7 +9838,6 @@ module.exports = {
       "component": false
     },
     {
-      "category": "Melee",
       "description": "Orokin elites admired farmers in conquered regions, because they had learned to fight with modified farming tools despite being forbidden to own weapons. For their voyage, the Zariman were presented with Praedos in recognition of Zariman tenacity. The Void reinforces the strength of the spirited individual by fortifying the Praedos.",
       "imageName": "praedos.png",
       "masteryReq": 14,
@@ -10052,7 +9921,6 @@ module.exports = {
       "component": false
     },
     {
-      "category": "Melee",
       "description": "Blades of energized prisma crystal make these ornamental cleavers cut as sharply as they look.",
       "imageName": "prisma-dual-cleavers.png",
       "masteryReq": 9,
@@ -10173,7 +10041,6 @@ module.exports = {
       "component": false
     },
     {
-      "category": "Melee",
       "description": "The addition of Prisma Crystal allows this otherwise barbaric weapon to elegantly hack through any foe.",
       "imageName": "prisma-machete.png",
       "masteryReq": 7,
@@ -10192,7 +10059,6 @@ module.exports = {
       "component": false
     },
     {
-      "category": "Melee",
       "description": "Dazzle, distract and destroy with these sparring weapons of impossibly hard prisma crystal.",
       "imageName": "prisma-obex.png",
       "masteryReq": 10,
@@ -10234,7 +10100,6 @@ module.exports = {
       "wikiaUrl": "http://warframe.wikia.com/wiki/Prisma_Shade"
     },
     {
-      "category": "Rifle",
       "description": "Forged from raw prisma crystals and infused with Void energy, this blade's pristine edge is honed razor-sharp to eviscerate even the most deadly of foes.",
       "imageName": "prisma-skana.png",
       "masteryReq": 8,
@@ -10374,7 +10239,6 @@ module.exports = {
     },
     {
       "bpCost": 15000,
-      "category": "Rifle",
       "description": "The Prova is a Melee Weapon that delivers a high-intensity shock to its target.",
       "imageName": "prova.png",
       "masteryReq": 3,
@@ -10393,7 +10257,6 @@ module.exports = {
       "component": false
     },
     {
-      "category": "Rifle",
       "description": "A customized version of the vicious Prova, with metallic finish and Lotus decal.",
       "imageName": "prova-vandal.png",
       "masteryReq": 8,
@@ -10420,7 +10283,6 @@ module.exports = {
     },
     {
       "bpCost": 50000,
-      "category": "Melee",
       "description": "Pummel and infect with these two pulsating hunks of flesh connected by a ligament. Take-hold of the malignant evolution of an ancient martial weapon.",
       "imageName": "pulmonars.png",
       "masteryReq": 11,
@@ -10447,7 +10309,6 @@ module.exports = {
     },
     {
       "bpCost": 50000,
-      "category": "Melee",
       "description": "A two-pronged attack; the bone-grafted cocoon at the tip of this polearm rends flesh, while the viral mass living within spreads itself into the wounds of each new victim.",
       "imageName": "pupacyst.png",
       "masteryReq": 7,
@@ -10591,7 +10452,6 @@ module.exports = {
       "component": false
     },
     {
-      "category": "Melee",
       "description": "Flick away the enemy with this heavy warfan. The Quassus scatters ethereal daggers that are even more deadly accurate when wielded by Xaku.",
       "imageName": "quassus.png",
       "masteryReq": 8,
@@ -10668,7 +10528,6 @@ module.exports = {
       "component": false
     },
     {
-      "category": "Zaw",
       "description": "",
       "imageName": "rabvee.png",
       "masteryReq": 0,
@@ -10767,7 +10626,6 @@ module.exports = {
       "component": false
     },
     {
-      "category": "Melee",
       "description": "Infiltrate undetected; reduced visibility when held. Then strike with confidence; hits to irradiated targets restores shields and creates overshields.",
       "imageName": "rakta-dark-dagger.png",
       "masteryReq": 8,
@@ -10849,7 +10707,6 @@ module.exports = {
       "wikiaUrl": "http://warframe.wikia.com/wiki/Rattleguts"
     },
     {
-      "category": "Melee",
       "description": "Reaper Prime is an ornamental scythe, with a blade forged from tempered Rubedo.",
       "imageName": "reaper-prime.png",
       "masteryReq": 10,
@@ -10877,7 +10734,6 @@ module.exports = {
     },
     {
       "bpCost": 20000,
-      "category": "Melee",
       "description": "Striking with massive twin blades, the Redeemer fires the killing blow with its built-in shotgun.",
       "imageName": "redeemer.png",
       "masteryReq": 4,
@@ -10896,7 +10752,6 @@ module.exports = {
       "component": false
     },
     {
-      "category": "Melee",
       "description": "Deal double-bladed, double-barreled death with this primed gunblade.",
       "imageName": "redeemer-prime.png",
       "masteryReq": 10,
@@ -10998,7 +10853,6 @@ module.exports = {
     },
     {
       "bpCost": 20000,
-      "category": "Melee",
       "description": "Motorized saw claw weapon.",
       "imageName": "ripkas.png",
       "masteryReq": 5,
@@ -11071,7 +10925,6 @@ module.exports = {
       "component": false
     },
     {
-      "category": "Melee",
       "description": "An electrified jolter for quick melee takedowns, assembled from scavenged scrap. Ideal for use on unsuspecting opponents.",
       "imageName": "rumblejack.png",
       "masteryReq": 8,
@@ -11150,7 +11003,6 @@ module.exports = {
       "component": false
     },
     {
-      "category": "Melee",
       "description": "Each charged attack turns the enemy’s pain into a healing pulse that washes over allies. Also, creates resistance to Status Effects when held.",
       "imageName": "sancti-magistar.png",
       "masteryReq": 8,
@@ -11202,7 +11054,6 @@ module.exports = {
     },
     {
       "bpCost": 20000,
-      "category": "Melee",
       "description": "Makes sweeping cuts punctuated by bursts of heavy gunfire.",
       "imageName": "sarpa.png",
       "masteryReq": 8,
@@ -11267,7 +11118,6 @@ module.exports = {
     },
     {
       "bpCost": 15000,
-      "category": "Melee",
       "description": "The Scindo is a heavy war axe crafted by the Tenno. Reduced speed and agility is balanced by heavy, devastating strikes capable of connecting with multiple targets at once.",
       "imageName": "scindo.png",
       "masteryReq": 2,
@@ -11286,7 +11136,6 @@ module.exports = {
       "component": false
     },
     {
-      "category": "Melee",
       "description": "An ancient executioners weapon, the honor of decapitation by the Scindo Prime was reserved for the Orokin's most respected enemies.",
       "imageName": "scindo-prime.png",
       "masteryReq": 8,
@@ -11314,7 +11163,6 @@ module.exports = {
     },
     {
       "bpCost": 15000,
-      "category": "Melee",
       "description": "The Scoliac Whip is a nasty parasitic growth of sinew and bone that can inflict heart stopping <DT_POISON>Toxin Damage with attacks.",
       "imageName": "scoliac.png",
       "masteryReq": 6,
@@ -11411,7 +11259,6 @@ module.exports = {
       "component": false
     },
     {
-      "category": "Melee",
       "description": "Whip the enemy out of their ill-gotten gains; double credit drops on kills.",
       "imageName": "secura-lecta.png",
       "masteryReq": 8,
@@ -11487,7 +11334,6 @@ module.exports = {
       "component": false
     },
     {
-      "category": "Zaw",
       "description": "",
       "imageName": "sepfahn.png",
       "masteryReq": 0,
@@ -11532,7 +11378,6 @@ module.exports = {
     },
     {
       "bpCost": 15000,
-      "category": "Melee",
       "description": "Developed as an energy saw to scrap obsolete ships, this tool was quickly banned when rebels in the Sedna region discovered it also made an excellent weapon.",
       "imageName": "serro.png",
       "masteryReq": 6,
@@ -11596,7 +11441,6 @@ module.exports = {
     },
     {
       "bpCost": 15000,
-      "category": "Melee",
       "description": "With these blazing fast nunchaku, the enemy will never know what hit them.",
       "imageName": "shaku.png",
       "masteryReq": 10,
@@ -11647,7 +11491,6 @@ module.exports = {
       "component": false
     },
     {
-      "category": "Melee",
       "description": "Built for close combat, the Sheev's plasma blade slices through flesh and armor with equal ease.",
       "imageName": "sheev.png",
       "masteryReq": 5,
@@ -11692,7 +11535,6 @@ module.exports = {
     },
     {
       "bpCost": 15000,
-      "category": "Melee",
       "description": "Ice in motion can crush mountains, this frozen hammer is no different.",
       "imageName": "sibear.png",
       "masteryReq": 6,
@@ -11764,7 +11606,6 @@ module.exports = {
       "component": false
     },
     {
-      "category": "Melee",
       "description": "Deadly slashes from the Sigma sword are matched only by the force of the Octantis shield when thrown from the air.",
       "imageName": "sigma-&-octantis.png",
       "masteryReq": 10,
@@ -11791,7 +11632,6 @@ module.exports = {
     },
     {
       "bpCost": 15000,
-      "category": "Melee",
       "description": "This fiery sword and shield combination perfects the balance of Tenno offense and defense prowess. In the hands of a Master, even a defensive tool like a shield can be used as a weapon.",
       "imageName": "silva-&-aegis.png",
       "masteryReq": 0,
@@ -11810,7 +11650,6 @@ module.exports = {
       "component": false
     },
     {
-      "category": "Melee",
       "description": "A perfectly crafted pairing, this mace and shield combination is sculpted for exhibition but balanced for the battlefield.",
       "imageName": "silva-&-aegis-prime.png",
       "masteryReq": 12,
@@ -11877,7 +11716,6 @@ module.exports = {
     },
     {
       "bpCost": 15000,
-      "category": "Melee",
       "description": "Before all other weapons, Tenno master the Skana. This simple blade becomes immensely powerful in the hands of a master. For Tenno, it is the foundation of their fighting style and a pillar of their culture.",
       "imageName": "skana.png",
       "masteryReq": 0,
@@ -11896,7 +11734,6 @@ module.exports = {
       "component": false
     },
     {
-      "category": "Melee",
       "description": "Forged of steel grafted from Umbra's flesh, this elegant Nikana unites with its Warframe to form a single being of seething purpose.",
       "imageName": "skiajati.png",
       "masteryReq": 11,
@@ -11923,7 +11760,6 @@ module.exports = {
       "specialNote": "Item are fully ranked when obtained."
     },
     {
-      "category": "Melee",
       "description": "The Slaytra is a powerful reiteration of the traditional Grineer Machete that doubles the duration of bleed from slash damage.",
       "imageName": "slaytra.png",
       "masteryReq": 13,
@@ -12375,7 +12211,6 @@ module.exports = {
       "component": false
     },
     {
-      "category": "Melee",
       "description": "A short-blade melee weapon with an ace up its sleeve. Send nearby enemies flying with a powerful short-range shockwave.",
       "imageName": "stropha.png",
       "masteryReq": 10,
@@ -12691,7 +12526,6 @@ module.exports = {
     },
     {
       "bpCost": 15000,
-      "category": "Melee",
       "description": "Inflict maximum devastation with this massive Grineer trident.",
       "imageName": "sydon.png",
       "masteryReq": 5,
@@ -12761,7 +12595,6 @@ module.exports = {
       "component": false
     },
     {
-      "category": "Melee",
       "description": "This intelligent hammer takes an enemy killed by a Heavy Attack and recomposes them as an ally. Any fatal strike with this weapon also performs a Codex scan.",
       "imageName": "synoid-heliocor.png",
       "masteryReq": 11,
@@ -12839,7 +12672,6 @@ module.exports = {
     },
     {
       "bpCost": 20000,
-      "category": "Melee",
       "description": "Fearsome and noble, the elegant two-handed Nikana is the pride of any Arsenal. Kills build charges and seeking projectiles are unleashed with a Slide Attack to find and stun unwitting enemies. When Revenant wields this blade, Tatsu’s charge cap is increased.",
       "imageName": "tatsu.png",
       "masteryReq": 7,
@@ -12865,7 +12697,6 @@ module.exports = {
       "component": false
     },
     {
-      "category": "Melee",
       "description": "Tatsu Prime glows with spectral splendor. It grows more powerful with each enemy’s demise, especially when wielded by Revenant.",
       "imageName": "tatsu-prime.png",
       "masteryReq": 14,
@@ -12921,7 +12752,6 @@ module.exports = {
     },
     {
       "bpCost": 25000,
-      "category": "Melee",
       "description": "These iron fists that rip through foes are Atlas' signature weapons. When wielded by Atlas they receive a Status Chance increase.",
       "imageName": "tekko.png",
       "masteryReq": 6,
@@ -12940,7 +12770,6 @@ module.exports = {
       "component": false
     },
     {
-      "category": "Melee",
       "description": "As merciless and indestructible as Atlas Prime himself, Tekko Prime crush and split with tectonic force.",
       "imageName": "tekko-prime.png",
       "masteryReq": 12,
@@ -12987,7 +12816,6 @@ module.exports = {
       "component": false
     },
     {
-      "category": "Melee",
       "description": "Spinning attacks unleash the Stormpath, a tempest of mayhem that hurls any foes in its way.",
       "imageName": "telos-boltace.png",
       "masteryReq": 11,
@@ -13038,7 +12866,6 @@ module.exports = {
       "component": false
     },
     {
-      "category": "Melee",
       "description": "Drive the agenda with this massive impact hammer. Heavy attacks launch devastating energy disks.",
       "imageName": "tenet-agendus.png",
       "masteryReq": 14,
@@ -13173,7 +13000,6 @@ module.exports = {
       "component": false
     },
     {
-      "category": "Melee",
       "description": "Leverage bleeding-edge Granum tech with this massive heavy blade. Slam sends forth a cascading set of three shockwaves, while Heavy Slam unleashes a swath of shockwaves.",
       "imageName": "tenet-exec.png",
       "masteryReq": 16,
@@ -13219,7 +13045,6 @@ module.exports = {
       "component": false
     },
     {
-      "category": "Melee",
       "description": "On Heavy Slide Attack, this Corpus scythe launches a spinning energy disk that ricochets throughout the battlefield. Its lifetime is derived from the size of the Combo Counter. Note: The Granum Attaché system pauses the combo timer when holstered.",
       "imageName": "tenet-grigori.png",
       "masteryReq": 14,
@@ -13239,7 +13064,6 @@ module.exports = {
       "component": false
     },
     {
-      "category": "Melee",
       "description": "The sleek lines of the Granum Attaché case conceal an infinitely sharp two-handed blade. Blocked attacks have a chance to increase the blocking angle. Note: The Granum Attaché system pauses the combo timer when holstered.",
       "imageName": "tenet-livia.png",
       "masteryReq": 14,
@@ -13468,7 +13292,6 @@ module.exports = {
     },
     {
       "bpCost": 20000,
-      "category": "Melee",
       "description": "With its crescent shaped blades flying in sweeping arcs and striking at tremendous speed, the Tipedo demands focus from those wishing to unlock its true power.",
       "imageName": "tipedo.png",
       "masteryReq": 3,
@@ -13487,7 +13310,6 @@ module.exports = {
       "component": true
     },
     {
-      "category": "Melee",
       "description": "With their final breath they look to the moon, and are gone.",
       "imageName": "tipedo-prime.png",
       "masteryReq": 10,
@@ -13579,7 +13401,6 @@ module.exports = {
     },
     {
       "bpCost": 15000,
-      "category": "Melee",
       "description": "During the darkest days of the Old War many a Tenno relied solely on the Tonbo to keep them alive.",
       "imageName": "tonbo.png",
       "masteryReq": 3,
@@ -13721,7 +13542,6 @@ module.exports = {
     },
     {
       "bpCost": 15000,
-      "category": "Melee",
       "description": "These nasty, little hatchets slice through steel as if it were flesh.",
       "imageName": "twin-basolk.png",
       "masteryReq": 7,
@@ -13819,7 +13639,6 @@ module.exports = {
     },
     {
       "bpCost": 15000,
-      "category": "Melee",
       "description": "Battlefield butchery becomes all too easy with a Krohkur blade in each hand.",
       "imageName": "twin-krohkur.png",
       "masteryReq": 10,
@@ -14004,7 +13823,6 @@ module.exports = {
       "wikiaUrl": "http://warframe.wikia.com/wiki/Vasca_Kavat"
     },
     {
-      "category": "Melee",
       "description": "Slash and blast with this heavy Gunblade of brutal Grineer design. High slash damage paired with a heavy shotgun attack.",
       "imageName": "vastilok.png",
       "masteryReq": 9,
@@ -14165,7 +13983,6 @@ module.exports = {
       "component": false
     },
     {
-      "category": "Melee",
       "description": "Justice blinds. Block hits to charge a Radial Blind, when fully charged Block+Heavy Attack to unleash it.",
       "imageName": "vaykor-sydon.png",
       "masteryReq": 11,
@@ -14311,7 +14128,6 @@ module.exports = {
     },
     {
       "bpCost": 15000,
-      "category": "Rifle",
       "description": "Caliban’s signature scythe, forged from a limb wrenched off a fallen Eidolon centuries ago. 50% increased Melee Combo Counter Chance when wielded by Caliban.",
       "imageName": "venato.png",
       "masteryReq": 9,
@@ -14331,7 +14147,6 @@ module.exports = {
     },
     {
       "bpCost": 15000,
-      "category": "Melee",
       "description": "Utilizing a new fighting stance, this Tenno weapon turns fists into claws and enemies into messy piles of meat and scrap metal.",
       "imageName": "venka.png",
       "masteryReq": 4,
@@ -14350,7 +14165,6 @@ module.exports = {
       "component": false
     },
     {
-      "category": "Melee",
       "description": "Gleaming blades of white draw blood of the deepest red.",
       "imageName": "venka-prime.png",
       "masteryReq": 14,
@@ -14377,7 +14191,6 @@ module.exports = {
       "component": false
     },
     {
-      "category": "Melee",
       "description": "Archon Nira’s spine-shattering whip. Has a unique Tactical Combo that whips out a wide wave of energy with each stroke.",
       "imageName": "verdilac.png",
       "masteryReq": 13,
@@ -14416,7 +14229,6 @@ module.exports = {
       "component": false
     },
     {
-      "category": "Melee",
       "description": "Unfurl this warfan like a rapidly waxing moon.",
       "imageName": "vericres.png",
       "masteryReq": 8,
@@ -14513,7 +14325,6 @@ module.exports = {
       "component": false
     },
     {
-      "category": "Melee",
       "description": "The sword the fabled Orokin executioner Nihil used to glass the condemned. Swing while Aim Gliding to glass enemies. A Ground Slam will smash nearby glassed foes, while sending forward a narrow shockwave to shatter distant ones. A Heavy Slam sends forth a wider shockwave with greater force.",
       "imageName": "vitrica.png",
       "masteryReq": 13,
@@ -14580,7 +14391,6 @@ module.exports = {
     },
     {
       "bpCost": 20000,
-      "category": "Melee",
       "description": "Tear and maim with this agile, lightweight glass hammer. When Gara's wields her signature melee weapon, it gains additional Slam Radial Damage.",
       "imageName": "volnus.png",
       "masteryReq": 9,
@@ -14599,7 +14409,6 @@ module.exports = {
       "component": false
     },
     {
-      "category": "Melee",
       "description": "The glorious original Orokin casting of Gara’s signature glass hammer. Deceptively light and swift, while remaining lethally effective.",
       "imageName": "volnus-prime.png",
       "masteryReq": 14,
@@ -14749,7 +14558,6 @@ module.exports = {
       "component": false
     },
     {
-      "category": "Melee",
       "description": "The Stalker's sword as bestowed on him by the Sentient Hunhow.",
       "imageName": "war.png",
       "masteryReq": 10,
@@ -14793,7 +14601,6 @@ module.exports = {
       "component": false
     },
     {
-      "category": "Melee",
       "description": "The signature weapon of the only lunatic fearsome enough to bust out of the Saturn Six Max-Pen. Once loosed this formidable throwing hammer always finds its way home.",
       "imageName": "wolf-sledge.png",
       "masteryReq": 7,
@@ -14915,7 +14722,6 @@ module.exports = {
       "component": false
     },
     {
-      "category": "Melee",
       "description": "An obscure glaive weapon of Corpus provenance, intrinsically linked to Specter technology. The Xoris strikes rapidly and with great devastation. It is capable of chaining combos infinitely.",
       "imageName": "xoris.png",
       "masteryReq": 4,
@@ -15032,7 +14838,6 @@ module.exports = {
       "component": false
     },
     {
-      "category": "Melee",
       "description": "Scorch enemies with blistering blows, or set them ablaze with the flying fire disc.",
       "imageName": "zenistar.png",
       "masteryReq": 6,
@@ -15218,5 +15023,5 @@ module.exports = {
       "component": false
     }
   ],
-  "fetched": "2022.11.20 08:00:04 CET+01:00"
+  "fetched": "2022.11.26 08:07:40 CET+01:00"
 }

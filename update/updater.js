@@ -56,7 +56,6 @@ class Updater {
 
   async clog(string) {
     console.log(chalk.cyan("[ \u2714 ]"), chalk.cyan(string));
-    //console.log('[ \u2714 ]' + string);
   }
 
   async cleanup() {
