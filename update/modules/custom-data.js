@@ -160,7 +160,7 @@ module.exports = function (items) {
 			items.array[i]["wikiaUrl"] = "https://warframe.fandom.com/wiki/Batoten";
 		}
 
-		// Temporary: Remove categoryw on all melee weapons
+		// Temporary: Remove category on all melee weapons
 		if (type == "Melee") {
 			delete items.array[i]["category"];
 		}
