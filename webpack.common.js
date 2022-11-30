@@ -1,16 +1,9 @@
 const path = require("path");
 const fs = require("fs");
-//const marked = require("marked");
 const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 //const OptimizeCssnanoPlugin = require("@intervolga/optimize-cssnano-plugin");
 const webpack = require("webpack");
 const { utils } = require("./src/js/utils.js");
-
-//const content = fs.readFileSync("./src/markdown/beginner-guide.md", "utf8");
-//var output = marked(content, {
-//  headerIds: false,
-//});
-//fs.writeFileSync("./src/views/beginner-guide.hbs", output);
 
 module.exports = {
   resolve: {

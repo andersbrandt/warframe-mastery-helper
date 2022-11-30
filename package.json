@@ -21,7 +21,6 @@
     "handlebars": "^4.7.7",
     "handlebars-loader": "^1.7.1",
     "jquery": "^3.6.0",
-    "marked": "^4.0.10",
     "mini-css-extract-plugin": "^2.3.0",
     "minimist": "^1.2.6",
     "moment": "^2.29.2",
