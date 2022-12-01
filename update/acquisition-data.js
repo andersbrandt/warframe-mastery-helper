@@ -70,6 +70,7 @@ NARMER_BOUNTIES = "Narmer Bounties";
 ZARIMAN_BOUNTIES = "Zariman Bounties";
 CAVALERO = "Cavalero (Zariman)";
 KAHLS = "Kahl's Bounties";
+CONJUNCTION =  "Conjunction Survival (Lua)";
 
 
 // Quests
@@ -3673,9 +3674,41 @@ var items = [
 		acquisition: RELICS,
 		id: "/Lotus/Weapons/Tenno/Melee/Swords/PrimeTatsu/PrimeTatsuWeapon",
 	},
+	// Lua's Prey Update
+
+	{
+		name: "Perigale",
+		acquisition: CONJUNCTION,
+		id: "/Lotus/Weapons/Tenno/LongGuns/TnQuadSniper/TnQuadSniper",
+	},
+
+	{
+		name: "Sarofang",
+		acquisition: CONJUNCTION,
+		id: "/Lotus/Weapons/Tenno/Melee/Axe/WolfFrameAxeWeapon",
+	},
+
+	{
+		name: "Tenet Ferrox",
+		acquisition: SISTERS_PARVOS,
+		id: "/Lotus/Weapons/Corpus/BoardExec/Primary/CrpBEFerrox/CrpBEFerrox",
+	},
+
+	{
+		name: "Tenet Plinx",
+		acquisition: SISTERS_PARVOS,
+		id: "/Lotus/Weapons/Corpus/BoardExec/Secondary/CrpBEPlinx/CrpBEPlinxWeapon",
+	},
+
+	{
+		name: "Voruna",
+		acquisition: CONJUNCTION,
+		id: "/Lotus/Powersuits/Werewolf/Werewolf",
+	},
 ];
 
 module.exports = {
   items: items
 };
-  
+
+      

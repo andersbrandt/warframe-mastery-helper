@@ -11,7 +11,7 @@ describe("Start Page", () => {
         .should("be.visible")
         .title()
         .should("contain", "Warframe Mastery Helper");
-    cy.get("h2")
+    cy.get("h1")
         .first()
         .should("contain", "Warframe Mastery Tracker");
     cy.get(".button")

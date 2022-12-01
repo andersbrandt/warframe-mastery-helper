@@ -9578,6 +9578,25 @@ module.exports = {
       "component": false
     },
     {
+      "category": "Rifle",
+      "description": "Like a breath of wind, shots fired by this multi-barrel sniper are felt but never seen by its targets. Headshots in quick succession increase the Perigale’s ammo efficiency. When the Perigale is wielded by Voruna, its ammo pool increases.",
+      "imageName": "perigale.png",
+      "masteryReq": 8,
+      "name": "Perigale",
+      "productCategory": "LongGuns",
+      "tradable": false,
+      "trigger": "Burst",
+      "type": "Primary",
+      "uniqueName": "/Lotus/Weapons/Tenno/LongGuns/TnQuadSniper/TnQuadSniper",
+      "acquisition": "Conjunction Survival (Lua)",
+      "checked": false,
+      "unobtainable": false,
+      "tierData": false,
+      "tierRank": 0,
+      "component": false,
+      "wikiaUrl": "http://warframe.wikia.com/wiki/Perigale"
+    },
+    {
       "bpCost": 35000,
       "description": "Devastate free-space enemies with Phaedra, the Soma's big-sister.",
       "imageName": "phaedra.png",
@@ -11050,6 +11069,24 @@ module.exports = {
       "tierRank": 0,
       "buildLink": "https://overframe.gg/build/26577/",
       "buildLinkDomain": "overframe.gg",
+      "component": false
+    },
+    {
+      "description": "Mete out the sharp pain of justice. Heavy Slam attacks create a vortex that pulls in lifted enemies when the Sarofang’s Combo Multiplier builds to 8x. In Voruna’s hands, the Sarofang only requires a 5x Combo Multiplier to summon the vortex.",
+      "imageName": "sarofang.png",
+      "masteryReq": 8,
+      "name": "Sarofang",
+      "productCategory": "Melee",
+      "releaseDate": "2022-11-30",
+      "tradable": false,
+      "type": "Melee",
+      "uniqueName": "/Lotus/Weapons/Tenno/Melee/Axe/WolfFrameAxeWeapon",
+      "wikiaUrl": "https://warframe.fandom.com/wiki/Sarofang",
+      "acquisition": "Conjunction Survival (Lua)",
+      "checked": false,
+      "unobtainable": false,
+      "tierData": false,
+      "tierRank": 0,
       "component": false
     },
     {
@@ -13020,6 +13057,26 @@ module.exports = {
     },
     {
       "category": "Rifle",
+      "description": "The expert engineers in Parvos Granum’s division have optimized the Ferrox’s lethal power.",
+      "imageName": "tenet-ferrox.png",
+      "masteryReq": 16,
+      "maxLevelCap": 40,
+      "name": "Tenet Ferrox",
+      "productCategory": "LongGuns",
+      "tradable": false,
+      "trigger": "Charge",
+      "type": "Primary",
+      "uniqueName": "/Lotus/Weapons/Corpus/BoardExec/Primary/CrpBEFerrox/CrpBEFerrox",
+      "acquisition": "Sisters of Parvos",
+      "checked": false,
+      "unobtainable": false,
+      "tierData": false,
+      "tierRank": 0,
+      "component": false,
+      "wikiaUrl": "http://warframe.wikia.com/wiki/Tenet_Ferrox"
+    },
+    {
+      "category": "Rifle",
       "description": "Sister-modified Flux Rifle with increased fire rate and range. Recharge has been replaced with ammo clips to accommodate greater power needs.",
       "imageName": "tenet-flux-rifle.png",
       "masteryReq": 16,
@@ -13081,6 +13138,26 @@ module.exports = {
       "tierData": false,
       "tierRank": 0,
       "component": false
+    },
+    {
+      "category": "Pistol",
+      "description": "Alternate fire on this reengineered Plinx fires a projectile that pulls enemies close and then explodes. Its cooldown increases after the explosion to accommodate battery power demands.",
+      "imageName": "tenet-plinx.png",
+      "masteryReq": 6,
+      "maxLevelCap": 40,
+      "name": "Tenet Plinx",
+      "productCategory": "Pistols",
+      "tradable": false,
+      "trigger": "Semi",
+      "type": "Secondary",
+      "uniqueName": "/Lotus/Weapons/Corpus/BoardExec/Secondary/CrpBEPlinx/CrpBEPlinxWeapon",
+      "acquisition": "Sisters of Parvos",
+      "checked": false,
+      "unobtainable": false,
+      "tierData": false,
+      "tierRank": 0,
+      "component": false,
+      "wikiaUrl": "http://warframe.wikia.com/wiki/Tenet_Plinx"
     },
     {
       "category": "Pistol",
@@ -14472,6 +14549,24 @@ module.exports = {
       "component": false
     },
     {
+      "description": "Four beasts, one heart. Voruna’s loyal wolf pack makes for a deadly combination of strength and stealth. Beware the monstrous howl that heralds fangs of vengeance.",
+      "imageName": "voruna.png",
+      "masteryReq": 0,
+      "name": "Voruna",
+      "productCategory": "Suits",
+      "releaseDate": "2022-11-30",
+      "tradable": false,
+      "type": "Warframe",
+      "uniqueName": "/Lotus/Powersuits/Werewolf/Werewolf",
+      "wikiaUrl": "https://warframe.fandom.com/wiki/Voruna",
+      "acquisition": "Conjunction Survival (Lua)",
+      "checked": false,
+      "unobtainable": false,
+      "tierData": false,
+      "tierRank": 0,
+      "component": false
+    },
+    {
       "category": "Companion Weapon",
       "description": "Charges up a powerful blast of ultra-heated plasma.",
       "imageName": "vulcax.png",
@@ -15023,5 +15118,5 @@ module.exports = {
       "component": false
     }
   ],
-  "fetched": "2022.11.26 08:07:40 CET+01:00"
+  "fetched": "2022.12.01 06:28:53 CET+01:00"
 }
