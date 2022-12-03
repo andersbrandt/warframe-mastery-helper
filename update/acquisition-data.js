@@ -3675,7 +3675,6 @@ var items = [
 		id: "/Lotus/Weapons/Tenno/Melee/Swords/PrimeTatsu/PrimeTatsuWeapon",
 	},
 	// Lua's Prey Update
-
 	{
 		name: "Perigale",
 		acquisition: CONJUNCTION,
@@ -3690,7 +3689,7 @@ var items = [
 
 	{
 		name: "Tenet Ferrox",
-		acquisition: SISTERS_PARVOS,
+		acquisition: HOLOKEYS,
 		id: "/Lotus/Weapons/Corpus/BoardExec/Primary/CrpBEFerrox/CrpBEFerrox",
 	},
 

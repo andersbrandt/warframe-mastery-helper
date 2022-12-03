@@ -9584,17 +9584,18 @@ module.exports = {
       "masteryReq": 8,
       "name": "Perigale",
       "productCategory": "LongGuns",
+      "releaseDate": "2022-11-30",
       "tradable": false,
       "trigger": "Burst",
       "type": "Primary",
       "uniqueName": "/Lotus/Weapons/Tenno/LongGuns/TnQuadSniper/TnQuadSniper",
+      "wikiaUrl": "https://warframe.fandom.com/wiki/Perigale",
       "acquisition": "Conjunction Survival (Lua)",
       "checked": false,
       "unobtainable": false,
       "tierData": false,
       "tierRank": 0,
-      "component": false,
-      "wikiaUrl": "http://warframe.wikia.com/wiki/Perigale"
+      "component": false
     },
     {
       "bpCost": 35000,
@@ -13067,7 +13068,7 @@ module.exports = {
       "trigger": "Charge",
       "type": "Primary",
       "uniqueName": "/Lotus/Weapons/Corpus/BoardExec/Primary/CrpBEFerrox/CrpBEFerrox",
-      "acquisition": "Sisters of Parvos",
+      "acquisition": "Holokeys (Void Storm)",
       "checked": false,
       "unobtainable": false,
       "tierData": false,
@@ -15118,5 +15119,5 @@ module.exports = {
       "component": false
     }
   ],
-  "fetched": "2022.12.01 06:28:53 CET+01:00"
+  "fetched": "2022.12.02 07:48:08 CET+01:00"
 }
