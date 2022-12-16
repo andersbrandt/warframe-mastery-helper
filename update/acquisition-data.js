@@ -3680,29 +3680,41 @@ var items = [
 		acquisition: CONJUNCTION,
 		id: "/Lotus/Weapons/Tenno/LongGuns/TnQuadSniper/TnQuadSniper",
 	},
-
 	{
 		name: "Sarofang",
 		acquisition: CONJUNCTION,
 		id: "/Lotus/Weapons/Tenno/Melee/Axe/WolfFrameAxeWeapon",
 	},
-
 	{
 		name: "Tenet Ferrox",
 		acquisition: HOLOKEYS,
 		id: "/Lotus/Weapons/Corpus/BoardExec/Primary/CrpBEFerrox/CrpBEFerrox",
 	},
-
 	{
 		name: "Tenet Plinx",
 		acquisition: SISTERS_PARVOS,
 		id: "/Lotus/Weapons/Corpus/BoardExec/Secondary/CrpBEPlinx/CrpBEPlinxWeapon",
 	},
-
 	{
 		name: "Voruna",
 		acquisition: CONJUNCTION,
 		id: "/Lotus/Powersuits/Werewolf/Werewolf",
+	},
+	// Baruuk Prime update
+	{
+	  name: "Afuris Prime",
+	  acquisition: RELICS,
+	  id: "/Lotus/Weapons/Tenno/Pistols/PrimeAfuris/PrimeAFurisWeapon"
+	},
+	{
+	  name: "Baruuk Prime",
+	  acquisition: RELICS,
+	  id: "/Lotus/Powersuits/Pacifist/BaruukPrime"
+	},
+	{
+	  name: "Cobra & Crane Prime",
+	  acquisition: RELICS,
+	  id: "/Lotus/Weapons/Tenno/Melee/SwordsAndBoards/PrimeCobraAndCrane/PrimeCobraAndCraneWeapon"
 	},
 ];
 
@@ -3711,3 +3723,4 @@ module.exports = {
 };
 
       
+    

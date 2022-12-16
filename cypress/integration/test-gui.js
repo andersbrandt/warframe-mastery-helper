@@ -225,7 +225,7 @@ describe("GUI", () => {
     //
     cy.viewport(1300, 600);
     cy.get("#search").type("Afuris");
-    cy.get("ul#all-items").find("li:visible").should("have.length", 1);
+    cy.get("ul#all-items").find("li:visible").should("have.length", 2);
     cy.get("ul#all-items").find("li:visible").find(".acquisition").should("be.visible");
     cy.get("ul#all-items").find("li:visible").find(".mastery-rank").should("be.visible");
 

@@ -181,6 +181,26 @@ module.exports = {
       "component": false
     },
     {
+      "category": "Pistol",
+      "description": "Vanquish chaos with dual firepower.",
+      "imageName": "afuris-prime.png",
+      "masteryReq": 12,
+      "name": "Afuris Prime",
+      "productCategory": "Pistols",
+      "releaseDate": "2022-12-14",
+      "tradable": false,
+      "trigger": "Auto",
+      "type": "Secondary",
+      "uniqueName": "/Lotus/Weapons/Tenno/Pistols/PrimeAfuris/PrimeAFurisWeapon",
+      "wikiaUrl": "https://warframe.fandom.com/wiki/Afuris_Prime",
+      "acquisition": "Relics",
+      "checked": false,
+      "unobtainable": false,
+      "tierData": false,
+      "tierRank": 0,
+      "component": false
+    },
+    {
       "bpCost": 35000,
       "description": "Tear apart incoming enemies with this massive hooked blade.",
       "imageName": "agkuza.png",
@@ -1396,6 +1416,27 @@ module.exports = {
       "component": false
     },
     {
+      "description": "Doomed are the fools who attack the peace and exhaust the restraint of this reluctant warrior.",
+      "exalted": [
+        "/Lotus/Powersuits/Pacifist/PacifistFistPrime"
+      ],
+      "imageName": "baruuk-prime.png",
+      "masteryReq": 0,
+      "name": "Baruuk Prime",
+      "productCategory": "Suits",
+      "releaseDate": "2022-12-14",
+      "tradable": false,
+      "type": "Warframe",
+      "uniqueName": "/Lotus/Powersuits/Pacifist/BaruukPrime",
+      "wikiaUrl": "https://warframe.fandom.com/wiki/Baruuk%2FPrime",
+      "acquisition": "Relics",
+      "checked": false,
+      "unobtainable": false,
+      "tierData": false,
+      "tierRank": 0,
+      "component": false
+    },
+    {
       "category": "Rifle",
       "description": "This Sentient war instrument can either barrage targets with explosive bolts, or, draw on its regenerative battery to create twin plasma beams that chain through targets. When fully drained, Health is leached from nearby foes for a short period.",
       "imageName": "basmu.png",
@@ -2531,6 +2572,24 @@ module.exports = {
       "buildLink": "https://overframe.gg/build/28653/",
       "buildLinkDomain": "overframe.gg",
       "combo": "Null Warning",
+      "component": false
+    },
+    {
+      "description": "Punish those who test your restraint. The first strike in a combo stuns enemies when Cobra & Crane Prime are wielded by Baruuk.",
+      "imageName": "cobra-&-crane-prime.png",
+      "masteryReq": 14,
+      "name": "Cobra & Crane Prime",
+      "productCategory": "Melee",
+      "releaseDate": "2022-12-14",
+      "tradable": false,
+      "type": "Melee",
+      "uniqueName": "/Lotus/Weapons/Tenno/Melee/SwordsAndBoards/PrimeCobraAndCrane/PrimeCobraAndCraneWeapon",
+      "wikiaUrl": "https://warframe.fandom.com/wiki/Cobra_%26_Crane_Prime",
+      "acquisition": "Relics",
+      "checked": false,
+      "unobtainable": false,
+      "tierData": false,
+      "tierRank": 0,
       "component": false
     },
     {
@@ -8900,6 +8959,7 @@ module.exports = {
       "tradable": false,
       "type": "Warframe",
       "uniqueName": "/Lotus/Powersuits/Bard/OctaviaPrime",
+      "vaulted": true,
       "wikiaUrl": "https://warframe.fandom.com/wiki/Octavia%2FPrime",
       "acquisition": "Relics",
       "checked": false,
@@ -9269,6 +9329,7 @@ module.exports = {
       "trigger": "Semi",
       "type": "Secondary",
       "uniqueName": "/Lotus/Weapons/Tenno/Pistols/PrimePandero/PanderoPrimeWeapon",
+      "vaulted": true,
       "wikiaUrl": "https://warframe.fandom.com/wiki/Pandero_Prime",
       "acquisition": "Relics",
       "checked": false,
@@ -13064,17 +13125,18 @@ module.exports = {
       "maxLevelCap": 40,
       "name": "Tenet Ferrox",
       "productCategory": "LongGuns",
+      "releaseDate": "2022-11-30",
       "tradable": false,
       "trigger": "Charge",
       "type": "Primary",
       "uniqueName": "/Lotus/Weapons/Corpus/BoardExec/Primary/CrpBEFerrox/CrpBEFerrox",
+      "wikiaUrl": "https://warframe.fandom.com/wiki/Tenet_Ferrox",
       "acquisition": "Holokeys (Void Storm)",
       "checked": false,
       "unobtainable": false,
       "tierData": false,
       "tierRank": 0,
-      "component": false,
-      "wikiaUrl": "http://warframe.wikia.com/wiki/Tenet_Ferrox"
+      "component": false
     },
     {
       "category": "Rifle",
@@ -13148,17 +13210,18 @@ module.exports = {
       "maxLevelCap": 40,
       "name": "Tenet Plinx",
       "productCategory": "Pistols",
+      "releaseDate": "2022-11-30",
       "tradable": false,
       "trigger": "Semi",
       "type": "Secondary",
       "uniqueName": "/Lotus/Weapons/Corpus/BoardExec/Secondary/CrpBEPlinx/CrpBEPlinxWeapon",
+      "wikiaUrl": "https://warframe.fandom.com/wiki/Tenet_Plinx",
       "acquisition": "Sisters of Parvos",
       "checked": false,
       "unobtainable": false,
       "tierData": false,
       "tierRank": 0,
-      "component": false,
-      "wikiaUrl": "http://warframe.wikia.com/wiki/Tenet_Plinx"
+      "component": false
     },
     {
       "category": "Pistol",
@@ -13240,6 +13303,7 @@ module.exports = {
       "trigger": "Auto",
       "type": "Primary",
       "uniqueName": "/Lotus/Weapons/Tenno/LongGuns/PrimeTenora/TenoraPrimeWeapon",
+      "vaulted": true,
       "wikiaUrl": "https://warframe.fandom.com/wiki/Tenora_Prime",
       "acquisition": "Relics",
       "checked": false,
@@ -15119,5 +15183,5 @@ module.exports = {
       "component": false
     }
   ],
-  "fetched": "2022.12.02 07:48:08 CET+01:00"
+  "fetched": "2022.12.16 10:58:26 CET+01:00"
 }
