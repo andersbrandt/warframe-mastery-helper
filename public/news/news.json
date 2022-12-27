@@ -1,5 +1,9 @@
 [
 		{
+			"header": "Fixed a bug with weapons used as components missing the icon",
+			"date": "2022.12.27"
+		},
+		{
 			"header": "Added Baruuk Prime update",
 			"date": "2022.12.16",
 			"url": "https://www.warframe.com/news/baruuk-prime-access"

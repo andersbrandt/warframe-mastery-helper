@@ -107,6 +107,26 @@ describe("GUI", () => {
     cy.get('[data-name="Acceltra"]').should("be.visible");
   });
 
+  it("Assert component-weapons", () => {
+		//
+		// Assert that component-weapons are displaying the correct icon
+		//
+		cy.get("#filter-clear").click();
+		cy.get("#search").clear().type("Dual Cleavers");
+		cy.get("ul#all-items")
+			.find("li:visible")
+			.should(($elements) => {
+				expect($elements.length).to.equal(2);
+			});
+		cy.get("ul#all-items")
+			.find("li:visible")
+			.find(".icon-puzzle")
+			.should(($elements) => {
+				expect($elements.length).to.equal(1);
+			});
+		cy.get("#filter-clear").click();	
+	});
+
   it("Assert modal behaviour", () => {
     //
     //  Modal behaviour

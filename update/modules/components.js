@@ -23,6 +23,10 @@ module.exports = function (items) {
   componentItemsUnique = componentItems.filter(function (item, pos) {
     return componentItems.indexOf(item) == pos;
   });
+	// Fix weird character for space
+  for (var i = 0; i < componentItemsUnique.length; i++) {
+		componentItemsUnique[i] = componentItemsUnique[i].replace(" ", " ");
+	}
   // Write the original data to disk
   require('fs').writeFileSync(pathAlias.resolve(paths.warframeComponentData.dest), JSON.stringify(componentItemsUnique, null, 2));
 

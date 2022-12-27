@@ -1910,7 +1910,7 @@ module.exports = {
       "buildLink": "https://overframe.gg/build/28647/",
       "buildLinkDomain": "overframe.gg",
       "combo": "Wings and Beak",
-      "component": false
+      "component": true
     },
     {
       "bpCost": 15000,
@@ -1951,7 +1951,7 @@ module.exports = {
       "unobtainable": false,
       "tierData": false,
       "tierRank": 0,
-      "component": false
+      "component": true
     },
     {
       "bpCost": 50000,
@@ -3512,7 +3512,7 @@ module.exports = {
       "unobtainable": false,
       "tierData": false,
       "tierRank": 0,
-      "component": false
+      "component": true
     },
     {
       "bpCost": 35000,
@@ -3629,7 +3629,7 @@ module.exports = {
       "unobtainable": false,
       "tierData": false,
       "tierRank": 0,
-      "component": false
+      "component": true
     },
     {
       "description": "The sensual lines of these golden Kamas have long been celebrated as a masterwork of Tenno weapon smithing.",
@@ -3751,7 +3751,7 @@ module.exports = {
       "buildLink": "https://overframe.gg/build/28668/",
       "buildLinkDomain": "overframe.gg",
       "combo": "Winding Claws",
-      "component": false
+      "component": true
     },
     {
       "bpCost": 15000,
@@ -3803,7 +3803,7 @@ module.exports = {
       "buildLink": "https://overframe.gg/build/28669/",
       "buildLinkDomain": "overframe.gg",
       "combo": "Winding Claws",
-      "component": false
+      "component": true
     },
     {
       "category": "Archwing",
@@ -7613,7 +7613,7 @@ module.exports = {
       "tierRank": 0,
       "buildLink": "https://overframe.gg/build/27883/",
       "buildLinkDomain": "overframe.gg",
-      "component": false
+      "component": true
     },
     {
       "description": "Limbo manipulates the very planes of existence to divide his enemies and conquer them in the rift.",
@@ -8336,7 +8336,7 @@ module.exports = {
       "tierRank": 0,
       "buildLink": "https://overframe.gg/build/26564/",
       "buildLinkDomain": "overframe.gg",
-      "component": false
+      "component": true
     },
     {
       "bpCost": 50000,
@@ -14034,7 +14034,7 @@ module.exports = {
       "tierRank": 0,
       "buildLink": "https://overframe.gg/build/27926/",
       "buildLinkDomain": "overframe.gg",
-      "component": false
+      "component": true
     },
     {
       "bpCost": 35000,
@@ -15183,5 +15183,5 @@ module.exports = {
       "component": false
     }
   ],
-  "fetched": "2022.12.16 10:58:26 CET+01:00"
+  "fetched": "2022.12.27 01:53:42 CET+01:00"
 }
