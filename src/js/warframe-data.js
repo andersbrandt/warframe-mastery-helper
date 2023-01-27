@@ -4782,6 +4782,7 @@ module.exports = {
       "wikiaUrl": "http://warframe.wikia.com/wiki/Gaze"
     },
     {
+      "bpCost": 1500,
       "description": "The cruelest of weapons built for the crudest of Grineer soldiers. Rips through metal like flesh, and through flesh like day-old pudding.",
       "imageName": "ghoulsaw.png",
       "masteryReq": 7,
@@ -15183,5 +15184,5 @@ module.exports = {
       "component": false
     }
   ],
-  "fetched": "2022.12.27 01:53:42 CET+01:00"
+  "fetched": "2023.01.27 08:18:32 CET+01:00"
 }

@@ -1,6 +1,6 @@
 [
 		{
-			"header": "Fixed a bug with weapons used as components missing the icon",
+			"header": "Fixed a bug with missing the icon for weapons used as components",
 			"date": "2022.12.27"
 		},
 		{
