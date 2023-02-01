@@ -1,0 +1,20 @@
+<h2>Items sorted by Mastery Rank</h2>
+<p>All frames (regular and prime versions) are omitted from this list since they are all available from Mastery Rank 0.</p>
+z<br />
+{{#each this}}
+	<h2>MR {{@key}}</h2>
+	<p>
+		{{#each this}}
+			{{#ifCond this.productCategory "!=" "Suits"}}
+				<span class="action-toggle-info" data-item="{{this.name}}">{{this.name}}</span>{{#unless @last}} - {{/unless}}
+			{{/ifCond}}
+		{{/each}}
+	</p>
+	<br />
+{{/each}}
+
+<a class="close-reveal-modal" aria-label="Close">&#215;</a>
+
+<div class="text-right">
+	<button type="button" class="btn btn-default action-close-modal">Close</button>
+</div>
