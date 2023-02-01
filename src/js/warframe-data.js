@@ -2319,7 +2319,7 @@ module.exports = {
       "type": "Primary",
       "uniqueName": "/Lotus/Weapons/Tenno/LongGuns/TnAlchemistShotgun/TnAlchemistShotgun",
       "wikiaUrl": "https://warframe.fandom.com/wiki/Cedo",
-      "acquisition": "Operation: Orphix Venom",
+      "acquisition": "Father (Nekralisk)",
       "checked": false,
       "unobtainable": false,
       "tierData": true,
@@ -7475,7 +7475,7 @@ module.exports = {
       "type": "Warframe",
       "uniqueName": "/Lotus/Powersuits/Alchemist/Alchemist",
       "wikiaUrl": "https://warframe.fandom.com/wiki/Lavos",
-      "acquisition": "Operation: Orphix Venom",
+      "acquisition": "Father (Nekralisk)",
       "checked": false,
       "unobtainable": false,
       "tierData": false,
@@ -15184,5 +15184,5 @@ module.exports = {
       "component": false
     }
   ],
-  "fetched": "2023.01.27 08:18:32 CET+01:00"
+  "fetched": "2023.02.02 12:01:58 CET+01:00"
 }

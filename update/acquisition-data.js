@@ -3230,12 +3230,12 @@ var items = [
 	},
 	{
 		name: "Cedo",
-		acquisition: ORPHIX_VENOM,
+		acquisition: FATHER,
 		id: "/Lotus/Weapons/Tenno/LongGuns/TnAlchemistShotgun/TnAlchemistShotgun",
 	},
 	{
 		name: "Lavos",
-		acquisition: ORPHIX_VENOM,
+		acquisition: FATHER,
 		id: "/Lotus/Powersuits/Alchemist/Alchemist",
 	},
 	// Octavia Prime Update
