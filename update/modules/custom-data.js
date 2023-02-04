@@ -68,7 +68,7 @@ module.exports = function (items) {
 			items.array[i]["type"] = "Archwing Gun";
 		}
 
-		// Inaros update weapons are mislabeled
+		// Weapons from the Inaros update are mislabeled
 		if (name == "Karyst Prime") {
 			items.array[i]["category"] = "Dagger";
 		}
@@ -160,6 +160,20 @@ module.exports = function (items) {
 			items.array[i]["wikiaUrl"] = "https://warframe.fandom.com/wiki/Batoten";
 		}
 
+		// Fix companion MOAs Wikia URL
+		if (name == "Lambeo Moa") {
+			items.array[i]["wikiaUrl"] ="https://warframe.fandom.com/wiki/MOA_(Companion)";
+		}
+		if (name == "Nychus Moa") {
+			items.array[i]["wikiaUrl"] ="https://warframe.fandom.com/wiki/MOA_(Companion)";
+		}
+		if (name == "Oloro Moa") {
+			items.array[i]["wikiaUrl"] ="https://warframe.fandom.com/wiki/MOA_(Companion)";
+		}
+		if (name == "Para Moa") {
+			items.array[i]["wikiaUrl"] ="https://warframe.fandom.com/wiki/MOA_(Companion)";
+		}
+		
 		// Temporary: Remove category on all melee weapons
 		if (type == "Melee") {
 			delete items.array[i]["category"];

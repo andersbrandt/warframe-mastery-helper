@@ -7284,7 +7284,7 @@ module.exports = {
       "tierData": false,
       "tierRank": 0,
       "component": false,
-      "wikiaUrl": "http://warframe.wikia.com/wiki/Lambeo_Moa"
+      "wikiaUrl": "https://warframe.fandom.com/wiki/MOA_(Companion)"
     },
     {
       "bpCost": 15000,
@@ -8835,7 +8835,7 @@ module.exports = {
       "tierData": false,
       "tierRank": 0,
       "component": false,
-      "wikiaUrl": "http://warframe.wikia.com/wiki/Nychus_Moa"
+      "wikiaUrl": "https://warframe.fandom.com/wiki/MOA_(Companion)"
     },
     {
       "bpCost": 25000,
@@ -9126,7 +9126,7 @@ module.exports = {
       "tierData": false,
       "tierRank": 0,
       "component": false,
-      "wikiaUrl": "http://warframe.wikia.com/wiki/Oloro_Moa"
+      "wikiaUrl": "https://warframe.fandom.com/wiki/MOA_(Companion)"
     },
     {
       "bpCost": 35000,
@@ -9467,7 +9467,7 @@ module.exports = {
       "tierData": false,
       "tierRank": 0,
       "component": false,
-      "wikiaUrl": "http://warframe.wikia.com/wiki/Para_Moa"
+      "wikiaUrl": "https://warframe.fandom.com/wiki/MOA_(Companion)"
     },
     {
       "description": "The Sentient slayer. An offering from Ballas.",
@@ -15184,5 +15184,5 @@ module.exports = {
       "component": false
     }
   ],
-  "fetched": "2023.02.02 12:01:58 CET+01:00"
+  "fetched": "2023.02.04 09:22:51 CET+01:00"
 }
