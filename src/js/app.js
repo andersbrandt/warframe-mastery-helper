@@ -676,6 +676,12 @@ var app = {
 	mr: {
 		create: function () {
 			var mrData = app.data.array;
+			// Add 0 to items missing masteryReq
+			mrData.forEach(item => {
+				if(typeof(item.masteryReq == "undefined")) {
+					item.masteryReq = 0;
+				}
+			});
 			// Sort by masteryReq
 			mrData.sort(function (a, b) {
 				var keyA = a.masteryReq;
@@ -685,7 +691,6 @@ var app = {
 				if (keyA > keyB) return 1;
 				return 0;
 			});
-			console.log(mrData);
 			// Group by masteryReq
 			function groupByKey(array, key) {
 				return array.reduce((hash, obj) => {
@@ -698,12 +703,6 @@ var app = {
 			var result = groupByKey(mrData, "masteryReq");
 			console.log(result);
 			return result;
-			// var result = mrData.reduce(function (r, a) {
-			//   r[a.masteryReq] = r[a.masteryReq] || [];
-			//   r[a.masteryReq].push(a);
-			//   return r;})
-			// 	console.log(result);
-			// return result;
 		},
 	},
 	import: {
