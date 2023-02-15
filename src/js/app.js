@@ -678,7 +678,7 @@ var app = {
 			var mrData = app.data.array;
 			// Add 0 to items missing masteryReq
 			mrData.forEach(item => {
-				if(typeof(item.masteryReq == "undefined")) {
+				if(typeof(item.masteryReq) == "undefined") {
 					item.masteryReq = 0;
 				}
 			});
@@ -701,7 +701,6 @@ var app = {
 				}, {});
 			}
 			var result = groupByKey(mrData, "masteryReq");
-			console.log(result);
 			return result;
 		},
 	},
