@@ -1,6 +1,11 @@
 [
 		{
-			"header": "Fixed a bug with missing the icon for weapons used as components",
+			"header": "Added Citrine's Last Wish update",
+			"date": "2023.02.15",
+			"url": "https://www.warframe.com/news/citrines-last-wish"
+		},
+		{
+			"header": "Fixed bug: Weapons used as components were missing icon-indicator",
 			"date": "2022.12.27"
 		},
 		{

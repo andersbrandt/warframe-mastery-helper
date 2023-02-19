@@ -71,7 +71,7 @@ ZARIMAN_BOUNTIES = "Zariman Bounties";
 CAVALERO = "Cavalero (Zariman)";
 KAHLS = "Kahl's Bounties";
 CONJUNCTION =  "Conjunction Survival (Lua)";
-
+MIRROR_DEFENSE = "Mirror Defense (Mars)";
 
 // Quests
 CHAINS_OF_HARROW = 'Chains of Harrow (Quest)';
@@ -3702,25 +3702,38 @@ var items = [
 	},
 	// Baruuk Prime update
 	{
-	  name: "Afuris Prime",
-	  acquisition: RELICS,
-	  id: "/Lotus/Weapons/Tenno/Pistols/PrimeAfuris/PrimeAFurisWeapon"
+		name: "Afuris Prime",
+		acquisition: RELICS,
+		id: "/Lotus/Weapons/Tenno/Pistols/PrimeAfuris/PrimeAFurisWeapon",
 	},
 	{
-	  name: "Baruuk Prime",
-	  acquisition: RELICS,
-	  id: "/Lotus/Powersuits/Pacifist/BaruukPrime"
+		name: "Baruuk Prime",
+		acquisition: RELICS,
+		id: "/Lotus/Powersuits/Pacifist/BaruukPrime",
 	},
 	{
-	  name: "Cobra & Crane Prime",
-	  acquisition: RELICS,
-	  id: "/Lotus/Weapons/Tenno/Melee/SwordsAndBoards/PrimeCobraAndCrane/PrimeCobraAndCraneWeapon"
+		name: "Cobra & Crane Prime",
+		acquisition: RELICS,
+		id: "/Lotus/Weapons/Tenno/Melee/SwordsAndBoards/PrimeCobraAndCrane/PrimeCobraAndCraneWeapon",
+	},
+	// Citrines Last Wish update
+	{
+		name: "Citrine",
+		acquisition: MIRROR_DEFENSE,
+		id: "/Lotus/Powersuits/Geode/Geode",
+	},
+	{
+		name: "Corufell",
+		acquisition: MIRROR_DEFENSE,
+		id: "/Lotus/Weapons/Tenno/Archwing/Melee/ExaltedArchScythe/ExaltedAWScytheWeapon",
+	},
+	{
+		name: "Steflos",
+		acquisition: MIRROR_DEFENSE,
+		id: "/Lotus/Weapons/Tenno/LongGuns/TnoLotusPodShotgun/TnoLotusPodShotgun",
 	},
 ];
 
 module.exports = {
   items: items
 };
-
-      
-    

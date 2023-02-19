@@ -2308,7 +2308,7 @@ module.exports = {
     },
     {
       "category": "Shotgun",
-      "description": "Launch a glaive that ricochets off surfaces in bursts of elemental damage, then perforate enemies with primary fire’s precision buck-shot. Damage increases with each Status Effect afflicting a target. Lavos will transmute a small portion of any ammo pickup to Shotgun Ammo when wielding his signature Cedo.",
+      "description": "Launch a glaive that ricochets off surfaces in bursts of elemental damage, then perforate enemies with primary fire’s precision buck-shot. Damage increases with each Status Effect afflicting a target. Lavos will transmute a small portion of any ammo pickup to Primary Ammo when wielding his signature Cedo.",
       "imageName": "cedo.png",
       "masteryReq": 8,
       "name": "Cedo",
@@ -2549,6 +2549,24 @@ module.exports = {
       "component": false
     },
     {
+      "description": "Gaze upon the Crystal Bastion. Citrine's crystalline might supports allies on the battlefield. Combat only enhances her fractal beauty.",
+      "imageName": "citrine.png",
+      "masteryReq": 0,
+      "name": "Citrine",
+      "productCategory": "Suits",
+      "releaseDate": "2023-02-15",
+      "tradable": false,
+      "type": "Warframe",
+      "uniqueName": "/Lotus/Powersuits/Geode/Geode",
+      "wikiaUrl": "https://warframe.fandom.com/wiki/Citrine",
+      "acquisition": "Mirror Defense (Mars)",
+      "checked": false,
+      "unobtainable": false,
+      "tierData": false,
+      "tierRank": 0,
+      "component": false
+    },
+    {
       "bpCost": 20000,
       "description": "Baruuk's signature weapons: a sword for retribution, a shield for restraint. In Baruuk's hands, and his hands only, Cobra's first strike in a combo renders his foe unconscious.",
       "imageName": "cobra-&-crane.png",
@@ -2678,6 +2696,24 @@ module.exports = {
       "uniqueName": "/Lotus/Weapons/Tenno/Archwing/Primary/ThanoTechArchGun/ThanoTechArchGun",
       "wikiaUrl": "https://warframe.fandom.com/wiki/Cortege",
       "acquisition": "Loid (Nekralisk)",
+      "checked": false,
+      "unobtainable": false,
+      "tierData": false,
+      "tierRank": 0,
+      "component": false
+    },
+    {
+      "description": "Heavy attacks briefly transform the Corufell into a Gunblade. After the Gunblade fires, the Corufell returns to its Heavy Scythe state. Its transformation is fastest in Citrine’s hands.",
+      "imageName": "corufell.png",
+      "masteryReq": 8,
+      "name": "Corufell",
+      "productCategory": "Melee",
+      "releaseDate": "2023-02-15",
+      "tradable": false,
+      "type": "Archwing Melee",
+      "uniqueName": "/Lotus/Weapons/Tenno/Archwing/Melee/ExaltedArchScythe/ExaltedAWScytheWeapon",
+      "wikiaUrl": "https://warframe.fandom.com/wiki/Corufell",
+      "acquisition": "Mirror Defense (Mars)",
       "checked": false,
       "unobtainable": false,
       "tierData": false,
@@ -12244,6 +12280,26 @@ module.exports = {
       "component": false
     },
     {
+      "category": "Shotgun",
+      "description": "An energy projectile bursts forth from the Steflos and grows as it rushes toward enemies. The projectile's duration increases when it hits an enemy. When Citrine fires the Steflos, its projectile speed increases.",
+      "imageName": "steflos.png",
+      "masteryReq": 8,
+      "name": "Steflos",
+      "productCategory": "LongGuns",
+      "releaseDate": "2023-02-15",
+      "tradable": false,
+      "trigger": "Semi",
+      "type": "Primary",
+      "uniqueName": "/Lotus/Weapons/Tenno/LongGuns/TnoLotusPodShotgun/TnoLotusPodShotgun",
+      "wikiaUrl": "https://warframe.fandom.com/wiki/Steflos",
+      "acquisition": "Mirror Defense (Mars)",
+      "checked": false,
+      "unobtainable": false,
+      "tierData": false,
+      "tierRank": 0,
+      "component": false
+    },
+    {
       "category": "Companion Weapon",
       "description": "Standard issue weapon for Djinn Sentinel. Fires poisonous projectiles.",
       "imageName": "stinger.png",
@@ -15184,5 +15240,5 @@ module.exports = {
       "component": false
     }
   ],
-  "fetched": "2023.02.04 09:22:51 CET+01:00"
+  "fetched": "2023.02.17 11:22:57 CET+01:00"
 }
