@@ -162,18 +162,28 @@ module.exports = function (items) {
 
 		// Fix companion MOAs Wikia URL
 		if (name == "Lambeo Moa") {
-			items.array[i]["wikiaUrl"] ="https://warframe.fandom.com/wiki/MOA_(Companion)";
+			items.array[i]["wikiaUrl"] =
+				"https://warframe.fandom.com/wiki/MOA_(Companion)";
 		}
 		if (name == "Nychus Moa") {
-			items.array[i]["wikiaUrl"] ="https://warframe.fandom.com/wiki/MOA_(Companion)";
+			items.array[i]["wikiaUrl"] =
+				"https://warframe.fandom.com/wiki/MOA_(Companion)";
 		}
 		if (name == "Oloro Moa") {
-			items.array[i]["wikiaUrl"] ="https://warframe.fandom.com/wiki/MOA_(Companion)";
+			items.array[i]["wikiaUrl"] =
+				"https://warframe.fandom.com/wiki/MOA_(Companion)";
 		}
 		if (name == "Para Moa") {
-			items.array[i]["wikiaUrl"] ="https://warframe.fandom.com/wiki/MOA_(Companion)";
+			items.array[i]["wikiaUrl"] =
+				"https://warframe.fandom.com/wiki/MOA_(Companion)";
 		}
-		
+
+		// Fix Corufell mislabeled as Archwing Melee
+		if (name == "Corufell") {
+			items.array[i]["type"] = "Melee";
+			delete items.array[i]["category"];
+		}
+
 		// Temporary: Remove category on all melee weapons
 		if (type == "Melee") {
 			delete items.array[i]["category"];

@@ -2710,7 +2710,7 @@ module.exports = {
       "productCategory": "Melee",
       "releaseDate": "2023-02-15",
       "tradable": false,
-      "type": "Archwing Melee",
+      "type": "Melee",
       "uniqueName": "/Lotus/Weapons/Tenno/Archwing/Melee/ExaltedArchScythe/ExaltedAWScytheWeapon",
       "wikiaUrl": "https://warframe.fandom.com/wiki/Corufell",
       "acquisition": "Mirror Defense (Mars)",
@@ -15240,5 +15240,5 @@ module.exports = {
       "component": false
     }
   ],
-  "fetched": "2023.02.17 11:22:57 CET+01:00"
+  "fetched": "2023.02.21 09:13:34 CET+01:00"
 }
