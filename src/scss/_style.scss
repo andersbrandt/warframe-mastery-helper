@@ -560,6 +560,12 @@ ul#news-list {
 		text-decoration: underline;
 		cursor: pointer;
 	}
+	.mr-item-not-checked {
+		color: $wf-blue;
+	}
+	.mr-item-checked {
+		//font-weight: normal;
+	}
 }
 //
 //  Footer

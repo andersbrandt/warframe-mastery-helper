@@ -7,7 +7,7 @@
 	<p>
 		{{#each this}}
 			{{#ifCond this.productCategory "!=" "Suits"}}
-				<span class="action-toggle-info" data-item="{{this.name}}">{{this.name}}</span>{{#unless @last}} - {{/unless}}
+				<span class="action-toggle-info{{#if this.checked}} mr-item-checked{{else}} mr-item-not-checked{{/if}}" data-item="{{this.name}}">{{this.name}}</span>{{#unless @last}} - {{/unless}}
 			{{/ifCond}}
 		{{/each}}
 	</p>
