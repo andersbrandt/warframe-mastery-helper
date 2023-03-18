@@ -2000,6 +2000,26 @@ module.exports = {
       "component": false
     },
     {
+      "category": "Companion Weapon",
+      "description": "Shade Prime’s signature weapon fires laser bursts.",
+      "imageName": "burst-laser-prime.png",
+      "masteryReq": 0,
+      "name": "Burst Laser Prime",
+      "productCategory": "SentinelWeapons",
+      "releaseDate": "2023-03-15",
+      "tradable": false,
+      "trigger": "Burst",
+      "type": "Sentinel Weapon",
+      "uniqueName": "/Lotus/Types/Sentinels/SentinelWeapons/PrimeBurstLaserPistol",
+      "wikiaUrl": "https://warframe.fandom.com/wiki/Burst_Laser_Prime",
+      "acquisition": "Relics",
+      "checked": false,
+      "unobtainable": false,
+      "tierData": false,
+      "tierRank": 0,
+      "component": false
+    },
+    {
       "bpCost": 15000,
       "category": "Rifle",
       "description": "The Burston fires 3-round bursts, which provides a balance between the lethality of automatic rifles and the accuracy of semi-automatic rifles.",
@@ -5619,6 +5639,27 @@ module.exports = {
       "component": false
     },
     {
+      "description": "Hildryn Prime proves that power is discipline’s reward.",
+      "exalted": [
+        "/Lotus/Powersuits/IronFrame/BlastWeaponPrime"
+      ],
+      "imageName": "hildryn-prime.png",
+      "masteryReq": 0,
+      "name": "Hildryn Prime",
+      "productCategory": "Suits",
+      "releaseDate": "2023-02-15",
+      "tradable": false,
+      "type": "Warframe",
+      "uniqueName": "/Lotus/Powersuits/IronFrame/IronFramePrime",
+      "wikiaUrl": "https://warframe.fandom.com/wiki/Hildryn%2FPrime",
+      "acquisition": "Relics",
+      "checked": false,
+      "unobtainable": false,
+      "tierData": false,
+      "tierRank": 0,
+      "component": false
+    },
+    {
       "bpCost": 40000,
       "category": "Rifle",
       "description": "A powerful mid-range rifle used by Grineer shock troops, the Hind fires in five round bursts.",
@@ -7362,6 +7403,25 @@ module.exports = {
       "uniqueName": "/Lotus/Weapons/Tenno/Archwing/Primary/TnShieldframeArchGun/TnShieldFrameArchGun",
       "wikiaUrl": "https://warframe.fandom.com/wiki/Larkspur",
       "acquisition": "Tenno Lab (Dojo)",
+      "checked": false,
+      "unobtainable": false,
+      "tierData": false,
+      "tierRank": 0,
+      "component": false
+    },
+    {
+      "description": "Embrace pandemonium. Chainfire and explosive potential meet in Larkspur Prime. Hildryn packs more ammo when she wields this mighty weapon.",
+      "imageName": "larkspur-prime.png",
+      "masteryReq": 8,
+      "name": "Larkspur Prime",
+      "productCategory": "SpaceGuns",
+      "releaseDate": "2023-03-15",
+      "tradable": true,
+      "trigger": "Held",
+      "type": "Archwing Gun",
+      "uniqueName": "/Lotus/Weapons/Tenno/Archwing/Primary/PrimeLarkspur/PrimeLarkspurWeapon",
+      "wikiaUrl": "https://warframe.fandom.com/wiki/Larkspur_Prime",
+      "acquisition": "Relics",
       "checked": false,
       "unobtainable": false,
       "tierData": false,
@@ -11576,6 +11636,22 @@ module.exports = {
       "wikiaUrl": "http://warframe.wikia.com/wiki/Shade"
     },
     {
+      "description": "Shade Prime specializes in stealth and comes locked and loaded with the Burst Laser Prime. Together, you can dominate the shadows.",
+      "imageName": "shade-prime.png",
+      "name": "Shade Prime",
+      "productCategory": "Sentinels",
+      "tradable": true,
+      "type": "Sentinel",
+      "uniqueName": "/Lotus/Types/Sentinels/SentinelPowersuits/PrimeShadePowerSuit",
+      "acquisition": "Relics",
+      "checked": false,
+      "unobtainable": false,
+      "tierData": false,
+      "tierRank": 0,
+      "component": false,
+      "wikiaUrl": "http://warframe.wikia.com/wiki/Shade_Prime"
+    },
+    {
       "bpCost": 15000,
       "description": "With these blazing fast nunchaku, the enemy will never know what hit them.",
       "imageName": "shaku.png",
@@ -15240,5 +15316,5 @@ module.exports = {
       "component": false
     }
   ],
-  "fetched": "2023.02.21 09:13:34 CET+01:00"
+  "fetched": "2023.03.18 09:02:26 CET+01:00"
 }

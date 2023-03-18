@@ -69,9 +69,6 @@ module.exports = function (items) {
     }
 
     // Remove Prime sentinel weapons that are unreleased
-    if (items.array[i]["name"] === "Burst Laser Prime") {
-      items.array.splice(i, 1);
-    }
     if (items.array[i]["name"] === "Stinger Prime") {
       items.array.splice(i, 1);
     }

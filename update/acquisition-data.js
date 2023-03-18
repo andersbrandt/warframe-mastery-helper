@@ -1,66 +1,69 @@
 //
-//  All possible acquisitons
+//  Add new items to the end of array
+//  id are used for matching, not name
+//  name are left for sanity purpose since id (developer naming) can be confuzing
+//  Unmatched id's will have acquisition set to UNKNOWN
 //
 
 // Enemy (Boss)
-ALAD_V = 'Alad V (Boss)';
-AMBULAS = 'Ambulas (Boss)';
-DREKAR_TROOPERS = 'Drekar Troopers';
-EXIMUS_ENEMIES = 'Eximus Enemies';
-GRUSTRAG_THREE = 'The Grustrag Three';
-HEAVY_GUNNERS = 'Heavy Gunners';
-HYENA_PACK = 'Hyena Pack (Boss)';
-JACKAL = 'Jackal (Boss)';
-JORDAS_GOLEM = 'Jordas Golem (Boss)';
-KELA_DE_THAYM = 'Kela De Thaym (Boss)';
-LECH_KRILL = 'Lieutenant Lech Kril (Boss)';
-LEPHANTIS = 'Lephantis (Boss)';
-MANICS = 'Manics';
-MUTALIST_ALAD_V = 'Mutalist Alad V (Boss)';
-PHORID = 'Phorid (Boss)';
-SARGAS_RUK = 'General Sargas Ruk (Boss)';
-STALKER = 'Stalker';
-THE_RAPTORS = 'The Raptors (Boss)';
-THE_SERGEANT = 'The Sergeant (Boss)';
-TYL_REGOR = 'Tyl Regor (Boss)';
-VAY_HEK = 'Councilor Vay Hek (Boss)';
-VOR = 'Captain Vor (Boss)';
-VOR_AND_KRILL = 'Captain Vor and Lieutenant Lech Kril (Boss)';
-WOLF = 'Wolf of Saturn Six';
-ROPALOLYST = 'Ropalolyst';
-KUVA_LICH = 'Kuva Lich';
+ALAD_V = "Alad V (Boss)";
+AMBULAS = "Ambulas (Boss)";
+DREKAR_TROOPERS = "Drekar Troopers";
+EXIMUS_ENEMIES = "Eximus Enemies";
+GRUSTRAG_THREE = "The Grustrag Three";
+HEAVY_GUNNERS = "Heavy Gunners";
+HYENA_PACK = "Hyena Pack (Boss)";
+JACKAL = "Jackal (Boss)";
+JORDAS_GOLEM = "Jordas Golem (Boss)";
+KELA_DE_THAYM = "Kela De Thaym (Boss)";
+LECH_KRILL = "Lieutenant Lech Kril (Boss)";
+LEPHANTIS = "Lephantis (Boss)";
+MANICS = "Manics";
+MUTALIST_ALAD_V = "Mutalist Alad V (Boss)";
+PHORID = "Phorid (Boss)";
+SARGAS_RUK = "General Sargas Ruk (Boss)";
+STALKER = "Stalker";
+THE_RAPTORS = "The Raptors (Boss)";
+THE_SERGEANT = "The Sergeant (Boss)";
+TYL_REGOR = "Tyl Regor (Boss)";
+VAY_HEK = "Councilor Vay Hek (Boss)";
+VOR = "Captain Vor (Boss)";
+VOR_AND_KRILL = "Captain Vor and Lieutenant Lech Kril (Boss)";
+WOLF = "Wolf of Saturn Six";
+ROPALOLYST = "Ropalolyst";
+KUVA_LICH = "Kuva Lich";
 EMISSARY = "Zealoid Prelate Assassination";
 SISTERS_PARVOS = "Sisters of Parvos";
 SISTERS_PARVOS_HOUND = "Sisters of Parvos Hound";
 
 // Faction Reward
-ARBITERS_OF_HEXIS = 'Arbiters of Hexis (Maxim)';
-CEPHALON_SUDA = 'Cephalon Suda (Genius)';
-NEW_LOKA = 'New Loka (Flawless)';
-RED_VEIL = 'Red Veil (Exalted)';
-STEEL_MERIDIAN = 'Steel Meridian (General)';
-THE_PERRIN_SEQUENCE = 'The Perrin Sequence (Partner)';
-NIGHTWAVE = 'Nightwave';
+ARBITERS_OF_HEXIS = "Arbiters of Hexis (Maxim)";
+CEPHALON_SUDA = "Cephalon Suda (Genius)";
+NEW_LOKA = "New Loka (Flawless)";
+RED_VEIL = "Red Veil (Exalted)";
+STEEL_MERIDIAN = "Steel Meridian (General)";
+THE_PERRIN_SEQUENCE = "The Perrin Sequence (Partner)";
+NIGHTWAVE = "Nightwave";
 
 // Location
 BARO_KITEER = "Baro Ki'Teer (Relay)";
-CEPHALON_SIMARIS = 'Cephalon Simaris (Relay)';
-DOJO_BIO_LAB = 'Bio Lab (Dojo)';
-DOJO_CHEM_LAB = 'Chem Lab (Dojo)';
-DOJO_ENERGY_LAB = 'Energy Lab (Dojo)';
-DOJO_OROKIN_LAB = 'Orokin Lab (Dojo)';
-DOJO_TENNO_LAB = 'Tenno Lab (Dojo)';
+CEPHALON_SIMARIS = "Cephalon Simaris (Relay)";
+DOJO_BIO_LAB = "Bio Lab (Dojo)";
+DOJO_CHEM_LAB = "Chem Lab (Dojo)";
+DOJO_ENERGY_LAB = "Energy Lab (Dojo)";
+DOJO_OROKIN_LAB = "Orokin Lab (Dojo)";
+DOJO_TENNO_LAB = "Tenno Lab (Dojo)";
 HOKS_ANVIL = "Hok's Anvil (Cetus)";
-INCUBATOR_SEGMENT = 'Incubator Segment (Orbiter)';
-INCUBATOR_UPGRADE_KAVAT = 'Kavat Incubator Upgrade Segment (Orbiter)';
-MARKET = 'Market (Orbiter)';
-THE_QUILLS = 'The Quills (Cetus)';
-RUDE_ZUUD = 'Rude Zuud (Fortuna)';
-LEGS = 'Legs (Fortuna)';
-VENT_KID = 'Roky (Fortuna)';
-THE_BUSINESS = 'The Business (Fortuna)';
-LITTLE_DUCK = 'Little Duck (Fortuna)';
-ARBITRATION_HONORS = 'Arbitration Honors Vendor';
+INCUBATOR_SEGMENT = "Incubator Segment (Orbiter)";
+INCUBATOR_UPGRADE_KAVAT = "Kavat Incubator Upgrade Segment (Orbiter)";
+MARKET = "Market (Orbiter)";
+THE_QUILLS = "The Quills (Cetus)";
+RUDE_ZUUD = "Rude Zuud (Fortuna)";
+LEGS = "Legs (Fortuna)";
+VENT_KID = "Roky (Fortuna)";
+THE_BUSINESS = "The Business (Fortuna)";
+LITTLE_DUCK = "Little Duck (Fortuna)";
+ARBITRATION_HONORS = "Arbitration Honors Vendor";
 MOTHER = "Mother (Nekralisk)";
 FATHER = "Father (Nekralisk)";
 SON = "Son (Nekralisk)";
@@ -70,24 +73,24 @@ NARMER_BOUNTIES = "Narmer Bounties";
 ZARIMAN_BOUNTIES = "Zariman Bounties";
 CAVALERO = "Cavalero (Zariman)";
 KAHLS = "Kahl's Bounties";
-CONJUNCTION =  "Conjunction Survival (Lua)";
+CONJUNCTION = "Conjunction Survival (Lua)";
 MIRROR_DEFENSE = "Mirror Defense (Mars)";
 
 // Quests
-CHAINS_OF_HARROW = 'Chains of Harrow (Quest)';
-HIDDEN_MESSAGES = 'Hidden Messages (Quest)';
+CHAINS_OF_HARROW = "Chains of Harrow (Quest)";
+HIDDEN_MESSAGES = "Hidden Messages (Quest)";
 OCTAVIAS_ANTHEM = "Octavia's Anthem (Quest)";
-SANDS_OF_INAROS = 'Sands of Inaros (Quest)';
+SANDS_OF_INAROS = "Sands of Inaros (Quest)";
 SAYAS_VIGIL = "Saya's Vigil (Quest)";
-THE_ARCHWING = 'The Archwing (Quest)';
-THE_GLAST_GAMBIT = 'The Glast Gambit (Quest)';
-THE_LIMBO_THEOREM = 'The Limbo Theorem (Quest)';
-THE_NEW_STRANGE = 'The New Strange (Quest)';
-THE_SACRIFICE = 'The Sacrifice (Quest)';
-THE_SECOND_DREAM = 'The Second Dream (Quest)';
-THE_SILVER_GROVE = 'The Silver Grove (Quest)';
-THE_WAR_WITHIN = 'The War Within (Quest)';
-MASK_OF_THE_LOST_ONE = 'Mask of the Lost One (Quest)';
+THE_ARCHWING = "The Archwing (Quest)";
+THE_GLAST_GAMBIT = "The Glast Gambit (Quest)";
+THE_LIMBO_THEOREM = "The Limbo Theorem (Quest)";
+THE_NEW_STRANGE = "The New Strange (Quest)";
+THE_SACRIFICE = "The Sacrifice (Quest)";
+THE_SECOND_DREAM = "The Second Dream (Quest)";
+THE_SILVER_GROVE = "The Silver Grove (Quest)";
+THE_WAR_WITHIN = "The War Within (Quest)";
+MASK_OF_THE_LOST_ONE = "Mask of the Lost One (Quest)";
 THE_PYRYS_PROJECT = "The Pyrys Project (Quest)";
 CHIMERA_PROLOGUE = "Chimera Prologue (Quest)";
 VOX_SOLARIS = "Vox Solaris (Quest)";
@@ -96,33 +99,33 @@ DEADLOCK_PROTOCOL = "Deadlock Protocol (Quest)";
 HEART_OF_DEIMOS = "Hearth of Deimos (Quest)";
 TEMPESTARII = "Call of the Tempestarii (Quest)";
 WAVERIDER = "Waverider (Quest)";
-THE_NEW_WAR = "The New War (Quest)"
+THE_NEW_WAR = "The New War (Quest)";
 
 // Rewards
-ANNIVERSARY = 'Anniversary';
-CETUS_BOUNTY_GHOUL = 'Cetus Bounty (Ghoul)';
-CETUS_BOUNTY_40_60 = 'Cetus Bounty (Levels 40 - 60)';
-FOMORIAN_SABOTAGE = 'Fomorian Sabotage';
-INVASIONS = 'Invasions';
-LOGIN_REWARD = 'Login Reward';
-OPERATION_PLAGUE_STAR = 'Operation: Plague Star (Cetus)';
-RAZORBACK_ARMADA = 'Razorback Armada';
-RELICS = 'Relics';
-SANCTUARY_ONSLAUGHT = 'Sanctuary Onslaught';
-SPY_MISSIONS = 'Spy Missions';
-HOSTILE_MERGERS = "Operation: Hostile Mergers",
+ANNIVERSARY = "Anniversary";
+CETUS_BOUNTY_GHOUL = "Cetus Bounty (Ghoul)";
+CETUS_BOUNTY_40_60 = "Cetus Bounty (Levels 40 - 60)";
+FOMORIAN_SABOTAGE = "Fomorian Sabotage";
+INVASIONS = "Invasions";
+LOGIN_REWARD = "Login Reward";
+OPERATION_PLAGUE_STAR = "Operation: Plague Star (Cetus)";
+RAZORBACK_ARMADA = "Razorback Armada";
+RELICS = "Relics";
+SANCTUARY_ONSLAUGHT = "Sanctuary Onslaught";
+SPY_MISSIONS = "Spy Missions";
+HOSTILE_MERGERS = "Operation: Hostile Mergers";
 DISRUPTION = "Disruption";
-EMPYREAN = 'Empyrean';
+EMPYREAN = "Empyrean";
 SCARLET_SPEAR = "Operation: Scarlet Spear";
 GLASSMAKER = "Nightware: Glassmaker";
 ORPHIX_VENOM = "Operation: Orphix Venom";
 
 // Misc
-SENTINEL = 'Comes with Companion';
-UNOBTAINABLE = 'Unobtainable (Founders)';
-CHINESE_VERSION = 'Chinese version only';
-TUSK_THUMPER = 'Tusk Thumper (Plains of Eidolon)'
-SYMBILYSTS = 'Symbilyst (Railjack Anomaly)';
+SENTINEL = "Comes with Companion";
+UNOBTAINABLE = "Unobtainable (Founders)";
+CHINESE_VERSION = "Chinese version only";
+TUSK_THUMPER = "Tusk Thumper (Plains of Eidolon)";
+SYMBILYSTS = "Symbilyst (Railjack Anomaly)";
 UNKNOWN = "Acquisition: Unknown";
 GRANUM_VOID = "Granum Void";
 VEIL_PROXIMA = "Veil Proxima Caches";
@@ -135,12 +138,6 @@ RAILJACK_CORPUS = "Railjack (Corpus)";
 VOID_STORM = "Void Storm (Railjack)";
 HOLOKEYS = "Holokeys (Void Storm)";
 
-//
-//  Add new items to the end of array
-//  id are used for matching, not name
-//  name are left for sanity purpose since id (developer name) can be confuzing
-//  Unmatched id's will have acquisition set to UNKNOWN
-//
 var items = [
 	{
 		name: "Granmu Prism",
@@ -3732,8 +3729,29 @@ var items = [
 		acquisition: MIRROR_DEFENSE,
 		id: "/Lotus/Weapons/Tenno/LongGuns/TnoLotusPodShotgun/TnoLotusPodShotgun",
 	},
+	/// Hildryn Prime Update
+	{
+		name: "Hildryn Prime",
+		acquisition: RELICS,
+		id: "/Lotus/Powersuits/IronFrame/IronFramePrime",
+	},
+	{
+		name: "Larkspur Prime",
+		acquisition: RELICS,
+		id: "/Lotus/Weapons/Tenno/Archwing/Primary/PrimeLarkspur/PrimeLarkspurWeapon",
+	},
+	{
+		name: "Shade Prime",
+		acquisition: RELICS,
+		id: "/Lotus/Types/Sentinels/SentinelPowersuits/PrimeShadePowerSuit",
+	},
+	{
+		name: "Burst Laser Prime",
+		acquisition: RELICS,
+		id: "/Lotus/Types/Sentinels/SentinelWeapons/PrimeBurstLaserPistol",
+	},
 ];
 
 module.exports = {
-  items: items
+	items: items,
 };
