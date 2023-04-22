@@ -5647,7 +5647,7 @@ module.exports = {
       "masteryReq": 0,
       "name": "Hildryn Prime",
       "productCategory": "Suits",
-      "releaseDate": "2023-02-15",
+      "releaseDate": "2023-03-15",
       "tradable": false,
       "type": "Warframe",
       "uniqueName": "/Lotus/Powersuits/IronFrame/IronFramePrime",
@@ -11358,7 +11358,7 @@ module.exports = {
       "component": false
     },
     {
-      "bpCost": 15000,
+      "bpCost": 50000,
       "description": "The Scoliac Whip is a nasty parasitic growth of sinew and bone that can inflict heart stopping <DT_POISON>Toxin Damage with attacks.",
       "imageName": "scoliac.png",
       "masteryReq": 6,
@@ -14108,7 +14108,7 @@ module.exports = {
       "type": "Melee",
       "uniqueName": "/Lotus/Weapons/Grineer/Melee/GunBlade/GrnGunBlade/GrnGunblade",
       "wikiaUrl": "https://warframe.fandom.com/wiki/Vastilok",
-      "acquisition": "Tennocon 2021 Twitch Reward",
+      "acquisition": "Baro Ki'Teer (Relay)",
       "checked": false,
       "unobtainable": false,
       "tierData": true,
@@ -14514,7 +14514,7 @@ module.exports = {
       "type": "Melee",
       "uniqueName": "/Lotus/Weapons/Tenno/Melee/Warfan/TnMoonWarfan/MoonWarfanWeapon",
       "wikiaUrl": "https://warframe.fandom.com/wiki/Vericres",
-      "acquisition": "Tennocon 2022 Twitch Reward",
+      "acquisition": "Baro Ki'Teer (Relay)",
       "checked": false,
       "unobtainable": false,
       "tierData": false,
@@ -15278,7 +15278,7 @@ module.exports = {
       "type": "Secondary",
       "uniqueName": "/Lotus/Weapons/Tenno/Pistols/ConclaveLeverPistol/ConclaveLeverPistol",
       "wikiaUrl": "https://warframe.fandom.com/wiki/Zylok",
-      "acquisition": "The Pyrys Project (Quest)",
+      "acquisition": "Baro Ki'Teer (Relay)",
       "checked": false,
       "unobtainable": false,
       "tierData": true,
@@ -15316,5 +15316,5 @@ module.exports = {
       "component": false
     }
   ],
-  "fetched": "2023.03.18 09:02:26 CET+01:00"
+  "fetched": "2023.04.22 09:56:54 CET+02:00"
 }

@@ -2456,7 +2456,7 @@ var items = [
 	},
 	{
 		name: "Zylok",
-		acquisition: THE_PYRYS_PROJECT,
+		acquisition: BARO_KITEER,
 		id: "/Lotus/Weapons/Tenno/Pistols/ConclaveLeverPistol/ConclaveLeverPistol",
 	},
 	{
@@ -3462,7 +3462,7 @@ var items = [
 	// Tennocon 2021
 	{
 		name: "Vastilok",
-		acquisition: TENNOCON_2021,
+		acquisition: BARO_KITEER,
 		id: "/Lotus/Weapons/Grineer/Melee/GunBlade/GrnGunBlade/GrnGunblade",
 	},
 	//
@@ -3613,7 +3613,7 @@ var items = [
 	},
 	{
 		name: "Vericres",
-		acquisition: TENNOCON_2022,
+		acquisition: BARO_KITEER,
 		id: "/Lotus/Weapons/Tenno/Melee/Warfan/TnMoonWarfan/MoonWarfanWeapon",
 	},
 	// Kora Prime Update
