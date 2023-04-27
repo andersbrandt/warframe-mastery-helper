@@ -75,6 +75,8 @@ CAVALERO = "Cavalero (Zariman)";
 KAHLS = "Kahl's Bounties";
 CONJUNCTION = "Conjunction Survival (Lua)";
 MIRROR_DEFENSE = "Mirror Defense (Mars)";
+DUVIRI_TESHIN = "Duviri (Teshin's cave)";
+DUVIRI = "Duviri (Enigma Puzzles)";
 
 // Quests
 CHAINS_OF_HARROW = "Chains of Harrow (Quest)";
@@ -100,6 +102,7 @@ HEART_OF_DEIMOS = "Hearth of Deimos (Quest)";
 TEMPESTARII = "Call of the Tempestarii (Quest)";
 WAVERIDER = "Waverider (Quest)";
 THE_NEW_WAR = "The New War (Quest)";
+DUVIRI_QUEST = "The Duviri Paradox (Quest)";
 
 // Rewards
 ANNIVERSARY = "Anniversary";
@@ -3750,8 +3753,42 @@ var items = [
 		acquisition: RELICS,
 		id: "/Lotus/Types/Sentinels/SentinelWeapons/PrimeBurstLaserPistol",
 	},
+	// Duviri Update
+	{
+		name: "Azothane",
+		acquisition: DUVIRI_TESHIN,
+		id: "/Lotus/Weapons/Tenno/Melee/Swords/DaxDuviriTwoHandedKatana/DaxDuviriTwoHandedKatanaWeapon",
+	},
+	{
+		name: "Cinta",
+		acquisition: DUVIRI,
+		id: "/Lotus/Weapons/Tenno/Bows/DaxDuviriAsymetricalBow/DaxDuviriAsymmetricalLongBowPlayerWeapon",
+	},
+	{
+		name: "Edun",
+		acquisition: DUVIRI_TESHIN,
+		id: "/Lotus/Weapons/Tenno/Melee/Polearms/DaxDuviriPolearm/DaxDuviriPolearmWeapon",
+	},
+	{
+		name: "Sampotes",
+		acquisition: DUVIRI_TESHIN,
+		id: "/Lotus/Weapons/Tenno/Melee/Hammer/DaxDuviriHammer/DaxDuviriHammerWeapon",
+	},
+	{
+		name: "Sun & Moon",
+		acquisition: DUVIRI_QUEST,
+		id: "/Lotus/Types/Friendly/PlayerControllable/Weapons/DuviriDualSwordsWeapon",
+	},
+	{
+		name: "Syam",
+		acquisition: DUVIRI_TESHIN,
+		id: "/Lotus/Weapons/Tenno/Melee/Swords/DaxDuviriKatana/DaxDuviriKatanaWeapon",
+	},
 ];
 
 module.exports = {
 	items: items,
 };
+
+
+      

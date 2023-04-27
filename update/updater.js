@@ -199,6 +199,7 @@ class Updater {
           delete json[i]["drops"];
           delete json[i]["attacks"];
           delete json[i]["isPrime"];
+          delete json[i]["masterable"];
           let newType = json[i]["category"];
           json[i]["category"] = json[i]["type"];
           json[i]["type"] = newType;
