@@ -1037,7 +1037,7 @@ module.exports = {
       "type": "Warframe",
       "uniqueName": "/Lotus/Powersuits/Ninja/Ninja",
       "wikiaUrl": "https://warframe.fandom.com/wiki/Ash",
-      "acquisition": "Manics",
+      "acquisition": "Railjack (Corpus)",
       "checked": false,
       "unobtainable": false,
       "tierData": false,
@@ -1280,16 +1280,17 @@ module.exports = {
       "masteryReq": 0,
       "name": "Azothane",
       "productCategory": "Melee",
+      "releaseDate": "2023-04-26",
       "tradable": false,
       "type": "Melee",
       "uniqueName": "/Lotus/Weapons/Tenno/Melee/Swords/DaxDuviriTwoHandedKatana/DaxDuviriTwoHandedKatanaWeapon",
+      "wikiaUrl": "https://warframe.fandom.com/wiki/Azothane",
       "acquisition": "Duviri (Teshin's cave)",
       "checked": false,
       "unobtainable": false,
       "tierData": false,
       "tierRank": 0,
-      "component": false,
-      "wikiaUrl": "http://warframe.wikia.com/wiki/Azothane"
+      "component": false
     },
     {
       "category": "K-Drive",
@@ -2592,17 +2593,18 @@ module.exports = {
       "masteryReq": 6,
       "name": "Cinta",
       "productCategory": "LongGuns",
+      "releaseDate": "2023-04-26",
       "tradable": false,
       "trigger": "Charge",
       "type": "Primary",
       "uniqueName": "/Lotus/Weapons/Tenno/Bows/DaxDuviriAsymetricalBow/DaxDuviriAsymmetricalLongBowPlayerWeapon",
+      "wikiaUrl": "https://warframe.fandom.com/wiki/Cinta",
       "acquisition": "Duviri (Enigma Puzzles)",
       "checked": false,
       "unobtainable": false,
       "tierData": false,
       "tierRank": 0,
-      "component": false,
-      "wikiaUrl": "http://warframe.wikia.com/wiki/Cinta"
+      "component": false
     },
     {
       "description": "Gaze upon the Crystal Bastion. Citrine's crystalline might supports allies on the battlefield. Combat only enhances her fractal beauty.",
@@ -3903,16 +3905,17 @@ module.exports = {
       "masteryReq": 0,
       "name": "Edun",
       "productCategory": "Melee",
+      "releaseDate": "2023-04-26",
       "tradable": false,
       "type": "Melee",
       "uniqueName": "/Lotus/Weapons/Tenno/Melee/Polearms/DaxDuviriPolearm/DaxDuviriPolearmWeapon",
+      "wikiaUrl": "https://warframe.fandom.com/wiki/Edun",
       "acquisition": "Duviri (Teshin's cave)",
       "checked": false,
       "unobtainable": false,
       "tierData": false,
       "tierRank": 0,
-      "component": false,
-      "wikiaUrl": "http://warframe.wikia.com/wiki/Edun"
+      "component": false
     },
     {
       "category": "Archwing",
@@ -11214,16 +11217,17 @@ module.exports = {
       "masteryReq": 0,
       "name": "Sampotes",
       "productCategory": "Melee",
+      "releaseDate": "2023-04-26",
       "tradable": false,
       "type": "Melee",
       "uniqueName": "/Lotus/Weapons/Tenno/Melee/Hammer/DaxDuviriHammer/DaxDuviriHammerWeapon",
+      "wikiaUrl": "https://warframe.fandom.com/wiki/Sampotes",
       "acquisition": "Duviri (Teshin's cave)",
       "checked": false,
       "unobtainable": false,
       "tierData": false,
       "tierRank": 0,
-      "component": false,
-      "wikiaUrl": "http://warframe.wikia.com/wiki/Sampotes"
+      "component": false
     },
     {
       "category": "Pistol",
@@ -12682,16 +12686,17 @@ module.exports = {
       "masteryReq": 0,
       "name": "Sun & Moon",
       "productCategory": "Melee",
+      "releaseDate": "2023-04-26",
       "tradable": false,
       "type": "Melee",
       "uniqueName": "/Lotus/Types/Friendly/PlayerControllable/Weapons/DuviriDualSwordsWeapon",
+      "wikiaUrl": "https://warframe.fandom.com/wiki/Sun_%26_Moon",
       "acquisition": "The Duviri Paradox (Quest)",
       "checked": false,
       "unobtainable": false,
       "tierData": false,
       "tierRank": 0,
-      "component": false,
-      "wikiaUrl": "http://warframe.wikia.com/wiki/Sun_&_Moon"
+      "component": false
     },
     {
       "category": "Kubrow",
@@ -12802,16 +12807,17 @@ module.exports = {
       "masteryReq": 0,
       "name": "Syam",
       "productCategory": "Melee",
+      "releaseDate": "2023-04-26",
       "tradable": false,
       "type": "Melee",
       "uniqueName": "/Lotus/Weapons/Tenno/Melee/Swords/DaxDuviriKatana/DaxDuviriKatanaWeapon",
+      "wikiaUrl": "https://warframe.fandom.com/wiki/Syam",
       "acquisition": "Duviri (Teshin's cave)",
       "checked": false,
       "unobtainable": false,
       "tierData": false,
       "tierRank": 0,
-      "component": false,
-      "wikiaUrl": "http://warframe.wikia.com/wiki/Syam"
+      "component": false
     },
     {
       "bpCost": 15000,
@@ -15420,5 +15426,5 @@ module.exports = {
       "component": false
     }
   ],
-  "fetched": "2023.04.27 11:57:33 CET+02:00"
+  "fetched": "2023.05.10 01:21:05 CET+02:00"
 }

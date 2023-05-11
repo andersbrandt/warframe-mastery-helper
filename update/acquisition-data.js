@@ -439,7 +439,7 @@ var items = [
 	},
 	{
 		name: "Ash",
-		acquisition: MANICS,
+		acquisition: RAILJACK_CORPUS,
 		id: "/Lotus/Powersuits/Ninja/Ninja",
 	},
 	{
