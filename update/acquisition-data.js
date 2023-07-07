@@ -77,6 +77,7 @@ CONJUNCTION = "Conjunction Survival (Lua)";
 MIRROR_DEFENSE = "Mirror Defense (Mars)";
 DUVIRI_TESHIN = "Duviri (Teshin's cave)";
 DUVIRI = "Duviri (Enigma Puzzles)";
+ACHRITIS = "Achritis";
 
 // Quests
 CHAINS_OF_HARROW = "Chains of Harrow (Quest)";
@@ -3784,6 +3785,22 @@ var items = [
 		acquisition: DUVIRI_TESHIN,
 		id: "/Lotus/Weapons/Tenno/Melee/Swords/DaxDuviriKatana/DaxDuviriKatanaWeapon",
 	},
+	// Kullervo Update
+	{
+		name: "Kullervo",
+		acquisition: ACHRITIS,
+		id: "/Lotus/Powersuits/PaxDuviricus/PaxDuviricus",
+	},
+	{
+		name: "Prisma Lenz",
+		acquisition: BARO_KITEER,
+		id: "/Lotus/Weapons/Corpus/Bow/Longbow/PrismaLenz/PrismaLenzWeapon",
+	},
+	{
+		name: "Rauta",
+		acquisition: ACHRITIS,
+		id: "/Lotus/Weapons/Tenno/LongGuns/PaxDuviricusShotgun/PaxDuviricusShotgun",
+	},
 ];
 
 module.exports = {
@@ -3792,3 +3809,4 @@ module.exports = {
 
 
       
+     

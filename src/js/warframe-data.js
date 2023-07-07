@@ -6839,6 +6839,24 @@ module.exports = {
       "component": false
     },
     {
+      "description": "Kullervo answers for his sins and the sins of others. His daggers and melee prowess deal high damage. Seize the power of treachery to slake his thirst for revenge.",
+      "imageName": "kullervo.png",
+      "masteryReq": 0,
+      "name": "Kullervo",
+      "productCategory": "Suits",
+      "releaseDate": "2023-06-21",
+      "tradable": false,
+      "type": "Warframe",
+      "uniqueName": "/Lotus/Powersuits/PaxDuviricus/PaxDuviricus",
+      "wikiaUrl": "https://warframe.fandom.com/wiki/Kullervo",
+      "acquisition": "Achritis",
+      "checked": false,
+      "unobtainable": false,
+      "tierData": false,
+      "tierRank": 0,
+      "component": false
+    },
+    {
       "bpCost": 40000,
       "category": "Pistol",
       "description": "Rain hell on the enemy with this handheld cluster-rocket launcher.",
@@ -10275,6 +10293,26 @@ module.exports = {
       "component": false
     },
     {
+      "category": "Rifle",
+      "description": "The explosive potential of the Lenz, enhanced with Prisma crystals.",
+      "imageName": "prisma-lenz.png",
+      "masteryReq": 12,
+      "name": "Prisma Lenz",
+      "productCategory": "LongGuns",
+      "releaseDate": "2023-05-12",
+      "tradable": true,
+      "trigger": "Charge",
+      "type": "Primary",
+      "uniqueName": "/Lotus/Weapons/Corpus/Bow/Longbow/PrismaLenz/PrismaLenzWeapon",
+      "wikiaUrl": "https://warframe.fandom.com/wiki/Prisma_Lenz",
+      "acquisition": "Baro Ki'Teer (Relay)",
+      "checked": false,
+      "unobtainable": false,
+      "tierData": false,
+      "tierRank": 0,
+      "component": false
+    },
+    {
       "description": "The addition of Prisma Crystal allows this otherwise barbaric weapon to elegantly hack through any foe.",
       "imageName": "prisma-machete.png",
       "masteryReq": 7,
@@ -10939,6 +10977,26 @@ module.exports = {
       "tierRank": 0,
       "component": false,
       "wikiaUrl": "http://warframe.wikia.com/wiki/Rattleguts"
+    },
+    {
+      "category": "Shotgun",
+      "description": "Kullervo's signature weapon boasts melee synergy. Every shot that lands increases the wielder's Melee Combo count. When Kullervo wields Rauta, it also increases his Melee Combo duration.",
+      "imageName": "rauta.png",
+      "masteryReq": 8,
+      "name": "Rauta",
+      "productCategory": "LongGuns",
+      "releaseDate": "2023-06-21",
+      "tradable": false,
+      "trigger": "Semi",
+      "type": "Primary",
+      "uniqueName": "/Lotus/Weapons/Tenno/LongGuns/PaxDuviricusShotgun/PaxDuviricusShotgun",
+      "wikiaUrl": "https://warframe.fandom.com/wiki/Rauta",
+      "acquisition": "Achritis",
+      "checked": false,
+      "unobtainable": false,
+      "tierData": false,
+      "tierRank": 0,
+      "component": false
     },
     {
       "description": "Reaper Prime is an ornamental scythe, with a blade forged from tempered Rubedo.",
@@ -15426,5 +15484,5 @@ module.exports = {
       "component": false
     }
   ],
-  "fetched": "2023.05.10 01:21:05 CET+02:00"
+  "fetched": "2023.06.22 09:49:59 CET+02:00"
 }
