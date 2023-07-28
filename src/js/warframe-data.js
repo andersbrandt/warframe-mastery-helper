@@ -955,6 +955,23 @@ module.exports = {
       "component": false
     },
     {
+      "description": "Argo & Vel bolster the warrior who stands fast. Its Heavy Attack sends forth a glaive that ricochets off enemies.",
+      "imageName": "argo-&-vel.png",
+      "masteryReq": 0,
+      "name": "Argo & Vel",
+      "productCategory": "Melee",
+      "tradable": false,
+      "type": "Melee",
+      "uniqueName": "/Lotus/Weapons/Tenno/Melee/SwordsAndBoards/DaxDuviriMaceShieldWeapon",
+      "acquisition": "Duviri (Teshin's cave)",
+      "checked": false,
+      "unobtainable": false,
+      "tierData": false,
+      "tierRank": 0,
+      "component": false,
+      "wikiaUrl": "http://warframe.wikia.com/wiki/Argo_&_Vel"
+    },
+    {
       "bpCost": 15000,
       "category": "Rifle",
       "description": "Pick off targets by highlighting distant enemies using this Grineer rifle's advanced laser sighting system. Deadly in both single fire and automatic modes.",
@@ -4569,6 +4586,25 @@ module.exports = {
       "component": false
     },
     {
+      "category": "Rifle",
+      "description": "Wield a storm. Fulmin Prime's electric rounds switch between lightning beams and short-range bursts. Wisp quickly swaps between each mode with her elemental prowess.",
+      "imageName": "fulmin-prime.png",
+      "masteryReq": 12,
+      "name": "Fulmin Prime",
+      "productCategory": "LongGuns",
+      "tradable": false,
+      "trigger": "Semi",
+      "type": "Primary",
+      "uniqueName": "/Lotus/Weapons/Tenno/LongGuns/PrimeFulmin/PrimeFulmin",
+      "acquisition": "Relics",
+      "checked": false,
+      "unobtainable": false,
+      "tierData": false,
+      "tierRank": 0,
+      "component": false,
+      "wikiaUrl": "http://warframe.wikia.com/wiki/Fulmin_Prime"
+    },
+    {
       "bpCost": 15000,
       "description": "These power gauntlets lack the range of most Melee Weapons, but Furax is far more devastating when you strike an enemy in close combat.",
       "imageName": "furax.png",
@@ -5255,6 +5291,23 @@ module.exports = {
       "buildLinkDomain": "overframe.gg",
       "combo": "Scathing Plume",
       "component": false
+    },
+    {
+      "description": "Command the beauty and lethality of these ornate warfans.",
+      "imageName": "gunsen-prime.png",
+      "masteryReq": 12,
+      "name": "Gunsen Prime",
+      "productCategory": "Melee",
+      "tradable": false,
+      "type": "Melee",
+      "uniqueName": "/Lotus/Weapons/Tenno/Melee/Warfan/PrimeGunsen/PrimeGunsenWeapon",
+      "acquisition": "Relics",
+      "checked": false,
+      "unobtainable": false,
+      "tierData": false,
+      "tierRank": 0,
+      "component": false,
+      "wikiaUrl": "http://warframe.wikia.com/wiki/Gunsen_Prime"
     },
     {
       "description": "Annihilate enemies with the conductivity of coils and transmitters. Gyre’s electric attacks provide crowd control. She is the embodiment of elegant theory.",
@@ -14527,7 +14580,7 @@ module.exports = {
       "bpCost": 15000,
       "description": "When fully charged, the magnetized barrel of the Velocitus accelerates a metal slug to tremendous speeds, piercing hulls and obliterating armor.",
       "imageName": "velocitus.png",
-      "masteryReq": 4,
+      "masteryReq": 0,
       "name": "Velocitus",
       "productCategory": "SpaceGuns",
       "releaseDate": "2014-11-13",
@@ -15062,6 +15115,24 @@ module.exports = {
       "component": false
     },
     {
+      "description": "Wisp Prime’s gilded splendor haunts the battlefield. Allies welcome her interdimensional beauty.",
+      "imageName": "wisp-prime.png",
+      "masteryReq": 0,
+      "name": "Wisp Prime",
+      "productCategory": "Suits",
+      "releaseDate": "2023-07-27",
+      "tradable": false,
+      "type": "Warframe",
+      "uniqueName": "/Lotus/Powersuits/Wisp/WispPrime",
+      "wikiaUrl": "https://warframe.fandom.com/wiki/Wisp%2FPrime",
+      "acquisition": "Relics",
+      "checked": false,
+      "unobtainable": false,
+      "tierData": false,
+      "tierRank": 0,
+      "component": false
+    },
+    {
       "description": "The signature weapon of the only lunatic fearsome enough to bust out of the Saturn Six Max-Pen. Once loosed this formidable throwing hammer always finds its way home.",
       "imageName": "wolf-sledge.png",
       "masteryReq": 7,
@@ -15484,5 +15555,5 @@ module.exports = {
       "component": false
     }
   ],
-  "fetched": "2023.06.22 09:49:59 CET+02:00"
+  "fetched": "2023.07.28 10:15:33 CET+02:00"
 }

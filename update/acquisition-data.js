@@ -3801,12 +3801,31 @@ var items = [
 		acquisition: ACHRITIS,
 		id: "/Lotus/Weapons/Tenno/LongGuns/PaxDuviricusShotgun/PaxDuviricusShotgun",
 	},
+	// Echoes of Duviri Update
+	{
+		name: "Fulmin Prime",
+		acquisition: RELICS,
+		id: "/Lotus/Weapons/Tenno/LongGuns/PrimeFulmin/PrimeFulmin",
+	},
+
+	{
+		name: "Gunsen Prime",
+		acquisition: RELICS,
+		id: "/Lotus/Weapons/Tenno/Melee/Warfan/PrimeGunsen/PrimeGunsenWeapon",
+	},
+
+	{
+		name: "Wisp Prime",
+		acquisition: RELICS,
+		id: "/Lotus/Powersuits/Wisp/WispPrime",
+	},
+	{
+		name: "Argo & Vel",
+		acquisition: DUVIRI_TESHIN,
+		id: "/Lotus/Weapons/Tenno/Melee/SwordsAndBoards/DaxDuviriMaceShieldWeapon",
+	},
 ];
 
 module.exports = {
 	items: items,
 };
-
-
-      
-     
