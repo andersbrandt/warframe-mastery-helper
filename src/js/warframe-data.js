@@ -960,16 +960,17 @@ module.exports = {
       "masteryReq": 0,
       "name": "Argo & Vel",
       "productCategory": "Melee",
+      "releaseDate": "2023-07-27",
       "tradable": false,
       "type": "Melee",
       "uniqueName": "/Lotus/Weapons/Tenno/Melee/SwordsAndBoards/DaxDuviriMaceShieldWeapon",
+      "wikiaUrl": "https://warframe.fandom.com/wiki/Argo_%26_Vel",
       "acquisition": "Duviri (Teshin's cave)",
       "checked": false,
       "unobtainable": false,
       "tierData": false,
       "tierRank": 0,
-      "component": false,
-      "wikiaUrl": "http://warframe.wikia.com/wiki/Argo_&_Vel"
+      "component": false
     },
     {
       "bpCost": 15000,
@@ -4592,17 +4593,18 @@ module.exports = {
       "masteryReq": 12,
       "name": "Fulmin Prime",
       "productCategory": "LongGuns",
+      "releaseDate": "2023-07-27",
       "tradable": false,
       "trigger": "Semi",
       "type": "Primary",
       "uniqueName": "/Lotus/Weapons/Tenno/LongGuns/PrimeFulmin/PrimeFulmin",
+      "wikiaUrl": "https://warframe.fandom.com/wiki/Fulmin_Prime",
       "acquisition": "Relics",
       "checked": false,
       "unobtainable": false,
       "tierData": false,
       "tierRank": 0,
-      "component": false,
-      "wikiaUrl": "http://warframe.wikia.com/wiki/Fulmin_Prime"
+      "component": false
     },
     {
       "bpCost": 15000,
@@ -5079,6 +5081,26 @@ module.exports = {
       "component": false
     },
     {
+      "category": "Rifle",
+      "description": "Long before clone-rot set in, elite Grineer Commanders protected the surviving Orokin from rebelling Warframes with these formidable rifles. When Gotva Prime inflicts a Status Effect its next shot has a chance to be a Super Critical hit.",
+      "imageName": "gotva-prime.png",
+      "masteryReq": 14,
+      "name": "Gotva Prime",
+      "productCategory": "LongGuns",
+      "releaseDate": "2019-12-17",
+      "tradable": false,
+      "trigger": "Auto",
+      "type": "Primary",
+      "uniqueName": "/Lotus/Weapons/Grineer/LongGuns/GrnOrokinRifle/GrnOrokinRifleWeapon",
+      "wikiaUrl": "https://warframe.fandom.com/wiki/Gotva_Prime",
+      "acquisition": "Baro Ki'Teer (Relay)",
+      "checked": false,
+      "unobtainable": false,
+      "tierData": false,
+      "tierRank": 0,
+      "component": false
+    },
+    {
       "bpCost": 15000,
       "category": "Rifle",
       "description": "Equipped with a huge Magazine and impressive Fire Rate, the Grakata is the preferred weapon of Grineer Lancers.",
@@ -5298,16 +5320,17 @@ module.exports = {
       "masteryReq": 12,
       "name": "Gunsen Prime",
       "productCategory": "Melee",
+      "releaseDate": "2023-07-27",
       "tradable": false,
       "type": "Melee",
       "uniqueName": "/Lotus/Weapons/Tenno/Melee/Warfan/PrimeGunsen/PrimeGunsenWeapon",
+      "wikiaUrl": "https://warframe.fandom.com/wiki/Gunsen_Prime",
       "acquisition": "Relics",
       "checked": false,
       "unobtainable": false,
       "tierData": false,
       "tierRank": 0,
-      "component": false,
-      "wikiaUrl": "http://warframe.wikia.com/wiki/Gunsen_Prime"
+      "component": false
     },
     {
       "description": "Annihilate enemies with the conductivity of coils and transmitters. Gyre’s electric attacks provide crowd control. She is the embodiment of elegant theory.",
@@ -10406,6 +10429,24 @@ module.exports = {
       "buildLink": "https://overframe.gg/build/28734/",
       "buildLinkDomain": "overframe.gg",
       "combo": "Inferno",
+      "component": false
+    },
+    {
+      "description": "Prisma crystals glisten in these electrified tonfas.",
+      "imageName": "prisma-ohma.png",
+      "masteryReq": 12,
+      "name": "Prisma Ohma",
+      "productCategory": "Melee",
+      "releaseDate": "2023-08-03",
+      "tradable": true,
+      "type": "Melee",
+      "uniqueName": "/Lotus/Weapons/Corpus/Melee/CrpTonfa/CrpPrismaTonfa",
+      "wikiaUrl": "https://warframe.fandom.com/wiki/Prisma_Ohma",
+      "acquisition": "Baro Ki'Teer (Relay)",
+      "checked": false,
+      "unobtainable": false,
+      "tierData": false,
+      "tierRank": 0,
       "component": false
     },
     {
@@ -15555,5 +15596,5 @@ module.exports = {
       "component": false
     }
   ],
-  "fetched": "2023.07.28 10:15:33 CET+02:00"
+  "fetched": "2023.09.09 08:31:10 CET+02:00"
 }

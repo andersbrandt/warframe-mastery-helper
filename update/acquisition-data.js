@@ -3824,6 +3824,17 @@ var items = [
 		acquisition: DUVIRI_TESHIN,
 		id: "/Lotus/Weapons/Tenno/Melee/SwordsAndBoards/DaxDuviriMaceShieldWeapon",
 	},
+	// Tennocon 2023
+	{
+		name: "Prisma Ohma",
+		acquisition: BARO_KITEER,
+		id: "/Lotus/Weapons/Corpus/Melee/CrpTonfa/CrpPrismaTonfa",
+	},
+	{
+		name: "Gotva Prime",
+		acquisition: BARO_KITEER,
+		id: "/Lotus/Weapons/Grineer/LongGuns/GrnOrokinRifle/GrnOrokinRifleWeapon",
+	},
 ];
 
 module.exports = {
