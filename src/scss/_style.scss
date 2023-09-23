@@ -553,6 +553,21 @@ ul#news-list {
 }
 
 //
+//	Page: MR
+//
+#mr-placeholder {
+	.action-toggle-info:hover {
+		text-decoration: underline;
+		cursor: pointer;
+	}
+	.mr-item-not-checked {
+		color: $wf-blue;
+	}
+	.mr-item-checked {
+		//font-weight: normal;
+	}
+}
+//
 //  Footer
 //
 #footer {
