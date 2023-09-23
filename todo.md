@@ -1,12 +1,11 @@
 # TODO / BUGS
 
-- Sirooco are added in custom-add.js and lack image from repo
 
 **Code**
 
 - Fix ugly SQL in class User.php
 
-- fix hardcoded path in user-auth.php  - Maybe not possible
+- fix hardcoded path in user-auth.php - May not be possible
 
 - https://webpack.js.org/guides/build-performance/ < start using include for faster webpack-performance
 

@@ -68,7 +68,7 @@ module.exports = function (items) {
 			items.array[i]["type"] = "Archwing Gun";
 		}
 
-		// Inaros update weapons are mislabeled
+		// Weapons from the Inaros update are mislabeled
 		if (name == "Karyst Prime") {
 			items.array[i]["category"] = "Dagger";
 		}
@@ -158,6 +158,30 @@ module.exports = function (items) {
 			items.array[i]["name"] = "Batoten (Dorma Hound)";
 			items.array[i]["category"] = "Hound attack";
 			items.array[i]["wikiaUrl"] = "https://warframe.fandom.com/wiki/Batoten";
+		}
+
+		// Fix companion MOAs Wikia URL
+		if (name == "Lambeo Moa") {
+			items.array[i]["wikiaUrl"] =
+				"https://warframe.fandom.com/wiki/MOA_(Companion)";
+		}
+		if (name == "Nychus Moa") {
+			items.array[i]["wikiaUrl"] =
+				"https://warframe.fandom.com/wiki/MOA_(Companion)";
+		}
+		if (name == "Oloro Moa") {
+			items.array[i]["wikiaUrl"] =
+				"https://warframe.fandom.com/wiki/MOA_(Companion)";
+		}
+		if (name == "Para Moa") {
+			items.array[i]["wikiaUrl"] =
+				"https://warframe.fandom.com/wiki/MOA_(Companion)";
+		}
+
+		// Fix Corufell mislabeled as Archwing Melee
+		if (name == "Corufell") {
+			items.array[i]["type"] = "Melee";
+			delete items.array[i]["category"];
 		}
 
 		// Temporary: Remove category on all melee weapons

@@ -955,6 +955,24 @@ module.exports = {
       "component": false
     },
     {
+      "description": "Argo & Vel bolster the warrior who stands fast. Its Heavy Attack sends forth a glaive that ricochets off enemies.",
+      "imageName": "argo-&-vel.png",
+      "masteryReq": 0,
+      "name": "Argo & Vel",
+      "productCategory": "Melee",
+      "releaseDate": "2023-07-27",
+      "tradable": false,
+      "type": "Melee",
+      "uniqueName": "/Lotus/Weapons/Tenno/Melee/SwordsAndBoards/DaxDuviriMaceShieldWeapon",
+      "wikiaUrl": "https://warframe.fandom.com/wiki/Argo_%26_Vel",
+      "acquisition": "Duviri (Teshin's cave)",
+      "checked": false,
+      "unobtainable": false,
+      "tierData": false,
+      "tierRank": 0,
+      "component": false
+    },
+    {
       "bpCost": 15000,
       "category": "Rifle",
       "description": "Pick off targets by highlighting distant enemies using this Grineer rifle's advanced laser sighting system. Deadly in both single fire and automatic modes.",
@@ -1027,7 +1045,7 @@ module.exports = {
     },
     {
       "bpCost": 35000,
-      "description": "Ash is great for players looking for a stealthier approach to combat. Lethal abilities are complemented by powers of distraction.",
+      "description": "Behold the patron saint of the Orokin school of political assassination. Ash specializes in stealth. The edge of his blade is sooner felt than seen.",
       "imageName": "ash.png",
       "masteryReq": 0,
       "name": "Ash",
@@ -1037,7 +1055,7 @@ module.exports = {
       "type": "Warframe",
       "uniqueName": "/Lotus/Powersuits/Ninja/Ninja",
       "wikiaUrl": "https://warframe.fandom.com/wiki/Ash",
-      "acquisition": "Manics",
+      "acquisition": "Railjack (Corpus)",
       "checked": false,
       "unobtainable": false,
       "tierData": false,
@@ -1135,7 +1153,7 @@ module.exports = {
       "component": false
     },
     {
-      "description": "Titan of stone, lord of the earthly elementals.",
+      "description": "Enemies tremble before the brawler with fists as hard as stone. Atlas deals high damage. Command terrestrial elements that form the foundation of any battlefield.",
       "imageName": "atlas.png",
       "masteryReq": 0,
       "name": "Atlas",
@@ -1275,6 +1293,24 @@ module.exports = {
       "component": false
     },
     {
+      "description": "Azothane calls the visionary warrior to turn the tides of battle. Block and melee attack at the same time to plunge Azothane into the ground, damaging nearby enemies with a shockwave and adding to the combo counter.",
+      "imageName": "azothane.png",
+      "masteryReq": 0,
+      "name": "Azothane",
+      "productCategory": "Melee",
+      "releaseDate": "2023-04-26",
+      "tradable": false,
+      "type": "Melee",
+      "uniqueName": "/Lotus/Weapons/Tenno/Melee/Swords/DaxDuviriTwoHandedKatana/DaxDuviriTwoHandedKatanaWeapon",
+      "wikiaUrl": "https://warframe.fandom.com/wiki/Azothane",
+      "acquisition": "Duviri (Teshin's cave)",
+      "checked": false,
+      "unobtainable": false,
+      "tierData": false,
+      "tierRank": 0,
+      "component": false
+    },
+    {
       "category": "K-Drive",
       "description": "",
       "imageName": "bad-baby.png",
@@ -1358,7 +1394,7 @@ module.exports = {
       "component": false
     },
     {
-      "description": "Using sonic attacks and acoustic target detection, Banshee is well suited for stealth gameplay and is capable of filling both attack and support roles.",
+      "description": "Banshee’s call heralds death. She maintains crowd control and identifies enemy weak points with sonic attacks. Few can hold their position when struck by her force.",
       "imageName": "banshee.png",
       "masteryReq": 0,
       "name": "Banshee",
@@ -1395,7 +1431,7 @@ module.exports = {
       "component": false
     },
     {
-      "description": "Beware the fury of the truly patient. Pushed beyond restraint, a reluctant master unleashes the storm within.",
+      "description": "Beware the fury of the truly patient. Baruuk boasts survivability and crowd control. Pushed beyond his restraint, he unleashes the storm within.",
       "exalted": [
         "/Lotus/Powersuits/Pacifist/PacifistFist"
       ],
@@ -2000,6 +2036,26 @@ module.exports = {
       "component": false
     },
     {
+      "category": "Companion Weapon",
+      "description": "Shade Prime’s signature weapon fires laser bursts.",
+      "imageName": "burst-laser-prime.png",
+      "masteryReq": 0,
+      "name": "Burst Laser Prime",
+      "productCategory": "SentinelWeapons",
+      "releaseDate": "2023-03-15",
+      "tradable": false,
+      "trigger": "Burst",
+      "type": "Sentinel Weapon",
+      "uniqueName": "/Lotus/Types/Sentinels/SentinelWeapons/PrimeBurstLaserPistol",
+      "wikiaUrl": "https://warframe.fandom.com/wiki/Burst_Laser_Prime",
+      "acquisition": "Relics",
+      "checked": false,
+      "unobtainable": false,
+      "tierData": false,
+      "tierRank": 0,
+      "component": false
+    },
+    {
       "bpCost": 15000,
       "category": "Rifle",
       "description": "The Burston fires 3-round bursts, which provides a balance between the lethality of automatic rifles and the accuracy of semi-automatic rifles.",
@@ -2099,7 +2155,7 @@ module.exports = {
     },
     {
       "bpCost": 50000,
-      "description": "This is Caliban, the survivor, the adaptor, and heir to the twin kingdoms of biological and Sentient life. Free him from the aberrant path he was consigned to by his creator: Erra.",
+      "description": "The heir of twin kingdoms ascends. Biological and Sentient life meet in Caliban. An adept monarch, he offers crowd control and survivability. His creator had more than one world in mind.",
       "imageName": "caliban.png",
       "masteryReq": 0,
       "name": "Caliban",
@@ -2308,7 +2364,7 @@ module.exports = {
     },
     {
       "category": "Shotgun",
-      "description": "Launch a glaive that ricochets off surfaces in bursts of elemental damage, then perforate enemies with primary fire’s precision buck-shot. Damage increases with each Status Effect afflicting a target. Lavos will transmute a small portion of any ammo pickup to Shotgun Ammo when wielding his signature Cedo.",
+      "description": "Launch a glaive that ricochets off surfaces in bursts of elemental damage, then perforate enemies with primary fire’s precision buck-shot. Damage increases with each Status Effect afflicting a target. Lavos will transmute a small portion of any ammo pickup to Primary Ammo when wielding his signature Cedo.",
       "imageName": "cedo.png",
       "masteryReq": 8,
       "name": "Cedo",
@@ -2319,7 +2375,7 @@ module.exports = {
       "type": "Primary",
       "uniqueName": "/Lotus/Weapons/Tenno/LongGuns/TnAlchemistShotgun/TnAlchemistShotgun",
       "wikiaUrl": "https://warframe.fandom.com/wiki/Cedo",
-      "acquisition": "Operation: Orphix Venom",
+      "acquisition": "Father (Nekralisk)",
       "checked": false,
       "unobtainable": false,
       "tierData": true,
@@ -2512,7 +2568,7 @@ module.exports = {
       "wikiaUrl": "http://warframe.wikia.com/wiki/Chesa_Kubrow"
     },
     {
-      "description": "A master of the deadly elements, Chroma can alter his damage output by changing his Emissive Color.",
+      "description": "Unleash the draconic. Chroma employs Heat, Electricity, Toxin, and Cold to deal high damage while maintaining survivability. Soar with winged fury.",
       "imageName": "chroma.png",
       "masteryReq": 0,
       "name": "Chroma",
@@ -2542,6 +2598,44 @@ module.exports = {
       "vaulted": true,
       "wikiaUrl": "https://warframe.fandom.com/wiki/Chroma%2FPrime",
       "acquisition": "Relics",
+      "checked": false,
+      "unobtainable": false,
+      "tierData": false,
+      "tierRank": 0,
+      "component": false
+    },
+    {
+      "category": "Rifle",
+      "description": "The versatile Cinta can fire arrows in quick succession, quickly charge a shock wave, or fully charge a powerful focused shot.",
+      "imageName": "cinta.png",
+      "masteryReq": 6,
+      "name": "Cinta",
+      "productCategory": "LongGuns",
+      "releaseDate": "2023-04-26",
+      "tradable": false,
+      "trigger": "Charge",
+      "type": "Primary",
+      "uniqueName": "/Lotus/Weapons/Tenno/Bows/DaxDuviriAsymetricalBow/DaxDuviriAsymmetricalLongBowPlayerWeapon",
+      "wikiaUrl": "https://warframe.fandom.com/wiki/Cinta",
+      "acquisition": "Duviri (Enigma Puzzles)",
+      "checked": false,
+      "unobtainable": false,
+      "tierData": false,
+      "tierRank": 0,
+      "component": false
+    },
+    {
+      "description": "Gaze upon the Crystal Bastion. Citrine's crystalline might supports allies on the battlefield. Combat only enhances her fractal beauty.",
+      "imageName": "citrine.png",
+      "masteryReq": 0,
+      "name": "Citrine",
+      "productCategory": "Suits",
+      "releaseDate": "2023-02-15",
+      "tradable": false,
+      "type": "Warframe",
+      "uniqueName": "/Lotus/Powersuits/Geode/Geode",
+      "wikiaUrl": "https://warframe.fandom.com/wiki/Citrine",
+      "acquisition": "Mirror Defense (Mars)",
       "checked": false,
       "unobtainable": false,
       "tierData": false,
@@ -2678,6 +2772,24 @@ module.exports = {
       "uniqueName": "/Lotus/Weapons/Tenno/Archwing/Primary/ThanoTechArchGun/ThanoTechArchGun",
       "wikiaUrl": "https://warframe.fandom.com/wiki/Cortege",
       "acquisition": "Loid (Nekralisk)",
+      "checked": false,
+      "unobtainable": false,
+      "tierData": false,
+      "tierRank": 0,
+      "component": false
+    },
+    {
+      "description": "Heavy attacks briefly transform the Corufell into a Gunblade. After the Gunblade fires, the Corufell returns to its Heavy Scythe state. Its transformation is fastest in Citrine’s hands.",
+      "imageName": "corufell.png",
+      "masteryReq": 8,
+      "name": "Corufell",
+      "productCategory": "Melee",
+      "releaseDate": "2023-02-15",
+      "tradable": false,
+      "type": "Melee",
+      "uniqueName": "/Lotus/Weapons/Tenno/Archwing/Melee/ExaltedArchScythe/ExaltedAWScytheWeapon",
+      "wikiaUrl": "https://warframe.fandom.com/wiki/Corufell",
+      "acquisition": "Mirror Defense (Mars)",
       "checked": false,
       "unobtainable": false,
       "tierData": false,
@@ -3806,6 +3918,24 @@ module.exports = {
       "component": true
     },
     {
+      "description": "Edun befits a dextrous warrior. Heavy Attack to throw Edun. Edun explodes after it is embedded in an enemy.",
+      "imageName": "edun.png",
+      "masteryReq": 0,
+      "name": "Edun",
+      "productCategory": "Melee",
+      "releaseDate": "2023-04-26",
+      "tradable": false,
+      "type": "Melee",
+      "uniqueName": "/Lotus/Weapons/Tenno/Melee/Polearms/DaxDuviriPolearm/DaxDuviriPolearmWeapon",
+      "wikiaUrl": "https://warframe.fandom.com/wiki/Edun",
+      "acquisition": "Duviri (Teshin's cave)",
+      "checked": false,
+      "unobtainable": false,
+      "tierData": false,
+      "tierRank": 0,
+      "component": false
+    },
+    {
       "category": "Archwing",
       "description": "This heavy duty Archwing was designed for one purpose, destruction.",
       "imageName": "elytron.png",
@@ -3825,7 +3955,7 @@ module.exports = {
     },
     {
       "bpCost": 25000,
-      "description": "Ember is a nightmare for light-armored targets. Ember can super-heat the air which opens up surprising crowd-control possibilities.",
+      "description": "Harness the power of fire. Ember’s heat deals high damage. She keeps a cool head when the battle is hot.",
       "imageName": "ember.png",
       "masteryReq": 0,
       "name": "Ember",
@@ -3940,7 +4070,7 @@ module.exports = {
     },
     {
       "bpCost": 25000,
-      "description": "Split between day and night, Equinox manifests aggressive and defensive forms at will.",
+      "description": "Equinox rises from the edge of day and night. Her Day form offers offensive support while her Night form offers defensive support. She thrives between realms.",
       "imageName": "equinox.png",
       "masteryReq": 0,
       "name": "Equinox",
@@ -4081,7 +4211,7 @@ module.exports = {
     },
     {
       "bpCost": 35000,
-      "description": "A perfect balance of mobility and offense, Excalibur is the ideal Warframe for new players.",
+      "description": "Excalibur epitomizes the warrior spirit. His master swordsmanship deals high damage. He is the embodiment of martial excellence.",
       "exalted": [
         "/Lotus/Powersuits/Excalibur/DoomSword"
       ],
@@ -4394,7 +4524,7 @@ module.exports = {
     },
     {
       "bpCost": 25000,
-      "description": "By channeling moisture and vapor in the surrounding environment, Frost creates formidable defenses and lethal attacks from sub zero conditions.",
+      "description": "When Frost steps onto the battlefield, enemies experience a chill. Frost’s attacks control crowds, protect objectives, and increase survivability. Wield the biting cold.",
       "imageName": "frost.png",
       "masteryReq": 0,
       "name": "Frost",
@@ -4454,6 +4584,26 @@ module.exports = {
       "tierRank": 0,
       "buildLink": "https://overframe.gg/build/9652/",
       "buildLinkDomain": "overframe.gg",
+      "component": false
+    },
+    {
+      "category": "Rifle",
+      "description": "Wield a storm. Fulmin Prime's electric rounds switch between lightning beams and short-range bursts. Wisp quickly swaps between each mode with her elemental prowess.",
+      "imageName": "fulmin-prime.png",
+      "masteryReq": 12,
+      "name": "Fulmin Prime",
+      "productCategory": "LongGuns",
+      "releaseDate": "2023-07-27",
+      "tradable": false,
+      "trigger": "Semi",
+      "type": "Primary",
+      "uniqueName": "/Lotus/Weapons/Tenno/LongGuns/PrimeFulmin/PrimeFulmin",
+      "wikiaUrl": "https://warframe.fandom.com/wiki/Fulmin_Prime",
+      "acquisition": "Relics",
+      "checked": false,
+      "unobtainable": false,
+      "tierData": false,
+      "tierRank": 0,
       "component": false
     },
     {
@@ -4640,7 +4790,7 @@ module.exports = {
       "component": true
     },
     {
-      "description": "The battlefield trembles before Gara's crystalline power, her ringing touch transforming opponents to targets of brittle beauty.",
+      "description": "Enemies are made fragile by Gara’s deadly touch. Gara’s vitric abilities provide her and her allies with survivability and deal high damage. Shatter the foe.",
       "imageName": "gara.png",
       "masteryReq": 0,
       "name": "Gara",
@@ -4676,7 +4826,7 @@ module.exports = {
       "component": false
     },
     {
-      "description": "Death's crimson maiden, the blood of Garuda's foes imbue her with strength and vitality.",
+      "description": "Death’s crimson maiden sharpens her talons. Garuda weaponizes the blood of her foes to deal high damage. Sanguine beauty complements her deadly power.",
       "exalted": [
         "/Lotus/Powersuits/Garuda/GarudaClaws"
       ],
@@ -4719,7 +4869,7 @@ module.exports = {
     },
     {
       "bpCost": 30000,
-      "description": "Never stop moving. Gauss' battery is charged by movement, powering his devastating kinetic abilities. They can't kill what they can't hit.",
+      "description": "Take charge with the Saint of Altra. Gauss is fast, deals high damage, and has strong survivability. Movement charges his powerful battery, so never stop moving.",
       "imageName": "gauss.png",
       "masteryReq": 0,
       "name": "Gauss",
@@ -4931,6 +5081,26 @@ module.exports = {
       "component": false
     },
     {
+      "category": "Rifle",
+      "description": "Long before clone-rot set in, elite Grineer Commanders protected the surviving Orokin from rebelling Warframes with these formidable rifles. When Gotva Prime inflicts a Status Effect its next shot has a chance to be a Super Critical hit.",
+      "imageName": "gotva-prime.png",
+      "masteryReq": 14,
+      "name": "Gotva Prime",
+      "productCategory": "LongGuns",
+      "releaseDate": "2019-12-17",
+      "tradable": false,
+      "trigger": "Auto",
+      "type": "Primary",
+      "uniqueName": "/Lotus/Weapons/Grineer/LongGuns/GrnOrokinRifle/GrnOrokinRifleWeapon",
+      "wikiaUrl": "https://warframe.fandom.com/wiki/Gotva_Prime",
+      "acquisition": "Baro Ki'Teer (Relay)",
+      "checked": false,
+      "unobtainable": false,
+      "tierData": false,
+      "tierRank": 0,
+      "component": false
+    },
+    {
       "bpCost": 15000,
       "category": "Rifle",
       "description": "Equipped with a huge Magazine and impressive Fire Rate, the Grakata is the preferred weapon of Grineer Lancers.",
@@ -5035,7 +5205,7 @@ module.exports = {
       "component": false
     },
     {
-      "description": "Consumer of worlds and everything else.",
+      "description": "Grendel sees every battlefield as a smorgasbord. His insatiable appetite rewards him with high survivability. Enemies will be eaten. And regurgitated.",
       "imageName": "grendel.png",
       "masteryReq": 0,
       "name": "Grendel",
@@ -5145,7 +5315,25 @@ module.exports = {
       "component": false
     },
     {
-      "description": "Gyre embodies elegant theory. Annihilate enemies with the conductivity of coils and transmitters.",
+      "description": "Command the beauty and lethality of these ornate warfans.",
+      "imageName": "gunsen-prime.png",
+      "masteryReq": 12,
+      "name": "Gunsen Prime",
+      "productCategory": "Melee",
+      "releaseDate": "2023-07-27",
+      "tradable": false,
+      "type": "Melee",
+      "uniqueName": "/Lotus/Weapons/Tenno/Melee/Warfan/PrimeGunsen/PrimeGunsenWeapon",
+      "wikiaUrl": "https://warframe.fandom.com/wiki/Gunsen_Prime",
+      "acquisition": "Relics",
+      "checked": false,
+      "unobtainable": false,
+      "tierData": false,
+      "tierRank": 0,
+      "component": false
+    },
+    {
+      "description": "Annihilate enemies with the conductivity of coils and transmitters. Gyre’s electric attacks provide crowd control. She is the embodiment of elegant theory.",
       "imageName": "gyre.png",
       "masteryReq": 0,
       "name": "Gyre",
@@ -5233,7 +5421,7 @@ module.exports = {
       "component": false
     },
     {
-      "description": "Always prepared to sacrifice. This monastic Warframe uses the Void to bolster allies' defenses and amplify their lethality.",
+      "description": "Achieve redemption through vengeance. The monastic Harrow increases damage to support allies. Defy enemies and ascend.",
       "imageName": "harrow.png",
       "masteryReq": 0,
       "name": "Harrow",
@@ -5562,7 +5750,7 @@ module.exports = {
       "component": false
     },
     {
-      "description": "The best defense is a good offense. Hildryn draws from her Shields to fuel her Abilities, while Energy recharges her Shields.",
+      "description": "Strength is Hildryn’s virtue. Her unique high-damage abilities are powered by her Shields, which can be recharged with Energy. Hildryn proves that a strong offense is a good defense.",
       "exalted": [
         "/Lotus/Powersuits/IronFrame/BlastWeapon"
       ],
@@ -5576,6 +5764,27 @@ module.exports = {
       "uniqueName": "/Lotus/Powersuits/IronFrame/IronFrame",
       "wikiaUrl": "https://warframe.fandom.com/wiki/Hildryn",
       "acquisition": "Market (Orbiter)",
+      "checked": false,
+      "unobtainable": false,
+      "tierData": false,
+      "tierRank": 0,
+      "component": false
+    },
+    {
+      "description": "Hildryn Prime proves that power is discipline’s reward.",
+      "exalted": [
+        "/Lotus/Powersuits/IronFrame/BlastWeaponPrime"
+      ],
+      "imageName": "hildryn-prime.png",
+      "masteryReq": 0,
+      "name": "Hildryn Prime",
+      "productCategory": "Suits",
+      "releaseDate": "2023-03-15",
+      "tradable": false,
+      "type": "Warframe",
+      "uniqueName": "/Lotus/Powersuits/IronFrame/IronFramePrime",
+      "wikiaUrl": "https://warframe.fandom.com/wiki/Hildryn%2FPrime",
+      "acquisition": "Relics",
       "checked": false,
       "unobtainable": false,
       "tierData": false,
@@ -5653,7 +5862,7 @@ module.exports = {
     },
     {
       "bpCost": 50000,
-      "description": "Rising from the ocean depths, Hydroid harnesses the power of water to a devastating effect.",
+      "description": "Hydroid summons the power of the ocean depths. He provides crowd control with aqueous attacks. His enemies will meet a watery demise.",
       "imageName": "hydroid.png",
       "masteryReq": 0,
       "name": "Hydroid",
@@ -5822,7 +6031,7 @@ module.exports = {
       "component": false
     },
     {
-      "description": "Risen from the sands, Inaros commands the desert's fearsome power.",
+      "description": "Inaros commands the fearsome desert. He survives like the ever-shifting sands that empower him. Legend recalls Inaros as the Fear-Eater.",
       "imageName": "inaros.png",
       "masteryReq": 0,
       "name": "Inaros",
@@ -5895,7 +6104,7 @@ module.exports = {
       "wikiaUrl": "http://warframe.wikia.com/wiki/Itzal"
     },
     {
-      "description": "With her quiver of tactical arrows, this huntress prowls unseen and strikes without warning.",
+      "description": "The huntress draws her bow. Ivara is stealth itself. Her enemies live in fear of her sudden attacks.",
       "exalted": [
         "/Lotus/Powersuits/Ranger/ExaltedBow"
       ],
@@ -6254,7 +6463,7 @@ module.exports = {
       "component": false
     },
     {
-      "description": "Tenno and beast, red in whip and claw. Khora and her Kavat companion, Venari, embody lethal versatility. Two bodies, one will.",
+      "description": "Khora is red in whip and claw. She works together with her Kavat companion, Venari, to deal high damage and provide crowd control. Two bodies, one will.",
       "exalted": [
         "/Lotus/Powersuits/Khora/Kavat/KhoraKavatPowerSuit"
       ],
@@ -6699,6 +6908,24 @@ module.exports = {
       "uniqueName": "/Lotus/Weapons/Ostron/Melee/ModularMelee01/Tip/TipSix",
       "wikiaUrl": "https://warframe.fandom.com/wiki/Kronsh",
       "acquisition": "Hok's Anvil (Cetus)",
+      "checked": false,
+      "unobtainable": false,
+      "tierData": false,
+      "tierRank": 0,
+      "component": false
+    },
+    {
+      "description": "Kullervo answers for his sins and the sins of others. His daggers and melee prowess deal high damage. Seize the power of treachery to slake his thirst for revenge.",
+      "imageName": "kullervo.png",
+      "masteryReq": 0,
+      "name": "Kullervo",
+      "productCategory": "Suits",
+      "releaseDate": "2023-06-21",
+      "tradable": false,
+      "type": "Warframe",
+      "uniqueName": "/Lotus/Powersuits/PaxDuviricus/PaxDuviricus",
+      "wikiaUrl": "https://warframe.fandom.com/wiki/Kullervo",
+      "acquisition": "Achritis",
       "checked": false,
       "unobtainable": false,
       "tierData": false,
@@ -7284,7 +7511,7 @@ module.exports = {
       "tierData": false,
       "tierRank": 0,
       "component": false,
-      "wikiaUrl": "http://warframe.wikia.com/wiki/Lambeo_Moa"
+      "wikiaUrl": "https://warframe.fandom.com/wiki/MOA_(Companion)"
     },
     {
       "bpCost": 15000,
@@ -7326,6 +7553,25 @@ module.exports = {
       "uniqueName": "/Lotus/Weapons/Tenno/Archwing/Primary/TnShieldframeArchGun/TnShieldFrameArchGun",
       "wikiaUrl": "https://warframe.fandom.com/wiki/Larkspur",
       "acquisition": "Tenno Lab (Dojo)",
+      "checked": false,
+      "unobtainable": false,
+      "tierData": false,
+      "tierRank": 0,
+      "component": false
+    },
+    {
+      "description": "Embrace pandemonium. Chainfire and explosive potential meet in Larkspur Prime. Hildryn packs more ammo when she wields this mighty weapon.",
+      "imageName": "larkspur-prime.png",
+      "masteryReq": 8,
+      "name": "Larkspur Prime",
+      "productCategory": "SpaceGuns",
+      "releaseDate": "2023-03-15",
+      "tradable": true,
+      "trigger": "Held",
+      "type": "Archwing Gun",
+      "uniqueName": "/Lotus/Weapons/Tenno/Archwing/Primary/PrimeLarkspur/PrimeLarkspurWeapon",
+      "wikiaUrl": "https://warframe.fandom.com/wiki/Larkspur_Prime",
+      "acquisition": "Relics",
       "checked": false,
       "unobtainable": false,
       "tierData": false,
@@ -7465,7 +7711,7 @@ module.exports = {
       "component": false
     },
     {
-      "description": "This master alchemist effortlessly commands the elemental forces.",
+      "description": "The serpents of Lavos encourage him as he transmutes the battlefield. He uses Toxin, Cold, Electricity, and Heat to deal elemental damage. Harness the power of the dark alchemist.",
       "imageName": "lavos.png",
       "masteryReq": 0,
       "name": "Lavos",
@@ -7475,7 +7721,7 @@ module.exports = {
       "type": "Warframe",
       "uniqueName": "/Lotus/Powersuits/Alchemist/Alchemist",
       "wikiaUrl": "https://warframe.fandom.com/wiki/Lavos",
-      "acquisition": "Operation: Orphix Venom",
+      "acquisition": "Father (Nekralisk)",
       "checked": false,
       "unobtainable": false,
       "tierData": false,
@@ -7617,7 +7863,7 @@ module.exports = {
       "component": true
     },
     {
-      "description": "Limbo manipulates the very planes of existence to divide his enemies and conquer them in the rift.",
+      "description": "Master the rift between shadow and substance. Limbo disrupts time-space to provide crowd control. He is at home where others struggle with what is real.",
       "imageName": "limbo.png",
       "masteryReq": 0,
       "name": "Limbo",
@@ -7655,7 +7901,7 @@ module.exports = {
     },
     {
       "bpCost": 35000,
-      "description": "Desired by advanced players, Loki offers a variety of specialized reconfiguring abilities. The creativity of Loki's powers allows players to master the battlefield through manipulation.",
+      "description": "Loki knows the art of deception. The trickster employs stealth to sabotage enemies. Sow confusion.",
       "imageName": "loki.png",
       "masteryReq": 0,
       "name": "Loki",
@@ -7736,7 +7982,7 @@ module.exports = {
     },
     {
       "bpCost": 25000,
-      "description": "With full command of surrounding magnetic energy, Mag is an expert at enemy manipulation.",
+      "description": "Take down your enemies with magnetic force. Mag alters magnetic fields to provide crowd control and strip enemy defenses. Few can resist her attraction or her repulsion.",
       "imageName": "mag.png",
       "masteryReq": 0,
       "name": "Mag",
@@ -7947,7 +8193,7 @@ module.exports = {
       "wikiaUrl": "http://warframe.wikia.com/wiki/Medjay_Predasite"
     },
     {
-      "description": "With a steady hand and quick reflexes, Mesa is a true gunfighter.",
+      "description": "The gunslinger has a steady deadly hand. Each shot deals high damage. Mesa is the fastest draw in the realm.",
       "exalted": [
         "/Lotus/Powersuits/Cowgirl/SlingerPistols"
       ],
@@ -8034,7 +8280,7 @@ module.exports = {
       "component": false
     },
     {
-      "description": "A master of illusion, Mirage confounds the enemy in a spectacle of style and power.",
+      "description": "Mirage’s sleight of hand complements her might. Her dazzled foes take heavy damage. Doppelgangers, lasers, and traps are elements of her stagecraft.",
       "imageName": "mirage.png",
       "masteryReq": 0,
       "name": "Mirage",
@@ -8538,7 +8784,7 @@ module.exports = {
     },
     {
       "bpCost": 100000,
-      "description": "Nekros uses his dark powers to manipulate his enemies, both living and dead.",
+      "description": "There is a reaper whose name is Nekros. He provides deathly crowd control. Erstwhile enemies become allies when Nekros calls up recruits from the dead.",
       "imageName": "nekros.png",
       "masteryReq": 0,
       "name": "Nekros",
@@ -8594,7 +8840,7 @@ module.exports = {
     },
     {
       "bpCost": 35000,
-      "description": "A petite and playful facade conceals this frame's immense power.",
+      "description": "The mercurial firemonger protects the innocent. Nezha’s multifaceted tactics give him high survivability as he inflicts damage and provides crowd control. His fire is the clarion of hope.",
       "imageName": "nezha.png",
       "masteryReq": 0,
       "name": "Nezha",
@@ -8631,7 +8877,7 @@ module.exports = {
       "component": false
     },
     {
-      "description": "Command the Infestation to mutate and grow ever more destructive.",
+      "description": "Nidus draws strength from the Infestation. It bolsters him with survivability as he deals high damage and provides crowd control. Plague your enemies.",
       "imageName": "nidus.png",
       "masteryReq": 0,
       "name": "Nidus",
@@ -8758,7 +9004,7 @@ module.exports = {
     },
     {
       "bpCost": 35000,
-      "description": "Nova uses electromagnetic energy to contain and control highly volatile antimatter that fuels her abilities.",
+      "description": "Harness antimatter. Nova uses antiparticles to provide crowd control and amplify damage output. She obliterates enemies by destabilizing matter itself.",
       "imageName": "nova.png",
       "masteryReq": 0,
       "name": "Nova",
@@ -8835,11 +9081,11 @@ module.exports = {
       "tierData": false,
       "tierRank": 0,
       "component": false,
-      "wikiaUrl": "http://warframe.wikia.com/wiki/Nychus_Moa"
+      "wikiaUrl": "https://warframe.fandom.com/wiki/MOA_(Companion)"
     },
     {
       "bpCost": 25000,
-      "description": "Mind control and psychic attacks make Nyx a very dangerous foe. Her ability to reach into enemy consciousness and manipulate their behavior can turn the tide of battle.",
+      "description": "Psychic attacks make Nyx a dangerous foe. She reaches into enemy consciousness to provide crowd control and turn their attacks back on them. Such manipulation can turn the tide of battle.",
       "imageName": "nyx.png",
       "masteryReq": 0,
       "name": "Nyx",
@@ -8877,7 +9123,7 @@ module.exports = {
     },
     {
       "bpCost": 30000,
-      "description": "Equally adept at healing friends or striking down the enemy. Oberon embodies the balance Tenno are sworn to uphold.",
+      "description": "Healing and suffering do Oberon’s bidding. His command of the natural world supports allies. Boon to his friends, bane of his foes.",
       "imageName": "oberon.png",
       "masteryReq": 0,
       "name": "Oberon",
@@ -8933,7 +9179,7 @@ module.exports = {
       "component": false
     },
     {
-      "description": "Compose her song and then conduct the mighty Mandachord, turning bass, beat and melody into an anthem of devastation.",
+      "description": "Octavia turns bass, beat, and melody into a symphony of devastation. The music of her Mandachord gives her high survivability and supports allies. Her composition means the enemy’s destruction.",
       "imageName": "octavia.png",
       "masteryReq": 0,
       "name": "Octavia",
@@ -9126,7 +9372,7 @@ module.exports = {
       "tierData": false,
       "tierRank": 0,
       "component": false,
-      "wikiaUrl": "http://warframe.wikia.com/wiki/Oloro_Moa"
+      "wikiaUrl": "https://warframe.fandom.com/wiki/MOA_(Companion)"
     },
     {
       "bpCost": 35000,
@@ -9467,7 +9713,7 @@ module.exports = {
       "tierData": false,
       "tierRank": 0,
       "component": false,
-      "wikiaUrl": "http://warframe.wikia.com/wiki/Para_Moa"
+      "wikiaUrl": "https://warframe.fandom.com/wiki/MOA_(Companion)"
     },
     {
       "description": "The Sentient slayer. An offering from Ballas.",
@@ -10123,6 +10369,26 @@ module.exports = {
       "component": false
     },
     {
+      "category": "Rifle",
+      "description": "The explosive potential of the Lenz, enhanced with Prisma crystals.",
+      "imageName": "prisma-lenz.png",
+      "masteryReq": 12,
+      "name": "Prisma Lenz",
+      "productCategory": "LongGuns",
+      "releaseDate": "2023-05-12",
+      "tradable": true,
+      "trigger": "Charge",
+      "type": "Primary",
+      "uniqueName": "/Lotus/Weapons/Corpus/Bow/Longbow/PrismaLenz/PrismaLenzWeapon",
+      "wikiaUrl": "https://warframe.fandom.com/wiki/Prisma_Lenz",
+      "acquisition": "Baro Ki'Teer (Relay)",
+      "checked": false,
+      "unobtainable": false,
+      "tierData": false,
+      "tierRank": 0,
+      "component": false
+    },
+    {
       "description": "The addition of Prisma Crystal allows this otherwise barbaric weapon to elegantly hack through any foe.",
       "imageName": "prisma-machete.png",
       "masteryReq": 7,
@@ -10163,6 +10429,24 @@ module.exports = {
       "buildLink": "https://overframe.gg/build/28734/",
       "buildLinkDomain": "overframe.gg",
       "combo": "Inferno",
+      "component": false
+    },
+    {
+      "description": "Prisma crystals glisten in these electrified tonfas.",
+      "imageName": "prisma-ohma.png",
+      "masteryReq": 12,
+      "name": "Prisma Ohma",
+      "productCategory": "Melee",
+      "releaseDate": "2023-08-03",
+      "tradable": true,
+      "type": "Melee",
+      "uniqueName": "/Lotus/Weapons/Corpus/Melee/CrpTonfa/CrpPrismaTonfa",
+      "wikiaUrl": "https://warframe.fandom.com/wiki/Prisma_Ohma",
+      "acquisition": "Baro Ki'Teer (Relay)",
+      "checked": false,
+      "unobtainable": false,
+      "tierData": false,
+      "tierRank": 0,
       "component": false
     },
     {
@@ -10302,7 +10586,7 @@ module.exports = {
     },
     {
       "bpCost": 35000,
-      "description": "Ready for any eventuality, the versatile Protea uses her many gadgets to overcome the odds.",
+      "description": "Protea knows all about protection. Her vast arsenal inflicts damage and provides ally support. She can even manipulate time itself.",
       "imageName": "protea.png",
       "masteryReq": 0,
       "name": "Protea",
@@ -10789,6 +11073,26 @@ module.exports = {
       "wikiaUrl": "http://warframe.wikia.com/wiki/Rattleguts"
     },
     {
+      "category": "Shotgun",
+      "description": "Kullervo's signature weapon boasts melee synergy. Every shot that lands increases the wielder's Melee Combo count. When Kullervo wields Rauta, it also increases his Melee Combo duration.",
+      "imageName": "rauta.png",
+      "masteryReq": 8,
+      "name": "Rauta",
+      "productCategory": "LongGuns",
+      "releaseDate": "2023-06-21",
+      "tradable": false,
+      "trigger": "Semi",
+      "type": "Primary",
+      "uniqueName": "/Lotus/Weapons/Tenno/LongGuns/PaxDuviricusShotgun/PaxDuviricusShotgun",
+      "wikiaUrl": "https://warframe.fandom.com/wiki/Rauta",
+      "acquisition": "Achritis",
+      "checked": false,
+      "unobtainable": false,
+      "tierData": false,
+      "tierRank": 0,
+      "component": false
+    },
+    {
       "description": "Reaper Prime is an ornamental scythe, with a blade forged from tempered Rubedo.",
       "imageName": "reaper-prime.png",
       "masteryReq": 10,
@@ -10860,7 +11164,7 @@ module.exports = {
       "component": false
     },
     {
-      "description": "Rise from the broken remains of the Eidolon to seduce an army of zealous thralls.",
+      "description": "Macabre spectral power has risen. Infused with the essence of the Eidolon, Revenant has strong survivability and deals high damage. Enemies become his thralls.",
       "imageName": "revenant.png",
       "masteryReq": 0,
       "name": "Revenant",
@@ -10897,7 +11201,7 @@ module.exports = {
     },
     {
       "bpCost": 35000,
-      "description": "Rhino is the heaviest Warframe, combining offensive and defensive capabilities.",
+      "description": "Rhino packs a punch. He boasts high survivability and crowd control. The wise would do well to stand clear when he charges.",
       "imageName": "rhino.png",
       "masteryReq": 0,
       "name": "Rhino",
@@ -11060,6 +11364,24 @@ module.exports = {
       "wikiaUrl": "http://warframe.wikia.com/wiki/Sahasa_Kubrow"
     },
     {
+      "description": "A warrior who prefers brute force will make the most of Sampotes. Its Slams and Heavy Slams have an extended area of effect.",
+      "imageName": "sampotes.png",
+      "masteryReq": 0,
+      "name": "Sampotes",
+      "productCategory": "Melee",
+      "releaseDate": "2023-04-26",
+      "tradable": false,
+      "type": "Melee",
+      "uniqueName": "/Lotus/Weapons/Tenno/Melee/Hammer/DaxDuviriHammer/DaxDuviriHammerWeapon",
+      "wikiaUrl": "https://warframe.fandom.com/wiki/Sampotes",
+      "acquisition": "Duviri (Teshin's cave)",
+      "checked": false,
+      "unobtainable": false,
+      "tierData": false,
+      "tierRank": 0,
+      "component": false
+    },
+    {
       "category": "Pistol",
       "description": "This remotely detonated electrical trap is used by devotees of New Loka to protect their temples and shrines.",
       "imageName": "sancti-castanas.png",
@@ -11180,7 +11502,7 @@ module.exports = {
     },
     {
       "bpCost": 35000,
-      "description": "Saryn's venomous attacks are horrifyingly effective against organic and synthetic enemies, and her ability to 'shed' her skin makes her very elusive.",
+      "description": "Toxicity is Saryn’s strength. Her serpentine powers deal heavy damage. For Saryn, venom is a virtue.",
       "imageName": "saryn.png",
       "masteryReq": 0,
       "name": "Saryn",
@@ -11262,7 +11584,7 @@ module.exports = {
       "component": false
     },
     {
-      "bpCost": 15000,
+      "bpCost": 50000,
       "description": "The Scoliac Whip is a nasty parasitic growth of sinew and bone that can inflict heart stopping <DT_POISON>Toxin Damage with attacks.",
       "imageName": "scoliac.png",
       "masteryReq": 6,
@@ -11503,7 +11825,7 @@ module.exports = {
       "component": false
     },
     {
-      "description": "The storm-swept, Void-wandering Warframe has returned to harvest living souls. Send forth his Shadow to reap the life of the unwary.",
+      "description": "No longer adrift in the Void, Sevagoth has returned. He and his Shadow deal heavy damage and have high survivability. They are sustained by the reaping of wayward souls.",
       "exalted": [
         "/Lotus/Powersuits/Wraith/ReaperMeleeWeapon"
       ],
@@ -11538,6 +11860,22 @@ module.exports = {
       "tierRank": 0,
       "component": false,
       "wikiaUrl": "http://warframe.wikia.com/wiki/Shade"
+    },
+    {
+      "description": "Shade Prime specializes in stealth and comes locked and loaded with the Burst Laser Prime. Together, you can dominate the shadows.",
+      "imageName": "shade-prime.png",
+      "name": "Shade Prime",
+      "productCategory": "Sentinels",
+      "tradable": true,
+      "type": "Sentinel",
+      "uniqueName": "/Lotus/Types/Sentinels/SentinelPowersuits/PrimeShadePowerSuit",
+      "acquisition": "Relics",
+      "checked": false,
+      "unobtainable": false,
+      "tierData": false,
+      "tierRank": 0,
+      "component": false,
+      "wikiaUrl": "http://warframe.wikia.com/wiki/Shade_Prime"
     },
     {
       "bpCost": 15000,
@@ -12244,6 +12582,26 @@ module.exports = {
       "component": false
     },
     {
+      "category": "Shotgun",
+      "description": "An energy projectile bursts forth from the Steflos and grows as it rushes toward enemies. The projectile's duration increases when it hits an enemy. When Citrine fires the Steflos, its projectile speed increases.",
+      "imageName": "steflos.png",
+      "masteryReq": 8,
+      "name": "Steflos",
+      "productCategory": "LongGuns",
+      "releaseDate": "2023-02-15",
+      "tradable": false,
+      "trigger": "Semi",
+      "type": "Primary",
+      "uniqueName": "/Lotus/Weapons/Tenno/LongGuns/TnoLotusPodShotgun/TnoLotusPodShotgun",
+      "wikiaUrl": "https://warframe.fandom.com/wiki/Steflos",
+      "acquisition": "Mirror Defense (Mars)",
+      "checked": false,
+      "unobtainable": false,
+      "tierData": false,
+      "tierRank": 0,
+      "component": false
+    },
+    {
       "category": "Companion Weapon",
       "description": "Standard issue weapon for Djinn Sentinel. Fires poisonous projectiles.",
       "imageName": "stinger.png",
@@ -12457,7 +12815,7 @@ module.exports = {
       "component": false
     },
     {
-      "description": "Styanax never wonders how many enemies he will face, only where he can find them.",
+      "description": "Styanax never wonders how many enemies he will face, only where he can find them. The hoplite deals high damage. Enemies tremble before his spear and shield.",
       "imageName": "styanax.png",
       "masteryReq": 0,
       "name": "Styanax",
@@ -12468,6 +12826,24 @@ module.exports = {
       "uniqueName": "/Lotus/Powersuits/Hoplite/Hoplite",
       "wikiaUrl": "https://warframe.fandom.com/wiki/Styanax",
       "acquisition": "Kahl's Bounties",
+      "checked": false,
+      "unobtainable": false,
+      "tierData": false,
+      "tierRank": 0,
+      "component": false
+    },
+    {
+      "description": "Teshin's twin blades.",
+      "imageName": "sun-&-moon.png",
+      "masteryReq": 0,
+      "name": "Sun & Moon",
+      "productCategory": "Melee",
+      "releaseDate": "2023-04-26",
+      "tradable": false,
+      "type": "Melee",
+      "uniqueName": "/Lotus/Types/Friendly/PlayerControllable/Weapons/DuviriDualSwordsWeapon",
+      "wikiaUrl": "https://warframe.fandom.com/wiki/Sun_%26_Moon",
+      "acquisition": "The Duviri Paradox (Quest)",
       "checked": false,
       "unobtainable": false,
       "tierData": false,
@@ -12571,6 +12947,24 @@ module.exports = {
       "uniqueName": "/Lotus/Types/Sentinels/SentinelWeapons/PrimeSentShotgun",
       "wikiaUrl": "https://warframe.fandom.com/wiki/Sweeper_Prime",
       "acquisition": "Comes with Companion",
+      "checked": false,
+      "unobtainable": false,
+      "tierData": false,
+      "tierRank": 0,
+      "component": false
+    },
+    {
+      "description": "Syam is at home in the hands of a focused warrior. Its Heavy Attacks send forth shockwaves.",
+      "imageName": "syam.png",
+      "masteryReq": 0,
+      "name": "Syam",
+      "productCategory": "Melee",
+      "releaseDate": "2023-04-26",
+      "tradable": false,
+      "type": "Melee",
+      "uniqueName": "/Lotus/Weapons/Tenno/Melee/Swords/DaxDuviriKatana/DaxDuviriKatanaWeapon",
+      "wikiaUrl": "https://warframe.fandom.com/wiki/Syam",
+      "acquisition": "Duviri (Teshin's cave)",
       "checked": false,
       "unobtainable": false,
       "tierData": false,
@@ -13479,7 +13873,7 @@ module.exports = {
       "component": false
     },
     {
-      "description": "Take flight with this mischievous pixie.",
+      "description": "Titania’s fairy-like appearance belies her formidable regal power. The enchantress deals high damage and provides crowd control. She forces opponents to pay homage or perish.",
       "exalted": [
         "/Lotus/Powersuits/Fairy/FlightPistols",
         "/Lotus/Powersuits/Fairy/FlightSword"
@@ -13622,7 +14016,7 @@ module.exports = {
     },
     {
       "bpCost": 25000,
-      "description": "Trinity is great for players who prefer a supportive role. Warframes with healing technology are rare making Trinity a great equalizer when the odds are stacked against the Tenno.",
+      "description": "Trinity embodies redemption and health. Her extraordinary healing powers support allies. Where others destroy, she restores.",
       "imageName": "trinity.png",
       "masteryReq": 0,
       "name": "Trinity",
@@ -13906,7 +14300,7 @@ module.exports = {
     },
     {
       "bpCost": 35000,
-      "description": "Forged in the labs of the Zanuka project, the original Valkyr was subject to cruel experiments, leaving her scarred, angry and frighteningly adept at killing.",
+      "description": "Valkyr was modified into a highly motivated and fearsome killer. She is adept at dealing damage and surviving. Her battle cry strikes terror into all who hear it.",
       "exalted": [
         "/Lotus/Powersuits/Berserker/BerserkerMelee"
       ],
@@ -13976,7 +14370,7 @@ module.exports = {
       "type": "Melee",
       "uniqueName": "/Lotus/Weapons/Grineer/Melee/GunBlade/GrnGunBlade/GrnGunblade",
       "wikiaUrl": "https://warframe.fandom.com/wiki/Vastilok",
-      "acquisition": "Tennocon 2021 Twitch Reward",
+      "acquisition": "Baro Ki'Teer (Relay)",
       "checked": false,
       "unobtainable": false,
       "tierData": true,
@@ -14039,7 +14433,7 @@ module.exports = {
     },
     {
       "bpCost": 35000,
-      "description": "The highly tactical Vauban uses his powers to create deadly traps that can zap, imprison and dimensionally crush enemies.",
+      "description": "Vauban is the model of innovative technology. He deploys clever inventions to provide crowd control. His tenacity and focus make him formidable.",
       "imageName": "vauban.png",
       "masteryReq": 0,
       "name": "Vauban",
@@ -14227,7 +14621,7 @@ module.exports = {
       "bpCost": 15000,
       "description": "When fully charged, the magnetized barrel of the Velocitus accelerates a metal slug to tremendous speeds, piercing hulls and obliterating armor.",
       "imageName": "velocitus.png",
-      "masteryReq": 4,
+      "masteryReq": 0,
       "name": "Velocitus",
       "productCategory": "SpaceGuns",
       "releaseDate": "2014-11-13",
@@ -14382,7 +14776,7 @@ module.exports = {
       "type": "Melee",
       "uniqueName": "/Lotus/Weapons/Tenno/Melee/Warfan/TnMoonWarfan/MoonWarfanWeapon",
       "wikiaUrl": "https://warframe.fandom.com/wiki/Vericres",
-      "acquisition": "Tennocon 2022 Twitch Reward",
+      "acquisition": "Baro Ki'Teer (Relay)",
       "checked": false,
       "unobtainable": false,
       "tierData": false,
@@ -14578,7 +14972,7 @@ module.exports = {
     },
     {
       "bpCost": 35000,
-      "description": "Volt can create and harness electrical elements. This is a high-damage Warframe perfect for players who want a potent alternative to gun-play.",
+      "description": "Electricity flows through Volt. His attacks deal high damage. Enemies will be shocked.",
       "imageName": "volt.png",
       "masteryReq": 0,
       "name": "Volt",
@@ -14615,7 +15009,7 @@ module.exports = {
       "component": false
     },
     {
-      "description": "Four beasts, one heart. Voruna’s loyal wolf pack makes for a deadly combination of strength and stealth. Beware the monstrous howl that heralds fangs of vengeance.",
+      "description": "Four beasts, one heart. Voruna's loyal wolf pack makes for a deadly combination of strength and stealth. Beware the monstrous howl that heralds fangs of vengeance.",
       "imageName": "voruna.png",
       "masteryReq": 0,
       "name": "Voruna",
@@ -14744,7 +15138,7 @@ module.exports = {
       "component": false
     },
     {
-      "description": "Elemental and elusive, Wisp is both guardian and gateway. ",
+      "description": "Wisp floats between the material and the ethereal. She accesses multiple dimensions to support her allies. Her countenance is mysterious and enigmatic.",
       "imageName": "wisp.png",
       "masteryReq": 0,
       "name": "Wisp",
@@ -14755,6 +15149,24 @@ module.exports = {
       "uniqueName": "/Lotus/Powersuits/Wisp/Wisp",
       "wikiaUrl": "https://warframe.fandom.com/wiki/Wisp",
       "acquisition": "Ropalolyst",
+      "checked": false,
+      "unobtainable": false,
+      "tierData": false,
+      "tierRank": 0,
+      "component": false
+    },
+    {
+      "description": "Wisp Prime’s gilded splendor haunts the battlefield. Allies welcome her interdimensional beauty.",
+      "imageName": "wisp-prime.png",
+      "masteryReq": 0,
+      "name": "Wisp Prime",
+      "productCategory": "Suits",
+      "releaseDate": "2023-07-27",
+      "tradable": false,
+      "type": "Warframe",
+      "uniqueName": "/Lotus/Powersuits/Wisp/WispPrime",
+      "wikiaUrl": "https://warframe.fandom.com/wiki/Wisp%2FPrime",
+      "acquisition": "Relics",
       "checked": false,
       "unobtainable": false,
       "tierData": false,
@@ -14788,7 +15200,7 @@ module.exports = {
     },
     {
       "bpCost": 35000,
-      "description": "A primal warrior with the heart of a trickster.",
+      "description": "The simian warrior is a mountain of strength. Wukong deals heavy damage and has high survivability. His quick trickster tactics are unforgettable.",
       "exalted": [
         "/Lotus/Powersuits/MonkeyKing/MonkeyKingStaff"
       ],
@@ -14865,7 +15277,7 @@ module.exports = {
       "wikiaUrl": "http://warframe.wikia.com/wiki/Wyrm_Prime"
     },
     {
-      "description": "Neither he nor she, Xaku is a composite... a Warframe assembly made of others lost in the early Entrati Void expeditions. Xaku has mastered this power of the Void to terrify and bewilder their adversaries.",
+      "description": "Broken Warframes adrift in the Void converged to create Xaku. Together, they deal high damage. Xaku proves that the sum of the whole is greater than its parts.",
       "imageName": "xaku.png",
       "masteryReq": 0,
       "name": "Xaku",
@@ -14908,7 +15320,7 @@ module.exports = {
       "component": false
     },
     {
-      "description": "Always on the move, the vivacious Yareli commands the ocean's fury. The original waverider.",
+      "description": "The waverider can unleash a flood of destruction on the battlefield. Yareli’s aqueous attacks deal high damage. Surf’s up. Enemies down.",
       "imageName": "yareli.png",
       "masteryReq": 0,
       "name": "Yareli",
@@ -15025,7 +15437,7 @@ module.exports = {
     },
     {
       "category": "Rifle",
-      "description": "Deploy the radar disc to reveal hidden enemies and then strike with precisions shots that punch through all obstacles in the way.",
+      "description": "Deploy the radar disc to reveal hidden enemies and then strike with precision shots that punch through all obstacles in the way.",
       "imageName": "zenith.png",
       "masteryReq": 10,
       "name": "Zenith",
@@ -15050,7 +15462,7 @@ module.exports = {
     },
     {
       "bpCost": 35000,
-      "description": "Specializing in air attacks and mobility, Zephyr dominates from above.",
+      "description": "Command the power of the wind. Zephyr’s cyclonic abilities protect her, deal high damage, and provide crowd control. She swoops in from above and leaves a path of destruction.",
       "imageName": "zephyr.png",
       "masteryReq": 0,
       "name": "Zephyr",
@@ -15146,7 +15558,7 @@ module.exports = {
       "type": "Secondary",
       "uniqueName": "/Lotus/Weapons/Tenno/Pistols/ConclaveLeverPistol/ConclaveLeverPistol",
       "wikiaUrl": "https://warframe.fandom.com/wiki/Zylok",
-      "acquisition": "The Pyrys Project (Quest)",
+      "acquisition": "Baro Ki'Teer (Relay)",
       "checked": false,
       "unobtainable": false,
       "tierData": true,
@@ -15184,5 +15596,5 @@ module.exports = {
       "component": false
     }
   ],
-  "fetched": "2023.01.27 08:18:32 CET+01:00"
+  "fetched": "2023.09.09 08:31:10 CET+02:00"
 }

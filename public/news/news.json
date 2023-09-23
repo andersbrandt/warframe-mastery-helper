@@ -1,6 +1,31 @@
 [
 		{
-			"header": "Fixed a bug with missing the icon for weapons used as components",
+			"header": "Added Echoes of Duviri Update",
+			"date": "2023.86.28",
+			"url": "https://www.warframe.com/news/echoes-of-duviri"
+		},
+		{
+			"header": "Added Kullervo Update",
+			"date": "2023.06.22",
+			"url": "https://www.warframe.com/news/the-seven-crimes-of-kullervo"
+		},
+		{
+			"header": "Added The Duviri Paradox",
+			"date": "2023.04.28",
+			"url": "https://www.warframe.com/the-duviri-paradox"
+		},
+		{
+			"header": "Added Hildryn Prime Update",
+			"date": "2023.03.17",
+			"url": "https://www.warframe.com/news/hildryn-prime-access"
+		},
+		{
+			"header": "Added Citrine's Last Wish update",
+			"date": "2023.02.15",
+			"url": "https://www.warframe.com/news/citrines-last-wish"
+		},
+		{
+			"header": "Fixed bug: Weapons used as components were missing icon-indicator",
 			"date": "2022.12.27"
 		},
 		{
