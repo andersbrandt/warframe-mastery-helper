@@ -78,6 +78,7 @@ MIRROR_DEFENSE = "Mirror Defense (Mars)";
 DUVIRI_TESHIN = "Duviri (Teshin's cave)";
 DUVIRI = "Duviri (Enigma Puzzles)";
 ACHRITIS = "Achritis";
+DAGATHS_HOLLOW = "Dagath's Hollow (Dojo)";
 
 // Quests
 CHAINS_OF_HARROW = "Chains of Harrow (Quest)";
@@ -3835,8 +3836,36 @@ var items = [
 		acquisition: BARO_KITEER,
 		id: "/Lotus/Weapons/Grineer/LongGuns/GrnOrokinRifle/GrnOrokinRifleWeapon",
 	},
+	// Grendel Prime
+	{
+		name: "Grendel Prime",
+		acquisition: RELICS,
+		id: "/Lotus/Powersuits/Devourer/GrendelPrime",
+	},
+	{
+		name: "Masseter Prime",
+		acquisition: RELICS,
+		id: "/Lotus/Weapons/Tenno/Melee/Swords/PrimeMasseter/PrimeMasseter",
+	},
+	{
+		name: "Zylok Prime",
+		acquisition: RELICS,
+		id: "/Lotus/Weapons/Tenno/Pistols/PrimeZylok/ZylokPrimePistol",
+	},
+	// Abyss of Dagath Update
+	{
+		name: "Dagath",
+		acquisition: DAGATHS_HOLLOW,
+		id: "/Lotus/Powersuits/Dagath/Dagath",
+	},
+	{
+		name: "Dorrclave",
+		acquisition: DAGATHS_HOLLOW,
+		id: "/Lotus/Weapons/Tenno/Melee/Swords/TnDagathBladeWhip/TnDagathBladeWhip",
+	},
 ];
 
 module.exports = {
 	items: items,
 };
+      

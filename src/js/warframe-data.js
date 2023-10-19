@@ -2988,6 +2988,24 @@ module.exports = {
       "component": false
     },
     {
+      "description": "Never underestimate the power and wrath of sullen sadness. Dagath's malice deals high damage.",
+      "imageName": "dagath.png",
+      "masteryReq": 0,
+      "name": "Dagath",
+      "productCategory": "Suits",
+      "releaseDate": "2023-04-26",
+      "tradable": false,
+      "type": "Warframe",
+      "uniqueName": "/Lotus/Powersuits/Dagath/Dagath",
+      "wikiaUrl": "https://warframe.fandom.com/wiki/Dagath",
+      "acquisition": "Dagath's Hollow (Dojo)",
+      "checked": false,
+      "unobtainable": false,
+      "tierData": false,
+      "tierRank": 0,
+      "component": false
+    },
+    {
       "bpCost": 15000,
       "category": "Rifle",
       "description": "Daikyu takes great strength to draw back, but provides added power and range to every shot.",
@@ -3503,6 +3521,24 @@ module.exports = {
       "type": "Sentinel",
       "imageName": "dorma-hound.png",
       "acquisition": "Sisters of Parvos",
+      "checked": false,
+      "unobtainable": false,
+      "tierData": false,
+      "tierRank": 0,
+      "component": false
+    },
+    {
+      "description": "After 10 kills or assists, Dorrclave enters a spectral state that doubles weapon Follow Through and guarantees Status Effects for the next 10 attacks. In Dagath's hands, each active Status Effect heals her slightly.",
+      "imageName": "dorrclave.png",
+      "masteryReq": 8,
+      "name": "Dorrclave",
+      "productCategory": "Melee",
+      "releaseDate": "2023-10-18",
+      "tradable": false,
+      "type": "Melee",
+      "uniqueName": "/Lotus/Weapons/Tenno/Melee/Swords/TnDagathBladeWhip/TnDagathBladeWhip",
+      "wikiaUrl": "https://warframe.fandom.com/wiki/Dorrclave",
+      "acquisition": "Dagath's Hollow (Dojo)",
       "checked": false,
       "unobtainable": false,
       "tierData": false,
@@ -5082,7 +5118,7 @@ module.exports = {
     },
     {
       "category": "Rifle",
-      "description": "Long before clone-rot set in, elite Grineer Commanders protected the surviving Orokin from rebelling Warframes with these formidable rifles. When Gotva Prime inflicts a Status Effect its next shot has a chance to be a Super Critical hit.",
+      "description": "Long before clone-rot set in, elite Grineer Commanders protected the surviving Orokin from rebelling Warframes with these formidable rifles. When Gotva Prime inflicts a Status Effect, its next shot has a chance to be a Super Critical hit.",
       "imageName": "gotva-prime.png",
       "masteryReq": 14,
       "name": "Gotva Prime",
@@ -5216,6 +5252,24 @@ module.exports = {
       "uniqueName": "/Lotus/Powersuits/Devourer/Devourer",
       "wikiaUrl": "https://warframe.fandom.com/wiki/Grendel",
       "acquisition": "Arbitration Honors Vendor",
+      "checked": false,
+      "unobtainable": false,
+      "tierData": false,
+      "tierRank": 0,
+      "component": false
+    },
+    {
+      "description": "Primal. Insatiable. Grendel Prime devours all who oppose him.",
+      "imageName": "grendel-prime.png",
+      "masteryReq": 0,
+      "name": "Grendel Prime",
+      "productCategory": "Suits",
+      "releaseDate": "2023-10-18",
+      "tradable": false,
+      "type": "Warframe",
+      "uniqueName": "/Lotus/Powersuits/Devourer/GrendelPrime",
+      "wikiaUrl": "https://warframe.fandom.com/wiki/Grendel%2FPrime",
+      "acquisition": "Relics",
       "checked": false,
       "unobtainable": false,
       "tierData": false,
@@ -8154,6 +8208,23 @@ module.exports = {
       "buildLinkDomain": "overframe.gg",
       "combo": "Broken Bull",
       "component": false
+    },
+    {
+      "description": "A greatsword for those with an insatiable hunger for victory. Grendel is immune to crowd-control when he performs Heavy Attacks with this weapon.",
+      "imageName": "masseter-prime.png",
+      "masteryReq": 14,
+      "name": "Masseter Prime",
+      "productCategory": "Melee",
+      "tradable": false,
+      "type": "Melee",
+      "uniqueName": "/Lotus/Weapons/Tenno/Melee/Swords/PrimeMasseter/PrimeMasseter",
+      "acquisition": "Relics",
+      "checked": false,
+      "unobtainable": false,
+      "tierData": false,
+      "tierRank": 0,
+      "component": false,
+      "wikiaUrl": "http://warframe.wikia.com/wiki/Masseter_Prime"
     },
     {
       "acquisition": "Comes with Necramech",
@@ -15572,6 +15643,25 @@ module.exports = {
     },
     {
       "category": "Pistol",
+      "description": "A lightweight weapon that packs a punch worthy of its golden design.",
+      "imageName": "zylok-prime.png",
+      "masteryReq": 13,
+      "name": "Zylok Prime",
+      "productCategory": "Pistols",
+      "tradable": false,
+      "trigger": "Duplex",
+      "type": "Secondary",
+      "uniqueName": "/Lotus/Weapons/Tenno/Pistols/PrimeZylok/ZylokPrimePistol",
+      "acquisition": "Relics",
+      "checked": false,
+      "unobtainable": false,
+      "tierData": false,
+      "tierRank": 0,
+      "component": false,
+      "wikiaUrl": "http://warframe.wikia.com/wiki/Zylok_Prime"
+    },
+    {
+      "category": "Pistol",
       "description": "Infect your foes with this spore-scattering pistol. Headshots burrow in and explode, releasing spore clouds that seek out nearby enemies.",
       "imageName": "zymos.png",
       "masteryReq": 11,
@@ -15596,5 +15686,5 @@ module.exports = {
       "component": false
     }
   ],
-  "fetched": "2023.09.23 08:02:37 CET+02:00"
+  "fetched": "2023.10.19 10:34:42 CET+02:00"
 }
