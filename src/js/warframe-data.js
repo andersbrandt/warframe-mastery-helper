@@ -2993,7 +2993,7 @@ module.exports = {
       "masteryReq": 0,
       "name": "Dagath",
       "productCategory": "Suits",
-      "releaseDate": "2023-04-26",
+      "releaseDate": "2023-10-18",
       "tradable": false,
       "type": "Warframe",
       "uniqueName": "/Lotus/Powersuits/Dagath/Dagath",
@@ -8215,16 +8215,17 @@ module.exports = {
       "masteryReq": 14,
       "name": "Masseter Prime",
       "productCategory": "Melee",
+      "releaseDate": "2023-10-18",
       "tradable": false,
       "type": "Melee",
       "uniqueName": "/Lotus/Weapons/Tenno/Melee/Swords/PrimeMasseter/PrimeMasseter",
+      "wikiaUrl": "https://warframe.fandom.com/wiki/Masseter_Prime",
       "acquisition": "Relics",
       "checked": false,
       "unobtainable": false,
       "tierData": false,
       "tierRank": 0,
-      "component": false,
-      "wikiaUrl": "http://warframe.wikia.com/wiki/Masseter_Prime"
+      "component": false
     },
     {
       "acquisition": "Comes with Necramech",
@@ -15648,17 +15649,18 @@ module.exports = {
       "masteryReq": 13,
       "name": "Zylok Prime",
       "productCategory": "Pistols",
+      "releaseDate": "2023-10-18",
       "tradable": false,
       "trigger": "Duplex",
       "type": "Secondary",
       "uniqueName": "/Lotus/Weapons/Tenno/Pistols/PrimeZylok/ZylokPrimePistol",
+      "wikiaUrl": "https://warframe.fandom.com/wiki/Zylok_Prime",
       "acquisition": "Relics",
       "checked": false,
       "unobtainable": false,
       "tierData": false,
       "tierRank": 0,
-      "component": false,
-      "wikiaUrl": "http://warframe.wikia.com/wiki/Zylok_Prime"
+      "component": false
     },
     {
       "category": "Pistol",
@@ -15686,5 +15688,5 @@ module.exports = {
       "component": false
     }
   ],
-  "fetched": "2023.10.19 10:34:42 CET+02:00"
+  "fetched": "2023.11.08 09:21:33 CET+01:00"
 }

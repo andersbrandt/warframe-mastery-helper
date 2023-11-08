@@ -6,6 +6,9 @@ const webpack = require("webpack");
 const { utils } = require("./src/js/utils.js");
 
 module.exports = {
+
+	stats: 'minimal',
+
   resolve: {
     fallback: { path: require.resolve("path-browserify") },
   },
