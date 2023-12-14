@@ -3972,6 +3972,23 @@ module.exports = {
       "component": false
     },
     {
+      "description": "Wield the timeless power of this mighty hammer. Heavy Attacks performed with Ekhein temporarily increase its Damage and Attack Speed.",
+      "imageName": "ekhein.png",
+      "masteryReq": 10,
+      "name": "Ekhein",
+      "productCategory": "Melee",
+      "tradable": false,
+      "type": "Melee",
+      "uniqueName": "/Lotus/Weapons/Thanotech/EntSphereHammer/EntSphereHammer",
+      "acquisition": "Bird 3 (Sanctum Anatomica)",
+      "checked": false,
+      "unobtainable": false,
+      "tierData": false,
+      "tierRank": 0,
+      "component": false,
+      "wikiaUrl": "http://warframe.wikia.com/wiki/Ekhein"
+    },
+    {
       "category": "Archwing",
       "description": "This heavy duty Archwing was designed for one purpose, destruction.",
       "imageName": "elytron.png",
@@ -8138,6 +8155,24 @@ module.exports = {
       "component": false
     },
     {
+      "description": "Mandonel fires Radiation Damage projectiles. Partially charged shots release a spread and fully charged shots release a beam that dissolves into a radiation field. Projectiles that pass through the field are empowered.",
+      "imageName": "mandonel.png",
+      "masteryReq": 10,
+      "name": "Mandonel",
+      "productCategory": "SpaceGuns",
+      "tradable": false,
+      "trigger": "Charge",
+      "type": "Archwing Gun",
+      "uniqueName": "/Lotus/Weapons/Tenno/Archwing/Primary/TnConcreteArchgun/TnConcreteArchgunWeapon",
+      "acquisition": "Cavia Bounties",
+      "checked": false,
+      "unobtainable": false,
+      "tierData": false,
+      "tierRank": 0,
+      "component": false,
+      "wikiaUrl": "http://warframe.wikia.com/wiki/Mandonel"
+    },
+    {
       "category": "Rifle",
       "description": "For Orokin-era smugglers, this fearsome handheld shotgun was a favored tool for 'dispute resolution'.",
       "imageName": "mara-detron.png",
@@ -10816,6 +10851,24 @@ module.exports = {
       "tierRank": 0,
       "buildLink": "https://overframe.gg/build/27891/",
       "buildLinkDomain": "overframe.gg",
+      "component": false
+    },
+    {
+      "description": "Albrecht Entrati designed Qorvex to protect a Chosen Operator from the unique hazards of his lab. A Crucible Core gives Qorvex high survivability as he provides crowd control.",
+      "imageName": "qorvex.png",
+      "masteryReq": 0,
+      "name": "Qorvex",
+      "productCategory": "Suits",
+      "releaseDate": "2023-12-13",
+      "tradable": false,
+      "type": "Warframe",
+      "uniqueName": "/Lotus/Powersuits/ConcreteFrame/ConcreteFrame",
+      "wikiaUrl": "https://warframe.fandom.com/wiki/Qorvex",
+      "acquisition": "Whispers in the Walls (Quest)",
+      "checked": false,
+      "unobtainable": false,
+      "tierData": false,
+      "tierRank": 0,
       "component": false
     },
     {
@@ -14258,7 +14311,7 @@ module.exports = {
       "type": "Melee",
       "uniqueName": "/Lotus/Weapons/Grineer/Melee/GrnEgyptSwd/DualGrnEgyptSwdWeapon",
       "wikiaUrl": "https://warframe.fandom.com/wiki/Twin_Krohkur",
-      "acquisition": "Market (Orbiter)",
+      "acquisition": "Chem Lab (Dojo)",
       "checked": false,
       "unobtainable": false,
       "tierData": true,
@@ -15688,5 +15741,5 @@ module.exports = {
       "component": false
     }
   ],
-  "fetched": "2023.11.08 09:21:33 CET+01:00"
+  "fetched": "2023.12.14 10:45:59 CET+01:00"
 }

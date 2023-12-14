@@ -79,6 +79,8 @@ DUVIRI_TESHIN = "Duviri (Teshin's cave)";
 DUVIRI = "Duviri (Enigma Puzzles)";
 ACHRITIS = "Achritis";
 DAGATHS_HOLLOW = "Dagath's Hollow (Dojo)";
+BIRD_SANCTUM = "Bird 3 (Sanctum Anatomica)";
+CAVIA_BOUNTIES = "Cavia Bounties";
 
 // Quests
 CHAINS_OF_HARROW = "Chains of Harrow (Quest)";
@@ -105,6 +107,7 @@ TEMPESTARII = "Call of the Tempestarii (Quest)";
 WAVERIDER = "Waverider (Quest)";
 THE_NEW_WAR = "The New War (Quest)";
 DUVIRI_QUEST = "The Duviri Paradox (Quest)";
+WHISPERS_QUEST = "Whispers in the Walls (Quest)";
 
 // Rewards
 ANNIVERSARY = "Anniversary";
@@ -2366,7 +2369,7 @@ var items = [
 	},
 	{
 		name: "Twin Krohkur",
-		acquisition: MARKET,
+		acquisition: DOJO_CHEM_LAB,
 		id: "/Lotus/Weapons/Grineer/Melee/GrnEgyptSwd/DualGrnEgyptSwdWeapon",
 	},
 	{
@@ -3862,6 +3865,22 @@ var items = [
 		name: "Dorrclave",
 		acquisition: DAGATHS_HOLLOW,
 		id: "/Lotus/Weapons/Tenno/Melee/Swords/TnDagathBladeWhip/TnDagathBladeWhip",
+	},
+	// Whispers in the Wall update
+	{
+		name: "Ekhein",
+		acquisition: BIRD_SANCTUM,
+		id: "/Lotus/Weapons/Thanotech/EntSphereHammer/EntSphereHammer",
+	},
+	{
+		name: "Mandonel",
+		acquisition: CAVIA_BOUNTIES,
+		id: "/Lotus/Weapons/Tenno/Archwing/Primary/TnConcreteArchgun/TnConcreteArchgunWeapon",
+	},
+	{
+		name: "Qorvex",
+		acquisition: WHISPERS_QUEST,
+		id: "/Lotus/Powersuits/ConcreteFrame/ConcreteFrame",
 	},
 ];
 
