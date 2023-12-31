@@ -126,5 +126,26 @@ module.exports = function (items) {
 	};
 	items.array.push(hecHoundData);
 
+	var grimoireData = {
+		name: "Grimoire",
+		uniqueName: "/Lotus/Custom/Grimoire",
+		description:
+			"Claim the power of Albrecht Entrati's knowledge.",
+		wikiaUrl: "https://warframe.fandom.com/wiki/Grimoire",
+		tradable: false,
+		masteryReq: 10,
+		productCategory: "Secondary",
+		type: "Secondary",
+		category: "Tome",
+		//imageName: "grimoire.png",
+		acquisition: "Whispers in the Walls (Quest)",
+		checked: false,
+		unobtainable: false,
+		tierData: false,
+		tierRank: 0,
+		component: false,
+	};
+	items.array.push(grimoireData);
+
 	return items;
 };

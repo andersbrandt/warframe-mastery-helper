@@ -3977,16 +3977,17 @@ module.exports = {
       "masteryReq": 10,
       "name": "Ekhein",
       "productCategory": "Melee",
+      "releaseDate": "2023-12-13",
       "tradable": false,
       "type": "Melee",
       "uniqueName": "/Lotus/Weapons/Thanotech/EntSphereHammer/EntSphereHammer",
+      "wikiaUrl": "https://warframe.fandom.com/wiki/Ekhein",
       "acquisition": "Bird 3 (Sanctum Anatomica)",
       "checked": false,
       "unobtainable": false,
       "tierData": false,
       "tierRank": 0,
-      "component": false,
-      "wikiaUrl": "http://warframe.wikia.com/wiki/Ekhein"
+      "component": false
     },
     {
       "category": "Archwing",
@@ -5287,6 +5288,23 @@ module.exports = {
       "uniqueName": "/Lotus/Powersuits/Devourer/GrendelPrime",
       "wikiaUrl": "https://warframe.fandom.com/wiki/Grendel%2FPrime",
       "acquisition": "Relics",
+      "checked": false,
+      "unobtainable": false,
+      "tierData": false,
+      "tierRank": 0,
+      "component": false
+    },
+    {
+      "name": "Grimoire",
+      "uniqueName": "/Lotus/Custom/Grimoire",
+      "description": "Claim the power of Albrecht Entrati's knowledge.",
+      "wikiaUrl": "https://warframe.fandom.com/wiki/Grimoire",
+      "tradable": false,
+      "masteryReq": 10,
+      "productCategory": "Secondary",
+      "type": "Secondary",
+      "category": "Tome",
+      "acquisition": "Whispers in the Walls (Quest)",
       "checked": false,
       "unobtainable": false,
       "tierData": false,
@@ -15741,5 +15759,5 @@ module.exports = {
       "component": false
     }
   ],
-  "fetched": "2023.12.14 10:45:59 CET+01:00"
+  "fetched": "2023.12.31 05:58:20 CET+01:00"
 }
