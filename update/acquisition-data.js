@@ -3882,9 +3882,26 @@ var items = [
 		acquisition: WHISPERS_QUEST,
 		id: "/Lotus/Powersuits/ConcreteFrame/ConcreteFrame",
 	},
+	// Gauss Prime Update
+	{
+		name: "Acceltra Prime",
+		acquisition: RELICS,
+		id: "/Lotus/Weapons/Tenno/LongGuns/PrimeAcceltra/PrimeAcceltraWeapon",
+	},
+	{
+		name: "Akarius Prime",
+		acquisition: RELICS,
+		id: "/Lotus/Weapons/Tenno/Pistols/PrimeAkarius/PrimeAkariusWeapon",
+	},
+	{
+		name: "Gauss Prime",
+		acquisition: RELICS,
+		id: "/Lotus/Powersuits/Runner/GaussPrime",
+	},
 ];
 
 module.exports = {
 	items: items,
 };
+      
       

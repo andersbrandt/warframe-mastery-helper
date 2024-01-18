@@ -26,6 +26,26 @@ module.exports = {
       "component": false
     },
     {
+      "category": "Rifle",
+      "description": "Engage your enemies with deadly speed. This weapon reloads even faster when its wielder sprints, faster still with Gauss.",
+      "imageName": "acceltra-prime.png",
+      "masteryReq": 14,
+      "name": "Acceltra Prime",
+      "productCategory": "LongGuns",
+      "releaseDate": "2024-01-17",
+      "tradable": false,
+      "trigger": "Auto",
+      "type": "Primary",
+      "uniqueName": "/Lotus/Weapons/Tenno/LongGuns/PrimeAcceltra/PrimeAcceltraWeapon",
+      "wikiaUrl": "https://warframe.fandom.com/wiki/Acceltra_Prime",
+      "acquisition": "Relics",
+      "checked": false,
+      "unobtainable": false,
+      "tierData": false,
+      "tierRank": 0,
+      "component": false
+    },
+    {
       "bpCost": 15000,
       "description": "Tyl Regor’s custom axe and shield are how he likes to eliminate ‘frustrations’.",
       "imageName": "ack-&-brunt.png",
@@ -242,6 +262,26 @@ module.exports = {
       "tierRank": 0,
       "buildLink": "https://overframe.gg/build/27841/",
       "buildLinkDomain": "overframe.gg",
+      "component": false
+    },
+    {
+      "category": "Pistol",
+      "description": "Wield a golden pair of rocket launchers. Sprint to reload them faster. They reload fastest when wielded by Gauss.",
+      "imageName": "akarius-prime.png",
+      "masteryReq": 14,
+      "name": "Akarius Prime",
+      "productCategory": "Pistols",
+      "releaseDate": "2024-01-17",
+      "tradable": false,
+      "trigger": "Burst",
+      "type": "Secondary",
+      "uniqueName": "/Lotus/Weapons/Tenno/Pistols/PrimeAkarius/PrimeAkariusWeapon",
+      "wikiaUrl": "https://warframe.fandom.com/wiki/Akarius_Prime",
+      "acquisition": "Relics",
+      "checked": false,
+      "unobtainable": false,
+      "tierData": false,
+      "tierRank": 0,
       "component": false
     },
     {
@@ -4941,6 +4981,24 @@ module.exports = {
       "component": false
     },
     {
+      "description": "Quicksilver takes form. Gauss Prime brooks no talk of defeat.",
+      "imageName": "gauss-prime.png",
+      "masteryReq": 0,
+      "name": "Gauss Prime",
+      "productCategory": "Suits",
+      "releaseDate": "2024-01-17",
+      "tradable": false,
+      "type": "Warframe",
+      "uniqueName": "/Lotus/Powersuits/Runner/GaussPrime",
+      "wikiaUrl": "https://warframe.fandom.com/wiki/Gauss%2FPrime",
+      "acquisition": "Relics",
+      "checked": false,
+      "unobtainable": false,
+      "tierData": false,
+      "tierRank": 0,
+      "component": false
+    },
+    {
       "bpCost": 15000,
       "description": "Each kill with this swooping blade adds bonus damage to the Djinn Sentinel’s next Fatal Attraction ability. In turn, Fatal Attraction bestows the weapon with a period of <DT_CORROSIVE>Corrosive Damage.",
       "imageName": "gazal-machete.png",
@@ -5259,6 +5317,7 @@ module.exports = {
       "component": false
     },
     {
+      "bpCost": 35000,
       "description": "Grendel sees every battlefield as a smorgasbord. His insatiable appetite rewards him with high survivability. Enemies will be eaten. And regurgitated.",
       "imageName": "grendel.png",
       "masteryReq": 0,
@@ -8178,17 +8237,18 @@ module.exports = {
       "masteryReq": 10,
       "name": "Mandonel",
       "productCategory": "SpaceGuns",
+      "releaseDate": "2023-12-13",
       "tradable": false,
       "trigger": "Charge",
       "type": "Archwing Gun",
       "uniqueName": "/Lotus/Weapons/Tenno/Archwing/Primary/TnConcreteArchgun/TnConcreteArchgunWeapon",
+      "wikiaUrl": "https://warframe.fandom.com/wiki/Mandonel",
       "acquisition": "Cavia Bounties",
       "checked": false,
       "unobtainable": false,
       "tierData": false,
       "tierRank": 0,
-      "component": false,
-      "wikiaUrl": "http://warframe.wikia.com/wiki/Mandonel"
+      "component": false
     },
     {
       "category": "Rifle",
@@ -15759,5 +15819,5 @@ module.exports = {
       "component": false
     }
   ],
-  "fetched": "2023.12.31 05:58:20 CET+01:00"
+  "fetched": "2024.01.18 09:20:49 CET+01:00"
 }
