@@ -81,6 +81,7 @@ ACHRITIS = "Achritis";
 DAGATHS_HOLLOW = "Dagath's Hollow (Dojo)";
 BIRD_SANCTUM = "Bird 3 (Sanctum Anatomica)";
 CAVIA_BOUNTIES = "Cavia Bounties";
+ARMATUS_DISRUPTION = "Armatus Disruption (Deimos)"
 
 // Quests
 CHAINS_OF_HARROW = "Chains of Harrow (Quest)";
@@ -3898,10 +3899,55 @@ var items = [
 		acquisition: RELICS,
 		id: "/Lotus/Powersuits/Runner/GaussPrime",
 	},
+	// Dante Unbound Update
+	{
+		name: "Dante",
+		acquisition: ARMATUS_DISRUPTION,
+		id: "/Lotus/Powersuits/Pagemaster/Pagemaster",
+	},
+	{
+		name: "Dex Nikana",
+		acquisition: ANNIVERSARY,
+		id: "/Lotus/Weapons/Tenno/Melee/Swords/KatanaAndWakizashi/Dex2023Nikana/Dex2023Nikana",
+	},
+	{
+		name: "Onos",
+		acquisition: ARMATUS_DISRUPTION,
+		id: "/Lotus/Weapons/Thanotech/EntratiWristGun/EntratiWristGunWeapon",
+	},
+	{
+		name: "Ruvox",
+		acquisition: ARMATUS_DISRUPTION,
+		id: "/Lotus/Weapons/Thanotech/EntFistIncarnon/EntFistIncarnon",
+	},
 ];
 
 module.exports = {
 	items: items,
 };
       
+      
+  // {
+  //   name: "Dante",
+  //   acquisition: UNKNOWN,
+  //   id: "/Lotus/Powersuits/Pagemaster/Pagemaster"
+  // },
+      
+  // {
+  //   name: "Dex Nikana",
+  //   acquisition: UNKNOWN,
+  //   id: "/Lotus/Weapons/Tenno/Melee/Swords/KatanaAndWakizashi/Dex2023Nikana/Dex2023Nikana"
+  // },
+      
+  // {
+  //   name: "Onos",
+  //   acquisition: UNKNOWN,
+  //   id: "/Lotus/Weapons/Thanotech/EntratiWristGun/EntratiWristGunWeapon"
+  // },
+      
+  // {
+  //   name: "Ruvox",
+  //   acquisition: UNKNOWN,
+  //   id: "/Lotus/Weapons/Thanotech/EntFistIncarnon/EntFistIncarnon"
+  // },
       
