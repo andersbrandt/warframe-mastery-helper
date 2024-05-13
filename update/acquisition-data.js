@@ -3920,34 +3920,24 @@ var items = [
 		acquisition: ARMATUS_DISRUPTION,
 		id: "/Lotus/Weapons/Thanotech/EntFistIncarnon/EntFistIncarnon",
 	},
+	// Protea Prime Update
+	{
+		name: "Okina Prime",
+		acquisition: RELICS,
+		id: "/Lotus/Weapons/Tenno/Melee/Swords/PrimeOkina/PrimeOkina",
+	},
+	{
+		name: "Protea Prime",
+		acquisition: RELICS,
+		id: "/Lotus/Powersuits/Odalisk/ProteaPrime",
+	},
+	{
+		name: "Velox Prime",
+		acquisition: RELICS,
+		id: "/Lotus/Weapons/Tenno/Pistols/PrimeVelox/PrimeVeloxPistol",
+	},
 ];
 
 module.exports = {
 	items: items,
 };
-      
-      
-  // {
-  //   name: "Dante",
-  //   acquisition: UNKNOWN,
-  //   id: "/Lotus/Powersuits/Pagemaster/Pagemaster"
-  // },
-      
-  // {
-  //   name: "Dex Nikana",
-  //   acquisition: UNKNOWN,
-  //   id: "/Lotus/Weapons/Tenno/Melee/Swords/KatanaAndWakizashi/Dex2023Nikana/Dex2023Nikana"
-  // },
-      
-  // {
-  //   name: "Onos",
-  //   acquisition: UNKNOWN,
-  //   id: "/Lotus/Weapons/Thanotech/EntratiWristGun/EntratiWristGunWeapon"
-  // },
-      
-  // {
-  //   name: "Ruvox",
-  //   acquisition: UNKNOWN,
-  //   id: "/Lotus/Weapons/Thanotech/EntFistIncarnon/EntFistIncarnon"
-  // },
-      

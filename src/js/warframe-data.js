@@ -3118,7 +3118,7 @@ module.exports = {
       "masteryReq": 0,
       "name": "Dante",
       "productCategory": "Suits",
-      "releaseDate": "2024-02-27",
+      "releaseDate": "2024-03-27",
       "tradable": false,
       "type": "Warframe",
       "uniqueName": "/Lotus/Powersuits/Pagemaster/Pagemaster",
@@ -3521,7 +3521,7 @@ module.exports = {
       "masteryReq": 8,
       "name": "Dex Nikana",
       "productCategory": "Melee",
-      "releaseDate": "2024-02-27",
+      "releaseDate": "2024-03-27",
       "tradable": false,
       "type": "Melee",
       "uniqueName": "/Lotus/Weapons/Tenno/Melee/Swords/KatanaAndWakizashi/Dex2023Nikana/Dex2023Nikana",
@@ -9613,6 +9613,25 @@ module.exports = {
       "component": false
     },
     {
+      "description": "Enforce authority with these fine-edged blades.",
+      "imageName": "okina-prime.png",
+      "masteryReq": 12,
+      "name": "Okina Prime",
+      "productCategory": "Melee",
+      "releaseDate": "2024-05-01",
+      "tradable": false,
+      "type": "Melee",
+      "uniqueName": "/Lotus/Weapons/Tenno/Melee/Swords/PrimeOkina/PrimeOkina",
+      "vaulted": false,
+      "wikiaUrl": "https://warframe.fandom.com/wiki/Okina_Prime",
+      "acquisition": "Relics",
+      "checked": false,
+      "unobtainable": false,
+      "tierData": false,
+      "tierRank": 0,
+      "component": false
+    },
+    {
       "description": "",
       "imageName": "oloro-moa.png",
       "masteryReq": 0,
@@ -9655,7 +9674,7 @@ module.exports = {
       "masteryReq": 14,
       "name": "Onos",
       "productCategory": "Pistols",
-      "releaseDate": "2022-04-27",
+      "releaseDate": "2024-03-27",
       "tradable": false,
       "trigger": "Auto",
       "type": "Secondary",
@@ -10880,6 +10899,24 @@ module.exports = {
       "component": false
     },
     {
+      "description": "Behold the child of two fathers. Protea Prime once fulfilled Parvos Granum's vision of a time-wielding guardian. Now she upholds the Tenno ideal of defending the defenseless.",
+      "imageName": "protea-prime.png",
+      "masteryReq": 0,
+      "name": "Protea Prime",
+      "productCategory": "Suits",
+      "releaseDate": "2024-05-01",
+      "tradable": false,
+      "type": "Warframe",
+      "uniqueName": "/Lotus/Powersuits/Odalisk/ProteaPrime",
+      "wikiaUrl": "https://warframe.fandom.com/wiki/Protea%2FPrime",
+      "acquisition": "Relics",
+      "checked": false,
+      "unobtainable": false,
+      "tierData": false,
+      "tierRank": 0,
+      "component": false
+    },
+    {
       "bpCost": 15000,
       "description": "The Prova is a Melee Weapon that delivers a high-intensity shock to its target.",
       "imageName": "prova.png",
@@ -11647,7 +11684,7 @@ module.exports = {
       "masteryReq": 14,
       "name": "Ruvox",
       "productCategory": "Melee",
-      "releaseDate": "2024-02-27",
+      "releaseDate": "2024-03-27",
       "tradable": false,
       "type": "Melee",
       "uniqueName": "/Lotus/Weapons/Thanotech/EntFistIncarnon/EntFistIncarnon",
@@ -14981,6 +15018,27 @@ module.exports = {
       "component": false
     },
     {
+      "category": "Pistol",
+      "description": "This sidearm’s circular design evokes Protea Prime’s perception of time.",
+      "imageName": "velox-prime.png",
+      "masteryReq": 13,
+      "name": "Velox Prime",
+      "productCategory": "Pistols",
+      "releaseDate": "2024-05-01",
+      "tradable": false,
+      "trigger": "Auto",
+      "type": "Secondary",
+      "uniqueName": "/Lotus/Weapons/Tenno/Pistols/PrimeVelox/PrimeVeloxPistol",
+      "vaulted": false,
+      "wikiaUrl": "https://warframe.fandom.com/wiki/Velox_Prime",
+      "acquisition": "Relics",
+      "checked": false,
+      "unobtainable": false,
+      "tierData": false,
+      "tierRank": 0,
+      "component": false
+    },
+    {
       "bpCost": 15000,
       "description": "Caliban’s signature scythe, forged from a limb wrenched off a fallen Eidolon centuries ago. 50% increased Melee Combo Counter Chance when wielded by Caliban.",
       "imageName": "venato.png",
@@ -15935,5 +15993,5 @@ module.exports = {
       "component": false
     }
   ],
-  "fetched": "2024.03.28 04:02:21 CET+01:00"
+  "fetched": "2024.05.13 12:54:23 CET+02:00"
 }
