@@ -3936,8 +3936,22 @@ var items = [
 		acquisition: RELICS,
 		id: "/Lotus/Weapons/Tenno/Pistols/PrimeVelox/PrimeVeloxPistol",
 	},
+	// Update 35.6
+	{
+	  name: "Kuva Sobek",
+	  acquisition: KUVA_LICH,
+	  id: "/Lotus/Weapons/Grineer/KuvaLich/LongGuns/Sobek/KuvaSobek"
+	},
+
+	{
+	  name: "Tenet Glaxion",
+	  acquisition: SISTERS_PARVOS,
+	  id: "/Lotus/Weapons/Corpus/BoardExec/Primary/CrpBEGlaxion/CrpBEGlaxion"
+	},
 ];
 
 module.exports = {
 	items: items,
 };
+
+     

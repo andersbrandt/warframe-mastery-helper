@@ -7578,6 +7578,27 @@ module.exports = {
     },
     {
       "category": "Rifle",
+      "description": "The Kuva Sobek’s exceptional Reload Speed, Critical Chance, and Status Chance make it a natural fit for the Kuva Lich’s dominant spirit.",
+      "imageName": "kuva-sobek.png",
+      "masteryReq": 15,
+      "maxLevelCap": 40,
+      "name": "Kuva Sobek",
+      "productCategory": "LongGuns",
+      "releaseDate": "2024-03-27",
+      "tradable": false,
+      "trigger": "Auto",
+      "type": "Primary",
+      "uniqueName": "/Lotus/Weapons/Grineer/KuvaLich/LongGuns/Sobek/KuvaSobek",
+      "wikiaUrl": "https://warframe.fandom.com/wiki/Kuva_Sobek",
+      "acquisition": "Kuva Lich",
+      "checked": false,
+      "unobtainable": false,
+      "tierData": false,
+      "tierRank": 0,
+      "component": false
+    },
+    {
+      "category": "Rifle",
       "description": "This Lich-variant grenade launcher hurls mayhem and destruction with an increased Reload Speed.",
       "imageName": "kuva-tonkor.png",
       "masteryReq": 13,
@@ -13914,6 +13935,27 @@ module.exports = {
       "component": false
     },
     {
+      "category": "Rifle",
+      "description": "Advances in microelectronics have improved a Corpus classic. Tenet Glaxion’s photon beam strikes up to four enemies at once. It also boasts superior Damage, Critical Chance, and Status Chance.",
+      "imageName": "tenet-glaxion.png",
+      "masteryReq": 16,
+      "maxLevelCap": 40,
+      "name": "Tenet Glaxion",
+      "productCategory": "LongGuns",
+      "releaseDate": "2024-03-27",
+      "tradable": false,
+      "trigger": "Held",
+      "type": "Primary",
+      "uniqueName": "/Lotus/Weapons/Corpus/BoardExec/Primary/CrpBEGlaxion/CrpBEGlaxion",
+      "wikiaUrl": "https://warframe.fandom.com/wiki/Tenet_Glaxion",
+      "acquisition": "Sisters of Parvos",
+      "checked": false,
+      "unobtainable": false,
+      "tierData": false,
+      "tierRank": 0,
+      "component": false
+    },
+    {
       "description": "On Heavy Slide Attack, this Corpus scythe launches a spinning energy disk that ricochets throughout the battlefield. Its lifetime is derived from the size of the Combo Counter. Note: The Granum Attaché system pauses the combo timer when holstered.",
       "imageName": "tenet-grigori.png",
       "masteryReq": 14,
@@ -15993,5 +16035,5 @@ module.exports = {
       "component": false
     }
   ],
-  "fetched": "2024.05.13 12:54:23 CET+02:00"
+  "fetched": "2024.06.15 02:58:49 CET+02:00"
 }
