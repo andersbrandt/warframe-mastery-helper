@@ -3955,3 +3955,51 @@ module.exports = {
 };
 
      
+  // {
+  //   name: "Cantare",
+  //   acquisition: UNKNOWN,
+  //   id: "/Lotus/Weapons/Tenno/ThrowingWeapons/TnChoirframeKunai/TnChoirframeKunai"
+  // },
+      
+  // {
+  //   name: "Evensong",
+  //   acquisition: UNKNOWN,
+  //   id: "/Lotus/Weapons/Tenno/Bows/TnChoirBow/TnChoirBow"
+  // },
+      
+  // {
+  //   name: "Harmony",
+  //   acquisition: UNKNOWN,
+  //   id: "/Lotus/Weapons/Tenno/Melee/Scythe/TnChoirScythe/TnChoirScythe"
+  // },
+      
+  // {
+  //   name: "Jade",
+  //   acquisition: UNKNOWN,
+  //   id: "/Lotus/Powersuits/Choir/Choir"
+  // },
+      
+  // {
+  //   name: "Cantare",
+  //   acquisition: UNKNOWN,
+  //   id: "/Lotus/Weapons/Tenno/ThrowingWeapons/TnChoirframeKunai/TnChoirframeKunai"
+  // },
+      
+  // {
+  //   name: "Evensong",
+  //   acquisition: UNKNOWN,
+  //   id: "/Lotus/Weapons/Tenno/Bows/TnChoirBow/TnChoirBow"
+  // },
+      
+  // {
+  //   name: "Harmony",
+  //   acquisition: UNKNOWN,
+  //   id: "/Lotus/Weapons/Tenno/Melee/Scythe/TnChoirScythe/TnChoirScythe"
+  // },
+      
+  // {
+  //   name: "Jade",
+  //   acquisition: UNKNOWN,
+  //   id: "/Lotus/Powersuits/Choir/Choir"
+  // },
+      

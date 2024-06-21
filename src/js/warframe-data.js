@@ -289,7 +289,7 @@ module.exports = {
     },
     {
       "category": "Hound attack",
-      "description": "Hound melee attacks eviscerate with Puncture and Slash damage.",
+      "description": "Hound melee attacks eviscerate with <DT_PUNCTURE>Puncture and <DT_SLASH>Slash Damage.",
       "excludeFromCodex": true,
       "imageName": "akaten.png",
       "masteryReq": 0,
@@ -715,7 +715,7 @@ module.exports = {
     },
     {
       "category": "Rifle",
-      "description": "Gyre’s signature weapon has two fire modes. Primary fire shocks enemies with electrical orbs. Alternate fire is a large ball of electricity that sticks to any surface and pulses Electricity before it explodes. In Gyre's hands, the weapon has a small amount of multishot.",
+      "description": "Gyre’s signature weapon has two fire modes. Primary fire shocks enemies with electrical orbs. Alternate fire is a large ball of electricity that sticks to any surface and pulses <DT_ELECTRICITY>Electricity before it explodes. In Gyre's hands, the weapon has a small amount of multishot.",
       "imageName": "alternox.png",
       "masteryReq": 8,
       "name": "Alternox",
@@ -1545,7 +1545,7 @@ module.exports = {
     },
     {
       "category": "Hound attack",
-      "description": "Hound melee attacks pierce hard with Impact and Puncture damage.",
+      "description": "Hound melee attacks pierce hard with <DT_IMPACT>Impact and <DT_PUNCTURE>Puncture Damage.",
       "excludeFromCodex": true,
       "imageName": "batoten.png",
       "masteryReq": 0,
@@ -2161,7 +2161,7 @@ module.exports = {
       "productCategory": "LongGuns",
       "releaseDate": "2014-09-17",
       "tradable": false,
-      "trigger": "Semi",
+      "trigger": "Auto",
       "type": "Primary",
       "uniqueName": "/Lotus/Weapons/Grineer/LongGuns/GrnGorgSniperRifle/GrnGorgSniperRifle",
       "wikiaUrl": "https://warframe.fandom.com/wiki/Buzlok",
@@ -2223,6 +2223,26 @@ module.exports = {
       "component": false
     },
     {
+      "category": "Throwing",
+      "description": "In moments of despair, let the battle resonate with song. Cantare's blades lodge into the battlefield and return upon reload. When returning blades strike enemies, Cantare empowers allies with increased Reload Speed.Experience the true power of Jade’s Ensemble when Evensong, Cantare, and Harmony sing together.",
+      "imageName": "cantare.png",
+      "masteryReq": 10,
+      "name": "Cantare",
+      "productCategory": "Pistols",
+      "releaseDate": "2024-06-18",
+      "tradable": false,
+      "trigger": "Auto",
+      "type": "Secondary",
+      "uniqueName": "/Lotus/Weapons/Tenno/ThrowingWeapons/TnChoirframeKunai/TnChoirframeKunai",
+      "wikiaUrl": "https://warframe.fandom.com/wiki/Cantare",
+      "acquisition": "Acquisition: Unknown",
+      "checked": false,
+      "unobtainable": false,
+      "tierData": false,
+      "tierRank": 0,
+      "component": false
+    },
+    {
       "description": "",
       "imageName": "cantic-prism.png",
       "masteryReq": 0,
@@ -2261,7 +2281,7 @@ module.exports = {
       "component": false
     },
     {
-      "description": "With 'Assault Mode' and 'Ammo Case' as default Precepts, Carrier is a seeker Sentinel. Carrier also comes with a shotgun weapon.Note: This item requires two open slots.",
+      "description": "With 'Assault Mode' and 'Ammo Case' as default Precepts, Carrier is a seeker Sentinel. Carrier also comes with a shotgun weapon.",
       "imageName": "carrier.png",
       "name": "Carrier",
       "productCategory": "Sentinels",
@@ -2952,7 +2972,7 @@ module.exports = {
     {
       "bpCost": 15000,
       "category": "Pistol",
-      "description": "Sentient tech merges with Corpus design to deliver this lethal sidearm. Fully automatic, it fires ricocheting, homing projectiles that release small clouds of Gas on impact. Alt-fire to release the entire magazine without homing as a single burst.",
+      "description": "Sentient tech merges with Corpus design to deliver this lethal sidearm. Fully automatic, it fires ricocheting, homing projectiles that release small clouds of <DT_GAS>Gas on impact. Alt-fire to release the entire magazine without homing as a single burst.",
       "imageName": "cyanex.png",
       "masteryReq": 8,
       "name": "Cyanex",
@@ -3412,7 +3432,7 @@ module.exports = {
       "component": false
     },
     {
-      "description": "With 'Assault Mode' and 'Vaporize' as default precepts, Dethcube acts exactly as advertised, as a badass cube of 'deth'. Comes loaded with Deth Machine Rifle weapon.Note: This item requires two open slots.",
+      "description": "With 'Assault Mode' and 'Vaporize' as default precepts, Dethcube acts exactly as advertised, as a badass cube of 'deth'. Comes loaded with Deth Machine Rifle weapon.",
       "imageName": "dethcube.png",
       "name": "Dethcube",
       "productCategory": "Sentinels",
@@ -3428,7 +3448,7 @@ module.exports = {
       "wikiaUrl": "http://warframe.wikia.com/wiki/Dethcube"
     },
     {
-      "description": "With 'Assault Mode' and 'Vaporize' as default precepts, Dethcube Prime is the apex of lethal support. Comes loaded with Deth Machine Rifle Prime weapon.Note: This item requires two open slots.",
+      "description": "With 'Assault Mode' and 'Vaporize' as default precepts, Dethcube Prime is the apex of lethal support. Comes loaded with Deth Machine Rifle Prime weapon.",
       "imageName": "dethcube-prime.png",
       "name": "Dethcube Prime",
       "productCategory": "Sentinels",
@@ -3554,7 +3574,7 @@ module.exports = {
       "component": false
     },
     {
-      "description": "Diriga shocks nearby enemies, and picks off distant threats, utilizing the Vulklok sniper rifle and the 'Calculated Shot', 'Arc Coil' and 'Electro Pulse' precepts.Note: This item requires two open slots.",
+      "description": "Diriga shocks nearby enemies, and picks off distant threats, utilizing the Vulklok sniper rifle and the 'Calculated Shot', 'Arc Coil' and 'Electro Pulse' precepts.",
       "imageName": "diriga.png",
       "name": "Diriga",
       "productCategory": "Sentinels",
@@ -3570,7 +3590,7 @@ module.exports = {
       "wikiaUrl": "http://warframe.wikia.com/wiki/Diriga"
     },
     {
-      "description": "With 'Thumper' and 'Fatal Attraction' as default Precepts, Djinn is a combat Sentinel. Djinn also comes with a poison dart weapon.Note: This item requires two open slots.",
+      "description": "With 'Thumper' and 'Fatal Attraction' as default Precepts, Djinn is a combat Sentinel. Djinn also comes with a poison dart weapon.",
       "imageName": "djinn.png",
       "name": "Djinn",
       "productCategory": "Sentinels",
@@ -4355,6 +4375,26 @@ module.exports = {
       "tierRank": 0,
       "buildLink": "https://overframe.gg/build/27862/",
       "buildLinkDomain": "overframe.gg",
+      "component": false
+    },
+    {
+      "category": "Rifle",
+      "description": "Counter the dread of battle with a song of praise. Enemies cannot hurt your allies while wounded by Evensong's arrows. Kills with Evensong empower ally weapons with Multishot.Experience the true power of Jade’s Ensemble when Evensong, Cantare, and Harmony sing together.",
+      "imageName": "evensong.png",
+      "masteryReq": 10,
+      "name": "Evensong",
+      "productCategory": "LongGuns",
+      "releaseDate": "2024-06-18",
+      "tradable": false,
+      "trigger": "Charge",
+      "type": "Primary",
+      "uniqueName": "/Lotus/Weapons/Tenno/Bows/TnChoirBow/TnChoirBow",
+      "wikiaUrl": "https://warframe.fandom.com/wiki/Evensong",
+      "acquisition": "Acquisition: Unknown",
+      "checked": false,
+      "unobtainable": false,
+      "tierData": false,
+      "tierRank": 0,
       "component": false
     },
     {
@@ -5603,6 +5643,24 @@ module.exports = {
       "component": false
     },
     {
+      "description": "Harmony triumphs over hate. Heavy Attacks condense Status Effect damage into a single instance. Heavy Attack kills empower allies with increased Status Duration.Experience the true power of Jade’s Ensemble when Evensong, Cantare, and Harmony sing together.",
+      "imageName": "harmony.png",
+      "masteryReq": 10,
+      "name": "Harmony",
+      "productCategory": "Melee",
+      "releaseDate": "2024-06-18",
+      "tradable": false,
+      "type": "Melee",
+      "uniqueName": "/Lotus/Weapons/Tenno/Melee/Scythe/TnChoirScythe/TnChoirScythe",
+      "wikiaUrl": "https://warframe.fandom.com/wiki/Harmony",
+      "acquisition": "Acquisition: Unknown",
+      "checked": false,
+      "unobtainable": false,
+      "tierData": false,
+      "tierRank": 0,
+      "component": false
+    },
+    {
       "bpCost": 40000,
       "category": "Rifle",
       "description": "Spike enemies to the wall or reel them in with this burst harpoon gun.",
@@ -5797,7 +5855,7 @@ module.exports = {
       "component": false
     },
     {
-      "description": "With 'Investigator' as its unique Precept and 'Deconstructor' as its weapon, the versatile Helios Sentinel acts as both a lethal guardian and an automatic codex scanner. Scans require an equipped Codex Scanner and an available charge.Note: This item requires two open slots.",
+      "description": "With 'Investigator' as its unique Precept and 'Deconstructor' as its weapon, the versatile Helios Sentinel acts as both a lethal guardian and an automatic codex scanner. Scans require an equipped Codex Scanner and an available charge.",
       "imageName": "helios.png",
       "name": "Helios",
       "productCategory": "Sentinels",
@@ -6350,6 +6408,27 @@ module.exports = {
       "vaulted": true,
       "wikiaUrl": "https://warframe.fandom.com/wiki/Ivara%2FPrime",
       "acquisition": "Relics",
+      "checked": false,
+      "unobtainable": false,
+      "tierData": false,
+      "tierRank": 0,
+      "component": false
+    },
+    {
+      "description": "Become enraptured by the song of devastation. Through her, the Jade Light can be a force of destruction or a source of support.",
+      "exalted": [
+        "/Lotus/Powersuits/Choir/ChoirEruptWeapon"
+      ],
+      "imageName": "jade.png",
+      "masteryReq": 0,
+      "name": "Jade",
+      "productCategory": "Suits",
+      "releaseDate": "2024-06-18",
+      "tradable": false,
+      "type": "Warframe",
+      "uniqueName": "/Lotus/Powersuits/Choir/Choir",
+      "wikiaUrl": "https://warframe.fandom.com/wiki/Jade",
+      "acquisition": "Acquisition: Unknown",
       "checked": false,
       "unobtainable": false,
       "tierData": false,
@@ -7584,7 +7663,7 @@ module.exports = {
       "maxLevelCap": 40,
       "name": "Kuva Sobek",
       "productCategory": "LongGuns",
-      "releaseDate": "2024-03-27",
+      "releaseDate": "2024-05-15",
       "tradable": false,
       "trigger": "Auto",
       "type": "Primary",
@@ -7691,7 +7770,7 @@ module.exports = {
     },
     {
       "category": "Hound attack",
-      "description": "Hound melee attacks devastate with Impact and Slash damage.",
+      "description": "Hound melee attacks devastate with <DT_IMPACT>Impact and <DT_SLASH>Slash Damage.",
       "excludeFromCodex": true,
       "imageName": "lacerten.png",
       "masteryReq": 0,
@@ -8320,7 +8399,7 @@ module.exports = {
       "component": false
     },
     {
-      "description": "Mandonel fires Radiation Damage projectiles. Partially charged shots release a spread and fully charged shots release a beam that dissolves into a radiation field. Projectiles that pass through the field are empowered.",
+      "description": "Mandonel fires <DT_RADIATION>Radiation Damage projectiles. Partially charged shots release a spread and fully charged shots release a beam that dissolves into a radiation field. Projectiles that pass through the field are empowered.",
       "imageName": "mandonel.png",
       "masteryReq": 10,
       "name": "Mandonel",
@@ -8888,7 +8967,7 @@ module.exports = {
     {
       "bpCost": 40000,
       "category": "Rifle",
-      "description": "Slash targets with a single precise bolt from Garuda's signature crossbow. Alt-fire to let loose a barrage of bolts. All bolts have a chance to cause Bleeding and Headshots have a chance to increase Reload Speed. When wielded by Garuda Nagantaka gains a slight Punch Through.",
+      "description": "Slash targets with a single precise bolt from Garuda's signature crossbow. Alt-fire to let loose a barrage of bolts. All bolts have a chance to cause <DT_SLASH>Slash Status, and Headshots have a chance to increase Reload Speed. When wielded by Garuda Nagantaka gains a slight Punch Through.",
       "imageName": "nagantaka.png",
       "masteryReq": 9,
       "name": "Nagantaka",
@@ -8913,7 +8992,7 @@ module.exports = {
     },
     {
       "category": "Rifle",
-      "description": "A golden version of Garuda’s versatile crossbow, as fashioned by the Orokin’s finest weaponsmiths. Alt-fire to let loose a barrage of bolts. All bolts have a chance to cause Bleeding, and Headshot kills have a chance to increase Reload Speed. When wielded by Garuda the Nagantaka gains a slight Punch Through.",
+      "description": "A golden version of Garuda’s versatile crossbow, as fashioned by the Orokin’s finest weaponsmiths. Alt-fire to let loose a barrage of bolts. All bolts have a chance to cause <DT_SLASH>Slash Status, and Headshot kills have a chance to increase Reload Speed. When wielded by Garuda the Nagantaka gains a slight Punch Through.",
       "imageName": "nagantaka-prime.png",
       "masteryReq": 12,
       "name": "Nagantaka Prime",
@@ -9024,7 +9103,7 @@ module.exports = {
       "component": false
     },
     {
-      "description": "With 'Auto Omni' and 'Cordon' as default Precepts, this Sentinel is the ideal companion for long voyages aboard a Railjack.Note: This item requires two open slots.",
+      "description": "With 'Auto Omni' and 'Cordon' as default Precepts, this Sentinel is the ideal companion for long voyages aboard a Railjack.",
       "imageName": "nautilus.png",
       "name": "Nautilus",
       "productCategory": "Sentinels",
@@ -9843,7 +9922,7 @@ module.exports = {
       "component": false
     },
     {
-      "description": "With 'Scan Aquatic Lifeforms' and 'Scan Matter' as default Precepts, Oxylus was designed to assist in Search-and-Rescue operations through the harsh landscape around The Orb Vallis. Oxylus also comes with a Multron rifle.Note: This item requires two open slots.",
+      "description": "With 'Scan Aquatic Lifeforms' and 'Scan Matter' as default Precepts, Oxylus was designed to assist in Search-and-Rescue operations through the harsh landscape around The Orb Vallis. Oxylus also comes with a Multron rifle.",
       "imageName": "oxylus.png",
       "name": "Oxylus",
       "productCategory": "Sentinels",
@@ -12218,7 +12297,7 @@ module.exports = {
       "component": false
     },
     {
-      "description": "With 'Revenge' and 'Ghost' as default Precepts, Shade is well suited for stealth gameplay. Shade also comes with a burst laser pistol.Note: This item requires two open slots.",
+      "description": "With 'Revenge' and 'Ghost' as default Precepts, Shade is well suited for stealth gameplay. Shade also comes with a burst laser pistol.",
       "imageName": "shade.png",
       "name": "Shade",
       "productCategory": "Sentinels",
@@ -12570,7 +12649,7 @@ module.exports = {
       "specialNote": "Item are fully ranked when obtained."
     },
     {
-      "description": "The Slaytra is a powerful reiteration of the traditional Grineer Machete that doubles the duration of bleed from slash damage.",
+      "description": "The Slaytra is a powerful reiteration of the traditional Grineer Machete that doubles the duration of <DT_SLASH>Slash Status Effects.",
       "imageName": "slaytra.png",
       "masteryReq": 13,
       "name": "Slaytra",
@@ -12975,7 +13054,7 @@ module.exports = {
     },
     {
       "category": "Companion Weapon",
-      "description": "Standard issue weapon for Djinn Sentinel. Fires poisonous projectiles.",
+      "description": "Standard issue weapon for Djinn Sentinel. Fires <DT_POISON> Toxin projectiles.",
       "imageName": "stinger.png",
       "masteryReq": 0,
       "name": "Stinger",
@@ -13584,7 +13663,7 @@ module.exports = {
       "component": false
     },
     {
-      "description": "With 'Assault Mode' and 'Molecular Conversion' as default Precepts, Taxon protects its owner with shield restoration. Equipped with the Artax ice-beam.Note: This item requires two open slots.",
+      "description": "With 'Assault Mode' and 'Molecular Conversion' as default Precepts, Taxon protects its owner with shield restoration. Equipped with the Artax ice-beam.",
       "imageName": "taxon.png",
       "name": "Taxon",
       "productCategory": "Sentinels",
@@ -13852,7 +13931,7 @@ module.exports = {
       "productCategory": "LongGuns",
       "releaseDate": "2021-07-06",
       "tradable": false,
-      "trigger": "Semi",
+      "trigger": "Auto",
       "type": "Primary",
       "uniqueName": "/Lotus/Weapons/Corpus/LongGuns/CrpBriefcaseLauncher/CrpBriefcaseLauncher",
       "wikiaUrl": "https://warframe.fandom.com/wiki/Tenet_Envoy",
@@ -13942,7 +14021,7 @@ module.exports = {
       "maxLevelCap": 40,
       "name": "Tenet Glaxion",
       "productCategory": "LongGuns",
-      "releaseDate": "2024-03-27",
+      "releaseDate": "2024-05-15",
       "tradable": false,
       "trigger": "Held",
       "type": "Primary",
@@ -15661,7 +15740,7 @@ module.exports = {
       "component": false
     },
     {
-      "description": "With 'Assault Mode' and 'Crowd Dispersion' as default Precepts, Wyrm is a highly offensive Sentinel. Wyrm also comes with a laser rifle.Note: This item requires two open slots.",
+      "description": "With 'Assault Mode' and 'Crowd Dispersion' as default Precepts, Wyrm is a highly offensive Sentinel. Wyrm also comes with a laser rifle.",
       "imageName": "wyrm.png",
       "name": "Wyrm",
       "productCategory": "Sentinels",
@@ -16035,5 +16114,5 @@ module.exports = {
       "component": false
     }
   ],
-  "fetched": "2024.06.15 02:58:49 CET+02:00"
+  "fetched": "2024.06.21 07:40:40 CET+01:00"
 }
