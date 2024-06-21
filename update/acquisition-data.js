@@ -81,7 +81,8 @@ ACHRITIS = "Achritis";
 DAGATHS_HOLLOW = "Dagath's Hollow (Dojo)";
 BIRD_SANCTUM = "Bird 3 (Sanctum Anatomica)";
 CAVIA_BOUNTIES = "Cavia Bounties";
-ARMATUS_DISRUPTION = "Armatus Disruption (Deimos)"
+ARMATUS_DISRUPTION = "Armatus Disruption (Deimos)";
+ASCENSION = "Ascension (Uranus)";
 
 // Quests
 CHAINS_OF_HARROW = "Chains of Harrow (Quest)";
@@ -109,6 +110,7 @@ WAVERIDER = "Waverider (Quest)";
 THE_NEW_WAR = "The New War (Quest)";
 DUVIRI_QUEST = "The Duviri Paradox (Quest)";
 WHISPERS_QUEST = "Whispers in the Walls (Quest)";
+JADE_SHADOWS_QUEST = "Jade Shadows (Quest)"
 
 // Rewards
 ANNIVERSARY = "Anniversary";
@@ -3938,15 +3940,36 @@ var items = [
 	},
 	// Update 35.6
 	{
-	  name: "Kuva Sobek",
-	  acquisition: KUVA_LICH,
-	  id: "/Lotus/Weapons/Grineer/KuvaLich/LongGuns/Sobek/KuvaSobek"
+		name: "Kuva Sobek",
+		acquisition: KUVA_LICH,
+		id: "/Lotus/Weapons/Grineer/KuvaLich/LongGuns/Sobek/KuvaSobek",
 	},
 
 	{
-	  name: "Tenet Glaxion",
-	  acquisition: SISTERS_PARVOS,
-	  id: "/Lotus/Weapons/Corpus/BoardExec/Primary/CrpBEGlaxion/CrpBEGlaxion"
+		name: "Tenet Glaxion",
+		acquisition: SISTERS_PARVOS,
+		id: "/Lotus/Weapons/Corpus/BoardExec/Primary/CrpBEGlaxion/CrpBEGlaxion",
+	},
+	// Jade Shadows Update
+	{
+		name: "Cantare",
+		acquisition: ASCENSION,
+		id: "/Lotus/Weapons/Tenno/ThrowingWeapons/TnChoirframeKunai/TnChoirframeKunai",
+	},
+	{
+		name: "Evensong",
+		acquisition: ASCENSION,
+		id: "/Lotus/Weapons/Tenno/Bows/TnChoirBow/TnChoirBow",
+	},
+	{
+		name: "Harmony",
+		acquisition: ASCENSION,
+		id: "/Lotus/Weapons/Tenno/Melee/Scythe/TnChoirScythe/TnChoirScythe",
+	},
+	{
+		name: "Jade",
+		acquisition: JADE_SHADOWS_QUEST,
+		id: "/Lotus/Powersuits/Choir/Choir",
 	},
 ];
 
@@ -3955,3 +3978,4 @@ module.exports = {
 };
 
      
+      
