@@ -11,11 +11,13 @@ Run ``npm install`` in terminal
 
 Copy file ``public/conf.php.sample`` to ``public/conf.php``
 
-Edit ``$conf["baseUrl"]`` and ``$conf["root"]`` in file ``public/conf.php``
+Edit ``$conf["baseUrl"]`` and ``$conf["root"]`` in file ``public/conf.php`` to match your local file structure
 
 Create file public/version.txt: `touch public/version.txt`
 
-Add environment variables and database-scripts
+Add environment variables from file ``.env``
+
+Add database-scripts from file ``db/warframeHelper.sql``
 
 Run  ``npm run updater && npm start`` in terminal
 

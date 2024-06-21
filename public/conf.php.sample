@@ -20,7 +20,8 @@ $conf["google"]["clientSecret"] = "************";
 $conf["google"]["clientApiKEY"] = "************************";
 
 // Analytics
-$conf["google"]["trackingId"] = "UA-77926302-3";
+$conf["google"]["trackingId"] = "UA-********";
+$conf["google"]["trackingIdGA4"] = "G-********";
 
 //
 //	Error Reporting
@@ -60,6 +61,9 @@ $user = new User();
 
 ___autoload("Warframe");
 $wf = New Warframe();
+
+___autoload("News");
+$news = New News();
 
 
 //
