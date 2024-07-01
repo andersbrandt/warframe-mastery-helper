@@ -16114,5 +16114,5 @@ module.exports = {
       "component": false
     }
   ],
-  "fetched": "2024.06.19 12:33:20 CET+02:00"
+  "fetched": "2024.07.01 09:22:37 CET+02:00"
 }

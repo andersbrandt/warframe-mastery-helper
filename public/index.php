@@ -150,7 +150,7 @@
             <div class="column large-4 margin-top-10">
                 <div class="box" data-equalizer-watch="boxes-bottom">
                     <h2>Tips</h2>
-                        <p>Click an items name to open a modal.</p>
+                        <p>Click an items name to open a modal with info.</p>
                         <p>Acquisition are searchable, search for 'dojo' for some easily obtainable items.</p>
                         <p>Statistics correspond to sections in Warframe menu 'My Profile > Equipment'.</p>
                         <p>Check the Help-section for more tips.</p>
@@ -174,7 +174,7 @@
         </div>
         <div class="row">
             <div class="column large-12">
-                    <p class="text-center" id="footer-author">Author: Anders Brandt | Contact: <a href="mailto:info@warframe-mastery.com" class="white-link">info@warframe-mastery.com</a></p>
+                    <p class="text-center" id="footer-author">Author: <a href="https://github.com/andersbrandt/warframe-mastery-helper" target="_blank" class="white-link">Anders Brandt</a></p>
             </div>
         </div>
     </div>
