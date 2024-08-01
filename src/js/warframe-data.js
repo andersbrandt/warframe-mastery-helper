@@ -547,6 +547,25 @@ module.exports = {
       "component": false
     },
     {
+      "category": "Dual Pistols",
+      "description": "Fill your fists with golden cannons of fury. This refined design unlocks quicker handling and higher critical chance.",
+      "imageName": "akmagnus-prime.png",
+      "masteryReq": 15,
+      "name": "Akmagnus Prime",
+      "productCategory": "Pistols",
+      "tradable": true,
+      "trigger": "Semi",
+      "type": "Secondary",
+      "uniqueName": "/Lotus/Weapons/Tenno/Akimbo/DualMagnusPrime",
+      "acquisition": "Acquisition: Unknown",
+      "checked": false,
+      "unobtainable": false,
+      "tierData": false,
+      "tierRank": 0,
+      "component": false,
+      "wikiaUrl": "http://warframe.wikia.com/wiki/Akmagnus_Prime"
+    },
+    {
       "bpCost": 20000,
       "category": "Pistol",
       "description": "The devastating power of the Soma rifle compacted into two elegant pistols.",
@@ -1311,6 +1330,25 @@ module.exports = {
       "buildLink": "https://overframe.gg/build/26468/",
       "buildLinkDomain": "overframe.gg",
       "component": false
+    },
+    {
+      "category": "Rifle",
+      "description": "This pre-Orokin weapon earned its popularity for its reliability in tough conditions. When hip-firing, its Ammo Efficiency increases. When aiming, headshots have a high Critical Chance.",
+      "imageName": "ax-52.png",
+      "masteryReq": 12,
+      "name": "Ax-52",
+      "productCategory": "LongGuns",
+      "tradable": false,
+      "trigger": "Auto",
+      "type": "Primary",
+      "uniqueName": "/Lotus/Weapons/Lasria/AK47/TC2024AK47Weapon",
+      "acquisition": "Tennocon 2024 Twitch Reward",
+      "checked": false,
+      "unobtainable": false,
+      "tierData": false,
+      "tierRank": 0,
+      "component": false,
+      "wikiaUrl": "http://warframe.wikia.com/wiki/Ax-52"
     },
     {
       "category": "Pistol",
@@ -8396,7 +8434,7 @@ module.exports = {
       "tierRank": 0,
       "buildLink": "https://overframe.gg/build/218657/",
       "buildLinkDomain": "overframe.gg",
-      "component": false
+      "component": true
     },
     {
       "description": "Mandonel fires <DT_RADIATION>Radiation Damage projectiles. Partially charged shots release a spread and fully charged shots release a beam that dissolves into a radiation field. Projectiles that pass through the field are empowered.",
@@ -16114,5 +16152,5 @@ module.exports = {
       "component": false
     }
   ],
-  "fetched": "2024.07.01 09:22:37 CET+02:00"
+  "fetched": "2024.08.01 09:52:17 CET+02:00"
 }

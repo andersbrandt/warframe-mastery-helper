@@ -143,6 +143,7 @@ VEIL_PROXIMA = "Veil Proxima Caches";
 TENNOCON_2020 = "Tennocon 2020 Twitch Reward";
 TENNOCON_2021 = "Tennocon 2021 Twitch Reward";
 TENNOCON_2022 = "Tennocon 2022 Twitch Reward";
+TENNOCON_2024 = "Tennocon 2024 Twitch Reward";
 NECRAMECH = "Comes with Necramech";
 K_DRIVE_DEIMOS = "K-Drive Races (Deimos)";
 RAILJACK_CORPUS = "Railjack (Corpus)";
@@ -3971,6 +3972,12 @@ var items = [
 		acquisition: JADE_SHADOWS_QUEST,
 		id: "/Lotus/Powersuits/Choir/Choir",
 	},
+	// Tennocon 2024
+	{
+	  name: "Ax-52",
+	  acquisition: TENNOCON_2024,
+	  id: "/Lotus/Weapons/Lasria/AK47/TC2024AK47Weapon"
+	},
 ];
 
 module.exports = {
@@ -3978,4 +3985,17 @@ module.exports = {
 };
 
      
+      
+      
+  // {
+  //   name: "Akmagnus Prime",
+  //   acquisition: UNKNOWN,
+  //   id: "/Lotus/Weapons/Tenno/Akimbo/DualMagnusPrime"
+  // },
+      
+  // {
+  //   name: "Akmagnus Prime",
+  //   acquisition: UNKNOWN,
+  //   id: "/Lotus/Weapons/Tenno/Akimbo/DualMagnusPrime"
+  // },
       
