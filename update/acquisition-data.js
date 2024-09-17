@@ -3974,28 +3974,50 @@ var items = [
 	},
 	// Tennocon 2024
 	{
-	  name: "Ax-52",
-	  acquisition: TENNOCON_2024,
-	  id: "/Lotus/Weapons/Lasria/AK47/TC2024AK47Weapon"
+		name: "Ax-52",
+		acquisition: TENNOCON_2024,
+		id: "/Lotus/Weapons/Lasria/AK47/TC2024AK47Weapon",
+	},
+	// Akmagnus Prime
+	{
+		name: "Akmagnus Prime",
+		acquisition: RELICS,
+		id: "/Lotus/Weapons/Tenno/Akimbo/DualMagnusPrime",
+	},
+	// Sevagoth Prime Update
+	{
+		name: "Nautilus Prime",
+		acquisition: RELICS,
+		id: "/Lotus/Types/Sentinels/SentinelPowersuits/NautilusPrimeSentinelPowerSuit",
+	},
+	{
+		name: "Sevagoth Prime",
+		acquisition: RELICS,
+		id: "/Lotus/Powersuits/Wraith/SevagothPrime",
+	},
+	{
+		name: "Verglas Prime",
+		acquisition: RELICS,
+		id: "/Lotus/Types/Sentinels/SentinelWeapons/SentinelFreezeRayPrimeRifle",
+	},
+	{
+		name: "Epitaph Prime",
+		acquisition: RELICS,
+		id: "/Lotus/Weapons/Tenno/Pistols/PrimeEpitaph/PrimeEpitaphSidearmWeapon",
+	},
+	// Note: Grimoire appears twice in the API
+	{
+		name: "Grimoire",
+		acquisition: WHISPERS_QUEST,
+		id: "/Lotus/Weapons/Tenno/Grimoire/TnGrimoire",
+	},
+	{
+		name: "Grimoire",
+		acquisition: WHISPERS_QUEST,
+		id: "/Lotus/Weapons/Tenno/Grimoire/TnDoppelgangerGrimoire",
 	},
 ];
 
 module.exports = {
 	items: items,
 };
-
-     
-      
-      
-  // {
-  //   name: "Akmagnus Prime",
-  //   acquisition: UNKNOWN,
-  //   id: "/Lotus/Weapons/Tenno/Akimbo/DualMagnusPrime"
-  // },
-      
-  // {
-  //   name: "Akmagnus Prime",
-  //   acquisition: UNKNOWN,
-  //   id: "/Lotus/Weapons/Tenno/Akimbo/DualMagnusPrime"
-  // },
-      

@@ -553,17 +553,19 @@ module.exports = {
       "masteryReq": 15,
       "name": "Akmagnus Prime",
       "productCategory": "Pistols",
+      "releaseDate": "2024-07-22",
       "tradable": true,
       "trigger": "Semi",
       "type": "Secondary",
       "uniqueName": "/Lotus/Weapons/Tenno/Akimbo/DualMagnusPrime",
-      "acquisition": "Acquisition: Unknown",
+      "vaulted": false,
+      "wikiaUrl": "https://warframe.fandom.com/wiki/Akmagnus_Prime",
+      "acquisition": "Relics",
       "checked": false,
       "unobtainable": false,
       "tierData": false,
       "tierRank": 0,
-      "component": false,
-      "wikiaUrl": "http://warframe.wikia.com/wiki/Akmagnus_Prime"
+      "component": false
     },
     {
       "bpCost": 20000,
@@ -4275,6 +4277,27 @@ module.exports = {
       "component": false
     },
     {
+      "category": "Pistol",
+      "description": "Send shivers down your enemies' spines with this wrist-mounted sidearm. As the signature weapon of Sevagoth Prime, it deals additional headshot damage when wielded by him.",
+      "imageName": "epitaph-prime.png",
+      "masteryReq": 14,
+      "name": "Epitaph Prime",
+      "productCategory": "Pistols",
+      "releaseDate": "2024-08-21",
+      "tradable": false,
+      "trigger": "Charge",
+      "type": "Secondary",
+      "uniqueName": "/Lotus/Weapons/Tenno/Pistols/PrimeEpitaph/PrimeEpitaphSidearmWeapon",
+      "vaulted": false,
+      "wikiaUrl": "https://warframe.fandom.com/wiki/Epitaph_Prime",
+      "acquisition": "Relics",
+      "checked": false,
+      "unobtainable": false,
+      "tierData": false,
+      "tierRank": 0,
+      "component": false
+    },
+    {
       "bpCost": 25000,
       "description": "Equinox rises from the edge of day and night. Her Day form offers offensive support while her Night form offers defensive support. She thrives between realms.",
       "imageName": "equinox.png",
@@ -5492,7 +5515,7 @@ module.exports = {
     },
     {
       "name": "Grimoire",
-      "uniqueName": "/Lotus/Custom/Grimoire",
+      "uniqueName": "/Lotus/Weapons/Tenno/Grimoire/TnDoppelgangerGrimoire",
       "description": "Claim the power of Albrecht Entrati's knowledge.",
       "wikiaUrl": "https://warframe.fandom.com/wiki/Grimoire",
       "tradable": false,
@@ -9157,6 +9180,22 @@ module.exports = {
       "wikiaUrl": "http://warframe.wikia.com/wiki/Nautilus"
     },
     {
+      "description": "This brave deckhand defends his crew with Verglas Prime.",
+      "imageName": "nautilus-prime.png",
+      "name": "Nautilus Prime",
+      "productCategory": "Sentinels",
+      "tradable": true,
+      "type": "Sentinel",
+      "uniqueName": "/Lotus/Types/Sentinels/SentinelPowersuits/NautilusPrimeSentinelPowerSuit",
+      "acquisition": "Relics",
+      "checked": false,
+      "unobtainable": false,
+      "tierData": false,
+      "tierRank": 0,
+      "component": false,
+      "wikiaUrl": "http://warframe.wikia.com/wiki/Nautilus_Prime"
+    },
+    {
       "category": "K-Drive",
       "description": "",
       "imageName": "needlenose.png",
@@ -12335,6 +12374,27 @@ module.exports = {
       "component": false
     },
     {
+      "description": "The gilded helmsman emerges from the tempest, his shadow a lure for doomed souls.",
+      "exalted": [
+        "/Lotus/Powersuits/Wraith/SevagothShadowPrimeClawsWeapon"
+      ],
+      "imageName": "sevagoth-prime.png",
+      "masteryReq": 0,
+      "name": "Sevagoth Prime",
+      "productCategory": "Suits",
+      "releaseDate": "2024-08-21",
+      "tradable": false,
+      "type": "Warframe",
+      "uniqueName": "/Lotus/Powersuits/Wraith/SevagothPrime",
+      "wikiaUrl": "https://warframe.fandom.com/wiki/Sevagoth%2FPrime",
+      "acquisition": "Relics",
+      "checked": false,
+      "unobtainable": false,
+      "tierData": false,
+      "tierRank": 0,
+      "component": false
+    },
+    {
       "description": "With 'Revenge' and 'Ghost' as default Precepts, Shade is well suited for stealth gameplay. Shade also comes with a burst laser pistol.",
       "imageName": "shade.png",
       "name": "Shade",
@@ -15300,6 +15360,27 @@ module.exports = {
       "component": false
     },
     {
+      "category": "Companion Weapon",
+      "description": "The icy signature weapon of Nautilus Prime.",
+      "imageName": "verglas-prime.png",
+      "masteryReq": 0,
+      "name": "Verglas Prime",
+      "productCategory": "SentinelWeapons",
+      "releaseDate": "2024-08-21",
+      "tradable": false,
+      "trigger": "Held",
+      "type": "Sentinel Weapon",
+      "uniqueName": "/Lotus/Types/Sentinels/SentinelWeapons/SentinelFreezeRayPrimeRifle",
+      "vaulted": false,
+      "wikiaUrl": "https://warframe.fandom.com/wiki/Verglas_Prime",
+      "acquisition": "Relics",
+      "checked": false,
+      "unobtainable": false,
+      "tierData": false,
+      "tierRank": 0,
+      "component": false
+    },
+    {
       "description": "Unfurl this warfan like a rapidly waxing moon.",
       "imageName": "vericres.png",
       "masteryReq": 8,
@@ -16152,5 +16233,5 @@ module.exports = {
       "component": false
     }
   ],
-  "fetched": "2024.08.01 09:52:17 CET+02:00"
+  "fetched": "2024.09.04 07:59:57 CET+02:00"
 }

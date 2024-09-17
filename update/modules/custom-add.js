@@ -128,9 +128,8 @@ module.exports = function (items) {
 
 	var grimoireData = {
 		name: "Grimoire",
-		uniqueName: "/Lotus/Custom/Grimoire",
-		description:
-			"Claim the power of Albrecht Entrati's knowledge.",
+		uniqueName: "/Lotus/Weapons/Tenno/Grimoire/TnDoppelgangerGrimoire",
+		description: "Claim the power of Albrecht Entrati's knowledge.",
 		wikiaUrl: "https://warframe.fandom.com/wiki/Grimoire",
 		tradable: false,
 		masteryReq: 10,
