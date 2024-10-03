@@ -83,6 +83,7 @@ BIRD_SANCTUM = "Bird 3 (Sanctum Anatomica)";
 CAVIA_BOUNTIES = "Cavia Bounties";
 ARMATUS_DISRUPTION = "Armatus Disruption (Deimos)";
 ASCENSION = "Ascension (Uranus)";
+SHRINE_DEFENSE = "Shrine Defense (Earth)";
 
 // Quests
 CHAINS_OF_HARROW = "Chains of Harrow (Quest)";
@@ -4016,8 +4017,26 @@ var items = [
 		acquisition: WHISPERS_QUEST,
 		id: "/Lotus/Weapons/Tenno/Grimoire/TnDoppelgangerGrimoire",
 	},
+	//	Koumei Update
+	{
+		name: "Amanata",
+		acquisition: SHRINE_DEFENSE,
+		id: "/Lotus/Weapons/Tenno/Melee/Polearms/Naginata/ShrineMaidenNaginataWeapon",
+	},
+	{
+		name: "Higasa",
+		acquisition: SHRINE_DEFENSE,
+		id: "/Lotus/Weapons/Tenno/LongGuns/Gunbrella/ShrineMaidenGunbrellaWeapon",
+	},
+	{
+		name: "Koumei",
+		acquisition: SHRINE_DEFENSE,
+		id: "/Lotus/Powersuits/Koumei/Koumei",
+	},
 ];
 
 module.exports = {
 	items: items,
 };
+
+      

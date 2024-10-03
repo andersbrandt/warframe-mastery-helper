@@ -100,7 +100,7 @@ module.exports = {
     },
     {
       "category": "Kavat",
-      "description": "Piercing eyes reflect deadly instincts.",
+      "description": "A vicious and deadly Kavat prized for its combat prowess, offering increased critical chance and punishing those that dare attack it.",
       "imageName": "adarza-kavat.png",
       "name": "Adarza Kavat",
       "productCategory": "KubrowPets",
@@ -289,7 +289,7 @@ module.exports = {
     },
     {
       "category": "Hound attack",
-      "description": "Hound melee attacks eviscerate with <DT_PUNCTURE>Puncture and <DT_SLASH>Slash Damage.",
+      "description": "Hound melee attacks eviscerate with <DT_PUNCTURE_COLOR>Puncture and <DT_SLASH_COLOR>Slash Damage.",
       "excludeFromCodex": true,
       "imageName": "akaten.png",
       "masteryReq": 0,
@@ -736,7 +736,7 @@ module.exports = {
     },
     {
       "category": "Rifle",
-      "description": "Gyre’s signature weapon has two fire modes. Primary fire shocks enemies with electrical orbs. Alternate fire is a large ball of electricity that sticks to any surface and pulses <DT_ELECTRICITY>Electricity before it explodes. In Gyre's hands, the weapon has a small amount of multishot.",
+      "description": "Gyre’s signature weapon has two fire modes. Primary fire shocks enemies with electrical orbs. Alternate fire is a large ball of electricity that sticks to any surface and pulses <DT_ELECTRICITY_COLOR>Electricity before it explodes. In Gyre's hands, the weapon has a small amount of multishot.",
       "imageName": "alternox.png",
       "masteryReq": 8,
       "name": "Alternox",
@@ -748,6 +748,24 @@ module.exports = {
       "uniqueName": "/Lotus/Weapons/Tenno/LongGuns/GyreRifle/GyreRifleWeapon",
       "wikiaUrl": "https://warframe.fandom.com/wiki/Alternox",
       "acquisition": "Zariman Bounties",
+      "checked": false,
+      "unobtainable": false,
+      "tierData": false,
+      "tierRank": 0,
+      "component": false
+    },
+    {
+      "description": "Roll Koumei's die with every 30 hits from Amanata to empower yourself with 1 of 5 Koumei blessings. Roll a 6 to receive all blessings at once.",
+      "imageName": "amanata.png",
+      "masteryReq": 2,
+      "name": "Amanata",
+      "productCategory": "Melee",
+      "releaseDate": "2024-10-02",
+      "tradable": false,
+      "type": "Melee",
+      "uniqueName": "/Lotus/Weapons/Tenno/Melee/Polearms/Naginata/ShrineMaidenNaginataWeapon",
+      "wikiaUrl": "https://warframe.fandom.com/wiki/Amanata",
+      "acquisition": "Shrine Defense (Earth)",
       "checked": false,
       "unobtainable": false,
       "tierData": false,
@@ -1585,7 +1603,7 @@ module.exports = {
     },
     {
       "category": "Hound attack",
-      "description": "Hound melee attacks pierce hard with <DT_IMPACT>Impact and <DT_PUNCTURE>Puncture Damage.",
+      "description": "Hound melee attacks pierce hard with <DT_IMPACT_COLOR>Impact and <DT_PUNCTURE_COLOR>Puncture Damage.",
       "excludeFromCodex": true,
       "imageName": "batoten.png",
       "masteryReq": 0,
@@ -2662,7 +2680,7 @@ module.exports = {
     },
     {
       "category": "Kubrow",
-      "description": "This Kubrow will disarm adversaries and retrieve the spoils of battle.",
+      "description": "A clever accomplice, trained to relieve the enemy of both their weapons and their loot caches.",
       "imageName": "chesa-kubrow.png",
       "name": "Chesa Kubrow",
       "productCategory": "KubrowPets",
@@ -2991,14 +3009,14 @@ module.exports = {
     },
     {
       "category": "Companion Weapon",
-      "description": "Emits a ray of sub-zero energy.",
+      "description": "Fires volleys of icy grenades that inflict a lingering chill on the blast zone.",
       "imageName": "cryotra.png",
       "masteryReq": 0,
       "name": "Cryotra",
       "productCategory": "SentinelWeapons",
       "releaseDate": "2018-11-08",
       "tradable": false,
-      "trigger": "Held",
+      "trigger": "Semi",
       "type": "Sentinel Weapon",
       "uniqueName": "/Lotus/Types/Friendly/Pets/MoaPets/MoaPetComponents/CryoxionWeapon",
       "wikiaUrl": "https://warframe.fandom.com/wiki/Cryotra",
@@ -3012,7 +3030,7 @@ module.exports = {
     {
       "bpCost": 15000,
       "category": "Pistol",
-      "description": "Sentient tech merges with Corpus design to deliver this lethal sidearm. Fully automatic, it fires ricocheting, homing projectiles that release small clouds of <DT_GAS>Gas on impact. Alt-fire to release the entire magazine without homing as a single burst.",
+      "description": "Sentient tech merges with Corpus design to deliver this lethal sidearm. Fully automatic, it fires ricocheting, homing projectiles that release small clouds of <DT_GAS_COLOR>Gas on impact. Alt-fire to release the entire magazine without homing as a single burst.",
       "imageName": "cyanex.png",
       "masteryReq": 8,
       "name": "Cyanex",
@@ -3233,7 +3251,7 @@ module.exports = {
       "wikiaUrl": "http://warframe.wikia.com/wiki/Dark_Split-Sword"
     },
     {
-      "description": "A blade forged using dark metals, capable of delivering innate <DT_RADIATION>Radiation Damage with attacks.",
+      "description": "A blade forged using dark metals, capable of delivering innate <DT_RADIATION_COLOR>Radiation Damage with attacks.",
       "imageName": "dark-sword.png",
       "masteryReq": 8,
       "name": "Dark Sword",
@@ -3915,7 +3933,7 @@ module.exports = {
     },
     {
       "bpCost": 40000,
-      "description": "Wielding a Kama in each hand brings a savage amount of <DT_SLASH>Slash Damage to bear against your enemies.",
+      "description": "Wielding a Kama in each hand brings a savage amount of <DT_SLASH_COLOR>Slash Damage to bear against your enemies.",
       "imageName": "dual-kamas.png",
       "masteryReq": 1,
       "name": "Dual Kamas",
@@ -5159,7 +5177,7 @@ module.exports = {
     },
     {
       "bpCost": 15000,
-      "description": "Each kill with this swooping blade adds bonus damage to the Djinn Sentinel’s next Fatal Attraction ability. In turn, Fatal Attraction bestows the weapon with a period of <DT_CORROSIVE>Corrosive Damage.",
+      "description": "Each kill with this swooping blade adds bonus damage to the Djinn Sentinel’s next Fatal Attraction ability. In turn, Fatal Attraction bestows the weapon with a period of <DT_CORROSIVE_COLOR>Corrosive Damage.",
       "imageName": "gazal-machete.png",
       "masteryReq": 5,
       "name": "Gazal Machete",
@@ -5835,7 +5853,7 @@ module.exports = {
       "component": false
     },
     {
-      "description": "A strong blade capable of inflicting <DT_SLASH>Slash Damage to its foes.",
+      "description": "A strong blade capable of inflicting <DT_SLASH_COLOR>Slash Damage to its foes.",
       "imageName": "heat-sword.png",
       "masteryReq": 3,
       "name": "Heat Sword",
@@ -5951,7 +5969,7 @@ module.exports = {
     },
     {
       "category": "Kubrow",
-      "description": "An Infested pet bred from the Helminth Cyst",
+      "description": "An experimental blending of Kubrow and Infestation. Uses maggots and other Infested abilities to inflict damage and control the battlefield.",
       "imageName": "helminth-charger.png",
       "name": "Helminth Charger",
       "productCategory": "KubrowPets",
@@ -6024,6 +6042,26 @@ module.exports = {
       "uniqueName": "/Lotus/Weapons/Tenno/Melee/HeavyScythe/DuviriScythe/DuviriHeavyScytheWeapon",
       "wikiaUrl": "https://warframe.fandom.com/wiki/Hespar",
       "acquisition": "Zariman Bounties",
+      "checked": false,
+      "unobtainable": false,
+      "tierData": false,
+      "tierRank": 0,
+      "component": false
+    },
+    {
+      "category": "Rifle",
+      "description": "Depend on Higasa when it rains bullets. Aiming creates a shield that blocks weapon fire. Kills and blocked shots charge a beam released by Alternate Fire.",
+      "imageName": "higasa.png",
+      "masteryReq": 2,
+      "name": "Higasa",
+      "productCategory": "LongGuns",
+      "releaseDate": "2024-10-02",
+      "tradable": false,
+      "trigger": "Burst",
+      "type": "Primary",
+      "uniqueName": "/Lotus/Weapons/Tenno/LongGuns/Gunbrella/ShrineMaidenGunbrellaWeapon",
+      "wikiaUrl": "https://warframe.fandom.com/wiki/Higasa",
+      "acquisition": "Shrine Defense (Earth)",
       "checked": false,
       "unobtainable": false,
       "tierData": false,
@@ -6173,7 +6211,7 @@ module.exports = {
     },
     {
       "category": "Kubrow",
-      "description": "Prized for its ability to sneak up on unsuspecting prey, the Huras Kubrow were first used as hunting companions by the Orokin elite. Orokin Era Tenno soon adapted the strain for use in covert missions and assassinations.",
+      "description": "A stealthy ally, surprising enemies with impressive takedowns of explosive force.",
       "imageName": "huras-kubrow.png",
       "name": "Huras Kubrow",
       "productCategory": "KubrowPets",
@@ -7126,6 +7164,24 @@ module.exports = {
       "component": false
     },
     {
+      "description": "Test your luck with the dice-maiden. Koumei weaves fate to unleash damage and ensure her survival. To the virtuous, she is an oracle. To the wicked, a perilous game of chance.",
+      "imageName": "koumei.png",
+      "masteryReq": 0,
+      "name": "Koumei",
+      "productCategory": "Suits",
+      "releaseDate": "2024-10-02",
+      "tradable": false,
+      "type": "Warframe",
+      "uniqueName": "/Lotus/Powersuits/Koumei/Koumei",
+      "wikiaUrl": "https://warframe.fandom.com/wiki/Koumei",
+      "acquisition": "Shrine Defense (Earth)",
+      "checked": false,
+      "unobtainable": false,
+      "tierData": false,
+      "tierRank": 0,
+      "component": false
+    },
+    {
       "bpCost": 20000,
       "category": "Pistol",
       "description": "The Kraken is a heavy pistol of Grineer design that fires two quick shots with a single pull of the trigger. Skilled marksmen will appreciate the value in this deadly accurate weapon.",
@@ -7831,7 +7887,7 @@ module.exports = {
     },
     {
       "category": "Hound attack",
-      "description": "Hound melee attacks devastate with <DT_IMPACT>Impact and <DT_SLASH>Slash Damage.",
+      "description": "Hound melee attacks devastate with <DT_IMPACT_COLOR>Impact and <DT_SLASH_COLOR>Slash Damage.",
       "excludeFromCodex": true,
       "imageName": "lacerten.png",
       "masteryReq": 0,
@@ -8167,7 +8223,7 @@ module.exports = {
     },
     {
       "bpCost": 25000,
-      "description": "An instrument of unrelenting harm. If Lesion tastes blood, it becomes invigorated with faster Attack Speed and increased <DT_POISON>Toxin Damage.",
+      "description": "An instrument of unrelenting harm. If Lesion tastes blood, it becomes invigorated with faster Attack Speed and increased <DT_POISON_COLOR>Toxin Damage.",
       "imageName": "lesion.png",
       "masteryReq": 9,
       "name": "Lesion",
@@ -8460,7 +8516,7 @@ module.exports = {
       "component": true
     },
     {
-      "description": "Mandonel fires <DT_RADIATION>Radiation Damage projectiles. Partially charged shots release a spread and fully charged shots release a beam that dissolves into a radiation field. Projectiles that pass through the field are empowered.",
+      "description": "Mandonel fires <DT_RADIATION_COLOR>Radiation Damage projectiles. Partially charged shots release a spread and fully charged shots release a beam that dissolves into a radiation field. Projectiles that pass through the field are empowered.",
       "imageName": "mandonel.png",
       "masteryReq": 10,
       "name": "Mandonel",
@@ -8732,7 +8788,7 @@ module.exports = {
     },
     {
       "bpCost": 15000,
-      "description": "A relic from the Great Plague, the Mire Infested Sword is a brutal weapon. It not only cuts into the enemy, it infects the wounds of its victim with a toxic nerve poison. Deals <DT_POISON>Toxin Damage on Ground Slam attacks.",
+      "description": "A relic from the Great Plague, the Mire Infested Sword is a brutal weapon. It not only cuts into the enemy, it infects the wounds of its victim with a toxic nerve poison. Deals <DT_POISON_COLOR>Toxin Damage on Ground Slam attacks.",
       "imageName": "mire.png",
       "masteryReq": 5,
       "name": "Mire",
@@ -8955,14 +9011,14 @@ module.exports = {
     },
     {
       "category": "Companion Weapon",
-      "description": "Fires a burst of armor-piercing rounds.",
+      "description": "Launches a volley of bomb darts that embed themselves in targets, exploding a short time later.",
       "imageName": "multron.png",
       "masteryReq": 3,
       "name": "Multron",
       "productCategory": "SentinelWeapons",
       "releaseDate": "2018-11-08",
       "tradable": false,
-      "trigger": "Auto",
+      "trigger": "Burst",
       "type": "Sentinel Weapon",
       "uniqueName": "/Lotus/Types/Friendly/Pets/MoaPets/MoaPetComponents/HextraWeapon",
       "wikiaUrl": "https://warframe.fandom.com/wiki/Multron",
@@ -9028,7 +9084,7 @@ module.exports = {
     {
       "bpCost": 40000,
       "category": "Rifle",
-      "description": "Slash targets with a single precise bolt from Garuda's signature crossbow. Alt-fire to let loose a barrage of bolts. All bolts have a chance to cause <DT_SLASH>Slash Status, and Headshots have a chance to increase Reload Speed. When wielded by Garuda Nagantaka gains a slight Punch Through.",
+      "description": "Slash targets with a single precise bolt from Garuda's signature crossbow. Alt-fire to let loose a barrage of bolts. All bolts have a chance to cause <DT_SLASH_COLOR>Slash Status, and Headshots have a chance to increase Reload Speed. When wielded by Garuda Nagantaka gains a slight Punch Through.",
       "imageName": "nagantaka.png",
       "masteryReq": 9,
       "name": "Nagantaka",
@@ -9053,7 +9109,7 @@ module.exports = {
     },
     {
       "category": "Rifle",
-      "description": "A golden version of Garuda’s versatile crossbow, as fashioned by the Orokin’s finest weaponsmiths. Alt-fire to let loose a barrage of bolts. All bolts have a chance to cause <DT_SLASH>Slash Status, and Headshot kills have a chance to increase Reload Speed. When wielded by Garuda the Nagantaka gains a slight Punch Through.",
+      "description": "A golden version of Garuda’s versatile crossbow, as fashioned by the Orokin’s finest weaponsmiths. Alt-fire to let loose a barrage of bolts. All bolts have a chance to cause <DT_SLASH_COLOR>Slash Status, and Headshot kills have a chance to increase Reload Speed. When wielded by Garuda the Nagantaka gains a slight Punch Through.",
       "imageName": "nagantaka-prime.png",
       "masteryReq": 12,
       "name": "Nagantaka Prime",
@@ -9846,7 +9902,7 @@ module.exports = {
     },
     {
       "category": "Rifle",
-      "description": "Albrecht's Void experiments revealed the true destructive potential of this weapon. In Incarnon form, draw in ambient power to deal steadily increased damage to enemies. At full power, release a blast of <DT_FIRE>Heat.",
+      "description": "Albrecht's Void experiments revealed the true destructive potential of this weapon. In Incarnon form, draw in ambient power to deal steadily increased damage to enemies. At full power, release a blast of <DT_FIRE_COLOR>Heat.",
       "imageName": "onos.png",
       "masteryReq": 14,
       "name": "Onos",
@@ -11439,7 +11495,7 @@ module.exports = {
     },
     {
       "category": "Kubrow",
-      "description": "Designed by the Orokin to be the perfect companion, a Kubrow was never far from its master's side. Loyal and obedient, these creatures made ideal bodyguards. Equipped with shield generators for added protection, their fierce growl could paralyze any attacker with fear.",
+      "description": "A strong guardian focused on protecting its master by bolstering their defense and by driving away attackers.",
       "imageName": "raksa-kubrow.png",
       "name": "Raksa Kubrow",
       "productCategory": "KubrowPets",
@@ -11875,7 +11931,7 @@ module.exports = {
     },
     {
       "category": "Kubrow",
-      "description": "Enterprising Orokin genetic designers recognized that the Kubrow's affinity for games of fetch could be used for more serious endeavors. They soon developed a strain adept at reconnaissance and contraband recovery. Tenno often used the creatures to help resupply while in the field.",
+      "description": "A reliable partner that locates supplies for their Tenno master and while thinning enemy ranks.",
       "imageName": "sahasa-kubrow.png",
       "name": "Sahasa Kubrow",
       "productCategory": "KubrowPets",
@@ -12112,7 +12168,7 @@ module.exports = {
     },
     {
       "bpCost": 50000,
-      "description": "The Scoliac Whip is a nasty parasitic growth of sinew and bone that can inflict heart stopping <DT_POISON>Toxin Damage with attacks.",
+      "description": "The Scoliac Whip is a nasty parasitic growth of sinew and bone that can inflict heart stopping <DT_POISON_COLOR>Toxin Damage with attacks.",
       "imageName": "scoliac.png",
       "masteryReq": 6,
       "name": "Scoliac",
@@ -12747,7 +12803,7 @@ module.exports = {
       "specialNote": "Item are fully ranked when obtained."
     },
     {
-      "description": "The Slaytra is a powerful reiteration of the traditional Grineer Machete that doubles the duration of <DT_SLASH>Slash Status Effects.",
+      "description": "The Slaytra is a powerful reiteration of the traditional Grineer Machete that doubles the duration of <DT_SLASH_COLOR>Slash Status Effects.",
       "imageName": "slaytra.png",
       "masteryReq": 13,
       "name": "Slaytra",
@@ -13152,7 +13208,7 @@ module.exports = {
     },
     {
       "category": "Companion Weapon",
-      "description": "Standard issue weapon for Djinn Sentinel. Fires <DT_POISON> Toxin projectiles.",
+      "description": "Standard issue weapon for Djinn Sentinel. Fires <DT_POISON_COLOR>Toxin projectiles that embed into enemies and continuously deal damage for 3 seconds.",
       "imageName": "stinger.png",
       "masteryReq": 0,
       "name": "Stinger",
@@ -13402,7 +13458,7 @@ module.exports = {
     },
     {
       "category": "Kubrow",
-      "description": "Once the value of Orokin guard-pets had been realized, Orokin scientists began experimenting with strains designed for combat. These were no longer household pets but superior war animals bred for ferocity and aggression.",
+      "description": "Bred by the Orokin for combat. This martial beast lives to create chaos and bring down the most fierce opponents.",
       "imageName": "sunika-kubrow.png",
       "name": "Sunika Kubrow",
       "productCategory": "KubrowPets",
@@ -13591,7 +13647,7 @@ module.exports = {
     {
       "bpCost": 50000,
       "category": "Rifle",
-      "description": "Powered by a bio-chemical reaction, the Infested Synapse rifle fries its targets with a steady stream of <DT_CORROSIVE>Corrosive energy.",
+      "description": "Powered by a bio-chemical reaction, the Infested Synapse rifle fries its targets with a steady stream of <DT_CORROSIVE_COLOR>Corrosive energy.",
       "imageName": "synapse.png",
       "masteryReq": 11,
       "name": "Synapse",
@@ -13778,14 +13834,14 @@ module.exports = {
     },
     {
       "category": "Companion Weapon",
-      "description": "Burst rifle that fires electrified rounds.",
+      "description": "Releases a burst of static electricity that can jump between foes, incapacitating them.",
       "imageName": "tazicor.png",
       "masteryReq": 3,
       "name": "Tazicor",
       "productCategory": "SentinelWeapons",
       "releaseDate": "2018-11-08",
       "tradable": false,
-      "trigger": "Auto",
+      "trigger": "Held",
       "type": "Sentinel Weapon",
       "uniqueName": "/Lotus/Types/Friendly/Pets/MoaPets/MoaPetComponents/TazronWeapon",
       "wikiaUrl": "https://warframe.fandom.com/wiki/Tazicor",
@@ -14917,7 +14973,7 @@ module.exports = {
     },
     {
       "category": "Kavat",
-      "description": "A true child of the night, and a drinker of life.",
+      "description": "Now free of the Vasca virus, these Kavats can transfuse life to extend not only health own life but that of its master.",
       "imageName": "vasca-kavat.png",
       "name": "Vasca Kavat",
       "productCategory": "KubrowPets",
@@ -16233,5 +16289,5 @@ module.exports = {
       "component": false
     }
   ],
-  "fetched": "2024.09.04 07:59:57 CET+02:00"
+  "fetched": "2024.10.03 06:49:52 CET+02:00"
 }
