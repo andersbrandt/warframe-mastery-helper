@@ -80,3 +80,13 @@
             </nav>
         </div>
     </div>
+
+		<div class="row">
+			<div class="col">
+				<div id="maintainer-needed-wrapper">
+					<p><b>Maintainer needed</b></p>
+					<p>
+						Are you a passionate Warframe player with a knack for PHP & JS? We're looking for someone to help with regular updates, maintaining dependencies, and modernizing the stack. If you're interested in taking this project forward, check out the <a href="https://github.com/andersbrandt/warframe-mastery-helper" target="_blank">repo</a> and <a href="mailto:info@warframe-mastery.com">contact Anders</a>.</p>
+				</div>				
+			</div>
+		</div>

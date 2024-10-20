@@ -584,6 +584,19 @@ ul#news-list {
 }
 
 //
+//	Maintainer needed
+//
+#maintainer-needed-wrapper {
+	background-color: $wf-light-1;
+	padding: 16px;
+	border-radius: 6px;
+	margin: 26px 10px 12px 10px;
+	p {
+		margin-bottom: 6px;
+	}
+}
+
+//
 //  Media queries
 //
 
