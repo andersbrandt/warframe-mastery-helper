@@ -3,7 +3,7 @@ module.exports = {
     {
       "category": "Rifle",
       "description": "Using a barrage of rapid-fire plasma rockets, Gauss’ signature weapon lays down a path of destruction. Reloads are faster while sprinting, even more so in Gauss’ hands. For safety, rockets arm after traveling a safe distance.",
-      "imageName": "acceltra.png",
+      "imageName": "acceltra-f87797699a.png",
       "masteryReq": 8,
       "name": "Acceltra",
       "productCategory": "LongGuns",
@@ -28,7 +28,7 @@ module.exports = {
     {
       "category": "Rifle",
       "description": "Engage your enemies with deadly speed. This weapon reloads even faster when its wielder sprints, faster still with Gauss.",
-      "imageName": "acceltra-prime.png",
+      "imageName": "acceltra-prime-5628f3e466.png",
       "masteryReq": 14,
       "name": "Acceltra Prime",
       "productCategory": "LongGuns",
@@ -49,7 +49,7 @@ module.exports = {
     {
       "bpCost": 15000,
       "description": "Tyl Regor’s custom axe and shield are how he likes to eliminate ‘frustrations’.",
-      "imageName": "ack-&-brunt.png",
+      "imageName": "ack-&-brunt-2e80c10c0d.png",
       "masteryReq": 3,
       "name": "Ack & Brunt",
       "productCategory": "Melee",
@@ -76,7 +76,7 @@ module.exports = {
       "bpCost": 15000,
       "category": "Pistol",
       "description": "The Acrid fires an acidic-infused needle.",
-      "imageName": "acrid.png",
+      "imageName": "acrid-6363c31728.png",
       "masteryReq": 7,
       "name": "Acrid",
       "productCategory": "Pistols",
@@ -101,7 +101,7 @@ module.exports = {
     {
       "category": "Kavat",
       "description": "A vicious and deadly Kavat prized for its combat prowess, offering increased critical chance and punishing those that dare attack it.",
-      "imageName": "adarza-kavat.png",
+      "imageName": "adarza-kavat-9155649686.png",
       "name": "Adarza Kavat",
       "productCategory": "KubrowPets",
       "tradable": false,
@@ -118,7 +118,7 @@ module.exports = {
     {
       "category": "Throwing",
       "description": "What the Aegrit lacks in quantity it makes up for in destructive power. Toss the Aegrit onto your enemy’s position then detonate remotely at the right moment for maximum destructive effect.",
-      "imageName": "aegrit.png",
+      "imageName": "aegrit-fe86bbbea4.png",
       "masteryReq": 11,
       "name": "Aegrit",
       "productCategory": "Pistols",
@@ -138,7 +138,7 @@ module.exports = {
     {
       "category": "Rifle",
       "description": "This unusual automatic rifle feels strangely familiar and has two fire modes. Primary fire packs radiation damage. Alternate fire charges up to launch an explosive projectile.",
-      "imageName": "aeolak.png",
+      "imageName": "aeolak-98339f06d2.png",
       "masteryReq": 10,
       "name": "Aeolak",
       "productCategory": "LongGuns",
@@ -158,7 +158,7 @@ module.exports = {
     {
       "category": "Rifle",
       "description": "Styanax’s speargun matches his might. Throw Afentis to pin an enemy and nearby enemies will also be stunned. Throw Afentis onto the ground to buff nearby allies with Ballistarii Might. The buff increases reload speed, fire rate, and ammo pools and reduces recoil. Allies who kill enemies with Ballistarii Might maintain the buff temporarily when they move away from Afentis.",
-      "imageName": "afentis.png",
+      "imageName": "afentis-a053c519b8.png",
       "masteryReq": 8,
       "name": "Afentis",
       "productCategory": "LongGuns",
@@ -179,7 +179,7 @@ module.exports = {
       "bpCost": 15000,
       "category": "Dual Pistols",
       "description": "Furis pistols equipped in each hand. Twice the Magazine Capacity and slightly faster Fire Rate, but Accuracy and Reload Speed are lowered.",
-      "imageName": "afuris.png",
+      "imageName": "afuris-c36c694ba4.png",
       "masteryReq": 4,
       "name": "Afuris",
       "productCategory": "Pistols",
@@ -204,7 +204,7 @@ module.exports = {
     {
       "category": "Pistol",
       "description": "Vanquish chaos with dual firepower.",
-      "imageName": "afuris-prime.png",
+      "imageName": "afuris-prime-abcebdfbfa.png",
       "masteryReq": 12,
       "name": "Afuris Prime",
       "productCategory": "Pistols",
@@ -225,7 +225,7 @@ module.exports = {
     {
       "bpCost": 35000,
       "description": "Tear apart incoming enemies with this massive hooked blade.",
-      "imageName": "agkuza.png",
+      "imageName": "agkuza-ad630f8d41.png",
       "masteryReq": 3,
       "name": "Agkuza",
       "productCategory": "SpaceMelee",
@@ -244,7 +244,7 @@ module.exports = {
     {
       "category": "Pistol",
       "description": "Bombard legions of enemies with target seeking rockets. These dual launchers reload faster while sprinting, even more so in Gauss’ hands. Rockets arm after reaching a safe distance.",
-      "imageName": "akarius.png",
+      "imageName": "akarius-2009d8750f.png",
       "masteryReq": 8,
       "name": "Akarius",
       "productCategory": "Pistols",
@@ -269,7 +269,7 @@ module.exports = {
     {
       "category": "Pistol",
       "description": "Wield a golden pair of rocket launchers. Sprint to reload them faster. They reload fastest when wielded by Gauss.",
-      "imageName": "akarius-prime.png",
+      "imageName": "akarius-prime-7d8f0a0779.png",
       "masteryReq": 14,
       "name": "Akarius Prime",
       "productCategory": "Pistols",
@@ -291,7 +291,7 @@ module.exports = {
       "category": "Hound attack",
       "description": "Hound melee attacks eviscerate with <DT_PUNCTURE_COLOR>Puncture and <DT_SLASH_COLOR>Slash Damage.",
       "excludeFromCodex": true,
-      "imageName": "akaten.png",
+      "imageName": "akaten-92fcdfd7f2.png",
       "masteryReq": 0,
       "name": "Akaten (Hec Hound)",
       "productCategory": "SentinelWeapons",
@@ -311,7 +311,7 @@ module.exports = {
       "bpCost": 15000,
       "category": "Dual Pistols",
       "description": "A Bolto equipped in each hand. Twice the Magazine Capacity and slightly faster Fire Rate, but reload time is doubled and accuracy is lowered.",
-      "imageName": "akbolto.png",
+      "imageName": "akbolto-6b0f3d7ac2.png",
       "masteryReq": 8,
       "name": "Akbolto",
       "productCategory": "Pistols",
@@ -331,7 +331,7 @@ module.exports = {
     {
       "category": "Pistol",
       "description": "Gilded rails adorn these two vicious bolt launching pistols.",
-      "imageName": "akbolto-prime.png",
+      "imageName": "akbolto-prime-1bf267febc.png",
       "masteryReq": 13,
       "name": "Akbolto Prime",
       "productCategory": "Pistols",
@@ -358,7 +358,7 @@ module.exports = {
       "bpCost": 20000,
       "category": "Dual Pistols",
       "description": "A Bronco equipped in each hand.",
-      "imageName": "akbronco.png",
+      "imageName": "akbronco-2345401e0c.png",
       "masteryReq": 2,
       "name": "Akbronco",
       "productCategory": "Pistols",
@@ -378,7 +378,7 @@ module.exports = {
     {
       "category": "Dual Pistols",
       "description": "Used together, these Orokin pistols feed off each other, inflicting greater damage with an enhanced status chance for inducing elemental effects on targets.",
-      "imageName": "akbronco-prime.png",
+      "imageName": "akbronco-prime-e0b3fd0788.png",
       "masteryReq": 10,
       "name": "Akbronco Prime",
       "productCategory": "Pistols",
@@ -405,7 +405,7 @@ module.exports = {
       "bpCost": 20000,
       "category": "Pistol",
       "description": "The design of these hard-hitting dual pistols is a mix of organic and bladed elements.",
-      "imageName": "akjagara.png",
+      "imageName": "akjagara-091d3b6fa7.png",
       "masteryReq": 8,
       "name": "Akjagara",
       "productCategory": "Pistols",
@@ -425,7 +425,7 @@ module.exports = {
     {
       "category": "Pistol",
       "description": "Precision machined mirrored pistols. Primed and ready.",
-      "imageName": "akjagara-prime.png",
+      "imageName": "akjagara-prime-c44280a30c.png",
       "masteryReq": 12,
       "name": "Akjagara Prime",
       "productCategory": "Pistols",
@@ -451,7 +451,7 @@ module.exports = {
     {
       "category": "Dual Pistols",
       "description": "A Lato equipped in each hand. Twice the Magazine Capacity and Fire Rate, but Reload time is doubled and Accuracy is lowered.",
-      "imageName": "aklato.png",
+      "imageName": "aklato-c5ecafca06.png",
       "masteryReq": 3,
       "name": "Aklato",
       "productCategory": "Pistols",
@@ -477,7 +477,7 @@ module.exports = {
       "bpCost": 20000,
       "category": "Dual Pistols",
       "description": "Dual Lex pistols double the amount of high caliber lead you can throw at the enemy, but accuracy and reload time suffer.",
-      "imageName": "aklex.png",
+      "imageName": "aklex-20f578f0e2.png",
       "masteryReq": 4,
       "name": "Aklex",
       "productCategory": "Pistols",
@@ -497,7 +497,7 @@ module.exports = {
     {
       "category": "Dual Pistols",
       "description": "Savage the enemy with a Lex Prime in each hand.",
-      "imageName": "aklex-prime.png",
+      "imageName": "aklex-prime-3ba6556b1f.png",
       "masteryReq": 15,
       "name": "Aklex Prime",
       "productCategory": "Pistols",
@@ -524,7 +524,7 @@ module.exports = {
       "bpCost": 50000,
       "category": "Dual Pistols",
       "description": "Twice the ammo and twice the stopping power of a single Magnus.",
-      "imageName": "akmagnus.png",
+      "imageName": "akmagnus-98e45bbf74.png",
       "masteryReq": 12,
       "name": "Akmagnus",
       "productCategory": "Pistols",
@@ -549,7 +549,7 @@ module.exports = {
     {
       "category": "Dual Pistols",
       "description": "Fill your fists with golden cannons of fury. This refined design unlocks quicker handling and higher critical chance.",
-      "imageName": "akmagnus-prime.png",
+      "imageName": "akmagnus-prime-641a54e112.png",
       "masteryReq": 15,
       "name": "Akmagnus Prime",
       "productCategory": "Pistols",
@@ -571,7 +571,7 @@ module.exports = {
       "bpCost": 20000,
       "category": "Pistol",
       "description": "The devastating power of the Soma rifle compacted into two elegant pistols.",
-      "imageName": "aksomati.png",
+      "imageName": "aksomati-452d3d8d0e.png",
       "masteryReq": 9,
       "name": "Aksomati",
       "productCategory": "Pistols",
@@ -591,7 +591,7 @@ module.exports = {
     {
       "category": "Pistol",
       "description": "The elegant Aksomati precisely refined to this, their ultimate manifestation.",
-      "imageName": "aksomati-prime.png",
+      "imageName": "aksomati-prime-8fc151cef1.png",
       "masteryReq": 12,
       "name": "Aksomati Prime",
       "productCategory": "Pistols",
@@ -618,7 +618,7 @@ module.exports = {
       "bpCost": 15000,
       "category": "Pistol",
       "description": "These diminutive rapid-fire Stiletto machine-pistols are just the right size to be akimbo style without sacrificing accuracy.",
-      "imageName": "akstiletto.png",
+      "imageName": "akstiletto-5d5e77400c.png",
       "masteryReq": 8,
       "name": "Akstiletto",
       "productCategory": "Pistols",
@@ -638,7 +638,7 @@ module.exports = {
     {
       "category": "Pistol",
       "description": "Stylish, discreet and accurate, perfect for the Tenno of distinction.",
-      "imageName": "akstiletto-prime.png",
+      "imageName": "akstiletto-prime-a45f9d4e38.png",
       "masteryReq": 10,
       "name": "Akstiletto Prime",
       "productCategory": "Pistols",
@@ -665,7 +665,7 @@ module.exports = {
       "bpCost": 50000,
       "category": "Dual Pistols",
       "description": "Vasto revolvers equipped in each hand.",
-      "imageName": "akvasto.png",
+      "imageName": "akvasto-7e279725d8.png",
       "masteryReq": 8,
       "name": "Akvasto",
       "productCategory": "Pistols",
@@ -685,7 +685,7 @@ module.exports = {
     {
       "category": "Pistol",
       "description": "Orokin craftsmanship married with superior firepower. Dual Vastos, primed and ready to strike.",
-      "imageName": "akvasto-prime.png",
+      "imageName": "akvasto-prime-9416a0a363.png",
       "masteryReq": 12,
       "name": "Akvasto Prime",
       "productCategory": "Pistols",
@@ -712,7 +712,7 @@ module.exports = {
       "bpCost": 20000,
       "category": "Pistol",
       "description": "The choice weapon of Mirage, these fast-firing dual pistols deliver a deadly performance.",
-      "imageName": "akzani.png",
+      "imageName": "akzani-127d132ec5.png",
       "masteryReq": 4,
       "name": "Akzani",
       "productCategory": "Pistols",
@@ -737,7 +737,7 @@ module.exports = {
     {
       "category": "Rifle",
       "description": "Gyre’s signature weapon has two fire modes. Primary fire shocks enemies with electrical orbs. Alternate fire is a large ball of electricity that sticks to any surface and pulses <DT_ELECTRICITY_COLOR>Electricity before it explodes. In Gyre's hands, the weapon has a small amount of multishot.",
-      "imageName": "alternox.png",
+      "imageName": "alternox-448bc76586.png",
       "masteryReq": 8,
       "name": "Alternox",
       "productCategory": "LongGuns",
@@ -756,7 +756,7 @@ module.exports = {
     },
     {
       "description": "Roll Koumei's die with every 30 hits from Amanata to empower yourself with 1 of 5 Koumei blessings. Roll a 6 to receive all blessings at once.",
-      "imageName": "amanata.png",
+      "imageName": "amanata-05760c3533.png",
       "masteryReq": 2,
       "name": "Amanata",
       "productCategory": "Melee",
@@ -775,7 +775,7 @@ module.exports = {
     {
       "category": "Rifle",
       "description": "Bring negotiations to an instant conclusion with this Corpus assault rifle. Switch effortlessly between charged explosive sniper shots and rapid-fire electrical assault mode.",
-      "imageName": "ambassador.png",
+      "imageName": "ambassador-0ff82bef8f.png",
       "masteryReq": 10,
       "name": "Ambassador",
       "productCategory": "LongGuns",
@@ -800,7 +800,7 @@ module.exports = {
     {
       "category": "Archwing",
       "description": "Transform into a winged guardian.",
-      "imageName": "amesha.png",
+      "imageName": "amesha-5bef2b8e0e.png",
       "masteryReq": 0,
       "name": "Amesha",
       "productCategory": "SpaceSuits",
@@ -818,7 +818,7 @@ module.exports = {
     {
       "bpCost": 15000,
       "description": "Fashioned with Grineer materials and balanced for marine infantry use, the Amphis is a traditional staff weapon that has received a monstrous makeover that enables shock damage on jump attacks. Connects with multiple enemies with each strike.",
-      "imageName": "amphis.png",
+      "imageName": "amphis-6b69bc1995.png",
       "masteryReq": 5,
       "name": "Amphis",
       "productCategory": "Melee",
@@ -845,7 +845,7 @@ module.exports = {
       "bpCost": 50000,
       "category": "Rifle",
       "description": "The Amprex rifle fires a continuous beam of high voltage electricity that arcs among nearby enemies. This weapon excels at Crowd Control.",
-      "imageName": "amprex.png",
+      "imageName": "amprex-9e41d98a19.png",
       "masteryReq": 10,
       "name": "Amprex",
       "productCategory": "LongGuns",
@@ -871,7 +871,7 @@ module.exports = {
       "bpCost": 25000,
       "category": "Pistol",
       "description": "Capable of firing multiple rockets at once, the Angstrum is a handheld instrument of destruction.",
-      "imageName": "angstrum.png",
+      "imageName": "angstrum-296fd1e714.png",
       "masteryReq": 4,
       "name": "Angstrum",
       "productCategory": "Pistols",
@@ -891,7 +891,7 @@ module.exports = {
     {
       "bpCost": 15000,
       "description": "Reap havoc with this full sized Tenno-crafted scythe.",
-      "imageName": "anku.png",
+      "imageName": "anku-0064a960cc.png",
       "masteryReq": 3,
       "name": "Anku",
       "productCategory": "Melee",
@@ -917,7 +917,7 @@ module.exports = {
     {
       "bpCost": 15000,
       "description": "A pair of mighty gauntlets, the Ankyros were designed by the Tenno for close quarters combat. What they lack in range they make up for in speed.",
-      "imageName": "ankyros.png",
+      "imageName": "ankyros-9fe87ef6d1.png",
       "masteryReq": 2,
       "name": "Ankyros",
       "productCategory": "Melee",
@@ -935,7 +935,7 @@ module.exports = {
     },
     {
       "description": "This Orokin variation of the Ankyros is superior to its successor in every way.",
-      "imageName": "ankyros-prime.png",
+      "imageName": "ankyros-prime-db23dcbd9d.png",
       "masteryReq": 8,
       "name": "Ankyros Prime",
       "productCategory": "Melee",
@@ -963,7 +963,7 @@ module.exports = {
       "bpCost": 15000,
       "category": "Shotgun",
       "description": "Stagger targets with blasts from this Corpus engineered plasma shotgun. Surviving enemies are consumed with radiation.",
-      "imageName": "arca-plasmor.png",
+      "imageName": "arca-plasmor-22aeed29c6.png",
       "masteryReq": 10,
       "name": "Arca Plasmor",
       "productCategory": "LongGuns",
@@ -989,7 +989,7 @@ module.exports = {
       "bpCost": 15000,
       "category": "Pistol",
       "description": "This scoped pistol analyzes strikes, learning how to damage its targets most effectively. Achieve maximum damage output after five successive hits.",
-      "imageName": "arca-scisco.png",
+      "imageName": "arca-scisco-10a8f96db3.png",
       "masteryReq": 10,
       "name": "Arca Scisco",
       "productCategory": "Pistols",
@@ -1014,7 +1014,7 @@ module.exports = {
     {
       "bpCost": 30000,
       "description": "Each successive kill from this massive electron hammer builds an electron charge that is unleashed on slam attacks.",
-      "imageName": "arca-titron.png",
+      "imageName": "arca-titron-b18e4d9e56.png",
       "masteryReq": 10,
       "name": "Arca Titron",
       "productCategory": "Melee",
@@ -1039,7 +1039,7 @@ module.exports = {
     },
     {
       "description": "Argo & Vel bolster the warrior who stands fast. Its Heavy Attack sends forth a glaive that ricochets off enemies.",
-      "imageName": "argo-&-vel.png",
+      "imageName": "argo-&-vel-c520623cce.png",
       "masteryReq": 0,
       "name": "Argo & Vel",
       "productCategory": "Melee",
@@ -1059,7 +1059,7 @@ module.exports = {
       "bpCost": 15000,
       "category": "Rifle",
       "description": "Pick off targets by highlighting distant enemies using this Grineer rifle's advanced laser sighting system. Deadly in both single fire and automatic modes.",
-      "imageName": "argonak.png",
+      "imageName": "argonak-0823371815.png",
       "masteryReq": 7,
       "name": "Argonak",
       "productCategory": "LongGuns",
@@ -1084,7 +1084,7 @@ module.exports = {
     {
       "category": "Companion Weapon",
       "description": "Freeze targets in their tracks with this sentinel mounted ice-beam.",
-      "imageName": "artax.png",
+      "imageName": "artax-40f5c3dbb9.png",
       "masteryReq": 0,
       "name": "Artax",
       "productCategory": "SentinelWeapons",
@@ -1103,7 +1103,7 @@ module.exports = {
     },
     {
       "description": "Slash through enemies with two leaves of the exceedingly rare Arum Spinosa plant. Heavy Attack to whip a flurry of toxic spines at ranged attackers.",
-      "imageName": "arum-spinosa.png",
+      "imageName": "arum-spinosa-c004a6cfa1.png",
       "masteryReq": 11,
       "name": "Arum Spinosa",
       "productCategory": "Melee",
@@ -1129,7 +1129,7 @@ module.exports = {
     {
       "bpCost": 35000,
       "description": "Behold the patron saint of the Orokin school of political assassination. Ash specializes in stealth. The edge of his blade is sooner felt than seen.",
-      "imageName": "ash.png",
+      "imageName": "ash-f2c6f3ab3f.png",
       "masteryReq": 0,
       "name": "Ash",
       "productCategory": "Suits",
@@ -1147,7 +1147,7 @@ module.exports = {
     },
     {
       "description": "Distraction and subterfuge become lethal weapons with Ash Prime. Featuring altered mod polarities for greater customization.",
-      "imageName": "ash-prime.png",
+      "imageName": "ash-prime-bfcb09331e.png",
       "masteryReq": 0,
       "name": "Ash Prime",
       "productCategory": "Suits",
@@ -1168,7 +1168,7 @@ module.exports = {
       "bpCost": 20000,
       "category": "Shotgun",
       "description": "Blast enemies with glass slugs that devastate on impact. In Gara's hands, this signature weapon has a larger Ammo Pool.",
-      "imageName": "astilla.png",
+      "imageName": "astilla-c74cffb34c.png",
       "masteryReq": 10,
       "name": "Astilla",
       "productCategory": "LongGuns",
@@ -1188,7 +1188,7 @@ module.exports = {
     {
       "category": "Rifle",
       "description": "Loose explosive glass slugs that tear through enemies with Gara’s signature shotgun, presented here in its spectacular Prime form.",
-      "imageName": "astilla-prime.png",
+      "imageName": "astilla-prime-41ef61f4d6.png",
       "masteryReq": 14,
       "name": "Astilla Prime",
       "productCategory": "LongGuns",
@@ -1214,7 +1214,7 @@ module.exports = {
     {
       "category": "Pistol",
       "description": "Reverse-engineered from propulsion tech this hand-cannon packs a kick. Headshots kills trigger Overdrive, locking off secondary functions while maximizing your fire rate and ammo efficiency for a short time.",
-      "imageName": "athodai.png",
+      "imageName": "athodai-88e24e43f3.png",
       "masteryReq": 10,
       "name": "Athodai",
       "productCategory": "Pistols",
@@ -1238,7 +1238,7 @@ module.exports = {
     },
     {
       "description": "Enemies tremble before the brawler with fists as hard as stone. Atlas deals high damage. Command terrestrial elements that form the foundation of any battlefield.",
-      "imageName": "atlas.png",
+      "imageName": "atlas-a39443cc8b.png",
       "masteryReq": 0,
       "name": "Atlas",
       "productCategory": "Suits",
@@ -1256,7 +1256,7 @@ module.exports = {
     },
     {
       "description": "In bygone ages, mountains were said to house warriors. In this age, the mountain has become the warrior.",
-      "imageName": "atlas-prime.png",
+      "imageName": "atlas-prime-7312f6d838.png",
       "masteryReq": 0,
       "name": "Atlas Prime",
       "productCategory": "Suits",
@@ -1277,7 +1277,7 @@ module.exports = {
       "bpCost": 30000,
       "category": "Pistol",
       "description": "This particle cannon generates a condensed beam of super-heated plasma designed to melt rock to ore, and enemies to molten slag.",
-      "imageName": "atomos.png",
+      "imageName": "atomos-97563b3008.png",
       "masteryReq": 5,
       "name": "Atomos",
       "productCategory": "Pistols",
@@ -1302,7 +1302,7 @@ module.exports = {
     {
       "bpCost": 20000,
       "description": "A multi-bladed whip that is adept at flaying skin from bone. In extreme cases, disobedient Grineer are sentenced to death by Atterax.",
-      "imageName": "atterax.png",
+      "imageName": "atterax-a78c2ad927.png",
       "masteryReq": 5,
       "name": "Atterax",
       "productCategory": "Melee",
@@ -1329,7 +1329,7 @@ module.exports = {
       "bpCost": 15000,
       "category": "Rifle",
       "description": "Quickly fire off a volley of deadly bolts with the Attica repeating crossbow.",
-      "imageName": "attica.png",
+      "imageName": "attica-325c1cffcc.png",
       "masteryReq": 7,
       "name": "Attica",
       "productCategory": "LongGuns",
@@ -1354,7 +1354,7 @@ module.exports = {
     {
       "category": "Rifle",
       "description": "This pre-Orokin weapon earned its popularity for its reliability in tough conditions. When hip-firing, its Ammo Efficiency increases. When aiming, headshots have a high Critical Chance.",
-      "imageName": "ax-52.png",
+      "imageName": "ax-52-7ebc7ac6cc.png",
       "masteryReq": 12,
       "name": "Ax-52",
       "productCategory": "LongGuns",
@@ -1373,7 +1373,7 @@ module.exports = {
     {
       "category": "Pistol",
       "description": "This intricate automatic pistol is able to fire its magazine which then spins in the air for a short time, firing lasers at nearby enemies.",
-      "imageName": "azima.png",
+      "imageName": "azima-7045ece43c.png",
       "masteryReq": 6,
       "name": "Azima",
       "productCategory": "Pistols",
@@ -1397,7 +1397,7 @@ module.exports = {
     },
     {
       "description": "Azothane calls the visionary warrior to turn the tides of battle. Block and melee attack at the same time to plunge Azothane into the ground, damaging nearby enemies with a shockwave and adding to the combo counter.",
-      "imageName": "azothane.png",
+      "imageName": "azothane-c72f98d997.png",
       "masteryReq": 0,
       "name": "Azothane",
       "productCategory": "Melee",
@@ -1416,7 +1416,7 @@ module.exports = {
     {
       "category": "K-Drive",
       "description": "",
-      "imageName": "bad-baby.png",
+      "imageName": "bad-baby-e8d36e800a.png",
       "masteryReq": 0,
       "name": "Bad Baby",
       "productCategory": "Pistols",
@@ -1433,7 +1433,7 @@ module.exports = {
     },
     {
       "description": "",
-      "imageName": "balla.png",
+      "imageName": "balla-b6d6529af4.png",
       "masteryReq": 0,
       "name": "Balla Strike",
       "productCategory": "Pistols",
@@ -1453,7 +1453,7 @@ module.exports = {
       "bpCost": 40000,
       "category": "Pistol",
       "description": "The Ballistica crossbow features a unique dual firing mechanism. Choose between a four bolt volley or a deadly accurate charged shot.",
-      "imageName": "ballistica.png",
+      "imageName": "ballistica-a88d0d1bea.png",
       "masteryReq": 2,
       "name": "Ballistica",
       "productCategory": "Pistols",
@@ -1473,7 +1473,7 @@ module.exports = {
     {
       "category": "Pistol",
       "description": "The beauty of this luxuriously gilded crossbow cannot obscure its lethal purpose.",
-      "imageName": "ballistica-prime.png",
+      "imageName": "ballistica-prime-81feb66ef9.png",
       "masteryReq": 14,
       "name": "Ballistica Prime",
       "productCategory": "Pistols",
@@ -1498,7 +1498,7 @@ module.exports = {
     },
     {
       "description": "Banshee’s call heralds death. She maintains crowd control and identifies enemy weak points with sonic attacks. Few can hold their position when struck by her force.",
-      "imageName": "banshee.png",
+      "imageName": "banshee-f3216d3957.png",
       "masteryReq": 0,
       "name": "Banshee",
       "productCategory": "Suits",
@@ -1516,7 +1516,7 @@ module.exports = {
     },
     {
       "description": "Banshee Prime assails her foes by manipulating sonic forces to deadly effect. Featuring altered mod polarities for greater customization.",
-      "imageName": "banshee-prime.png",
+      "imageName": "banshee-prime-7bebac6654.png",
       "masteryReq": 0,
       "name": "Banshee Prime",
       "productCategory": "Suits",
@@ -1538,7 +1538,7 @@ module.exports = {
       "exalted": [
         "/Lotus/Powersuits/Pacifist/PacifistFist"
       ],
-      "imageName": "baruuk.png",
+      "imageName": "baruuk-e935d0749d.png",
       "masteryReq": 0,
       "name": "Baruuk",
       "productCategory": "Suits",
@@ -1559,7 +1559,7 @@ module.exports = {
       "exalted": [
         "/Lotus/Powersuits/Pacifist/PacifistFistPrime"
       ],
-      "imageName": "baruuk-prime.png",
+      "imageName": "baruuk-prime-7e1a50c877.png",
       "masteryReq": 0,
       "name": "Baruuk Prime",
       "productCategory": "Suits",
@@ -1579,7 +1579,7 @@ module.exports = {
     {
       "category": "Rifle",
       "description": "This Sentient war instrument can either barrage targets with explosive bolts, or, draw on its regenerative battery to create twin plasma beams that chain through targets. When fully drained, Health is leached from nearby foes for a short period.",
-      "imageName": "basmu.png",
+      "imageName": "basmu-436ead3ef5.png",
       "masteryReq": 11,
       "name": "Basmu",
       "productCategory": "LongGuns",
@@ -1605,7 +1605,7 @@ module.exports = {
       "category": "Hound attack",
       "description": "Hound melee attacks pierce hard with <DT_IMPACT_COLOR>Impact and <DT_PUNCTURE_COLOR>Puncture Damage.",
       "excludeFromCodex": true,
-      "imageName": "batoten.png",
+      "imageName": "batoten-a5990aba68.png",
       "masteryReq": 0,
       "name": "Batoten (Dorma Hound)",
       "productCategory": "SentinelWeapons",
@@ -1625,7 +1625,7 @@ module.exports = {
       "bpCost": 15000,
       "category": "Rifle",
       "description": "A weapon that builds charge the more it kills. Hit capacity then release for an obliterating discharge of power.",
-      "imageName": "battacor.png",
+      "imageName": "battacor-d2bf15dcde.png",
       "masteryReq": 10,
       "name": "Battacor",
       "productCategory": "LongGuns",
@@ -1651,7 +1651,7 @@ module.exports = {
       "bpCost": 15000,
       "category": "Rifle",
       "description": "Make easy prey of enemies with this quiet, agile, and pinpoint accurate Tenno submachine gun.",
-      "imageName": "baza.png",
+      "imageName": "baza-288fcce16f.png",
       "masteryReq": 7,
       "name": "Baza",
       "productCategory": "LongGuns",
@@ -1671,7 +1671,7 @@ module.exports = {
     {
       "category": "Rifle",
       "description": "This rapid-fire classic is the Orokin-engineered definition of silent, pinpoint lethality.",
-      "imageName": "baza-prime.png",
+      "imageName": "baza-prime-a05bfd6bfc.png",
       "masteryReq": 10,
       "name": "Baza Prime",
       "productCategory": "LongGuns",
@@ -1714,7 +1714,7 @@ module.exports = {
     {
       "bpCost": 15000,
       "description": "A two-handed, reinforced staff that can send multiple enemies airborne.",
-      "imageName": "bo.png",
+      "imageName": "bo-1f219ba48d.png",
       "masteryReq": 0,
       "name": "Bo",
       "productCategory": "Melee",
@@ -1732,7 +1732,7 @@ module.exports = {
     },
     {
       "description": "A classic Orokin weapon, Bo Prime creates elegant fury on the battlefield.",
-      "imageName": "bo-prime.png",
+      "imageName": "bo-prime-fa6bb7ec1b.png",
       "masteryReq": 5,
       "name": "Bo Prime",
       "productCategory": "Melee",
@@ -1759,7 +1759,7 @@ module.exports = {
     {
       "category": "Shotgun",
       "description": "A shotgun with low accuracy and strong recoil, but able to deliver its payload in full-auto. The Boar is best used at close range.",
-      "imageName": "boar.png",
+      "imageName": "boar-8c3c569383.png",
       "masteryReq": 2,
       "name": "Boar",
       "productCategory": "LongGuns",
@@ -1779,7 +1779,7 @@ module.exports = {
     {
       "category": "Shotgun",
       "description": "One of the finest examples of Tenno craftsmanship, the Boar Prime offers a higher Fire Rate, Magazine Capacity and a much higher per-shot damage.",
-      "imageName": "boar-prime.png",
+      "imageName": "boar-prime-d357b12d62.png",
       "masteryReq": 11,
       "name": "Boar Prime",
       "productCategory": "LongGuns",
@@ -1805,7 +1805,7 @@ module.exports = {
     {
       "bpCost": 20000,
       "description": "An intimidating Tonfa set designed to match the briary design of the Boltor.",
-      "imageName": "boltace.png",
+      "imageName": "boltace-55d2605914.png",
       "masteryReq": 4,
       "name": "Boltace",
       "productCategory": "Melee",
@@ -1825,7 +1825,7 @@ module.exports = {
       "bpCost": 15000,
       "category": "Pistol",
       "description": "The Bolto fires slow, heavy bolts that are capable of impaling enemies to walls.",
-      "imageName": "bolto.png",
+      "imageName": "bolto-39106d806a.png",
       "masteryReq": 7,
       "name": "Bolto",
       "productCategory": "Pistols",
@@ -1846,7 +1846,7 @@ module.exports = {
       "bpCost": 15000,
       "category": "Rifle",
       "description": "The Boltor fires slow, heavy bolts that are capable of impaling enemies to walls.",
-      "imageName": "boltor.png",
+      "imageName": "boltor-4e53e6186d.png",
       "masteryReq": 2,
       "name": "Boltor",
       "productCategory": "LongGuns",
@@ -1866,7 +1866,7 @@ module.exports = {
     {
       "category": "Rifle",
       "description": "Fires Orokin designed bolts that are faster and sharper.",
-      "imageName": "boltor-prime.png",
+      "imageName": "boltor-prime-5340f53738.png",
       "masteryReq": 13,
       "name": "Boltor Prime",
       "productCategory": "LongGuns",
@@ -1895,7 +1895,7 @@ module.exports = {
         "/Lotus/Types/Enemies/Orokin/Entrati/EntratiTech/NechroTech/AbilitySword/NechroTechSwordWeapon",
         "/Lotus/Weapons/Tenno/Archwing/Primary/ThanoTechArchLongGun/ThanoTechLongGun"
       ],
-      "imageName": "bonewidow.png",
+      "imageName": "bonewidow-e6080b9313.png",
       "masteryReq": 0,
       "name": "Bonewidow",
       "productCategory": "MechSuits",
@@ -1915,7 +1915,7 @@ module.exports = {
     {
       "category": "Pistol",
       "description": "Simple but powerful. The semi-automatic Brakk hand cannon delivers a lot of punch in a small package.",
-      "imageName": "brakk.png",
+      "imageName": "brakk-251ecec36e.png",
       "masteryReq": 6,
       "name": "Brakk",
       "productCategory": "Pistols",
@@ -1940,7 +1940,7 @@ module.exports = {
     {
       "category": "Rifle",
       "description": "The Braton's high rate of fire and accuracy make it a favorite among the Tenno.",
-      "imageName": "braton.png",
+      "imageName": "braton-3e4617eb07.png",
       "masteryReq": 0,
       "name": "Braton",
       "productCategory": "LongGuns",
@@ -1960,7 +1960,7 @@ module.exports = {
     {
       "category": "Rifle",
       "description": "A classic Orokin weapon, Braton Prime features modified damage levels and a larger magazine over the standard model.",
-      "imageName": "braton-prime.png",
+      "imageName": "braton-prime-f3ebb072cb.png",
       "masteryReq": 8,
       "name": "Braton Prime",
       "productCategory": "LongGuns",
@@ -1986,7 +1986,7 @@ module.exports = {
     {
       "category": "Rifle",
       "description": "A special version of the standard Braton rifle with a slower Fire Rate but offering higher accuracy and damage values. The Braton Vandal has been customized by the Tenno with a blue-green metallic finish and Lotus branding on the grips.",
-      "imageName": "braton-vandal.png",
+      "imageName": "braton-vandal-ce1731f85a.png",
       "masteryReq": 4,
       "name": "Braton Vandal",
       "productCategory": "LongGuns",
@@ -2005,7 +2005,7 @@ module.exports = {
     },
     {
       "description": "A shattered talisman of the Grineer Elder Queen. It pulls health orbs from deceased enemies and energy orbs from destroyed robots.",
-      "imageName": "broken-scepter.png",
+      "imageName": "broken-scepter-0d9d345a91.png",
       "masteryReq": 7,
       "name": "Broken Scepter",
       "productCategory": "Melee",
@@ -2030,7 +2030,7 @@ module.exports = {
     },
     {
       "description": "A fragment of Stalker's War sword, a symbol of his defeat.",
-      "imageName": "broken-war.png",
+      "imageName": "broken-war-25efd4d746.png",
       "masteryReq": 10,
       "name": "Broken War",
       "productCategory": "Melee",
@@ -2057,7 +2057,7 @@ module.exports = {
       "bpCost": 15000,
       "category": "Pistol",
       "description": "The Bronco is a small-scale shotgun that can be wielded with one hand. Only effective at close range, it has a limited Magazine Capacity.",
-      "imageName": "bronco.png",
+      "imageName": "bronco-65d3eb546d.png",
       "masteryReq": 0,
       "name": "Bronco",
       "productCategory": "Pistols",
@@ -2077,7 +2077,7 @@ module.exports = {
     {
       "category": "Pistol",
       "description": "Infused with rare Orokin alloys, the Bronco Prime is a highly efficient weapon, trading an increased Magazine Capacity and damage for a lower rate of fire.",
-      "imageName": "bronco-prime.png",
+      "imageName": "bronco-prime-22492b5f01.png",
       "masteryReq": 4,
       "name": "Bronco Prime",
       "productCategory": "Pistols",
@@ -2099,7 +2099,7 @@ module.exports = {
       "bpCost": 50000,
       "category": "Rifle",
       "description": "Rain down a triple volley of explosive disease bladders from a distance, then move in for the kill by unloading a multi-shot barrage of toxic barbs with primary fire.",
-      "imageName": "bubonico.png",
+      "imageName": "bubonico-0b3130d7c8.png",
       "masteryReq": 13,
       "name": "Bubonico",
       "productCategory": "LongGuns",
@@ -2124,7 +2124,7 @@ module.exports = {
     {
       "category": "Companion Weapon",
       "description": "Fires a small burst of lasers.",
-      "imageName": "burst-laser.png",
+      "imageName": "burst-laser-d6fb44fe7d.png",
       "masteryReq": 0,
       "name": "Burst Laser",
       "productCategory": "SentinelWeapons",
@@ -2144,7 +2144,7 @@ module.exports = {
     {
       "category": "Companion Weapon",
       "description": "Shade Prime’s signature weapon fires laser bursts.",
-      "imageName": "burst-laser-prime.png",
+      "imageName": "burst-laser-prime-c2b712f0d2.png",
       "masteryReq": 0,
       "name": "Burst Laser Prime",
       "productCategory": "SentinelWeapons",
@@ -2166,7 +2166,7 @@ module.exports = {
       "bpCost": 15000,
       "category": "Rifle",
       "description": "The Burston fires 3-round bursts, which provides a balance between the lethality of automatic rifles and the accuracy of semi-automatic rifles.",
-      "imageName": "burston.png",
+      "imageName": "burston-14c0cde636.png",
       "masteryReq": 0,
       "name": "Burston",
       "productCategory": "LongGuns",
@@ -2186,7 +2186,7 @@ module.exports = {
     {
       "category": "Rifle",
       "description": "Once thought lost to the ages, attempts to reengineer the Burston Prime never fully replicated this weapon's power and agility.",
-      "imageName": "burston-prime.png",
+      "imageName": "burston-prime-f8bc26c184.png",
       "masteryReq": 12,
       "name": "Burston Prime",
       "productCategory": "LongGuns",
@@ -2213,7 +2213,7 @@ module.exports = {
       "bpCost": 15000,
       "category": "Rifle",
       "description": "Mark your targets and unleash a barrage of bullets, the Buzlok's homing rounds always find the enemy. Marked targets are more likely to take critical hits.",
-      "imageName": "buzlok.png",
+      "imageName": "buzlok-e0a2b0d88f.png",
       "masteryReq": 11,
       "name": "Buzlok",
       "productCategory": "LongGuns",
@@ -2238,7 +2238,7 @@ module.exports = {
     {
       "bpCost": 20000,
       "description": "A lone Tenno once used this staff to fight back a horde of Infested.",
-      "imageName": "cadus.png",
+      "imageName": "cadus-31f6896606.png",
       "masteryReq": 4,
       "name": "Cadus",
       "productCategory": "Melee",
@@ -2264,7 +2264,7 @@ module.exports = {
     {
       "bpCost": 50000,
       "description": "The heir of twin kingdoms ascends. Biological and Sentient life meet in Caliban. An adept monarch, he offers crowd control and survivability. His creator had more than one world in mind.",
-      "imageName": "caliban.png",
+      "imageName": "caliban-c2f7820be2.png",
       "masteryReq": 0,
       "name": "Caliban",
       "productCategory": "Suits",
@@ -2283,7 +2283,7 @@ module.exports = {
     {
       "category": "Throwing",
       "description": "In moments of despair, let the battle resonate with song. Cantare's blades lodge into the battlefield and return upon reload. When returning blades strike enemies, Cantare empowers allies with increased Reload Speed.Experience the true power of Jade’s Ensemble when Evensong, Cantare, and Harmony sing together.",
-      "imageName": "cantare.png",
+      "imageName": "cantare-480f4a6fc2.png",
       "masteryReq": 10,
       "name": "Cantare",
       "productCategory": "Pistols",
@@ -2302,7 +2302,7 @@ module.exports = {
     },
     {
       "description": "",
-      "imageName": "cantic-prism.png",
+      "imageName": "cantic-prism-31ad8f20af.png",
       "masteryReq": 0,
       "name": "Cantic Prism",
       "productCategory": "Pistols",
@@ -2321,7 +2321,7 @@ module.exports = {
     {
       "category": "Rifle",
       "description": "Enveloped in deep red composite enamel, this Penta variant features a higher fire-rate and over-sized magazine.",
-      "imageName": "carmine-penta.png",
+      "imageName": "carmine-penta-7534ca6319.png",
       "masteryReq": 6,
       "name": "Carmine Penta",
       "productCategory": "LongGuns",
@@ -2340,7 +2340,7 @@ module.exports = {
     },
     {
       "description": "With 'Assault Mode' and 'Ammo Case' as default Precepts, Carrier is a seeker Sentinel. Carrier also comes with a shotgun weapon.",
-      "imageName": "carrier.png",
+      "imageName": "carrier-f4e5806f6e.png",
       "name": "Carrier",
       "productCategory": "Sentinels",
       "tradable": false,
@@ -2356,7 +2356,7 @@ module.exports = {
     },
     {
       "description": "This ornate sentinel is an excellent example of late Orokin craftsmanship and styling.",
-      "imageName": "carrier-prime.png",
+      "imageName": "carrier-prime-7e84bae628.png",
       "name": "Carrier Prime",
       "productCategory": "Sentinels",
       "releaseDate": "2015-07-07",
@@ -2375,7 +2375,7 @@ module.exports = {
     {
       "bpCost": 15000,
       "description": "Light and nimble, the twin blades of this polearm will swoop and slice through throngs of hardened foes.",
-      "imageName": "cassowar.png",
+      "imageName": "cassowar-ff3272dbfb.png",
       "masteryReq": 5,
       "name": "Cassowar",
       "productCategory": "Melee",
@@ -2402,7 +2402,7 @@ module.exports = {
       "bpCost": 15000,
       "category": "Throwing",
       "description": "The remotely triggered Castanas quietly deliver a lethal dose of electricity to unsuspecting enemies.",
-      "imageName": "castanas.png",
+      "imageName": "castanas-2fd0ffe61a.png",
       "masteryReq": 3,
       "name": "Castanas",
       "productCategory": "Pistols",
@@ -2423,7 +2423,7 @@ module.exports = {
       "bpCost": 50000,
       "category": "Pistol",
       "description": "Splatter enemies with a short-range stream of corrosive bile and then toss the ammo bladder as a grenade when reloading. The emptier the pistol’s ammo bladder, the more potent its damage. A fully empty bladder packs the biggest punch.",
-      "imageName": "catabolyst.png",
+      "imageName": "catabolyst-6a7047b949.png",
       "masteryReq": 11,
       "name": "Catabolyst",
       "productCategory": "Pistols",
@@ -2448,7 +2448,7 @@ module.exports = {
     {
       "category": "Kitgun",
       "description": "",
-      "imageName": "catchmoon.png",
+      "imageName": "catchmoon-31ee0be94c.png",
       "masteryReq": 0,
       "name": "Catchmoon",
       "primeOmegaAttenuation": 1.1,
@@ -2467,7 +2467,7 @@ module.exports = {
     {
       "bpCost": 50000,
       "description": "Heavy attacks from this scythe unleash a wave of acid that mutilates enemies and leaves a trail of corrosive sludge.",
-      "imageName": "caustacyst.png",
+      "imageName": "caustacyst-a2b014c8d4.png",
       "masteryReq": 7,
       "name": "Caustacyst",
       "productCategory": "Melee",
@@ -2493,7 +2493,7 @@ module.exports = {
     {
       "category": "Shotgun",
       "description": "Launch a glaive that ricochets off surfaces in bursts of elemental damage, then perforate enemies with primary fire’s precision buck-shot. Damage increases with each Status Effect afflicting a target. Lavos will transmute a small portion of any ammo pickup to Primary Ammo when wielding his signature Cedo.",
-      "imageName": "cedo.png",
+      "imageName": "cedo-02506f3d01.png",
       "masteryReq": 8,
       "name": "Cedo",
       "productCategory": "LongGuns",
@@ -2518,7 +2518,7 @@ module.exports = {
     {
       "bpCost": 35000,
       "description": "Part sword, part shield, the Centaur excels at charging headlong into enemy fire.",
-      "imageName": "centaur.png",
+      "imageName": "centaur-a00c7e4fd8.png",
       "masteryReq": 8,
       "name": "Centaur",
       "productCategory": "SpaceMelee",
@@ -2536,7 +2536,7 @@ module.exports = {
     },
     {
       "description": "This short blade weapon was built using ceramic. It has limited range but comes out fast.",
-      "imageName": "ceramic-dagger.png",
+      "imageName": "ceramic-dagger-d35a3d97fc.png",
       "masteryReq": 3,
       "name": "Ceramic Dagger",
       "productCategory": "Melee",
@@ -2562,7 +2562,7 @@ module.exports = {
     {
       "bpCost": 50000,
       "description": "Twisted and tortured from exposure to the Infestation, this glaive becomes an absolute predator in the hands of the right Tenno.",
-      "imageName": "cerata.png",
+      "imageName": "cerata-91a28a3937.png",
       "masteryReq": 7,
       "name": "Cerata",
       "productCategory": "Melee",
@@ -2589,7 +2589,7 @@ module.exports = {
       "bpCost": 20000,
       "category": "Rifle",
       "description": "Evoking the design of ancient bows, the high impact Cernos is perfect for hunting down highly shielded enemies.",
-      "imageName": "cernos.png",
+      "imageName": "cernos-c01dea74b2.png",
       "masteryReq": 6,
       "name": "Cernos",
       "productCategory": "LongGuns",
@@ -2609,7 +2609,7 @@ module.exports = {
     {
       "category": "Rifle",
       "description": "A noble bow to hunt hellish beasts.",
-      "imageName": "cernos-prime.png",
+      "imageName": "cernos-prime-e0019e3c84.png",
       "masteryReq": 12,
       "name": "Cernos Prime",
       "productCategory": "LongGuns",
@@ -2636,7 +2636,7 @@ module.exports = {
       "bpCost": 20000,
       "category": "Pistol",
       "description": "Compact and deadly, the Cestra discharges bolts of energy at an increasingly rapid rate.",
-      "imageName": "cestra.png",
+      "imageName": "cestra-de053fcf83.png",
       "masteryReq": 4,
       "name": "Cestra",
       "productCategory": "Pistols",
@@ -2655,7 +2655,7 @@ module.exports = {
     },
     {
       "description": "Forged for veterans of the Scarlet Spear conflict, this Lacera has been modified to enhance nimbleness and lethality.",
-      "imageName": "ceti-lacera.png",
+      "imageName": "ceti-lacera-c4a570c9b8.png",
       "masteryReq": 12,
       "name": "Ceti Lacera",
       "productCategory": "Melee",
@@ -2681,7 +2681,7 @@ module.exports = {
     {
       "category": "Kubrow",
       "description": "A clever accomplice, trained to relieve the enemy of both their weapons and their loot caches.",
-      "imageName": "chesa-kubrow.png",
+      "imageName": "chesa-kubrow-d9e3052301.png",
       "name": "Chesa Kubrow",
       "productCategory": "KubrowPets",
       "tradable": false,
@@ -2697,7 +2697,7 @@ module.exports = {
     },
     {
       "description": "Unleash the draconic. Chroma employs Heat, Electricity, Toxin, and Cold to deal high damage while maintaining survivability. Soar with winged fury.",
-      "imageName": "chroma.png",
+      "imageName": "chroma-2fd0ea0ba6.png",
       "masteryReq": 0,
       "name": "Chroma",
       "productCategory": "Suits",
@@ -2715,7 +2715,7 @@ module.exports = {
     },
     {
       "description": "Bind the elements and unleash untold destruction with Chroma Prime. Featuring altered mod polarities for greater customization.",
-      "imageName": "chroma-prime.png",
+      "imageName": "chroma-prime-2ac05d2866.png",
       "masteryReq": 0,
       "name": "Chroma Prime",
       "productCategory": "Suits",
@@ -2735,7 +2735,7 @@ module.exports = {
     {
       "category": "Rifle",
       "description": "The versatile Cinta can fire arrows in quick succession, quickly charge a shock wave, or fully charge a powerful focused shot.",
-      "imageName": "cinta.png",
+      "imageName": "cinta-50b4c86898.png",
       "masteryReq": 6,
       "name": "Cinta",
       "productCategory": "LongGuns",
@@ -2754,7 +2754,7 @@ module.exports = {
     },
     {
       "description": "Gaze upon the Crystal Bastion. Citrine's crystalline might supports allies on the battlefield. Combat only enhances her fractal beauty.",
-      "imageName": "citrine.png",
+      "imageName": "citrine-d7392c4d7d.png",
       "masteryReq": 0,
       "name": "Citrine",
       "productCategory": "Suits",
@@ -2773,7 +2773,7 @@ module.exports = {
     {
       "bpCost": 20000,
       "description": "Baruuk's signature weapons: a sword for retribution, a shield for restraint. In Baruuk's hands, and his hands only, Cobra's first strike in a combo renders his foe unconscious.",
-      "imageName": "cobra-&-crane.png",
+      "imageName": "cobra-&-crane-cf2d6b1c36.png",
       "masteryReq": 10,
       "name": "Cobra & Crane",
       "productCategory": "Melee",
@@ -2798,7 +2798,7 @@ module.exports = {
     },
     {
       "description": "Punish those who test your restraint. The first strike in a combo stuns enemies when Cobra & Crane Prime are wielded by Baruuk.",
-      "imageName": "cobra-&-crane-prime.png",
+      "imageName": "cobra-&-crane-prime-bbca3fff77.png",
       "masteryReq": 14,
       "name": "Cobra & Crane Prime",
       "productCategory": "Melee",
@@ -2819,7 +2819,7 @@ module.exports = {
       "bpCost": 15000,
       "category": "Rifle",
       "description": "When its twin-lasers converge on a target a circuit is created, frying the subject.",
-      "imageName": "convectrix.png",
+      "imageName": "convectrix-32577a6926.png",
       "masteryReq": 7,
       "name": "Convectrix",
       "productCategory": "LongGuns",
@@ -2845,7 +2845,7 @@ module.exports = {
       "bpCost": 25000,
       "category": "Shotgun",
       "description": "Deliver a massive punch with each blast of this shotgun, or launch a round that explodes mid-air knocking down nearby enemies.",
-      "imageName": "corinth.png",
+      "imageName": "corinth-cd2d0831f4.png",
       "masteryReq": 8,
       "name": "Corinth",
       "productCategory": "LongGuns",
@@ -2865,7 +2865,7 @@ module.exports = {
     {
       "category": "Rifle",
       "description": "Heavy in the hand with a bone-crunching kickback. This Prime version of this shotgun adds remote detonation of the weapon's airburst round.",
-      "imageName": "corinth-prime.png",
+      "imageName": "corinth-prime-cacf3e9a9f.png",
       "masteryReq": 14,
       "name": "Corinth Prime",
       "productCategory": "LongGuns",
@@ -2890,7 +2890,7 @@ module.exports = {
     },
     {
       "description": "An ancient weapon designed by the Entrati for use by their Necramechs. Primary fire siphons life essence from the target to fuel a devastating secondary fire. A heavy flamethrower with surprising range. Secondary fire launches three projectiles in a fan pattern that explode, leaving a damaging area of effect for a short duration.",
-      "imageName": "cortege.png",
+      "imageName": "cortege-9af4117990.png",
       "masteryReq": 14,
       "name": "Cortege",
       "productCategory": "SpaceGuns",
@@ -2909,7 +2909,7 @@ module.exports = {
     },
     {
       "description": "Heavy attacks briefly transform the Corufell into a Gunblade. After the Gunblade fires, the Corufell returns to its Heavy Scythe state. Its transformation is fastest in Citrine’s hands.",
-      "imageName": "corufell.png",
+      "imageName": "corufell-d74a908016.png",
       "masteryReq": 8,
       "name": "Corufell",
       "productCategory": "Melee",
@@ -2928,7 +2928,7 @@ module.exports = {
     {
       "bpCost": 35000,
       "description": "When fully charged, this flak cannon delivers a devastating shot. Perfect for taking down fast-moving interceptors.",
-      "imageName": "corvas.png",
+      "imageName": "corvas-13db9b551f.png",
       "masteryReq": 1,
       "name": "Corvas",
       "productCategory": "SpaceGuns",
@@ -2947,7 +2947,7 @@ module.exports = {
     },
     {
       "description": "Flaunting ceremonial beauty, this arch gun flak cannon is even more devastating than its standard issue counterpart.",
-      "imageName": "corvas-prime.png",
+      "imageName": "corvas-prime-3a5514ae24.png",
       "masteryReq": 14,
       "name": "Corvas Prime",
       "productCategory": "SpaceGuns",
@@ -2968,7 +2968,7 @@ module.exports = {
     {
       "category": "Kavat",
       "description": "Fast and foxy, Vulpaphyla are agile allies to bring along on your next adventure.",
-      "imageName": "crescent-vulpaphyla.png",
+      "imageName": "crescent-vulpaphyla-7926240141.png",
       "name": "Crescent Vulpaphyla",
       "productCategory": "KubrowPets",
       "tradable": false,
@@ -2984,7 +2984,7 @@ module.exports = {
     },
     {
       "description": "A strong blade forged using ceramic.",
-      "imageName": "cronus.png",
+      "imageName": "cronus-f3879e63fb.png",
       "masteryReq": 0,
       "name": "Cronus",
       "productCategory": "Melee",
@@ -3010,7 +3010,7 @@ module.exports = {
     {
       "category": "Companion Weapon",
       "description": "Fires volleys of icy grenades that inflict a lingering chill on the blast zone.",
-      "imageName": "cryotra.png",
+      "imageName": "cryotra-3b07124a4b.png",
       "masteryReq": 0,
       "name": "Cryotra",
       "productCategory": "SentinelWeapons",
@@ -3031,7 +3031,7 @@ module.exports = {
       "bpCost": 15000,
       "category": "Pistol",
       "description": "Sentient tech merges with Corpus design to deliver this lethal sidearm. Fully automatic, it fires ricocheting, homing projectiles that release small clouds of <DT_GAS_COLOR>Gas on impact. Alt-fire to release the entire magazine without homing as a single burst.",
-      "imageName": "cyanex.png",
+      "imageName": "cyanex-1c118ccf60.png",
       "masteryReq": 8,
       "name": "Cyanex",
       "productCategory": "Pistols",
@@ -3055,7 +3055,7 @@ module.exports = {
     },
     {
       "description": "",
-      "imageName": "cyath.png",
+      "imageName": "cyath-6698c317a9.png",
       "masteryReq": 0,
       "name": "Cyath Strike",
       "productCategory": "Pistols",
@@ -3075,7 +3075,7 @@ module.exports = {
       "bpCost": 15000,
       "category": "Pistol",
       "description": "Forgo ammunition with the regenerating energy disc in this plasma throwing pistol.",
-      "imageName": "cycron.png",
+      "imageName": "cycron-207a11874d.png",
       "masteryReq": 8,
       "name": "Cycron",
       "productCategory": "Pistols",
@@ -3100,7 +3100,7 @@ module.exports = {
     {
       "bpCost": 35000,
       "description": "Unload deadly accurate bursts of mayhem.",
-      "imageName": "cyngas.png",
+      "imageName": "cyngas-842f5f0899.png",
       "masteryReq": 4,
       "name": "Cyngas",
       "productCategory": "SpaceGuns",
@@ -3119,7 +3119,7 @@ module.exports = {
     },
     {
       "description": "Never underestimate the power and wrath of sullen sadness. Dagath's malice deals high damage.",
-      "imageName": "dagath.png",
+      "imageName": "dagath-7589f2ce5b.png",
       "masteryReq": 0,
       "name": "Dagath",
       "productCategory": "Suits",
@@ -3139,7 +3139,7 @@ module.exports = {
       "bpCost": 15000,
       "category": "Rifle",
       "description": "Daikyu takes great strength to draw back, but provides added power and range to every shot.",
-      "imageName": "daikyu.png",
+      "imageName": "daikyu-7d251e8941.png",
       "masteryReq": 10,
       "name": "Daikyu",
       "productCategory": "LongGuns",
@@ -3163,7 +3163,7 @@ module.exports = {
     },
     {
       "description": "The Dakra Prime is a Tenno forged weapon, crafted during the time of the Orokin. It is renowned for speed, power and the ability to hit multiple targets.",
-      "imageName": "dakra-prime.png",
+      "imageName": "dakra-prime-69b3818b88.png",
       "masteryReq": 10,
       "name": "Dakra Prime",
       "productCategory": "Melee",
@@ -3192,7 +3192,7 @@ module.exports = {
       "exalted": [
         "/Lotus/Powersuits/Pagemaster/ExaltedBook"
       ],
-      "imageName": "dante.png",
+      "imageName": "dante-43d70fb91a.png",
       "masteryReq": 0,
       "name": "Dante",
       "productCategory": "Suits",
@@ -3210,7 +3210,7 @@ module.exports = {
     },
     {
       "description": "This short blade weapon forged using dark metals has limited range but comes out fast.",
-      "imageName": "dark-dagger.png",
+      "imageName": "dark-dagger-34cfc06ddf.png",
       "masteryReq": 2,
       "name": "Dark Dagger",
       "productCategory": "Melee",
@@ -3228,7 +3228,7 @@ module.exports = {
     },
     {
       "description": "Use as a devastating heavy sword or apply a Dual Melee stance and split the weapon into two ferocious blades.",
-      "imageName": "dark-split-sword.png",
+      "imageName": "dark-split-sword-5830682765.png",
       "masteryReq": 0,
       "name": "Dark Split-Sword",
       "productCategory": "Melee",
@@ -3252,7 +3252,7 @@ module.exports = {
     },
     {
       "description": "A blade forged using dark metals, capable of delivering innate <DT_RADIATION_COLOR>Radiation Damage with attacks.",
-      "imageName": "dark-sword.png",
+      "imageName": "dark-sword-a8742e91fa.png",
       "masteryReq": 8,
       "name": "Dark Sword",
       "productCategory": "Melee",
@@ -3278,7 +3278,7 @@ module.exports = {
     {
       "category": "Companion Weapon",
       "description": "Causes the Helios Sentinel to attack enemy targets using pieces of itself.",
-      "imageName": "deconstructor.png",
+      "imageName": "deconstructor-d7559eb017.png",
       "masteryReq": 0,
       "name": "Deconstructor",
       "productCategory": "SentinelWeapons",
@@ -3297,7 +3297,7 @@ module.exports = {
     {
       "category": "Companion Weapon",
       "description": "Allows the Helios Prime to violently disassemble and turn itself into a deadly projectile.",
-      "imageName": "deconstructor-prime.png",
+      "imageName": "deconstructor-prime-d0433f6f37.png",
       "masteryReq": 0,
       "name": "Deconstructor Prime",
       "productCategory": "SentinelWeapons",
@@ -3316,7 +3316,7 @@ module.exports = {
     },
     {
       "description": "",
-      "imageName": "dehtat.png",
+      "imageName": "dehtat-0d89b212e5.png",
       "masteryReq": 0,
       "name": "Dehtat Strike",
       "productCategory": "Pistols",
@@ -3336,7 +3336,7 @@ module.exports = {
       "bpCost": 15000,
       "category": "Rifle",
       "description": "The Dera is a repeater that fires super-heated plasma.",
-      "imageName": "dera.png",
+      "imageName": "dera-64d79d44e1.png",
       "masteryReq": 4,
       "name": "Dera",
       "productCategory": "LongGuns",
@@ -3356,7 +3356,7 @@ module.exports = {
     {
       "category": "Rifle",
       "description": "A customized version of the Dera, featuring a metallic finish and Lotus decal.",
-      "imageName": "dera-vandal.png",
+      "imageName": "dera-vandal-fa64fda12e.png",
       "masteryReq": 7,
       "name": "Dera Vandal",
       "productCategory": "LongGuns",
@@ -3381,7 +3381,7 @@ module.exports = {
     {
       "category": "Throwing",
       "description": "Used by The Stalker, Despair throwing blades have a mono-filament edge, sharp enough to penetrate a Warframe.",
-      "imageName": "despair.png",
+      "imageName": "despair-abc763c0f4.png",
       "masteryReq": 4,
       "name": "Despair",
       "productCategory": "Pistols",
@@ -3406,7 +3406,7 @@ module.exports = {
     {
       "bpCost": 25000,
       "description": "Elevate martial combat into an art form with this Tenno rapier.",
-      "imageName": "destreza.png",
+      "imageName": "destreza-237f0a5096.png",
       "masteryReq": 7,
       "name": "Destreza",
       "productCategory": "Melee",
@@ -3424,7 +3424,7 @@ module.exports = {
     },
     {
       "description": "Take mastery to the next level with this primed rapier.",
-      "imageName": "destreza-prime.png",
+      "imageName": "destreza-prime-603ac6abce.png",
       "masteryReq": 10,
       "name": "Destreza Prime",
       "productCategory": "Melee",
@@ -3451,7 +3451,7 @@ module.exports = {
     {
       "category": "Companion Weapon",
       "description": "Standard issue weaponry signature to Dethcube.",
-      "imageName": "deth-machine-rifle.png",
+      "imageName": "deth-machine-rifle-2353c453b6.png",
       "masteryReq": 0,
       "name": "Deth Machine Rifle",
       "productCategory": "SentinelWeapons",
@@ -3471,7 +3471,7 @@ module.exports = {
     {
       "category": "Companion Weapon",
       "description": "Signature default weapon of Dethcube Prime.",
-      "imageName": "deth-machine-rifle-prime.png",
+      "imageName": "deth-machine-rifle-prime-7b2e679d67.png",
       "masteryReq": 0,
       "name": "Deth Machine Rifle Prime",
       "productCategory": "SentinelWeapons",
@@ -3491,7 +3491,7 @@ module.exports = {
     },
     {
       "description": "With 'Assault Mode' and 'Vaporize' as default precepts, Dethcube acts exactly as advertised, as a badass cube of 'deth'. Comes loaded with Deth Machine Rifle weapon.",
-      "imageName": "dethcube.png",
+      "imageName": "dethcube-c0fb93fb8c.png",
       "name": "Dethcube",
       "productCategory": "Sentinels",
       "tradable": false,
@@ -3507,7 +3507,7 @@ module.exports = {
     },
     {
       "description": "With 'Assault Mode' and 'Vaporize' as default precepts, Dethcube Prime is the apex of lethal support. Comes loaded with Deth Machine Rifle Prime weapon.",
-      "imageName": "dethcube-prime.png",
+      "imageName": "dethcube-prime-568b4f3c87.png",
       "name": "Dethcube Prime",
       "productCategory": "Sentinels",
       "releaseDate": "2019-10-01",
@@ -3526,7 +3526,7 @@ module.exports = {
     {
       "category": "Pistol",
       "description": "The sleek lines of the Detron conceal its ferocious nature. The hand cannon's semi-automatic action takes down enemies with speed and efficiency.",
-      "imageName": "detron.png",
+      "imageName": "detron-4fb4cc5584.png",
       "masteryReq": 6,
       "name": "Detron",
       "productCategory": "Pistols",
@@ -3545,7 +3545,7 @@ module.exports = {
     },
     {
       "description": "A gift from the Lotus to commemorate the anniversary of the first Tenno waking from Cryo stasis.",
-      "imageName": "dex-dakra.png",
+      "imageName": "dex-dakra-f39c2617fc.png",
       "masteryReq": 6,
       "name": "Dex Dakra",
       "productCategory": "Melee",
@@ -3571,7 +3571,7 @@ module.exports = {
     {
       "category": "Pistol",
       "description": "A gift from the Lotus to commemorate the anniversary of the first Tenno waking from Cryo stasis.",
-      "imageName": "dex-furis.png",
+      "imageName": "dex-furis-7f661820c6.png",
       "masteryReq": 10,
       "name": "Dex Furis",
       "productCategory": "Pistols",
@@ -3595,7 +3595,7 @@ module.exports = {
     },
     {
       "description": "A gift from the Lotus to commemorate the eleventh anniversary of the first Tenno waking from Cryo stasis.",
-      "imageName": "dex-nikana.png",
+      "imageName": "dex-nikana-79f95a718c.png",
       "masteryReq": 8,
       "name": "Dex Nikana",
       "productCategory": "Melee",
@@ -3614,7 +3614,7 @@ module.exports = {
     {
       "category": "Rifle",
       "description": "A gift from the Lotus to commemorate the third anniversary of the first Tenno waking from Cryo stasis.",
-      "imageName": "dex-sybaris.png",
+      "imageName": "dex-sybaris-e1be4d45a0.png",
       "masteryReq": 7,
       "name": "Dex Sybaris",
       "productCategory": "LongGuns",
@@ -3633,7 +3633,7 @@ module.exports = {
     },
     {
       "description": "Diriga shocks nearby enemies, and picks off distant threats, utilizing the Vulklok sniper rifle and the 'Calculated Shot', 'Arc Coil' and 'Electro Pulse' precepts.",
-      "imageName": "diriga.png",
+      "imageName": "diriga-b51a3dc56d.png",
       "name": "Diriga",
       "productCategory": "Sentinels",
       "tradable": false,
@@ -3649,7 +3649,7 @@ module.exports = {
     },
     {
       "description": "With 'Thumper' and 'Fatal Attraction' as default Precepts, Djinn is a combat Sentinel. Djinn also comes with a poison dart weapon.",
-      "imageName": "djinn.png",
+      "imageName": "djinn-95bb8b0ef8.png",
       "name": "Djinn",
       "productCategory": "Sentinels",
       "tradable": false,
@@ -3665,7 +3665,7 @@ module.exports = {
     },
     {
       "description": "",
-      "imageName": "dokrahm.png",
+      "imageName": "dokrahm-37b48a9e1e.png",
       "masteryReq": 0,
       "name": "Dokrahm Strike",
       "productCategory": "Pistols",
@@ -3700,7 +3700,7 @@ module.exports = {
     },
     {
       "description": "After 10 kills or assists, Dorrclave enters a spectral state that doubles weapon Follow Through and guarantees Status Effects for the next 10 attacks. In Dagath's hands, each active Status Effect heals her slightly.",
-      "imageName": "dorrclave.png",
+      "imageName": "dorrclave-44e8a639e2.png",
       "masteryReq": 8,
       "name": "Dorrclave",
       "productCategory": "Melee",
@@ -3719,7 +3719,7 @@ module.exports = {
     {
       "bpCost": 30000,
       "description": "The Dragon Nikana is forged from ancient Tenno steel. This is a master's weapon, only the most worthy of Tenno may wield it.",
-      "imageName": "dragon-nikana.png",
+      "imageName": "dragon-nikana-df8b6ef90a.png",
       "masteryReq": 8,
       "name": "Dragon Nikana",
       "productCategory": "Melee",
@@ -3746,7 +3746,7 @@ module.exports = {
       "bpCost": 30000,
       "category": "Rifle",
       "description": "The Drakgoon flak cannon sends volleys of intensely hot shrapnel ricocheting around the room. Can be fired in wide or concentrated bursts.",
-      "imageName": "drakgoon.png",
+      "imageName": "drakgoon-9da8bc59fb.png",
       "masteryReq": 5,
       "name": "Drakgoon",
       "productCategory": "LongGuns",
@@ -3771,7 +3771,7 @@ module.exports = {
     {
       "category": "Rifle",
       "description": "Dread is the calling card of The Stalker. It fires arrows that can decapitate.",
-      "imageName": "dread.png",
+      "imageName": "dread-ce937b379d.png",
       "masteryReq": 5,
       "name": "Dread",
       "productCategory": "LongGuns",
@@ -3797,7 +3797,7 @@ module.exports = {
       "bpCost": 15000,
       "category": "Pistol",
       "description": "Wield two Cestras to unleash a dual torrent of high energy bolts.",
-      "imageName": "dual-cestra.png",
+      "imageName": "dual-cestra-04d7cc079c.png",
       "masteryReq": 7,
       "name": "Dual Cestra",
       "productCategory": "Pistols",
@@ -3817,7 +3817,7 @@ module.exports = {
     {
       "bpCost": 25000,
       "description": "Butcher your foes with brutal blades in each hand.",
-      "imageName": "dual-cleavers.png",
+      "imageName": "dual-cleavers-7e804807c4.png",
       "masteryReq": 5,
       "name": "Dual Cleavers",
       "productCategory": "Melee",
@@ -3836,7 +3836,7 @@ module.exports = {
     {
       "bpCost": 35000,
       "description": "Delivering twin streams of highly accurate, rapid-fire ordnance, the Decurion are specifically designed for combat in the vacuum of space.",
-      "imageName": "dual-decurion.png",
+      "imageName": "dual-decurion-2c12e236ac.png",
       "masteryReq": 1,
       "name": "Dual Decurion",
       "productCategory": "SpaceGuns",
@@ -3856,7 +3856,7 @@ module.exports = {
     {
       "bpCost": 20000,
       "description": "Fast and precise. The Dual Ether cuts so cleanly that it was considered by the Tenno to be a more humane weapon for ‘cleansing’ infested allies. Capable of hitting multiple targets.",
-      "imageName": "dual-ether.png",
+      "imageName": "dual-ether-70463837b6.png",
       "masteryReq": 8,
       "name": "Dual Ether",
       "productCategory": "Melee",
@@ -3882,7 +3882,7 @@ module.exports = {
     {
       "bpCost": 15000,
       "description": "With a Heat Sword in each hand, enemies reach their fiery demise twice as fast. Can connect with multiple targets at once.",
-      "imageName": "dual-heat-swords.png",
+      "imageName": "dual-heat-swords-0e3c95de91.png",
       "masteryReq": 3,
       "name": "Dual Heat Swords",
       "productCategory": "Melee",
@@ -3908,7 +3908,7 @@ module.exports = {
     {
       "bpCost": 50000,
       "description": "The fast and brutal Dual Ichor axes will quickly tear through enemies with a high probability of inflicting Critical Damage.",
-      "imageName": "dual-ichor.png",
+      "imageName": "dual-ichor-5c17bf66ce.png",
       "masteryReq": 6,
       "name": "Dual Ichor",
       "productCategory": "Melee",
@@ -3934,7 +3934,7 @@ module.exports = {
     {
       "bpCost": 40000,
       "description": "Wielding a Kama in each hand brings a savage amount of <DT_SLASH_COLOR>Slash Damage to bear against your enemies.",
-      "imageName": "dual-kamas.png",
+      "imageName": "dual-kamas-11a09f8cb1.png",
       "masteryReq": 1,
       "name": "Dual Kamas",
       "productCategory": "Melee",
@@ -3952,7 +3952,7 @@ module.exports = {
     },
     {
       "description": "The sensual lines of these golden Kamas have long been celebrated as a masterwork of Tenno weapon smithing.",
-      "imageName": "dual-kamas-prime.png",
+      "imageName": "dual-kamas-prime-5f36995f5c.png",
       "masteryReq": 8,
       "name": "Dual Kamas Prime",
       "productCategory": "Melee",
@@ -3979,7 +3979,7 @@ module.exports = {
     {
       "bpCost": 25000,
       "description": "Tear through any target with these vicious, claw-like blades. The signature swords of Khora.",
-      "imageName": "dual-keres.png",
+      "imageName": "dual-keres-b112e659a1.png",
       "masteryReq": 7,
       "name": "Dual Keres",
       "productCategory": "Melee",
@@ -4004,7 +4004,7 @@ module.exports = {
     },
     {
       "description": "The hunted will meet a quick end when faced with Khora Prime's signature swords. Heavy Attack Efficiency is enhanced when wielded by Khora.",
-      "imageName": "dual-keres-prime.png",
+      "imageName": "dual-keres-prime-7665aa8acb.png",
       "masteryReq": 14,
       "name": "Dual Keres Prime",
       "productCategory": "Melee",
@@ -4024,7 +4024,7 @@ module.exports = {
     {
       "bpCost": 15000,
       "description": "Razor sharp battle-hatchets, designed to compliment the Soma.",
-      "imageName": "dual-raza.png",
+      "imageName": "dual-raza-d9c1b54e7e.png",
       "masteryReq": 6,
       "name": "Dual Raza",
       "productCategory": "Melee",
@@ -4050,7 +4050,7 @@ module.exports = {
     {
       "bpCost": 25000,
       "description": "A shorter Skana in each hand. Can hit multiple targets.",
-      "imageName": "dual-skana.png",
+      "imageName": "dual-skana-b1cf4bf47b.png",
       "masteryReq": 0,
       "name": "Dual Skana",
       "productCategory": "Melee",
@@ -4077,7 +4077,7 @@ module.exports = {
       "bpCost": 15000,
       "category": "Pistol",
       "description": "Brain-strikes excite this bioweapon, causing it to rapidly release toxic munitions.",
-      "imageName": "dual-toxocyst.png",
+      "imageName": "dual-toxocyst-e89c00d6b5.png",
       "masteryReq": 11,
       "name": "Dual Toxocyst",
       "productCategory": "Pistols",
@@ -4102,7 +4102,7 @@ module.exports = {
     {
       "bpCost": 15000,
       "description": "Short axes held in each hand. High attack speed and can hit multiple targets. Delivers a high percentage of critical strikes.",
-      "imageName": "dual-zoren.png",
+      "imageName": "dual-zoren-bcbd4a2836.png",
       "masteryReq": 2,
       "name": "Dual Zoren",
       "productCategory": "Melee",
@@ -4127,7 +4127,7 @@ module.exports = {
     },
     {
       "description": "Edun befits a dextrous warrior. Heavy Attack to throw Edun. Edun explodes after it is embedded in an enemy.",
-      "imageName": "edun.png",
+      "imageName": "edun-2204da8ba8.png",
       "masteryReq": 0,
       "name": "Edun",
       "productCategory": "Melee",
@@ -4145,7 +4145,7 @@ module.exports = {
     },
     {
       "description": "Wield the timeless power of this mighty hammer. Heavy Attacks performed with Ekhein temporarily increase its Damage and Attack Speed.",
-      "imageName": "ekhein.png",
+      "imageName": "ekhein-abeaf39f7b.png",
       "masteryReq": 10,
       "name": "Ekhein",
       "productCategory": "Melee",
@@ -4164,7 +4164,7 @@ module.exports = {
     {
       "category": "Archwing",
       "description": "This heavy duty Archwing was designed for one purpose, destruction.",
-      "imageName": "elytron.png",
+      "imageName": "elytron-8f63d43729.png",
       "masteryReq": 0,
       "name": "Elytron",
       "productCategory": "SpaceSuits",
@@ -4182,7 +4182,7 @@ module.exports = {
     {
       "bpCost": 25000,
       "description": "Harness the power of fire. Ember’s heat deals high damage. She keeps a cool head when the battle is hot.",
-      "imageName": "ember.png",
+      "imageName": "ember-338265ce88.png",
       "masteryReq": 0,
       "name": "Ember",
       "productCategory": "Suits",
@@ -4200,7 +4200,7 @@ module.exports = {
     },
     {
       "description": "Ember Prime offers the same potential for wanton destruction as Ember but provides unique mod polarities, allowing for greater customization.",
-      "imageName": "ember-prime.png",
+      "imageName": "ember-prime-e978f28a35.png",
       "masteryReq": 0,
       "name": "Ember Prime",
       "productCategory": "Suits",
@@ -4221,7 +4221,7 @@ module.exports = {
       "bpCost": 50000,
       "category": "Pistol",
       "description": "A living weapon, the infested Embolist pistol kills its victims with an acidic venomous gas.",
-      "imageName": "embolist.png",
+      "imageName": "embolist-2dcf599ad8.png",
       "masteryReq": 9,
       "name": "Embolist",
       "productCategory": "Pistols",
@@ -4246,7 +4246,7 @@ module.exports = {
     {
       "bpCost": 15000,
       "description": "The delicate form of this Tenno rapier conceals its ferocious and resilient force.",
-      "imageName": "endura.png",
+      "imageName": "endura-4831c42fc3.png",
       "masteryReq": 7,
       "name": "Endura",
       "productCategory": "Melee",
@@ -4272,7 +4272,7 @@ module.exports = {
     {
       "category": "Pistol",
       "description": "Sevagoth's wrist-mounted sidearm fires a chilling slow-moving slab, guaranteed to slow enemies for easier marksmanship. Charge the shot to fire a punishing high-velocity, high critical chance slab that punches through barriers. Deals additional headshot damage in Sevagoth's hands.",
-      "imageName": "epitaph.png",
+      "imageName": "epitaph-b49e30b4ec.png",
       "masteryReq": 8,
       "name": "Epitaph",
       "productCategory": "Pistols",
@@ -4297,7 +4297,7 @@ module.exports = {
     {
       "category": "Pistol",
       "description": "Send shivers down your enemies' spines with this wrist-mounted sidearm. As the signature weapon of Sevagoth Prime, it deals additional headshot damage when wielded by him.",
-      "imageName": "epitaph-prime.png",
+      "imageName": "epitaph-prime-dbe8d7bab0.png",
       "masteryReq": 14,
       "name": "Epitaph Prime",
       "productCategory": "Pistols",
@@ -4318,7 +4318,7 @@ module.exports = {
     {
       "bpCost": 25000,
       "description": "Equinox rises from the edge of day and night. Her Day form offers offensive support while her Night form offers defensive support. She thrives between realms.",
-      "imageName": "equinox.png",
+      "imageName": "equinox-ae1572be82.png",
       "masteryReq": 0,
       "name": "Equinox",
       "productCategory": "Suits",
@@ -4336,7 +4336,7 @@ module.exports = {
     },
     {
       "description": "Night and Day in final balance; the graceful perfection of the one that walks the borders.",
-      "imageName": "equinox-prime.png",
+      "imageName": "equinox-prime-9fbe947b57.png",
       "masteryReq": 0,
       "name": "Equinox Prime",
       "productCategory": "Suits",
@@ -4355,7 +4355,7 @@ module.exports = {
     },
     {
       "description": "A shorter version of the Ether blade that allows for a more focused attack on a single target.",
-      "imageName": "ether-daggers.png",
+      "imageName": "ether-daggers-a10b7f667c.png",
       "masteryReq": 6,
       "name": "Ether Daggers",
       "productCategory": "Melee",
@@ -4381,7 +4381,7 @@ module.exports = {
     {
       "bpCost": 50000,
       "description": "With a blade forged from the same material as the Ether Sword, the Ether Reaper delivers quick death to its victims.",
-      "imageName": "ether-reaper.png",
+      "imageName": "ether-reaper-543ac0f467.png",
       "masteryReq": 4,
       "name": "Ether Reaper",
       "productCategory": "Melee",
@@ -4407,7 +4407,7 @@ module.exports = {
     {
       "bpCost": 20000,
       "description": "A single blade for more precision. The Ether Sword cuts so cleanly that it was considered by the Tenno to be a more humane weapon for ‘cleansing’ infested allies.",
-      "imageName": "ether-sword.png",
+      "imageName": "ether-sword-fb1067b033.png",
       "masteryReq": 7,
       "name": "Ether Sword",
       "productCategory": "Melee",
@@ -4433,7 +4433,7 @@ module.exports = {
     {
       "category": "Pistol",
       "description": "Banshee Prime’s signature shotgun is an instrument of devastation that fires both focused and broad shots.",
-      "imageName": "euphona-prime.png",
+      "imageName": "euphona-prime-258bec05a5.png",
       "masteryReq": 14,
       "name": "Euphona Prime",
       "productCategory": "Pistols",
@@ -4459,7 +4459,7 @@ module.exports = {
     {
       "category": "Rifle",
       "description": "Counter the dread of battle with a song of praise. Enemies cannot hurt your allies while wounded by Evensong's arrows. Kills with Evensong empower ally weapons with Multishot.Experience the true power of Jade’s Ensemble when Evensong, Cantare, and Harmony sing together.",
-      "imageName": "evensong.png",
+      "imageName": "evensong-d10f6a1e78.png",
       "masteryReq": 10,
       "name": "Evensong",
       "productCategory": "LongGuns",
@@ -4482,7 +4482,7 @@ module.exports = {
       "exalted": [
         "/Lotus/Powersuits/Excalibur/DoomSword"
       ],
-      "imageName": "excalibur.png",
+      "imageName": "excalibur-2621a69bfa.png",
       "masteryReq": 0,
       "name": "Excalibur",
       "productCategory": "Suits",
@@ -4503,7 +4503,7 @@ module.exports = {
       "exalted": [
         "/Lotus/Powersuits/Excalibur/DoomSwordUmbra"
       ],
-      "imageName": "excalibur-umbra.png",
+      "imageName": "excalibur-umbra-d421af56c1.png",
       "masteryReq": 0,
       "name": "Excalibur Umbra",
       "productCategory": "Suits",
@@ -4524,7 +4524,7 @@ module.exports = {
       "bpCost": 20000,
       "category": "Shotgun",
       "description": "Feel the kick of this Corpus shotgun as it shatters a high-yield crystal into anyone and anything standing in your way.",
-      "imageName": "exergis.png",
+      "imageName": "exergis-1a341582c9.png",
       "masteryReq": 8,
       "name": "Exergis",
       "productCategory": "LongGuns",
@@ -4549,7 +4549,7 @@ module.exports = {
     {
       "bpCost": 15000,
       "description": "Carve through enemies with surgical precision using this Corpus-tech glaive.",
-      "imageName": "falcor.png",
+      "imageName": "falcor-c9a665bc11.png",
       "masteryReq": 8,
       "name": "Falcor",
       "productCategory": "Melee",
@@ -4575,7 +4575,7 @@ module.exports = {
     {
       "bpCost": 20000,
       "description": "These matching stilettos have increased attack speed and can unleash a flurry of multi-hit attacks.",
-      "imageName": "fang.png",
+      "imageName": "fang-db915abbe2.png",
       "masteryReq": 0,
       "name": "Fang",
       "productCategory": "Melee",
@@ -4593,7 +4593,7 @@ module.exports = {
     },
     {
       "description": "A set of ceremonial daggers from the Orokin era, the Fang Prime's blades resonate violently as they strike. This allows them to pierce hardened materials like armor with ease.",
-      "imageName": "fang-prime.png",
+      "imageName": "fang-prime-95fac4ad11.png",
       "masteryReq": 10,
       "name": "Fang Prime",
       "productCategory": "Melee",
@@ -4620,7 +4620,7 @@ module.exports = {
     {
       "category": "Shotgun",
       "description": "The Felarx invokes ancient times when aristocrats hunted game. For ceremonies, Orokin elites bred creatures reminiscent of game birds to reanimate cultural myths. They gave the Zariman crew Felarx and a brace of birds as a sign of acceptance into elite society. The brace of birds becomes a pair of pistols at the hands of the Void.",
-      "imageName": "felarx.png",
+      "imageName": "felarx-1df1ee184f.png",
       "masteryReq": 14,
       "name": "Felarx",
       "productCategory": "LongGuns",
@@ -4641,7 +4641,7 @@ module.exports = {
       "bpCost": 15000,
       "category": "Rifle",
       "description": "Discharge a rail of ionized death or throw the Ferrox like a spear and create a localized field of attraction no enemy can escape from.",
-      "imageName": "ferrox.png",
+      "imageName": "ferrox-43de4de20e.png",
       "masteryReq": 14,
       "name": "Ferrox",
       "productCategory": "LongGuns",
@@ -4666,7 +4666,7 @@ module.exports = {
     {
       "category": "K-Drive",
       "description": "",
-      "imageName": "feverspine.png",
+      "imageName": "feverspine-b2fee8bf77.png",
       "masteryReq": 0,
       "name": "Feverspine",
       "productCategory": "Pistols",
@@ -4684,7 +4684,7 @@ module.exports = {
     {
       "category": "K-Drive",
       "description": "",
-      "imageName": "flatbelly.png",
+      "imageName": "flatbelly-940adf1fc9.png",
       "masteryReq": 0,
       "name": "Flatbelly",
       "productCategory": "Pistols",
@@ -4702,7 +4702,7 @@ module.exports = {
     {
       "bpCost": 15000,
       "description": "An Archwing energy weapon that sends waves of deadly plasma crashing into enemies.",
-      "imageName": "fluctus.png",
+      "imageName": "fluctus-1e012e3298.png",
       "masteryReq": 2,
       "name": "Fluctus",
       "productCategory": "SpaceGuns",
@@ -4723,7 +4723,7 @@ module.exports = {
       "bpCost": 15000,
       "category": "Rifle",
       "description": "Laser Rifle with Corpus safe-guards removed.",
-      "imageName": "flux-rifle.png",
+      "imageName": "flux-rifle-79615a53ed.png",
       "masteryReq": 6,
       "name": "Flux Rifle",
       "productCategory": "LongGuns",
@@ -4748,7 +4748,7 @@ module.exports = {
     {
       "bpCost": 15000,
       "description": "A large two-handed hammer, the Fragor requires great strength to wield, but impacts with enough force to send groups of enemies tumbling.",
-      "imageName": "fragor.png",
+      "imageName": "fragor-584740dddb.png",
       "masteryReq": 2,
       "name": "Fragor",
       "productCategory": "Melee",
@@ -4766,7 +4766,7 @@ module.exports = {
     },
     {
       "description": "A beautifully forged instrument of devastation.",
-      "imageName": "fragor-prime.png",
+      "imageName": "fragor-prime-1cc2b31786.png",
       "masteryReq": 12,
       "name": "Fragor Prime",
       "productCategory": "Melee",
@@ -4793,7 +4793,7 @@ module.exports = {
     {
       "bpCost": 25000,
       "description": "When Frost steps onto the battlefield, enemies experience a chill. Frost’s attacks control crowds, protect objectives, and increase survivability. Wield the biting cold.",
-      "imageName": "frost.png",
+      "imageName": "frost-620cddb4a6.png",
       "masteryReq": 0,
       "name": "Frost",
       "productCategory": "Suits",
@@ -4811,7 +4811,7 @@ module.exports = {
     },
     {
       "description": "Frost Prime has the same chilling abilities as Frost but provides unique mod polarities, allowing for greater customization.",
-      "imageName": "frost-prime.png",
+      "imageName": "frost-prime-f177de2e0c.png",
       "masteryReq": 0,
       "name": "Frost Prime",
       "productCategory": "Suits",
@@ -4832,7 +4832,7 @@ module.exports = {
       "bpCost": 20000,
       "category": "Rifle",
       "description": "Strike with silent lightning or the pummeling drum of thunder. Alternate between stealthy short-range electrical discharge, and automatic lightning gun. Faster mode-switch when used by Wisp.",
-      "imageName": "fulmin.png",
+      "imageName": "fulmin-65c9477900.png",
       "masteryReq": 8,
       "name": "Fulmin",
       "productCategory": "LongGuns",
@@ -4857,7 +4857,7 @@ module.exports = {
     {
       "category": "Rifle",
       "description": "Wield a storm. Fulmin Prime's electric rounds switch between lightning beams and short-range bursts. Wisp quickly swaps between each mode with her elemental prowess.",
-      "imageName": "fulmin-prime.png",
+      "imageName": "fulmin-prime-15bc184b1c.png",
       "masteryReq": 12,
       "name": "Fulmin Prime",
       "productCategory": "LongGuns",
@@ -4878,7 +4878,7 @@ module.exports = {
     {
       "bpCost": 15000,
       "description": "These power gauntlets lack the range of most Melee Weapons, but Furax is far more devastating when you strike an enemy in close combat.",
-      "imageName": "furax.png",
+      "imageName": "furax-32b27ce63d.png",
       "masteryReq": 5,
       "name": "Furax",
       "productCategory": "Melee",
@@ -4896,7 +4896,7 @@ module.exports = {
     },
     {
       "description": "These Wraith gauntlets have been augmented for power.",
-      "imageName": "furax-wraith.png",
+      "imageName": "furax-wraith-feaf9ec875.png",
       "masteryReq": 9,
       "name": "Furax Wraith",
       "productCategory": "Melee",
@@ -4923,7 +4923,7 @@ module.exports = {
       "bpCost": 15000,
       "category": "Pistol",
       "description": "The Furis delivers a high damage output in a short time frame thanks to its high rate of fire.",
-      "imageName": "furis.png",
+      "imageName": "furis-5bb7021b86.png",
       "masteryReq": 2,
       "name": "Furis",
       "productCategory": "Pistols",
@@ -4944,7 +4944,7 @@ module.exports = {
       "bpCost": 20000,
       "category": "Throwing",
       "description": "Silently lacerate enemies with Gara's signature glass throwing knives. Increased Projectile Speed when wielded by Gara.",
-      "imageName": "fusilai.png",
+      "imageName": "fusilai-83082d8f95.png",
       "masteryReq": 7,
       "name": "Fusilai",
       "productCategory": "Pistols",
@@ -4969,7 +4969,7 @@ module.exports = {
     {
       "bpCost": 25000,
       "description": "With massive charged power and the ability to hit up to five foes in a single swing, the Galatine sword is the heavy artillery of Melee Weapons.",
-      "imageName": "galatine.png",
+      "imageName": "galatine-c2eeaf70f4.png",
       "masteryReq": 3,
       "name": "Galatine",
       "productCategory": "Melee",
@@ -4987,7 +4987,7 @@ module.exports = {
     },
     {
       "description": "Only Tenno were strong enough to wield this noble beast of a weapon.",
-      "imageName": "galatine-prime.png",
+      "imageName": "galatine-prime-2d040c4b48.png",
       "masteryReq": 13,
       "name": "Galatine Prime",
       "productCategory": "Melee",
@@ -5014,7 +5014,7 @@ module.exports = {
     {
       "bpCost": 20000,
       "description": "Shock and maim with this heavyweight retractable whip.",
-      "imageName": "galvacord.png",
+      "imageName": "galvacord-1685f13acf.png",
       "masteryReq": 6,
       "name": "Galvacord",
       "productCategory": "Melee",
@@ -5041,7 +5041,7 @@ module.exports = {
       "bpCost": 35000,
       "category": "Pistol",
       "description": "Designed to quickly vaporize minerals for content analysis, users discovered its powerful beam was equally efficient at dispatching hostiles.",
-      "imageName": "gammacor.png",
+      "imageName": "gammacor-67eb299154.png",
       "masteryReq": 2,
       "name": "Gammacor",
       "productCategory": "Pistols",
@@ -5060,7 +5060,7 @@ module.exports = {
     },
     {
       "description": "Enemies are made fragile by Gara’s deadly touch. Gara’s vitric abilities provide her and her allies with survivability and deal high damage. Shatter the foe.",
-      "imageName": "gara.png",
+      "imageName": "gara-b2089c43f8.png",
       "masteryReq": 0,
       "name": "Gara",
       "productCategory": "Suits",
@@ -5078,7 +5078,7 @@ module.exports = {
     },
     {
       "description": "Continue the legend of the glass-armored warrior Gara. Dominate the battlefield with the power and purity of crystal.",
-      "imageName": "gara-prime.png",
+      "imageName": "gara-prime-faf70dfd7c.png",
       "masteryReq": 0,
       "name": "Gara Prime",
       "productCategory": "Suits",
@@ -5100,7 +5100,7 @@ module.exports = {
       "exalted": [
         "/Lotus/Powersuits/Garuda/GarudaClaws"
       ],
-      "imageName": "garuda.png",
+      "imageName": "garuda-5e3cc04493.png",
       "masteryReq": 0,
       "name": "Garuda",
       "productCategory": "Suits",
@@ -5121,7 +5121,7 @@ module.exports = {
       "exalted": [
         "/Lotus/Powersuits/Garuda/GarudaPrimeClaws"
       ],
-      "imageName": "garuda-prime.png",
+      "imageName": "garuda-prime-2c4ce210a0.png",
       "masteryReq": 0,
       "name": "Garuda Prime",
       "productCategory": "Suits",
@@ -5141,7 +5141,7 @@ module.exports = {
     {
       "bpCost": 30000,
       "description": "Take charge with the Saint of Altra. Gauss is fast, deals high damage, and has strong survivability. Movement charges his powerful battery, so never stop moving.",
-      "imageName": "gauss.png",
+      "imageName": "gauss-8060019853.png",
       "masteryReq": 0,
       "name": "Gauss",
       "productCategory": "Suits",
@@ -5159,7 +5159,7 @@ module.exports = {
     },
     {
       "description": "Quicksilver takes form. Gauss Prime brooks no talk of defeat.",
-      "imageName": "gauss-prime.png",
+      "imageName": "gauss-prime-170a77a036.png",
       "masteryReq": 0,
       "name": "Gauss Prime",
       "productCategory": "Suits",
@@ -5178,7 +5178,7 @@ module.exports = {
     {
       "bpCost": 15000,
       "description": "Each kill with this swooping blade adds bonus damage to the Djinn Sentinel’s next Fatal Attraction ability. In turn, Fatal Attraction bestows the weapon with a period of <DT_CORROSIVE_COLOR>Corrosive Damage.",
-      "imageName": "gazal-machete.png",
+      "imageName": "gazal-machete-212e91edaa.png",
       "masteryReq": 5,
       "name": "Gazal Machete",
       "productCategory": "Melee",
@@ -5204,7 +5204,7 @@ module.exports = {
     {
       "category": "Kitgun",
       "description": "",
-      "imageName": "gaze.png",
+      "imageName": "gaze-b64f04fa38.png",
       "masteryReq": 0,
       "name": "Gaze",
       "primeOmegaAttenuation": 1.05,
@@ -5223,7 +5223,7 @@ module.exports = {
     {
       "bpCost": 1500,
       "description": "The cruelest of weapons built for the crudest of Grineer soldiers. Rips through metal like flesh, and through flesh like day-old pudding.",
-      "imageName": "ghoulsaw.png",
+      "imageName": "ghoulsaw-62d778b801.png",
       "masteryReq": 7,
       "name": "Ghoulsaw",
       "productCategory": "Melee",
@@ -5241,7 +5241,7 @@ module.exports = {
     },
     {
       "description": "Dating back to the time of the first Tenno, the Glaive is a uniquely deadly weapon. This multi-bladed disc is not only effective for melee combat; it can also be thrown like a boomerang to cut down enemies at a distance.",
-      "imageName": "glaive.png",
+      "imageName": "glaive-7b19031fa7.png",
       "masteryReq": 1,
       "name": "Glaive",
       "productCategory": "Melee",
@@ -5259,7 +5259,7 @@ module.exports = {
     },
     {
       "description": "The Glaive Prime is a deadly and beautiful weapon from the Orokin era. The blades are as effective in close quarters as they are when thrown at distant enemies.",
-      "imageName": "glaive-prime.png",
+      "imageName": "glaive-prime-170ccb6e9a.png",
       "masteryReq": 10,
       "name": "Glaive Prime",
       "productCategory": "Melee",
@@ -5287,7 +5287,7 @@ module.exports = {
       "bpCost": 15000,
       "category": "Rifle",
       "description": "Fires a photon beam that halts molecular vibrations, causing instant and painful freezing.",
-      "imageName": "glaxion.png",
+      "imageName": "glaxion-0d0d150e30.png",
       "masteryReq": 8,
       "name": "Glaxion",
       "productCategory": "LongGuns",
@@ -5307,7 +5307,7 @@ module.exports = {
     {
       "category": "Rifle",
       "description": "A cutting-edge, halogen-cooled electron accelerator capable of snap-freezing a target in moments.",
-      "imageName": "glaxion-vandal.png",
+      "imageName": "glaxion-vandal-a688a13488.png",
       "masteryReq": 12,
       "name": "Glaxion Vandal",
       "productCategory": "LongGuns",
@@ -5332,7 +5332,7 @@ module.exports = {
     {
       "category": "Rifle",
       "description": "The Gorgon sports a large magazine that allows it to provide suppressing fire and sustain a high damage rate over a long time. Its high Fire Rate is only achieved following a short wind-up cycle.",
-      "imageName": "gorgon.png",
+      "imageName": "gorgon-71592be274.png",
       "masteryReq": 3,
       "name": "Gorgon",
       "productCategory": "LongGuns",
@@ -5352,7 +5352,7 @@ module.exports = {
     {
       "category": "Rifle",
       "description": "The Gorgon Wraith is a powerful variant of its precursor that features unique styling.",
-      "imageName": "gorgon-wraith.png",
+      "imageName": "gorgon-wraith-c4203ce84d.png",
       "masteryReq": 7,
       "name": "Gorgon Wraith",
       "productCategory": "LongGuns",
@@ -5372,7 +5372,7 @@ module.exports = {
     {
       "category": "Rifle",
       "description": "Long before clone-rot set in, elite Grineer Commanders protected the surviving Orokin from rebelling Warframes with these formidable rifles. When Gotva Prime inflicts a Status Effect, its next shot has a chance to be a Super Critical hit.",
-      "imageName": "gotva-prime.png",
+      "imageName": "gotva-prime-034c90b3d0.png",
       "masteryReq": 14,
       "name": "Gotva Prime",
       "productCategory": "LongGuns",
@@ -5394,7 +5394,7 @@ module.exports = {
       "bpCost": 15000,
       "category": "Rifle",
       "description": "Equipped with a huge Magazine and impressive Fire Rate, the Grakata is the preferred weapon of Grineer Lancers.",
-      "imageName": "grakata.png",
+      "imageName": "grakata-217dd84e27.png",
       "masteryReq": 5,
       "name": "Grakata",
       "productCategory": "LongGuns",
@@ -5414,7 +5414,7 @@ module.exports = {
     {
       "bpCost": 15000,
       "description": "The heavy two-handed sword known as Gram requires great strength to wield, but it is notorious for its splitting power. Can hit multiple targets with each strike.",
-      "imageName": "gram.png",
+      "imageName": "gram-65f8494f8b.png",
       "masteryReq": 2,
       "name": "Gram",
       "productCategory": "Melee",
@@ -5432,7 +5432,7 @@ module.exports = {
     },
     {
       "description": "Born anew, the father of swords returns.",
-      "imageName": "gram-prime.png",
+      "imageName": "gram-prime-b1c38c96e9.png",
       "masteryReq": 14,
       "name": "Gram Prime",
       "productCategory": "Melee",
@@ -5458,7 +5458,7 @@ module.exports = {
     },
     {
       "description": "",
-      "imageName": "granmu-prism.png",
+      "imageName": "granmu-prism-1d89042144.png",
       "masteryReq": 0,
       "name": "Granmu Prism",
       "productCategory": "Pistols",
@@ -5477,7 +5477,7 @@ module.exports = {
     {
       "bpCost": 15000,
       "description": "Shatter your targets with explosive shells from this devastating Archwing cannon.",
-      "imageName": "grattler.png",
+      "imageName": "grattler-ce089ce28a.png",
       "masteryReq": 4,
       "name": "Grattler",
       "productCategory": "SpaceGuns",
@@ -5497,7 +5497,7 @@ module.exports = {
     {
       "bpCost": 35000,
       "description": "Grendel sees every battlefield as a smorgasbord. His insatiable appetite rewards him with high survivability. Enemies will be eaten. And regurgitated.",
-      "imageName": "grendel.png",
+      "imageName": "grendel-4d1c382605.png",
       "masteryReq": 0,
       "name": "Grendel",
       "productCategory": "Suits",
@@ -5515,7 +5515,7 @@ module.exports = {
     },
     {
       "description": "Primal. Insatiable. Grendel Prime devours all who oppose him.",
-      "imageName": "grendel-prime.png",
+      "imageName": "grendel-prime-e23d41072d.png",
       "masteryReq": 0,
       "name": "Grendel Prime",
       "productCategory": "Suits",
@@ -5552,7 +5552,7 @@ module.exports = {
       "bpCost": 15000,
       "category": "Rifle",
       "description": "With pinpoint accuracy, the Grinlok lever-action repeating rifle can easily find the soft spot on any target.",
-      "imageName": "grinlok.png",
+      "imageName": "grinlok-5e66b615e9.png",
       "masteryReq": 7,
       "name": "Grinlok",
       "productCategory": "LongGuns",
@@ -5572,7 +5572,7 @@ module.exports = {
     {
       "bpCost": 15000,
       "description": "Harvest the enemy with this towering polearm.",
-      "imageName": "guandao.png",
+      "imageName": "guandao-5afe05707e.png",
       "masteryReq": 4,
       "name": "Guandao",
       "productCategory": "Melee",
@@ -5590,7 +5590,7 @@ module.exports = {
     },
     {
       "description": "That a god might reap a harvest of lives.",
-      "imageName": "guandao-prime.png",
+      "imageName": "guandao-prime-e89da97c23.png",
       "masteryReq": 12,
       "name": "Guandao Prime",
       "productCategory": "Melee",
@@ -5617,7 +5617,7 @@ module.exports = {
     {
       "bpCost": 15000,
       "description": "Lacerate attackers with two razor sharp warfans.",
-      "imageName": "gunsen.png",
+      "imageName": "gunsen-dea3aaced2.png",
       "masteryReq": 8,
       "name": "Gunsen",
       "productCategory": "Melee",
@@ -5642,7 +5642,7 @@ module.exports = {
     },
     {
       "description": "Command the beauty and lethality of these ornate warfans.",
-      "imageName": "gunsen-prime.png",
+      "imageName": "gunsen-prime-c221b261c4.png",
       "masteryReq": 12,
       "name": "Gunsen Prime",
       "productCategory": "Melee",
@@ -5661,7 +5661,7 @@ module.exports = {
     },
     {
       "description": "Annihilate enemies with the conductivity of coils and transmitters. Gyre’s electric attacks provide crowd control. She is the embodiment of elegant theory.",
-      "imageName": "gyre.png",
+      "imageName": "gyre-b17b2d4464.png",
       "masteryReq": 0,
       "name": "Gyre",
       "productCategory": "Suits",
@@ -5680,7 +5680,7 @@ module.exports = {
     {
       "bpCost": 20000,
       "description": "This jet powered Grineer throwing mace always comes back to its master and is even capable of disarming targets.",
-      "imageName": "halikar.png",
+      "imageName": "halikar-18416282db.png",
       "masteryReq": 7,
       "name": "Halikar",
       "productCategory": "Melee",
@@ -5698,7 +5698,7 @@ module.exports = {
     },
     {
       "description": "A different take on the throwing mace, the Halikar Wraith features unique styling.",
-      "imageName": "halikar-wraith.png",
+      "imageName": "halikar-wraith-b7e582d4c7.png",
       "masteryReq": 13,
       "name": "Halikar Wraith",
       "productCategory": "Melee",
@@ -5723,7 +5723,7 @@ module.exports = {
     },
     {
       "description": "Harmony triumphs over hate. Heavy Attacks condense Status Effect damage into a single instance. Heavy Attack kills empower allies with increased Status Duration.Experience the true power of Jade’s Ensemble when Evensong, Cantare, and Harmony sing together.",
-      "imageName": "harmony.png",
+      "imageName": "harmony-b5d6864210.png",
       "masteryReq": 10,
       "name": "Harmony",
       "productCategory": "Melee",
@@ -5743,7 +5743,7 @@ module.exports = {
       "bpCost": 40000,
       "category": "Rifle",
       "description": "Spike enemies to the wall or reel them in with this burst harpoon gun.",
-      "imageName": "harpak.png",
+      "imageName": "harpak-c600486d27.png",
       "masteryReq": 7,
       "name": "Harpak",
       "productCategory": "LongGuns",
@@ -5767,7 +5767,7 @@ module.exports = {
     },
     {
       "description": "Achieve redemption through vengeance. The monastic Harrow increases damage to support allies. Defy enemies and ascend.",
-      "imageName": "harrow.png",
+      "imageName": "harrow-7f74b91fce.png",
       "masteryReq": 0,
       "name": "Harrow",
       "productCategory": "Suits",
@@ -5785,7 +5785,7 @@ module.exports = {
     },
     {
       "description": "The Inquisitor Eternal arises, hallowed by the Void, preaching a gospel of iron and flame.",
-      "imageName": "harrow-prime.png",
+      "imageName": "harrow-prime-8237c36a69.png",
       "masteryReq": 0,
       "name": "Harrow Prime",
       "productCategory": "Suits",
@@ -5804,7 +5804,7 @@ module.exports = {
     },
     {
       "description": "Hate is a scythe with a cruel blade, wielded by The Stalker.",
-      "imageName": "hate.png",
+      "imageName": "hate-6a58027bc5.png",
       "masteryReq": 8,
       "name": "Hate",
       "productCategory": "Melee",
@@ -5829,7 +5829,7 @@ module.exports = {
     },
     {
       "description": "This short blade weapon has limited range but comes out fast and can inflict fire damage.",
-      "imageName": "heat-dagger.png",
+      "imageName": "heat-dagger-8c95ffceea.png",
       "masteryReq": 3,
       "name": "Heat Dagger",
       "productCategory": "Melee",
@@ -5854,7 +5854,7 @@ module.exports = {
     },
     {
       "description": "A strong blade capable of inflicting <DT_SLASH_COLOR>Slash Damage to its foes.",
-      "imageName": "heat-sword.png",
+      "imageName": "heat-sword-63b607c569.png",
       "masteryReq": 3,
       "name": "Heat Sword",
       "productCategory": "Melee",
@@ -5898,7 +5898,7 @@ module.exports = {
       "bpCost": 25000,
       "category": "Shotgun",
       "description": "The Hek is a powerful shotgun that fires its shots with a tight spread, making it efficient at medium range as long as its strong recoil is properly managed.",
-      "imageName": "hek.png",
+      "imageName": "hek-2b2c31c1f4.png",
       "masteryReq": 4,
       "name": "Hek",
       "productCategory": "LongGuns",
@@ -5917,7 +5917,7 @@ module.exports = {
     },
     {
       "description": "Obtain enlightenment with this massive hammer that performs a Codex scan on each fatal strike. Scans require an equipped Codex Scanner and an available charge.",
-      "imageName": "heliocor.png",
+      "imageName": "heliocor-fa93b66510.png",
       "masteryReq": 9,
       "name": "Heliocor",
       "productCategory": "Melee",
@@ -5935,7 +5935,7 @@ module.exports = {
     },
     {
       "description": "With 'Investigator' as its unique Precept and 'Deconstructor' as its weapon, the versatile Helios Sentinel acts as both a lethal guardian and an automatic codex scanner. Scans require an equipped Codex Scanner and an available charge.",
-      "imageName": "helios.png",
+      "imageName": "helios-8cacabc9a2.png",
       "name": "Helios",
       "productCategory": "Sentinels",
       "tradable": false,
@@ -5951,7 +5951,7 @@ module.exports = {
     },
     {
       "description": "This knowledge hungry protector defends its master with Deconstructor Prime.",
-      "imageName": "helios-prime.png",
+      "imageName": "helios-prime-7bd311ccae.png",
       "name": "Helios Prime",
       "productCategory": "Sentinels",
       "releaseDate": "2017-02-28",
@@ -5970,7 +5970,7 @@ module.exports = {
     {
       "category": "Kubrow",
       "description": "An experimental blending of Kubrow and Infestation. Uses maggots and other Infested abilities to inflict damage and control the battlefield.",
-      "imageName": "helminth-charger.png",
+      "imageName": "helminth-charger-eb4e8d41ec.png",
       "name": "Helminth Charger",
       "productCategory": "KubrowPets",
       "tradable": false,
@@ -5987,7 +5987,7 @@ module.exports = {
     {
       "category": "Companion Weapon",
       "description": "Launches a swarm of micro-missiles.",
-      "imageName": "helstrum.png",
+      "imageName": "helstrum-a9d9db9a71.png",
       "masteryReq": 0,
       "name": "Helstrum",
       "productCategory": "SentinelWeapons",
@@ -6008,7 +6008,7 @@ module.exports = {
       "bpCost": 15000,
       "category": "Rifle",
       "description": "A bloodsucker. This symbiotic burst-rifle leeches health to forge its ammo and then restores health with each headshot.",
-      "imageName": "hema.png",
+      "imageName": "hema-6087206be7.png",
       "masteryReq": 7,
       "name": "Hema",
       "productCategory": "LongGuns",
@@ -6032,7 +6032,7 @@ module.exports = {
     },
     {
       "description": "This Heavy Scythe echoes battles of another time. It is far more a weapon of sheer force than one of finesse.",
-      "imageName": "hespar.png",
+      "imageName": "hespar-a6d08a02b3.png",
       "masteryReq": 12,
       "name": "Hespar",
       "productCategory": "Melee",
@@ -6051,7 +6051,7 @@ module.exports = {
     {
       "category": "Rifle",
       "description": "Depend on Higasa when it rains bullets. Aiming creates a shield that blocks weapon fire. Kills and blocked shots charge a beam released by Alternate Fire.",
-      "imageName": "higasa.png",
+      "imageName": "higasa-a7bc564af2.png",
       "masteryReq": 2,
       "name": "Higasa",
       "productCategory": "LongGuns",
@@ -6072,7 +6072,7 @@ module.exports = {
       "bpCost": 15000,
       "category": "Throwing",
       "description": "As an alternative to Kunai, these Tenno throwing stars do cause less Damage but they come with expanded Ammo Capacity and a higher Fire Rate.",
-      "imageName": "hikou.png",
+      "imageName": "hikou-a08f2c85e2.png",
       "masteryReq": 2,
       "name": "Hikou",
       "productCategory": "Pistols",
@@ -6092,7 +6092,7 @@ module.exports = {
     {
       "category": "Throwing",
       "description": "As deadly as any bullet without the associated noise or commotion.",
-      "imageName": "hikou-prime.png",
+      "imageName": "hikou-prime-784b21f94c.png",
       "masteryReq": 4,
       "name": "Hikou Prime",
       "productCategory": "Pistols",
@@ -6120,7 +6120,7 @@ module.exports = {
       "exalted": [
         "/Lotus/Powersuits/IronFrame/BlastWeapon"
       ],
-      "imageName": "hildryn.png",
+      "imageName": "hildryn-ceaeb4320d.png",
       "masteryReq": 0,
       "name": "Hildryn",
       "productCategory": "Suits",
@@ -6141,7 +6141,7 @@ module.exports = {
       "exalted": [
         "/Lotus/Powersuits/IronFrame/BlastWeaponPrime"
       ],
-      "imageName": "hildryn-prime.png",
+      "imageName": "hildryn-prime-20937cebe2.png",
       "masteryReq": 0,
       "name": "Hildryn Prime",
       "productCategory": "Suits",
@@ -6161,7 +6161,7 @@ module.exports = {
       "bpCost": 40000,
       "category": "Rifle",
       "description": "A powerful mid-range rifle used by Grineer shock troops, the Hind fires in five round bursts.",
-      "imageName": "hind.png",
+      "imageName": "hind-833c41d865.png",
       "masteryReq": 0,
       "name": "Hind",
       "productCategory": "LongGuns",
@@ -6186,7 +6186,7 @@ module.exports = {
     {
       "bpCost": 15000,
       "description": "Rip into the enemy with fists of razor sharp cartilage. Steals health with each critical hit.",
-      "imageName": "hirudo.png",
+      "imageName": "hirudo-d7675353e1.png",
       "masteryReq": 7,
       "name": "Hirudo",
       "productCategory": "Melee",
@@ -6212,7 +6212,7 @@ module.exports = {
     {
       "category": "Kubrow",
       "description": "A stealthy ally, surprising enemies with impressive takedowns of explosive force.",
-      "imageName": "huras-kubrow.png",
+      "imageName": "huras-kubrow-8d5f938fa0.png",
       "name": "Huras Kubrow",
       "productCategory": "KubrowPets",
       "tradable": false,
@@ -6229,7 +6229,7 @@ module.exports = {
     {
       "bpCost": 50000,
       "description": "Hydroid summons the power of the ocean depths. He provides crowd control with aqueous attacks. His enemies will meet a watery demise.",
-      "imageName": "hydroid.png",
+      "imageName": "hydroid-e97d6abb00.png",
       "masteryReq": 0,
       "name": "Hydroid",
       "productCategory": "Suits",
@@ -6247,7 +6247,7 @@ module.exports = {
     },
     {
       "description": "Command the ocean’s fury with this king of gold and silver. Featuring altered mod polarities for greater customization.",
-      "imageName": "hydroid-prime.png",
+      "imageName": "hydroid-prime-718aec2104.png",
       "masteryReq": 0,
       "name": "Hydroid Prime",
       "productCategory": "Suits",
@@ -6268,7 +6268,7 @@ module.exports = {
       "bpCost": 25000,
       "category": "Pistol",
       "description": "Heat, cold, electricity, or toxin: choose an element and launch a flurry of deadly quills. This versatile sidearm is Khora’s signature weapon and has a chance to instantly reload after headshots when she wields it.",
-      "imageName": "hystrix.png",
+      "imageName": "hystrix-9ceb9a9a5c.png",
       "masteryReq": 7,
       "name": "Hystrix",
       "productCategory": "Pistols",
@@ -6293,7 +6293,7 @@ module.exports = {
     {
       "category": "Pistol",
       "description": "Versatile weapons complement deadly hunters. Khora Prime’s signature pistol rotates through hot, cold, electric, and toxic quills. When equipped on Khora, Hystrix Prime has a chance to instantly reload after headshots.",
-      "imageName": "hystrix-prime.png",
+      "imageName": "hystrix-prime-234976e66a.png",
       "masteryReq": 12,
       "name": "Hystrix Prime",
       "productCategory": "Pistols",
@@ -6315,7 +6315,7 @@ module.exports = {
       "bpCost": 15000,
       "category": "Rifle",
       "description": "Ignis produces a stream of intense heat.",
-      "imageName": "ignis.png",
+      "imageName": "ignis-d9c0e80dba.png",
       "masteryReq": 5,
       "name": "Ignis",
       "productCategory": "LongGuns",
@@ -6336,7 +6336,7 @@ module.exports = {
       "bpCost": 20000,
       "category": "Rifle",
       "description": "A blood-red variant of this destructive flamethrower.",
-      "imageName": "ignis-wraith.png",
+      "imageName": "ignis-wraith-5654d84ee2.png",
       "masteryReq": 9,
       "name": "Ignis Wraith",
       "productCategory": "LongGuns",
@@ -6361,7 +6361,7 @@ module.exports = {
     },
     {
       "description": "A long range rifle capable of firing in space, the Imperator's versatility makes it an ideal weapon for space combat.",
-      "imageName": "imperator.png",
+      "imageName": "imperator-06651a85cb.png",
       "masteryReq": 0,
       "name": "Imperator",
       "productCategory": "SpaceGuns",
@@ -6380,7 +6380,7 @@ module.exports = {
     },
     {
       "description": "The Imperator Vandal has been customized by the Tenno with a blue-green metallic finish and Lotus branding on the barrel.",
-      "imageName": "imperator-vandal.png",
+      "imageName": "imperator-vandal-11d120197b.png",
       "masteryReq": 5,
       "name": "Imperator Vandal",
       "productCategory": "SpaceGuns",
@@ -6399,7 +6399,7 @@ module.exports = {
     },
     {
       "description": "Inaros commands the fearsome desert. He survives like the ever-shifting sands that empower him. Legend recalls Inaros as the Fear-Eater.",
-      "imageName": "inaros.png",
+      "imageName": "inaros-826f62196f.png",
       "masteryReq": 0,
       "name": "Inaros",
       "productCategory": "Suits",
@@ -6417,7 +6417,7 @@ module.exports = {
     },
     {
       "description": "Rise, eternal, to cast the fear of Inaros into them. Featuring altered mod polarities for greater customization.",
-      "imageName": "inaros-prime.png",
+      "imageName": "inaros-prime-f6689c5568.png",
       "masteryReq": 0,
       "name": "Inaros Prime",
       "productCategory": "Suits",
@@ -6436,7 +6436,7 @@ module.exports = {
     },
     {
       "description": "In the early Orokin Empire, elites wore Innodem as a symbolic reminder to defend the defenseless. The tradition fell out of style, but nostalgic elites acknowledged the sentiment in the form of a gift. The Void amplifies that ideal. Void energy strengthens Innodem gliding aerial attacks and the wielder is increasingly resilient as they perform finisher attacks in Incarnon Form.",
-      "imageName": "innodem.png",
+      "imageName": "innodem-1a489bdc0e.png",
       "masteryReq": 14,
       "name": "Innodem",
       "productCategory": "Melee",
@@ -6455,7 +6455,7 @@ module.exports = {
     {
       "category": "Archwing",
       "description": "Designed for quick clandestine attacks, the Itzal Archwing excels at striking from the darkness of space.",
-      "imageName": "itzal.png",
+      "imageName": "itzal-a120d975d8.png",
       "masteryReq": 0,
       "name": "Itzal",
       "productCategory": "SpaceSuits",
@@ -6475,7 +6475,7 @@ module.exports = {
       "exalted": [
         "/Lotus/Powersuits/Ranger/ExaltedBow"
       ],
-      "imageName": "ivara.png",
+      "imageName": "ivara-d0be78df04.png",
       "masteryReq": 0,
       "name": "Ivara",
       "productCategory": "Suits",
@@ -6496,7 +6496,7 @@ module.exports = {
       "exalted": [
         "/Lotus/Powersuits/Ranger/PrimeExaltedBow"
       ],
-      "imageName": "ivara-prime.png",
+      "imageName": "ivara-prime-1be20f1393.png",
       "masteryReq": 0,
       "name": "Ivara Prime",
       "productCategory": "Suits",
@@ -6518,7 +6518,7 @@ module.exports = {
       "exalted": [
         "/Lotus/Powersuits/Choir/ChoirEruptWeapon"
       ],
-      "imageName": "jade.png",
+      "imageName": "jade-d88fcb42ca.png",
       "masteryReq": 0,
       "name": "Jade",
       "productCategory": "Suits",
@@ -6537,7 +6537,7 @@ module.exports = {
     {
       "bpCost": 15000,
       "description": "Deliver crushing blows with this Grineer built, jet powered mace.",
-      "imageName": "jat-kittag.png",
+      "imageName": "jat-kittag-fbaa83e63d.png",
       "masteryReq": 5,
       "name": "Jat Kittag",
       "productCategory": "Melee",
@@ -6563,7 +6563,7 @@ module.exports = {
     {
       "bpCost": 15000,
       "description": "Overwhelm hostiles with this jet-powered sickle and razor-chain weapon. Charged strikes ignite an explosive blast at range.",
-      "imageName": "jat-kusar.png",
+      "imageName": "jat-kusar-ff6110cbdc.png",
       "masteryReq": 11,
       "name": "Jat Kusar",
       "productCategory": "Melee",
@@ -6590,7 +6590,7 @@ module.exports = {
       "bpCost": 15000,
       "category": "Rifle",
       "description": "Launch super-heated slugs at individual foes, or hurl the entire weapon and ignite groups of enemies in a flash inferno.",
-      "imageName": "javlok.png",
+      "imageName": "javlok-d5d80c28db.png",
       "masteryReq": 7,
       "name": "Javlok",
       "productCategory": "LongGuns",
@@ -6614,7 +6614,7 @@ module.exports = {
     },
     {
       "description": "A blade with a serrated edge that delivers strong quick attacks.",
-      "imageName": "jaw-sword.png",
+      "imageName": "jaw-sword-89eacb7922.png",
       "masteryReq": 0,
       "name": "Jaw Sword",
       "productCategory": "Melee",
@@ -6640,7 +6640,7 @@ module.exports = {
     {
       "bpCost": 40000,
       "description": "The Kama is a Tenno style hatchet, capable of making short work of any foe.",
-      "imageName": "kama.png",
+      "imageName": "kama-357d6bfd57.png",
       "masteryReq": 1,
       "name": "Kama",
       "productCategory": "Melee",
@@ -6667,7 +6667,7 @@ module.exports = {
       "bpCost": 30000,
       "category": "Rifle",
       "description": "Solid, dependable and deadly. The Karak is a standard issue rifle in many Grineer platoons.",
-      "imageName": "karak.png",
+      "imageName": "karak-fa5ee22d86.png",
       "masteryReq": 1,
       "name": "Karak",
       "productCategory": "LongGuns",
@@ -6687,7 +6687,7 @@ module.exports = {
     {
       "category": "Rifle",
       "description": "A different take on the Grineer assault rifle, the Karak Wraith features unique styling.",
-      "imageName": "karak-wraith.png",
+      "imageName": "karak-wraith-d9830ab5ca.png",
       "masteryReq": 7,
       "name": "Karak Wraith",
       "productCategory": "LongGuns",
@@ -6712,7 +6712,7 @@ module.exports = {
     {
       "bpCost": 20000,
       "description": "Once the blade weapon of choice for an exclusive order of Tenno assassins, the Karyst dagger grew to become a symbol of honor and duty for all Tenno.",
-      "imageName": "karyst.png",
+      "imageName": "karyst-cad187990c.png",
       "masteryReq": 6,
       "name": "Karyst",
       "productCategory": "Melee",
@@ -6730,7 +6730,7 @@ module.exports = {
     },
     {
       "description": "This master blade is the heavier, oversized and far more lethal version of the signature weapon of an extinct order of Tenno assassins.",
-      "imageName": "karyst-prime.png",
+      "imageName": "karyst-prime-230341b33d.png",
       "masteryReq": 12,
       "name": "Karyst Prime",
       "productCategory": "Melee",
@@ -6757,7 +6757,7 @@ module.exports = {
     {
       "bpCost": 35000,
       "description": "Become an angel of death, with this Archwing scythe.",
-      "imageName": "kaszas.png",
+      "imageName": "kaszas-fa004e9997.png",
       "masteryReq": 4,
       "name": "Kaszas",
       "productCategory": "SpaceMelee",
@@ -6775,7 +6775,7 @@ module.exports = {
     },
     {
       "description": "Leave your mark with these infected claws with increased heavy attack range. Heavy attack at max combo to keep the extended range and slam radius for 3 minutes.",
-      "imageName": "keratinos.png",
+      "imageName": "keratinos-5879a3bd4d.png",
       "masteryReq": 9,
       "name": "Keratinos",
       "productCategory": "Melee",
@@ -6801,7 +6801,7 @@ module.exports = {
     {
       "bpCost": 15000,
       "description": "Slice through mobs of unruly enemies with this fierce halberd; the signature weapon of the Kuva Guardians.",
-      "imageName": "kesheg.png",
+      "imageName": "kesheg-e418e25c28.png",
       "masteryReq": 7,
       "name": "Kesheg",
       "productCategory": "Melee",
@@ -6827,7 +6827,7 @@ module.exports = {
     {
       "bpCost": 20000,
       "description": "The Kestrel boomerang is a heavy throwing weapon that can knock down enemies at a distance.",
-      "imageName": "kestrel.png",
+      "imageName": "kestrel-983bafcc46.png",
       "masteryReq": 0,
       "name": "Kestrel",
       "productCategory": "Melee",
@@ -6855,7 +6855,7 @@ module.exports = {
       "exalted": [
         "/Lotus/Powersuits/Khora/Kavat/KhoraKavatPowerSuit"
       ],
-      "imageName": "khora.png",
+      "imageName": "khora-2062e830c0.png",
       "masteryReq": 0,
       "name": "Khora",
       "productCategory": "Suits",
@@ -6876,7 +6876,7 @@ module.exports = {
       "exalted": [
         "/Lotus/Powersuits/Khora/Kavat/KhoraPrimeKavatPowerSuit"
       ],
-      "imageName": "khora-prime.png",
+      "imageName": "khora-prime-29d9f8a9d7.png",
       "masteryReq": 0,
       "name": "Khora Prime",
       "productCategory": "Suits",
@@ -6895,7 +6895,7 @@ module.exports = {
     },
     {
       "description": "",
-      "imageName": "klamora-prism.png",
+      "imageName": "klamora-prism-c54744e498.png",
       "masteryReq": 0,
       "name": "Klamora Prism",
       "productCategory": "Pistols",
@@ -6915,7 +6915,7 @@ module.exports = {
       "bpCost": 20000,
       "category": "Pistol",
       "description": "Ring the death knell. Headshots briefly turn this scoped pistol into a rapid-fire, Critical Damage fiend that uses no ammo. When used by Harrow, Knell has a 2-round mag.",
-      "imageName": "knell.png",
+      "imageName": "knell-c585400249.png",
       "masteryReq": 10,
       "name": "Knell",
       "productCategory": "Pistols",
@@ -6940,7 +6940,7 @@ module.exports = {
     {
       "category": "Pistol",
       "description": "Ring a funeral toll upon enemy skulls with Harrow Prime's signature pistol.",
-      "imageName": "knell-prime.png",
+      "imageName": "knell-prime-f5518c4cac.png",
       "masteryReq": 14,
       "name": "Knell Prime",
       "productCategory": "Pistols",
@@ -6961,7 +6961,7 @@ module.exports = {
     {
       "bpCost": 15000,
       "description": "Gallium-alloy gauntlets for close-range Archwing combat. Designed by the infamous Tyl Regor.",
-      "imageName": "knux.png",
+      "imageName": "knux-939cea4c86.png",
       "masteryReq": 7,
       "name": "Knux",
       "productCategory": "SpaceMelee",
@@ -6980,7 +6980,7 @@ module.exports = {
     {
       "bpCost": 15000,
       "description": "These coverings for the hands and feet allow devastating high flying hand-to-hand combat attacks without risking harm to the user.",
-      "imageName": "kogake.png",
+      "imageName": "kogake-06d8934498.png",
       "masteryReq": 2,
       "name": "Kogake",
       "productCategory": "Melee",
@@ -6998,7 +6998,7 @@ module.exports = {
     },
     {
       "description": "Deliver a golden knockout with these prime Melee Weapons.",
-      "imageName": "kogake-prime.png",
+      "imageName": "kogake-prime-f7272c7662.png",
       "masteryReq": 10,
       "name": "Kogake Prime",
       "productCategory": "Melee",
@@ -7026,7 +7026,7 @@ module.exports = {
       "bpCost": 20000,
       "category": "Rifle",
       "description": "For every shot fired in rapid succession the Kohm releases an additional bolt and grows more lethal.",
-      "imageName": "kohm.png",
+      "imageName": "kohm-4679277fd3.png",
       "masteryReq": 5,
       "name": "Kohm",
       "productCategory": "LongGuns",
@@ -7052,7 +7052,7 @@ module.exports = {
       "bpCost": 15000,
       "category": "Pistol",
       "description": "Like the larger Kohm, this hand-shotgun doubles its volley with each successive shot.",
-      "imageName": "kohmak.png",
+      "imageName": "kohmak-7d5125f399.png",
       "masteryReq": 5,
       "name": "Kohmak",
       "productCategory": "Pistols",
@@ -7073,7 +7073,7 @@ module.exports = {
       "bpCost": 15000,
       "category": "Rifle",
       "description": "Corpus ingenuity leveraging Tau-tech to create a high-capacity bi-modal sniper weapon of terrifying capability. Zoom in to reduce recoil and add punch through. Zoom again to fire a bursting viral round, but with a lower rate of fire. Komorex features built-in ammo conversion.",
-      "imageName": "komorex.png",
+      "imageName": "komorex-1388959bc3.png",
       "masteryReq": 8,
       "name": "Komorex",
       "productCategory": "LongGuns",
@@ -7098,7 +7098,7 @@ module.exports = {
     {
       "category": "Pistol",
       "description": "Launch a volley of virulent, hyper-pressurized, water globules that envelope targets and explode with torrential force. Yareli's signature pistol.",
-      "imageName": "kompressa.png",
+      "imageName": "kompressa-c2ab392144.png",
       "masteryReq": 8,
       "name": "Kompressa",
       "productCategory": "Pistols",
@@ -7122,7 +7122,7 @@ module.exports = {
     },
     {
       "description": "When they go high, go low. Powerful pneumatic grips and toecaps amplify every blow. Four ways to deal twice the pain.",
-      "imageName": "korrudo.png",
+      "imageName": "korrudo-a4cef6c307.png",
       "masteryReq": 9,
       "name": "Korrudo",
       "productCategory": "Melee",
@@ -7147,7 +7147,7 @@ module.exports = {
     },
     {
       "description": "Archon Boreal’s signature trident. Thrust Korumm into the ground with a Tactical Combo and then rip it out in a shower of electricity.",
-      "imageName": "korumm.png",
+      "imageName": "korumm-b9aef456d4.png",
       "masteryReq": 13,
       "name": "Korumm",
       "productCategory": "Melee",
@@ -7165,7 +7165,7 @@ module.exports = {
     },
     {
       "description": "Test your luck with the dice-maiden. Koumei weaves fate to unleash damage and ensure her survival. To the virtuous, she is an oracle. To the wicked, a perilous game of chance.",
-      "imageName": "koumei.png",
+      "imageName": "koumei-6cf94f7516.png",
       "masteryReq": 0,
       "name": "Koumei",
       "productCategory": "Suits",
@@ -7185,7 +7185,7 @@ module.exports = {
       "bpCost": 20000,
       "category": "Pistol",
       "description": "The Kraken is a heavy pistol of Grineer design that fires two quick shots with a single pull of the trigger. Skilled marksmen will appreciate the value in this deadly accurate weapon.",
-      "imageName": "kraken.png",
+      "imageName": "kraken-0cda31a615.png",
       "masteryReq": 0,
       "name": "Kraken",
       "productCategory": "Pistols",
@@ -7210,7 +7210,7 @@ module.exports = {
     {
       "bpCost": 15000,
       "description": "This unsophisticated Corpus survival tool does what it was designed for: hacking and splitting whatever it strikes.",
-      "imageName": "kreska.png",
+      "imageName": "kreska-27eae4fcab.png",
       "masteryReq": 6,
       "name": "Kreska",
       "productCategory": "Melee",
@@ -7236,7 +7236,7 @@ module.exports = {
     {
       "bpCost": 25000,
       "description": "This hooked blade rewards critical hits to those skilled enough to strike with finesse.",
-      "imageName": "krohkur.png",
+      "imageName": "krohkur-a0244d9499.png",
       "masteryReq": 9,
       "name": "Krohkur",
       "productCategory": "Melee",
@@ -7262,7 +7262,7 @@ module.exports = {
     {
       "bpCost": 65000,
       "description": "The Kronen resurrects a lethal fighting style once thought lost to the ages.",
-      "imageName": "kronen.png",
+      "imageName": "kronen-ce428ae61d.png",
       "masteryReq": 3,
       "name": "Kronen",
       "productCategory": "Melee",
@@ -7280,7 +7280,7 @@ module.exports = {
     },
     {
       "description": "Ancient blades, perfected for today’s combat.",
-      "imageName": "kronen-prime.png",
+      "imageName": "kronen-prime-255e32dd58.png",
       "masteryReq": 13,
       "name": "Kronen Prime",
       "productCategory": "Melee",
@@ -7306,7 +7306,7 @@ module.exports = {
     },
     {
       "description": "",
-      "imageName": "kronsh.png",
+      "imageName": "kronsh-a3ddae365e.png",
       "masteryReq": 0,
       "name": "Kronsh Strike",
       "productCategory": "Pistols",
@@ -7324,7 +7324,7 @@ module.exports = {
     },
     {
       "description": "Kullervo answers for his sins and the sins of others. His daggers and melee prowess deal high damage. Seize the power of treachery to slake his thirst for revenge.",
-      "imageName": "kullervo.png",
+      "imageName": "kullervo-994239dee1.png",
       "masteryReq": 0,
       "name": "Kullervo",
       "productCategory": "Suits",
@@ -7344,7 +7344,7 @@ module.exports = {
       "bpCost": 40000,
       "category": "Pistol",
       "description": "Rain hell on the enemy with this handheld cluster-rocket launcher.",
-      "imageName": "kulstar.png",
+      "imageName": "kulstar-d571661f73.png",
       "masteryReq": 5,
       "name": "Kulstar",
       "productCategory": "Pistols",
@@ -7370,7 +7370,7 @@ module.exports = {
       "bpCost": 15000,
       "category": "Throwing",
       "description": "Kunai throwing daggers offer a silent alternative to the traditional side arm. Perfect for assassins.",
-      "imageName": "kunai.png",
+      "imageName": "kunai-355eb5dcab.png",
       "masteryReq": 0,
       "name": "Kunai",
       "productCategory": "Pistols",
@@ -7395,7 +7395,7 @@ module.exports = {
     {
       "category": "Arch-Gun",
       "description": "Sweep aside hordes of enemies with flaming fury of this powerful, automatic, grenade launching archgun.",
-      "imageName": "kuva-ayanga.png",
+      "imageName": "kuva-ayanga-191784ae00.png",
       "masteryReq": 13,
       "maxLevelCap": 40,
       "name": "Kuva Ayanga",
@@ -7416,7 +7416,7 @@ module.exports = {
     {
       "category": "Rifle",
       "description": "This Lich-variant semi-automatic hand cannon delivers a lot of punch in a small package. Higher fire rate, magazine capacity and reload speed. ",
-      "imageName": "kuva-brakk.png",
+      "imageName": "kuva-brakk-2e49f213ac.png",
       "masteryReq": 13,
       "maxLevelCap": 40,
       "name": "Kuva Brakk",
@@ -7437,7 +7437,7 @@ module.exports = {
     {
       "category": "Rifle",
       "description": "This Grineer bow delivers vengeance in the form of clusterbomb-tipped arrows that can be detonated mid-air or on impact. Low quiver capacity, arrows are recovered singly.",
-      "imageName": "kuva-bramma.png",
+      "imageName": "kuva-bramma-71777b6b0f.png",
       "masteryReq": 15,
       "maxLevelCap": 40,
       "name": "Kuva Bramma",
@@ -7463,7 +7463,7 @@ module.exports = {
     {
       "category": "Rifle",
       "description": "Detonate heads with this slow-firing rifle that rewards precision.",
-      "imageName": "kuva-chakkhurr.png",
+      "imageName": "kuva-chakkhurr-b047965182.png",
       "masteryReq": 15,
       "maxLevelCap": 40,
       "name": "Kuva Chakkhurr",
@@ -7489,7 +7489,7 @@ module.exports = {
     {
       "category": "Rifle",
       "description": "The Kuva Drakgoon flak cannon sends volleys of intensely hot shrapnel ricocheting around the room that do not slow down. Larger Magazine Capacity and Reload Speed. Can be fired in wide or concentrated bursts.",
-      "imageName": "kuva-drakgoon.png",
+      "imageName": "kuva-drakgoon-fb643c315f.png",
       "masteryReq": 13,
       "maxLevelCap": 40,
       "name": "Kuva Drakgoon",
@@ -7535,7 +7535,7 @@ module.exports = {
     {
       "category": "Rifle",
       "description": "Forged at the behest of the Worm Queen herself, this already powerful shotgun now has the additional ability to fire from all four barrels simultaneously.",
-      "imageName": "kuva-hek.png",
+      "imageName": "kuva-hek-66bf5f6bcf.png",
       "masteryReq": 15,
       "maxLevelCap": 40,
       "name": "Kuva Hek",
@@ -7561,7 +7561,7 @@ module.exports = {
     {
       "category": "Rifle",
       "description": "This powerful Grineer burst rifle has been retrofitted to add semi-automatic and automatic fire modes. ",
-      "imageName": "kuva-hind.png",
+      "imageName": "kuva-hind-c616ac2f49.png",
       "masteryReq": 15,
       "maxLevelCap": 40,
       "name": "Kuva Hind",
@@ -7582,7 +7582,7 @@ module.exports = {
     {
       "category": "Rifle",
       "description": "The custom weapon of a fearsome Kuva Lich. It has greater reload speed, lower recoil and greater accuracy than the standard-issue Karak rifle.",
-      "imageName": "kuva-karak.png",
+      "imageName": "kuva-karak-7e2d8b29a9.png",
       "masteryReq": 13,
       "maxLevelCap": 40,
       "name": "Kuva Karak",
@@ -7608,7 +7608,7 @@ module.exports = {
     {
       "category": "Rifle",
       "description": "The Kuva Kohm variant has a higher fire rate than the original. For every shot fired in rapid succession the Kuva Kohm releases an additional bolt and grows more lethal.",
-      "imageName": "kuva-kohm.png",
+      "imageName": "kuva-kohm-bc73fd8e3e.png",
       "masteryReq": 13,
       "maxLevelCap": 40,
       "name": "Kuva Kohm",
@@ -7634,7 +7634,7 @@ module.exports = {
     {
       "category": "Rifle",
       "description": "A custom variant that fires three quick shots with a single pull of the trigger, or can alt-fire burst the remainder of its magazine. Higher Fire Rate, Magazine Capacity and Reload Speed.",
-      "imageName": "kuva-kraken.png",
+      "imageName": "kuva-kraken-9e37ee7e99.png",
       "masteryReq": 15,
       "maxLevelCap": 40,
       "name": "Kuva Kraken",
@@ -7655,7 +7655,7 @@ module.exports = {
     {
       "category": "Rifle",
       "description": "A highly-optimized Nukor that allows for the weapon’s microwave field to hit up to two additional targets.",
-      "imageName": "kuva-nukor.png",
+      "imageName": "kuva-nukor-59d60648d3.png",
       "masteryReq": 13,
       "maxLevelCap": 40,
       "name": "Kuva Nukor",
@@ -7676,7 +7676,7 @@ module.exports = {
     {
       "category": "Rifle",
       "description": "The custom weapon of a fearsome Kuva Lich. Unlike the basic version the Kuva Ogris fires detonite-infused casings semi-automatically, from a smaller magazine, while dealing greater damage per shot.",
-      "imageName": "kuva-ogris.png",
+      "imageName": "kuva-ogris-bdcb7f621b.png",
       "masteryReq": 15,
       "maxLevelCap": 40,
       "name": "Kuva Ogris",
@@ -7702,7 +7702,7 @@ module.exports = {
     {
       "category": "Rifle",
       "description": "Unlike a standard Quartakk this Kuva Lich variant fires automatically from the hip while retaining its signature feature when aimed: annihilating targets with four simultaneous shots.",
-      "imageName": "kuva-quartakk.png",
+      "imageName": "kuva-quartakk-e5d77095e8.png",
       "masteryReq": 13,
       "maxLevelCap": 40,
       "name": "Kuva Quartakk",
@@ -7728,7 +7728,7 @@ module.exports = {
     {
       "category": "Rifle",
       "description": "This variant pistol has higher fire rate and magazine capacity. Superior zoom capabilities plus projectiles have a small Corrosive burst.",
-      "imageName": "kuva-seer.png",
+      "imageName": "kuva-seer-a827acd957.png",
       "masteryReq": 15,
       "maxLevelCap": 40,
       "name": "Kuva Seer",
@@ -7748,7 +7748,7 @@ module.exports = {
     },
     {
       "description": "A crushing, killing, rocket-powered stab-hammer. Grineer, naturally.",
-      "imageName": "kuva-shildeg.png",
+      "imageName": "kuva-shildeg-38c4910519.png",
       "masteryReq": 13,
       "maxLevelCap": 40,
       "name": "Kuva Shildeg",
@@ -7775,7 +7775,7 @@ module.exports = {
     {
       "category": "Rifle",
       "description": "The Kuva Sobek’s exceptional Reload Speed, Critical Chance, and Status Chance make it a natural fit for the Kuva Lich’s dominant spirit.",
-      "imageName": "kuva-sobek.png",
+      "imageName": "kuva-sobek-083b987193.png",
       "masteryReq": 15,
       "maxLevelCap": 40,
       "name": "Kuva Sobek",
@@ -7796,7 +7796,7 @@ module.exports = {
     {
       "category": "Rifle",
       "description": "This Lich-variant grenade launcher hurls mayhem and destruction with an increased Reload Speed.",
-      "imageName": "kuva-tonkor.png",
+      "imageName": "kuva-tonkor-9ae9d48224.png",
       "masteryReq": 13,
       "maxLevelCap": 40,
       "name": "Kuva Tonkor",
@@ -7822,7 +7822,7 @@ module.exports = {
     {
       "category": "Rifle",
       "description": "Double-fist rapid-fire bursts of pain with these dual-wield variants of the Grineer submachine gun. Higher Fire Rate and Magazine Capacity.",
-      "imageName": "kuva-twin-stubbas.png",
+      "imageName": "kuva-twin-stubbas-d66662bcef.png",
       "masteryReq": 13,
       "maxLevelCap": 40,
       "name": "Kuva Twin Stubbas",
@@ -7843,7 +7843,7 @@ module.exports = {
     {
       "category": "Rifle",
       "description": "An even stronger Zarr cannon to meet the demands of Kuva Liches. With stronger explosive barrages, and long-range flak shots.",
-      "imageName": "kuva-zarr.png",
+      "imageName": "kuva-zarr-8d631dc1a1.png",
       "masteryReq": 15,
       "maxLevelCap": 40,
       "name": "Kuva Zarr",
@@ -7869,7 +7869,7 @@ module.exports = {
     {
       "bpCost": 15000,
       "description": "In the practiced hands of a master, this blade and whip becomes exceedingly devastating.",
-      "imageName": "lacera.png",
+      "imageName": "lacera-021f738271.png",
       "masteryReq": 7,
       "name": "Lacera",
       "productCategory": "Melee",
@@ -7889,7 +7889,7 @@ module.exports = {
       "category": "Hound attack",
       "description": "Hound melee attacks devastate with <DT_IMPACT_COLOR>Impact and <DT_SLASH_COLOR>Slash Damage.",
       "excludeFromCodex": true,
-      "imageName": "lacerten.png",
+      "imageName": "lacerten-9f21176710.png",
       "masteryReq": 0,
       "name": "Lacerten (Bhaira Hound)",
       "productCategory": "SentinelWeapons",
@@ -7908,7 +7908,7 @@ module.exports = {
     {
       "category": "Pistol",
       "description": "During parades and victory marches, the Laetum fired pigmented airburst rounds that rained onto festive crowds. The Orokin sent Laetum with the Zariman so they could properly celebrate a successful maiden voyage to Tau. There would be no such celebration, but the Void imbued the Laetum with a much more explosive capacity.",
-      "imageName": "laetum.png",
+      "imageName": "laetum-d2ba8e800b.png",
       "masteryReq": 14,
       "name": "Laetum",
       "productCategory": "Pistols",
@@ -7927,7 +7927,7 @@ module.exports = {
     },
     {
       "description": "",
-      "imageName": "lambeo-moa.png",
+      "imageName": "lambeo-moa-2cf268fdc0.png",
       "masteryReq": 0,
       "name": "Lambeo Moa",
       "productCategory": "Pistols",
@@ -7946,7 +7946,7 @@ module.exports = {
       "bpCost": 15000,
       "category": "Rifle",
       "description": "The Lanka fires a high velocity projectile through magnetic induction.",
-      "imageName": "lanka.png",
+      "imageName": "lanka-49355e9fbb.png",
       "masteryReq": 10,
       "name": "Lanka",
       "productCategory": "LongGuns",
@@ -7971,7 +7971,7 @@ module.exports = {
     {
       "bpCost": 15000,
       "description": "From death blooms the Larkspur. A unique and menacing Archgun with a wild initial attack that locks onto a target then chains other targets close to the first. It also sports an explosive projectile mode. In Hildryn's grip the Larkspur carries more reserve ammo.",
-      "imageName": "larkspur.png",
+      "imageName": "larkspur-75e75160ee.png",
       "masteryReq": 8,
       "name": "Larkspur",
       "productCategory": "SpaceGuns",
@@ -7990,7 +7990,7 @@ module.exports = {
     },
     {
       "description": "Embrace pandemonium. Chainfire and explosive potential meet in Larkspur Prime. Hildryn packs more ammo when she wields this mighty weapon.",
-      "imageName": "larkspur-prime.png",
+      "imageName": "larkspur-prime-2320f70a2f.png",
       "masteryReq": 8,
       "name": "Larkspur Prime",
       "productCategory": "SpaceGuns",
@@ -8011,7 +8011,7 @@ module.exports = {
     {
       "category": "Companion Weapon",
       "description": "A laser rifle developed by reverse-engineering Corpus technology.",
-      "imageName": "laser-rifle.png",
+      "imageName": "laser-rifle-7d7fefefc2.png",
       "masteryReq": 0,
       "name": "Laser Rifle",
       "productCategory": "SentinelWeapons",
@@ -8031,7 +8031,7 @@ module.exports = {
     {
       "category": "Pistol",
       "description": "The Lato is a highly accurate pistol used by the Tenno everywhere.",
-      "imageName": "lato.png",
+      "imageName": "lato-352acc2de0.png",
       "masteryReq": 0,
       "name": "Lato",
       "productCategory": "Pistols",
@@ -8051,7 +8051,7 @@ module.exports = {
     {
       "category": "Pistol",
       "description": "A special version of the standard Lato pistol with a slower Fire Rate but offering higher Accuracy and Damage values. The Lato Vandal has been customized by the Tenno with a blue-green metallic finish and Lotus branding on the grips.",
-      "imageName": "lato-vandal.png",
+      "imageName": "lato-vandal-7dcc9dde42.png",
       "masteryReq": 7,
       "name": "Lato Vandal",
       "productCategory": "Pistols",
@@ -8077,7 +8077,7 @@ module.exports = {
       "bpCost": 20000,
       "category": "Rifle",
       "description": "The Latron is a highly efficient rifle that performs well at medium and at long range, its accuracy making it a deadly weapon in the hands of skilled marksmen.",
-      "imageName": "latron.png",
+      "imageName": "latron-19592d27da.png",
       "masteryReq": 0,
       "name": "Latron",
       "productCategory": "LongGuns",
@@ -8097,7 +8097,7 @@ module.exports = {
     {
       "category": "Rifle",
       "description": "The ornamental Latron Prime exploits ancient Orokin technology to get a slight damage increase over the standard Latron.",
-      "imageName": "latron-prime.png",
+      "imageName": "latron-prime-aaf23a9b9f.png",
       "masteryReq": 10,
       "name": "Latron Prime",
       "productCategory": "LongGuns",
@@ -8123,7 +8123,7 @@ module.exports = {
     {
       "category": "Rifle",
       "description": "The Latron Wraith is a powerful variation of the standard, semi-automatic rifle that features unique styling.",
-      "imageName": "latron-wraith.png",
+      "imageName": "latron-wraith-f37270321b.png",
       "masteryReq": 7,
       "name": "Latron Wraith",
       "productCategory": "LongGuns",
@@ -8142,7 +8142,7 @@ module.exports = {
     },
     {
       "description": "The serpents of Lavos encourage him as he transmutes the battlefield. He uses Toxin, Cold, Electricity, and Heat to deal elemental damage. Harness the power of the dark alchemist.",
-      "imageName": "lavos.png",
+      "imageName": "lavos-aea18ae52f.png",
       "masteryReq": 0,
       "name": "Lavos",
       "productCategory": "Suits",
@@ -8161,7 +8161,7 @@ module.exports = {
     {
       "bpCost": 30000,
       "description": "Half taser, half whip. The Corpus Lecta delivers a deadly shock to anything it touches.",
-      "imageName": "lecta.png",
+      "imageName": "lecta-ab40fef450.png",
       "masteryReq": 0,
       "name": "Lecta",
       "productCategory": "Melee",
@@ -8179,7 +8179,7 @@ module.exports = {
     },
     {
       "description": "",
-      "imageName": "lega-prism.png",
+      "imageName": "lega-prism-b79c1798cb.png",
       "masteryReq": 0,
       "name": "Lega Prism",
       "productCategory": "Pistols",
@@ -8199,7 +8199,7 @@ module.exports = {
       "bpCost": 50000,
       "category": "Rifle",
       "description": "Bolts from this Corpus bow deliver a one-two punch of an icy pulse, followed by a conventional explosion. Excess ammo picked up for other weapons will be converted into charges for the Lenz. Warning: Safety-protocols do not exist on this prototype.",
-      "imageName": "lenz.png",
+      "imageName": "lenz-3ae618622a.png",
       "masteryReq": 8,
       "name": "Lenz",
       "productCategory": "LongGuns",
@@ -8224,7 +8224,7 @@ module.exports = {
     {
       "bpCost": 25000,
       "description": "An instrument of unrelenting harm. If Lesion tastes blood, it becomes invigorated with faster Attack Speed and increased <DT_POISON_COLOR>Toxin Damage.",
-      "imageName": "lesion.png",
+      "imageName": "lesion-f89ffbd07a.png",
       "masteryReq": 9,
       "name": "Lesion",
       "productCategory": "Melee",
@@ -8250,7 +8250,7 @@ module.exports = {
     {
       "category": "Pistol",
       "description": "The Lex is a powerful, accurate pistol that has a low Fire Rate and Magazine Capacity. Very efficient at long range.",
-      "imageName": "lex.png",
+      "imageName": "lex-815d312d76.png",
       "masteryReq": 3,
       "name": "Lex",
       "productCategory": "Pistols",
@@ -8270,7 +8270,7 @@ module.exports = {
     {
       "category": "Pistol",
       "description": "The Lex Prime is a powerful, accurate pistol that has a low Fire Rate and Magazine Capacity. Very efficient at long range.",
-      "imageName": "lex-prime.png",
+      "imageName": "lex-prime-547afa0c65.png",
       "masteryReq": 8,
       "name": "Lex Prime",
       "productCategory": "Pistols",
@@ -8295,7 +8295,7 @@ module.exports = {
     },
     {
       "description": "Master the rift between shadow and substance. Limbo disrupts time-space to provide crowd control. He is at home where others struggle with what is real.",
-      "imageName": "limbo.png",
+      "imageName": "limbo-c107f3bcc2.png",
       "masteryReq": 0,
       "name": "Limbo",
       "productCategory": "Suits",
@@ -8313,7 +8313,7 @@ module.exports = {
     },
     {
       "description": "Dance between realms with this golden rift walker. Featuring altered mod polarities for greater customization.",
-      "imageName": "limbo-prime.png",
+      "imageName": "limbo-prime-7449a6c1ce.png",
       "masteryReq": 0,
       "name": "Limbo Prime",
       "productCategory": "Suits",
@@ -8333,7 +8333,7 @@ module.exports = {
     {
       "bpCost": 35000,
       "description": "Loki knows the art of deception. The trickster employs stealth to sabotage enemies. Sow confusion.",
-      "imageName": "loki.png",
+      "imageName": "loki-04905b317a.png",
       "masteryReq": 0,
       "name": "Loki",
       "productCategory": "Suits",
@@ -8351,7 +8351,7 @@ module.exports = {
     },
     {
       "description": "Confuse, deceive and destroy with Loki Prime. Featuring altered mod polarities for greater customization.",
-      "imageName": "loki-prime.png",
+      "imageName": "loki-prime-5b192774c4.png",
       "masteryReq": 0,
       "name": "Loki Prime",
       "productCategory": "Suits",
@@ -8370,7 +8370,7 @@ module.exports = {
     },
     {
       "description": "A ferocious Melee Weapon crafted by the Grineer and carried by their elite melee forces.",
-      "imageName": "machete.png",
+      "imageName": "machete-ce2a4a32d3.png",
       "masteryReq": 1,
       "name": "Machete",
       "productCategory": "Melee",
@@ -8388,7 +8388,7 @@ module.exports = {
     },
     {
       "description": "A different take on a familiar combat knife, the Machete Wraith features unique styling.",
-      "imageName": "machete-wraith.png",
+      "imageName": "machete-wraith-e2877da313.png",
       "masteryReq": 11,
       "name": "Machete Wraith",
       "productCategory": "Melee",
@@ -8414,7 +8414,7 @@ module.exports = {
     {
       "bpCost": 25000,
       "description": "Take down your enemies with magnetic force. Mag alters magnetic fields to provide crowd control and strip enemy defenses. Few can resist her attraction or her repulsion.",
-      "imageName": "mag.png",
+      "imageName": "mag-1a461f5a07.png",
       "masteryReq": 0,
       "name": "Mag",
       "productCategory": "Suits",
@@ -8432,7 +8432,7 @@ module.exports = {
     },
     {
       "description": "The exquisite Mag Prime offers the same abilities as Mag but with unique mod polarities for greater customization.",
-      "imageName": "mag-prime.png",
+      "imageName": "mag-prime-a3d6c2f9ba.png",
       "masteryReq": 0,
       "name": "Mag Prime",
       "productCategory": "Suits",
@@ -8452,7 +8452,7 @@ module.exports = {
     {
       "bpCost": 25000,
       "description": "The Magistar mace wields justice and truth in the form of bone-crushing blows.",
-      "imageName": "magistar.png",
+      "imageName": "magistar-6f00b4eedd.png",
       "masteryReq": 1,
       "name": "Magistar",
       "productCategory": "Melee",
@@ -8472,7 +8472,7 @@ module.exports = {
       "bpCost": 20000,
       "category": "Pistol",
       "description": "The versatile Magnus revolver is a lethal sidearm for any Tenno.",
-      "imageName": "magnus.png",
+      "imageName": "magnus-2726d45d02.png",
       "masteryReq": 10,
       "name": "Magnus",
       "productCategory": "Pistols",
@@ -8492,7 +8492,7 @@ module.exports = {
     {
       "category": "Pistol",
       "description": "Orokin elegance meets formidable stopping power in this exquisite revolver. Hits have a chance to maximize Ammo Efficiency for a few seconds.",
-      "imageName": "magnus-prime.png",
+      "imageName": "magnus-prime-1700bfd0c2.png",
       "masteryReq": 14,
       "name": "Magnus Prime",
       "productCategory": "Pistols",
@@ -8517,7 +8517,7 @@ module.exports = {
     },
     {
       "description": "Mandonel fires <DT_RADIATION_COLOR>Radiation Damage projectiles. Partially charged shots release a spread and fully charged shots release a beam that dissolves into a radiation field. Projectiles that pass through the field are empowered.",
-      "imageName": "mandonel.png",
+      "imageName": "mandonel-e7a5f57785.png",
       "masteryReq": 10,
       "name": "Mandonel",
       "productCategory": "SpaceGuns",
@@ -8537,7 +8537,7 @@ module.exports = {
     {
       "category": "Rifle",
       "description": "For Orokin-era smugglers, this fearsome handheld shotgun was a favored tool for 'dispute resolution'.",
-      "imageName": "mara-detron.png",
+      "imageName": "mara-detron-2958414847.png",
       "masteryReq": 9,
       "name": "Mara Detron",
       "productCategory": "Pistols",
@@ -8563,7 +8563,7 @@ module.exports = {
       "bpCost": 15000,
       "category": "Pistol",
       "description": "The Marelok combines the stopping power of a rifle with the portability of a pistol.",
-      "imageName": "marelok.png",
+      "imageName": "marelok-9bc76bd64a.png",
       "masteryReq": 7,
       "name": "Marelok",
       "productCategory": "Pistols",
@@ -8583,7 +8583,7 @@ module.exports = {
     {
       "bpCost": 15000,
       "description": "Tear and chew through enemies with this unusual crankshaft-style greatsword. When wielded by Grendel he is immune to staggers and knockdowns during heavy attacks.",
-      "imageName": "masseter.png",
+      "imageName": "masseter-f54958d33d.png",
       "masteryReq": 8,
       "name": "Masseter",
       "productCategory": "Melee",
@@ -8608,7 +8608,7 @@ module.exports = {
     },
     {
       "description": "A greatsword for those with an insatiable hunger for victory. Grendel is immune to crowd-control when he performs Heavy Attacks with this weapon.",
-      "imageName": "masseter-prime.png",
+      "imageName": "masseter-prime-f6e79a49d7.png",
       "masteryReq": 14,
       "name": "Masseter Prime",
       "productCategory": "Melee",
@@ -8648,7 +8648,7 @@ module.exports = {
     {
       "category": "Kubrow",
       "description": "These hard-charging, four-legged predators make formidable companions when in the field.",
-      "imageName": "medjay-predasite.png",
+      "imageName": "medjay-predasite-0c531c81da.png",
       "name": "Medjay Predasite",
       "productCategory": "KubrowPets",
       "tradable": false,
@@ -8667,7 +8667,7 @@ module.exports = {
       "exalted": [
         "/Lotus/Powersuits/Cowgirl/SlingerPistols"
       ],
-      "imageName": "mesa.png",
+      "imageName": "mesa-30651569ff.png",
       "masteryReq": 0,
       "name": "Mesa",
       "productCategory": "Suits",
@@ -8688,7 +8688,7 @@ module.exports = {
       "exalted": [
         "/Lotus/Powersuits/Cowgirl/PrimeSlingerPistols"
       ],
-      "imageName": "mesa-prime.png",
+      "imageName": "mesa-prime-f912b57a14.png",
       "masteryReq": 0,
       "name": "Mesa Prime",
       "productCategory": "Suits",
@@ -8707,7 +8707,7 @@ module.exports = {
     },
     {
       "description": "",
-      "imageName": "mewan.png",
+      "imageName": "mewan-95653371f6.png",
       "masteryReq": 0,
       "name": "Mewan Strike",
       "productCategory": "Pistols",
@@ -8726,7 +8726,7 @@ module.exports = {
     {
       "bpCost": 50000,
       "description": "This bone-forged sword includes a tendon-whip to distract and maim the enemy.",
-      "imageName": "mios.png",
+      "imageName": "mios-a9b0c46732.png",
       "masteryReq": 8,
       "name": "Mios",
       "productCategory": "Melee",
@@ -8751,7 +8751,7 @@ module.exports = {
     },
     {
       "description": "Mirage’s sleight of hand complements her might. Her dazzled foes take heavy damage. Doppelgangers, lasers, and traps are elements of her stagecraft.",
-      "imageName": "mirage.png",
+      "imageName": "mirage-83f6195ffb.png",
       "masteryReq": 0,
       "name": "Mirage",
       "productCategory": "Suits",
@@ -8769,7 +8769,7 @@ module.exports = {
     },
     {
       "description": "Dazzle the opposition with this golden master of illusion and mayhem. Featuring altered mod polarities allow for greater customization.",
-      "imageName": "mirage-prime.png",
+      "imageName": "mirage-prime-96a31c01da.png",
       "masteryReq": 0,
       "name": "Mirage Prime",
       "productCategory": "Suits",
@@ -8789,7 +8789,7 @@ module.exports = {
     {
       "bpCost": 15000,
       "description": "A relic from the Great Plague, the Mire Infested Sword is a brutal weapon. It not only cuts into the enemy, it infects the wounds of its victim with a toxic nerve poison. Deals <DT_POISON_COLOR>Toxin Damage on Ground Slam attacks.",
-      "imageName": "mire.png",
+      "imageName": "mire-dee1f2e457.png",
       "masteryReq": 5,
       "name": "Mire",
       "productCategory": "Melee",
@@ -8815,7 +8815,7 @@ module.exports = {
     {
       "category": "Rifle",
       "description": "The Miter launches high velocity saw blades, tearing apart anyone unfortunate enough to be in their path.",
-      "imageName": "miter.png",
+      "imageName": "miter-0e90938cdd.png",
       "masteryReq": 6,
       "name": "Miter",
       "productCategory": "LongGuns",
@@ -8839,7 +8839,7 @@ module.exports = {
     },
     {
       "description": "The MK1-Bo is the standard issue staff weapon for all Tenno.",
-      "imageName": "mk1-bo.png",
+      "imageName": "mk1-bo-e603b58f1f.png",
       "masteryReq": 0,
       "name": "Mk1-Bo",
       "productCategory": "Melee",
@@ -8858,7 +8858,7 @@ module.exports = {
     {
       "category": "Rifle",
       "description": "The MK1-Braton is the standard issue rifle for all Tenno. A versatile weapon that can be customized to support a wide variety of play styles.",
-      "imageName": "mk1-braton.png",
+      "imageName": "mk1-braton-c0c71253c0.png",
       "masteryReq": 0,
       "name": "Mk1-Braton",
       "productCategory": "LongGuns",
@@ -8877,7 +8877,7 @@ module.exports = {
     },
     {
       "description": "The MK1-Furax is the standard issue fist weapon for all Tenno.",
-      "imageName": "mk1-furax.png",
+      "imageName": "mk1-furax-14ba754126.png",
       "masteryReq": 0,
       "name": "Mk1-Furax",
       "productCategory": "Melee",
@@ -8896,7 +8896,7 @@ module.exports = {
     {
       "category": "Rifle",
       "description": "The MK1-Furis are the standard issue automatic pistol for all Tenno.",
-      "imageName": "mk1-furis.png",
+      "imageName": "mk1-furis-0ae7df5a0f.png",
       "masteryReq": 0,
       "name": "Mk1-Furis",
       "productCategory": "Pistols",
@@ -8916,7 +8916,7 @@ module.exports = {
     {
       "category": "Rifle",
       "description": "The MK1-Kunai is the standard issue throwing knives for all Tenno.",
-      "imageName": "mk1-kunai.png",
+      "imageName": "mk1-kunai-0607aa3953.png",
       "masteryReq": 0,
       "name": "Mk1-Kunai",
       "productCategory": "Pistols",
@@ -8936,7 +8936,7 @@ module.exports = {
     {
       "category": "Rifle",
       "description": "The MK1-Paris is the standard issue bow for all Tenno.",
-      "imageName": "mk1-paris.png",
+      "imageName": "mk1-paris-75283dc75d.png",
       "masteryReq": 0,
       "name": "Mk1-Paris",
       "productCategory": "LongGuns",
@@ -8956,7 +8956,7 @@ module.exports = {
     {
       "category": "Rifle",
       "description": "The Strun is a standard shotgun. Reliable, versatile and deadly.",
-      "imageName": "mk1-strun.png",
+      "imageName": "mk1-strun-5030224711.png",
       "masteryReq": 0,
       "name": "Mk1-Strun",
       "productCategory": "LongGuns",
@@ -8975,7 +8975,7 @@ module.exports = {
     },
     {
       "description": "Blast through enemies with a double-barreled shot of energized slugs. This siphons their life essence which is then used to generate the secondary fire's massive air-burst mortar. The ancient Entrati weapon was built for Necramechs but also functions as an Archgun.",
-      "imageName": "morgha.png",
+      "imageName": "morgha-40068b33ff.png",
       "masteryReq": 15,
       "name": "Morgha",
       "productCategory": "SpaceGuns",
@@ -8994,7 +8994,7 @@ module.exports = {
     },
     {
       "description": "",
-      "imageName": "mote-prism.png",
+      "imageName": "mote-prism-b884fcecd6.png",
       "masteryReq": 0,
       "name": "Mote Prism",
       "productCategory": "Pistols",
@@ -9012,7 +9012,7 @@ module.exports = {
     {
       "category": "Companion Weapon",
       "description": "Launches a volley of bomb darts that embed themselves in targets, exploding a short time later.",
-      "imageName": "multron.png",
+      "imageName": "multron-d133e0fc4e.png",
       "masteryReq": 3,
       "name": "Multron",
       "productCategory": "SentinelWeapons",
@@ -9033,7 +9033,7 @@ module.exports = {
       "bpCost": 20000,
       "category": "Rifle",
       "description": "Overcome with Infestation, this bow's arrows now spread poisonous contagion to any surface they hit.",
-      "imageName": "mutalist-cernos.png",
+      "imageName": "mutalist-cernos-9c41c757fc.png",
       "masteryReq": 7,
       "name": "Mutalist Cernos",
       "productCategory": "LongGuns",
@@ -9059,7 +9059,7 @@ module.exports = {
       "bpCost": 50000,
       "category": "Rifle",
       "description": "A bizarre union of Corpus technology and Infested biology, this automatic rifle can also deploy an irradiated airborne infested mass. Further field testing is required to fully understand the potential of this weapon.",
-      "imageName": "mutalist-quanta.png",
+      "imageName": "mutalist-quanta-930c8241b7.png",
       "masteryReq": 2,
       "name": "Mutalist Quanta",
       "productCategory": "LongGuns",
@@ -9085,7 +9085,7 @@ module.exports = {
       "bpCost": 40000,
       "category": "Rifle",
       "description": "Slash targets with a single precise bolt from Garuda's signature crossbow. Alt-fire to let loose a barrage of bolts. All bolts have a chance to cause <DT_SLASH_COLOR>Slash Status, and Headshots have a chance to increase Reload Speed. When wielded by Garuda Nagantaka gains a slight Punch Through.",
-      "imageName": "nagantaka.png",
+      "imageName": "nagantaka-8722c7da0f.png",
       "masteryReq": 9,
       "name": "Nagantaka",
       "productCategory": "LongGuns",
@@ -9110,7 +9110,7 @@ module.exports = {
     {
       "category": "Rifle",
       "description": "A golden version of Garuda’s versatile crossbow, as fashioned by the Orokin’s finest weaponsmiths. Alt-fire to let loose a barrage of bolts. All bolts have a chance to cause <DT_SLASH_COLOR>Slash Status, and Headshot kills have a chance to increase Reload Speed. When wielded by Garuda the Nagantaka gains a slight Punch Through.",
-      "imageName": "nagantaka-prime.png",
+      "imageName": "nagantaka-prime-3505ebdbfa.png",
       "masteryReq": 12,
       "name": "Nagantaka Prime",
       "productCategory": "LongGuns",
@@ -9131,7 +9131,7 @@ module.exports = {
     {
       "bpCost": 15000,
       "description": "Like the surge and crash of storm waves, a master of the Nami cutlass and Skyla dagger turns these two separate weapons into one fluid attack.",
-      "imageName": "nami-skyla.png",
+      "imageName": "nami-skyla-331c35c7af.png",
       "masteryReq": 2,
       "name": "Nami Skyla",
       "productCategory": "Melee",
@@ -9149,7 +9149,7 @@ module.exports = {
     },
     {
       "description": "Forged by a forgotten master, these exquisite blades are bounty from a golden-age long gone.",
-      "imageName": "nami-skyla-prime.png",
+      "imageName": "nami-skyla-prime-e0304be319.png",
       "masteryReq": 11,
       "name": "Nami Skyla Prime",
       "productCategory": "Melee",
@@ -9176,7 +9176,7 @@ module.exports = {
     {
       "bpCost": 20000,
       "description": "Evoking the oceans of earth, this exquisite cutlass is a deadly work of art.",
-      "imageName": "nami-solo.png",
+      "imageName": "nami-solo-7d77796d46.png",
       "masteryReq": 6,
       "name": "Nami Solo",
       "productCategory": "Melee",
@@ -9202,7 +9202,7 @@ module.exports = {
     {
       "category": "Rifle",
       "description": "Hunhow’s gift, carved from the bones of his kin. Shots can be charged and held; release them just before full charge for maximum effect.",
-      "imageName": "nataruk.png",
+      "imageName": "nataruk-39097570a7.png",
       "masteryReq": 0,
       "name": "Nataruk",
       "productCategory": "LongGuns",
@@ -9221,7 +9221,7 @@ module.exports = {
     },
     {
       "description": "With 'Auto Omni' and 'Cordon' as default Precepts, this Sentinel is the ideal companion for long voyages aboard a Railjack.",
-      "imageName": "nautilus.png",
+      "imageName": "nautilus-b1bfae3524.png",
       "name": "Nautilus",
       "productCategory": "Sentinels",
       "tradable": false,
@@ -9237,7 +9237,7 @@ module.exports = {
     },
     {
       "description": "This brave deckhand defends his crew with Verglas Prime.",
-      "imageName": "nautilus-prime.png",
+      "imageName": "nautilus-prime-710cc92335.png",
       "name": "Nautilus Prime",
       "productCategory": "Sentinels",
       "tradable": true,
@@ -9254,7 +9254,7 @@ module.exports = {
     {
       "category": "K-Drive",
       "description": "",
-      "imageName": "needlenose.png",
+      "imageName": "needlenose-67c1485e6a.png",
       "masteryReq": 0,
       "name": "Needlenose",
       "productCategory": "Pistols",
@@ -9272,7 +9272,7 @@ module.exports = {
     {
       "bpCost": 100000,
       "description": "There is a reaper whose name is Nekros. He provides deathly crowd control. Erstwhile enemies become allies when Nekros calls up recruits from the dead.",
-      "imageName": "nekros.png",
+      "imageName": "nekros-61cb2c9f69.png",
       "masteryReq": 0,
       "name": "Nekros",
       "productCategory": "Suits",
@@ -9290,7 +9290,7 @@ module.exports = {
     },
     {
       "description": "Death's new master. Featuring altered mod polarities allow for greater customization.",
-      "imageName": "nekros-prime.png",
+      "imageName": "nekros-prime-4f3e86be2a.png",
       "masteryReq": 0,
       "name": "Nekros Prime",
       "productCategory": "Suits",
@@ -9309,7 +9309,7 @@ module.exports = {
     },
     {
       "description": "The dual flaming fang-blades of the Archon Amar. Has a unique Neutral Combo that blasts out four short-range fireballs.",
-      "imageName": "nepheri.png",
+      "imageName": "nepheri-1eec92c78e.png",
       "masteryReq": 13,
       "name": "Nepheri",
       "productCategory": "Melee",
@@ -9328,7 +9328,7 @@ module.exports = {
     {
       "bpCost": 35000,
       "description": "The mercurial firemonger protects the innocent. Nezha’s multifaceted tactics give him high survivability as he inflicts damage and provides crowd control. His fire is the clarion of hope.",
-      "imageName": "nezha.png",
+      "imageName": "nezha-39ab6803c6.png",
       "masteryReq": 0,
       "name": "Nezha",
       "productCategory": "Suits",
@@ -9346,7 +9346,7 @@ module.exports = {
     },
     {
       "description": "Behold: the Scion of the Burning Wind, now before you in most courtly accoutrement. Featuring altered mod polarities for greater customization.",
-      "imageName": "nezha-prime.png",
+      "imageName": "nezha-prime-b5e9ddf42b.png",
       "masteryReq": 0,
       "name": "Nezha Prime",
       "productCategory": "Suits",
@@ -9365,7 +9365,7 @@ module.exports = {
     },
     {
       "description": "Nidus draws strength from the Infestation. It bolsters him with survivability as he deals high damage and provides crowd control. Plague your enemies.",
-      "imageName": "nidus.png",
+      "imageName": "nidus-02067c4ce9.png",
       "masteryReq": 0,
       "name": "Nidus",
       "productCategory": "Suits",
@@ -9383,7 +9383,7 @@ module.exports = {
     },
     {
       "description": "Mutation is endless. The ravening plague-bearer returns in a long-unseen form, seething with a primal strain of the Infestation.",
-      "imageName": "nidus-prime.png",
+      "imageName": "nidus-prime-c1781ebcc9.png",
       "masteryReq": 0,
       "name": "Nidus Prime",
       "productCategory": "Suits",
@@ -9403,7 +9403,7 @@ module.exports = {
     {
       "bpCost": 15000,
       "description": "The Nikana reintroduces a lost Tenno blade and with it another fragment of the old ways.",
-      "imageName": "nikana.png",
+      "imageName": "nikana-f266948d7b.png",
       "masteryReq": 4,
       "name": "Nikana",
       "productCategory": "Melee",
@@ -9421,7 +9421,7 @@ module.exports = {
     },
     {
       "description": "An ancient blade predating the fall of the Orokin Empire. Forged using techniques lost over the centuries, the edge remains sharper than that of any modern Nikana.",
-      "imageName": "nikana-prime.png",
+      "imageName": "nikana-prime-b28a0c7525.png",
       "masteryReq": 12,
       "name": "Nikana Prime",
       "productCategory": "Melee",
@@ -9448,7 +9448,7 @@ module.exports = {
     {
       "bpCost": 20000,
       "description": "With its lightning-fast strikes, the Ninkondi pays respect to the old ways.",
-      "imageName": "ninkondi.png",
+      "imageName": "ninkondi-7756cbe3f1.png",
       "masteryReq": 8,
       "name": "Ninkondi",
       "productCategory": "Melee",
@@ -9466,7 +9466,7 @@ module.exports = {
     },
     {
       "description": "An ancient weapon imbued with a new truth.",
-      "imageName": "ninkondi-prime.png",
+      "imageName": "ninkondi-prime-9876965440.png",
       "masteryReq": 14,
       "name": "Ninkondi Prime",
       "productCategory": "Melee",
@@ -9493,7 +9493,7 @@ module.exports = {
     {
       "bpCost": 35000,
       "description": "Harness antimatter. Nova uses antiparticles to provide crowd control and amplify damage output. She obliterates enemies by destabilizing matter itself.",
-      "imageName": "nova.png",
+      "imageName": "nova-1f908986f1.png",
       "masteryReq": 0,
       "name": "Nova",
       "productCategory": "Suits",
@@ -9511,7 +9511,7 @@ module.exports = {
     },
     {
       "description": "Nova Prime wreaks devastation on her enemies using volatile antimatter. Featuring altered mod polarities for greater customization.",
-      "imageName": "nova-prime.png",
+      "imageName": "nova-prime-2345192401.png",
       "masteryReq": 0,
       "name": "Nova Prime",
       "productCategory": "Suits",
@@ -9532,7 +9532,7 @@ module.exports = {
       "bpCost": 15000,
       "category": "Pistol",
       "description": "Creates and focuses a high-frequency field of microwaves, literally cooking the target from within.",
-      "imageName": "nukor.png",
+      "imageName": "nukor-b1882490d6.png",
       "masteryReq": 4,
       "name": "Nukor",
       "productCategory": "Pistols",
@@ -9556,7 +9556,7 @@ module.exports = {
     },
     {
       "description": "",
-      "imageName": "nychus-moa.png",
+      "imageName": "nychus-moa-679ad59727.png",
       "masteryReq": 0,
       "name": "Nychus Moa",
       "productCategory": "Pistols",
@@ -9574,7 +9574,7 @@ module.exports = {
     {
       "bpCost": 25000,
       "description": "Psychic attacks make Nyx a dangerous foe. She reaches into enemy consciousness to provide crowd control and turn their attacks back on them. Such manipulation can turn the tide of battle.",
-      "imageName": "nyx.png",
+      "imageName": "nyx-b6f1ec8736.png",
       "masteryReq": 0,
       "name": "Nyx",
       "productCategory": "Suits",
@@ -9592,7 +9592,7 @@ module.exports = {
     },
     {
       "description": "Infiltrate the minds of your enemies with Nyx Prime. Featuring altered mod polarities for greater customization.",
-      "imageName": "nyx-prime.png",
+      "imageName": "nyx-prime-b16b670098.png",
       "masteryReq": 0,
       "name": "Nyx Prime",
       "productCategory": "Suits",
@@ -9612,7 +9612,7 @@ module.exports = {
     {
       "bpCost": 30000,
       "description": "Healing and suffering do Oberon’s bidding. His command of the natural world supports allies. Boon to his friends, bane of his foes.",
-      "imageName": "oberon.png",
+      "imageName": "oberon-61900220ad.png",
       "masteryReq": 0,
       "name": "Oberon",
       "productCategory": "Suits",
@@ -9630,7 +9630,7 @@ module.exports = {
     },
     {
       "description": "Protect the balance with this regal forest guardian. Featuring altered mod polarities for greater customization.",
-      "imageName": "oberon-prime.png",
+      "imageName": "oberon-prime-71fc40c9ca.png",
       "masteryReq": 0,
       "name": "Oberon Prime",
       "productCategory": "Suits",
@@ -9650,7 +9650,7 @@ module.exports = {
     {
       "bpCost": 15000,
       "description": "The Obex system multiplies the kinetic energy of a Tenno's kicks and punches, delivering devastating blows to any target.",
-      "imageName": "obex.png",
+      "imageName": "obex-583d443f31.png",
       "masteryReq": 4,
       "name": "Obex",
       "productCategory": "Melee",
@@ -9668,7 +9668,7 @@ module.exports = {
     },
     {
       "description": "Octavia turns bass, beat, and melody into a symphony of devastation. The music of her Mandachord gives her high survivability and supports allies. Her composition means the enemy’s destruction.",
-      "imageName": "octavia.png",
+      "imageName": "octavia-d57837e36e.png",
       "masteryReq": 0,
       "name": "Octavia",
       "productCategory": "Suits",
@@ -9686,7 +9686,7 @@ module.exports = {
     },
     {
       "description": "Strike up a symphony of destruction with the mistress of music, Octavia, in her grandest and most spectacular form. Featuring altered mod polarities for greater customization.",
-      "imageName": "octavia-prime.png",
+      "imageName": "octavia-prime-93e1ad02f0.png",
       "masteryReq": 0,
       "name": "Octavia Prime",
       "productCategory": "Suits",
@@ -9707,7 +9707,7 @@ module.exports = {
       "bpCost": 15000,
       "category": "Pistol",
       "description": "A weapon that reaches for its next victim even as it kills. With each takedown, this pistol spawns an energy tendril that reaches for a nearby target.",
-      "imageName": "ocucor.png",
+      "imageName": "ocucor-92e124c6fb.png",
       "masteryReq": 8,
       "name": "Ocucor",
       "productCategory": "Pistols",
@@ -9732,7 +9732,7 @@ module.exports = {
     {
       "category": "Archwing",
       "description": "The systems built into this Archwing balance offensive capabilities with defensive countermeasures.",
-      "imageName": "odonata.png",
+      "imageName": "odonata-0425304f27.png",
       "masteryReq": 0,
       "name": "Odonata",
       "productCategory": "SpaceSuits",
@@ -9750,7 +9750,7 @@ module.exports = {
     {
       "category": "Archwing",
       "description": "This enhanced version of the first Archwing prototype takes the design to its theoretical limits.",
-      "imageName": "odonata-prime.png",
+      "imageName": "odonata-prime-39baaa7427.png",
       "masteryReq": 0,
       "name": "Odonata Prime",
       "productCategory": "SpaceSuits",
@@ -9771,7 +9771,7 @@ module.exports = {
       "bpCost": 15000,
       "category": "Rifle",
       "description": "Ogris fires detonite-infused casings.",
-      "imageName": "ogris.png",
+      "imageName": "ogris-8133344510.png",
       "masteryReq": 9,
       "name": "Ogris",
       "productCategory": "LongGuns",
@@ -9796,7 +9796,7 @@ module.exports = {
     {
       "bpCost": 55000,
       "description": "Bring the enemy to its knees with these twin electrified tonfas.",
-      "imageName": "ohma.png",
+      "imageName": "ohma-41d6cc505b.png",
       "masteryReq": 8,
       "name": "Ohma",
       "productCategory": "Melee",
@@ -9822,7 +9822,7 @@ module.exports = {
     {
       "bpCost": 15000,
       "description": "Perforate enemies with these two needle-sharp sai.",
-      "imageName": "okina.png",
+      "imageName": "okina-ea7342e4e6.png",
       "masteryReq": 5,
       "name": "Okina",
       "productCategory": "Melee",
@@ -9847,7 +9847,7 @@ module.exports = {
     },
     {
       "description": "Enforce authority with these fine-edged blades.",
-      "imageName": "okina-prime.png",
+      "imageName": "okina-prime-e65052d7fd.png",
       "masteryReq": 12,
       "name": "Okina Prime",
       "productCategory": "Melee",
@@ -9866,7 +9866,7 @@ module.exports = {
     },
     {
       "description": "",
-      "imageName": "oloro-moa.png",
+      "imageName": "oloro-moa-31c59ff67f.png",
       "masteryReq": 0,
       "name": "Oloro Moa",
       "productCategory": "Pistols",
@@ -9884,7 +9884,7 @@ module.exports = {
     {
       "bpCost": 35000,
       "description": "This laser bladed battle-axe easily hacks through a ship's defenses and the forces protecting it.",
-      "imageName": "onorix.png",
+      "imageName": "onorix-cec1553bd5.png",
       "masteryReq": 1,
       "name": "Onorix",
       "productCategory": "SpaceMelee",
@@ -9903,7 +9903,7 @@ module.exports = {
     {
       "category": "Rifle",
       "description": "Albrecht's Void experiments revealed the true destructive potential of this weapon. In Incarnon form, draw in ambient power to deal steadily increased damage to enemies. At full power, release a blast of <DT_FIRE_COLOR>Heat.",
-      "imageName": "onos.png",
+      "imageName": "onos-8f623016f7.png",
       "masteryReq": 14,
       "name": "Onos",
       "productCategory": "Pistols",
@@ -9922,7 +9922,7 @@ module.exports = {
     },
     {
       "description": "",
-      "imageName": "ooltha.png",
+      "imageName": "ooltha-3463db17cc.png",
       "masteryReq": 0,
       "name": "Ooltha Strike",
       "productCategory": "Pistols",
@@ -9942,7 +9942,7 @@ module.exports = {
       "bpCost": 15000,
       "category": "Rifle",
       "description": "Once charged this Corpus laser cannon dispatches a devastating blast of light energy.",
-      "imageName": "opticor.png",
+      "imageName": "opticor-167e48eb52.png",
       "masteryReq": 14,
       "name": "Opticor",
       "productCategory": "LongGuns",
@@ -9962,7 +9962,7 @@ module.exports = {
     {
       "category": "Rifle",
       "description": "With a precision crafted lens, this customized Opticor achieves a level of performance previously thought impossible.",
-      "imageName": "opticor-vandal.png",
+      "imageName": "opticor-vandal-303084c984.png",
       "masteryReq": 14,
       "name": "Opticor Vandal",
       "productCategory": "LongGuns",
@@ -9987,7 +9987,7 @@ module.exports = {
     {
       "bpCost": 20000,
       "description": "The Tenno forged Orthos is a rare double bladed polearm. Those who take the time to master it speak of its impressive striking distance and ability to hit multiple targets.",
-      "imageName": "orthos.png",
+      "imageName": "orthos-f05ec1cb86.png",
       "masteryReq": 2,
       "name": "Orthos",
       "productCategory": "Melee",
@@ -10005,7 +10005,7 @@ module.exports = {
     },
     {
       "description": "Orthos Prime is an ancient Orokin martial weapon, forged from the purest Rubedo making it extremely light-weight.",
-      "imageName": "orthos-prime.png",
+      "imageName": "orthos-prime-7045c30205.png",
       "masteryReq": 12,
       "name": "Orthos Prime",
       "productCategory": "Melee",
@@ -10031,7 +10031,7 @@ module.exports = {
     },
     {
       "description": "Turn foes into puppets with Teshin’s versatile throwing disc.",
-      "imageName": "orvius.png",
+      "imageName": "orvius-6d590f2633.png",
       "masteryReq": 5,
       "name": "Orvius",
       "productCategory": "Melee",
@@ -10056,7 +10056,7 @@ module.exports = {
     },
     {
       "description": "With 'Scan Aquatic Lifeforms' and 'Scan Matter' as default Precepts, Oxylus was designed to assist in Search-and-Rescue operations through the harsh landscape around The Orb Vallis. Oxylus also comes with a Multron rifle.",
-      "imageName": "oxylus.png",
+      "imageName": "oxylus-9cb847b2e4.png",
       "name": "Oxylus",
       "productCategory": "Sentinels",
       "tradable": false,
@@ -10074,7 +10074,7 @@ module.exports = {
       "bpCost": 20000,
       "category": "Pistol",
       "description": "Octavia's pistol hammers foes with single shots or a rapid volley of bullets. When wielded by Octavia, alt-fire Headshot Kills increase Reload Speed.",
-      "imageName": "pandero.png",
+      "imageName": "pandero-7c0ad54feb.png",
       "masteryReq": 8,
       "name": "Pandero",
       "productCategory": "Pistols",
@@ -10094,7 +10094,7 @@ module.exports = {
     {
       "category": "Pistol",
       "description": "Pound the beat for a dance of death with Octavia's signature prime pistol.",
-      "imageName": "pandero-prime.png",
+      "imageName": "pandero-prime-fad4842362.png",
       "masteryReq": 14,
       "name": "Pandero Prime",
       "productCategory": "Pistols",
@@ -10119,7 +10119,7 @@ module.exports = {
     },
     {
       "description": "A classic Tenno blade, beautifully reimagined.",
-      "imageName": "pangolin-prime.png",
+      "imageName": "pangolin-prime-92db7d4fde.png",
       "masteryReq": 14,
       "name": "Pangolin Prime",
       "productCategory": "Melee",
@@ -10145,7 +10145,7 @@ module.exports = {
     },
     {
       "description": "A unique blade used by an old Tenno clan.",
-      "imageName": "pangolin-sword.png",
+      "imageName": "pangolin-sword-11f0f4b147.png",
       "masteryReq": 3,
       "name": "Pangolin Sword",
       "productCategory": "Melee",
@@ -10165,7 +10165,7 @@ module.exports = {
       "bpCost": 20000,
       "category": "Rifle",
       "description": "Firing high-velocity blades, this weapon can also be used as a battle-saw, shredding anything unfortunate enough to get within range.",
-      "imageName": "panthera.png",
+      "imageName": "panthera-59d06a174f.png",
       "masteryReq": 7,
       "name": "Panthera",
       "productCategory": "LongGuns",
@@ -10185,7 +10185,7 @@ module.exports = {
     {
       "category": "Rifle",
       "description": "The max-velocity saw-launcher perfected. Features a larger magazine, faster fire rate, and a radial, slashing ricochet.",
-      "imageName": "panthera-prime.png",
+      "imageName": "panthera-prime-02f5cc4156.png",
       "masteryReq": 14,
       "name": "Panthera Prime",
       "productCategory": "LongGuns",
@@ -10211,7 +10211,7 @@ module.exports = {
     {
       "category": "Kavat",
       "description": "Fast and foxy, Vulpaphyla are agile allies to bring along on your next adventure.",
-      "imageName": "panzer-vulpaphyla.png",
+      "imageName": "panzer-vulpaphyla-5d6c5d857b.png",
       "name": "Panzer Vulpaphyla",
       "productCategory": "KubrowPets",
       "tradable": false,
@@ -10227,7 +10227,7 @@ module.exports = {
     },
     {
       "description": "",
-      "imageName": "para-moa.png",
+      "imageName": "para-moa-e983dce892.png",
       "masteryReq": 0,
       "name": "Para Moa",
       "productCategory": "Pistols",
@@ -10244,7 +10244,7 @@ module.exports = {
     },
     {
       "description": "The Sentient slayer. An offering from Ballas.",
-      "imageName": "paracesis.png",
+      "imageName": "paracesis-5537fcd640.png",
       "masteryReq": 10,
       "maxLevelCap": 40,
       "name": "Paracesis",
@@ -10272,7 +10272,7 @@ module.exports = {
       "bpCost": 50000,
       "category": "Rifle",
       "description": "Completely overwhelmed by Infested biology, this former Quanta now fires organic ordnance and a harpoon like appendage.",
-      "imageName": "paracyst.png",
+      "imageName": "paracyst-6ece783e5b.png",
       "masteryReq": 7,
       "name": "Paracyst",
       "productCategory": "LongGuns",
@@ -10298,7 +10298,7 @@ module.exports = {
       "bpCost": 20000,
       "category": "Rifle",
       "description": "Based on one of the world's oldest weapon designs, this Tenno-crafted weapon can be used both in stealth and in open combat. The Paris uses a chargeable magnetic field to launch arrows capable of impaling enemies to walls.",
-      "imageName": "paris.png",
+      "imageName": "paris-236b0318e4.png",
       "masteryReq": 0,
       "name": "Paris",
       "productCategory": "LongGuns",
@@ -10318,7 +10318,7 @@ module.exports = {
     {
       "category": "Rifle",
       "description": "Discovered deep inside an ancient Orokin derelict, the Paris Prime increases the kinetic energy of any bolt it fires, dealing more damage than its more common counterpart.",
-      "imageName": "paris-prime.png",
+      "imageName": "paris-prime-0423f3edf6.png",
       "masteryReq": 8,
       "name": "Paris Prime",
       "productCategory": "LongGuns",
@@ -10343,7 +10343,7 @@ module.exports = {
     },
     {
       "description": "Each strike of this infested glaive infects its target with viral pathogens. Occasionally, it discharges the spores of rabid, enemy-seeking maggots, either in-flight or on contact with the enemy.",
-      "imageName": "pathocyst.png",
+      "imageName": "pathocyst-7c3a6d4c28.png",
       "masteryReq": 9,
       "name": "Pathocyst",
       "productCategory": "Melee",
@@ -10368,7 +10368,7 @@ module.exports = {
     },
     {
       "description": "The steel flag of Old War Railjack crews, the Pennant was invaluable in repelling boarders. With each heavy attack kill the Pennant's speed of attack increases.",
-      "imageName": "pennant.png",
+      "imageName": "pennant-b99390e91a.png",
       "masteryReq": 7,
       "name": "Pennant",
       "productCategory": "Melee",
@@ -10395,7 +10395,7 @@ module.exports = {
       "bpCost": 30000,
       "category": "Rifle",
       "description": "The Penta Launcher fires up to five grenades that can be remotely triggered at just the right moment.",
-      "imageName": "penta.png",
+      "imageName": "penta-5329710362.png",
       "masteryReq": 6,
       "name": "Penta",
       "productCategory": "LongGuns",
@@ -10415,7 +10415,7 @@ module.exports = {
     {
       "category": "Rifle",
       "description": "Like a breath of wind, shots fired by this multi-barrel sniper are felt but never seen by its targets. Headshots in quick succession increase the Perigale’s ammo efficiency. When the Perigale is wielded by Voruna, its ammo pool increases.",
-      "imageName": "perigale.png",
+      "imageName": "perigale-ea7219b8d0.png",
       "masteryReq": 8,
       "name": "Perigale",
       "productCategory": "LongGuns",
@@ -10435,7 +10435,7 @@ module.exports = {
     {
       "bpCost": 35000,
       "description": "Devastate free-space enemies with Phaedra, the Soma's big-sister.",
-      "imageName": "phaedra.png",
+      "imageName": "phaedra-629ac9ffc2.png",
       "masteryReq": 3,
       "name": "Phaedra",
       "productCategory": "SpaceGuns",
@@ -10456,7 +10456,7 @@ module.exports = {
       "bpCost": 15000,
       "category": "Shotgun",
       "description": "Fires seven beams of continuous biochemical energy which depletes the life of any surface they contact.",
-      "imageName": "phage.png",
+      "imageName": "phage-5cf65499b3.png",
       "masteryReq": 11,
       "name": "Phage",
       "productCategory": "LongGuns",
@@ -10482,7 +10482,7 @@ module.exports = {
       "bpCost": 25000,
       "category": "Shotgun",
       "description": "Irradiate enemies with a continuous stream of deadly plasma. Charging secondary fire releases a glob of plasma that erupts with homing bomblets on impact. Increased Magazine Capacity when wielded by Revenant.",
-      "imageName": "phantasma.png",
+      "imageName": "phantasma-dccca8f9e5.png",
       "masteryReq": 9,
       "name": "Phantasma",
       "productCategory": "LongGuns",
@@ -10507,7 +10507,7 @@ module.exports = {
     {
       "category": "Shotgun",
       "description": "Phantasma Prime is burnished with deadly force. In Revenant’s hands, it has increased magazine capacity. The might of its irradiated plasma is reminiscent of the fearsome Eidolon.",
-      "imageName": "phantasma-prime.png",
+      "imageName": "phantasma-prime-e76512a07d.png",
       "masteryReq": 14,
       "name": "Phantasma Prime",
       "productCategory": "LongGuns",
@@ -10528,7 +10528,7 @@ module.exports = {
     {
       "category": "Kubrow",
       "description": "These hard-charging, four-legged predators make formidable companions when in the field.",
-      "imageName": "pharaoh-predasite.png",
+      "imageName": "pharaoh-predasite-a8fee1bece.png",
       "name": "Pharaoh Predasite",
       "productCategory": "KubrowPets",
       "tradable": false,
@@ -10545,7 +10545,7 @@ module.exports = {
     {
       "category": "Rifle",
       "description": "Zariman colonists originally intended to use the Phenmor in burial rites. In Orokin society, the higher the rank, the greater number of volleys for the deceased. Its stock is carved from Phenaureus Pine, a tree designed to release seedlings only onto scorched earth. In the hands of the Void, the Phenmor becomes darkly aggressive.",
-      "imageName": "phenmor.png",
+      "imageName": "phenmor-a24d538533.png",
       "masteryReq": 14,
       "name": "Phenmor",
       "productCategory": "LongGuns",
@@ -10564,7 +10564,7 @@ module.exports = {
     },
     {
       "description": "",
-      "imageName": "plague-keewar.png",
+      "imageName": "plague-keewar-0492fb5b20.png",
       "masteryReq": 0,
       "name": "Plague Keewar Strike",
       "productCategory": "Pistols",
@@ -10582,7 +10582,7 @@ module.exports = {
     },
     {
       "description": "",
-      "imageName": "plague-kripath.png",
+      "imageName": "plague-kripath-c0d8fea486.png",
       "masteryReq": 0,
       "name": "Plague Kripath Strike",
       "productCategory": "Pistols",
@@ -10600,7 +10600,7 @@ module.exports = {
     },
     {
       "description": "An advanced blade that delivers high-damage attacks. Delivers a high percentage of critical strikes.",
-      "imageName": "plasma-sword.png",
+      "imageName": "plasma-sword-1c0e836f2e.png",
       "masteryReq": 4,
       "name": "Plasma Sword",
       "productCategory": "Melee",
@@ -10645,7 +10645,7 @@ module.exports = {
       "bpCost": 20000,
       "category": "Pistol",
       "description": "Cultivate a meaningful relationship with this deceptively simple battery-powered pistol. The Plinx rewards attention and investment from the wise.",
-      "imageName": "plinx.png",
+      "imageName": "plinx-3134170f92.png",
       "masteryReq": 6,
       "name": "Plinx",
       "productCategory": "Pistols",
@@ -10671,7 +10671,7 @@ module.exports = {
       "bpCost": 15000,
       "category": "Pistol",
       "description": "These festering sacs of pus and gas burst violently on impact.",
-      "imageName": "pox.png",
+      "imageName": "pox-b061c04510.png",
       "masteryReq": 9,
       "name": "Pox",
       "productCategory": "Pistols",
@@ -10695,7 +10695,7 @@ module.exports = {
     },
     {
       "description": "Orokin elites admired farmers in conquered regions, because they had learned to fight with modified farming tools despite being forbidden to own weapons. For their voyage, the Zariman were presented with Praedos in recognition of Zariman tenacity. The Void reinforces the strength of the spirited individual by fortifying the Praedos.",
-      "imageName": "praedos.png",
+      "imageName": "praedos-d131d8b126.png",
       "masteryReq": 14,
       "name": "Praedos",
       "productCategory": "Melee",
@@ -10714,7 +10714,7 @@ module.exports = {
     {
       "category": "Companion Weapon",
       "description": "A Prime Laser Rifle.",
-      "imageName": "prime-laser-rifle.png",
+      "imageName": "prime-laser-rifle-0d21517f99.png",
       "masteryReq": 0,
       "name": "Prime Laser Rifle",
       "productCategory": "SentinelWeapons",
@@ -10734,7 +10734,7 @@ module.exports = {
     {
       "category": "Pistol",
       "description": "Imbued with the finest Prisma crystal, this refined Angstrum features boosted charge and reload speeds.",
-      "imageName": "prisma-angstrum.png",
+      "imageName": "prisma-angstrum-57ba91885e.png",
       "masteryReq": 8,
       "name": "Prisma Angstrum",
       "productCategory": "Pistols",
@@ -10759,7 +10759,7 @@ module.exports = {
     {
       "category": "Companion Weapon",
       "description": "Fires a small burst of lasers.",
-      "imageName": "prisma-burst-laser.png",
+      "imageName": "prisma-burst-laser-f36d93dc39.png",
       "masteryReq": 0,
       "name": "Prisma Burst Laser",
       "productCategory": "SentinelWeapons",
@@ -10778,7 +10778,7 @@ module.exports = {
     },
     {
       "description": "Blades of energized prisma crystal make these ornamental cleavers cut as sharply as they look.",
-      "imageName": "prisma-dual-cleavers.png",
+      "imageName": "prisma-dual-cleavers-275283f4ff.png",
       "masteryReq": 9,
       "name": "Prisma Dual Cleavers",
       "productCategory": "Melee",
@@ -10804,7 +10804,7 @@ module.exports = {
     {
       "bpCost": 35000,
       "description": "Colder than space and less forgiving, Prisma crystals bring elite efficiency to the already sleek Dual Decurion. Requiring the lightest of touches to reload, these twin archguns prove that heavy weaponry can still possess elegance.",
-      "imageName": "prisma-dual-decurions.png",
+      "imageName": "prisma-dual-decurions-e4d5a8cf9e.png",
       "masteryReq": 1,
       "name": "Prisma Dual Decurions",
       "productCategory": "SpaceGuns",
@@ -10824,7 +10824,7 @@ module.exports = {
     {
       "category": "Rifle",
       "description": "Adorned with void hardened prisma crystal, this Gorgon variant is prized for its beauty and enhanced mechanics.",
-      "imageName": "prisma-gorgon.png",
+      "imageName": "prisma-gorgon-b7bb39c89d.png",
       "masteryReq": 11,
       "name": "Prisma Gorgon",
       "productCategory": "LongGuns",
@@ -10849,7 +10849,7 @@ module.exports = {
     {
       "category": "Rifle",
       "description": "Encased in plates refined from pure prisma crystals, this rare element gives this assault rifle a radiant luster.",
-      "imageName": "prisma-grakata.png",
+      "imageName": "prisma-grakata-ae8f90655d.png",
       "masteryReq": 11,
       "name": "Prisma Grakata",
       "productCategory": "LongGuns",
@@ -10874,7 +10874,7 @@ module.exports = {
     {
       "category": "Rifle",
       "description": "Prisma-crystal enhancement creates here a prestige instrument; a weapon capable of taking life at astonishing range with but a single pull of its exquisitely-tooled trigger.",
-      "imageName": "prisma-grinlok.png",
+      "imageName": "prisma-grinlok-3b093dd9b9.png",
       "masteryReq": 11,
       "name": "Prisma Grinlok",
       "productCategory": "LongGuns",
@@ -10899,7 +10899,7 @@ module.exports = {
     {
       "category": "Rifle",
       "description": "The explosive potential of the Lenz, enhanced with Prisma crystals.",
-      "imageName": "prisma-lenz.png",
+      "imageName": "prisma-lenz-ecf5cbfed0.png",
       "masteryReq": 12,
       "name": "Prisma Lenz",
       "productCategory": "LongGuns",
@@ -10918,7 +10918,7 @@ module.exports = {
     },
     {
       "description": "The addition of Prisma Crystal allows this otherwise barbaric weapon to elegantly hack through any foe.",
-      "imageName": "prisma-machete.png",
+      "imageName": "prisma-machete-815878e5c8.png",
       "masteryReq": 7,
       "name": "Prisma Machete",
       "productCategory": "Melee",
@@ -10936,7 +10936,7 @@ module.exports = {
     },
     {
       "description": "Dazzle, distract and destroy with these sparring weapons of impossibly hard prisma crystal.",
-      "imageName": "prisma-obex.png",
+      "imageName": "prisma-obex-81fbc543a1.png",
       "masteryReq": 10,
       "name": "Prisma Obex",
       "productCategory": "Melee",
@@ -10961,7 +10961,7 @@ module.exports = {
     },
     {
       "description": "Prisma crystals glisten in these electrified tonfas.",
-      "imageName": "prisma-ohma.png",
+      "imageName": "prisma-ohma-269be62484.png",
       "masteryReq": 12,
       "name": "Prisma Ohma",
       "productCategory": "Melee",
@@ -10979,7 +10979,7 @@ module.exports = {
     },
     {
       "description": "A rare jewel of the void. How could anything so beautiful be crafted for stealth?",
-      "imageName": "prisma-shade.png",
+      "imageName": "prisma-shade-25398bfb4c.png",
       "name": "Prisma Shade",
       "productCategory": "Sentinels",
       "tradable": true,
@@ -10995,7 +10995,7 @@ module.exports = {
     },
     {
       "description": "Forged from raw prisma crystals and infused with Void energy, this blade's pristine edge is honed razor-sharp to eviscerate even the most deadly of foes.",
-      "imageName": "prisma-skana.png",
+      "imageName": "prisma-skana-b262830d29.png",
       "masteryReq": 8,
       "name": "Prisma Skana",
       "productCategory": "Melee",
@@ -11021,7 +11021,7 @@ module.exports = {
     {
       "category": "Rifle",
       "description": "When bathed in Void energy and prisma crystal, the simple Tetra becomes a beacon of style and intimidation.",
-      "imageName": "prisma-tetra.png",
+      "imageName": "prisma-tetra-206f7886e9.png",
       "masteryReq": 4,
       "name": "Prisma Tetra",
       "productCategory": "LongGuns",
@@ -11046,7 +11046,7 @@ module.exports = {
     {
       "category": "Pistol",
       "description": "Fused with prisma crystals, these pristine Grineer sidearms are sure to intimidate any foe.",
-      "imageName": "prisma-twin-gremlins.png",
+      "imageName": "prisma-twin-gremlins-ee94faf3ba.png",
       "masteryReq": 11,
       "name": "Prisma Twin Gremlins",
       "productCategory": "Pistols",
@@ -11070,7 +11070,7 @@ module.exports = {
     },
     {
       "description": "A rare object of beauty, this Archwing sword has been sheathed in prisma crystal and baptized in the Void’s energy.",
-      "imageName": "prisma-veritux.png",
+      "imageName": "prisma-veritux-b7348241ce.png",
       "masteryReq": 8,
       "name": "Prisma Veritux",
       "productCategory": "SpaceMelee",
@@ -11090,7 +11090,7 @@ module.exports = {
       "bpCost": 30000,
       "category": "Rifle",
       "description": "Each arrow spawns a swarm of sticky appendages on impact. These tongue-like probes latch onto nearby unfortunates and drag them close before bursting into a mess of diseased goo.",
-      "imageName": "proboscis-cernos.png",
+      "imageName": "proboscis-cernos-9fa202f9e7.png",
       "masteryReq": 15,
       "name": "Proboscis Cernos",
       "productCategory": "LongGuns",
@@ -11115,7 +11115,7 @@ module.exports = {
     {
       "bpCost": 35000,
       "description": "Protea knows all about protection. Her vast arsenal inflicts damage and provides ally support. She can even manipulate time itself.",
-      "imageName": "protea.png",
+      "imageName": "protea-69a74795e8.png",
       "masteryReq": 0,
       "name": "Protea",
       "productCategory": "Suits",
@@ -11133,7 +11133,7 @@ module.exports = {
     },
     {
       "description": "Behold the child of two fathers. Protea Prime once fulfilled Parvos Granum's vision of a time-wielding guardian. Now she upholds the Tenno ideal of defending the defenseless.",
-      "imageName": "protea-prime.png",
+      "imageName": "protea-prime-86cbc2b038.png",
       "masteryReq": 0,
       "name": "Protea Prime",
       "productCategory": "Suits",
@@ -11152,7 +11152,7 @@ module.exports = {
     {
       "bpCost": 15000,
       "description": "The Prova is a Melee Weapon that delivers a high-intensity shock to its target.",
-      "imageName": "prova.png",
+      "imageName": "prova-ecaec2190d.png",
       "masteryReq": 3,
       "name": "Prova",
       "productCategory": "Melee",
@@ -11170,7 +11170,7 @@ module.exports = {
     },
     {
       "description": "A customized version of the vicious Prova, with metallic finish and Lotus decal.",
-      "imageName": "prova-vandal.png",
+      "imageName": "prova-vandal-b447c088c1.png",
       "masteryReq": 8,
       "name": "Prova Vandal",
       "productCategory": "Melee",
@@ -11196,7 +11196,7 @@ module.exports = {
     {
       "bpCost": 50000,
       "description": "Pummel and infect with these two pulsating hunks of flesh connected by a ligament. Take-hold of the malignant evolution of an ancient martial weapon.",
-      "imageName": "pulmonars.png",
+      "imageName": "pulmonars-69ee1580b8.png",
       "masteryReq": 11,
       "name": "Pulmonars",
       "productCategory": "Melee",
@@ -11222,7 +11222,7 @@ module.exports = {
     {
       "bpCost": 50000,
       "description": "A two-pronged attack; the bone-grafted cocoon at the tip of this polearm rends flesh, while the viral mass living within spreads itself into the wounds of each new victim.",
-      "imageName": "pupacyst.png",
+      "imageName": "pupacyst-43e085006d.png",
       "masteryReq": 7,
       "name": "Pupacyst",
       "productCategory": "Melee",
@@ -11249,7 +11249,7 @@ module.exports = {
       "bpCost": 15000,
       "category": "Pistol",
       "description": "Chew through the enemy with this vicious automatic hand shotgun.",
-      "imageName": "pyrana.png",
+      "imageName": "pyrana-f2049c9ca6.png",
       "masteryReq": 12,
       "name": "Pyrana",
       "productCategory": "Pistols",
@@ -11269,7 +11269,7 @@ module.exports = {
     {
       "category": "Pistol",
       "description": "Three kills in rapid succession to summon a second ethereal Pyrana for twice the deadly punch.",
-      "imageName": "pyrana-prime.png",
+      "imageName": "pyrana-prime-ecb8c95a9d.png",
       "masteryReq": 13,
       "name": "Pyrana Prime",
       "productCategory": "Pistols",
@@ -11294,7 +11294,7 @@ module.exports = {
     },
     {
       "description": "Albrecht Entrati designed Qorvex to protect a Chosen Operator from the unique hazards of his lab. A Crucible Core gives Qorvex high survivability as he provides crowd control.",
-      "imageName": "qorvex.png",
+      "imageName": "qorvex-ec9d170e8b.png",
       "masteryReq": 0,
       "name": "Qorvex",
       "productCategory": "Suits",
@@ -11314,7 +11314,7 @@ module.exports = {
       "bpCost": 15000,
       "category": "Rifle",
       "description": "This weapon was designed to assist with the excavation of mineral deposits from large asteroids, but has been adapted for military purposes.",
-      "imageName": "quanta.png",
+      "imageName": "quanta-be0abe2f6a.png",
       "masteryReq": 4,
       "name": "Quanta",
       "productCategory": "LongGuns",
@@ -11334,7 +11334,7 @@ module.exports = {
     {
       "category": "Rifle",
       "description": "A customized version of the Quanta, with metallic finish and Lotus decal.",
-      "imageName": "quanta-vandal.png",
+      "imageName": "quanta-vandal-0afacef7c8.png",
       "masteryReq": 10,
       "name": "Quanta Vandal",
       "productCategory": "LongGuns",
@@ -11359,7 +11359,7 @@ module.exports = {
     {
       "category": "Rifle",
       "description": "Annihilate targets with four simultaneous shots from this high-caliber Grineer rifle.",
-      "imageName": "quartakk.png",
+      "imageName": "quartakk-a9f55e0df8.png",
       "masteryReq": 10,
       "name": "Quartakk",
       "productCategory": "LongGuns",
@@ -11383,7 +11383,7 @@ module.exports = {
     },
     {
       "description": "Flick away the enemy with this heavy warfan. The Quassus scatters ethereal daggers that are even more deadly accurate when wielded by Xaku.",
-      "imageName": "quassus.png",
+      "imageName": "quassus-7cdb09221f.png",
       "masteryReq": 8,
       "name": "Quassus",
       "productCategory": "Melee",
@@ -11410,7 +11410,7 @@ module.exports = {
       "bpCost": 40000,
       "category": "Pistol",
       "description": "A compact four-barreled design packing a self-charging capacitor that discharges upon every reload from empty. Features auto hip-fire and aimed fire is semi-auto, four-shot instant burst.",
-      "imageName": "quatz.png",
+      "imageName": "quatz-ef293ab5be.png",
       "masteryReq": 9,
       "name": "Quatz",
       "productCategory": "Pistols",
@@ -11435,7 +11435,7 @@ module.exports = {
     {
       "category": "Rifle",
       "description": "The Quellor was standard-issue to Dax Railjack crews of the Old War, dating back to the earliest, pre-Sigma craft. A rapid-fire assault rifle with a hefty magazine-size, the Quellor is an all-round workhorse. Also capable of large, short-range cryo-blasts.",
-      "imageName": "quellor.png",
+      "imageName": "quellor-18785323c2.png",
       "masteryReq": 12,
       "name": "Quellor",
       "productCategory": "LongGuns",
@@ -11459,7 +11459,7 @@ module.exports = {
     },
     {
       "description": "",
-      "imageName": "rabvee.png",
+      "imageName": "rabvee-0a58ffb572.png",
       "masteryReq": 0,
       "name": "Rabvee Strike",
       "productCategory": "Pistols",
@@ -11477,7 +11477,7 @@ module.exports = {
     },
     {
       "description": "",
-      "imageName": "rahn-prism.png",
+      "imageName": "rahn-prism-93c577260c.png",
       "masteryReq": 0,
       "name": "Rahn Prism",
       "productCategory": "Pistols",
@@ -11496,7 +11496,7 @@ module.exports = {
     {
       "category": "Kubrow",
       "description": "A strong guardian focused on protecting its master by bolstering their defense and by driving away attackers.",
-      "imageName": "raksa-kubrow.png",
+      "imageName": "raksa-kubrow-f12afc941f.png",
       "name": "Raksa Kubrow",
       "productCategory": "KubrowPets",
       "tradable": false,
@@ -11513,7 +11513,7 @@ module.exports = {
     {
       "category": "Pistol",
       "description": "This modified ballistica is the weapon of choice used by Red Veil Assassins to take out high-priority marks.",
-      "imageName": "rakta-ballistica.png",
+      "imageName": "rakta-ballistica-39303c333a.png",
       "masteryReq": 6,
       "name": "Rakta Ballistica",
       "productCategory": "Pistols",
@@ -11533,7 +11533,7 @@ module.exports = {
     {
       "category": "Rifle",
       "description": "A finely tuned instrument of assassination.",
-      "imageName": "rakta-cernos.png",
+      "imageName": "rakta-cernos-1f148e5ebd.png",
       "masteryReq": 12,
       "name": "Rakta Cernos",
       "productCategory": "LongGuns",
@@ -11557,7 +11557,7 @@ module.exports = {
     },
     {
       "description": "Infiltrate undetected; reduced visibility when held. Then strike with confidence; hits to irradiated targets restores shields and creates overshields.",
-      "imageName": "rakta-dark-dagger.png",
+      "imageName": "rakta-dark-dagger-e9aed7b23f.png",
       "masteryReq": 8,
       "name": "Rakta Dark Dagger",
       "productCategory": "Melee",
@@ -11582,7 +11582,7 @@ module.exports = {
     },
     {
       "description": "",
-      "imageName": "raplak-prism.png",
+      "imageName": "raplak-prism-5673e55c31.png",
       "masteryReq": 0,
       "name": "Raplak Prism",
       "productCategory": "Pistols",
@@ -11601,7 +11601,7 @@ module.exports = {
     {
       "bpCost": 35000,
       "description": "Using Archwing’s jets for thrust, this massive hammer crushes anything in its path.",
-      "imageName": "rathbone.png",
+      "imageName": "rathbone-918424e099.png",
       "masteryReq": 6,
       "name": "Rathbone",
       "productCategory": "SpaceMelee",
@@ -11620,7 +11620,7 @@ module.exports = {
     {
       "category": "Kitgun",
       "description": "",
-      "imageName": "rattleguts.png",
+      "imageName": "rattleguts-864141e414.png",
       "masteryReq": 0,
       "name": "Rattleguts",
       "primeOmegaAttenuation": 1,
@@ -11639,7 +11639,7 @@ module.exports = {
     {
       "category": "Shotgun",
       "description": "Kullervo's signature weapon boasts melee synergy. Every shot that lands increases the wielder's Melee Combo count. When Kullervo wields Rauta, it also increases his Melee Combo duration.",
-      "imageName": "rauta.png",
+      "imageName": "rauta-690de20bfb.png",
       "masteryReq": 8,
       "name": "Rauta",
       "productCategory": "LongGuns",
@@ -11658,7 +11658,7 @@ module.exports = {
     },
     {
       "description": "Reaper Prime is an ornamental scythe, with a blade forged from tempered Rubedo.",
-      "imageName": "reaper-prime.png",
+      "imageName": "reaper-prime-7029342b85.png",
       "masteryReq": 10,
       "name": "Reaper Prime",
       "productCategory": "Melee",
@@ -11685,7 +11685,7 @@ module.exports = {
     {
       "bpCost": 20000,
       "description": "Striking with massive twin blades, the Redeemer fires the killing blow with its built-in shotgun.",
-      "imageName": "redeemer.png",
+      "imageName": "redeemer-9fc3eb744a.png",
       "masteryReq": 4,
       "name": "Redeemer",
       "productCategory": "Melee",
@@ -11703,7 +11703,7 @@ module.exports = {
     },
     {
       "description": "Deal double-bladed, double-barreled death with this primed gunblade.",
-      "imageName": "redeemer-prime.png",
+      "imageName": "redeemer-prime-7dacec830a.png",
       "masteryReq": 10,
       "name": "Redeemer Prime",
       "productCategory": "Melee",
@@ -11729,7 +11729,7 @@ module.exports = {
     },
     {
       "description": "Macabre spectral power has risen. Infused with the essence of the Eidolon, Revenant has strong survivability and deals high damage. Enemies become his thralls.",
-      "imageName": "revenant.png",
+      "imageName": "revenant-c9bd7cfbcc.png",
       "masteryReq": 0,
       "name": "Revenant",
       "productCategory": "Suits",
@@ -11747,7 +11747,7 @@ module.exports = {
     },
     {
       "description": "The lost one rises. Reify the essence of the Eidolon as you wield Revenant Prime’s power.",
-      "imageName": "revenant-prime.png",
+      "imageName": "revenant-prime-a5be34cbf2.png",
       "masteryReq": 0,
       "name": "Revenant Prime",
       "productCategory": "Suits",
@@ -11767,7 +11767,7 @@ module.exports = {
     {
       "bpCost": 35000,
       "description": "Rhino packs a punch. He boasts high survivability and crowd control. The wise would do well to stand clear when he charges.",
-      "imageName": "rhino.png",
+      "imageName": "rhino-87af2466b6.png",
       "masteryReq": 0,
       "name": "Rhino",
       "productCategory": "Suits",
@@ -11785,7 +11785,7 @@ module.exports = {
     },
     {
       "description": "Takes Rhino's ground-shaking abilities to the next level with altered mod polarities that offer greater customization.",
-      "imageName": "rhino-prime.png",
+      "imageName": "rhino-prime-7142165571.png",
       "masteryReq": 0,
       "name": "Rhino Prime",
       "productCategory": "Suits",
@@ -11805,7 +11805,7 @@ module.exports = {
     {
       "bpCost": 20000,
       "description": "Motorized saw claw weapon.",
-      "imageName": "ripkas.png",
+      "imageName": "ripkas-c03790fe4d.png",
       "masteryReq": 5,
       "name": "Ripkas",
       "productCategory": "Melee",
@@ -11832,7 +11832,7 @@ module.exports = {
       "bpCost": 20000,
       "category": "Rifle",
       "description": "Scope out the enemy with this long-range revolver style rifle.",
-      "imageName": "rubico.png",
+      "imageName": "rubico-d3c3d07208.png",
       "masteryReq": 6,
       "name": "Rubico",
       "productCategory": "LongGuns",
@@ -11852,7 +11852,7 @@ module.exports = {
     {
       "category": "Rifle",
       "description": "For the hunter, the apex of the sniper's art. For the hunted, a gateway to the next life.",
-      "imageName": "rubico-prime.png",
+      "imageName": "rubico-prime-1ea479c379.png",
       "masteryReq": 12,
       "name": "Rubico Prime",
       "productCategory": "LongGuns",
@@ -11877,7 +11877,7 @@ module.exports = {
     },
     {
       "description": "An electrified jolter for quick melee takedowns, assembled from scavenged scrap. Ideal for use on unsuspecting opponents.",
-      "imageName": "rumblejack.png",
+      "imageName": "rumblejack-35af025562.png",
       "masteryReq": 8,
       "name": "Rumblejack",
       "productCategory": "Melee",
@@ -11896,7 +11896,7 @@ module.exports = {
     {
       "category": "K-Drive",
       "description": "",
-      "imageName": "runway.png",
+      "imageName": "runway-de46f27616.png",
       "masteryReq": 0,
       "name": "Runway",
       "productCategory": "Pistols",
@@ -11913,7 +11913,7 @@ module.exports = {
     },
     {
       "description": "Albrecht's Void experiments revealed the true destructive potential of this fist weapon. In Incarnon form, perform Heavy Slams to impale nearby enemies with spikes.",
-      "imageName": "ruvox.png",
+      "imageName": "ruvox-a985d9faa1.png",
       "masteryReq": 14,
       "name": "Ruvox",
       "productCategory": "Melee",
@@ -11932,7 +11932,7 @@ module.exports = {
     {
       "category": "Kubrow",
       "description": "A reliable partner that locates supplies for their Tenno master and while thinning enemy ranks.",
-      "imageName": "sahasa-kubrow.png",
+      "imageName": "sahasa-kubrow-2f3f1069b3.png",
       "name": "Sahasa Kubrow",
       "productCategory": "KubrowPets",
       "tradable": false,
@@ -11948,7 +11948,7 @@ module.exports = {
     },
     {
       "description": "A warrior who prefers brute force will make the most of Sampotes. Its Slams and Heavy Slams have an extended area of effect.",
-      "imageName": "sampotes.png",
+      "imageName": "sampotes-d2e3a43678.png",
       "masteryReq": 0,
       "name": "Sampotes",
       "productCategory": "Melee",
@@ -11967,7 +11967,7 @@ module.exports = {
     {
       "category": "Pistol",
       "description": "This remotely detonated electrical trap is used by devotees of New Loka to protect their temples and shrines.",
-      "imageName": "sancti-castanas.png",
+      "imageName": "sancti-castanas-3d6951c043.png",
       "masteryReq": 10,
       "name": "Sancti Castanas",
       "productCategory": "Pistols",
@@ -11991,7 +11991,7 @@ module.exports = {
     },
     {
       "description": "Each charged attack turns the enemy’s pain into a healing pulse that washes over allies. Also, creates resistance to Status Effects when held.",
-      "imageName": "sancti-magistar.png",
+      "imageName": "sancti-magistar-2910f0ef82.png",
       "masteryReq": 8,
       "name": "Sancti Magistar",
       "productCategory": "Melee",
@@ -12017,7 +12017,7 @@ module.exports = {
     {
       "category": "Rifle",
       "description": "Echo nature's violent beauty with this special Tigris.",
-      "imageName": "sancti-tigris.png",
+      "imageName": "sancti-tigris-2b0dd379b8.png",
       "masteryReq": 12,
       "name": "Sancti Tigris",
       "productCategory": "LongGuns",
@@ -12041,7 +12041,7 @@ module.exports = {
     },
     {
       "description": "Mete out the sharp pain of justice. Heavy Slam attacks create a vortex that pulls in lifted enemies when the Sarofang’s Combo Multiplier builds to 8x. In Voruna’s hands, the Sarofang only requires a 5x Combo Multiplier to summon the vortex.",
-      "imageName": "sarofang.png",
+      "imageName": "sarofang-53e9dcd58d.png",
       "masteryReq": 8,
       "name": "Sarofang",
       "productCategory": "Melee",
@@ -12060,7 +12060,7 @@ module.exports = {
     {
       "bpCost": 20000,
       "description": "Makes sweeping cuts punctuated by bursts of heavy gunfire.",
-      "imageName": "sarpa.png",
+      "imageName": "sarpa-59e780991b.png",
       "masteryReq": 8,
       "name": "Sarpa",
       "productCategory": "Melee",
@@ -12086,7 +12086,7 @@ module.exports = {
     {
       "bpCost": 35000,
       "description": "Toxicity is Saryn’s strength. Her serpentine powers deal heavy damage. For Saryn, venom is a virtue.",
-      "imageName": "saryn.png",
+      "imageName": "saryn-88c1d4da08.png",
       "masteryReq": 0,
       "name": "Saryn",
       "productCategory": "Suits",
@@ -12104,7 +12104,7 @@ module.exports = {
     },
     {
       "description": "A golden blossom conceals deadly nectar. Featuring altered mod polarities for greater customization.",
-      "imageName": "saryn-prime.png",
+      "imageName": "saryn-prime-8703933001.png",
       "masteryReq": 0,
       "name": "Saryn Prime",
       "productCategory": "Suits",
@@ -12124,7 +12124,7 @@ module.exports = {
     {
       "bpCost": 15000,
       "description": "The Scindo is a heavy war axe crafted by the Tenno. Reduced speed and agility is balanced by heavy, devastating strikes capable of connecting with multiple targets at once.",
-      "imageName": "scindo.png",
+      "imageName": "scindo-b0dbd8a58b.png",
       "masteryReq": 2,
       "name": "Scindo",
       "productCategory": "Melee",
@@ -12142,7 +12142,7 @@ module.exports = {
     },
     {
       "description": "An ancient executioners weapon, the honor of decapitation by the Scindo Prime was reserved for the Orokin's most respected enemies.",
-      "imageName": "scindo-prime.png",
+      "imageName": "scindo-prime-a415b305a5.png",
       "masteryReq": 8,
       "name": "Scindo Prime",
       "productCategory": "Melee",
@@ -12169,7 +12169,7 @@ module.exports = {
     {
       "bpCost": 50000,
       "description": "The Scoliac Whip is a nasty parasitic growth of sinew and bone that can inflict heart stopping <DT_POISON_COLOR>Toxin Damage with attacks.",
-      "imageName": "scoliac.png",
+      "imageName": "scoliac-a565f241e7.png",
       "masteryReq": 6,
       "name": "Scoliac",
       "productCategory": "Melee",
@@ -12196,7 +12196,7 @@ module.exports = {
       "bpCost": 15000,
       "category": "Rifle",
       "description": "Blast targets with corrosive plasma projectiles, or toss the scepter to inflict an energy field upon nearby enemies that amplifies their brain waves to attract bullets.",
-      "imageName": "scourge.png",
+      "imageName": "scourge-075d7af31e.png",
       "masteryReq": 6,
       "name": "Scourge",
       "productCategory": "LongGuns",
@@ -12221,7 +12221,7 @@ module.exports = {
     {
       "category": "Rifle",
       "description": "Smite the unrighteous with Harrow Prime's signature speargun.",
-      "imageName": "scourge-prime.png",
+      "imageName": "scourge-prime-6c0e894c91.png",
       "masteryReq": 14,
       "name": "Scourge Prime",
       "productCategory": "LongGuns",
@@ -12242,7 +12242,7 @@ module.exports = {
     {
       "category": "Pistol",
       "description": "The favored side-arms of Perrin Sequence executives, these pistols have been modified to improve efficiency and killing potential.",
-      "imageName": "secura-dual-cestra.png",
+      "imageName": "secura-dual-cestra-810e479b60.png",
       "masteryReq": 10,
       "name": "Secura Dual Cestra",
       "productCategory": "Pistols",
@@ -12266,7 +12266,7 @@ module.exports = {
     },
     {
       "description": "Whip the enemy out of their ill-gotten gains; double credit drops on kills.",
-      "imageName": "secura-lecta.png",
+      "imageName": "secura-lecta-ca3385188e.png",
       "masteryReq": 8,
       "name": "Secura Lecta",
       "productCategory": "Melee",
@@ -12292,7 +12292,7 @@ module.exports = {
     {
       "category": "Rifle",
       "description": "Ruthless and efficient, just like the free-market.",
-      "imageName": "secura-penta.png",
+      "imageName": "secura-penta-63168ca5a8.png",
       "masteryReq": 12,
       "name": "Secura Penta",
       "productCategory": "LongGuns",
@@ -12317,7 +12317,7 @@ module.exports = {
     {
       "category": "Pistol",
       "description": "Captain Vor's prized Orokin-Grineer hybrid pistol has an average rate of fire, but it has high damage and superior zoom capabilities.",
-      "imageName": "seer.png",
+      "imageName": "seer-afdd75b43d.png",
       "masteryReq": 0,
       "name": "Seer",
       "productCategory": "Pistols",
@@ -12341,7 +12341,7 @@ module.exports = {
     },
     {
       "description": "",
-      "imageName": "sepfahn.png",
+      "imageName": "sepfahn-a6403cc3ff.png",
       "masteryReq": 0,
       "name": "Sepfahn Strike",
       "productCategory": "Pistols",
@@ -12360,7 +12360,7 @@ module.exports = {
     {
       "category": "Pistol",
       "description": "An ancient weapon designed by the Entrati. Primary fire siphons life essence from the target to fuel a devastating secondary fire. This large, weighty double-barreled pistol delivers twin projectiles that pack a punch, exploding on impact. Secondary fire puts the weapon in lock-on mode. Aim to lock onto multiple targets, then fire to unleash homing projectiles.",
-      "imageName": "sepulcrum.png",
+      "imageName": "sepulcrum-3b8f358552.png",
       "masteryReq": 14,
       "name": "Sepulcrum",
       "productCategory": "Pistols",
@@ -12385,7 +12385,7 @@ module.exports = {
     {
       "bpCost": 15000,
       "description": "Developed as an energy saw to scrap obsolete ships, this tool was quickly banned when rebels in the Sedna region discovered it also made an excellent weapon.",
-      "imageName": "serro.png",
+      "imageName": "serro-4c2604b68a.png",
       "masteryReq": 6,
       "name": "Serro",
       "productCategory": "Melee",
@@ -12413,7 +12413,7 @@ module.exports = {
       "exalted": [
         "/Lotus/Powersuits/Wraith/ReaperMeleeWeapon"
       ],
-      "imageName": "sevagoth.png",
+      "imageName": "sevagoth-9264d64897.png",
       "masteryReq": 0,
       "name": "Sevagoth",
       "productCategory": "Suits",
@@ -12434,7 +12434,7 @@ module.exports = {
       "exalted": [
         "/Lotus/Powersuits/Wraith/SevagothShadowPrimeClawsWeapon"
       ],
-      "imageName": "sevagoth-prime.png",
+      "imageName": "sevagoth-prime-5f34bf2dba.png",
       "masteryReq": 0,
       "name": "Sevagoth Prime",
       "productCategory": "Suits",
@@ -12452,7 +12452,7 @@ module.exports = {
     },
     {
       "description": "With 'Revenge' and 'Ghost' as default Precepts, Shade is well suited for stealth gameplay. Shade also comes with a burst laser pistol.",
-      "imageName": "shade.png",
+      "imageName": "shade-fae1390837.png",
       "name": "Shade",
       "productCategory": "Sentinels",
       "tradable": false,
@@ -12468,7 +12468,7 @@ module.exports = {
     },
     {
       "description": "Shade Prime specializes in stealth and comes locked and loaded with the Burst Laser Prime. Together, you can dominate the shadows.",
-      "imageName": "shade-prime.png",
+      "imageName": "shade-prime-53572a63b2.png",
       "name": "Shade Prime",
       "productCategory": "Sentinels",
       "tradable": true,
@@ -12485,7 +12485,7 @@ module.exports = {
     {
       "bpCost": 15000,
       "description": "With these blazing fast nunchaku, the enemy will never know what hit them.",
-      "imageName": "shaku.png",
+      "imageName": "shaku-dda85463f5.png",
       "masteryReq": 10,
       "name": "Shaku",
       "productCategory": "Melee",
@@ -12511,7 +12511,7 @@ module.exports = {
     {
       "category": "Rifle",
       "description": "This arm-cannon, ripped from a Sentient, rapid-fires thermal pulses that explode in an electrical blast. Features an ammo-less quick charge capacitor, that emits a knock-back pulse and strips Sentient damage resistances when fully discharged.",
-      "imageName": "shedu.png",
+      "imageName": "shedu-d2d1c0c38d.png",
       "masteryReq": 13,
       "name": "Shedu",
       "productCategory": "LongGuns",
@@ -12535,7 +12535,7 @@ module.exports = {
     },
     {
       "description": "Built for close combat, the Sheev's plasma blade slices through flesh and armor with equal ease.",
-      "imageName": "sheev.png",
+      "imageName": "sheev-3606abced4.png",
       "masteryReq": 5,
       "name": "Sheev",
       "productCategory": "Melee",
@@ -12560,7 +12560,7 @@ module.exports = {
     },
     {
       "description": "",
-      "imageName": "shwaak-prism.png",
+      "imageName": "shwaak-prism-d287f0e45f.png",
       "masteryReq": 0,
       "name": "Shwaak Prism",
       "productCategory": "Pistols",
@@ -12579,7 +12579,7 @@ module.exports = {
     {
       "bpCost": 15000,
       "description": "Ice in motion can crush mountains, this frozen hammer is no different.",
-      "imageName": "sibear.png",
+      "imageName": "sibear-395d9a6418.png",
       "masteryReq": 6,
       "name": "Sibear",
       "productCategory": "Melee",
@@ -12605,7 +12605,7 @@ module.exports = {
     {
       "category": "Pistol",
       "description": "The Sicarus fires 3-round bursts, which provides a balance between the lethality of auto-pistols and the accuracy of semi-automatic pistols.",
-      "imageName": "sicarus.png",
+      "imageName": "sicarus-fc588c27f8.png",
       "masteryReq": 3,
       "name": "Sicarus",
       "productCategory": "Pistols",
@@ -12625,7 +12625,7 @@ module.exports = {
     {
       "category": "Pistol",
       "description": "The Sicarus Prime is an ornamental firearm that fires rounds in rapid bursts, providing a balance between the lethality of auto-pistols and the accuracy of semi-automatic pistols.",
-      "imageName": "sicarus-prime.png",
+      "imageName": "sicarus-prime-1447e9c80e.png",
       "masteryReq": 14,
       "name": "Sicarus Prime",
       "productCategory": "Pistols",
@@ -12650,7 +12650,7 @@ module.exports = {
     },
     {
       "description": "Deadly slashes from the Sigma sword are matched only by the force of the Octantis shield when thrown from the air.",
-      "imageName": "sigma-&-octantis.png",
+      "imageName": "sigma-&-octantis-d0799061fb.png",
       "masteryReq": 10,
       "name": "Sigma & Octantis",
       "productCategory": "Melee",
@@ -12676,7 +12676,7 @@ module.exports = {
     {
       "bpCost": 15000,
       "description": "This fiery sword and shield combination perfects the balance of Tenno offense and defense prowess. In the hands of a Master, even a defensive tool like a shield can be used as a weapon.",
-      "imageName": "silva-&-aegis.png",
+      "imageName": "silva-&-aegis-fefad3c272.png",
       "masteryReq": 0,
       "name": "Silva & Aegis",
       "productCategory": "Melee",
@@ -12694,7 +12694,7 @@ module.exports = {
     },
     {
       "description": "A perfectly crafted pairing, this mace and shield combination is sculpted for exhibition but balanced for the battlefield.",
-      "imageName": "silva-&-aegis-prime.png",
+      "imageName": "silva-&-aegis-prime-9a734db766.png",
       "masteryReq": 12,
       "name": "Silva & Aegis Prime",
       "productCategory": "Melee",
@@ -12721,7 +12721,7 @@ module.exports = {
     {
       "category": "Rifle",
       "description": "Creates miniature gravitational singularities that can be used for scientific study or self-defense.",
-      "imageName": "simulor.png",
+      "imageName": "simulor-b5d00441df.png",
       "masteryReq": 5,
       "name": "Simulor",
       "productCategory": "LongGuns",
@@ -12740,7 +12740,7 @@ module.exports = {
     },
     {
       "description": "A silent, pistol-style Amp for the Drifter. Generates its own ammunition from Void energy. A precisely timed reload over-charges the next shot.",
-      "imageName": "sirocco.png",
+      "imageName": "sirocco-5e978fb468.png",
       "masteryReq": 0,
       "name": "Sirocco",
       "productCategory": "OperatorAmps",
@@ -12760,7 +12760,7 @@ module.exports = {
     {
       "bpCost": 15000,
       "description": "Before all other weapons, Tenno master the Skana. This simple blade becomes immensely powerful in the hands of a master. For Tenno, it is the foundation of their fighting style and a pillar of their culture.",
-      "imageName": "skana.png",
+      "imageName": "skana-ea97e089d8.png",
       "masteryReq": 0,
       "name": "Skana",
       "productCategory": "Melee",
@@ -12778,7 +12778,7 @@ module.exports = {
     },
     {
       "description": "Forged of steel grafted from Umbra's flesh, this elegant Nikana unites with its Warframe to form a single being of seething purpose.",
-      "imageName": "skiajati.png",
+      "imageName": "skiajati-c2a66032fe.png",
       "masteryReq": 11,
       "name": "Skiajati",
       "productCategory": "Melee",
@@ -12804,7 +12804,7 @@ module.exports = {
     },
     {
       "description": "The Slaytra is a powerful reiteration of the traditional Grineer Machete that doubles the duration of <DT_SLASH_COLOR>Slash Status Effects.",
-      "imageName": "slaytra.png",
+      "imageName": "slaytra-10d5c4cc28.png",
       "masteryReq": 13,
       "name": "Slaytra",
       "productCategory": "Melee",
@@ -12823,7 +12823,7 @@ module.exports = {
     {
       "category": "Kavat",
       "description": "Fast and foxy, Vulpaphyla are agile allies to bring along on your next adventure.",
-      "imageName": "sly-vulpaphyla.png",
+      "imageName": "sly-vulpaphyla-4cda8d7962.png",
       "name": "Sly Vulpaphyla",
       "productCategory": "KubrowPets",
       "tradable": false,
@@ -12840,7 +12840,7 @@ module.exports = {
     {
       "category": "Kavat",
       "description": "This sly feline is playful yet devious.",
-      "imageName": "smeeta-kavat.png",
+      "imageName": "smeeta-kavat-221e85b8af.png",
       "name": "Smeeta Kavat",
       "productCategory": "KubrowPets",
       "tradable": false,
@@ -12857,7 +12857,7 @@ module.exports = {
     {
       "category": "Rifle",
       "description": "Manufactured by the Corpus, the Snipetron is a powerful and accurate rifle that sports optical zoom capabilities. Perfect for long range engagements.",
-      "imageName": "snipetron.png",
+      "imageName": "snipetron-0f587c4490.png",
       "masteryReq": 0,
       "name": "Snipetron",
       "productCategory": "LongGuns",
@@ -12877,7 +12877,7 @@ module.exports = {
     {
       "category": "Rifle",
       "description": "A customized version of the elusive Snipetron, with metallic finish and Lotus decal.",
-      "imageName": "snipetron-vandal.png",
+      "imageName": "snipetron-vandal-883d7276fb.png",
       "masteryReq": 5,
       "name": "Snipetron Vandal",
       "productCategory": "LongGuns",
@@ -12903,7 +12903,7 @@ module.exports = {
       "bpCost": 25000,
       "category": "Shotgun",
       "description": "Sobek is a rapid-firing Grineer shotgun that has reduced damage per shot but boasts extra large magazine capacity.",
-      "imageName": "sobek.png",
+      "imageName": "sobek-61244846cd.png",
       "masteryReq": 7,
       "name": "Sobek",
       "productCategory": "LongGuns",
@@ -12929,7 +12929,7 @@ module.exports = {
       "bpCost": 50000,
       "category": "Rifle",
       "description": "Accuracy coupled with a massive magazine makes the Soma assault rifle a formidable weapon.",
-      "imageName": "soma.png",
+      "imageName": "soma-71f2434a0a.png",
       "masteryReq": 6,
       "name": "Soma",
       "productCategory": "LongGuns",
@@ -12949,7 +12949,7 @@ module.exports = {
     {
       "category": "Rifle",
       "description": "Known for taking down whole squads with its single massive magazine, few weapons were as feared as the Prime Soma.",
-      "imageName": "soma-prime.png",
+      "imageName": "soma-prime-16e75e3a35.png",
       "masteryReq": 7,
       "name": "Soma Prime",
       "productCategory": "LongGuns",
@@ -12976,7 +12976,7 @@ module.exports = {
       "bpCost": 20000,
       "category": "Pistol",
       "description": "Blasts targets with a massive wave of sonic energy. Results reported to be: 'Very Satisfying'.",
-      "imageName": "sonicor.png",
+      "imageName": "sonicor-9245ce743a.png",
       "masteryReq": 2,
       "name": "Sonicor",
       "productCategory": "Pistols",
@@ -13002,7 +13002,7 @@ module.exports = {
       "bpCost": 15000,
       "category": "Pistol",
       "description": "While its intended design is for deep space construction, the concentrated laser beam of the Spectra is highly effective against organic and synthetic enemies.",
-      "imageName": "spectra.png",
+      "imageName": "spectra-d7a9a2ad92.png",
       "masteryReq": 4,
       "name": "Spectra",
       "productCategory": "Pistols",
@@ -13022,7 +13022,7 @@ module.exports = {
     {
       "category": "Pistol",
       "description": "A special-order Corpus cutting tool for master crafters only. Features distinctive azurite plating and a focusing crystal of precision clarity and cut.",
-      "imageName": "spectra-vandal.png",
+      "imageName": "spectra-vandal-8e11a25192.png",
       "masteryReq": 10,
       "name": "Spectra Vandal",
       "productCategory": "Pistols",
@@ -13048,7 +13048,7 @@ module.exports = {
       "bpCost": 20000,
       "category": "Throwing",
       "description": "A flash of red ribbon is the last thing most victims of these throwing-daggers see.",
-      "imageName": "spira.png",
+      "imageName": "spira-35f294fde6.png",
       "masteryReq": 8,
       "name": "Spira",
       "productCategory": "Pistols",
@@ -13068,7 +13068,7 @@ module.exports = {
     {
       "category": "Throwing",
       "description": "These rare, braided throwing daggers were a favorite tool of high ranking Orokin assassins.",
-      "imageName": "spira-prime.png",
+      "imageName": "spira-prime-6c77a3d5b4.png",
       "masteryReq": 10,
       "name": "Spira Prime",
       "productCategory": "Pistols",
@@ -13094,7 +13094,7 @@ module.exports = {
     {
       "category": "Kitgun",
       "description": "",
-      "imageName": "sporelacer.png",
+      "imageName": "sporelacer-eafe1b61a5.png",
       "masteryReq": 0,
       "name": "Sporelacer",
       "primeOmegaAttenuation": 1.1,
@@ -13113,7 +13113,7 @@ module.exports = {
     {
       "category": "Rifle",
       "description": "This long-distance rifle fires a razor-sharp, virus-soaked barb that continues to attack its host before violently erupting in a spore-laden mist. Scoped headshots increase lethality.",
-      "imageName": "sporothrix.png",
+      "imageName": "sporothrix-b7ac62464a.png",
       "masteryReq": 13,
       "name": "Sporothrix",
       "productCategory": "LongGuns",
@@ -13138,7 +13138,7 @@ module.exports = {
     {
       "category": "Rifle",
       "description": "Nail them to the wall! The Stahlta automatic rifle propels hardened steel rods at high speed, while a charged fire mode fuses a number of volatile rods together for a large radioactive explosion.",
-      "imageName": "stahlta.png",
+      "imageName": "stahlta-c12c06b094.png",
       "masteryReq": 10,
       "name": "Stahlta",
       "productCategory": "LongGuns",
@@ -13164,7 +13164,7 @@ module.exports = {
       "bpCost": 50000,
       "category": "Pistol",
       "description": "Send a massive charge of potential energy hurling toward unfortunate targets.",
-      "imageName": "staticor.png",
+      "imageName": "staticor-2a2222aa2e.png",
       "masteryReq": 10,
       "name": "Staticor",
       "productCategory": "Pistols",
@@ -13189,7 +13189,7 @@ module.exports = {
     {
       "category": "Shotgun",
       "description": "An energy projectile bursts forth from the Steflos and grows as it rushes toward enemies. The projectile's duration increases when it hits an enemy. When Citrine fires the Steflos, its projectile speed increases.",
-      "imageName": "steflos.png",
+      "imageName": "steflos-2444088d3f.png",
       "masteryReq": 8,
       "name": "Steflos",
       "productCategory": "LongGuns",
@@ -13209,7 +13209,7 @@ module.exports = {
     {
       "category": "Companion Weapon",
       "description": "Standard issue weapon for Djinn Sentinel. Fires <DT_POISON_COLOR>Toxin projectiles that embed into enemies and continuously deal damage for 3 seconds.",
-      "imageName": "stinger.png",
+      "imageName": "stinger-ee12cc66f0.png",
       "masteryReq": 0,
       "name": "Stinger",
       "productCategory": "SentinelWeapons",
@@ -13230,7 +13230,7 @@ module.exports = {
       "bpCost": 20000,
       "category": "Rifle",
       "description": "A high-capacity, high-damage enforcer, this weapon can switch between the high crit semi-automatic and full automatic firing modes.",
-      "imageName": "stradavar.png",
+      "imageName": "stradavar-0ff7688b1f.png",
       "masteryReq": 8,
       "name": "Stradavar",
       "productCategory": "LongGuns",
@@ -13250,7 +13250,7 @@ module.exports = {
     {
       "category": "Rifle",
       "description": "Between measured staccato and staggering crescendo, Stradavar Prime never fails to call down a devastating finale.",
-      "imageName": "stradavar-prime.png",
+      "imageName": "stradavar-prime-150ba6fb80.png",
       "masteryReq": 12,
       "name": "Stradavar Prime",
       "productCategory": "LongGuns",
@@ -13275,7 +13275,7 @@ module.exports = {
     },
     {
       "description": "A short-blade melee weapon with an ace up its sleeve. Send nearby enemies flying with a powerful short-range shockwave.",
-      "imageName": "stropha.png",
+      "imageName": "stropha-7e14214568.png",
       "masteryReq": 10,
       "name": "Stropha",
       "productCategory": "Melee",
@@ -13301,7 +13301,7 @@ module.exports = {
     {
       "category": "Shotgun",
       "description": "The Strun is a standard shotgun. Reliable, versatile and deadly.",
-      "imageName": "strun.png",
+      "imageName": "strun-12937e9e52.png",
       "masteryReq": 1,
       "name": "Strun",
       "productCategory": "LongGuns",
@@ -13321,7 +13321,7 @@ module.exports = {
     {
       "category": "Shotgun",
       "description": "A classic shotgun design, embellished for the elite as only the Orokin could.",
-      "imageName": "strun-prime.png",
+      "imageName": "strun-prime-32870cfe57.png",
       "masteryReq": 14,
       "name": "Strun Prime",
       "productCategory": "LongGuns",
@@ -13347,7 +13347,7 @@ module.exports = {
     {
       "category": "Shotgun",
       "description": "A different take on a familiar shotgun, the Strun Wraith features unique styling.",
-      "imageName": "strun-wraith.png",
+      "imageName": "strun-wraith-1ec54edc8d.png",
       "masteryReq": 10,
       "name": "Strun Wraith",
       "productCategory": "LongGuns",
@@ -13372,7 +13372,7 @@ module.exports = {
     {
       "category": "Pistol",
       "description": "Inflict rapid-fire bursts of pain with this Grineer submachine gun.",
-      "imageName": "stubba.png",
+      "imageName": "stubba-0d74e5294f.png",
       "masteryReq": 7,
       "name": "Stubba",
       "productCategory": "Pistols",
@@ -13398,7 +13398,7 @@ module.exports = {
       "bpCost": 20000,
       "category": "Pistol",
       "description": "Firing a sticky, toxic, explosive compound, the Stug Gel Gun offers multiple ejection modes, delivering maximum damage in all situations.",
-      "imageName": "stug.png",
+      "imageName": "stug-aae9c4cb46.png",
       "masteryReq": 2,
       "name": "Stug",
       "productCategory": "Pistols",
@@ -13422,7 +13422,7 @@ module.exports = {
     },
     {
       "description": "Styanax never wonders how many enemies he will face, only where he can find them. The hoplite deals high damage. Enemies tremble before his spear and shield.",
-      "imageName": "styanax.png",
+      "imageName": "styanax-09419fb39f.png",
       "masteryReq": 0,
       "name": "Styanax",
       "productCategory": "Suits",
@@ -13440,7 +13440,7 @@ module.exports = {
     },
     {
       "description": "Teshin's twin blades.",
-      "imageName": "sun-&-moon.png",
+      "imageName": "sun-&-moon-c729935257.png",
       "masteryReq": 0,
       "name": "Sun & Moon",
       "productCategory": "Melee",
@@ -13459,7 +13459,7 @@ module.exports = {
     {
       "category": "Kubrow",
       "description": "Bred by the Orokin for combat. This martial beast lives to create chaos and bring down the most fierce opponents.",
-      "imageName": "sunika-kubrow.png",
+      "imageName": "sunika-kubrow-5047769a99.png",
       "name": "Sunika Kubrow",
       "productCategory": "KubrowPets",
       "tradable": false,
@@ -13477,7 +13477,7 @@ module.exports = {
       "bpCost": 15000,
       "category": "Rifle",
       "description": "The SUPRA is a heavy laser gun with a short wind up time.",
-      "imageName": "supra.png",
+      "imageName": "supra-02cc80bc5b.png",
       "masteryReq": 12,
       "name": "Supra",
       "productCategory": "LongGuns",
@@ -13497,7 +13497,7 @@ module.exports = {
     {
       "category": "Rifle",
       "description": "A customized version of the powerful Supra, featuring a metallic finish and Lotus decal.",
-      "imageName": "supra-vandal.png",
+      "imageName": "supra-vandal-a1297d8609.png",
       "masteryReq": 14,
       "name": "Supra Vandal",
       "productCategory": "LongGuns",
@@ -13522,7 +13522,7 @@ module.exports = {
     {
       "category": "Companion Weapon",
       "description": "Standard issue weapon for Carrier Sentinel. Fires shotgun rounds.",
-      "imageName": "sweeper.png",
+      "imageName": "sweeper-fccd860cbb.png",
       "masteryReq": 0,
       "name": "Sweeper",
       "productCategory": "SentinelWeapons",
@@ -13542,7 +13542,7 @@ module.exports = {
     {
       "category": "Companion Weapon",
       "description": "Standard issue weapon for Carrier Prime Sentinel. Fires shotgun rounds.",
-      "imageName": "sweeper-prime.png",
+      "imageName": "sweeper-prime-0456686709.png",
       "masteryReq": 0,
       "name": "Sweeper Prime",
       "productCategory": "SentinelWeapons",
@@ -13562,7 +13562,7 @@ module.exports = {
     },
     {
       "description": "Syam is at home in the hands of a focused warrior. Its Heavy Attacks send forth shockwaves.",
-      "imageName": "syam.png",
+      "imageName": "syam-d7ba378dae.png",
       "masteryReq": 0,
       "name": "Syam",
       "productCategory": "Melee",
@@ -13582,7 +13582,7 @@ module.exports = {
       "bpCost": 15000,
       "category": "Rifle",
       "description": "This Tenno crafted, lever action rifle, is equal parts elegance and executioner.",
-      "imageName": "sybaris.png",
+      "imageName": "sybaris-af73df59a0.png",
       "masteryReq": 5,
       "name": "Sybaris",
       "productCategory": "LongGuns",
@@ -13602,7 +13602,7 @@ module.exports = {
     {
       "category": "Rifle",
       "description": "Sleek and slender, a golden symbol of Tenno perfection.",
-      "imageName": "sybaris-prime.png",
+      "imageName": "sybaris-prime-42f220480d.png",
       "masteryReq": 12,
       "name": "Sybaris Prime",
       "productCategory": "LongGuns",
@@ -13628,7 +13628,7 @@ module.exports = {
     {
       "bpCost": 15000,
       "description": "Inflict maximum devastation with this massive Grineer trident.",
-      "imageName": "sydon.png",
+      "imageName": "sydon-c0df9213ea.png",
       "masteryReq": 5,
       "name": "Sydon",
       "productCategory": "Melee",
@@ -13648,7 +13648,7 @@ module.exports = {
       "bpCost": 50000,
       "category": "Rifle",
       "description": "Powered by a bio-chemical reaction, the Infested Synapse rifle fries its targets with a steady stream of <DT_CORROSIVE_COLOR>Corrosive energy.",
-      "imageName": "synapse.png",
+      "imageName": "synapse-83cde9ed76.png",
       "masteryReq": 11,
       "name": "Synapse",
       "productCategory": "LongGuns",
@@ -13673,7 +13673,7 @@ module.exports = {
     {
       "category": "Pistol",
       "description": "Deployed by the Cephalon Suda, once a data-analyzing instrument the Gammacor main focus is defense.",
-      "imageName": "synoid-gammacor.png",
+      "imageName": "synoid-gammacor-02823b6001.png",
       "masteryReq": 7,
       "name": "Synoid Gammacor",
       "productCategory": "Pistols",
@@ -13697,7 +13697,7 @@ module.exports = {
     },
     {
       "description": "This intelligent hammer takes an enemy killed by a Heavy Attack and recomposes them as an ally. Any fatal strike with this weapon also performs a Codex scan.",
-      "imageName": "synoid-heliocor.png",
+      "imageName": "synoid-heliocor-647b470e3d.png",
       "masteryReq": 11,
       "name": "Synoid Heliocor",
       "productCategory": "Melee",
@@ -13723,7 +13723,7 @@ module.exports = {
     {
       "category": "Rifle",
       "description": "Cephalon Suda’s custom issue Simulor was built to satisfy her curiosity.",
-      "imageName": "synoid-simulor.png",
+      "imageName": "synoid-simulor-16a8baa8b0.png",
       "masteryReq": 12,
       "name": "Synoid Simulor",
       "productCategory": "LongGuns",
@@ -13749,7 +13749,7 @@ module.exports = {
       "bpCost": 15000,
       "category": "Throwing",
       "description": "The claws of these tactical bombs dig into the target and detonate on command.",
-      "imageName": "talons.png",
+      "imageName": "talons-25982555f3.png",
       "masteryReq": 8,
       "name": "Talons",
       "productCategory": "Pistols",
@@ -13774,7 +13774,7 @@ module.exports = {
     {
       "bpCost": 20000,
       "description": "Fearsome and noble, the elegant two-handed Nikana is the pride of any Arsenal. Kills build charges and seeking projectiles are unleashed with a Slide Attack to find and stun unwitting enemies. When Revenant wields this blade, Tatsu’s charge cap is increased.",
-      "imageName": "tatsu.png",
+      "imageName": "tatsu-7f0f58e9f0.png",
       "masteryReq": 7,
       "name": "Tatsu",
       "productCategory": "Melee",
@@ -13799,7 +13799,7 @@ module.exports = {
     },
     {
       "description": "Tatsu Prime glows with spectral splendor. It grows more powerful with each enemy’s demise, especially when wielded by Revenant.",
-      "imageName": "tatsu-prime.png",
+      "imageName": "tatsu-prime-3b2ad97000.png",
       "masteryReq": 14,
       "name": "Tatsu Prime",
       "productCategory": "Melee",
@@ -13818,7 +13818,7 @@ module.exports = {
     },
     {
       "description": "With 'Assault Mode' and 'Molecular Conversion' as default Precepts, Taxon protects its owner with shield restoration. Equipped with the Artax ice-beam.",
-      "imageName": "taxon.png",
+      "imageName": "taxon-99ef68d98a.png",
       "name": "Taxon",
       "productCategory": "Sentinels",
       "tradable": false,
@@ -13835,7 +13835,7 @@ module.exports = {
     {
       "category": "Companion Weapon",
       "description": "Releases a burst of static electricity that can jump between foes, incapacitating them.",
-      "imageName": "tazicor.png",
+      "imageName": "tazicor-07ebe56d23.png",
       "masteryReq": 3,
       "name": "Tazicor",
       "productCategory": "SentinelWeapons",
@@ -13855,7 +13855,7 @@ module.exports = {
     {
       "bpCost": 25000,
       "description": "These iron fists that rip through foes are Atlas' signature weapons. When wielded by Atlas they receive a Status Chance increase.",
-      "imageName": "tekko.png",
+      "imageName": "tekko-2ceed95a9f.png",
       "masteryReq": 6,
       "name": "Tekko",
       "productCategory": "Melee",
@@ -13873,7 +13873,7 @@ module.exports = {
     },
     {
       "description": "As merciless and indestructible as Atlas Prime himself, Tekko Prime crush and split with tectonic force.",
-      "imageName": "tekko-prime.png",
+      "imageName": "tekko-prime-9fbefbb1e5.png",
       "masteryReq": 12,
       "name": "Tekko Prime",
       "productCategory": "Melee",
@@ -13900,7 +13900,7 @@ module.exports = {
     {
       "category": "Pistol",
       "description": "For the Arbiters of Hexis these pistols are more than simple weapons, they are symbols of truth and discipline.",
-      "imageName": "telos-akbolto.png",
+      "imageName": "telos-akbolto-ef8aa48303.png",
       "masteryReq": 11,
       "name": "Telos Akbolto",
       "productCategory": "Pistols",
@@ -13919,7 +13919,7 @@ module.exports = {
     },
     {
       "description": "Spinning attacks unleash the Stormpath, a tempest of mayhem that hurls any foes in its way.",
-      "imageName": "telos-boltace.png",
+      "imageName": "telos-boltace-61b5d71708.png",
       "masteryReq": 11,
       "name": "Telos Boltace",
       "productCategory": "Melee",
@@ -13945,7 +13945,7 @@ module.exports = {
     {
       "category": "Rifle",
       "description": "Bring down judgement, with this boltor crafted by the Arbiters of Hexis.",
-      "imageName": "telos-boltor.png",
+      "imageName": "telos-boltor-111b9c4941.png",
       "masteryReq": 12,
       "name": "Telos Boltor",
       "productCategory": "LongGuns",
@@ -13969,7 +13969,7 @@ module.exports = {
     },
     {
       "description": "Drive the agenda with this massive impact hammer. Heavy attacks launch devastating energy disks.",
-      "imageName": "tenet-agendus.png",
+      "imageName": "tenet-agendus-cb4920171a.png",
       "masteryReq": 14,
       "maxLevelCap": 40,
       "name": "Tenet Agendus",
@@ -13989,7 +13989,7 @@ module.exports = {
     {
       "category": "Rifle",
       "description": "Custom variant of a Corpus classic. Staggering blasts now ricochet and have greater range at the cost of a slower fire and reload speed. Surviving enemies are consumed with radiation.",
-      "imageName": "tenet-arca-plasmor.png",
+      "imageName": "tenet-arca-plasmor-711b009551.png",
       "masteryReq": 16,
       "maxLevelCap": 40,
       "name": "Tenet Arca Plasmor",
@@ -14015,7 +14015,7 @@ module.exports = {
     {
       "category": "Pistol",
       "description": "This reengineered Cycron features a refracting energy disc that can split off the main target, hitting up to 2 additional nearby targets.",
-      "imageName": "tenet-cycron.png",
+      "imageName": "tenet-cycron-2d3f1b3281.png",
       "masteryReq": 14,
       "maxLevelCap": 40,
       "name": "Tenet Cycron",
@@ -14036,7 +14036,7 @@ module.exports = {
     {
       "category": "Pistol",
       "description": "Parvos Granum's engineers have made this already ferocious hand cannon even more deadly with the addition of an alternate fire mode that empties an entire clip in one devastating burst.",
-      "imageName": "tenet-detron.png",
+      "imageName": "tenet-detron-b4d3acd4e1.png",
       "masteryReq": 16,
       "maxLevelCap": 40,
       "name": "Tenet Detron",
@@ -14057,7 +14057,7 @@ module.exports = {
     {
       "category": "Pistol",
       "description": "Itemize and execute with this pair of auto-lock-on, homing-projectile pistols. Shoot from-hip for a more conventional pistol experience. The patented Granum Attaché System reloads the pistols when holstered.",
-      "imageName": "tenet-diplos.png",
+      "imageName": "tenet-diplos-48514b24c4.png",
       "masteryReq": 16,
       "maxLevelCap": 40,
       "name": "Tenet Diplos",
@@ -14078,7 +14078,7 @@ module.exports = {
     {
       "category": "Rocket Launcher",
       "description": "This discreet rocket launcher is equally at home in a board meeting or on a casual outing. Aimed rockets are wire-guided for greater accuracy, but travel more slowly. The patented Granum Attaché System reloads the weapon when holstered.",
-      "imageName": "tenet-envoy.png",
+      "imageName": "tenet-envoy-ac79f3d3e2.png",
       "masteryReq": 16,
       "maxLevelCap": 40,
       "name": "Tenet Envoy",
@@ -14103,7 +14103,7 @@ module.exports = {
     },
     {
       "description": "Leverage bleeding-edge Granum tech with this massive heavy blade. Slam sends forth a cascading set of three shockwaves, while Heavy Slam unleashes a swath of shockwaves.",
-      "imageName": "tenet-exec.png",
+      "imageName": "tenet-exec-e8fac523ed.png",
       "masteryReq": 16,
       "maxLevelCap": 40,
       "name": "Tenet Exec",
@@ -14123,7 +14123,7 @@ module.exports = {
     {
       "category": "Rifle",
       "description": "The expert engineers in Parvos Granum’s division have optimized the Ferrox’s lethal power.",
-      "imageName": "tenet-ferrox.png",
+      "imageName": "tenet-ferrox-011ccea0e2.png",
       "masteryReq": 16,
       "maxLevelCap": 40,
       "name": "Tenet Ferrox",
@@ -14144,7 +14144,7 @@ module.exports = {
     {
       "category": "Rifle",
       "description": "Sister-modified Flux Rifle with increased fire rate and range. Recharge has been replaced with ammo clips to accommodate greater power needs.",
-      "imageName": "tenet-flux-rifle.png",
+      "imageName": "tenet-flux-rifle-0332ab5202.png",
       "masteryReq": 16,
       "maxLevelCap": 40,
       "name": "Tenet Flux Rifle",
@@ -14170,7 +14170,7 @@ module.exports = {
     {
       "category": "Rifle",
       "description": "Advances in microelectronics have improved a Corpus classic. Tenet Glaxion’s photon beam strikes up to four enemies at once. It also boasts superior Damage, Critical Chance, and Status Chance.",
-      "imageName": "tenet-glaxion.png",
+      "imageName": "tenet-glaxion-7236ec1e72.png",
       "masteryReq": 16,
       "maxLevelCap": 40,
       "name": "Tenet Glaxion",
@@ -14190,7 +14190,7 @@ module.exports = {
     },
     {
       "description": "On Heavy Slide Attack, this Corpus scythe launches a spinning energy disk that ricochets throughout the battlefield. Its lifetime is derived from the size of the Combo Counter. Note: The Granum Attaché system pauses the combo timer when holstered.",
-      "imageName": "tenet-grigori.png",
+      "imageName": "tenet-grigori-651d8ef65d.png",
       "masteryReq": 14,
       "maxLevelCap": 40,
       "name": "Tenet Grigori",
@@ -14209,7 +14209,7 @@ module.exports = {
     },
     {
       "description": "The sleek lines of the Granum Attaché case conceal an infinitely sharp two-handed blade. Blocked attacks have a chance to increase the blocking angle. Note: The Granum Attaché system pauses the combo timer when holstered.",
-      "imageName": "tenet-livia.png",
+      "imageName": "tenet-livia-fe7274bd29.png",
       "masteryReq": 14,
       "maxLevelCap": 40,
       "name": "Tenet Livia",
@@ -14229,7 +14229,7 @@ module.exports = {
     {
       "category": "Pistol",
       "description": "Alternate fire on this reengineered Plinx fires a projectile that pulls enemies close and then explodes. Its cooldown increases after the explosion to accommodate battery power demands.",
-      "imageName": "tenet-plinx.png",
+      "imageName": "tenet-plinx-6a1f29a3a6.png",
       "masteryReq": 6,
       "maxLevelCap": 40,
       "name": "Tenet Plinx",
@@ -14250,7 +14250,7 @@ module.exports = {
     {
       "category": "Pistol",
       "description": "Dominate rivals with this pistol’s lightning fast rail-slugs. Head-shots speed up reload.",
-      "imageName": "tenet-spirex.png",
+      "imageName": "tenet-spirex-ac682cb56e.png",
       "masteryReq": 14,
       "maxLevelCap": 40,
       "name": "Tenet Spirex",
@@ -14271,7 +14271,7 @@ module.exports = {
     {
       "category": "Rifle",
       "description": "Parvosian upgrade of the classic Tetra. Slower fire rate but with a larger magazine. Can now alt-fire entire clip as a large burst radius grenade launcher.",
-      "imageName": "tenet-tetra.png",
+      "imageName": "tenet-tetra-2659bb14a6.png",
       "masteryReq": 16,
       "maxLevelCap": 40,
       "name": "Tenet Tetra",
@@ -14298,7 +14298,7 @@ module.exports = {
       "bpCost": 15000,
       "category": "Rifle",
       "description": "Unload percussive machine gun fire, or strike a heavy chord with a single charge shot. When Octavia wields her signature rifle alt-fire Headshot Kills have a chance to instantly refill the magazine.",
-      "imageName": "tenora.png",
+      "imageName": "tenora-0980845df3.png",
       "masteryReq": 10,
       "name": "Tenora",
       "productCategory": "LongGuns",
@@ -14318,7 +14318,7 @@ module.exports = {
     {
       "category": "Rifle",
       "description": "Add lethal staccato percussion to Octavia's melodies with this masterpiece assault rifle.",
-      "imageName": "tenora-prime.png",
+      "imageName": "tenora-prime-88bf75873a.png",
       "masteryReq": 14,
       "name": "Tenora Prime",
       "productCategory": "LongGuns",
@@ -14345,7 +14345,7 @@ module.exports = {
       "bpCost": 30000,
       "category": "Rifle",
       "description": "Drawing from its huge quad-chambered magazine, the Tetra is capable of unleashing a sustained barrage of lethal energy bolts.",
-      "imageName": "tetra.png",
+      "imageName": "tetra-551b2b3792.png",
       "masteryReq": 3,
       "name": "Tetra",
       "productCategory": "LongGuns",
@@ -14366,7 +14366,7 @@ module.exports = {
       "bpCost": 20000,
       "category": "Rifle",
       "description": "Forged by a master gunsmith, this Tenno burst rifle will strike down targets with swift precision.",
-      "imageName": "tiberon.png",
+      "imageName": "tiberon-9bea2c1863.png",
       "masteryReq": 10,
       "name": "Tiberon",
       "productCategory": "LongGuns",
@@ -14386,7 +14386,7 @@ module.exports = {
     {
       "category": "Rifle",
       "description": "Art meets ingenuity with this beautifully deadly rifle.",
-      "imageName": "tiberon-prime.png",
+      "imageName": "tiberon-prime-5da4edf098.png",
       "masteryReq": 14,
       "name": "Tiberon Prime",
       "productCategory": "LongGuns",
@@ -14413,7 +14413,7 @@ module.exports = {
       "bpCost": 40000,
       "category": "Shotgun",
       "description": "The double-barreled Tigris shotgun fires two bursts in rapid succession, easily taking down the toughest prey.",
-      "imageName": "tigris.png",
+      "imageName": "tigris-1f7521bba5.png",
       "masteryReq": 7,
       "name": "Tigris",
       "productCategory": "LongGuns",
@@ -14433,7 +14433,7 @@ module.exports = {
     {
       "category": "Rifle",
       "description": "An artifact of exquisite beauty. A weapon of deadly purpose.",
-      "imageName": "tigris-prime.png",
+      "imageName": "tigris-prime-7f61d1abde.png",
       "masteryReq": 13,
       "name": "Tigris Prime",
       "productCategory": "LongGuns",
@@ -14459,7 +14459,7 @@ module.exports = {
     {
       "bpCost": 20000,
       "description": "With its crescent shaped blades flying in sweeping arcs and striking at tremendous speed, the Tipedo demands focus from those wishing to unlock its true power.",
-      "imageName": "tipedo.png",
+      "imageName": "tipedo-939711dac4.png",
       "masteryReq": 3,
       "name": "Tipedo",
       "productCategory": "Melee",
@@ -14477,7 +14477,7 @@ module.exports = {
     },
     {
       "description": "With their final breath they look to the moon, and are gone.",
-      "imageName": "tipedo-prime.png",
+      "imageName": "tipedo-prime-d092468d18.png",
       "masteryReq": 10,
       "name": "Tipedo Prime",
       "productCategory": "Melee",
@@ -14507,7 +14507,7 @@ module.exports = {
         "/Lotus/Powersuits/Fairy/FlightPistols",
         "/Lotus/Powersuits/Fairy/FlightSword"
       ],
-      "imageName": "titania.png",
+      "imageName": "titania-dd20b18d5b.png",
       "masteryReq": 0,
       "name": "Titania",
       "productCategory": "Suits",
@@ -14529,7 +14529,7 @@ module.exports = {
         "/Lotus/Powersuits/Fairy/PrimeFlightPistols",
         "/Lotus/Powersuits/Fairy/PrimeFlightSword"
       ],
-      "imageName": "titania-prime.png",
+      "imageName": "titania-prime-7a328a3d8a.png",
       "masteryReq": 0,
       "name": "Titania Prime",
       "productCategory": "Suits",
@@ -14549,7 +14549,7 @@ module.exports = {
     {
       "category": "Kitgun",
       "description": "",
-      "imageName": "tombfinger.png",
+      "imageName": "tombfinger-4a112b7ed8.png",
       "masteryReq": 0,
       "name": "Tombfinger",
       "primeOmegaAttenuation": 1,
@@ -14568,7 +14568,7 @@ module.exports = {
     {
       "bpCost": 15000,
       "description": "During the darkest days of the Old War many a Tenno relied solely on the Tonbo to keep them alive.",
-      "imageName": "tonbo.png",
+      "imageName": "tonbo-fabec5b429.png",
       "masteryReq": 3,
       "name": "Tonbo",
       "productCategory": "Melee",
@@ -14595,7 +14595,7 @@ module.exports = {
       "bpCost": 30000,
       "category": "Rifle",
       "description": "Hurl mayhem and destruction with this Grineer grenade launcher.",
-      "imageName": "tonkor.png",
+      "imageName": "tonkor-f6c37f3e23.png",
       "masteryReq": 5,
       "name": "Tonkor",
       "productCategory": "LongGuns",
@@ -14621,7 +14621,7 @@ module.exports = {
       "bpCost": 15000,
       "category": "Rifle",
       "description": "Torid lobs a toxic payload.",
-      "imageName": "torid.png",
+      "imageName": "torid-76f7af07f3.png",
       "masteryReq": 4,
       "name": "Torid",
       "productCategory": "LongGuns",
@@ -14646,7 +14646,7 @@ module.exports = {
     {
       "bpCost": 25000,
       "description": "Trinity embodies redemption and health. Her extraordinary healing powers support allies. Where others destroy, she restores.",
-      "imageName": "trinity.png",
+      "imageName": "trinity-b59556a37b.png",
       "masteryReq": 0,
       "name": "Trinity",
       "productCategory": "Suits",
@@ -14664,7 +14664,7 @@ module.exports = {
     },
     {
       "description": "Become the bastion that defends allies using powerful healing abilities with Trinity Prime. Featuring altered mod polarities for greater customization.",
-      "imageName": "trinity-prime.png",
+      "imageName": "trinity-prime-aa68b6373d.png",
       "masteryReq": 0,
       "name": "Trinity Prime",
       "productCategory": "Suits",
@@ -14684,7 +14684,7 @@ module.exports = {
     {
       "category": "Rifle",
       "description": "An ancient weapon designed by the Entrati. Primary fire siphons life essence from the target to fuel a devastating secondary fire. A heavy, oversized automatic rifle with withering fire that delivers rapid heat damage. Secondary fire unleashes an arcing projectile that ricochets off surfaces and enemies, exploding on every impact.",
-      "imageName": "trumna.png",
+      "imageName": "trumna-ed20f6dae6.png",
       "masteryReq": 13,
       "name": "Trumna",
       "productCategory": "LongGuns",
@@ -14709,7 +14709,7 @@ module.exports = {
     {
       "bpCost": 15000,
       "description": "These nasty, little hatchets slice through steel as if it were flesh.",
-      "imageName": "twin-basolk.png",
+      "imageName": "twin-basolk-f27c8536d2.png",
       "masteryReq": 7,
       "name": "Twin Basolk",
       "productCategory": "Melee",
@@ -14736,7 +14736,7 @@ module.exports = {
       "bpCost": 20000,
       "category": "Rifle",
       "description": "When one Grakata isn't enough, bring another for extra firepower.",
-      "imageName": "twin-grakatas.png",
+      "imageName": "twin-grakatas-a5e2f5596e.png",
       "masteryReq": 9,
       "name": "Twin Grakatas",
       "productCategory": "Pistols",
@@ -14761,7 +14761,7 @@ module.exports = {
     {
       "category": "Dual Pistols",
       "description": "Designed as a pair, these Grineer sidearms fire projectiles at a slower rate but with greater force and accuracy.",
-      "imageName": "twin-gremlins.png",
+      "imageName": "twin-gremlins-5cc8818865.png",
       "masteryReq": 5,
       "name": "Twin Gremlins",
       "productCategory": "Pistols",
@@ -14781,7 +14781,7 @@ module.exports = {
     {
       "category": "Pistol",
       "description": "Doubling their volley on each successive shot, the Twin Kohmaks decimate foes in seconds.",
-      "imageName": "twin-kohmak.png",
+      "imageName": "twin-kohmak-f66cb319da.png",
       "masteryReq": 10,
       "name": "Twin Kohmak",
       "productCategory": "Pistols",
@@ -14806,7 +14806,7 @@ module.exports = {
     {
       "bpCost": 15000,
       "description": "Battlefield butchery becomes all too easy with a Krohkur blade in each hand.",
-      "imageName": "twin-krohkur.png",
+      "imageName": "twin-krohkur-144b945fb3.png",
       "masteryReq": 10,
       "name": "Twin Krohkur",
       "productCategory": "Melee",
@@ -14833,7 +14833,7 @@ module.exports = {
       "bpCost": 30000,
       "category": "Pistol",
       "description": "These twin barrels of destruction are the signature pistols of the Kuva Guardians.",
-      "imageName": "twin-rogga.png",
+      "imageName": "twin-rogga-7847594c64.png",
       "masteryReq": 9,
       "name": "Twin Rogga",
       "productCategory": "Pistols",
@@ -14859,7 +14859,7 @@ module.exports = {
       "bpCost": 15000,
       "category": "Dual Pistols",
       "description": "A Viper equipped in each hand.",
-      "imageName": "twin-vipers.png",
+      "imageName": "twin-vipers-dfb6f5c5e8.png",
       "masteryReq": 5,
       "name": "Twin Vipers",
       "productCategory": "Pistols",
@@ -14879,7 +14879,7 @@ module.exports = {
     {
       "category": "Pistol",
       "description": "The uniquely styled Twin Vipers Wraith are a powerful variation on the standard akimbo machine-pistols.",
-      "imageName": "twin-vipers-wraith.png",
+      "imageName": "twin-vipers-wraith-1e92e7cf25.png",
       "masteryReq": 7,
       "name": "Twin Vipers Wraith",
       "productCategory": "Pistols",
@@ -14905,7 +14905,7 @@ module.exports = {
       "bpCost": 30000,
       "category": "Pistol",
       "description": "The Tysis pistol spits out caustic darts that corrode their victims from within.",
-      "imageName": "tysis.png",
+      "imageName": "tysis-43b9b7c74a.png",
       "masteryReq": 9,
       "name": "Tysis",
       "productCategory": "Pistols",
@@ -14933,7 +14933,7 @@ module.exports = {
       "exalted": [
         "/Lotus/Powersuits/Berserker/BerserkerMelee"
       ],
-      "imageName": "valkyr.png",
+      "imageName": "valkyr-c1f7e5d2ab.png",
       "masteryReq": 0,
       "name": "Valkyr",
       "productCategory": "Suits",
@@ -14954,7 +14954,7 @@ module.exports = {
       "exalted": [
         "/Lotus/Powersuits/Berserker/BerserkerMeleePrime"
       ],
-      "imageName": "valkyr-prime.png",
+      "imageName": "valkyr-prime-354cd87f77.png",
       "masteryReq": 0,
       "name": "Valkyr Prime",
       "productCategory": "Suits",
@@ -14974,7 +14974,7 @@ module.exports = {
     {
       "category": "Kavat",
       "description": "Now free of the Vasca virus, these Kavats can transfuse life to extend not only health own life but that of its master.",
-      "imageName": "vasca-kavat.png",
+      "imageName": "vasca-kavat-ea0afbf0ec.png",
       "name": "Vasca Kavat",
       "productCategory": "KubrowPets",
       "tradable": false,
@@ -14990,7 +14990,7 @@ module.exports = {
     },
     {
       "description": "Slash and blast with this heavy Gunblade of brutal Grineer design. High slash damage paired with a heavy shotgun attack.",
-      "imageName": "vastilok.png",
+      "imageName": "vastilok-9dadf9c436.png",
       "masteryReq": 9,
       "name": "Vastilok",
       "productCategory": "Melee",
@@ -15017,7 +15017,7 @@ module.exports = {
       "bpCost": 30000,
       "category": "Pistol",
       "description": "Steady and reliable, the Vasto revolver combines speed and power for a classic gunslinger feel.",
-      "imageName": "vasto.png",
+      "imageName": "vasto-a67536402c.png",
       "masteryReq": 4,
       "name": "Vasto",
       "productCategory": "Pistols",
@@ -15037,7 +15037,7 @@ module.exports = {
     {
       "category": "Pistol",
       "description": "This elegant rapid-fire revolver is the embodiment of superior Orokin craftsmanship.",
-      "imageName": "vasto-prime.png",
+      "imageName": "vasto-prime-7befca7ba9.png",
       "masteryReq": 10,
       "name": "Vasto Prime",
       "productCategory": "Pistols",
@@ -15063,7 +15063,7 @@ module.exports = {
     {
       "bpCost": 35000,
       "description": "Vauban is the model of innovative technology. He deploys clever inventions to provide crowd control. His tenacity and focus make him formidable.",
-      "imageName": "vauban.png",
+      "imageName": "vauban-c95db9ee09.png",
       "masteryReq": 0,
       "name": "Vauban",
       "productCategory": "Suits",
@@ -15081,7 +15081,7 @@ module.exports = {
     },
     {
       "description": "Transform the battlefield into a weapon with this gilded tactician. Features unique mod polarities for extended customization.",
-      "imageName": "vauban-prime.png",
+      "imageName": "vauban-prime-f9c539bdde.png",
       "masteryReq": 0,
       "name": "Vauban Prime",
       "productCategory": "Suits",
@@ -15101,7 +15101,7 @@ module.exports = {
     {
       "category": "Rifle",
       "description": "Forged in the fires of rebel struggle, this shotgun is a force for liberation.",
-      "imageName": "vaykor-hek.png",
+      "imageName": "vaykor-hek-d30f841248.png",
       "masteryReq": 12,
       "name": "Vaykor Hek",
       "productCategory": "LongGuns",
@@ -15126,7 +15126,7 @@ module.exports = {
     {
       "category": "Pistol",
       "description": "Taken from defeated Grineer commanders and rebuilt to improve combat efficiency and reliability.",
-      "imageName": "vaykor-marelok.png",
+      "imageName": "vaykor-marelok-92ed1486f5.png",
       "masteryReq": 10,
       "name": "Vaykor Marelok",
       "productCategory": "Pistols",
@@ -15150,7 +15150,7 @@ module.exports = {
     },
     {
       "description": "Justice blinds. Block hits to charge a Radial Blind, when fully charged Block+Heavy Attack to unleash it.",
-      "imageName": "vaykor-sydon.png",
+      "imageName": "vaykor-sydon-e298fb49c4.png",
       "masteryReq": 11,
       "name": "Vaykor Sydon",
       "productCategory": "Melee",
@@ -15177,7 +15177,7 @@ module.exports = {
       "bpCost": 40000,
       "category": "Rifle",
       "description": "A classic Tenno sniper rifle, the Vectis is ideal for ranged takedowns.",
-      "imageName": "vectis.png",
+      "imageName": "vectis-81d8622164.png",
       "masteryReq": 2,
       "name": "Vectis",
       "productCategory": "LongGuns",
@@ -15197,7 +15197,7 @@ module.exports = {
     {
       "category": "Rifle",
       "description": "Once thought destroyed, the newly uncovered Vectis Prime revives Tenno martial traditions.",
-      "imageName": "vectis-prime.png",
+      "imageName": "vectis-prime-2029f25b9e.png",
       "masteryReq": 14,
       "name": "Vectis Prime",
       "productCategory": "LongGuns",
@@ -15224,7 +15224,7 @@ module.exports = {
       "bpCost": 15000,
       "category": "Rifle",
       "description": "Precise calibration, rapid trigger-pull and a steady hand all combine to bring down the hardiest prey on two legs or four.",
-      "imageName": "veldt.png",
+      "imageName": "veldt-f78c644647.png",
       "masteryReq": 8,
       "name": "Veldt",
       "productCategory": "LongGuns",
@@ -15249,7 +15249,7 @@ module.exports = {
     {
       "bpCost": 15000,
       "description": "When fully charged, the magnetized barrel of the Velocitus accelerates a metal slug to tremendous speeds, piercing hulls and obliterating armor.",
-      "imageName": "velocitus.png",
+      "imageName": "velocitus-218fe8d40e.png",
       "masteryReq": 0,
       "name": "Velocitus",
       "productCategory": "SpaceGuns",
@@ -15270,7 +15270,7 @@ module.exports = {
       "bpCost": 25000,
       "category": "Pistol",
       "description": "With a high fire rate, ammo efficiency and rapid reload when emptied, this unusual sidearm can hand out carnage all day long. Ammo efficiency is further increased when Protea uses this, her signature weapon.",
-      "imageName": "velox.png",
+      "imageName": "velox-160999bb4a.png",
       "masteryReq": 8,
       "name": "Velox",
       "productCategory": "Pistols",
@@ -15295,7 +15295,7 @@ module.exports = {
     {
       "category": "Pistol",
       "description": "This sidearm’s circular design evokes Protea Prime’s perception of time.",
-      "imageName": "velox-prime.png",
+      "imageName": "velox-prime-de13b8c526.png",
       "masteryReq": 13,
       "name": "Velox Prime",
       "productCategory": "Pistols",
@@ -15316,7 +15316,7 @@ module.exports = {
     {
       "bpCost": 15000,
       "description": "Caliban’s signature scythe, forged from a limb wrenched off a fallen Eidolon centuries ago. 50% increased Melee Combo Counter Chance when wielded by Caliban.",
-      "imageName": "venato.png",
+      "imageName": "venato-54532048ec.png",
       "masteryReq": 9,
       "name": "Venato",
       "productCategory": "Melee",
@@ -15335,7 +15335,7 @@ module.exports = {
     {
       "bpCost": 15000,
       "description": "Utilizing a new fighting stance, this Tenno weapon turns fists into claws and enemies into messy piles of meat and scrap metal.",
-      "imageName": "venka.png",
+      "imageName": "venka-a750520352.png",
       "masteryReq": 4,
       "name": "Venka",
       "productCategory": "Melee",
@@ -15353,7 +15353,7 @@ module.exports = {
     },
     {
       "description": "Gleaming blades of white draw blood of the deepest red.",
-      "imageName": "venka-prime.png",
+      "imageName": "venka-prime-fbb661cdcf.png",
       "masteryReq": 14,
       "name": "Venka Prime",
       "productCategory": "Melee",
@@ -15379,7 +15379,7 @@ module.exports = {
     },
     {
       "description": "Archon Nira’s spine-shattering whip. Has a unique Tactical Combo that whips out a wide wave of energy with each stroke.",
-      "imageName": "verdilac.png",
+      "imageName": "verdilac-fba86852fc.png",
       "masteryReq": 13,
       "name": "Verdilac",
       "productCategory": "Melee",
@@ -15398,7 +15398,7 @@ module.exports = {
     {
       "category": "Companion Weapon",
       "description": "Designed as the perfect mate for Nautilus, this Sentinel weapon projects an icy beam at nearby targets.",
-      "imageName": "verglas.png",
+      "imageName": "verglas-a85b439e97.png",
       "masteryReq": 0,
       "name": "Verglas",
       "productCategory": "SentinelWeapons",
@@ -15418,7 +15418,7 @@ module.exports = {
     {
       "category": "Companion Weapon",
       "description": "The icy signature weapon of Nautilus Prime.",
-      "imageName": "verglas-prime.png",
+      "imageName": "verglas-prime-624a7bec79.png",
       "masteryReq": 0,
       "name": "Verglas Prime",
       "productCategory": "SentinelWeapons",
@@ -15438,7 +15438,7 @@ module.exports = {
     },
     {
       "description": "Unfurl this warfan like a rapidly waxing moon.",
-      "imageName": "vericres.png",
+      "imageName": "vericres-30b79546fe.png",
       "masteryReq": 8,
       "name": "Vericres",
       "productCategory": "Melee",
@@ -15456,7 +15456,7 @@ module.exports = {
     },
     {
       "description": "Weightless space turns this impossibly massive sword into an agile instrument of destruction.",
-      "imageName": "veritux.png",
+      "imageName": "veritux-a2d86d183e.png",
       "masteryReq": 0,
       "name": "Veritux",
       "productCategory": "SpaceMelee",
@@ -15475,7 +15475,7 @@ module.exports = {
     {
       "category": "Kitgun",
       "description": "",
-      "imageName": "vermisplicer.png",
+      "imageName": "vermisplicer-30fd2b6d54.png",
       "masteryReq": 0,
       "name": "Vermisplicer",
       "primeOmegaAttenuation": 0.89999998,
@@ -15495,7 +15495,7 @@ module.exports = {
       "bpCost": 20000,
       "category": "Pistol",
       "description": "A full-auto pistol known as the most compact and lightweight weapon of the Grineer arsenal. Though it has a small Magazine Capacity, the Viper has a very high Fire Rate and ultra-fast reload times thanks to a simplified magazine design.",
-      "imageName": "viper.png",
+      "imageName": "viper-246ef55b5a.png",
       "masteryReq": 4,
       "name": "Viper",
       "productCategory": "Pistols",
@@ -15515,7 +15515,7 @@ module.exports = {
     {
       "category": "Pistol",
       "description": "The uniquely styled Viper Wraith is a powerful variation on the standard machine-pistol.",
-      "imageName": "viper-wraith.png",
+      "imageName": "viper-wraith-b08e022cf2.png",
       "masteryReq": 4,
       "name": "Viper Wraith",
       "productCategory": "Pistols",
@@ -15534,7 +15534,7 @@ module.exports = {
     },
     {
       "description": "The sword the fabled Orokin executioner Nihil used to glass the condemned. Swing while Aim Gliding to glass enemies. A Ground Slam will smash nearby glassed foes, while sending forward a narrow shockwave to shatter distant ones. A Heavy Slam sends forth a wider shockwave with greater force.",
-      "imageName": "vitrica.png",
+      "imageName": "vitrica-d0a2b456bd.png",
       "masteryReq": 13,
       "name": "Vitrica",
       "productCategory": "Melee",
@@ -15560,7 +15560,7 @@ module.exports = {
     {
       "category": "Kubrow",
       "description": "These hard-charging, four-legged predators make formidable companions when in the field.",
-      "imageName": "vizier-predasite.png",
+      "imageName": "vizier-predasite-6334788772.png",
       "name": "Vizier Predasite",
       "productCategory": "KubrowPets",
       "tradable": false,
@@ -15600,7 +15600,7 @@ module.exports = {
     {
       "bpCost": 20000,
       "description": "Tear and maim with this agile, lightweight glass hammer. When Gara's wields her signature melee weapon, it gains additional Slam Radial Damage.",
-      "imageName": "volnus.png",
+      "imageName": "volnus-54a591af3c.png",
       "masteryReq": 9,
       "name": "Volnus",
       "productCategory": "Melee",
@@ -15618,7 +15618,7 @@ module.exports = {
     },
     {
       "description": "The glorious original Orokin casting of Gara’s signature glass hammer. Deceptively light and swift, while remaining lethally effective.",
-      "imageName": "volnus-prime.png",
+      "imageName": "volnus-prime-9c82528e61.png",
       "masteryReq": 14,
       "name": "Volnus Prime",
       "productCategory": "Melee",
@@ -15645,7 +15645,7 @@ module.exports = {
     {
       "bpCost": 35000,
       "description": "Electricity flows through Volt. His attacks deal high damage. Enemies will be shocked.",
-      "imageName": "volt.png",
+      "imageName": "volt-9ad956c441.png",
       "masteryReq": 0,
       "name": "Volt",
       "productCategory": "Suits",
@@ -15663,7 +15663,7 @@ module.exports = {
     },
     {
       "description": "A glorious warrior from the past, Volt Prime features the same abilities as Volt but with unique mod polarities for greater customization.",
-      "imageName": "volt-prime.png",
+      "imageName": "volt-prime-dd65a6befd.png",
       "masteryReq": 0,
       "name": "Volt Prime",
       "productCategory": "Suits",
@@ -15682,7 +15682,7 @@ module.exports = {
     },
     {
       "description": "Four beasts, one heart. Voruna's loyal wolf pack makes for a deadly combination of strength and stealth. Beware the monstrous howl that heralds fangs of vengeance.",
-      "imageName": "voruna.png",
+      "imageName": "voruna-83e8799edc.png",
       "masteryReq": 0,
       "name": "Voruna",
       "productCategory": "Suits",
@@ -15701,7 +15701,7 @@ module.exports = {
     {
       "category": "Companion Weapon",
       "description": "Charges up a powerful blast of ultra-heated plasma.",
-      "imageName": "vulcax.png",
+      "imageName": "vulcax-69bedd67a5.png",
       "masteryReq": 14,
       "name": "Vulcax",
       "productCategory": "SentinelWeapons",
@@ -15722,7 +15722,7 @@ module.exports = {
       "bpCost": 20000,
       "category": "Rifle",
       "description": "Built by the Grineer for their elite troopers, the Vulkar is a devastating distance weapon. In the right hands it is capable of taking down targets long before they get into attack range.",
-      "imageName": "vulkar.png",
+      "imageName": "vulkar-320bdad1d5.png",
       "masteryReq": 3,
       "name": "Vulkar",
       "productCategory": "LongGuns",
@@ -15742,7 +15742,7 @@ module.exports = {
     {
       "category": "Rifle",
       "description": "A blood-red variant of this devastating sniper rifle.",
-      "imageName": "vulkar-wraith.png",
+      "imageName": "vulkar-wraith-00f7dafc90.png",
       "masteryReq": 7,
       "name": "Vulkar Wraith",
       "productCategory": "LongGuns",
@@ -15767,7 +15767,7 @@ module.exports = {
     {
       "category": "Companion Weapon",
       "description": "Standard issue sniper rifle for Diriga.",
-      "imageName": "vulklok.png",
+      "imageName": "vulklok-255184ff90.png",
       "masteryReq": 0,
       "name": "Vulklok",
       "productCategory": "SentinelWeapons",
@@ -15786,7 +15786,7 @@ module.exports = {
     },
     {
       "description": "The Stalker's sword as bestowed on him by the Sentient Hunhow.",
-      "imageName": "war.png",
+      "imageName": "war-369ff36cf2.png",
       "masteryReq": 10,
       "name": "War",
       "productCategory": "Melee",
@@ -15811,7 +15811,7 @@ module.exports = {
     },
     {
       "description": "Wisp floats between the material and the ethereal. She accesses multiple dimensions to support her allies. Her countenance is mysterious and enigmatic.",
-      "imageName": "wisp.png",
+      "imageName": "wisp-a046bb62f4.png",
       "masteryReq": 0,
       "name": "Wisp",
       "productCategory": "Suits",
@@ -15829,7 +15829,7 @@ module.exports = {
     },
     {
       "description": "Wisp Prime’s gilded splendor haunts the battlefield. Allies welcome her interdimensional beauty.",
-      "imageName": "wisp-prime.png",
+      "imageName": "wisp-prime-7a898e071d.png",
       "masteryReq": 0,
       "name": "Wisp Prime",
       "productCategory": "Suits",
@@ -15847,7 +15847,7 @@ module.exports = {
     },
     {
       "description": "The signature weapon of the only lunatic fearsome enough to bust out of the Saturn Six Max-Pen. Once loosed this formidable throwing hammer always finds its way home.",
-      "imageName": "wolf-sledge.png",
+      "imageName": "wolf-sledge-3534a194eb.png",
       "masteryReq": 7,
       "name": "Wolf Sledge",
       "productCategory": "Melee",
@@ -15876,7 +15876,7 @@ module.exports = {
       "exalted": [
         "/Lotus/Powersuits/MonkeyKing/MonkeyKingStaff"
       ],
-      "imageName": "wukong.png",
+      "imageName": "wukong-bbc641319b.png",
       "masteryReq": 0,
       "name": "Wukong",
       "productCategory": "Suits",
@@ -15897,7 +15897,7 @@ module.exports = {
       "exalted": [
         "/Lotus/Powersuits/MonkeyKing/WukongPrimeStaff"
       ],
-      "imageName": "wukong-prime.png",
+      "imageName": "wukong-prime-4e1c56fd43.png",
       "masteryReq": 0,
       "name": "Wukong Prime",
       "productCategory": "Suits",
@@ -15916,7 +15916,7 @@ module.exports = {
     },
     {
       "description": "With 'Assault Mode' and 'Crowd Dispersion' as default Precepts, Wyrm is a highly offensive Sentinel. Wyrm also comes with a laser rifle.",
-      "imageName": "wyrm.png",
+      "imageName": "wyrm-7593567ef4.png",
       "name": "Wyrm",
       "productCategory": "Sentinels",
       "tradable": false,
@@ -15932,7 +15932,7 @@ module.exports = {
     },
     {
       "description": "Both bodyguard and status symbol, the Wyrm Prime Sentinel was the last line of defense for high ranking Tenno in the Orokin Era.",
-      "imageName": "wyrm-prime.png",
+      "imageName": "wyrm-prime-62d6263c3e.png",
       "name": "Wyrm Prime",
       "productCategory": "Sentinels",
       "releaseDate": "2014-06-11",
@@ -15950,7 +15950,7 @@ module.exports = {
     },
     {
       "description": "Broken Warframes adrift in the Void converged to create Xaku. Together, they deal high damage. Xaku proves that the sum of the whole is greater than its parts.",
-      "imageName": "xaku.png",
+      "imageName": "xaku-8fb3ad2779.png",
       "masteryReq": 0,
       "name": "Xaku",
       "productCategory": "Suits",
@@ -15968,7 +15968,7 @@ module.exports = {
     },
     {
       "description": "An obscure glaive weapon of Corpus provenance, intrinsically linked to Specter technology. The Xoris strikes rapidly and with great devastation. It is capable of chaining combos infinitely.",
-      "imageName": "xoris.png",
+      "imageName": "xoris-92a3a5c63e.png",
       "masteryReq": 4,
       "name": "Xoris",
       "productCategory": "Melee",
@@ -15993,7 +15993,7 @@ module.exports = {
     },
     {
       "description": "The waverider can unleash a flood of destruction on the battlefield. Yareli’s aqueous attacks deal high damage. Surf’s up. Enemies down.",
-      "imageName": "yareli.png",
+      "imageName": "yareli-3b577c5064.png",
       "masteryReq": 0,
       "name": "Yareli",
       "productCategory": "Suits",
@@ -16013,7 +16013,7 @@ module.exports = {
       "bpCost": 15000,
       "category": "Pistol",
       "description": "Fires razor-sharp darts that anchor themselves in their target before erupting in a plume of toxic gas.",
-      "imageName": "zakti.png",
+      "imageName": "zakti-30d7d92ba9.png",
       "masteryReq": 10,
       "name": "Zakti",
       "productCategory": "Pistols",
@@ -16033,7 +16033,7 @@ module.exports = {
     {
       "category": "Pistol",
       "description": "A thousand pains, before their end.",
-      "imageName": "zakti-prime.png",
+      "imageName": "zakti-prime-c9e28219cd.png",
       "masteryReq": 14,
       "name": "Zakti Prime",
       "productCategory": "Pistols",
@@ -16060,7 +16060,7 @@ module.exports = {
       "bpCost": 30000,
       "category": "Rifle",
       "description": "Unload a barrage of explosives or a huge shot of flak from this cannon’s enormous barrel.",
-      "imageName": "zarr.png",
+      "imageName": "zarr-7e10b8897d.png",
       "masteryReq": 7,
       "name": "Zarr",
       "productCategory": "LongGuns",
@@ -16084,7 +16084,7 @@ module.exports = {
     },
     {
       "description": "Scorch enemies with blistering blows, or set them ablaze with the flying fire disc.",
-      "imageName": "zenistar.png",
+      "imageName": "zenistar-cbda6e59e2.png",
       "masteryReq": 6,
       "name": "Zenistar",
       "productCategory": "Melee",
@@ -16110,7 +16110,7 @@ module.exports = {
     {
       "category": "Rifle",
       "description": "Deploy the radar disc to reveal hidden enemies and then strike with precision shots that punch through all obstacles in the way.",
-      "imageName": "zenith.png",
+      "imageName": "zenith-f5a930b480.png",
       "masteryReq": 10,
       "name": "Zenith",
       "productCategory": "LongGuns",
@@ -16135,7 +16135,7 @@ module.exports = {
     {
       "bpCost": 35000,
       "description": "Command the power of the wind. Zephyr’s cyclonic abilities protect her, deal high damage, and provide crowd control. She swoops in from above and leaves a path of destruction.",
-      "imageName": "zephyr.png",
+      "imageName": "zephyr-02db9643ed.png",
       "masteryReq": 0,
       "name": "Zephyr",
       "productCategory": "Suits",
@@ -16153,7 +16153,7 @@ module.exports = {
     },
     {
       "description": "Take to the skies with this golden bird of destruction.",
-      "imageName": "zephyr-prime.png",
+      "imageName": "zephyr-prime-c777d1497b.png",
       "masteryReq": 0,
       "name": "Zephyr Prime",
       "productCategory": "Suits",
@@ -16174,7 +16174,7 @@ module.exports = {
       "bpCost": 20000,
       "category": "Rifle",
       "description": "This devastating automatic crossbow is the perfect marriage of ancient Earth weaponry and Tenno technology.",
-      "imageName": "zhuge.png",
+      "imageName": "zhuge-3d401a1901.png",
       "masteryReq": 10,
       "name": "Zhuge",
       "productCategory": "LongGuns",
@@ -16194,7 +16194,7 @@ module.exports = {
     {
       "category": "Rifle",
       "description": "Tenno artistry. Ancient craft. A weapon of surgical precision and devastating effect. Each bolt fired by Zhuge Prime explodes shortly after embedding.",
-      "imageName": "zhuge-prime.png",
+      "imageName": "zhuge-prime-c282e9ce24.png",
       "masteryReq": 14,
       "name": "Zhuge Prime",
       "productCategory": "LongGuns",
@@ -16220,7 +16220,7 @@ module.exports = {
     {
       "category": "Pistol",
       "description": "Hammer the enemy with this light-bodied heavy hitter. Featuring a double-action trigger that fires hard and fast. ",
-      "imageName": "zylok.png",
+      "imageName": "zylok-68fee5c4dd.png",
       "masteryReq": 6,
       "name": "Zylok",
       "productCategory": "Pistols",
@@ -16245,7 +16245,7 @@ module.exports = {
     {
       "category": "Pistol",
       "description": "A lightweight weapon that packs a punch worthy of its golden design.",
-      "imageName": "zylok-prime.png",
+      "imageName": "zylok-prime-8922964ebe.png",
       "masteryReq": 13,
       "name": "Zylok Prime",
       "productCategory": "Pistols",
@@ -16266,7 +16266,7 @@ module.exports = {
     {
       "category": "Pistol",
       "description": "Infect your foes with this spore-scattering pistol. Headshots burrow in and explode, releasing spore clouds that seek out nearby enemies.",
-      "imageName": "zymos.png",
+      "imageName": "zymos-b070770a75.png",
       "masteryReq": 11,
       "name": "Zymos",
       "productCategory": "Pistols",
@@ -16289,5 +16289,5 @@ module.exports = {
       "component": false
     }
   ],
-  "fetched": "2024.10.03 06:49:52 CET+02:00"
+  "fetched": "2024.10.20 09:15:41 CET+02:00"
 }
