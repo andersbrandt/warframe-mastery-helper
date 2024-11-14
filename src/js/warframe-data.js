@@ -6356,8 +6356,7 @@ module.exports = {
       "tierRank": 0,
       "buildLink": "https://overframe.gg/build/9160/",
       "buildLinkDomain": "overframe.gg",
-      "component": false,
-      "specialNote": "Item are limited."
+      "component": false
     },
     {
       "description": "A long range rifle capable of firing in space, the Imperator's versatility makes it an ideal weapon for space combat.",
@@ -15580,7 +15579,7 @@ module.exports = {
         "/Lotus/Types/Enemies/Orokin/Entrati/EntratiTech/NechroTech/ExaltedArtilleryWeapon",
         "/Lotus/Weapons/Tenno/Archwing/Primary/ThanoTechArchLongGun/ThanoTechLongGun"
       ],
-      "imageName": "voidrig-necramech.png",
+      "imageName": "voidrig-51bc3a4b3c.png",
       "masteryReq": 0,
       "name": "Voidrig Necramech",
       "productCategory": "MechSuits",
@@ -16289,5 +16288,5 @@ module.exports = {
       "component": false
     }
   ],
-  "fetched": "2024.10.20 09:15:41 CET+02:00"
+  "fetched": "2024.11.04 08:23:35 CET+01:00"
 }

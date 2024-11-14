@@ -80,6 +80,12 @@ module.exports = function (items) {
 		if (items.array[i]["name"] === "Grimoire") {
 			items.array.splice(i, 1);
 		}
+
+		// Remove Helminth
+		if (items.array[i]["name"] === "Helminth") {
+			items.array.splice(i, 1);
+		}
+
 	}
 
   return items;

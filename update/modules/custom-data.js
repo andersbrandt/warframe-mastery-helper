@@ -52,11 +52,6 @@ module.exports = function (items) {
 			items.array[i]["specialNote"] = "Item are fully ranked when obtained.";
 		}
 
-		// Add a note to Ignis Wraith that item are limited
-		if (name == "Ignis Wraith") {
-			items.array[i]["specialNote"] = "Item are limited.";
-		}
-
 		// Add a note to Multron that is found in Fortuna
 		if (name == "Multron") {
 			items.array[i]["acquisition"] =
@@ -108,7 +103,6 @@ module.exports = function (items) {
 			items.array[i]["name"] = "Voidrig Necramech";
 			items.array[i]["type"] = "Vehicle";
 			items.array[i]["category"] = "Necramech";
-			items.array[i]["imageName"] = "voidrig-necramech.png";
 			items.array[i]["maxLevelCap"] = 40;
 		}
 

@@ -4038,5 +4038,3 @@ var items = [
 module.exports = {
 	items: items,
 };
-
-      
