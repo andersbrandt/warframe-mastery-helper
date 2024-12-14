@@ -11406,6 +11406,25 @@ module.exports = {
       "component": false
     },
     {
+      "description": "Wield Xaku Prime’s elegant fan, its gilded edges crafted for both precision and prestige.",
+      "imageName": "quassus-prime-f00d65b0fc.png",
+      "masteryReq": 13,
+      "name": "Quassus Prime",
+      "productCategory": "Melee",
+      "releaseDate": "2024-11-13",
+      "tradable": false,
+      "type": "Melee",
+      "uniqueName": "/Lotus/Weapons/Tenno/Melee/Warfan/PrimeQuassus/PrimeQuassusWeapon",
+      "vaulted": false,
+      "wikiaUrl": "https://warframe.fandom.com/wiki/Quassus_Prime",
+      "acquisition": "Relics",
+      "checked": false,
+      "unobtainable": false,
+      "tierData": false,
+      "tierRank": 0,
+      "component": false
+    },
+    {
       "bpCost": 40000,
       "category": "Pistol",
       "description": "A compact four-barreled design packing a self-charging capacitor that discharges upon every reload from empty. Features auto hip-fire and aimed fire is semi-auto, four-shot instant burst.",
@@ -14706,6 +14725,27 @@ module.exports = {
       "component": false
     },
     {
+      "category": "Rifle",
+      "description": "Sleek lines and golden accents define this masterpiece of the illustrious Entrati family.",
+      "imageName": "trumna-prime-7c10f9cb60.png",
+      "masteryReq": 15,
+      "name": "Trumna Prime",
+      "productCategory": "LongGuns",
+      "releaseDate": "2024-11-13",
+      "tradable": false,
+      "trigger": "Auto",
+      "type": "Primary",
+      "uniqueName": "/Lotus/Weapons/Tenno/LongGuns/PrimeTrumna/PrimeTrumnaWeapon",
+      "vaulted": false,
+      "wikiaUrl": "https://warframe.fandom.com/wiki/Trumna_Prime",
+      "acquisition": "Relics",
+      "checked": false,
+      "unobtainable": false,
+      "tierData": false,
+      "tierRank": 0,
+      "component": false
+    },
+    {
       "bpCost": 15000,
       "description": "These nasty, little hatchets slice through steel as if it were flesh.",
       "imageName": "twin-basolk-f27c8536d2.png",
@@ -15966,6 +16006,24 @@ module.exports = {
       "component": false
     },
     {
+      "description": "The child of war and void is reborn in gold. That which was once shattered may rise stronger than that which was never broken.",
+      "imageName": "xaku-prime-f6213dd36f.png",
+      "masteryReq": 0,
+      "name": "Xaku Prime",
+      "productCategory": "Suits",
+      "releaseDate": "2024-11-13",
+      "tradable": false,
+      "type": "Warframe",
+      "uniqueName": "/Lotus/Powersuits/BrokenFrame/XakuPrime",
+      "wikiaUrl": "https://warframe.fandom.com/wiki/Xaku%2FPrime",
+      "acquisition": "Relics",
+      "checked": false,
+      "unobtainable": false,
+      "tierData": false,
+      "tierRank": 0,
+      "component": false
+    },
+    {
       "description": "An obscure glaive weapon of Corpus provenance, intrinsically linked to Specter technology. The Xoris strikes rapidly and with great devastation. It is capable of chaining combos infinitely.",
       "imageName": "xoris-92a3a5c63e.png",
       "masteryReq": 4,
@@ -16288,5 +16346,5 @@ module.exports = {
       "component": false
     }
   ],
-  "fetched": "2024.11.04 08:23:35 CET+01:00"
+  "fetched": "2024.12.14 08:27:51 CET+01:00"
 }

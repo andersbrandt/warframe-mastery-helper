@@ -4033,8 +4033,26 @@ var items = [
 		acquisition: SHRINE_DEFENSE,
 		id: "/Lotus/Powersuits/Koumei/Koumei",
 	},
+	// Xaku Prime Update
+	{
+	  name: "Quassus Prime",
+	  acquisition: RELICS,
+	  id: "/Lotus/Weapons/Tenno/Melee/Warfan/PrimeQuassus/PrimeQuassusWeapon"
+	},
+	{
+	  name: "Trumna Prime",
+	  acquisition: RELICS,
+	  id: "/Lotus/Weapons/Tenno/LongGuns/PrimeTrumna/PrimeTrumnaWeapon"
+	},
+	{
+	  name: "Xaku Prime",
+	  acquisition: RELICS,
+	  id: "/Lotus/Powersuits/BrokenFrame/XakuPrime"
+	},
 ];
 
 module.exports = {
 	items: items,
 };
+
+      
