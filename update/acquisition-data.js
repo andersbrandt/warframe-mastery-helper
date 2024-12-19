@@ -84,6 +84,7 @@ CAVIA_BOUNTIES = "Cavia Bounties";
 ARMATUS_DISRUPTION = "Armatus Disruption (Deimos)";
 ASCENSION = "Ascension (Uranus)";
 SHRINE_DEFENSE = "Shrine Defense (Earth)";
+HOLLVANIA_BOUNTIES = "Höllvania Bounties";
 
 // Quests
 CHAINS_OF_HARROW = "Chains of Harrow (Quest)";
@@ -4035,19 +4036,35 @@ var items = [
 	},
 	// Xaku Prime Update
 	{
-	  name: "Quassus Prime",
-	  acquisition: RELICS,
-	  id: "/Lotus/Weapons/Tenno/Melee/Warfan/PrimeQuassus/PrimeQuassusWeapon"
+		name: "Quassus Prime",
+		acquisition: RELICS,
+		id: "/Lotus/Weapons/Tenno/Melee/Warfan/PrimeQuassus/PrimeQuassusWeapon",
 	},
 	{
-	  name: "Trumna Prime",
-	  acquisition: RELICS,
-	  id: "/Lotus/Weapons/Tenno/LongGuns/PrimeTrumna/PrimeTrumnaWeapon"
+		name: "Trumna Prime",
+		acquisition: RELICS,
+		id: "/Lotus/Weapons/Tenno/LongGuns/PrimeTrumna/PrimeTrumnaWeapon",
 	},
 	{
-	  name: "Xaku Prime",
-	  acquisition: RELICS,
-	  id: "/Lotus/Powersuits/BrokenFrame/XakuPrime"
+		name: "Xaku Prime",
+		acquisition: RELICS,
+		id: "/Lotus/Powersuits/BrokenFrame/XakuPrime",
+	},
+	// 1999 Update
+	{
+		name: "Cyte-09",
+		acquisition: HOLLVANIA_BOUNTIES,
+		id: "/Lotus/Powersuits/Frumentarius/Frumentarius",
+	},
+	{
+		name: "Reconifex",
+		acquisition: HOLLVANIA_BOUNTIES,
+		id: "/Lotus/Weapons/Tenno/LongGuns/TnBeltFedRifle/TnBeltFedRifleWeapon",
+	},
+	{
+		name: "Vesper 77",
+		acquisition: HOLLVANIA_BOUNTIES,
+		id: "/Lotus/Weapons/Lasria/LasSilencedPistol/LasSilencedPistolWeapon",
 	},
 ];
 
@@ -4055,4 +4072,5 @@ module.exports = {
 	items: items,
 };
 
+      
       

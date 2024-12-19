@@ -3118,6 +3118,27 @@ module.exports = {
       "component": false
     },
     {
+      "description": "Move like a shadow, strike with force. The Orokin created a Warframe that marries damage and stealth to eliminate sensitive problems, but he disappeared in the chaos of their demise. All that remains is a batch name: Cyte-09.",
+      "exalted": [
+        "/Lotus/Powersuits/Frumentarius/ExaltedSniper"
+      ],
+      "imageName": "cyte-09-62e778e37c.png",
+      "masteryReq": 0,
+      "name": "Cyte-09",
+      "productCategory": "Suits",
+      "releaseDate": "2024-12-13",
+      "tradable": false,
+      "type": "Warframe",
+      "uniqueName": "/Lotus/Powersuits/Frumentarius/Frumentarius",
+      "wikiaUrl": "https://warframe.fandom.com/wiki/Cyte-09",
+      "acquisition": "Höllvania Bounties",
+      "checked": false,
+      "unobtainable": false,
+      "tierData": false,
+      "tierRank": 0,
+      "component": false
+    },
+    {
       "description": "Never underestimate the power and wrath of sullen sadness. Dagath's malice deals high damage.",
       "imageName": "dagath-7589f2ce5b.png",
       "masteryReq": 0,
@@ -11701,6 +11722,26 @@ module.exports = {
       "component": false
     },
     {
+      "category": "Rifle",
+      "description": "Cyte-09's signature rifle is an ideal match for forceful gunners. A precisely timed reload increases reload speed and infuses the new magazine with Heat Damage.",
+      "imageName": "reconifex-ad08aef093.png",
+      "masteryReq": 14,
+      "name": "Reconifex",
+      "productCategory": "LongGuns",
+      "releaseDate": "2024-12-13",
+      "tradable": false,
+      "trigger": "Auto",
+      "type": "Primary",
+      "uniqueName": "/Lotus/Weapons/Tenno/LongGuns/TnBeltFedRifle/TnBeltFedRifleWeapon",
+      "wikiaUrl": "https://warframe.fandom.com/wiki/Reconifex",
+      "acquisition": "Höllvania Bounties",
+      "checked": false,
+      "unobtainable": false,
+      "tierData": false,
+      "tierRank": 0,
+      "component": false
+    },
+    {
       "bpCost": 20000,
       "description": "Striking with massive twin blades, the Redeemer fires the killing blow with its built-in shotgun.",
       "imageName": "redeemer-9fc3eb744a.png",
@@ -15531,6 +15572,26 @@ module.exports = {
       "wikiaUrl": "http://warframe.wikia.com/wiki/Vermisplicer"
     },
     {
+      "category": "Pistol",
+      "description": "A true masterpiece of Höllvanian engineering, Vesper 77's advanced laser sight highlights enemy Weak Points with precision. Aim to increase its Critical Damage Multiplier.",
+      "imageName": "vesper-77-0136c923d7.png",
+      "masteryReq": 14,
+      "name": "Vesper 77",
+      "productCategory": "Pistols",
+      "releaseDate": "2024-12-13",
+      "tradable": false,
+      "trigger": "Semi",
+      "type": "Secondary",
+      "uniqueName": "/Lotus/Weapons/Lasria/LasSilencedPistol/LasSilencedPistolWeapon",
+      "wikiaUrl": "https://warframe.fandom.com/wiki/Vesper_77",
+      "acquisition": "Höllvania Bounties",
+      "checked": false,
+      "unobtainable": false,
+      "tierData": false,
+      "tierRank": 0,
+      "component": false
+    },
+    {
       "bpCost": 20000,
       "category": "Pistol",
       "description": "A full-auto pistol known as the most compact and lightweight weapon of the Grineer arsenal. Though it has a small Magazine Capacity, the Viper has a very high Fire Rate and ultra-fast reload times thanks to a simplified magazine design.",
@@ -16346,5 +16407,5 @@ module.exports = {
       "component": false
     }
   ],
-  "fetched": "2024.12.14 08:27:51 CET+01:00"
+  "fetched": "2024.12.19 08:23:03 CET+01:00"
 }
