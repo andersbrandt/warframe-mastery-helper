@@ -54,39 +54,6 @@
             <meta name="msapplication-TileImage" content="<?=$config->get("root")?>helper/include/images/favicon/ms-icon-144x144.png">
             <meta name="theme-color" content="#ffffff">
             <link type="text/css" rel="stylesheet" href="<?=$config->get("root")?>helper/include/css/stylesheet.min.css?v=<?php echo $functions->getVersion();?>"/><?php } ?>
-        <script type="application/ld+json">
-            {
-                "@context": "https://schema.org",        
-                "@type": "WebApplication",
-                "url": "https://warframe-mastery.com/",
-                "name": "Warframe Mastery Helper",
-                "image": "https://warframe-mastery.com/helper/include/images/favicon.png",
-                "description": "Warframe Mastery Tracker. Keep track of all items required for mastery rank.",
-                "author" : {
-                    "@type" : "Person",
-                    "name" : "Anders Brandt",
-                    "email": "info@warframe-mastery.com"
-                },
-                "applicationCategory": "OtherApplication",
-                "browserRequirements": "Requires JavaScript. Requires HTML5.",
-                "operatingSystem": "All",
-                "screenshot": "https://warframe-mastery.com/helper/include/images/screenshot.png",
-                "inLanguage":[{
-                    "@type": "Language",
-                    "name": "English",
-                    "alternateName": "en",
-                    "additionalType":"https://www.loc.gov/standards/iso639-2/php/code_list.php",
-                    "sameAs":"https://en.wikipedia.org/wiki/English_language"
-                    }
-                ],
-                "offers": {
-                    "@type": "Offer",
-                    "availability": "http://schema.org/InStock",
-                    "price": "0",
-                    "priceCurrency": "USD"
-                }
-            }
-        </script>        
     </head>
     <body class="start-page">
     <div id="start-page">
@@ -98,18 +65,13 @@
             </div>
         </div>
 
-        <div class="row" data-equalizer="boxes-top">
-            <div class="column large-4">
-                <div class="box margin-top-10" data-equalizer-watch="boxes-top">
-                    <h1>Warframe Mastery Tracker</h1>
-                    <p class="text-larger">Keep track of all items required for mastery rank.</p>
-                    <p class="text-larger">Features tier-ranking, recommendations and in-depth information.</p>
-                    <p class="text-larger">Get your Warframe Mastery Rank up!</p>
-                </div>
-            </div>
-            <div class="column large-4">
-                <div class="box margin-top-10" data-equalizer-watch="boxes-top">
-                    <h2>Login</h2>
+        <div class="row">
+            <div class="column large-12">
+                <div class="margin-top-10" data-equalizer-watch="boxes-top">
+                    <h2 class="text-center">This website is closing down and is no longer maintained.</h2>
+										<p class="text-center">
+											Login to download your progress as a CSV file.
+										</p>										
                     <?php if ($userISloggedIn) { ?>
                         <p class="text-center">
                             <b class="margin-bottom-small">You are already logged in</b><br>
@@ -117,61 +79,13 @@
                         </p>
                     <?php } else { ?>
                         <p class="text-center">
-                            <span class="margin-bottom-small">Account will be created automatically</span><br>
                             <span onclick="window.location = '<?php echo filter_var($authUrl, FILTER_SANITIZE_URL) ?>'" class="button">Login with Google account</span>
                         </p>
                     <?php } ?>
-                    <p style="margin-bottom: 22px;">We will not store your personal data or send you any emails.</p>
-                </div>
-            </div>
-            <div class="column large-4">
-                <div class="box margin-top-10" data-equalizer-watch="boxes-top">
-                    <h2>News</h2>
-                    <?php echo $news->printNews(3); ?>
                 </div>
             </div>
         </div>
 
-        <div class="row show-for-medium-up">
-            <div class="column large-12">
-                <div id="wrapper-weapons">
-                    <img id="w-1" alt="Warframe primary weapon: Arca Plasmor" title="Warframe primary weapon: Arca Plasmor" src="<?=$config->get("root")?>helper/include/images/start-page/arca-plasmor.png">
-                    <img id="w-2" alt="Warframe primary weapon: Kohm" title="Warframe primary weapon: Kohm" src="<?=$config->get("root")?>helper/include/images/start-page/kohm.png">
-                    <img id="w-3" alt="Warframe secondary weapon: Lato" title="Warframe secondary weapon: Lato" src="<?=$config->get("root")?>helper/include/images/start-page/lato.png">
-                    <img id="w-4" alt="Warframe melee weapon: Dual Cleavers" title="Warframe melee weapon: Dual Cleavers" src="<?=$config->get("root")?>helper/include/images/start-page/dual-cleavers.png">
-                    <img id="w-5" alt="Warframe primary weapon: Braton" title="Warframe primary weapon: Braton" src="<?=$config->get("root")?>helper/include/images/start-page/braton.png">
-                    <img id="w-6" alt="Warframe melee weapon: Dual Heat Swords" title="Warframe melee weapon: Dual Heat Swords" src="<?=$config->get("root")?>helper/include/images/start-page/dual-heat-swords.png">
-                    <img id="w-7" alt="Warframe secondary weapon: Detron" title="Warframe secondary weapon: Detron" src="<?=$config->get("root")?>helper/include/images/start-page/detron.png">
-                </div>            
-            </div>
-        </div>
-
-        <div class="row" data-equalizer="boxes-bottom">
-            <div class="column large-4 margin-top-10">
-                <div class="box" data-equalizer-watch="boxes-bottom">
-                    <h2>Tips</h2>
-                        <p>Click an items name to open a modal with info.</p>
-                        <p>Acquisition are searchable, search for 'dojo' for some easily obtainable items.</p>
-                        <p>Statistics correspond to sections in Warframe menu 'My Profile > Equipment'.</p>
-                        <p>Check the Help-section for more tips.</p>
-                </div>
-            </div>
-            <div class="column large-4 margin-top-10">
-                <div class="box" data-equalizer-watch="boxes-bottom">
-                    <h2>Legend</h2>
-                    <img src="helper/include/images/legend-v3.png" id="legend-image" alt="Site legend">
-                </div>
-            </div>
-            <div class="column large-4 margin-top-10">
-                <div class="box" data-equalizer-watch="boxes-bottom">
-                    <h2>Privacy Policy & Disclaimer</h2>
-                    <p>We will not store any personal information. Login are delegated to Google using <a class="white-link" target="_blank" href="https://developers.google.com/api-client-library/" rel="noopener">Google API Client</a></p>
-                    <p>The only data we store are your public Google ID. Your ID is used in a obfuscated format in this app.</p>
-                    <p>We will not send you emails or store your email.</p>
-                    <p>This site is not affiliated with Digital Extremes.</p>
-                </div>
-            </div>
-        </div>
         <div class="row">
             <div class="column large-12">
                     <p class="text-center" id="footer-author">Author: <a href="https://github.com/andersbrandt/warframe-mastery-helper" target="_blank" class="white-link">Anders Brandt</a></p>

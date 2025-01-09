@@ -6,7 +6,7 @@
 		
 		<?php include $config->get("path") . "helper/include/google-analytics-tracking.php"?>
 
-    <meta name="description" content="Get your Warframe Mastery Rank up! Keep track of all items required for mastery rank. Features tier-ranking and in-depth information. The only Warframe Mastery Tracker you need."/>
+    <meta name="description" content="This website are closing down and are no longer maintained."/>
     <meta name="format-detection" content="telephone=no"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <meta name="apple-mobile-web-app-capable" content="yes">
@@ -84,9 +84,9 @@
 		<div class="row">
 			<div class="col">
 				<div id="maintainer-needed-wrapper">
-					<p><b>Maintainer needed</b></p>
-					<p>
-						Are you a passionate Warframe player with a knack for PHP & JS? We're looking for someone to help with regular updates, maintaining dependencies, and modernizing the stack. If you're interested in taking this project forward, check out the <a href="https://github.com/andersbrandt/warframe-mastery-helper" target="_blank">repo</a> and <a href="mailto:info@warframe-mastery.com">contact Anders</a>.</p>
+					<p><b>This website is closing down and is no longer maintained.</b></p>
+					<p><a href="download-csv.php">Click here to download current progress</a> as a CVS file.</p>
+					<p>This file can be imported to Microsoft Excel or Google Sheets.</p>
 				</div>				
 			</div>
 		</div>

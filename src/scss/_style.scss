@@ -590,9 +590,12 @@ ul#news-list {
 	background-color: $wf-light-1;
 	padding: 16px;
 	border-radius: 6px;
-	margin: 26px 10px 12px 10px;
+	margin: 86px 10px 52px 10px;
 	p {
 		margin-bottom: 6px;
+		b {
+			color: $wf-yellow;
+		}
 	}
 }
 

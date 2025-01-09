@@ -22,10 +22,14 @@
     h1, h2 {
         padding-top: 0;
         margin: 0;
-        margin-bottom: 16px;
+        margin-bottom: 6px;
         font-weight: bold;
         font-size: 20px;
     }
+
+		.button {
+			margin-top: 12px;
+		}
 
     #box-header {
         @include clearfix();

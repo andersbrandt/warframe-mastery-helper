@@ -571,6 +571,13 @@ var app = {
 				app.tools.restart();
 			});
 		},
+		listAllNames: function () {
+			let result = [];
+			window.app.data.array.forEach((item) => {
+				result.push(item.name)
+			})
+			return result;
+		}
 	},
 	stats: {
 		create: function () {
