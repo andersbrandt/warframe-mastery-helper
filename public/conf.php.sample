@@ -44,7 +44,7 @@ ini_set("display_errors", 1);
 //
 function ___autoload($class_name) {
 	global $conf;
-	include_once $conf["path"] . 'Classes/' . $class_name . '.php';
+	include_once $conf["path"] . 'helper/Classes/' . $class_name . '.php';
 }
 
 ___autoload("Config");
@@ -70,7 +70,7 @@ $news = New News();
 // Configuration and setup Google API
 //
 
-include_once($conf["path"]."Classes/Google/autoload.php");
+include_once($conf["path"]."helper/Classes/vendor/autoload.php");
 $redirectURL = $conf["google"]["redirectURL"];
 $clientId = $conf["google"]["clientId"];
 $clientSecret = $conf["google"]["clientSecret"];
@@ -88,7 +88,6 @@ $client->setAccessType('offline');
 $client->setApprovalPrompt('force');
 
 $google_oauthV2 = new Google_Service_Oauth2($client);
-
 
 //
 //	Session
