@@ -85,7 +85,7 @@
 			<div class="col">
 				<div id="maintainer-needed-wrapper">
 					<p><b>This website is closing down and is no longer maintained.</b></p>
-					<p><a href="download-csv.php">Click here to download current progress</a> as a CVS file.</p>
+					<p><a href="download-csv.php">Click here to download current progress</a> as a CSV file.</p>
 					<p>This file can be imported to Microsoft Excel or Google Sheets.</p>
 				</div>				
 			</div>
