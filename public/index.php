@@ -26,7 +26,7 @@
         <meta name="apple-mobile-web-app-capable" content="yes">
 				<meta name="msapplication-TileColor" content="#0d131c"/>
 				<meta name="theme-color" content="#0d131c"/>				
-        <meta name="description" content="Get your Warframe Mastery Rank up! Keep track of all items required for mastery rank. Features tier-ranking and in-depth information. The only Warframe Mastery Tracker you need."/>
+        <meta name="description" content="This website is closing down and is no longer maintained."/>
         <?php if ($functions->isDev()) { ?>
             <link type="image/png" rel="icon" href="<?=$config->get("root")?>helper/include/images/favicon-dev.png"/>
             <link type="text/css" rel="stylesheet" href="<?=$config->get("root")?>helper/include/css/stylesheet.css"/>
@@ -73,12 +73,12 @@
 											Login to download your progress as a CSV file.
 										</p>										
                     <?php if ($userISloggedIn) { ?>
-                        <p class="text-center">
+                        <p class="text-center login-box">
                             <b class="margin-bottom-small">You are already logged in</b><br>
                             <a href="helper/" class="button success"><i class="icon-ok-circled2"></i> Continue to app</a><br>
                         </p>
                     <?php } else { ?>
-                        <p class="text-center">
+                        <p class="text-center login-box">
                             <span onclick="window.location = '<?php echo filter_var($authUrl, FILTER_SANITIZE_URL) ?>'" class="button">Login with Google account</span>
                         </p>
                     <?php } ?>

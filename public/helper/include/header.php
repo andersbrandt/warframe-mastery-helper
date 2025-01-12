@@ -6,7 +6,7 @@
 		
 		<?php include $config->get("path") . "helper/include/google-analytics-tracking.php"?>
 
-    <meta name="description" content="This website are closing down and are no longer maintained."/>
+    <meta name="description" content="This website is closing down and is no longer maintained."/>
     <meta name="format-detection" content="telephone=no"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <meta name="apple-mobile-web-app-capable" content="yes">
